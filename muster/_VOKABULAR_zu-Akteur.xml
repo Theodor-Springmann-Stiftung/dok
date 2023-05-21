@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="_VOKABULAR_zu-Akteur.xsd" generated="2023-05-21T18:32:27">
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>1</ID>
+<Prädikat>ist herausgegeben von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>2</ID>
+<Prädikat>ist geschaffen von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>3</ID>
+<Prädikat>ist gestochen von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>4</ID>
+<Prädikat>ist geschrieben von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>5</ID>
+<Prädikat>ist gezeichnet von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+<_x002A_VOKABULAR_zu-Akteur>
+<ID>6</ID>
+<Prädikat>ist gedruckt von</Prädikat>
+</_x002A_VOKABULAR_zu-Akteur>
+</dataroot>

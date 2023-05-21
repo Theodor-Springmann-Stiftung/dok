@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="_RELATION_Werke-Akteure.xsd" generated="2023-05-21T18:31:53">
+<_x002A_RELATION_Werke-Akteure>
+<ID>5</ID>
+<Werk>3</Werk>
+<Beziehung>1</Beziehung>
+<Akteur>1</Akteur>
+<Angabe>unbezeichnet</Angabe>
+</_x002A_RELATION_Werke-Akteure>
+<_x002A_RELATION_Werke-Akteure>
+<ID>6</ID>
+<Werk>3</Werk>
+<Beziehung>6</Beziehung>
+<Akteur>3</Akteur>
+</_x002A_RELATION_Werke-Akteure>
+<_x002A_RELATION_Werke-Akteure>
+<ID>7</ID>
+<Werk>2</Werk>
+<Beziehung>1</Beziehung>
+<Akteur>2</Akteur>
+<Angabe>unbezeichnet</Angabe>
+</_x002A_RELATION_Werke-Akteure>
+</dataroot>

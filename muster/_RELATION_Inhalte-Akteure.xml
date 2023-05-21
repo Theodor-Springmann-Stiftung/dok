@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="_RELATION_Inhalte-Akteure.xsd" generated="2023-05-21T18:31:40">
+<_x002A_RELATION_Inhalte-Akteure>
+<ID>1</ID>
+<Inhalt>2</Inhalt>
+<Beziehung>3</Beziehung>
+<Akteur>4</Akteur>
+<Angabe>Heinr. Ramberg del. G. G. Endner sc. 1796</Angabe>
+</_x002A_RELATION_Inhalte-Akteure>
+<_x002A_RELATION_Inhalte-Akteure>
+<ID>2</ID>
+<Inhalt>2</Inhalt>
+<Beziehung>3</Beziehung>
+<Akteur>5</Akteur>
+<Angabe>Heinr. Ramberg del. G. G. Endner sc. 1796</Angabe>
+</_x002A_RELATION_Inhalte-Akteure>
+</dataroot>
