@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Akteure.xsd" generated="2023-05-21T18:32:49">
+<dataroot>
   <Akteure>
     <ID>1</ID>
     <Name>Maria Johanne Catharine Erike Elisabeth von Aachen</Name>
@@ -25969,74 +25969,4814 @@
   </Akteure>
   <Akteure>
     <ID>3250</ID>
-    <Name>Johann Rudolph (der Jüngere) Wysz</Name>
-    <Beruf>&lt;div&gt;Text&lt;/div&gt;</Beruf>
-    <Sortiername>Wysz, Johann Rudolph (der Jüngere)</Sortiername>
-  </Akteure>
-  <Akteure>
-    <ID>3251</ID>
-    <Name>Johann Rudolph (der Jüngere) Wysz</Name>
-    <Beruf>&lt;div&gt;Text u. Hrsg&lt;/div&gt;</Beruf>
-    <Sortiername>Wysz, Johann Rudolph (der Jüngere)</Sortiername>
-  </Akteure>
-  <Akteure>
-    <ID>3252</ID>
     <Name>Josef  Sigmund Ferdinand von Axmann Perger</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Perger, Sigmund Ferdinand von Axmann, Josef</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3253</ID>
-    <Name>David (d. J.) Teniers</Name>
-    <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
-    <Sortiername>Teniers, David (d. J.)</Sortiername>
-  </Akteure>
-  <Akteure>
-    <ID>3254</ID>
-    <Name>David (d. J.) Teniers</Name>
-    <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
-    <Sortiername>Teniers, David (d. J.)</Sortiername>
-  </Akteure>
-  <Akteure>
-    <ID>3255</ID>
-    <Name>David (d. J.) Teniers</Name>
-    <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
-    <Sortiername>Teniers, David (d. J.)</Sortiername>
-  </Akteure>
-  <Akteure>
-    <ID>3256</ID>
+    <ID>3251</ID>
     <Name>Andries Both</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Both, Andries</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3257</ID>
+    <ID>3252</ID>
     <Name>Fr. Geißler</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Geißler, Fr.</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3258</ID>
+    <ID>3253</ID>
     <Name>Glassbach Carl Christian</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Glassbach Carl Christian</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3259</ID>
+    <ID>3254</ID>
     <Name>F. A. Kurländer</Name>
     <Beruf>&lt;div&gt;Text&lt;/div&gt;</Beruf>
     <Sortiername>Kurländer, F. A.</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3260</ID>
+    <ID>3255</ID>
     <Name>Tommasi Benedetto</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Benedetto, Tommasi</Sortiername>
   </Akteure>
   <Akteure>
-    <ID>3261</ID>
+    <ID>3256</ID>
     <Name>Natale Schiavone</Name>
     <Beruf>&lt;div&gt;Graphik&lt;/div&gt;</Beruf>
     <Sortiername>Schiavone, Natale</Sortiername>
+  </Akteure>
+  <Akteure>
+    <ID>3257</ID>
+    <OrgName>Füßli u. Sohn</OrgName>
+    <Sortiername>Füßli u. Sohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3258</ID>
+    <OrgName>Comm. J. B. Schiegg</OrgName>
+    <Sortiername>Comm. J. B. Schiegg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3259</ID>
+    <OrgName>J. B. Schiegg</OrgName>
+    <Sortiername>J. B. Schiegg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3260</ID>
+    <OrgName>Arnold u. Pinther</OrgName>
+    <Sortiername>Arnold u. Pinther</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3261</ID>
+    <OrgName>Cotta</OrgName>
+    <Sortiername>Cotta</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3262</ID>
+    <OrgName>Vieweg</OrgName>
+    <Sortiername>Vieweg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3263</ID>
+    <OrgName>J. J. Mäcken'sche Buchhandlung</OrgName>
+    <Sortiername>J. J. Mäcken'sche Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3264</ID>
+    <OrgName>Hammerich</OrgName>
+    <Sortiername>Hammerich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3265</ID>
+    <OrgName>Haude u. Spener</OrgName>
+    <Sortiername>Haude u. Spener</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3266</ID>
+    <OrgName>Schweighauser</OrgName>
+    <Sortiername>Schweighauser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3267</ID>
+    <OrgName>Friedländer</OrgName>
+    <Sortiername>Friedländer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3268</ID>
+    <OrgName>Chr. Kaiser</OrgName>
+    <Sortiername>Chr. Kaiser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3269</ID>
+    <OrgName>Kupferberg</OrgName>
+    <Sortiername>Kupferberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3270</ID>
+    <OrgName>Engelmann</OrgName>
+    <Sortiername>Engelmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3271</ID>
+    <OrgName>Maurer</OrgName>
+    <Sortiername>Maurer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3272</ID>
+    <OrgName>Dienemann</OrgName>
+    <Sortiername>Dienemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3273</ID>
+    <OrgName>Orell, Füssli u. Comp.</OrgName>
+    <Sortiername>Orell, Füssli u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3274</ID>
+    <OrgName>H. Dieterich</OrgName>
+    <Sortiername>H. Dieterich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3275</ID>
+    <OrgName>Michaelis</OrgName>
+    <Sortiername>Michaelis</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3276</ID>
+    <OrgName>Grämmer</OrgName>
+    <Sortiername>Grämmer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3277</ID>
+    <OrgName>Vossische Buchhandlung</OrgName>
+    <Sortiername>Vossische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3278</ID>
+    <OrgName>Kunst- und Industrie-Comptoir</OrgName>
+    <Sortiername>Kunst- und Industrie-Comptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3279</ID>
+    <OrgName>Brockhaus</OrgName>
+    <Sortiername>Brockhaus</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3280</ID>
+    <OrgName>Brede</OrgName>
+    <Sortiername>Brede</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3281</ID>
+    <OrgName>Hochenleitter</OrgName>
+    <Sortiername>Hochenleitter</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3282</ID>
+    <OrgName>J. C. Dieterich</OrgName>
+    <Sortiername>J. C. Dieterich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3283</ID>
+    <OrgName>P. F. Wolf &amp; Co.</OrgName>
+    <Sortiername>P. F. Wolf &amp; Co.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3284</ID>
+    <OrgName>P. Waldeck</OrgName>
+    <Sortiername>P. Waldeck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3285</ID>
+    <OrgName>C. E. Bohn</OrgName>
+    <Sortiername>C. E. Bohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3286</ID>
+    <OrgName>Berenberg</OrgName>
+    <Sortiername>Berenberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3287</ID>
+    <OrgName>Voß und Compagnie</OrgName>
+    <Sortiername>Voß und Compagnie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3288</ID>
+    <OrgName>Voß und Leo</OrgName>
+    <Sortiername>Voß und Leo</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3289</ID>
+    <OrgName>Dieterich</OrgName>
+    <Sortiername>Dieterich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3290</ID>
+    <OrgName>Schwickert</OrgName>
+    <Sortiername>Schwickert</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3291</ID>
+    <OrgName>Bauer und Mannische Buchhandlung</OrgName>
+    <Sortiername>Bauer und Mannische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3292</ID>
+    <OrgName>Albanus</OrgName>
+    <Sortiername>Albanus</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3293</ID>
+    <OrgName>Weygand</OrgName>
+    <Sortiername>Weygand</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3294</ID>
+    <OrgName>Mettler und Burgdorfer</OrgName>
+    <Sortiername>Mettler und Burgdorfer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3295</ID>
+    <OrgName>Breitkopf</OrgName>
+    <Sortiername>Breitkopf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3296</ID>
+    <OrgName>Roch und Compagnie</OrgName>
+    <Sortiername>Roch und Compagnie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3297</ID>
+    <OrgName>Roch und Weigel</OrgName>
+    <Sortiername>Roch und Weigel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3298</ID>
+    <OrgName>C. A. Hempel</OrgName>
+    <Sortiername>C. A. Hempel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3299</ID>
+    <OrgName>Niemann</OrgName>
+    <Sortiername>Niemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3300</ID>
+    <OrgName>Gleditsch</OrgName>
+    <Sortiername>Gleditsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3301</ID>
+    <OrgName>Joh. Bapt. Wallishausser</OrgName>
+    <Sortiername>Joh. Bapt. Wallishausser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3302</ID>
+    <OrgName>Förg</OrgName>
+    <Sortiername>Förg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3303</ID>
+    <OrgName>Selbstverlag und Buchhandlung der Gelehrten</OrgName>
+    <Sortiername>Selbstverlag und Buchhandlung der Gelehrten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3304</ID>
+    <OrgName>Selbstverlag</OrgName>
+    <Sortiername>Selbstverlag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3305</ID>
+    <OrgName>Schulbuchhandlung</OrgName>
+    <Sortiername>Schulbuchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3306</ID>
+    <OrgName>Tobias Löffler</OrgName>
+    <Sortiername>Tobias Löffler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3307</ID>
+    <OrgName>Loeffler</OrgName>
+    <Sortiername>Loeffler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3308</ID>
+    <OrgName>Henningsche Buchhandlung</OrgName>
+    <Sortiername>Henningsche Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3309</ID>
+    <OrgName>Göschen</OrgName>
+    <Sortiername>Göschen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3310</ID>
+    <OrgName>Gerold</OrgName>
+    <Sortiername>Gerold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3311</ID>
+    <OrgName>Hartmann</OrgName>
+    <Sortiername>Hartmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3312</ID>
+    <OrgName>Herausgeber</OrgName>
+    <Sortiername>Herausgeber</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3313</ID>
+    <OrgName>Friedrich Nast</OrgName>
+    <Sortiername>Friedrich Nast</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3314</ID>
+    <OrgName>Fleischerische Buchhandlung</OrgName>
+    <Sortiername>Fleischerische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3315</ID>
+    <OrgName>P. H. Guilhauman</OrgName>
+    <Sortiername>P. H. Guilhauman</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3316</ID>
+    <OrgName>Steinkopf</OrgName>
+    <Sortiername>Steinkopf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3317</ID>
+    <OrgName>Nicolovius</OrgName>
+    <Sortiername>Nicolovius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3318</ID>
+    <OrgName>L. Garcke</OrgName>
+    <Sortiername>L. Garcke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3319</ID>
+    <OrgName>Jacobäer</OrgName>
+    <Sortiername>Jacobäer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3320</ID>
+    <OrgName>Flick</OrgName>
+    <Sortiername>Flick</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3321</ID>
+    <OrgName>Perthes</OrgName>
+    <Sortiername>Perthes</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3322</ID>
+    <OrgName>Verlag des literarischen Comptoirs</OrgName>
+    <Sortiername>Verlag des literarischen Comptoirs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3323</ID>
+    <OrgName>J. Fröbel</OrgName>
+    <Sortiername>J. Fröbel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3324</ID>
+    <OrgName>C. F. Müller</OrgName>
+    <Sortiername>C. F. Müller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3325</ID>
+    <OrgName>Müller</OrgName>
+    <Sortiername>Müller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3326</ID>
+    <OrgName>J. H. Heitz</OrgName>
+    <Sortiername>J. H. Heitz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3327</ID>
+    <OrgName>Amand König</OrgName>
+    <Sortiername>Amand König</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3328</ID>
+    <OrgName>C. G. Schmidt</OrgName>
+    <Sortiername>C. G. Schmidt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3329</ID>
+    <OrgName>Fröhlich</OrgName>
+    <Sortiername>Fröhlich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3330</ID>
+    <OrgName>Weidmann</OrgName>
+    <Sortiername>Weidmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3331</ID>
+    <OrgName>F. Ludwig</OrgName>
+    <Sortiername>F. Ludwig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3332</ID>
+    <OrgName>J. L. Schrag</OrgName>
+    <Sortiername>J. L. Schrag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3333</ID>
+    <OrgName>Wilmans</OrgName>
+    <Sortiername>Wilmans</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3334</ID>
+    <OrgName>F. Wilmans</OrgName>
+    <Sortiername>F. Wilmans</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3335</ID>
+    <OrgName>Gebr. Wilmans</OrgName>
+    <Sortiername>Gebr. Wilmans</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3336</ID>
+    <OrgName>Hoffmann und Campe</OrgName>
+    <Sortiername>Hoffmann und Campe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3337</ID>
+    <OrgName>Joseph Edler von Kurzbök</OrgName>
+    <Sortiername>Joseph Edler von Kurzbök</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3338</ID>
+    <OrgName>Rudolph Gräffer</OrgName>
+    <Sortiername>Rudolph Gräffer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3339</ID>
+    <OrgName>Wappler</OrgName>
+    <Sortiername>Wappler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3340</ID>
+    <OrgName>Rudolph Gräffer &amp; Co.</OrgName>
+    <Sortiername>Rudolph Gräffer &amp; Co.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3341</ID>
+    <OrgName>A. Blumauer</OrgName>
+    <Sortiername>A. Blumauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3342</ID>
+    <OrgName>J. Camesina &amp; Comp.</OrgName>
+    <Sortiername>J. Camesina &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3343</ID>
+    <OrgName>Schuender</OrgName>
+    <Sortiername>Schuender</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3344</ID>
+    <OrgName>Carl Schaumburg &amp; Comp.</OrgName>
+    <Sortiername>Carl Schaumburg &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3345</ID>
+    <OrgName>J. V. Degen</OrgName>
+    <Sortiername>J. V. Degen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3346</ID>
+    <OrgName>Wallishausser</OrgName>
+    <Sortiername>Wallishausser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3347</ID>
+    <OrgName>Wiederhold</OrgName>
+    <Sortiername>Wiederhold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3348</ID>
+    <OrgName>Kunst- und Industrie-Comtoir</OrgName>
+    <Sortiername>Kunst- und Industrie-Comtoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3349</ID>
+    <OrgName>Verlag der hochfürstl. Waisenhausbuchhandlung</OrgName>
+    <Sortiername>Verlag der hochfürstl. Waisenhausbuchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3350</ID>
+    <OrgName>Pauli'sche Buchhandlung</OrgName>
+    <Sortiername>Pauli'sche Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3351</ID>
+    <OrgName>Unger</OrgName>
+    <Sortiername>Unger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3352</ID>
+    <OrgName>Voß</OrgName>
+    <Sortiername>Voß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3353</ID>
+    <OrgName>de Pierron</OrgName>
+    <Sortiername>de Pierron</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3354</ID>
+    <OrgName>Guilhauman</OrgName>
+    <Sortiername>Guilhauman</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3355</ID>
+    <OrgName>Hrsg</OrgName>
+    <Sortiername>Hrsg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3356</ID>
+    <OrgName>Industriecomptoir</OrgName>
+    <Sortiername>Industriecomptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3357</ID>
+    <OrgName>Delalain</OrgName>
+    <Sortiername>Delalain</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3358</ID>
+    <OrgName>Vallat la Chapelle</OrgName>
+    <Sortiername>Vallat la Chapelle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3359</ID>
+    <OrgName>Oehmigke</OrgName>
+    <Sortiername>Oehmigke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3360</ID>
+    <OrgName>A. Aue</OrgName>
+    <Sortiername>A. Aue</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3361</ID>
+    <OrgName>A. Hermann</OrgName>
+    <Sortiername>A. Hermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3362</ID>
+    <OrgName>Hermann</OrgName>
+    <Sortiername>Hermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3363</ID>
+    <OrgName>Hartl</OrgName>
+    <Sortiername>Hartl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3364</ID>
+    <OrgName>M. Simion</OrgName>
+    <Sortiername>M. Simion</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3365</ID>
+    <OrgName>Athenaeum</OrgName>
+    <Sortiername>Athenaeum</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3366</ID>
+    <OrgName>Fleischer</OrgName>
+    <Sortiername>Fleischer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3367</ID>
+    <OrgName>Schiegg</OrgName>
+    <Sortiername>Schiegg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3368</ID>
+    <OrgName>G. B. Meißner</OrgName>
+    <Sortiername>G. B. Meißner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3369</ID>
+    <OrgName>Metzler</OrgName>
+    <Sortiername>Metzler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3370</ID>
+    <OrgName>Gebr. Franck</OrgName>
+    <Sortiername>Gebr. Franck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3371</ID>
+    <OrgName>Fincke</OrgName>
+    <Sortiername>Fincke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3372</ID>
+    <OrgName>Sommer</OrgName>
+    <Sortiername>Sommer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3373</ID>
+    <OrgName>Akademische Buchhandlung</OrgName>
+    <Sortiername>Akademische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3374</ID>
+    <OrgName>Leske</OrgName>
+    <Sortiername>Leske</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3375</ID>
+    <OrgName>Heyer &amp; Leske</OrgName>
+    <Sortiername>Heyer &amp; Leske</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3376</ID>
+    <OrgName>J. D. Sauerländer</OrgName>
+    <Sortiername>J. D. Sauerländer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3377</ID>
+    <OrgName>Teplitzer Buch- u. Kunsthandlung</OrgName>
+    <Sortiername>Teplitzer Buch- u. Kunsthandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3378</ID>
+    <OrgName>Sattler</OrgName>
+    <Sortiername>Sattler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3379</ID>
+    <OrgName>Schröder</OrgName>
+    <Sortiername>Schröder</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3380</ID>
+    <OrgName>A. Fr. Böhme</OrgName>
+    <Sortiername>A. Fr. Böhme</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3381</ID>
+    <OrgName>G. Reimer</OrgName>
+    <Sortiername>G. Reimer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3382</ID>
+    <OrgName>Körber</OrgName>
+    <Sortiername>Körber</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3383</ID>
+    <OrgName>Osiander</OrgName>
+    <Sortiername>Osiander</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3384</ID>
+    <OrgName>Winter</OrgName>
+    <Sortiername>Winter</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3385</ID>
+    <OrgName>Pergay</OrgName>
+    <Sortiername>Pergay</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3386</ID>
+    <OrgName>Rein</OrgName>
+    <Sortiername>Rein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3387</ID>
+    <OrgName>Pfautsch</OrgName>
+    <Sortiername>Pfautsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3388</ID>
+    <OrgName>Aderholz</OrgName>
+    <Sortiername>Aderholz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3389</ID>
+    <OrgName>Bremer u. Minuth</OrgName>
+    <Sortiername>Bremer u. Minuth</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3390</ID>
+    <OrgName>Schulz u. Comp.</OrgName>
+    <Sortiername>Schulz u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3391</ID>
+    <OrgName>Reclam</OrgName>
+    <Sortiername>Reclam</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3392</ID>
+    <OrgName>Gädicke</OrgName>
+    <Sortiername>Gädicke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3393</ID>
+    <OrgName>Verlag der literarisch-artistischen Anstalt von C. Dittmarsch</OrgName>
+    <Sortiername>Verlag der literarisch-artistischen Anstalt von C. Dittmarsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3394</ID>
+    <OrgName>Druck der typografisch-literarisch-artistischen Anstalt von L. C. Zamarski</OrgName>
+    <Sortiername>Druck der typografisch-literarisch-artistischen Anstalt von L. C. Zamarski</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3395</ID>
+    <OrgName>Hahn</OrgName>
+    <Sortiername>Hahn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3396</ID>
+    <OrgName>Kaufmann</OrgName>
+    <Sortiername>Kaufmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3397</ID>
+    <OrgName>Kaufmann u. Friedrich</OrgName>
+    <Sortiername>Kaufmann u. Friedrich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3398</ID>
+    <OrgName>Hemmerde u. Schetschke</OrgName>
+    <Sortiername>Hemmerde u. Schetschke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3399</ID>
+    <OrgName>Gräff</OrgName>
+    <Sortiername>Gräff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3400</ID>
+    <OrgName>Industrie-Compoir</OrgName>
+    <Sortiername>Industrie-Compoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3401</ID>
+    <OrgName>Braunes</OrgName>
+    <Sortiername>Braunes</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3402</ID>
+    <OrgName>Dietze</OrgName>
+    <Sortiername>Dietze</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3403</ID>
+    <OrgName>Katz</OrgName>
+    <Sortiername>Katz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3404</ID>
+    <OrgName>Stein</OrgName>
+    <Sortiername>Stein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3405</ID>
+    <OrgName>Lissner</OrgName>
+    <Sortiername>Lissner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3406</ID>
+    <OrgName>Wittich</OrgName>
+    <Sortiername>Wittich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3407</ID>
+    <OrgName>Cnobloch</OrgName>
+    <Sortiername>Cnobloch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3408</ID>
+    <OrgName>Haas und Sohn</OrgName>
+    <Sortiername>Haas und Sohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3409</ID>
+    <OrgName>Hinrichs</OrgName>
+    <Sortiername>Hinrichs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3410</ID>
+    <OrgName>Geistinger</OrgName>
+    <Sortiername>Geistinger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3411</ID>
+    <OrgName>Braun</OrgName>
+    <Sortiername>Braun</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3412</ID>
+    <OrgName>Neustrelitz</OrgName>
+    <Sortiername>Neustrelitz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3413</ID>
+    <OrgName>Fr. Nicolai</OrgName>
+    <Sortiername>Fr. Nicolai</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3414</ID>
+    <OrgName>Geßner</OrgName>
+    <Sortiername>Geßner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3415</ID>
+    <OrgName>Burgdorfer</OrgName>
+    <Sortiername>Burgdorfer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3416</ID>
+    <OrgName>Leo</OrgName>
+    <Sortiername>Leo</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3417</ID>
+    <OrgName>L. G. Schmid</OrgName>
+    <Sortiername>L. G. Schmid</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3418</ID>
+    <OrgName>Christen</OrgName>
+    <Sortiername>Christen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3419</ID>
+    <OrgName>Riedl</OrgName>
+    <Sortiername>Riedl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3420</ID>
+    <OrgName>Liebeskind</OrgName>
+    <Sortiername>Liebeskind</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3421</ID>
+    <OrgName>Volke</OrgName>
+    <Sortiername>Volke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3422</ID>
+    <OrgName>Hübschmann</OrgName>
+    <Sortiername>Hübschmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3423</ID>
+    <OrgName>Perles</OrgName>
+    <Sortiername>Perles</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3424</ID>
+    <OrgName>Heckenast</OrgName>
+    <Sortiername>Heckenast</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3425</ID>
+    <OrgName>Wigand</OrgName>
+    <Sortiername>Wigand</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3426</ID>
+    <OrgName>Löflund</OrgName>
+    <Sortiername>Löflund</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3427</ID>
+    <OrgName>Les heritiers de J. G. Wolffgang</OrgName>
+    <Sortiername>Les heritiers de J. G. Wolffgang</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3428</ID>
+    <OrgName>Reimarus</OrgName>
+    <Sortiername>Reimarus</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3429</ID>
+    <OrgName>Decker</OrgName>
+    <Sortiername>Decker</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3430</ID>
+    <OrgName>Duncker</OrgName>
+    <Sortiername>Duncker</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3431</ID>
+    <OrgName>Hofmann</OrgName>
+    <Sortiername>Hofmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3432</ID>
+    <OrgName>Fr. Ruff</OrgName>
+    <Sortiername>Fr. Ruff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3433</ID>
+    <OrgName>Kretschmar</OrgName>
+    <Sortiername>Kretschmar</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3434</ID>
+    <OrgName>Lagarde</OrgName>
+    <Sortiername>Lagarde</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3435</ID>
+    <OrgName>A. Pichler</OrgName>
+    <Sortiername>A. Pichler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3436</ID>
+    <OrgName>Hoffmeister</OrgName>
+    <Sortiername>Hoffmeister</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3437</ID>
+    <OrgName>Buchholz</OrgName>
+    <Sortiername>Buchholz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3438</ID>
+    <OrgName>Dänzer</OrgName>
+    <Sortiername>Dänzer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3439</ID>
+    <OrgName>Mallinckrodt</OrgName>
+    <Sortiername>Mallinckrodt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3440</ID>
+    <OrgName>Wallishauser</OrgName>
+    <Sortiername>Wallishauser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3441</ID>
+    <OrgName>Lange</OrgName>
+    <Sortiername>Lange</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3442</ID>
+    <OrgName>Dirnböck. G. Draudt</OrgName>
+    <Sortiername>Dirnböck. G. Draudt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3443</ID>
+    <OrgName>Herausgeber u. Heyse</OrgName>
+    <Sortiername>Herausgeber u. Heyse</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3444</ID>
+    <OrgName>Tauer u. Sohn</OrgName>
+    <Sortiername>Tauer u. Sohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3445</ID>
+    <OrgName>Reimer</OrgName>
+    <Sortiername>Reimer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3446</ID>
+    <OrgName>Enke</OrgName>
+    <Sortiername>Enke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3447</ID>
+    <OrgName>Schultz u. Wundermann</OrgName>
+    <Sortiername>Schultz u. Wundermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3448</ID>
+    <OrgName>Graff</OrgName>
+    <Sortiername>Graff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3449</ID>
+    <OrgName>Küchler</OrgName>
+    <Sortiername>Küchler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3450</ID>
+    <OrgName>Kranzbühler</OrgName>
+    <Sortiername>Kranzbühler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3451</ID>
+    <OrgName>Gotthold</OrgName>
+    <Sortiername>Gotthold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3452</ID>
+    <OrgName>Typographische Societäts-Buchhandlung</OrgName>
+    <Sortiername>Typographische Societäts-Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3453</ID>
+    <OrgName>Du Mont-Schauberg</OrgName>
+    <Sortiername>Du Mont-Schauberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3454</ID>
+    <OrgName>Riemschneider</OrgName>
+    <Sortiername>Riemschneider</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3455</ID>
+    <OrgName>Neue academische Buchhandlung</OrgName>
+    <Sortiername>Neue academische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3456</ID>
+    <OrgName>Jenni</OrgName>
+    <Sortiername>Jenni</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3457</ID>
+    <OrgName>Krieger</OrgName>
+    <Sortiername>Krieger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3458</ID>
+    <OrgName>Groos</OrgName>
+    <Sortiername>Groos</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3459</ID>
+    <OrgName>Gerlach</OrgName>
+    <Sortiername>Gerlach</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3460</ID>
+    <OrgName>Schulz u. Wundermann</OrgName>
+    <Sortiername>Schulz u. Wundermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3461</ID>
+    <OrgName>Weigel</OrgName>
+    <Sortiername>Weigel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3462</ID>
+    <OrgName>Weigel u. Schneider</OrgName>
+    <Sortiername>Weigel u. Schneider</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3463</ID>
+    <OrgName>Schneider</OrgName>
+    <Sortiername>Schneider</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3464</ID>
+    <OrgName>Weigel und Schneider</OrgName>
+    <Sortiername>Weigel und Schneider</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3465</ID>
+    <OrgName>Ernst Klein's literarisches Comptoir</OrgName>
+    <Sortiername>Ernst Klein's literarisches Comptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3466</ID>
+    <OrgName>Loebell</OrgName>
+    <Sortiername>Loebell</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3467</ID>
+    <OrgName>Leyrer</OrgName>
+    <Sortiername>Leyrer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3468</ID>
+    <OrgName>Reindl</OrgName>
+    <Sortiername>Reindl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3469</ID>
+    <OrgName>Haller</OrgName>
+    <Sortiername>Haller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3470</ID>
+    <OrgName>Keyser</OrgName>
+    <Sortiername>Keyser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3471</ID>
+    <OrgName>Franz</OrgName>
+    <Sortiername>Franz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3472</ID>
+    <OrgName>Petri</OrgName>
+    <Sortiername>Petri</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3473</ID>
+    <OrgName>Heymann</OrgName>
+    <Sortiername>Heymann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3474</ID>
+    <OrgName>Cunos Erben</OrgName>
+    <Sortiername>Cunos Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3475</ID>
+    <OrgName>Heinsius</OrgName>
+    <Sortiername>Heinsius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3476</ID>
+    <OrgName>Hoffmann</OrgName>
+    <Sortiername>Hoffmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3477</ID>
+    <OrgName>Himburg</OrgName>
+    <Sortiername>Himburg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3478</ID>
+    <OrgName>Kummer</OrgName>
+    <Sortiername>Kummer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3479</ID>
+    <OrgName>Frommann</OrgName>
+    <Sortiername>Frommann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3480</ID>
+    <OrgName>Brüggemann</OrgName>
+    <Sortiername>Brüggemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3481</ID>
+    <OrgName></OrgName>
+    <Sortiername></Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3482</ID>
+    <OrgName>Geistiger</OrgName>
+    <Sortiername>Geistiger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3483</ID>
+    <OrgName>Baumgärtner</OrgName>
+    <Sortiername>Baumgärtner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3484</ID>
+    <OrgName>Expedition des Altonaer Mercurs</OrgName>
+    <Sortiername>Expedition des Altonaer Mercurs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3485</ID>
+    <OrgName>Comptoir für Literatur</OrgName>
+    <Sortiername>Comptoir für Literatur</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3486</ID>
+    <OrgName>de la Garde</OrgName>
+    <Sortiername>de la Garde</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3487</ID>
+    <OrgName>Kayser</OrgName>
+    <Sortiername>Kayser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3488</ID>
+    <OrgName>Beyer</OrgName>
+    <Sortiername>Beyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3489</ID>
+    <OrgName>Schmid u. Busch</OrgName>
+    <Sortiername>Schmid u. Busch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3490</ID>
+    <OrgName>Schalbacher</OrgName>
+    <Sortiername>Schalbacher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3491</ID>
+    <OrgName>Böhme</OrgName>
+    <Sortiername>Böhme</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3492</ID>
+    <OrgName>Geuther</OrgName>
+    <Sortiername>Geuther</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3493</ID>
+    <OrgName>Sittenfeld</OrgName>
+    <Sortiername>Sittenfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3494</ID>
+    <OrgName>Steinfeld</OrgName>
+    <Sortiername>Steinfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3495</ID>
+    <OrgName>Comm. Lassar</OrgName>
+    <Sortiername>Comm. Lassar</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3496</ID>
+    <OrgName>Lassar</OrgName>
+    <Sortiername>Lassar</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3497</ID>
+    <OrgName>Ifens Erben</OrgName>
+    <Sortiername>Ifens Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3498</ID>
+    <OrgName>Severin</OrgName>
+    <Sortiername>Severin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3499</ID>
+    <OrgName>Salfeld</OrgName>
+    <Sortiername>Salfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3500</ID>
+    <OrgName>Duncker und Humblot</OrgName>
+    <Sortiername>Duncker und Humblot</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3501</ID>
+    <OrgName>Hallberger</OrgName>
+    <Sortiername>Hallberger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3502</ID>
+    <OrgName>Vollmer</OrgName>
+    <Sortiername>Vollmer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3503</ID>
+    <OrgName>Akad. Buchhandlung</OrgName>
+    <Sortiername>Akad. Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3504</ID>
+    <OrgName>Veith</OrgName>
+    <Sortiername>Veith</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3505</ID>
+    <OrgName>Velten</OrgName>
+    <Sortiername>Velten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3506</ID>
+    <OrgName>Gropius</OrgName>
+    <Sortiername>Gropius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3507</ID>
+    <OrgName>Expedition des europäischen Aufsehers</OrgName>
+    <Sortiername>Expedition des europäischen Aufsehers</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3508</ID>
+    <OrgName>Thurneysen</OrgName>
+    <Sortiername>Thurneysen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3509</ID>
+    <OrgName>Landes-Industrie-Comptoir</OrgName>
+    <Sortiername>Landes-Industrie-Comptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3510</ID>
+    <OrgName>Niemeyer</OrgName>
+    <Sortiername>Niemeyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3511</ID>
+    <OrgName>Glück</OrgName>
+    <Sortiername>Glück</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3512</ID>
+    <OrgName>Lindauer</OrgName>
+    <Sortiername>Lindauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3513</ID>
+    <OrgName>Schmidt</OrgName>
+    <Sortiername>Schmidt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3514</ID>
+    <OrgName>Liebmann &amp; Comp.</OrgName>
+    <Sortiername>Liebmann &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3515</ID>
+    <OrgName>Crusius</OrgName>
+    <Sortiername>Crusius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3516</ID>
+    <OrgName>Fritz</OrgName>
+    <Sortiername>Fritz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3517</ID>
+    <OrgName>Expedition der Med. Central Zeitung</OrgName>
+    <Sortiername>Expedition der Med. Central Zeitung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3518</ID>
+    <OrgName>Gassler</OrgName>
+    <Sortiername>Gassler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3519</ID>
+    <OrgName>Degen</OrgName>
+    <Sortiername>Degen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3520</ID>
+    <OrgName>Wagner</OrgName>
+    <Sortiername>Wagner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3521</ID>
+    <OrgName>Beyel</OrgName>
+    <Sortiername>Beyel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3522</ID>
+    <OrgName>Jent und Gaßmann</OrgName>
+    <Sortiername>Jent und Gaßmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3523</ID>
+    <OrgName>Hennings und Hopf</OrgName>
+    <Sortiername>Hennings und Hopf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3524</ID>
+    <OrgName>Matzdorff</OrgName>
+    <Sortiername>Matzdorff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3525</ID>
+    <OrgName>Natorff et Cp.</OrgName>
+    <Sortiername>Natorff et Cp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3526</ID>
+    <OrgName>Natorff &amp; Comp.</OrgName>
+    <Sortiername>Natorff &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3527</ID>
+    <OrgName>Hölscher</OrgName>
+    <Sortiername>Hölscher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3528</ID>
+    <OrgName>Strauss</OrgName>
+    <Sortiername>Strauss</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3529</ID>
+    <OrgName>Fleischmann</OrgName>
+    <Sortiername>Fleischmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3530</ID>
+    <OrgName>Voigt</OrgName>
+    <Sortiername>Voigt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3531</ID>
+    <OrgName>Eupel</OrgName>
+    <Sortiername>Eupel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3532</ID>
+    <OrgName>Schwan u. Götz</OrgName>
+    <Sortiername>Schwan u. Götz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3533</ID>
+    <OrgName>Vogler</OrgName>
+    <Sortiername>Vogler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3534</ID>
+    <OrgName>Lienhart</OrgName>
+    <Sortiername>Lienhart</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3535</ID>
+    <OrgName>Liesching</OrgName>
+    <Sortiername>Liesching</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3536</ID>
+    <OrgName>Martini</OrgName>
+    <Sortiername>Martini</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3537</ID>
+    <OrgName>Post</OrgName>
+    <Sortiername>Post</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3538</ID>
+    <OrgName>Hendeß</OrgName>
+    <Sortiername>Hendeß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3539</ID>
+    <OrgName>Deutsche Verlagsbuchhandlung</OrgName>
+    <Sortiername>Deutsche Verlagsbuchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3540</ID>
+    <OrgName>Puttkammer</OrgName>
+    <Sortiername>Puttkammer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3541</ID>
+    <OrgName>Brieff</OrgName>
+    <Sortiername>Brieff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3542</ID>
+    <OrgName>Meinshausen</OrgName>
+    <Sortiername>Meinshausen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3543</ID>
+    <OrgName>Kayserer</OrgName>
+    <Sortiername>Kayserer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3544</ID>
+    <OrgName>Kraus</OrgName>
+    <Sortiername>Kraus</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3545</ID>
+    <OrgName>Gutsch u. Rupp</OrgName>
+    <Sortiername>Gutsch u. Rupp</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3546</ID>
+    <OrgName>Kius</OrgName>
+    <Sortiername>Kius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3547</ID>
+    <OrgName>Helwing</OrgName>
+    <Sortiername>Helwing</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3548</ID>
+    <OrgName>Hennig</OrgName>
+    <Sortiername>Hennig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3549</ID>
+    <OrgName>Jaquet</OrgName>
+    <Sortiername>Jaquet</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3550</ID>
+    <OrgName>Pustet</OrgName>
+    <Sortiername>Pustet</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3551</ID>
+    <OrgName>Krüll</OrgName>
+    <Sortiername>Krüll</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3552</ID>
+    <OrgName>Manz</OrgName>
+    <Sortiername>Manz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3553</ID>
+    <OrgName>Becher und Müller</OrgName>
+    <Sortiername>Becher und Müller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3554</ID>
+    <OrgName>Friedlein</OrgName>
+    <Sortiername>Friedlein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3555</ID>
+    <OrgName>Jenko</OrgName>
+    <Sortiername>Jenko</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3556</ID>
+    <OrgName>Wucherer</OrgName>
+    <Sortiername>Wucherer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3557</ID>
+    <OrgName>Jäger</OrgName>
+    <Sortiername>Jäger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3558</ID>
+    <OrgName>Rehm</OrgName>
+    <Sortiername>Rehm</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3559</ID>
+    <OrgName>Montag und Weiß</OrgName>
+    <Sortiername>Montag und Weiß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3560</ID>
+    <OrgName>Königl. Taubstummeninstitut</OrgName>
+    <Sortiername>Königl. Taubstummeninstitut</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3561</ID>
+    <OrgName>Busch</OrgName>
+    <Sortiername>Busch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3562</ID>
+    <OrgName>Brummer</OrgName>
+    <Sortiername>Brummer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3563</ID>
+    <OrgName>Verlags-Comoptoir</OrgName>
+    <Sortiername>Verlags-Comoptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3564</ID>
+    <OrgName>Verlags-Comptoir</OrgName>
+    <Sortiername>Verlags-Comptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3565</ID>
+    <OrgName>Eurich</OrgName>
+    <Sortiername>Eurich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3566</ID>
+    <OrgName>Meyer</OrgName>
+    <Sortiername>Meyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3567</ID>
+    <OrgName>Korn</OrgName>
+    <Sortiername>Korn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3568</ID>
+    <OrgName>Vetter u. Rostosky</OrgName>
+    <Sortiername>Vetter u. Rostosky</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3569</ID>
+    <OrgName>Mayer</OrgName>
+    <Sortiername>Mayer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3570</ID>
+    <OrgName>Weidemann</OrgName>
+    <Sortiername>Weidemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3571</ID>
+    <OrgName>Palm</OrgName>
+    <Sortiername>Palm</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3572</ID>
+    <OrgName>Tendler u. von Manstein</OrgName>
+    <Sortiername>Tendler u. von Manstein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3573</ID>
+    <OrgName>Camesianische Buchhandlung</OrgName>
+    <Sortiername>Camesianische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3574</ID>
+    <OrgName>Tendler</OrgName>
+    <Sortiername>Tendler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3575</ID>
+    <OrgName>Taendler u. Schafer</OrgName>
+    <Sortiername>Taendler u. Schafer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3576</ID>
+    <OrgName>Ludwig</OrgName>
+    <Sortiername>Ludwig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3577</ID>
+    <OrgName>Brodhag</OrgName>
+    <Sortiername>Brodhag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3578</ID>
+    <OrgName>Kunz</OrgName>
+    <Sortiername>Kunz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3579</ID>
+    <OrgName>Göbhardt</OrgName>
+    <Sortiername>Göbhardt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3580</ID>
+    <OrgName>Neumann</OrgName>
+    <Sortiername>Neumann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3581</ID>
+    <OrgName>Pfautsch u. Comp.</OrgName>
+    <Sortiername>Pfautsch u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3582</ID>
+    <OrgName>Pfautsch u. Voß</OrgName>
+    <Sortiername>Pfautsch u. Voß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3583</ID>
+    <OrgName>Macklot</OrgName>
+    <Sortiername>Macklot</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3584</ID>
+    <OrgName>Reichel</OrgName>
+    <Sortiername>Reichel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3585</ID>
+    <OrgName>Dorbath</OrgName>
+    <Sortiername>Dorbath</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3586</ID>
+    <OrgName>Strauß</OrgName>
+    <Sortiername>Strauß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3587</ID>
+    <OrgName>Schömperlen</OrgName>
+    <Sortiername>Schömperlen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3588</ID>
+    <OrgName>Appun</OrgName>
+    <Sortiername>Appun</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3589</ID>
+    <OrgName>Goedsche</OrgName>
+    <Sortiername>Goedsche</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3590</ID>
+    <OrgName>Dieterici</OrgName>
+    <Sortiername>Dieterici</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3591</ID>
+    <OrgName>Bauer</OrgName>
+    <Sortiername>Bauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3592</ID>
+    <OrgName>Industrie-Comptoir</OrgName>
+    <Sortiername>Industrie-Comptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3593</ID>
+    <OrgName>Tendler und von Manstein</OrgName>
+    <Sortiername>Tendler und von Manstein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3594</ID>
+    <OrgName>Tendler u. Schaefer</OrgName>
+    <Sortiername>Tendler u. Schaefer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3595</ID>
+    <OrgName>Tendler &amp; Comp.</OrgName>
+    <Sortiername>Tendler &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3596</ID>
+    <OrgName>Hallische Waisenh. Buchhandlung</OrgName>
+    <Sortiername>Hallische Waisenh. Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3597</ID>
+    <OrgName>Hayn</OrgName>
+    <Sortiername>Hayn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3598</ID>
+    <OrgName>Haas</OrgName>
+    <Sortiername>Haas</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3599</ID>
+    <OrgName>Manini</OrgName>
+    <Sortiername>Manini</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3600</ID>
+    <OrgName>Lincke</OrgName>
+    <Sortiername>Lincke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3601</ID>
+    <OrgName>Graß, Barth u. Comp.</OrgName>
+    <Sortiername>Graß, Barth u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3602</ID>
+    <OrgName>Barth</OrgName>
+    <Sortiername>Barth</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3603</ID>
+    <OrgName>Bruhn</OrgName>
+    <Sortiername>Bruhn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3604</ID>
+    <OrgName>Rabenhorst</OrgName>
+    <Sortiername>Rabenhorst</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3605</ID>
+    <OrgName>Seeger</OrgName>
+    <Sortiername>Seeger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3606</ID>
+    <OrgName>Expedition der gelehrten Zeitung</OrgName>
+    <Sortiername>Expedition der gelehrten Zeitung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3607</ID>
+    <OrgName>Fink</OrgName>
+    <Sortiername>Fink</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3608</ID>
+    <OrgName>Hilscher</OrgName>
+    <Sortiername>Hilscher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3609</ID>
+    <OrgName>Hasselberg</OrgName>
+    <Sortiername>Hasselberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3610</ID>
+    <OrgName>Krumbhaar</OrgName>
+    <Sortiername>Krumbhaar</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3611</ID>
+    <OrgName>Barbiez</OrgName>
+    <Sortiername>Barbiez</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3612</ID>
+    <OrgName>Zimmermann</OrgName>
+    <Sortiername>Zimmermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3613</ID>
+    <OrgName>Wenthin</OrgName>
+    <Sortiername>Wenthin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3614</ID>
+    <OrgName>Strobl</OrgName>
+    <Sortiername>Strobl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3615</ID>
+    <OrgName>Craz</OrgName>
+    <Sortiername>Craz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3616</ID>
+    <OrgName>Rollwagen</OrgName>
+    <Sortiername>Rollwagen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3617</ID>
+    <OrgName>Ettinger</OrgName>
+    <Sortiername>Ettinger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3618</ID>
+    <OrgName>Berenberg u. Dantzmann</OrgName>
+    <Sortiername>Berenberg u. Dantzmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3619</ID>
+    <OrgName>Berenburg</OrgName>
+    <Sortiername>Berenburg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3620</ID>
+    <OrgName>Siedentopf</OrgName>
+    <Sortiername>Siedentopf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3621</ID>
+    <OrgName>Jaeger</OrgName>
+    <Sortiername>Jaeger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3622</ID>
+    <OrgName>Bärensprung</OrgName>
+    <Sortiername>Bärensprung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3623</ID>
+    <OrgName>Appel</OrgName>
+    <Sortiername>Appel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3624</ID>
+    <OrgName>Leupold</OrgName>
+    <Sortiername>Leupold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3625</ID>
+    <OrgName>Herold</OrgName>
+    <Sortiername>Herold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3626</ID>
+    <OrgName>Beckmann</OrgName>
+    <Sortiername>Beckmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3627</ID>
+    <OrgName>Pfeilschmids Erben</OrgName>
+    <Sortiername>Pfeilschmids Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3628</ID>
+    <OrgName>Hartknoch</OrgName>
+    <Sortiername>Hartknoch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3629</ID>
+    <OrgName>Trattner</OrgName>
+    <Sortiername>Trattner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3630</ID>
+    <OrgName>Calve</OrgName>
+    <Sortiername>Calve</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3631</ID>
+    <OrgName>Hübner</OrgName>
+    <Sortiername>Hübner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3632</ID>
+    <OrgName>Focke</OrgName>
+    <Sortiername>Focke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3633</ID>
+    <OrgName>Militärische Buchhandlung</OrgName>
+    <Sortiername>Militärische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3634</ID>
+    <OrgName>Brain und Payne</OrgName>
+    <Sortiername>Brain und Payne</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3635</ID>
+    <OrgName>Vrlg. d. engl. Kunstanstalt</OrgName>
+    <Sortiername>Vrlg. d. engl. Kunstanstalt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3636</ID>
+    <OrgName>Cnoblauch</OrgName>
+    <Sortiername>Cnoblauch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3637</ID>
+    <OrgName>Berendsohn</OrgName>
+    <Sortiername>Berendsohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3638</ID>
+    <OrgName>Falckenberg u. Comp.</OrgName>
+    <Sortiername>Falckenberg u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3639</ID>
+    <OrgName>Freund</OrgName>
+    <Sortiername>Freund</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3640</ID>
+    <OrgName>Schaumburg und Compagnie</OrgName>
+    <Sortiername>Schaumburg und Compagnie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3641</ID>
+    <OrgName>Schwaiger</OrgName>
+    <Sortiername>Schwaiger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3642</ID>
+    <OrgName>Logier</OrgName>
+    <Sortiername>Logier</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3643</ID>
+    <OrgName>Bauer und Raspe</OrgName>
+    <Sortiername>Bauer und Raspe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3644</ID>
+    <OrgName>Stahel</OrgName>
+    <Sortiername>Stahel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3645</ID>
+    <OrgName>Tauchnitz</OrgName>
+    <Sortiername>Tauchnitz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3646</ID>
+    <OrgName>Bayrhoffer</OrgName>
+    <Sortiername>Bayrhoffer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3647</ID>
+    <OrgName>Buchhandlung der Gelehrten</OrgName>
+    <Sortiername>Buchhandlung der Gelehrten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3648</ID>
+    <OrgName>Vandenhoeck u. Ruprecht</OrgName>
+    <Sortiername>Vandenhoeck u. Ruprecht</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3649</ID>
+    <OrgName>Arnold</OrgName>
+    <Sortiername>Arnold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3650</ID>
+    <OrgName>Nürnberger</OrgName>
+    <Sortiername>Nürnberger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3651</ID>
+    <OrgName>Jacoby</OrgName>
+    <Sortiername>Jacoby</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3652</ID>
+    <OrgName>Koch</OrgName>
+    <Sortiername>Koch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3653</ID>
+    <OrgName>Grass, Barth u. Comp.</OrgName>
+    <Sortiername>Grass, Barth u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3654</ID>
+    <OrgName>Edlen von Ghelen'schen Erben</OrgName>
+    <Sortiername>Edlen von Ghelen'schen Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3655</ID>
+    <OrgName>Schumann</OrgName>
+    <Sortiername>Schumann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3656</ID>
+    <OrgName>Wolf</OrgName>
+    <Sortiername>Wolf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3657</ID>
+    <OrgName>Schreiner</OrgName>
+    <Sortiername>Schreiner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3658</ID>
+    <OrgName>Medau</OrgName>
+    <Sortiername>Medau</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3659</ID>
+    <OrgName>Kastranek</OrgName>
+    <Sortiername>Kastranek</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3660</ID>
+    <OrgName>Sauerländer</OrgName>
+    <Sortiername>Sauerländer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3661</ID>
+    <OrgName>Bachmann u. Gundermann</OrgName>
+    <Sortiername>Bachmann u. Gundermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3662</ID>
+    <OrgName>Reinherz</OrgName>
+    <Sortiername>Reinherz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3663</ID>
+    <OrgName>Karl u. Compagnie</OrgName>
+    <Sortiername>Karl u. Compagnie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3664</ID>
+    <OrgName>Traßler</OrgName>
+    <Sortiername>Traßler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3665</ID>
+    <OrgName>Waldeck</OrgName>
+    <Sortiername>Waldeck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3666</ID>
+    <OrgName>Otto</OrgName>
+    <Sortiername>Otto</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3667</ID>
+    <OrgName>Holle</OrgName>
+    <Sortiername>Holle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3668</ID>
+    <OrgName>Meinecke</OrgName>
+    <Sortiername>Meinecke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3669</ID>
+    <OrgName>Stahl</OrgName>
+    <Sortiername>Stahl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3670</ID>
+    <OrgName>Verlags-Comptoir L. Lenz</OrgName>
+    <Sortiername>Verlags-Comptoir L. Lenz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3671</ID>
+    <OrgName>Wolf u. Comp.</OrgName>
+    <Sortiername>Wolf u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3672</ID>
+    <OrgName>Berger</OrgName>
+    <Sortiername>Berger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3673</ID>
+    <OrgName>Grieben</OrgName>
+    <Sortiername>Grieben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3674</ID>
+    <OrgName>Verlag der Theater-Agentur A. Entsch</OrgName>
+    <Sortiername>Verlag der Theater-Agentur A. Entsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3675</ID>
+    <OrgName>W. T. Bruer Nachf.</OrgName>
+    <Sortiername>W. T. Bruer Nachf.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3676</ID>
+    <OrgName>Liebmann</OrgName>
+    <Sortiername>Liebmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3677</ID>
+    <OrgName>Verlagscomptoir</OrgName>
+    <Sortiername>Verlagscomptoir</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3678</ID>
+    <OrgName>Verlagsgewölbe der deutschen Schulanstalt bei St. Anna in der Johannesgasse</OrgName>
+    <Sortiername>Verlagsgewölbe der deutschen Schulanstalt bei St. Anna in der Johannesgasse</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3679</ID>
+    <OrgName>Expedition des Werkes Unsere Zeit</OrgName>
+    <Sortiername>Expedition des Werkes Unsere Zeit</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3680</ID>
+    <OrgName>Veit u. Comp.</OrgName>
+    <Sortiername>Veit u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3681</ID>
+    <OrgName>Schwarz</OrgName>
+    <Sortiername>Schwarz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3682</ID>
+    <OrgName>Behr</OrgName>
+    <Sortiername>Behr</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3683</ID>
+    <OrgName>Krause</OrgName>
+    <Sortiername>Krause</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3684</ID>
+    <OrgName>beim Verfasser</OrgName>
+    <Sortiername>beim Verfasser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3685</ID>
+    <OrgName>Gruner und Geßner</OrgName>
+    <Sortiername>Gruner und Geßner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3686</ID>
+    <OrgName>Uhlmann</OrgName>
+    <Sortiername>Uhlmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3687</ID>
+    <OrgName>Daisenberger</OrgName>
+    <Sortiername>Daisenberger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3688</ID>
+    <OrgName>Im Verlage des Verfassers</OrgName>
+    <Sortiername>Im Verlage des Verfassers</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3689</ID>
+    <OrgName>Götz</OrgName>
+    <Sortiername>Götz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3690</ID>
+    <OrgName>Thineemann</OrgName>
+    <Sortiername>Thineemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3691</ID>
+    <OrgName>Finsterlin</OrgName>
+    <Sortiername>Finsterlin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3692</ID>
+    <OrgName>Realschulbuchhandlung</OrgName>
+    <Sortiername>Realschulbuchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3693</ID>
+    <OrgName>Beck</OrgName>
+    <Sortiername>Beck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3694</ID>
+    <OrgName>Herausgeber u. Geistinger</OrgName>
+    <Sortiername>Herausgeber u. Geistinger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3695</ID>
+    <OrgName>Akkermann</OrgName>
+    <Sortiername>Akkermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3696</ID>
+    <OrgName>Sollinger</OrgName>
+    <Sortiername>Sollinger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3697</ID>
+    <OrgName>Haykul</OrgName>
+    <Sortiername>Haykul</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3698</ID>
+    <OrgName>Stöckhölzer v. Hirschfeld</OrgName>
+    <Sortiername>Stöckhölzer v. Hirschfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3699</ID>
+    <OrgName>Stöckholzer</OrgName>
+    <Sortiername>Stöckholzer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3700</ID>
+    <OrgName>Hoff</OrgName>
+    <Sortiername>Hoff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3701</ID>
+    <OrgName>Verlag der Jos. Poltischen Buchhandlung</OrgName>
+    <Sortiername>Verlag der Jos. Poltischen Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3702</ID>
+    <OrgName>Dyck</OrgName>
+    <Sortiername>Dyck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3703</ID>
+    <OrgName>Bureau für Literatur</OrgName>
+    <Sortiername>Bureau für Literatur</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3704</ID>
+    <OrgName>Doll</OrgName>
+    <Sortiername>Doll</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3705</ID>
+    <OrgName>Walther</OrgName>
+    <Sortiername>Walther</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3706</ID>
+    <OrgName>Härter</OrgName>
+    <Sortiername>Härter</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3707</ID>
+    <OrgName>Franckh</OrgName>
+    <Sortiername>Franckh</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3708</ID>
+    <OrgName>Viehweg</OrgName>
+    <Sortiername>Viehweg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3709</ID>
+    <OrgName>Aue</OrgName>
+    <Sortiername>Aue</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3710</ID>
+    <OrgName>Gärtner</OrgName>
+    <Sortiername>Gärtner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3711</ID>
+    <OrgName>Stiller</OrgName>
+    <Sortiername>Stiller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3712</ID>
+    <OrgName>Hitzig</OrgName>
+    <Sortiername>Hitzig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3713</ID>
+    <OrgName>Raw</OrgName>
+    <Sortiername>Raw</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3714</ID>
+    <OrgName>Brönner</OrgName>
+    <Sortiername>Brönner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3715</ID>
+    <OrgName>Kolb</OrgName>
+    <Sortiername>Kolb</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3716</ID>
+    <OrgName>Bachofen</OrgName>
+    <Sortiername>Bachofen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3717</ID>
+    <OrgName>Erie</OrgName>
+    <Sortiername>Erie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3718</ID>
+    <OrgName>Emmerling</OrgName>
+    <Sortiername>Emmerling</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3719</ID>
+    <OrgName>Teubner</OrgName>
+    <Sortiername>Teubner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3720</ID>
+    <OrgName>Guilhaumann</OrgName>
+    <Sortiername>Guilhaumann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3721</ID>
+    <OrgName>Stettin</OrgName>
+    <Sortiername>Stettin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3722</ID>
+    <OrgName>Wollf</OrgName>
+    <Sortiername>Wollf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3723</ID>
+    <OrgName>Renger</OrgName>
+    <Sortiername>Renger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3724</ID>
+    <OrgName>Langewiesche</OrgName>
+    <Sortiername>Langewiesche</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3725</ID>
+    <OrgName>Schuberth &amp; Niemeyer</OrgName>
+    <Sortiername>Schuberth &amp; Niemeyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3726</ID>
+    <OrgName>Pichler</OrgName>
+    <Sortiername>Pichler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3727</ID>
+    <OrgName>Dost</OrgName>
+    <Sortiername>Dost</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3728</ID>
+    <OrgName>Seybold</OrgName>
+    <Sortiername>Seybold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3729</ID>
+    <OrgName>Fischer und Fuchs</OrgName>
+    <Sortiername>Fischer und Fuchs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3730</ID>
+    <OrgName>Weller</OrgName>
+    <Sortiername>Weller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3731</ID>
+    <OrgName>Enslin</OrgName>
+    <Sortiername>Enslin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3732</ID>
+    <OrgName>Bohn</OrgName>
+    <Sortiername>Bohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3733</ID>
+    <OrgName>Hamann</OrgName>
+    <Sortiername>Hamann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3734</ID>
+    <OrgName>Beygang</OrgName>
+    <Sortiername>Beygang</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3735</ID>
+    <OrgName>Steiner</OrgName>
+    <Sortiername>Steiner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3736</ID>
+    <OrgName>Sartorius</OrgName>
+    <Sortiername>Sartorius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3737</ID>
+    <OrgName>Behrend</OrgName>
+    <Sortiername>Behrend</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3738</ID>
+    <OrgName>Riegel und Wiessner</OrgName>
+    <Sortiername>Riegel und Wiessner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3739</ID>
+    <OrgName>Bruder und Hofmann</OrgName>
+    <Sortiername>Bruder und Hofmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3740</ID>
+    <OrgName>Heinrich Matthias und Delius Erben</OrgName>
+    <Sortiername>Heinrich Matthias und Delius Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3741</ID>
+    <OrgName>Tyroff</OrgName>
+    <Sortiername>Tyroff</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3742</ID>
+    <OrgName>Sprinzing</OrgName>
+    <Sortiername>Sprinzing</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3743</ID>
+    <OrgName>Spamer</OrgName>
+    <Sortiername>Spamer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3744</ID>
+    <OrgName>Krahn</OrgName>
+    <Sortiername>Krahn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3745</ID>
+    <OrgName>Silbermann</OrgName>
+    <Sortiername>Silbermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3746</ID>
+    <OrgName>Hemmerde und Schwetschke</OrgName>
+    <Sortiername>Hemmerde und Schwetschke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3747</ID>
+    <OrgName>Akademische Buchdruckerei</OrgName>
+    <Sortiername>Akademische Buchdruckerei</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3748</ID>
+    <OrgName>Schuender im Taubstummeninstitut</OrgName>
+    <Sortiername>Schuender im Taubstummeninstitut</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3749</ID>
+    <OrgName>G. C. Schmidt Söhne</OrgName>
+    <Sortiername>G. C. Schmidt Söhne</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3750</ID>
+    <OrgName>Kaiserl. Akademie der Wissenschaften</OrgName>
+    <Sortiername>Kaiserl. Akademie der Wissenschaften</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3751</ID>
+    <OrgName>Trautwein</OrgName>
+    <Sortiername>Trautwein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3752</ID>
+    <OrgName>Hass</OrgName>
+    <Sortiername>Hass</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3753</ID>
+    <OrgName>Bauer und Dirnböck</OrgName>
+    <Sortiername>Bauer und Dirnböck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3754</ID>
+    <OrgName>Dirnböck</OrgName>
+    <Sortiername>Dirnböck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3755</ID>
+    <OrgName>Dirnböck/ Draut</OrgName>
+    <Sortiername>Dirnböck/ Draut</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3756</ID>
+    <OrgName>Draudt</OrgName>
+    <Sortiername>Draudt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3757</ID>
+    <OrgName>Cosmar und Krause</OrgName>
+    <Sortiername>Cosmar und Krause</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3758</ID>
+    <OrgName>Bade</OrgName>
+    <Sortiername>Bade</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3759</ID>
+    <OrgName>Calvé</OrgName>
+    <Sortiername>Calvé</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3760</ID>
+    <OrgName>Henning</OrgName>
+    <Sortiername>Henning</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3761</ID>
+    <OrgName>General-Subscriptions-Bureau</OrgName>
+    <Sortiername>General-Subscriptions-Bureau</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3762</ID>
+    <OrgName>Hartleben</OrgName>
+    <Sortiername>Hartleben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3763</ID>
+    <OrgName>Expedition des Altonaer Mercur's</OrgName>
+    <Sortiername>Expedition des Altonaer Mercur's</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3764</ID>
+    <OrgName>Brinhaußer</OrgName>
+    <Sortiername>Brinhaußer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3765</ID>
+    <OrgName>Verlagsbureau</OrgName>
+    <Sortiername>Verlagsbureau</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3766</ID>
+    <OrgName>Monath u. Kußler</OrgName>
+    <Sortiername>Monath u. Kußler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3767</ID>
+    <OrgName>sel. J. Grämmers Wittwe</OrgName>
+    <Sortiername>sel. J. Grämmers Wittwe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3768</ID>
+    <OrgName>Kommiss. Herold</OrgName>
+    <Sortiername>Kommiss. Herold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3769</ID>
+    <OrgName>Fabricius</OrgName>
+    <Sortiername>Fabricius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3770</ID>
+    <OrgName>Thomas</OrgName>
+    <Sortiername>Thomas</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3771</ID>
+    <OrgName>Trewendt und Granier</OrgName>
+    <Sortiername>Trewendt und Granier</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3772</ID>
+    <OrgName>Friese</OrgName>
+    <Sortiername>Friese</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3773</ID>
+    <OrgName>Garthe</OrgName>
+    <Sortiername>Garthe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3774</ID>
+    <OrgName>Elwert</OrgName>
+    <Sortiername>Elwert</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3775</ID>
+    <OrgName>Belser</OrgName>
+    <Sortiername>Belser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3776</ID>
+    <OrgName>Dürr</OrgName>
+    <Sortiername>Dürr</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3777</ID>
+    <OrgName>Eichler</OrgName>
+    <Sortiername>Eichler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3778</ID>
+    <OrgName>Nitribritt</OrgName>
+    <Sortiername>Nitribritt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3779</ID>
+    <OrgName>Frantzen</OrgName>
+    <Sortiername>Frantzen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3780</ID>
+    <OrgName>Schrag</OrgName>
+    <Sortiername>Schrag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3781</ID>
+    <OrgName>Beimel</OrgName>
+    <Sortiername>Beimel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3782</ID>
+    <OrgName>K.K. Hof- und Staatsdruckerei</OrgName>
+    <Sortiername>K.K. Hof- und Staatsdruckerei</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3783</ID>
+    <OrgName>Braumüller</OrgName>
+    <Sortiername>Braumüller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3784</ID>
+    <OrgName>Mittler</OrgName>
+    <Sortiername>Mittler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3785</ID>
+    <OrgName>Bagel</OrgName>
+    <Sortiername>Bagel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3786</ID>
+    <OrgName>Kaiser - Inhaber der lithograpische Anstalt</OrgName>
+    <Sortiername>Kaiser - Inhaber der lithograpische Anstalt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3787</ID>
+    <OrgName>Greß</OrgName>
+    <Sortiername>Greß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3788</ID>
+    <OrgName>Schlösser</OrgName>
+    <Sortiername>Schlösser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3789</ID>
+    <OrgName>B. Körner</OrgName>
+    <Sortiername>B. Körner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3790</ID>
+    <OrgName>Amelang</OrgName>
+    <Sortiername>Amelang</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3791</ID>
+    <OrgName>Heerbrandt</OrgName>
+    <Sortiername>Heerbrandt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3792</ID>
+    <OrgName>Bloßfeld</OrgName>
+    <Sortiername>Bloßfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3793</ID>
+    <OrgName>Verlag einer kleinen Armencasse</OrgName>
+    <Sortiername>Verlag einer kleinen Armencasse</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3794</ID>
+    <OrgName>Verlag der typogr.-literar.-artist. Anstalt Zamarski und Ditmarsch</OrgName>
+    <Sortiername>Verlag der typogr.-literar.-artist. Anstalt Zamarski und Ditmarsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3795</ID>
+    <OrgName>Dannheimer</OrgName>
+    <Sortiername>Dannheimer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3796</ID>
+    <OrgName>Köhler</OrgName>
+    <Sortiername>Köhler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3797</ID>
+    <OrgName>lit. Anstalt, Rütten</OrgName>
+    <Sortiername>lit. Anstalt, Rütten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3798</ID>
+    <OrgName>Gutsch</OrgName>
+    <Sortiername>Gutsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3799</ID>
+    <OrgName>Jurany</OrgName>
+    <Sortiername>Jurany</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3800</ID>
+    <OrgName>Engelbrecht</OrgName>
+    <Sortiername>Engelbrecht</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3801</ID>
+    <OrgName>Schlesinger</OrgName>
+    <Sortiername>Schlesinger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3802</ID>
+    <OrgName>Volkhart</OrgName>
+    <Sortiername>Volkhart</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3803</ID>
+    <OrgName>Kratzsch</OrgName>
+    <Sortiername>Kratzsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3804</ID>
+    <OrgName>Felisch</OrgName>
+    <Sortiername>Felisch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3805</ID>
+    <OrgName>Niese</OrgName>
+    <Sortiername>Niese</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3806</ID>
+    <OrgName>Schaumburg</OrgName>
+    <Sortiername>Schaumburg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3807</ID>
+    <OrgName>Mayer et Comapagnie</OrgName>
+    <Sortiername>Mayer et Comapagnie</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3808</ID>
+    <OrgName>Hesse</OrgName>
+    <Sortiername>Hesse</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3809</ID>
+    <OrgName>Weber</OrgName>
+    <Sortiername>Weber</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3810</ID>
+    <OrgName>Ghelen'sche Erben</OrgName>
+    <Sortiername>Ghelen'sche Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3811</ID>
+    <OrgName>Baumgarten</OrgName>
+    <Sortiername>Baumgarten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3812</ID>
+    <OrgName>Wesener</OrgName>
+    <Sortiername>Wesener</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3813</ID>
+    <OrgName>Kempf</OrgName>
+    <Sortiername>Kempf</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3814</ID>
+    <OrgName>Wohler</OrgName>
+    <Sortiername>Wohler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3815</ID>
+    <OrgName>Reinicke und Hinrichs</OrgName>
+    <Sortiername>Reinicke und Hinrichs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3816</ID>
+    <OrgName>Heinrichshofen</OrgName>
+    <Sortiername>Heinrichshofen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3817</ID>
+    <OrgName>Kunstverlag</OrgName>
+    <Sortiername>Kunstverlag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3818</ID>
+    <OrgName>Schraembl</OrgName>
+    <Sortiername>Schraembl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3819</ID>
+    <OrgName>Mathieux</OrgName>
+    <Sortiername>Mathieux</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3820</ID>
+    <OrgName>Milde</OrgName>
+    <Sortiername>Milde</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3821</ID>
+    <OrgName>Enders und Co.</OrgName>
+    <Sortiername>Enders und Co.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3822</ID>
+    <OrgName>Grattenauer</OrgName>
+    <Sortiername>Grattenauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3823</ID>
+    <OrgName>Mechtler</OrgName>
+    <Sortiername>Mechtler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3824</ID>
+    <OrgName>Schöne</OrgName>
+    <Sortiername>Schöne</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3825</ID>
+    <OrgName>Stupanus</OrgName>
+    <Sortiername>Stupanus</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3826</ID>
+    <OrgName>Weinshausen</OrgName>
+    <Sortiername>Weinshausen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3827</ID>
+    <OrgName>Kaulfuss und Krammer</OrgName>
+    <Sortiername>Kaulfuss und Krammer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3828</ID>
+    <OrgName>Lechner</OrgName>
+    <Sortiername>Lechner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3829</ID>
+    <OrgName>Strauß' sel. Wittwe</OrgName>
+    <Sortiername>Strauß' sel. Wittwe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3830</ID>
+    <OrgName>Richter</OrgName>
+    <Sortiername>Richter</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3831</ID>
+    <OrgName>Schnitzer</OrgName>
+    <Sortiername>Schnitzer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3832</ID>
+    <OrgName>l'imprimerie des princes</OrgName>
+    <Sortiername>l'imprimerie des princes</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3833</ID>
+    <OrgName>Verlag der typogr.-literar.-artist. Anstalt Zamarski und Dittmarsch</OrgName>
+    <Sortiername>Verlag der typogr.-literar.-artist. Anstalt Zamarski und Dittmarsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3834</ID>
+    <OrgName>Verlag der typogr.-literar.-artist. Anstalt von C. Dittmarsch</OrgName>
+    <Sortiername>Verlag der typogr.-literar.-artist. Anstalt von C. Dittmarsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3835</ID>
+    <OrgName>Sauer</OrgName>
+    <Sortiername>Sauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3836</ID>
+    <OrgName>Treuttel</OrgName>
+    <Sortiername>Treuttel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3837</ID>
+    <OrgName>Onfroi und Denne</OrgName>
+    <Sortiername>Onfroi und Denne</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3838</ID>
+    <OrgName>Onfroy</OrgName>
+    <Sortiername>Onfroy</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3839</ID>
+    <OrgName>Bureau für Litteratur</OrgName>
+    <Sortiername>Bureau für Litteratur</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3840</ID>
+    <OrgName>Kleinmayr</OrgName>
+    <Sortiername>Kleinmayr</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3841</ID>
+    <OrgName>Hartmann, Klein</OrgName>
+    <Sortiername>Hartmann, Klein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3842</ID>
+    <OrgName>Rösl</OrgName>
+    <Sortiername>Rösl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3843</ID>
+    <OrgName>Schaumburg u. Comp.</OrgName>
+    <Sortiername>Schaumburg u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3844</ID>
+    <OrgName>Meyn &amp; Mahncke</OrgName>
+    <Sortiername>Meyn &amp; Mahncke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3845</ID>
+    <OrgName>L. Fort</OrgName>
+    <Sortiername>L. Fort</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3846</ID>
+    <OrgName>Kurzböck</OrgName>
+    <Sortiername>Kurzböck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3847</ID>
+    <OrgName>Morin</OrgName>
+    <Sortiername>Morin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3848</ID>
+    <OrgName>Klemann</OrgName>
+    <Sortiername>Klemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3849</ID>
+    <OrgName>Campe</OrgName>
+    <Sortiername>Campe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3850</ID>
+    <OrgName>Schmidt u. Busch</OrgName>
+    <Sortiername>Schmidt u. Busch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3851</ID>
+    <OrgName>C. S. Walther</OrgName>
+    <Sortiername>C. S. Walther</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3852</ID>
+    <OrgName>Osterwald</OrgName>
+    <Sortiername>Osterwald</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3853</ID>
+    <OrgName>Plahn</OrgName>
+    <Sortiername>Plahn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3854</ID>
+    <OrgName>Straschiripka</OrgName>
+    <Sortiername>Straschiripka</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3855</ID>
+    <OrgName>Rückhäberle</OrgName>
+    <Sortiername>Rückhäberle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3856</ID>
+    <OrgName>Ludewig</OrgName>
+    <Sortiername>Ludewig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3857</ID>
+    <OrgName>Ritter</OrgName>
+    <Sortiername>Ritter</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3858</ID>
+    <OrgName>Fuchs</OrgName>
+    <Sortiername>Fuchs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3859</ID>
+    <OrgName>Nicolai</OrgName>
+    <Sortiername>Nicolai</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3860</ID>
+    <OrgName>Nikolai</OrgName>
+    <Sortiername>Nikolai</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3861</ID>
+    <OrgName>Franzen &amp; Große</OrgName>
+    <Sortiername>Franzen &amp; Große</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3862</ID>
+    <OrgName>Sammer</OrgName>
+    <Sortiername>Sammer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3863</ID>
+    <OrgName>Küffner</OrgName>
+    <Sortiername>Küffner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3864</ID>
+    <OrgName>Kurzbeck</OrgName>
+    <Sortiername>Kurzbeck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3865</ID>
+    <OrgName>Schweizerbart</OrgName>
+    <Sortiername>Schweizerbart</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3866</ID>
+    <OrgName>Locher</OrgName>
+    <Sortiername>Locher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3867</ID>
+    <OrgName>Müllner</OrgName>
+    <Sortiername>Müllner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3868</ID>
+    <OrgName>Dallmann</OrgName>
+    <Sortiername>Dallmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3869</ID>
+    <OrgName>C. S. Spener</OrgName>
+    <Sortiername>C. S. Spener</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3870</ID>
+    <OrgName>Sorge</OrgName>
+    <Sortiername>Sorge</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3871</ID>
+    <OrgName>Scholl</OrgName>
+    <Sortiername>Scholl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3872</ID>
+    <OrgName>Zehnpfennig</OrgName>
+    <Sortiername>Zehnpfennig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3873</ID>
+    <OrgName>Aschendorffsche Buchhandlung</OrgName>
+    <Sortiername>Aschendorffsche Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3874</ID>
+    <OrgName>Buchhhandlung der Erziehungsanstalt</OrgName>
+    <Sortiername>Buchhhandlung der Erziehungsanstalt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3875</ID>
+    <OrgName>F. Fischer</OrgName>
+    <Sortiername>F. Fischer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3876</ID>
+    <OrgName>Chr. Fr. Cotta</OrgName>
+    <Sortiername>Chr. Fr. Cotta</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3877</ID>
+    <OrgName>Buchdruckerei der Herzoglichen Hohen Carlsschule</OrgName>
+    <Sortiername>Buchdruckerei der Herzoglichen Hohen Carlsschule</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3878</ID>
+    <OrgName>Academie-Duckerei</OrgName>
+    <Sortiername>Academie-Duckerei</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3879</ID>
+    <OrgName>Minerva</OrgName>
+    <Sortiername>Minerva</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3880</ID>
+    <OrgName>Leyer</OrgName>
+    <Sortiername>Leyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3881</ID>
+    <OrgName>Adlers Erben</OrgName>
+    <Sortiername>Adlers Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3882</ID>
+    <OrgName>Weis u. Brede</OrgName>
+    <Sortiername>Weis u. Brede</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3883</ID>
+    <OrgName>Schwan und Götz</OrgName>
+    <Sortiername>Schwan und Götz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3884</ID>
+    <OrgName>Nestler</OrgName>
+    <Sortiername>Nestler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3885</ID>
+    <OrgName>Kesten</OrgName>
+    <Sortiername>Kesten</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3886</ID>
+    <OrgName>Leykams Erben</OrgName>
+    <Sortiername>Leykams Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3887</ID>
+    <OrgName>Kaiser</OrgName>
+    <Sortiername>Kaiser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3888</ID>
+    <OrgName>Berndt</OrgName>
+    <Sortiername>Berndt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3889</ID>
+    <OrgName>Neuer Kunstverlag</OrgName>
+    <Sortiername>Neuer Kunstverlag</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3890</ID>
+    <OrgName>Henry und Cohen</OrgName>
+    <Sortiername>Henry und Cohen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3891</ID>
+    <OrgName>Diller</OrgName>
+    <Sortiername>Diller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3892</ID>
+    <OrgName>Tendler &amp; Schaefer</OrgName>
+    <Sortiername>Tendler &amp; Schaefer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3893</ID>
+    <OrgName>Burmester</OrgName>
+    <Sortiername>Burmester</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3894</ID>
+    <OrgName>Baumgatner u. Hardtl</OrgName>
+    <Sortiername>Baumgatner u. Hardtl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3895</ID>
+    <OrgName>Kratzsch und Wettach</OrgName>
+    <Sortiername>Kratzsch und Wettach</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3896</ID>
+    <OrgName>J. F. Schmidt</OrgName>
+    <Sortiername>J. F. Schmidt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3897</ID>
+    <OrgName>Häcker</OrgName>
+    <Sortiername>Häcker</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3898</ID>
+    <OrgName>Bäumer</OrgName>
+    <Sortiername>Bäumer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3899</ID>
+    <OrgName>Heinemann</OrgName>
+    <Sortiername>Heinemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3900</ID>
+    <OrgName>De Lalain</OrgName>
+    <Sortiername>De Lalain</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3901</ID>
+    <OrgName>Bauer- und Mannischen Buchhandlun</OrgName>
+    <Sortiername>Bauer- und Mannischen Buchhandlun</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3902</ID>
+    <OrgName>Trassler</OrgName>
+    <Sortiername>Trassler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3903</ID>
+    <OrgName>Wirth</OrgName>
+    <Sortiername>Wirth</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3904</ID>
+    <OrgName>Enders</OrgName>
+    <Sortiername>Enders</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3905</ID>
+    <OrgName>Ign. Grund</OrgName>
+    <Sortiername>Ign. Grund</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3906</ID>
+    <OrgName>Taubstummen-Insttuts Buchdruckerey</OrgName>
+    <Sortiername>Taubstummen-Insttuts Buchdruckerey</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3907</ID>
+    <OrgName>Sörgel</OrgName>
+    <Sortiername>Sörgel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3908</ID>
+    <OrgName>Schreibers Erben</OrgName>
+    <Sortiername>Schreibers Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3909</ID>
+    <OrgName>Buchler, Stephani u. Schlosser</OrgName>
+    <Sortiername>Buchler, Stephani u. Schlosser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3910</ID>
+    <OrgName>Herder</OrgName>
+    <Sortiername>Herder</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3911</ID>
+    <OrgName>Kuhn</OrgName>
+    <Sortiername>Kuhn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3912</ID>
+    <OrgName>P. P. Mechitaristen</OrgName>
+    <Sortiername>P. P. Mechitaristen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3913</ID>
+    <OrgName>Fr. v. Schmid u. J. J. Busch</OrgName>
+    <Sortiername>Fr. v. Schmid u. J. J. Busch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3914</ID>
+    <OrgName>Graßes Erben u. Barth</OrgName>
+    <Sortiername>Graßes Erben u. Barth</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3915</ID>
+    <OrgName>Trewendt</OrgName>
+    <Sortiername>Trewendt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3916</ID>
+    <OrgName>Hertel</OrgName>
+    <Sortiername>Hertel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3917</ID>
+    <OrgName>H. Schmidt &amp; Cossel</OrgName>
+    <Sortiername>H. Schmidt &amp; Cossel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3918</ID>
+    <OrgName>Magazin für Buchhandel, Musik und Kunst</OrgName>
+    <Sortiername>Magazin für Buchhandel, Musik und Kunst</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3919</ID>
+    <OrgName>Creutz</OrgName>
+    <Sortiername>Creutz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3920</ID>
+    <OrgName>Vereinsbuchhandlung</OrgName>
+    <Sortiername>Vereinsbuchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3921</ID>
+    <OrgName>Hof-Buch- u. Kunst-Handlung</OrgName>
+    <Sortiername>Hof-Buch- u. Kunst-Handlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3922</ID>
+    <OrgName>Gräffer</OrgName>
+    <Sortiername>Gräffer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3923</ID>
+    <OrgName>Schlodtmann</OrgName>
+    <Sortiername>Schlodtmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3924</ID>
+    <OrgName>Henry &amp; Cohen</OrgName>
+    <Sortiername>Henry &amp; Cohen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3925</ID>
+    <OrgName>Wengler</OrgName>
+    <Sortiername>Wengler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3926</ID>
+    <OrgName>Riedler</OrgName>
+    <Sortiername>Riedler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3927</ID>
+    <OrgName>Montag u. Weiß</OrgName>
+    <Sortiername>Montag u. Weiß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3928</ID>
+    <OrgName>Dreyßig</OrgName>
+    <Sortiername>Dreyßig</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3929</ID>
+    <OrgName>Rücker</OrgName>
+    <Sortiername>Rücker</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3930</ID>
+    <OrgName>Verlag der K. B. Akademie der Wissenschaften</OrgName>
+    <Sortiername>Verlag der K. B. Akademie der Wissenschaften</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3931</ID>
+    <OrgName>Woortman</OrgName>
+    <Sortiername>Woortman</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3932</ID>
+    <OrgName>Brandt</OrgName>
+    <Sortiername>Brandt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3933</ID>
+    <OrgName>Keck u. Comp.</OrgName>
+    <Sortiername>Keck u. Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3934</ID>
+    <OrgName>Frölich</OrgName>
+    <Sortiername>Frölich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3935</ID>
+    <OrgName>Helfer</OrgName>
+    <Sortiername>Helfer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3936</ID>
+    <OrgName>Literarisches Institut</OrgName>
+    <Sortiername>Literarisches Institut</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3937</ID>
+    <OrgName>J. W. Schmidt</OrgName>
+    <Sortiername>J. W. Schmidt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3938</ID>
+    <OrgName>Weimar</OrgName>
+    <Sortiername>Weimar</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3939</ID>
+    <OrgName>Zaengl</OrgName>
+    <Sortiername>Zaengl</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3940</ID>
+    <OrgName>Grund</OrgName>
+    <Sortiername>Grund</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3941</ID>
+    <OrgName>Buchdruckerei des St . Rochushospitals</OrgName>
+    <Sortiername>Buchdruckerei des St . Rochushospitals</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3942</ID>
+    <OrgName>Riemann</OrgName>
+    <Sortiername>Riemann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3943</ID>
+    <OrgName>Schwarzbach</OrgName>
+    <Sortiername>Schwarzbach</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3944</ID>
+    <OrgName>Bartholomew</OrgName>
+    <Sortiername>Bartholomew</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3945</ID>
+    <OrgName>Asher</OrgName>
+    <Sortiername>Asher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3946</ID>
+    <OrgName>Levrault</OrgName>
+    <Sortiername>Levrault</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3947</ID>
+    <OrgName>Henrichs</OrgName>
+    <Sortiername>Henrichs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3948</ID>
+    <OrgName>Xhrouët</OrgName>
+    <Sortiername>Xhrouët</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3949</ID>
+    <OrgName>Treuttel u. Würtz</OrgName>
+    <Sortiername>Treuttel u. Würtz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3950</ID>
+    <OrgName>Léger</OrgName>
+    <Sortiername>Léger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3951</ID>
+    <OrgName>Louis</OrgName>
+    <Sortiername>Louis</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3952</ID>
+    <OrgName>Groß</OrgName>
+    <Sortiername>Groß</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3953</ID>
+    <OrgName>Franieck</OrgName>
+    <Sortiername>Franieck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3954</ID>
+    <OrgName>Greßler</OrgName>
+    <Sortiername>Greßler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3955</ID>
+    <OrgName>Herzfeld u. Bauer</OrgName>
+    <Sortiername>Herzfeld u. Bauer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3956</ID>
+    <OrgName>Anton Schmid</OrgName>
+    <Sortiername>Anton Schmid</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3957</ID>
+    <OrgName>Seidel</OrgName>
+    <Sortiername>Seidel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3958</ID>
+    <OrgName>Grund u. Gerold</OrgName>
+    <Sortiername>Grund u. Gerold</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3959</ID>
+    <OrgName>J. J. Weber</OrgName>
+    <Sortiername>J. J. Weber</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3960</ID>
+    <OrgName>Payne</OrgName>
+    <Sortiername>Payne</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3961</ID>
+    <OrgName>Wichers</OrgName>
+    <Sortiername>Wichers</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3962</ID>
+    <OrgName>Nestler u. Melle</OrgName>
+    <Sortiername>Nestler u. Melle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3963</ID>
+    <OrgName>Liebermann</OrgName>
+    <Sortiername>Liebermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3964</ID>
+    <OrgName>Fechner</OrgName>
+    <Sortiername>Fechner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3965</ID>
+    <OrgName>W. C. A. Müller</OrgName>
+    <Sortiername>W. C. A. Müller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3966</ID>
+    <OrgName>Gerzabek</OrgName>
+    <Sortiername>Gerzabek</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3967</ID>
+    <OrgName>Zeller</OrgName>
+    <Sortiername>Zeller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3968</ID>
+    <OrgName>Weil</OrgName>
+    <Sortiername>Weil</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3969</ID>
+    <OrgName>Foltz-Eberle</OrgName>
+    <Sortiername>Foltz-Eberle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3970</ID>
+    <OrgName>Horstmann</OrgName>
+    <Sortiername>Horstmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3971</ID>
+    <OrgName>Gosohorsky</OrgName>
+    <Sortiername>Gosohorsky</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3972</ID>
+    <OrgName>Büschler</OrgName>
+    <Sortiername>Büschler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3973</ID>
+    <OrgName>Expedition des europäschen Aufsehers</OrgName>
+    <Sortiername>Expedition des europäschen Aufsehers</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3974</ID>
+    <OrgName>Expedition d. Altonaischen Mercurs</OrgName>
+    <Sortiername>Expedition d. Altonaischen Mercurs</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3975</ID>
+    <OrgName>Zehnder</OrgName>
+    <Sortiername>Zehnder</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3976</ID>
+    <OrgName>Dittmarsch</OrgName>
+    <Sortiername>Dittmarsch</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3977</ID>
+    <OrgName>Hamm</OrgName>
+    <Sortiername>Hamm</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3978</ID>
+    <OrgName>Förstner</OrgName>
+    <Sortiername>Förstner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3979</ID>
+    <OrgName>Stöttner</OrgName>
+    <Sortiername>Stöttner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3980</ID>
+    <OrgName>Schulte</OrgName>
+    <Sortiername>Schulte</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3981</ID>
+    <OrgName>Walliser</OrgName>
+    <Sortiername>Walliser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3982</ID>
+    <OrgName>Ernst</OrgName>
+    <Sortiername>Ernst</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3983</ID>
+    <OrgName>Orell, Füßli und Comp.</OrgName>
+    <Sortiername>Orell, Füßli und Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3984</ID>
+    <OrgName>Kronberger und Rziwnatz, und Ritter v. Mösle's Witwe und Braumüller</OrgName>
+    <Sortiername>Kronberger und Rziwnatz, und Ritter v. Mösle's Witwe und Braumüller</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3985</ID>
+    <OrgName>Dümmler</OrgName>
+    <Sortiername>Dümmler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3986</ID>
+    <OrgName>Camesina &amp; Comp.</OrgName>
+    <Sortiername>Camesina &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3987</ID>
+    <OrgName>Weigand</OrgName>
+    <Sortiername>Weigand</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3988</ID>
+    <OrgName>Heyer</OrgName>
+    <Sortiername>Heyer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3989</ID>
+    <OrgName>Jügel</OrgName>
+    <Sortiername>Jügel</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3990</ID>
+    <OrgName>Basse</OrgName>
+    <Sortiername>Basse</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3991</ID>
+    <OrgName>Heitz</OrgName>
+    <Sortiername>Heitz</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3992</ID>
+    <OrgName>Taubert</OrgName>
+    <Sortiername>Taubert</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3993</ID>
+    <OrgName>Fürstl. Hof- und Reg. Buchdruckerei</OrgName>
+    <Sortiername>Fürstl. Hof- und Reg. Buchdruckerei</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3994</ID>
+    <OrgName>J. J. Will</OrgName>
+    <Sortiername>J. J. Will</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3995</ID>
+    <OrgName>S. L. Crusi</OrgName>
+    <Sortiername>S. L. Crusi</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3996</ID>
+    <OrgName>Nauck</OrgName>
+    <Sortiername>Nauck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3997</ID>
+    <OrgName>Oesterlein</OrgName>
+    <Sortiername>Oesterlein</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3998</ID>
+    <OrgName>Kohnen</OrgName>
+    <Sortiername>Kohnen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>3999</ID>
+    <OrgName>Eisenwangerische Erben</OrgName>
+    <Sortiername>Eisenwangerische Erben</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4000</ID>
+    <OrgName>Cornelius</OrgName>
+    <Sortiername>Cornelius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4001</ID>
+    <OrgName>von Leer</OrgName>
+    <Sortiername>von Leer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4002</ID>
+    <OrgName>Starke</OrgName>
+    <Sortiername>Starke</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4003</ID>
+    <OrgName>Adelamann</OrgName>
+    <Sortiername>Adelamann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4004</ID>
+    <OrgName>Weinmayr</OrgName>
+    <Sortiername>Weinmayr</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4005</ID>
+    <OrgName>Kühn</OrgName>
+    <Sortiername>Kühn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4006</ID>
+    <OrgName>Schreiber u. Co.</OrgName>
+    <Sortiername>Schreiber u. Co.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4007</ID>
+    <OrgName>Keyßner</OrgName>
+    <Sortiername>Keyßner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4008</ID>
+    <OrgName>Fues</OrgName>
+    <Sortiername>Fues</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4009</ID>
+    <OrgName>Dorfmeister</OrgName>
+    <Sortiername>Dorfmeister</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4010</ID>
+    <OrgName>C. F. Kius</OrgName>
+    <Sortiername>C. F. Kius</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4011</ID>
+    <OrgName>Model</OrgName>
+    <Sortiername>Model</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4012</ID>
+    <OrgName>Schulz und Wundermann</OrgName>
+    <Sortiername>Schulz und Wundermann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4013</ID>
+    <OrgName>Woortmann jr.</OrgName>
+    <Sortiername>Woortmann jr.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4014</ID>
+    <OrgName>Woortmann</OrgName>
+    <Sortiername>Woortmann</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4015</ID>
+    <OrgName>Nestler und Melle</OrgName>
+    <Sortiername>Nestler und Melle</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4016</ID>
+    <OrgName>Schmachtenberg und Steinberg</OrgName>
+    <Sortiername>Schmachtenberg und Steinberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4017</ID>
+    <OrgName>Camesanische Buchhandlung</OrgName>
+    <Sortiername>Camesanische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4018</ID>
+    <OrgName>Mevius, Dieterich</OrgName>
+    <Sortiername>Mevius, Dieterich</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4019</ID>
+    <OrgName>Reyher</OrgName>
+    <Sortiername>Reyher</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4020</ID>
+    <OrgName>Dorn</OrgName>
+    <Sortiername>Dorn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4021</ID>
+    <OrgName>Voss und Comp.</OrgName>
+    <Sortiername>Voss und Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4022</ID>
+    <OrgName>Riegel und Wießner</OrgName>
+    <Sortiername>Riegel und Wießner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4023</ID>
+    <OrgName>Montag und Weiss</OrgName>
+    <Sortiername>Montag und Weiss</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4024</ID>
+    <OrgName>W. A. Schmidt</OrgName>
+    <Sortiername>W. A. Schmidt</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4025</ID>
+    <OrgName>I. Grund</OrgName>
+    <Sortiername>I. Grund</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4026</ID>
+    <OrgName>Becker</OrgName>
+    <Sortiername>Becker</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4027</ID>
+    <OrgName>Großmann und Horaczek</OrgName>
+    <Sortiername>Großmann und Horaczek</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4028</ID>
+    <OrgName>Grau</OrgName>
+    <Sortiername>Grau</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4029</ID>
+    <OrgName>Königl. Waisen- und Schul-Anstalts-Buchdruckerei</OrgName>
+    <Sortiername>Königl. Waisen- und Schul-Anstalts-Buchdruckerei</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4030</ID>
+    <OrgName>Weise'sche Buchhandlung</OrgName>
+    <Sortiername>Weise'sche Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4031</ID>
+    <OrgName>Falkenberg</OrgName>
+    <Sortiername>Falkenberg</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4032</ID>
+    <OrgName>Qien</OrgName>
+    <Sortiername>Qien</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4033</ID>
+    <OrgName>Finsterin</OrgName>
+    <Sortiername>Finsterin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4034</ID>
+    <OrgName>Selbstverlag und Dümmler</OrgName>
+    <Sortiername>Selbstverlag und Dümmler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4035</ID>
+    <OrgName>Augustin</OrgName>
+    <Sortiername>Augustin</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4036</ID>
+    <OrgName>Grasser</OrgName>
+    <Sortiername>Grasser</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4037</ID>
+    <OrgName>Mechitaristen-Congregations-Buchhandlung</OrgName>
+    <Sortiername>Mechitaristen-Congregations-Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4038</ID>
+    <OrgName>Hanseatische Buchhandlung</OrgName>
+    <Sortiername>Hanseatische Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4039</ID>
+    <OrgName>sel. Jos. Grämmers Witwe</OrgName>
+    <Sortiername>sel. Jos. Grämmers Witwe</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4040</ID>
+    <OrgName>Struck</OrgName>
+    <Sortiername>Struck</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4041</ID>
+    <OrgName>Mechitaristen</OrgName>
+    <Sortiername>Mechitaristen</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4042</ID>
+    <OrgName>Baumgartner</OrgName>
+    <Sortiername>Baumgartner</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4043</ID>
+    <OrgName>Stöckholzer v. Hirschfeld</OrgName>
+    <Sortiername>Stöckholzer v. Hirschfeld</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4044</ID>
+    <OrgName>Beger</OrgName>
+    <Sortiername>Beger</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4045</ID>
+    <OrgName>Schmidt &amp; Sohn</OrgName>
+    <Sortiername>Schmidt &amp; Sohn</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4046</ID>
+    <OrgName>Hoffer</OrgName>
+    <Sortiername>Hoffer</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4047</ID>
+    <OrgName>Neue Kunstverlags- und Buchhandlung</OrgName>
+    <Sortiername>Neue Kunstverlags- und Buchhandlung</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4048</ID>
+    <OrgName>Lindenquist und Schönrock</OrgName>
+    <Sortiername>Lindenquist und Schönrock</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4049</ID>
+    <OrgName>Asher &amp; Comp.</OrgName>
+    <Sortiername>Asher &amp; Comp.</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4050</ID>
+    <OrgName>Bäumler</OrgName>
+    <Sortiername>Bäumler</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
+  </Akteure>
+  <Akteure>
+    <ID>4051</ID>
+    <OrgName>Bachem</OrgName>
+    <Sortiername>Bachem</Sortiername>
+    <Beruf>Drucker/Verleger</Beruf>
   </Akteure>
 </dataroot>

@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 const string DATASOURCE = "./daten_2023-05-19/";
 
@@ -27,7 +28,11 @@ void generateNames(IEnumerable<DATAFile> files) {
     var almneu = files.Where(n => n.BaseElementName == "AlmNeu").First();
     var realnamen = files.Where(n => n.BaseElementName == "REALNAME-Tab").First();
     var inhalte = files.Where(n => n.BaseElementName == "INH-TAB").First();
+    var document = new XDocument();
+    var root = new XElement("dataroot");
+    document.Add(root);
 
+    // REALNAMEN-Tab
     var names = new Dictionary<string, XElement>();
     foreach(var e in realnamen.Document.Root.Descendants(realnamen.BaseElementName)) {
         if (e.Element("REALNAME") != null) {
@@ -59,7 +64,7 @@ void generateNames(IEnumerable<DATAFile> files) {
     notfound = notfound.DistinctBy(x => x.Item1).ToList();
     foreach (var n in notfound) uniquenames.Add(new KeyValuePair<string, XElement>(n.Item1, n.Item2));
 
-    var generatedelements = new List<XElement>();
+    var generatedelements = new Dictionary<string, (XElement, int)>();
     var id = 1;
     foreach (var n in uniquenames) {
         var element = new XElement("Akteure");
@@ -79,15 +84,48 @@ void generateNames(IEnumerable<DATAFile> files) {
         var nachweis = n.Value.Element("Nachweis");
         if (nachweis != null && !String.IsNullOrWhiteSpace(nachweis.Value))
             element.Add(new XElement("Nachweis", nachweis.Value));
+        generatedelements.Add(n.Key.Trim(), (element, id));
         id++;
-
-        generatedelements.Add(element);
     }
 
-    var document = new XDocument();
-    var root = new XElement("dataroot");
-    foreach (var e in generatedelements) root.Add(e);
-    document.Add(root);
+
+
+    // AlmNeu
+    var numbernames = new Dictionary<string, string[]>();
+    var foundnames = new Dictionary<string, int>();
+    Regex rgx = new Regex(@"(?<=\()[^()]*(?=\))");
+    var orte = almneu.Document.Root.Descendants("ORT");
+    foreach (var o in orte) {
+        var nummer = o.ElementsBeforeSelf("NUMMER").First().Value;
+        var matches = rgx.Matches(o.Value);
+        if (matches != null && matches.Any()) {
+            numbernames.Add(nummer, new string[] {});
+            foreach (var m in matches) {
+                var splitted = m.ToString().Split(';');
+                foreach (var so in splitted) {
+                    if (!String.IsNullOrWhiteSpace(so)) {
+                        var name = so.Trim();
+                        numbernames[nummer].Append(name);
+                        if (!foundnames.ContainsKey(name)) {
+                            foundnames.Add(name, id);
+                            id++;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    foreach (var n in foundnames) {
+        var element = new XElement("Akteure");
+        element.Add(new XElement("ID", n.Value));
+        element.Add(new XElement("OrgName", n.Key));
+        element.Add(new XElement("Sortiername", n.Key));
+        element.Add(new XElement("Beruf", "Drucker/Verleger"));
+        generatedelements.Add(n.Key, (element, n.Value));
+    }
+
+    foreach (var e in generatedelements) root.Add(e.Value.Item1);
     if (!Directory.Exists("./generated")) Directory.CreateDirectory("./generated");
     document.Save("./generated/generated_Akteure.xml");
 }
