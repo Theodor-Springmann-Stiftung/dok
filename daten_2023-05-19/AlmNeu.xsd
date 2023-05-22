@@ -15,7 +15,6 @@
 <od:index index-name="BIBLIO-NR" index-key="BIBLIO-NR " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="HERAUSGEBER" index-key="HERAUSGEBER " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="HRSGREALNAME" index-key="HRSGREALNAME " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="ID" index-key="ID " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="JAHR" index-key="JAHR " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="NACHWEIS" index-key="NACHWEIS " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="NUMMER" index-key="NUMMER " primary="no" unique="yes" clustered="no" order="asc"/>
@@ -26,12 +25,10 @@
 <od:index index-name="VOLLSTÄNDIG ERFASST" index-key="VOLLSTÄNDIG_x0020_ERFASST " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="VORHANDEN" index-key="VORHANDEN " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="VORHANDEN ALS" index-key="VORHANDEN_x0020_ALS " primary="no" unique="no" clustered="no" order="asc"/>
-<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="OrderByOn" type="1" value="0"/>
 <od:tableProperty name="RowHeight" type="3" value="285"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
-<od:tableProperty name="OrderBy" type="12" value="[AlmNeu].[REIHENTITEL], [AlmNeu].[BEARBEITET AM] DESC, [AlmNeu].[HERAUSGEBER] DESC"/>
-<od:tableProperty name="Filter" type="12" value="([AlmNeu].[HERAUSGEBER] Like &quot;**Schad**&quot;)"/>
 <od:tableProperty name="GUID" type="9" value="g5v+tKqEm0iB3qdmtR/f3w==
 "/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -47,6 +44,7 @@
 <od:tableProperty name="AlternateBackShade" type="6" value="100"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
+<od:tableProperty name="PublishToWeb" type="2" value="1"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -55,7 +53,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1035"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Description" type="10" value="Nummer des Datensatzes in der Almanach-Datenbank, wird vom Programm vergeben."/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
@@ -110,6 +108,7 @@
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="x2En/wEfqU2jLim9Fv3wrw==
 "/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -221,7 +220,7 @@
 <xsd:element name="BEARBEITET_x0020_AM" minOccurs="1" od:jetType="datetime" od:sqlSType="datetime" od:nonNullable="yes" type="xsd:dateTime">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="1260"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2280"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -242,7 +241,7 @@
 <xsd:element name="BEARBEITET_x0020_VON" minOccurs="1" od:jetType="text" od:sqlSType="nvarchar" od:nonNullable="yes">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="990"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3060"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -287,6 +286,7 @@
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="o/lxJb4RkEOcrWuSijWEvA==
 "/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -327,7 +327,8 @@
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="n7924GJq0EmiYRIwPQ8c8w=="/>
+<od:fieldProperty name="GUID" type="9" value="n7924GJq0EmiYRIwPQ8c8w==
+"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
@@ -359,6 +360,7 @@
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="jS8RYwY2H0i+2bvCd/Q8qg==
 "/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -437,6 +439,7 @@
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="EXDB6nIIAkCXwlC/h13zWQ==
 "/>
+<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
@@ -444,25 +447,6 @@
 <xsd:maxLength value="536870910"/>
 </xsd:restriction>
 </xsd:simpleType>
-</xsd:element>
-<xsd:element name="ID" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int">
-<xsd:annotation>
-<xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="735"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
-<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
-<od:fieldProperty name="DefaultValue" type="12" value="0"/>
-<od:fieldProperty name="Required" type="1" value="0"/>
-<od:fieldProperty name="DisplayControl" type="3" value="109"/>
-<od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AggregateType" type="4" value="-1"/>
-<od:fieldProperty name="ResultType" type="2" value="0"/>
-<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="iqAtA2Cq6k2gFIosNdrTyw==
-"/>
-</xsd:appinfo>
-</xsd:annotation>
 </xsd:element>
 <xsd:element name="VOLLSTÄNDIG_x0020_ERFASST" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
 <xsd:annotation>
@@ -512,6 +496,7 @@
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="VNokp0sWzkqWVSdO35R2sA==
 "/>
+<od:fieldProperty name="AllowMultipleValues" type="1" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>

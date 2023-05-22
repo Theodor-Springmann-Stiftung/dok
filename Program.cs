@@ -1,12 +1,18 @@
-﻿using System.Xml.Linq;
+﻿
+using System.Xml.Linq;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Musenalm;
+using System.Xml.Serialization;
+using System.Xml;
 
 const string DATASOURCE = "./daten_2023-05-19/";
 
 
 var data = getDATA();
-generateNames(data);
+var oldDB = new AlteDBLibrary(data);
+var newDB = new NeueDBLibrary(data, oldDB);
+newDB.Save("./generated/");
 
 IEnumerable<DATAFile> getDATA() {    
     var sourcedir = DATASOURCE;
@@ -28,9 +34,13 @@ void generateNames(IEnumerable<DATAFile> files) {
     var almneu = files.Where(n => n.BaseElementName == "AlmNeu").First();
     var realnamen = files.Where(n => n.BaseElementName == "REALNAME-Tab").First();
     var inhalte = files.Where(n => n.BaseElementName == "INH-TAB").First();
-    var document = new XDocument();
-    var root = new XElement("dataroot");
-    document.Add(root);
+    var library = new Library();
+    var akteurdocument = new XDocument();
+    var akteurroot = new XElement("dataroot");
+    var ortedocument = new XDocument();
+    var orteroot = new XElement("dataroot");
+    ortedocument.Add(orteroot);
+    akteurdocument.Add(akteurroot);
 
     // REALNAMEN-Tab
     var names = new Dictionary<string, XElement>();
@@ -41,77 +51,44 @@ void generateNames(IEnumerable<DATAFile> files) {
         }
     }
 
-    var notfound = new List<(string, XElement)>();
-    var keystodelete = new List<string>();
-    foreach (var e in names) {
-        var compositenames = e.Key.Split(" u.");
-        if (compositenames.Length > 1) {
-            var c = compositenames.Where(x => !String.IsNullOrEmpty(x.Trim()) && !names.ContainsKey(x.Trim()));
-            if (c != null && c.Any()) notfound.AddRange(c.Select(x => (x.Trim(), e.Value)));
-            keystodelete.Add(e.Key);
-        }
-
-        compositenames = e.Key.Split(";");
-        if (compositenames.Length > 1) {
-            var c = compositenames.Where(x => !String.IsNullOrEmpty(x.Trim()) && !names.ContainsKey(x.Trim()));
-            if (c != null && c.Any()) notfound.AddRange(c.Select(x => (x.Trim(), e.Value)));
-            keystodelete.Add(e.Key);
-        }
-    }
-
-    foreach (var k in keystodelete) names.Remove(k);
-    var uniquenames = names.OrderBy(x => x.Key).ToList().ToList();
-    notfound = notfound.DistinctBy(x => x.Item1).ToList();
-    foreach (var n in notfound) uniquenames.Add(new KeyValuePair<string, XElement>(n.Item1, n.Item2));
-
-    var generatedelements = new Dictionary<string, (XElement, int)>();
-    var id = 1;
-    foreach (var n in uniquenames) {
-        var element = new XElement("Akteure");
-        element.Add(new XElement("ID", id));
-        var realname = n.Key.Split(',').Reverse();
-        element.Add(new XElement("Name", String.Join(" ", realname).Trim()));
-        var lebensdaten = n.Value.Element("Daten");
-        if (lebensdaten != null && !String.IsNullOrWhiteSpace(lebensdaten.Value))
-            element.Add(new XElement("Lebensdaten", lebensdaten.Value.Trim()));
-        var beruf = n.Value.Element("Beitrag");
-        if (beruf != null && !String.IsNullOrWhiteSpace(beruf.Value))
-            element.Add(new XElement("Beruf", "<div>" + beruf.Value.Trim() + "</div>"));
-        var pseudonyme = n.Value.Element("Pseudonyme");
-        if (pseudonyme != null && !String.IsNullOrWhiteSpace(pseudonyme.Value))
-            element.Add(new XElement("Pseudonyme", pseudonyme.Value));
-        element.Add(new XElement("Sortiername", n.Key.Trim()));
-        var nachweis = n.Value.Element("Nachweis");
-        if (nachweis != null && !String.IsNullOrWhiteSpace(nachweis.Value))
-            element.Add(new XElement("Nachweis", nachweis.Value));
-        generatedelements.Add(n.Key.Trim(), (element, id));
-        id++;
-    }
-
-
 
     // AlmNeu
-    var numbernames = new Dictionary<string, string[]>();
+    library.AlmNeuDrucker = new Dictionary<string, string[]>();
     var foundnames = new Dictionary<string, int>();
+    library.AlmNeuPlaces = new Dictionary<string, string[]>();
+    var foundplaces = new HashSet<string>();
     Regex rgx = new Regex(@"(?<=\()[^()]*(?=\))");
     var orte = almneu.Document.Root.Descendants("ORT");
+    var id = 0;
     foreach (var o in orte) {
         var nummer = o.ElementsBeforeSelf("NUMMER").First().Value;
-        var matches = rgx.Matches(o.Value);
+        var val = o.Value;
+        var matches = rgx.Matches(val);
+        
         if (matches != null && matches.Any()) {
-            numbernames.Add(nummer, new string[] {});
+            library.AlmNeuDrucker.Add(nummer, new string[] {});
             foreach (var m in matches) {
-                var splitted = m.ToString().Split(';');
+                val = val.Replace("(" + m.ToString() + ")", null);
+                var splitted = m.ToString().Split(new string[] {"/", ";"}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                 foreach (var so in splitted) {
                     if (!String.IsNullOrWhiteSpace(so)) {
                         var name = so.Trim();
-                        numbernames[nummer].Append(name);
+                        library.AlmNeuDrucker[nummer].Append(name);
                         if (!foundnames.ContainsKey(name)) {
                             foundnames.Add(name, id);
                             id++;
                         }
                     }
                 }
+            }
+        }
+
+        var fo = val.Split(new string[]{" u.", " und", ";", ","}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+        if (fo != null && fo.Any()) {
+            library.AlmNeuPlaces.Add(nummer, new string[] {});
+            foreach (var so in fo) {
+                library.AlmNeuPlaces[nummer].Append(so);
+                if (!foundplaces.Contains(so)) foundplaces.Add(so);
             }
         }
     }
@@ -122,12 +99,22 @@ void generateNames(IEnumerable<DATAFile> files) {
         element.Add(new XElement("OrgName", n.Key));
         element.Add(new XElement("Sortiername", n.Key));
         element.Add(new XElement("Beruf", "Drucker/Verleger"));
-        generatedelements.Add(n.Key, (element, n.Value));
+        library.Names.Add(n.Key, (element, n.Value));
     }
 
-    foreach (var e in generatedelements) root.Add(e.Value.Item1);
+    id = 1;
+    library.Places = new Dictionary<string, (XElement, int)>();
+    foreach (var o in foundplaces) {
+        var element = new XElement("Orte");
+        element.Add(new XElement("ID", id));
+        element.Add(new XElement("Name", o));
+        element.Add(new XElement("Land", "Deutschland"));
+        id++;
+    }
+
+    foreach (var e in library.Names) akteurroot.Add(e.Value.Item1);
     if (!Directory.Exists("./generated")) Directory.CreateDirectory("./generated");
-    document.Save("./generated/generated_Akteure.xml");
+    akteurdocument.Save("./generated/generated_Akteure.xml");
 }
 
 void generateUniqueTagsValues(IEnumerable<DATAFile> files) {
@@ -173,6 +160,15 @@ void germanizeRDA() {
             .Remove();
         document.Save(f.Substring(0, f.Length-4) + "DEUTSCH.xml", SaveOptions.None);
     }
+}
+
+class Library {
+    public Dictionary<string, (XElement, int)>? Names { get; set; }
+    public Dictionary<string, (XElement, int)>? Places { get; set; }
+
+    public Dictionary<string, string[]>? AlmNeuDrucker { get; set; }
+    public Dictionary<string, string[]>? AlmNeuHrsg { get; set; }
+    public Dictionary<string, string[]>? AlmNeuPlaces { get; set; }
 }
 
 class DATAFile {
