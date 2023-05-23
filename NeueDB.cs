@@ -19,8 +19,10 @@ class NeueDBLibrary {
 
     private IEnumerable<DATAFile> _dataFiles;
     private AlteDBLibrary _alteDB;
+    private LogSink _logSink;
 
     public NeueDBLibrary(IEnumerable<DATAFile> files, AlteDBLibrary alteDB) {
+        _logSink = LogSink.Instance;
         _dataFiles = files;
         _alteDB = alteDB;
         namesFromREALNAMEN();
@@ -29,7 +31,7 @@ class NeueDBLibrary {
 
     private void namesFromREALNAMEN() {
         var notfound = new List<(string, REALNAMETab)>();
-        var names = new List<Akteure>();
+        var names = new Dictionary<string, Akteure>();
         var hashset = _alteDB.REALNAMETab.Select(x => x.REALNAME).ToHashSet();
         var toparse = _alteDB.REALNAMETab;
         foreach (var n in toparse) {
@@ -39,7 +41,7 @@ class NeueDBLibrary {
                 if (nf != null && nf.Any()) notfound.AddRange(nf.Select(x => (x, n)));
             } else {
                 var name = n.REALNAME.Split(',').Reverse();
-                names.Add(new Akteure() {
+                names.Add(n.REALNAME.Trim(), new Akteure() {
                     Name = String.Join(" ", name).Trim(),
                     Sortiername = n.REALNAME.Trim(),
                     Lebensdaten = trimOrNull(n.Daten),
@@ -48,19 +50,26 @@ class NeueDBLibrary {
                 });
             }
         }
-        names = names.OrderBy(x => x.Sortiername).ToList();
+        
+        var orderednames = names.OrderBy(x => x.Key).Select(x => x.Value).ToList();
+
         foreach (var n in notfound) {
-            var name = n.Item1.Split(',').Reverse();
-            names.Add(new Akteure() {
-                Name = String.Join(" ", name),
-                Sortiername = n.Item1.Trim(),
-                Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus REALNAMEN-Tab"
-            });
+            _logSink.LogLine("Name " + n.Item1.Trim() + " nicht gefunden. Herkunft: REALNAME-Tab " + n.Item2.REALNAME);
+            if (!names.ContainsKey(n.Item1.Trim())) {
+                var name = n.Item1.Split(',').Reverse();
+                var akteur = new Akteure() {
+                    Name = String.Join(" ", name),
+                    Sortiername = n.Item1.Trim(),
+                    Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus REALNAMEN-Tab"
+                };
+                orderednames.Add(akteur);
+                names.Add(n.Item1.Trim(), akteur);
+            }
         }
 
         if (Akteure == null) Akteure = new List<Akteure>();
         int id = 1;
-        foreach (var n in names) {
+        foreach (var n in orderednames) {
             n.ID = id;
             Akteure.Add(n);
             id++;
@@ -198,6 +207,7 @@ class NeueDBLibrary {
             foreach (var m in n.Value) {
                 var akteur = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
                 if (akteur == null) {
+                    _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: AlmNeu Nr. " + n.Key);
                     var name = m.Split(',').Reverse();
                     akteur = new Akteure() {
                         ID = idakt,

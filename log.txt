@@ -1,0 +1,119 @@
+5/23/2023 5:16:39 PM Log MusenalmDB
+5/23/2023 5:16:44 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:16:44 PM Einzelname Zwecker, Johann Baptist nicht gefunden. Herkunft: REALNAME-Tab Kaulbach, Wilhelm von u. Zwecker, Johann Baptist
+5/23/2023 5:16:44 PM Einzelname Voß Johann Heinrich nicht gefunden. Herkunft: REALNAME-Tab Shakespeare, William; Voß, Heinrich; Voß Johann Heinrich
+5/23/2023 5:16:44 PM Einzelname Frick Johann Friedrich nicht gefunden. Herkunft: REALNAME-Tab Strack, Ludwig Philipp u. Frick Johann Friedrich
+5/23/2023 5:16:44 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Jury, Wilhelm
+5/23/2023 5:16:44 PM Einzelname Batsányi, Gabriele von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:16:44 PM Einzelname geb. Baumberg von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:16:44 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Byron, George Gordon; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:16:44 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:16:44 PM Einzelname Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: REALNAME-Tab Elsheimer, Adam u. Perger, Sigmund Ferdinand von Axmann, Josef
+5/23/2023 5:16:44 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Kovatsch, Joseph
+5/23/2023 5:16:44 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Weinrauch, Caspar
+5/23/2023 5:16:44 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Döbler, Georg
+5/23/2023 5:16:44 PM Einzelname Both, Andries nicht gefunden. Herkunft: REALNAME-Tab Both, Jan u. Both, Andries u. Tetar van Elven, Jean-Baptist
+5/23/2023 5:16:44 PM Einzelname Geißler, Fr. nicht gefunden. Herkunft: REALNAME-Tab Rider, Alexander u. Geißler, Fr.
+5/23/2023 5:16:44 PM Einzelname Glassbach Carl Christian nicht gefunden. Herkunft: REALNAME-Tab Oesfeld, Karl Ludwig von u. Glassbach Carl Christian
+5/23/2023 5:16:44 PM Einzelname Kurländer, F. A. nicht gefunden. Herkunft: REALNAME-Tab Wailly, Gabriel-Gustave de; Kurländer, F. A.
+5/23/2023 5:16:44 PM Einzelname Benedetto, Tommasi nicht gefunden. Herkunft: REALNAME-Tab Saar, Karl von u. Benedetto, Tommasi
+5/23/2023 5:16:44 PM Einzelname Schiavone, Natale nicht gefunden. Herkunft: REALNAME-Tab Schiavone, Natale u. Passini, Johann Nepomuk
+
+5/23/2023 5:21:33 PM Log MusenalmDB
+5/23/2023 5:21:38 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:21:38 PM Einzelname Zwecker, Johann Baptist nicht gefunden. Herkunft: REALNAME-Tab Kaulbach, Wilhelm von u. Zwecker, Johann Baptist
+5/23/2023 5:21:38 PM Einzelname Voß Johann Heinrich nicht gefunden. Herkunft: REALNAME-Tab Shakespeare, William; Voß, Heinrich; Voß Johann Heinrich
+5/23/2023 5:21:38 PM Einzelname Frick Johann Friedrich nicht gefunden. Herkunft: REALNAME-Tab Strack, Ludwig Philipp u. Frick Johann Friedrich
+5/23/2023 5:21:38 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Jury, Wilhelm
+5/23/2023 5:21:38 PM Einzelname Batsányi, Gabriele von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:21:38 PM Einzelname geb. Baumberg von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:21:38 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Byron, George Gordon; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:21:38 PM Einzelname Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:21:38 PM Einzelname Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: REALNAME-Tab Elsheimer, Adam u. Perger, Sigmund Ferdinand von Axmann, Josef
+5/23/2023 5:21:38 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Kovatsch, Joseph
+5/23/2023 5:21:38 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Weinrauch, Caspar
+5/23/2023 5:21:38 PM Einzelname Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Döbler, Georg
+5/23/2023 5:21:38 PM Einzelname Both, Andries nicht gefunden. Herkunft: REALNAME-Tab Both, Jan u. Both, Andries u. Tetar van Elven, Jean-Baptist
+5/23/2023 5:21:38 PM Einzelname Geißler, Fr. nicht gefunden. Herkunft: REALNAME-Tab Rider, Alexander u. Geißler, Fr.
+5/23/2023 5:21:38 PM Einzelname Glassbach Carl Christian nicht gefunden. Herkunft: REALNAME-Tab Oesfeld, Karl Ludwig von u. Glassbach Carl Christian
+5/23/2023 5:21:38 PM Einzelname Kurländer, F. A. nicht gefunden. Herkunft: REALNAME-Tab Wailly, Gabriel-Gustave de; Kurländer, F. A.
+5/23/2023 5:21:38 PM Einzelname Benedetto, Tommasi nicht gefunden. Herkunft: REALNAME-Tab Saar, Karl von u. Benedetto, Tommasi
+5/23/2023 5:21:38 PM Einzelname Schiavone, Natale nicht gefunden. Herkunft: REALNAME-Tab Schiavone, Natale u. Passini, Johann Nepomuk
+
+5/23/2023 5:30:28 PM Log MusenalmDB
+5/23/2023 5:30:33 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:30:33 PM Name Zwecker, Johann Baptist nicht gefunden. Herkunft: REALNAME-Tab Kaulbach, Wilhelm von u. Zwecker, Johann Baptist
+5/23/2023 5:30:33 PM Name Voß Johann Heinrich nicht gefunden. Herkunft: REALNAME-Tab Shakespeare, William; Voß, Heinrich; Voß Johann Heinrich
+5/23/2023 5:30:33 PM Name Frick Johann Friedrich nicht gefunden. Herkunft: REALNAME-Tab Strack, Ludwig Philipp u. Frick Johann Friedrich
+5/23/2023 5:30:33 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Jury, Wilhelm
+5/23/2023 5:30:33 PM Name Batsányi, Gabriele von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:30:33 PM Name geb. Baumberg von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:30:33 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Byron, George Gordon; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:30:33 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:30:33 PM Name Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: REALNAME-Tab Elsheimer, Adam u. Perger, Sigmund Ferdinand von Axmann, Josef
+5/23/2023 5:30:33 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Kovatsch, Joseph
+5/23/2023 5:30:33 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Weinrauch, Caspar
+5/23/2023 5:30:33 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Döbler, Georg
+5/23/2023 5:30:33 PM Name Both, Andries nicht gefunden. Herkunft: REALNAME-Tab Both, Jan u. Both, Andries u. Tetar van Elven, Jean-Baptist
+5/23/2023 5:30:33 PM Name Geißler, Fr. nicht gefunden. Herkunft: REALNAME-Tab Rider, Alexander u. Geißler, Fr.
+5/23/2023 5:30:33 PM Name Glassbach Carl Christian nicht gefunden. Herkunft: REALNAME-Tab Oesfeld, Karl Ludwig von u. Glassbach Carl Christian
+5/23/2023 5:30:33 PM Name Kurländer, F. A. nicht gefunden. Herkunft: REALNAME-Tab Wailly, Gabriel-Gustave de; Kurländer, F. A.
+5/23/2023 5:30:33 PM Name Benedetto, Tommasi nicht gefunden. Herkunft: REALNAME-Tab Saar, Karl von u. Benedetto, Tommasi
+5/23/2023 5:30:33 PM Name Schiavone, Natale nicht gefunden. Herkunft: REALNAME-Tab Schiavone, Natale u. Passini, Johann Nepomuk
+5/23/2023 5:30:33 PM Einzelname Bouterwek, Friedrich nicht gefunden. Herkunft: AlmNeu Nr. 262
+5/23/2023 5:30:33 PM Einzelname Echtermeyer, Ernst Theodor nicht gefunden. Herkunft: AlmNeu Nr. 509
+5/23/2023 5:30:33 PM Einzelname Dräxler, Karl Fredinand nicht gefunden. Herkunft: AlmNeu Nr. 600
+5/23/2023 5:30:33 PM Einzelname Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
+5/23/2023 5:30:33 PM Einzelname Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1474
+5/23/2023 5:30:33 PM Einzelname Sydow, Friedrich von nicht gefunden. Herkunft: AlmNeu Nr. 1532
+5/23/2023 5:30:33 PM Einzelname Saphir, Moritz Gottlieb nicht gefunden. Herkunft: AlmNeu Nr. 1657
+5/23/2023 5:30:33 PM Einzelname Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1780
+5/23/2023 5:30:33 PM Einzelname Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+5/23/2023 5:30:33 PM Einzelname auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+5/23/2023 5:30:33 PM Einzelname K 44, K 148 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:30:33 PM Einzelname L/R 119 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:30:33 PM Einzelname Goed VIII. 81, 161 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:30:33 PM Einzelname Pseud.: Janus Eremita nicht gefunden. Herkunft: AlmNeu Nr. 4337
+5/23/2023 5:30:33 PM Einzelname K 44 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+5/23/2023 5:30:33 PM Einzelname K 148 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+5/23/2023 5:30:33 PM Einzelname Döring, Karl August nicht gefunden. Herkunft: AlmNeu Nr. 4749
+5/23/2023 5:30:33 PM Einzelname Carl Lang nicht gefunden. Herkunft: AlmNeu Nr. 4772
+
+5/23/2023 5:31:38 PM Log MusenalmDB
+5/23/2023 5:31:44 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:31:44 PM Name Zwecker, Johann Baptist nicht gefunden. Herkunft: REALNAME-Tab Kaulbach, Wilhelm von u. Zwecker, Johann Baptist
+5/23/2023 5:31:44 PM Name Voß Johann Heinrich nicht gefunden. Herkunft: REALNAME-Tab Shakespeare, William; Voß, Heinrich; Voß Johann Heinrich
+5/23/2023 5:31:44 PM Name Frick Johann Friedrich nicht gefunden. Herkunft: REALNAME-Tab Strack, Ludwig Philipp u. Frick Johann Friedrich
+5/23/2023 5:31:44 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Jury, Wilhelm
+5/23/2023 5:31:44 PM Name Batsányi, Gabriele von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:31:44 PM Name geb. Baumberg von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+5/23/2023 5:31:44 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Byron, George Gordon; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:31:44 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)
+5/23/2023 5:31:44 PM Name Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: REALNAME-Tab Elsheimer, Adam u. Perger, Sigmund Ferdinand von Axmann, Josef
+5/23/2023 5:31:44 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Kovatsch, Joseph
+5/23/2023 5:31:44 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Weinrauch, Caspar
+5/23/2023 5:31:44 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Döbler, Georg
+5/23/2023 5:31:44 PM Name Both, Andries nicht gefunden. Herkunft: REALNAME-Tab Both, Jan u. Both, Andries u. Tetar van Elven, Jean-Baptist
+5/23/2023 5:31:44 PM Name Geißler, Fr. nicht gefunden. Herkunft: REALNAME-Tab Rider, Alexander u. Geißler, Fr.
+5/23/2023 5:31:44 PM Name Glassbach Carl Christian nicht gefunden. Herkunft: REALNAME-Tab Oesfeld, Karl Ludwig von u. Glassbach Carl Christian
+5/23/2023 5:31:44 PM Name Kurländer, F. A. nicht gefunden. Herkunft: REALNAME-Tab Wailly, Gabriel-Gustave de; Kurländer, F. A.
+5/23/2023 5:31:44 PM Name Benedetto, Tommasi nicht gefunden. Herkunft: REALNAME-Tab Saar, Karl von u. Benedetto, Tommasi
+5/23/2023 5:31:44 PM Name Schiavone, Natale nicht gefunden. Herkunft: REALNAME-Tab Schiavone, Natale u. Passini, Johann Nepomuk
+5/23/2023 5:31:44 PM Name Bouterwek, Friedrich nicht gefunden. Herkunft: AlmNeu Nr. 262
+5/23/2023 5:31:44 PM Name Echtermeyer, Ernst Theodor nicht gefunden. Herkunft: AlmNeu Nr. 509
+5/23/2023 5:31:44 PM Name Dräxler, Karl Fredinand nicht gefunden. Herkunft: AlmNeu Nr. 600
+5/23/2023 5:31:44 PM Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
+5/23/2023 5:31:44 PM Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1474
+5/23/2023 5:31:44 PM Name Sydow, Friedrich von nicht gefunden. Herkunft: AlmNeu Nr. 1532
+5/23/2023 5:31:44 PM Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: AlmNeu Nr. 1657
+5/23/2023 5:31:44 PM Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1780
+5/23/2023 5:31:44 PM Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+5/23/2023 5:31:44 PM Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+5/23/2023 5:31:44 PM Name K 44, K 148 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:31:44 PM Name L/R 119 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:31:44 PM Name Goed VIII. 81, 161 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+5/23/2023 5:31:44 PM Name Pseud.: Janus Eremita nicht gefunden. Herkunft: AlmNeu Nr. 4337
+5/23/2023 5:31:44 PM Name K 44 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+5/23/2023 5:31:44 PM Name K 148 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+5/23/2023 5:31:44 PM Name Döring, Karl August nicht gefunden. Herkunft: AlmNeu Nr. 4749
+5/23/2023 5:31:44 PM Name Carl Lang nicht gefunden. Herkunft: AlmNeu Nr. 4772
