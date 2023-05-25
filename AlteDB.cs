@@ -102,7 +102,7 @@ public class AlmNeu {
     [XmlElement]
     public string? ORT;
     [XmlElement]
-    public string? JAHR;
+    public long? JAHR;
     [XmlElement]
     public string? HERAUSGEBER;
     [XmlElement("BEARBEITET AM")]

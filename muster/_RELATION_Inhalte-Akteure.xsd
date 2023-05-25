@@ -13,34 +13,34 @@
 <xsd:appinfo>
 <od:index index-name="AkteureRELATION_Manifestation-Akteure" index-key="Akteur " primary="no" unique="no" clustered="no" order="asc"/>
 <od:index index-name="InhalteRELATION_Inhalte-Akteure" index-key="Inhalt " primary="no" unique="no" clustered="no" order="asc"/>
-<od:index index-name="PrimaryKey" index-key="ID " primary="yes" unique="yes" clustered="no" order="asc"/>
+<od:index index-name="PrimaryKey" index-key="Inhalt Beziehung Akteur " primary="yes" unique="yes" clustered="no" order="asc asc asc"/>
 <od:index index-name="VOKABULAR_zu-AkteurRELATION_Manifestation-Akteure" index-key="Beziehung " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADHaA+m9lLVSoL6pb7oFucgAAAAAMwGwIp4AeZAAAAAAAAAAAAqAFIA
+<od:tableProperty name="NameMap" type="11" value="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
-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
+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
+AAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="GUID" type="9" value="x2gPpvZS1UqC+qW+6BbnIA==
@@ -63,28 +63,13 @@ YgBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 </xsd:annotation>
 <xsd:complexType>
 <xsd:sequence>
-<xsd:element name="ID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
-<xsd:annotation>
-<xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
-<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AggregateType" type="4" value="-1"/>
-<od:fieldProperty name="ResultType" type="2" value="0"/>
-<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="aGH6rI5rFkW3BqFWP6x/xg==
-"/>
-</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>
 <xsd:element name="Inhalt" minOccurs="1" od:jetType="longinteger" od:sqlSType="int" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="ZIHpWQWsI0WKNxXdXlVzCg==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="2550"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="2"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -114,7 +99,7 @@ YgBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="GUID" type="9" value="VlVCFyb/c0iTXNTA9D1Yig==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="2400"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="3"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -144,7 +129,7 @@ YgBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="GUID" type="9" value="mEZEcXiWEUGkYBwJlr++QQ==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="3510"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="4"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
@@ -168,11 +153,13 @@ YgBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="Angabe" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:element name="Anmerkungen" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
 <xsd:annotation>
 <xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="GBUHgRjlikCi+PXF5LJHog==
+"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="5"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
@@ -185,8 +172,6 @@ YgBlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="bJwyf/nRu065YIhRE/a6aQ==
-"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>

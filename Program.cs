@@ -15,7 +15,7 @@ var oldDB = new AlteDBLibrary(data);
 var newDB = new NeueDBLibrary(data, oldDB);
 newDB.Save("./generated/");
 
-IEnumerable<DATAFile> getDATA() {    
+IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATASOURCE;
     var xmls = Directory
         .EnumerateFiles(sourcedir, "*", SearchOption.AllDirectories)

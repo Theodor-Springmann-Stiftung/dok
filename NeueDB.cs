@@ -15,7 +15,7 @@ class NeueDBLibrary {
     public List<RELATION_InhalteAkteure> RELATION_InhalteAkteure;
     public List<RELATION_WerkeAkteure> RELATION_WerkeAkteure;
     public List<RELATION_WerkeOrte> RELATION_WerkeOrte;
-    public List<RELATION_WerkeReihe> RELATION_WerkeReihe;
+    public List<RELATION_WerkeReihen> RELATION_WerkeReihen;
 
     private IEnumerable<DATAFile> _dataFiles;
     private AlteDBLibrary _alteDB;
@@ -27,6 +27,7 @@ class NeueDBLibrary {
         _alteDB = alteDB;
         namesFromREALNAMEN();
         namesFromAlmNeu();
+        namesFromInhalte();
     }
 
     private void namesFromREALNAMEN() {
@@ -82,9 +83,11 @@ class NeueDBLibrary {
         var orte = new Dictionary<string, Orte>();
         var names = new Dictionary<string, Akteure>();
         var werkeOrte = new List<RELATION_WerkeOrte>();
-        var werkeReihen = new List<RELATION_WerkeReihe>();
         var werkeAkteure = new List<RELATION_WerkeAkteure>();
         var exemplare = new List<Exemplare>();
+        var reihen = new HashSet<string>();
+        var reihenWerke = new List<RELATION_WerkeReihen>();
+        var reihenwerke = new Dictionary<long, List<string>>();
         var werke = new Dictionary<long, Werke>();
         var werkeorte = new Dictionary<long, List<string>>();
         var werkedrucker = new Dictionary<long, List<string>>(); 
@@ -93,6 +96,7 @@ class NeueDBLibrary {
         var idakt = Akteure.Count + 1;
         Regex rgxround = new Regex(@"(?<=\()[^()]*(?=\))");
         Regex rgxeck = new Regex(@"(?<=\()[^()]*(?=\))");
+        var rgxfourendnumbers = new Regex(@"\s?(\d{4},\s?\d{4}|\d{4}\/\d{4}|19\d{2}|18\d{2}|17\d{2}|\[oJ\]|Bd \d \[o\.J\.\]|\[o\.J\.\])(-\d)?(\s?\(\d\))?(\s\(2\.\))?(\s1\su\.\s2)?(\s?\[var\.?\]$)?(\s?1\.)?(\(Titelauflage\))?\s?");
         foreach (var n in toparse) {
             var ort = n.Value.ORT;
 
@@ -139,6 +143,20 @@ class NeueDBLibrary {
             }
 
             // Reihen
+            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+                reihenwerke.Add(n.Value.NUMMER, new List<string>());
+                var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                foreach (var e in composite) {
+                    var reihe = e;
+                    var m = rgxfourendnumbers.Matches(e);
+                    if (m != null && m.Any())  {
+                        reihe = e.Replace(m.Last().ToString(), null);
+                    }
+                    var rname = reihe.Split(',').Reverse();
+                    if (!reihen.Contains(reihe)) reihen.Add(reihe);
+                    reihenwerke[n.Value.NUMMER].Add(reihe);
+                }
+            }
 
             // Herausgaber
             if (!String.IsNullOrWhiteSpace(n.Value.HRSGREALNAME)) {
@@ -149,6 +167,17 @@ class NeueDBLibrary {
                 }
             }
             
+            var vorh = trimOrNull(n.Value.VORHANDENALS);
+            Status[]? status = null;
+            if (vorh != null) {
+                if (vorh == "Original") status = new Status[] { new Status() { Value = "Original vorhanden" }};
+                if (vorh == "Reprint") status = new Status[] { new Status() { Value = "Reprint vorhanden" }};;
+                if (vorh == "fremde Herkunft") status = new Status[] { new Status() { Value = "Fremde Herkunft" }};;
+                if (vorh == "Reprint u. fremde Herkunft") status = new Status[] { 
+                    new Status() { Value = "Reprint vorhanden" },
+                    new Status() { Value = "Fremde Herkunft" },
+                };
+            }
 
             // Exemplare: Werkbacklink, Biblionr, Autopsie, Status, Anmerkungen(?)
             exemplare.Add(new Exemplare() {
@@ -156,18 +185,18 @@ class NeueDBLibrary {
                 Werk = n.Value.NUMMER,
                 BiblioNr = trimOrNull(n.Value.BIBLIONR),
                 Autopsie = n.Value.AUTOPSIE,
-                Status = trimOrNull(n.Value.VORHANDENALS), /// TODO
+                Status = status,
             });
 
+
+
             // Werke: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
-            long jahr = 0;
-            DateTime? date = long.TryParse(n.Value.JAHR, out jahr) ? new DateTime((int)jahr, 1, 1) : null;
             werke.Add(n.Value.NUMMER, new Musenalm.Werke() {
                 ID = n.Value.NUMMER,
                 Sortiertitel = n.Value.ALMTITEL,
                 TitelTranskription = n.Value.ALMTITEL,
-                OrtTranskription = ort, // TODO?
-                Jahr = date,
+                OrtTranskription = ort,
+                Jahr = n.Value.JAHR,
                 Nachweis = trimOrNull(n.Value.NACHWEIS),
                 Struktur = trimOrNull(n.Value.STRUKTUR),
                 Anmerkungen = trimOrNull(n.Value.ANMERKUNGEN)
@@ -180,6 +209,19 @@ class NeueDBLibrary {
         foreach (var n in ordorte) {
             n.ID = idort;
             idort++;
+        }
+
+        var ordrh = reihen.OrderBy(x => x);
+        var idrh = 1;
+        foreach (var n in ordrh) {
+            var rname = n.Split(',').Reverse();
+            if (Reihen == null) Reihen = new List<Reihen>();
+            Reihen.Add(new Musenalm.Reihen() {
+                ID = idrh,
+                Sortiertitel = n,
+                Reihentitel = String.Join(" ", rname)
+            });
+            idrh++;
         }
 
         // Relationen setzen
@@ -226,14 +268,168 @@ class NeueDBLibrary {
             }
         }
 
+        foreach (var n in reihenwerke) {
+            foreach (var m in n.Value) {
+                var reihe = Reihen.Where(x => x.Sortiertitel == m).FirstOrDefault();
+                if (reihe != null) {
+                    reihenWerke.Add(new Musenalm.RELATION_WerkeReihen() {
+                        Werk = n.Key,
+                        Reihe = reihe.ID
+                    });
+                }
+            }
+        }
+
         Akteure.AddRange(names.Values);
         if (Orte == null) Orte = new List<Orte>();
         Orte.AddRange(orte.Values);
         RELATION_WerkeOrte = werkeOrte;
         RELATION_WerkeAkteure = werkeAkteure;
+        RELATION_WerkeReihen = reihenWerke;
         Exemplare = exemplare;
         Werke = werke.Values.ToList();
 
+    }
+
+    private void namesFromInhalte() {
+        var toparse = _alteDB.INHTab;
+        var inaut = new Dictionary<long, List<string>>();
+        var ingra = new Dictionary<long, List<string>>();
+        var inhAkteure = new List<RELATION_InhalteAkteure>();
+        var idakt = Akteure.Count + 1;
+        foreach (var n in toparse) {
+            // Graphiker:innen
+            if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME)) {
+                var composite = n.Value.AUTORREALNAME.Split(new string[] {" u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                if (composite.Length > 1) {
+                    ingra.Add(n.Value.INHNR, new List<string>());
+                    foreach (var c in composite) {
+                        ingra[n.Value.INHNR].Add(c);
+                    }
+                // Autor:innen
+                } else {
+                    composite = n.Value.AUTORREALNAME.Split(new string[] {" u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                    inaut.Add(n.Value.INHNR, new List<string>());
+                    foreach (var c in composite) {
+                        inaut[n.Value.INHNR].Add(c);
+                    }
+                }
+            }
+        }
+
+
+        // Relationen setzen
+        foreach (var n in inaut) {
+            foreach (var m in n.Value) {
+                var akteur = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
+                if (akteur == null) {
+                    _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
+                    var name = m.Split(',').Reverse();
+                    akteur = new Akteure() {
+                        ID = idakt,
+                        Sortiername = m,
+                        Name = String.Join(" ", name),
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                    };
+                    Akteure.Add(akteur);
+                    idakt++;
+                }
+                inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
+                    Inhalt = n.Key,
+                    Beziehung = 4,
+                    Akteur = akteur.ID
+                });
+            }
+        }
+
+
+        foreach (var n in ingra) {
+            if (n.Value.Count == 2) {
+
+                 // Zeichner
+                var m = n.Value[0];
+                var zeichner = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
+                if (zeichner == null) {
+                    _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
+                    var name = m.Split(',').Reverse();
+                    zeichner = new Akteure() {
+                        ID = idakt,
+                        Sortiername = m,
+                        Name = String.Join(" ", name),
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                    };
+                    Akteure.Add(zeichner);
+                    idakt++;
+                }
+                inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
+                    Inhalt = n.Key,
+                    Beziehung = 5,
+                    Akteur = zeichner.ID
+                });
+                
+                // Stecher
+                m = n.Value[1];
+                var stecher = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
+                if (stecher == null) {
+                    _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
+                    var name = m.Split(',').Reverse();
+                    stecher = new Akteure() {
+                        ID = idakt,
+                        Sortiername = m,
+                        Name = String.Join(" ", name),
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                    };
+                    Akteure.Add(stecher);
+                    idakt++;
+                }
+                inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
+                    Inhalt = n.Key,
+                    Beziehung = 3,
+                    Akteur = stecher.ID
+                });
+            } else {
+                foreach (var m in n.Value) {
+                    var akteur = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
+                    if (akteur == null) {
+                        _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
+                        var name = m.Split(',').Reverse();
+                        akteur = new Akteure() {
+                            ID = idakt,
+                            Sortiername = m,
+                            Name = String.Join(" ", name),
+                            Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                        };
+                        Akteure.Add(akteur);
+                        idakt++;
+                    }
+                    inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
+                        Inhalt = n.Key,
+                        Beziehung = 4,
+                        Akteur = akteur.ID
+                    });
+                }
+            }
+        }
+
+        RELATION_InhalteAkteure = inhAkteure;
+    }
+
+    private void SaveFile(string fileroot) {
+        var writer = XmlWriter.Create(fileroot + "Gesamt.xml");
+        XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+        ns.Add("","");
+        writer.WriteStartDocument();
+        writer.WriteStartElement("dataroot");
+        saveDocument<Akteure>(writer, Akteure, ns);
+        saveDocument<Orte>(writer, Orte, ns);
+        saveDocument<Reihen>(writer, Reihen, ns);
+        saveDocument<Werke>(writer, Werke, ns);
+        saveDocument<RELATION_WerkeAkteure>(writer, RELATION_WerkeAkteure, ns);
+        saveDocument<RELATION_WerkeOrte>(writer, RELATION_WerkeOrte, ns);
+        saveDocument<RELATION_WerkeReihen>(writer, RELATION_WerkeReihen, ns);
+        writer.WriteEndDocument();
+        writer.Flush();
+        writer.Close();
     }
 
     public void Save(string fileroot) {
@@ -242,8 +438,10 @@ class NeueDBLibrary {
         saveDocument<Akteure>(fileroot + "Akteure_GEN.xml", this.Akteure);
         saveDocument<Orte>(fileroot + "Orte_GEN.xml", this.Orte);
         saveDocument<Werke>(fileroot + "Werke_GEN.xml", this.Werke);
+        saveDocument<Reihen>(fileroot + "Reihen_GEN.xml", this.Reihen);
         saveDocument<RELATION_WerkeOrte>(fileroot + "RelationWerkeOrte_GEN.xml", this.RELATION_WerkeOrte);
         saveDocument<RELATION_WerkeAkteure>(fileroot + "RelationenWerkeAkteure_GEN.xml", this.RELATION_WerkeAkteure);
+        saveDocument<RELATION_WerkeReihen>(fileroot + "RelationenWerkeReihe_GEN.xml", this.RELATION_WerkeReihen);
         // Order and Save Exemplare
         var e = this.Exemplare.OrderBy(x => x.Werk);
         var id = 1;
@@ -253,19 +451,29 @@ class NeueDBLibrary {
         }
 
         saveDocument<Exemplare>(fileroot + "Exemplare_GEN.xml", e);
+        SaveFile(fileroot);
     }
 
     private void saveDocument<T>(string filename, IEnumerable<T> coll) {
         var writer = XmlWriter.Create(filename);
+        XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
+        ns.Add("","");
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
         var akteurS = new XmlSerializer(typeof(T));
         foreach (var n in coll) {
-            akteurS.Serialize(writer, n);
+            akteurS.Serialize(writer, n, ns);
         }
         writer.WriteEndDocument();
         writer.Flush();
         writer.Close();
+    }
+
+    private void saveDocument<T>(XmlWriter w, IEnumerable<T> coll, XmlSerializerNamespaces ns) {
+        var akteurS = new XmlSerializer(typeof(T));
+        foreach (var n in coll) {
+            akteurS.Serialize(w, n, ns);
+        }
     }
 
     private string? trimOrNull(string? totrim) {
@@ -315,7 +523,7 @@ public class Exemplare {
     [XmlElement]
     public bool Autopsie;
     [XmlElement]
-    public string? Status;
+    public Status[]? Status;
     [XmlElement]
     public string? URL;
     [XmlElement("Standort und Signatur")]
@@ -323,12 +531,17 @@ public class Exemplare {
     [XmlElement]
     public string? Anmerkungen;
 
-    public bool ShouldSerializeWerk() => Werk != null;
     public bool ShouldSerializeBiblioNr() => !String.IsNullOrWhiteSpace(BiblioNr);
-    public bool ShouldSerializeStatus() => !String.IsNullOrWhiteSpace(Status);
+    public bool ShouldSerializeStatus() => Status != null;
     public bool ShouldSerializeURL() => !String.IsNullOrWhiteSpace(URL);
     public bool ShouldSerializeStandortSignatur() => !String.IsNullOrWhiteSpace(StandortSignatur);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
+}
+
+[XmlRoot("Status")]
+public class Status {
+    [XmlElement]
+    public string? Value;
 }
 
 [XmlRoot("Inhalte")]
@@ -415,7 +628,7 @@ public class Werke {
     [XmlElement("Ort-Transkription")]
     public string? OrtTranskription;
     [XmlElement]
-    public DateTime? Jahr;
+    public long? Jahr = null;
     [XmlElement]
     public int? Ausgabe;
     [XmlElement]
@@ -463,8 +676,8 @@ public class RELATION_WerkeAkteure {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Werke-Reihe")]
-public class RELATION_WerkeReihe {
+[XmlRoot("*RELATION_Werke-Reihen")]
+public class RELATION_WerkeReihen {
     [XmlElement]
     public long Werk;
     [XmlElement]

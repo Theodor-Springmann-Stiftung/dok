@@ -1,0 +1,1310 @@
+München 785
+Salzburg 28
+Breslau 86
+Tübingen 559
+Berlin 2578
+Dresden 94
+Paris 220
+Stuttgar 2
+t 1
+Zürich 676
+Wien 1080
+Frankfurt 196
+Neustrelitz 5
+Leipzig 2189
+Ulm 49
+Basel 267
+Lauenburg 41
+Nürnberg 181
+Gotha 304
+Hannover 86
+Habnnover 1
+Halle 74
+Stuttgart 1123
+Straßburg 371
+Altona 33
+Augsburg 75
+Hamburg 277
+Braunschweig 99
+Desden 1
+Münster 8
+Glogau, Leipzig 1
+Heidelberg 475
+Bonn 43
+Hagen 2
+Leipzig/Altenburg 5
+Berlin. 9
+Bruxelles 4
+Berlin/Dessau 9
+Amsterdam/Köln 20
+Weimar 246
+Stuttgart/München 8
+Suttgart/München 1
+Frankfurt am Main/Heidelberg 6
+Stuttgart/Tübingen 138
+Kehl/Straßburg 3
+Offenbach 22
+Köln 76
+Mannheim, Heidelberg 5
+Pforzheim 30
+Karlsruhe 798
+Jena 159
+Parchim 13
+Mannheim/Karlsruhe 3
+Heilbronn 29
+Meißen 26
+Dessau/Leipzig 3
+Lübeck 9
+Laybach 1
+Düsseldorf 32
+Prag 85
+Kehl 17
+Berlin/Stettin 148
+Mainz 21
+Baden 11
+Bern 163
+Bern, Leipzig 58
+Freyberg 2
+Erscheinungsort, gegebenfalls Land, Hinweis auf Sprache. 1
+Straßburg/Kehl 7
+Sondershausen 15
+Freiburg/Br. 311
+Straßburg und Paris 4
+Berlin, Stettin 3
+Wien und Triest 5
+Graz 25
+Lahr 195
+Göttingen, Gotha 7
+Göttingen 246
+Pest 22
+Berlin und Stettin 2
+München et al. 2
+Prag; Wien 1
+Linz 13
+Wien, Prag, Leipzig 1
+Wien / Leipzig 5
+Wien, Dresden, Leipzig 1
+Prag und Wien 2
+Wein 2
+Wien, Leipzig 13
+Wien/Leipzig 37
+Wien u. Leipzig 31
+Wien und Leipzig 24
+Wien; Leipzig 5
+Wien/ Leipzig 4
+Frankfurt/Heilbronn 7
+Wien und Prag 1
+Wien, Rosenheim 1
+Wien, Triest 7
+Wuen 1
+WD 2/10 1
+Paris/Berlin 2
+Koblenz 7
+Mannheim 95
+Wien u. Dresden 2
+Brüssel 5
+Genf 11
+Tübingen/Paris 26
+Tübingen, Paris 3
+Paris/Tübingen 7
+Tübingen; Paris 2
+Hamburh 1
+Riga 13
+Zwickau 8
+Darmstadt 148
+Prag, Wien, Freiburg 3
+Mainz und Hamburg 1
+Riga und Leipzig 1
+Berlin und Königsberg 1
+Dresden und Leipzig 7
+Breslau, Leipzig 3
+Münjchen 1
+Berlin u. Königsberg 1
+Lauenburg und Göttingen 4
+Lauenburg und Frankfurt 8
+Frankfurt /M. 1
+Frankfurt und Leipzig 7
+Weimar, Leipzig 5
+Weimar, Leipzig, (Repr. Zürich, München) 3
+Osnabrück 13
+Frankfurt / M. 1
+Bamberg 9
+Reutlingen 127
+Königsberg, Leipzig 4
+Braunschweig, (R. Leipzig) 3
+Pirna. 1
+Königsberg und Leipzig 1
+Ludwigburg 1
+Iserlohn 3
+Magdeburg 15
+Fürth 3
+Regensburg 39
+Berlion 1
+? 2
+Halberstadt 7
+Weißenfels und Leipzig 1
+Weißenfels, Leipzig 4
+Bunzlau 7
+Hamm und Münster 4
+Minden 2
+Bayreuth 16
+Dortmund 10
+Hamm, Münster 2
+Quedlinburg; Leipzig 1
+Barmen u. Schwelm 1
+Leipzig
+Leipzig 3
+Rom (Leipzig) 2
+Konstanz 96
+Barmen, M.Gladbach 1
+Bremen 25
+ Elberfeld, Barmen 1
+Karlruhe 6
+Fankfurt 1
+Rom, Madrid, Lissabon 3
+Cilli und Leipzig 1
+Rastatt 39
+Wismar 2
+ohne Ortsangabe 1
+Frankfurt/Leipzig 32
+Merseburg 2
+Würzburg 32
+Leipzi 1
+Leipzig, Dresden, Wien und Berlin 6
+Kaiserswerth 1
+Marienwerder 3
+Erlangen 49
+HIldesheim; New York 1
+Göttinger 1
+Göttingen R 1
+Göttingen, R Darmstadt. 1
+Gölttingen 1
+Göttingen und Leipzig 1
+[Göttingen] Hildesheim, New York 1
+Göttungen 1
+Marburg und Leipzig 1
+Marburg 45
+Leipzig, Berlin, Frankfurt. 2
+Tübingen, Neustrelitz, Jena 1
+Tobolsko, (Stuttgart) Heidelberg 2
+Leipzig, Tübingen 2
+Tübingen, Heidelberg 1
+Rastatt; Mannheim 1
+Stuttgart und Tübingen 17
+Frankfurt. M. 1
+Amsterdam und Leipzig 2
+Berlin und Wien 1
+Ausgburg 1
+Karlsruhe, Leipzig 1
+Hamburg, Altona 1
+Erfurt 62
+Orthodoxiopel 1
+Paris [Hamburg] 5
+Frankfurt/Main 12
+Leipzig, Altenburg 1
+Heilbronn und Frankfurt a.M. 1
+Miltenberg 1
+Leipzig, Berlin 2
+Bern, Frankfurt / M, Las Vegas 1
+Berlin, Leipzig 2
+Berlin u. Leipzig 1
+Bamberg und Würzburg 2
+Bremen und Aurich 1
+Schwerin 10
+Blaubeuren 2
+Berlin und Leipzig 5
+Neustadt-Ebw. 1
+Rom, Madrit, Lisabon 1
+Creutzburg 2
+Hamburg u. Itzehoe 1
+Hohnstadt 5
+Grimma 19
+Winterthur, R (Eisenach) 2
+[Berlin] 1
+Speyer 4
+Schnepfenthal 4
+London 95
+Amberg 6
+Berlin , R (Hildesheim) 2
+Coblenz 1
+Halberstadt und Leipzig 3
+Wolfenbüttel, Leipzig 1
+Frankfurt/M. 322
+Rostock 29
+Meissen 7
+Frankurt / M 1
+Langensalza 9
+Lemgo 5
+Bautzen 3
+Chemnitz 6
+Nürneberg 1
+Hildesheim 16
+Cöthen 9
+Cöthen. 1
+Pappenheim 1
+Köthen 1
+Kopenhagen 3
+Brieg 4
+St. Petersburg 16
+Riga und Dorpat 7
+Hirschberg 6
+Glogau 6
+Schleswig 6
+Emden 7
+Mitau; Leipzig 3
+Dorpat 1
+Kiel 3
+Rotterdam 2
+Herborn 1
+Paderborn 4
+Heuchelheim 1
+Mannheim u. Leipzig 1
+Karlsbad 2
+Norden 14
+Sulzbach 1
+Anclam und Swinemünde 1
+Leipzig und Riga 1
+Hamburg u. Leipzig 1
+Suttgart 2
+Bremen, R (Berlin) 1
+Frankfurt; R (Berlin) 1
+Wesel 7
+Alethinopel 2
+Rinteln 1
+Penig (Sachsen) 3
+Brünn 62
+Leipzig. 8
+Wien, Hamburg 1
+Ilmenau 22
+Donaueschingen 2
+Elberfeld 4
+Cöslin 3
+Kolberg 2
+Leipzig und Dresden 16
+London und Leipzig 1
+Frankfurt O.; Berlin 1
+Stendal 1
+Leipzig und Altenburg 6
+Amsterdam, Leipzig 2
+Amsterdam 36
+Liepzig 1
+Leipzig, Wien 38
+Leipzig, Wien. 4
+Leipzig; Wien 1
+Darmstadt, Frankfurt 53
++ 1
+Coburg 2
+Meiningen, Leipzig 3
+Meinigen 2
+Leipzig und Wien 4
+Nürnebrg 1
+Mailand 3
+Königsberg 17
+Eisenach 7
+Hohenzollern (d.i. Wien) 1
+Karlsruhe, Rastatt 2
+Straßburg, Paris 1
+Strasburg 1
+Paris, Straßburg 4
+Oettingen 2
+Leipzig  (R. Leipzig) 9
+R. Leipzig 1
+Marburg und Kassel 13
+Freiburg i. B. 11
+Freiburg i.B. 1
+Hanau 7
+Baireuth 1
+Glogau und Leipzig 2
+Dessau 14
+Herisau 1
+Guben 2
+Hof 1
+Waltershof 3
+Heidelberg, Frankfurt, Leipzig, Darmstadt 2
+Heidelberg, Frankfurt, Leipzig 6
+Nordhausen und Leipzig 1
+Nordhausen 3
+Meiningen 2
+Kleinbremen 1
+1828 1
+Karlsruhe und Kehl 1
+Osterode, Goslar 1
+Osterode u. Goslar 1
+Osterode 1
+Arnstadt 2
+Rudolstadt 5
+Nürnberg und Altdorf 2
+Kiel; Leipzig; Hamburg 1
+Kiel, Braunschweig 6
+Freyberg und Annaberg 2
+Stuttgart Tübingen 1
+Regensbuch 1
+München u. Nürnberg 1
+Heidelberg, Leipzig 5
+Marburg u. Kassel 3
+Heidelberg und Leipzig 1
+Marburg, Kassel 2
+Pesth 9
+Frankfurt a/M 1
+Prag und Teplitz 1
+Pirna, Dresden 2
+Quedlinburg 6
+Leipzig, Mannheim 1
+o. O. 1
+Leipzig, Nürnberg 2
+Guben. 1
+Franfurt/M 1
+Hildburghausen 32
+Greiz 9
+Landshut 1
+Kemten 2
+Prag u. Leipzig 8
+Bremen und Leipzig 4
+Grimma und Leipzig 2
+Leipzig, Altona 2
+Prag und Berlin 1
+Leipzig, Altona, Kopenhagen 1
+Aschaffenburg 3
+Saalfeld 2
+Stettin 6
+Neuenstadt 1
+Winterthur 24
+Zürich, Leipzig 9
+Frankfurt Leipzig 1
+Bern; Leipzig 1
+Aarau 409
+Aarau, Thun 7
+Solothurn 130
+Zürich und Frauenfeld 3
+Zürich, Winterthur 3
+Zürich und Baden 2
+Uri 1
+Chur 7
+Basle 1
+Leipsic 1
+Neuburg 3
+Pest (Budapest) 1
+Innsbruck 31
+Klagenfurt 2
+Preßburg 7
+Gitschin 3
+Leutschau 1
+Teplitz 1
+Leitmeritz 1
+Prag und Gitschin 2
+Meersburg 1
+Wolfenbüttel 6
+Wien/Braunschweig 7
+Wien/Wolfenbüttel 2
+Hamburg/Lüneburg/Leipzig 6
+München/Berlin 7
+Köln/Frankfurt 1
+Dillingen 1
+Hildesheim/New York 11
+Leipzig/Lüneburg 1
+Berlin/New York 7
+Hamburg/Berlin 2
+Gießen 4
+Leipzig/Berlin/Wien 17
+Altenburg 3
+Emsdetten/Westf. 3
+Frankfurt/M/Berlin/Wien 1
+Leipzig/Graz/Dresden 1
+Budel 1
+Eßlingen/N. 1
+Edenkoben 1
+Wiesbaden 51
+Straelen 1
+Schriesheim 1
+Frauenfeld 20
+Lahr/München 2
+München; Berlin/München/Boston 1
+Gütersloh/München 1
+Königstein/Ts. 2
+Hannover/Leipzig 1
+Helmstädt 1
+Kempten 8
+Mannheim/Leipzig 1
+Bielefeld/Leipzig 43
+Milano 3
+Altenburg/Leipzig 2
+Reinbek bei Hamburg 3
+Berlin/Leipzig/Wien/Stuttgart 5
+Frankfurt/m./Berlin 1
+Tübingen/Basel 2
+Berlin-Wilmersdorf 2
+Bern/München 5
+Berlin/Schöneberg 1
+Oxford 1
+Halle/S. 5
+Hilsdesheim/New York 1
+New York 15
+Gießen/Darmstadt 1
+Braunschweig u. a. 1
+Baden-Baden 21
+Leipzig-Gohlis 2
+Halle/S./Berlin 1
+München/Leipzig 6
+München/London New/York/Oxford/Paris 1
+Kassel 14
+Limburg/Lahn 5
+Unterschneidheim 1
+Görlitz 3
+Memmingen 1
+Berlin/Stuttgart 7
+St. Gallen 18
+Augsburg/Kettwig 5
+Freiburg/Basel/Wien 5
+Hildesheim/New York
+Nürnberg 1
+Amsterdam/Leipzig 2
+Hanau/M. 11
+München/New York/London/Paris 1
+Halle a. S. 2
+Rom 3
+Wien/Köln/Weimar 2
+Berlin/Weimar 3
+Aalen 7
+Frankfurt/M 2
+Stuttgart/Weimar 1
+Leipzig/München 6
+Gütersloh 8
+Frankfurt/Leipzig/Weimar 1
+Sigmaringen 3
+Weimar/Leipzig 20
+Leizpig 1
+Luzern 26
+Straßburg/Leipzig 4
+Upsala 1
+Upsala/Paris 1
+Dresden/Leipzig 1
+Ulm/Freiburg 1
+Tübingen/Darmstadt 6
+Leipzig/Stuttgart 1
+Wien,Darmstadt 1
+Marbach a. N. 3
+Wien/Triest 1
+Weißenfels 2
+Leipzig/Frankfurt 1
+Penig 2
+Berlin/Heidelberg/New York 3
+Straßburg, Heidelberg 1
+Donauwörth 2
+Freiburg i. Br. 18
+Zürich, Carlsruhe und Petersburg, Berlin 1
+Köln, Weimar, Wien 1
+Ludwigsburg 1
+Schwerte 2
+Nördlingen 14
+Berlin/Jena 1
+Schwäbisch Hall 4
+Schillingsfürst/Dinkelsbühl 1
+Freiburg 219
+Philadelphia 25
+Leipzig, Dresden, Berlin 1
+Berlin; Düsseldorf 4
+Schwäbisch Gmünd 1
+Detmold 1
+Neuhaldensleben 1
+Frankfurt a. M. 10
+Bielefeld 5
+Heidleberg 1
+Hildesheim (Olms) 1
+Wien, München 2
+Göttingen, Bonn 1
+Haag 2
+Wiesbaden (Harrassowitz) 1
+Schweinfurt, Würzburg 1
+ Weimar, Köln, Wien 1
+Marbach/N. 1
+Stuttgart, Berlin 3
+Hildesheim; New York 1
+Marbach u. München 3
+Marbach 4
+München; Wien 1
+München, Wien 1
+Sulzbach/Oberpfalz 8
+Spinnstube, Die 1867 1
+Kassel u. Leipzig 1
+S. Leopoldo7Brasilien 1
+Liepzig, Wien 1
+Milwaukee 2
+Leer 2
+Dresden-Striefen 1
+Hamburg, Berlin. 1
+Hamburg, Berlin 1
+Berlin, Buxtehude 2
+Hamm/Münster 3
+Frankfurt M. 1
+Zerbst 2
+Hamm 4
+Berlin/Königsberg/Neumark 1
+Basel; St. Ludwig; Leipzig 1
+Leipzig-Reudnitz 3
+Mulhouse 4
+Srtraßburg 1
+Moskau 14
+Berlin, R(Ost Berlin) 1
+Wien/ Berlin/ Leipzig/ München 1
+Bielefeld und Leipzig 9
+Lepizig 1
+Rosdorf 1
+New York
+New York 1
+Lütjenburg 1
+Stuttgart, Tübingen 15
+Kaiserslautern 3
+Zweibrücken 58
+Reval 1
+Paris/Leipzig 1
+Stuttgart/Augsburg 5
+Ravensburg 4
+Bergisch Gladbach 2
+Schweinfurt 1
+Beinwil am See 1
+Berlin/Leipzig 136
+Hellerau bei Dresden 1
+Münchenstein 4
+Offenbach am Main 1
+Düren 1
+Pinneberg 1
+Frankfurt/M./Leipzig/Budapest 1
+Teufen (AR) 2
+Berlin/Frankfurt/M. 27
+Offenbach/Main 7
+Elchingen 1
+Spangenberg 3
+Berlin/München 2
+Eltville/Rhein 1
+Weißenhorn 4
+Poole/New York/Sydney 1
+Wilmington 1
+Frankfurt/Main; New York 1
+Hagen-Kabel 1
+Harmondsworth 1
+Seesen 1
+Freiburg/Würzburg 2
+Stolberg 4
+Wien/Leipzig/Zürich 1
+Bebenhausen 1
+Bonn-Bad Godesberg 2
+Marbach/Neckar 5
+Tenero 1
+Basel/Stuttgart 4
+Freiburg im Breisgau 8
+Graz/Köln 1
+Basel/Frankfurt/M. 7
+Mannheim/Wien/Zürich 1
+Weinheim 2
+Neuwied/Berlin 9
+Hausen 4
+Stutgart/Tübingen 1
+Jena/Leipzig/Wien 17
+Jena/Leipzig 225
+Jena/Leipzig, Wien 1
+Jena/leipzig 1
+Jen/aLeipzig 1
+Halle/(Leipzig 1
+Halle/Leipzig 18
+Bad Karlshafen 1
+Hildesheim/Zürich/New York 5
+Metz 3
+Mainz/London/Paris/New York 1
+Berlin-Zehlendorf 1
+Frankfurt a. M./Leipzig 3
+Freiburg/Breisgau 25
+Furtwangen. 5
+Halle/Saale 3
+Lahr/Baden 2
+Lahr. 1
+Berlin/Goslar/Leipzig 1
+Neuhausen-Stuttgart 1
+Gießen/marburg 1
+Ludwigsburg/Reutlingen 1
+Honnef/Rhein 1
+Potsdam 10
+Wolfenbüttel/Berlin 2
+Hamburg/Altona 3
+Stuttgart/Berlin/Leipzig 1
+Zürich/Winterthur 1
+Lörrach 75
+Posen 1
+Neustadt/Weinstr. 1
+Nidderau 3
+Freiburg/Konstanz 2
+Oldenburg 6
+Eisleben 2
+Erfurt u.a. 1
+Neustadt a. d. Weinstraße 1
+Bamberg/Würzburg 1
+Lahr i. B. 4
+Eisennach 9
+Colmar 36
+Weißenfels/Leipzig 1
+Oiopolis/Einöd 1
+Binzen 3
+Ansbach 3
+Heidelberg/Leipzig 3
+Eichstätt 1
+Wroclaw 1
+Heidelberg/Frankfurt/M. 1
+Leipzig/Berlin 6
+Zürich/Leipzig/Wien 2
+Reinbeck bei Hamburg 5
+Orpington/London 6
+FRankfurt/M. 1
+Köln/Berlin 4
+Berlin/Boston 3
+München u. a. 1
+Züllichau 2
+Helmstedt 2
+Rostock/Greifswald 1
+Heilbronn/Rothenburg o. d. T. 2
+Regensburg/Wien 1
+Bad Kissingen 1
+Strasbourg 1
+Stuttgart/Berlin/Köln 1
+Durlach 1
+Bad Godesberg 2
+Frankfurt a. M./Bern/New York 1
+Leinfelden-Echterdingen 1
+Offenburg 7
+Stuttgart/Berlin u.a. 1
+Vaihingen an der Enz 1
+Heppenheim a.d.B. 1
+Wangen Allgäu 1
+Weinheim und Leipzig 1
+Wangen im Allgäu 1
+Pirmasens 3
+Schopfheim 209
+Stuttgart u. a. 1
+St. Georgen 1
+Willstätt 1
+Kaiserlautern und Zweibrücken 1
+Neustadt a. d. W. 1
+Strasbourg/Paris 1
+Bühl 6
+Heidelberg-Wieblingen 1
+Freiburg i. Br./Berlin/Wien 1
+Weil am Rhein u. Müllheim 1
+Riehen 1
+Starßburg 2
+Bern u. a. 1
+Lahr/Schwarzwald 4
+Lörrach-Tumringen 1
+Frankfurt/M. u. a. 1
+Feiburg/Br. 1
+Lörrach/Waldshut 1
+FReiburg i. B. 1
+Binzen/Weil am Rhein 2
+Liege (Lüttich) 1
+Quedlinburg/Leipzig. 1
+Rostock ?. 1
+Köln/Düsseldorf 1
+Quedlinburg und Leipzig 1
+Quedlinburg/Leipzig 2
+Danzig 6
+Lindenstadt 3
+Mühlhausen 3
+Offenbach a. M. 2
+Freiberg 21
+Stadtanhof/Regensburg 1
+Frankfurt/Leipzig. 4
+Pest/Wien/Leipzig 1
+Cöthen/Glandenberg 1
+Stuttgart. 2
+Nordhausen. 1
+Brandenburg 1
+Sonderhausen 1
+Wien. 2
+Frankfurt/Oder 4
+Gera 13
+Frankfurt. 1
+Nürnberg/Leipzig. 1
+Halle/Berlin 3
+München/Wien 6
+Ebenhausen bei München 2
+Pirna 32
+Eßlingen 1
+Rostock. 1
+Überlingen 2
+Glarus 1
+Aurich 1
+Rottweil 14
+Zittau/Leipzig 1
+Hildburghausen/Amsterdam 5
+Poesneck 1
+Wien/Prag 2
+Itzehoe 1
+Stralsund 2
+Wila 1
+Framkfurt/M./Leipzig 1
+Regensburg/Stadtamhof 1
+Lüttich 1
+Stutttgart 1
+Grätz 3
+Frankfurt/M, 3
+Heidelberg/Speyer 1
+Wien/Hamburg 1
+Frankenthal 2
+Speyer/Heidelberg 1
+Amberg/Sulzbach 1
+Ehrenbreitstein 1
+Leyden 5
+Venedig 1
+Leipzig, Darmstadt 1
+Frankfurt, Leipzig 5
+Lüneburg/Hamburg 1
+Kreuznach 2
+Abo/Finnland 1
+Leyden/Leiden 1
+St. Gallen/Konstanz 4
+Heilbronn/Rothenburg o. T. 1
+Leipzig/Darmstadt 5
+Nürnberg/Altorf 2
+Anspach 1
+Wittenberg 3
+Frankfurt am Main 19
+Pathopoli = Leyden od. Amsterdam 1
+Heilbronn und Rothenburg 1
+Erlangen, Leipzig 1
+Halle a. d. S. 2
+Schwetzingen 8
+Hildburghausen/New-York 1
+Hildburgshausen/Amsterdam 1
+Hildburgshausen/New-York 1
+Schaffhausen 20
+Zürich/Berlin 4
+Erlenbach-Zürich/München/Leipzig 2
+Berlin und Weimar 1
+Essen 8
+Basel,Wien und Freiburg 2
+Rorschach 1
+Basel und Stuttgart 3
+Berlin/ ,Leipzig/Wien/Stuttgart 1
+Sibiu/Hermannstadt 4
+Würzburg/Neustadt a. d. Saal 1
+Augsburg/München-Pasing 1
+Frankfurt/M./Berlin/Bonn 2
+Nürnberg/Konstanz 1
+Oringae/Öhringen 1
+Wittenberg/Leipzig 1
+Gratwein 2
+Rosenheim 1
+Hamburg/Reinbek 3
+Offenburg/Baden 2
+Waldkirch 3
+Frauenfeld/Leipzig 5
+Waldkircher 1
+Tübingen und Stuttgart 1
+Marbach am Neckar 2
+Freiburg/Schweiz/Hamburg 1
+Recklinghausen 3
+Karlsruhe/Ebenhausen b. München 1
+Paris/Bern 2
+Cuera 1
+Budapest 7
+Dietikon-Zürich 1
+Hildesheim New-York 1
+Milano-Messina 1
+Venezia 1
+Parma 1
+England 1
+Dassel/Frankfurt/M. 1
+Coira/Chur 4
+Bühl (Baden) 1
+Minseln 1
+Bühl-Baden 1
+Schopfheim-Fahrnau 1
+Wuppertal 1
+Gutach 1
+Stuttgart Berlin 1
+Bergen II, Oberbayern 2
+Mindelheim/Bayern 1
+Königstein/Taunus 2
+Leipzig und Hartenstein 1
+Frankfurt am Main Berlin Bonn München 2
+Kochel 1
+Basel/Weil a. Rh./Wien 1
+Stuttgart/Berlin 6
+Basel/Weil a. Rh. 1
+Schmiedehausen/Bad Sulza 1
+Tauberbischofsheim 26
+Leipzig und Basel 1
+Reinbeck beiHamburg 1
+Pfullingen 3
+Basel/Leipzig 1
+Münster,New York / München und berlin 1
+Firenze 1
+Staufen 1
+Frankfurt/M./Leipzig 2
+Hausen/Wiesental 3
+Bologna 1
+Olten 2
+Wetzikon 1
+Tübingen/Stuttgart 1
+Ellwangen/Bayreuth 1
+Königsfeld 1
+Bühl-Moos 1
+Gainsville/Florida 1
+Pesth/Leipzig 1
+Berlin-Friedenau 1
+Hinterzarten 1
+Frankfurt/M./Berlin/München 1
+FrankfurtM./Berlin/München 1
+Horgen-Zürich/Leipzig 1
+Bühl/Baden 6
+Freiburg.i.Br. 1
+Hausen im Wiesental 1
+Innsbruck/Bregenz/Feldkirch 1
+Köln/Neuß 1
+Freudenstadt 1
+Lahr/Schwarzw. 1
+Ludwighafen a. Rh. 1
+Straßburg/Strasbourg 1
+Hildesheim/New-York 1
+Rheinfelden 2
+Grundertshofen 1
+Straßburg,Heidelberg 1
+Mülhausen 5
+Müllheim 2
+Müllheim i.Br. 1
+Essen&Leipzig 4
+Zürich/Leipzig 6
+Mannheim/Zürich 1
+Zabern 1
+Oberndorf am Neckar 1
+Halle (Saale) 1
+Strassburg 4
+Bern und München 2
+Hildesheim New York 2
+Flensburg und Hamburg 1
+Erlenbach-Zürich und Stuttgart 1
+St.Gallen 1
+Günzburg 1
+Waldkirch i. Br. 1
+Leipzig/Wien 2
+München/Burghausen 3
+Bern Frankfurt am Main Las Vegas 1
+Bonnn 1
+Worms 1
+Oschatz 1
+Berlin u. Köln 1
+Elberfeld u. Meurs 1
+Sigmaringen/Rottweil 1
+Salins/Besançon 1
+Brandenburg a/H. 1
+Hildburghausen und Amsterdam 1
+Cannstatt 1
+Meißen/Wien 1
+Augsburg/Straßburg 1
+Langenberg bei Gera 1
+Müllheim am Rhein 1
+Paris/Straßburg 2
+Sraßburg 1
+Mannheim/Heidelberg 2
+Padua 1
+Wien/Pest/Leipzig 30
+Simmern 2
+Ettlingen 1
+Schopfheim i. W. 1
+Gotha/Erfurt 2
+Lahr/Pforzheim 17
+Luzern 1808ff 1
+Trogen 86
+Vevey 35
+Suttgart/Reutlingen 1
+Reutlingen/Württemberg 1
+Reading/Penn. 6
+Allentown, Pa. 1
+Reading/Pa. 1
+Lancaster/Pa. 3
+Horgen/Zürich 1
+Stolpen/Sachsen 1
+Aarau/Thun 3
+Zug 50
+Stans 8
+Dannemarie 4
+Nancy 1
+Hagenau 1
+Einsiedeln 11
+[Wien] 1
+Horn/Niederösterr. 1
+Ofen 1
+Nürnberg/Leipzig 1
+Leipzig/Sangerhausen 1
+Offenbach/Frankfurt/M. 1
+Darmstadt/Frankfurt/M. 2
+Lahr/Straßburg 4
+Baden/Baden 1
+Neuwied 1
+Grüningen 1
+Winterberg/Wien/New York 4
+Rixheim/Elsaß 1
+Darmstadt/New-York 1
+Einsiedeln/New-York u. a. 15
+Einsiedeln/Waldshut 4
+Einsiedeln/New.York u. a. 1
+Einsiedeln/New-York/Cincinnati 10
+Einsiedeln/New-York 1
+Einsiedeln/New York 1
+Einsiedeln/Waldshut/Köln 12
+Einsiedeln/Waldshut/Köln/Straßburg 1
+New York/Cincinnati/Chicago 2
+Annecy 1
+Laibach 5
+Neustadt/Haardt 5
+Kaldenkirchen 1
+Limburg/Lahn/Friedberg bei Augsburg 1
+Friedberg bei Augsburg 1
+Villingen(Schwarzw.) 1
+Limburg/Friedberg bei Augsburg 1
+Lindau 11
+Schärding/Wien 1
+Lahr/Stuttgart 1
+Lahr/Frankfurt 1
+Leipzig/Zwickau 1
+Zwickau/Leipzig 1
+Reichenbach 2
+Stade 4
+Friedrichshafen 1
+Hermannstadt 66
+Waldenburg 1
+Steyr 2
+Schemnitz 1
+Kronstadt 7
+Hermanstadt/Klausenburg 1
+Bukarest 3
+Temeschburg 1
+Reichenberg 2
+Bressanone/Brixen 1
+Heiden 3
+Hermannstadt/Sibiu 3
+FreiburgBreisgau 1
+Tauberbishofsheim 3
+Freiburg/Breigau 1
+Freiburg7Br. 1
+Erfurt, R Leipzig. 1
+Stuttgart (Hohenheim) 6
+Trento 3
+Berlin/Hamburg 2
+Laufen/Baden 1
+Stuttgart/New York 1
+Melsungen 4
+Bern/Stuttgart 1
+Lausanne 2
+Zürich/Köln 3
+München/Wien/Zürich 3
+Landsberg 3
+Landsberg/München 1
+München/Bern/Wien 3
+Bozen 1
+Leipzig/Jena/Berlin 1
+Stuttgart/Wien 1
+Stolpen 8
+Neustadt bey Stolpen 4
+Pirna102165 1
+Basel? 1
+Leipzig/Leißnig 1
+Pforzheim/Lahr 9
+Pforzheim/Lah 1
+Mitau 1
+Srtaßburg 1
+Stra8burg 1
+Belfort 1
+Fulda 24
+Vevay 1
+Trogen/Schweiz 10
+Vivis 2
+Straßburg/Colmar 1
+Neustadt/Orla 1
+Lancaster 1
+Germantown 1
+Lahr/pforzheim 1
+Ingolstadt 1
+Burghausen 2
+Neustadt a. d. Orla 1
+Sachsen 1
+Adelsheim 1
+Schneeberg 3
+Staßburg 2
+unbekannt 1
+Leverkusen 1
+Kempten/München 1
+Mantua 3
+Gräfenberg 1
+Wildbad 1
+Halle/Helmstädt 1
+Bad Reichenhall 1
+Bad Ischl/Bad Harzburg 2
+Lucca 1
+Bad Wörishofen 1
+Warschau 1
+Breslau/Leipzig 1
+Baden/Schweiz 1
+Leipzig/Nauenburg 1
+Plombières/Paris 1
+Styrum/Rhl./Leipzig 1
+Bourget 1
+Berlin/Leipzig/Eisenach 6
+Malans 1
+Zagreb 1
+Köln/Opladen 13
+Hanstein 1
+Hamburg/Reinbeck 1
+KölnBerlin 1
+Leipzig/Strassburg/Zürich 1
+Kronberg 1
+Berlin-Schöneberg 1
+München/Zürich 3
+Emsdetten 2
+Weinheim/Bergstraße 1
+Zofingen 3
+Dillenburg/Schaffhausen 1
+Bremen/Zürich 1
+Immensee/Schwyz 1
+Zürich/Horgen 1
+Ebnat/Toggenburg 1
+Olten/Konstanz 2
+Berlin/Frankfurt 1
+Aarau/Genf/Paris 1
+Baden/CH 1
+Borna/Leipzig 1
+Aaraus, Sauerland 1
+Hechingen 3
+Göthen 1
+Züllichau/Freystadt 1
+Karlsruhe/Leipzig 2
+Affoltern a. A. 2
+Basel. 1
+Eschwege 2
+Aarau/Leipzig. 2
+Aarau. 2
+Aarau/Basel 1
+Genève 1
+Jena. 2
+Florenz und Leipzig 2
+Leipzig/Straßburg/Zürich 1
+Graz/Leipzig 1
+Preßburg und Leipzig 3
+WienPest/Leipzig 1
+Graz und Leipzig 4
+Bern u.a. 1
+Stuttgart und Augsburg 3
+Stuttgart und Berlin 1
+Wien/Leipzig/München 1
+Cuera/Chur 1
+Westphalen 1
+LeipzigFrankfur ta. d. O. 1
+Zittau 3
+Berlin/Frankfurt a, d. O. 1
+Aargau 1
+Basel/Arau 2
+Leipzig und Frankfurt a.O. 2
+FrankfurtM. 2
+Berlin/Frankfurt/O./Leipzig 1
+Küstrin 2
+Leipzig/Frankfurt/O. 1
+Amsteldam 1
+Bern/Leipzig/Wien 1
+Berlin/Wien 10
+Bern und Zürich 2
+Berlin und Frankfurt a. d. O. 1
+Basel und Aarau 1
+Wien/Prag/Leipzig 8
+Wintherthur 1
+Basel und Arau 1
+Leipzig/Hartenstein im Erzgebirge 1
+Offenbach a.M. 1
+Solothurn? 1
+Wien/Berlin/Leipzig/München 1
+Kandern-Baden 1
+Frankfurt/M./Basel 2
+Zürich, Berlin 1
+Heidekberg 1
+Karlsruhe. 1
+Römhild 4
+Cöthen/Anhalt 1
+Blankenburg 4
+Ziegenrück 1
+Arnsberg 3
+Stolpen/Neustadt 1
+Braunau/Inn 1
+Sorau 1
+Kandern/Baden 1
+Maulbronn 1
+Langen 1
+Marbach a. Neckar 1
+Wien/Köln/Graz 2
+Biberach/Riss 1
+Peking 4
+Helmond/NL 1
+Köln/Barcelona 1
+Königstein im Taunus/Leipzig 2
+Marburg/Amsterdam 1
+Passau 1
+Bresslau 1
+Frankenthal/Mannheim 1
+Berlin u.a. 1
+Erlenbach-Zürich/Stuttgart 2
+Lintorf/Düsseldorf 1
+Leverkusen u. a. 1
+Esslingen 1
+München/Köln 1
+Marburg/Lahn 1
+Neuwied/Rh. 2
+Graz/Wien/Köln 1
+Freiburg/Br, 4
+Budissin/Lausitz 1
+Eger 1
+Schneeberg/Sachsen 1
+Magdeburg/Salzwedel 2
+Garding 1
+Budissin 1
+Reading/Penn, 1
+Glatz 6
+Leitmeritz, Teplitz 1
+Ried 1
+Frankfurt an der Oder 1
+Mondsee 1
+Schneeberg, Schwarzenberg 1
+Lille 2
+Nienburg 3
+schaffhausen 1
+Marienberg/Erzgebirge 1
+Leipzig/Reudnitz 1
+Plauen 1
+Wien/Teschen 1
+Lingen/Ems 1
+Binzen/FReiburg/Weil a. Rh. 1
+Straßburg. 1
+Binzen/Freiburg/Weil a. Rh. 1
+Grimma/leipzig 1
+Winterberg 1
+Stuttgart//Berlin 1
+Stollberg/Erzgeb. 2
+Bradford/GB 1
+Quedlinburg. 1
+Berlin, Frankfurt a. Main. 1
+Schmöllnitz 1
+Speyer u. a. 1
+Offenbach/Frankfurt/Main 1
+Korneuburg 1
+Dublin/New Hampshire 1
+Hamm/Soest 1
+Stuttgart, Dresden, Halle 1
+Stuttgart/Wiesbaden 2
+Opladen 75
+Aachen 3
+Berin/Frankfurt/M. 1
+Berlin/FrankfurtM. 1
+Berlin/Frankfurt/M 1
+Edinburhg 1
+Edinburgh 3
+Edinburg 1
+Suttgart/Baden-Baden 1
+Grenzach-Wylen 1
+FreiburgBr. 11
+Reading 1
+Frankfurt/O./Berlin 1
+Hamburg/Mönkeberg 1
+Frankfurt/O. 1
+Trier 1
+Wien/Paris/London/Zürich 1
+Frankfurt/M./Berlin/Leipzig/Wien 1
+Köln und Neuß 1
+Karlsruhe/Freiburg 1
+Karlsruhe/Br. 2
+Jena, Leipzig 1
+Jen/ Leipzig 1
+Berlin/leipzig 1
+Hellerau 1
+Wien/Hellerau 2
+Charlottenburg 41
+Charlottenburg. 1
+Münster/Westf. 2
+Könisberg/Pr. 1
+Greifswald 1
+Dortmund-Hörde 1
+Giessen 1
+Frankurt/M. 19
+Maransin 2
+Marasin/Berlin 1
+Wien/Berlin/München/Frankfurt/M. 11
+Wien/Berlin/MünchenFrankfurt/M. 1
+Stuttgart/Leipzig 1
+Konstanz/Zürich 1
+Stuuttgart 1
+Seelze 1
+Berlin/Zürich 2
+Reudnitz bei Leipzig 2
+London/Boston 11
+London/New York 2
+Berlin/Breslau 1
+Minden i. W./Leipzig 1
+Hagen i. W./Darmstadt 1
+Hagen i. W. 1
+Bern-Bümpliz 4
+Berlin, Boston 2
+Berlin West 1
+Heilbronn a. Neckar 4
+Basel/Frankfurt a. M. 1
+Heilbronn a. N. 1
+Berlin/Berlin 1
+Berlin/Leipzig/Wien 36
+Stockholm 16
+Berlin/leipzig/Wien 1
+Wien-München 1
+Hamburg und Leipzig 1
+Leipzig und Gera 1
+S-Gravenhage 2
+Berlin/Frankfurt am Main 1
+München/Pasing 1
+Oslo 1
+Frankfurt/M/Wien 1
+Kronberg/Ts. 1
+Berlin/Köln 1
+Frankfurt/M./Berlin/Wien 1
+Frankfurt/M./New York 2
+Frankfurt/M./Hamburg 1
+Neuwied/Rhein/Berlin 2
+Wien/Frankfurt/Zürich 2
+Olten/Freiburg/B. 1
+Michigan 1
+Wien/Stuttgart 3
+Hamburg/Rinbek 1
+Stuttgart/Berlin/Köln/Mainz 1
+FrankfurtMain 1
+Toronto/New York/London 1
+Karlsruhe/Heidelberg 1
+Mainz/München 1
+München/Hamburg 1
+Neuwied/Rhein 1
+Frankfurt/M./Wien 2
+München/Salzburg 1
+Berlin/Bern 1
+Basel/Tübingen 1
+Münschen 1
+Ann Arbor 1
+Frankfurt/M./Bonn 1
+Boston/Toronto 1
+Chicago 1
+Offenbach/M. 1
+Cambridge 1
+San Francisco 1
+Zürich/New York 1
+Den Haag 1
+Olten, Freiburg 1
+Düsseldorf, Wien, New York 1
+Hamburg/Nendeln 1
+Stuttgart/Baden-Baden 7
+Stuttagrt 1
+Stutgart 3
+Paris/Frankfurt/M. 1
+Paris/Frankfurt./M. 1
+Prag/Paris/Frankfurt/M. 1
+Prag/Frankfurt/M. 4
+Berlin/Paris 1
+Bremen/Aurich 2
+Kandern 1
+Chur/Coira 2
