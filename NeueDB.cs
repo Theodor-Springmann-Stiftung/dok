@@ -11,11 +11,11 @@ class NeueDBLibrary {
     public List<Inhalte> Inhalte;
     public List<Orte> Orte;
     public List<Reihen> Reihen;
-    public List<Werke> Werke;
+    public List<Baende> Baende;
     public List<RELATION_InhalteAkteure> RELATION_InhalteAkteure;
-    public List<RELATION_WerkeAkteure> RELATION_WerkeAkteure;
-    public List<RELATION_WerkeOrte> RELATION_WerkeOrte;
-    public List<RELATION_WerkeReihen> RELATION_WerkeReihen;
+    public List<RELATION_BaendeAkteure> RELATION_BaendeAkteure;
+    public List<RELATION_BaendeOrte> RELATION_BaendeOrte;
+    public List<RELATION_BaendeReihen> RELATION_BaendeReihen;
 
     private IEnumerable<DATAFile> _dataFiles;
     private AlteDBLibrary _alteDB;
@@ -82,13 +82,13 @@ class NeueDBLibrary {
     public void namesFromAlmNeu() {
         var orte = new Dictionary<string, Orte>();
         var names = new Dictionary<string, Akteure>();
-        var werkeOrte = new List<RELATION_WerkeOrte>();
-        var werkeAkteure = new List<RELATION_WerkeAkteure>();
+        var werkeOrte = new List<RELATION_BaendeOrte>();
+        var werkeAkteure = new List<RELATION_BaendeAkteure>();
         var exemplare = new List<Exemplare>();
         var reihen = new HashSet<string>();
-        var reihenWerke = new List<RELATION_WerkeReihen>();
+        var reihenBaende = new List<RELATION_BaendeReihen>();
         var reihenwerke = new Dictionary<long, List<string>>();
-        var werke = new Dictionary<long, Werke>();
+        var werke = new Dictionary<long, Baende>();
         var werkeorte = new Dictionary<long, List<string>>();
         var werkedrucker = new Dictionary<long, List<string>>(); 
         var werkehrsg = new Dictionary<long, List<string>>(); 
@@ -132,7 +132,7 @@ class NeueDBLibrary {
                         if (!orte.ContainsKey(o)) {
                             orte.Add(o, new Musenalm.Orte {
                                 ID = 0,
-                                Name = o,
+                                Sortiername = o,
                                 Land = "Deutschland",
                                 Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus Orten (AlmNeu)"
                             });
@@ -179,19 +179,19 @@ class NeueDBLibrary {
                 };
             }
 
-            // Exemplare: Werkbacklink, Biblionr, Autopsie, Status, Anmerkungen(?)
+            // Exemplare: Bandbacklink, Biblionr, Gesichtet, Status, Anmerkungen(?)
             exemplare.Add(new Exemplare() {
                 ID = 0,
-                Werk = n.Value.NUMMER,
+                Band = n.Value.NUMMER,
                 BiblioNr = trimOrNull(n.Value.BIBLIONR),
-                Autopsie = n.Value.AUTOPSIE,
+                Gesichtet = n.Value.AUTOPSIE,
                 Status = status,
             });
 
 
 
-            // Werke: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
-            werke.Add(n.Value.NUMMER, new Musenalm.Werke() {
+            // Baende: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
+            werke.Add(n.Value.NUMMER, new Musenalm.Baende() {
                 ID = n.Value.NUMMER,
                 Sortiertitel = n.Value.ALMTITEL,
                 TitelTranskription = n.Value.ALMTITEL,
@@ -204,7 +204,7 @@ class NeueDBLibrary {
         }
 
         // Orte, Reihen sortieren und Nummern vergeben
-        var ordorte = orte.Values.OrderBy(x => x.Name);
+        var ordorte = orte.Values.OrderBy(x => x.Sortiername);
         var idort = 1;
         foreach (var n in ordorte) {
             n.ID = idort;
@@ -218,8 +218,8 @@ class NeueDBLibrary {
             if (Reihen == null) Reihen = new List<Reihen>();
             Reihen.Add(new Musenalm.Reihen() {
                 ID = idrh,
-                Sortiertitel = n,
-                Reihentitel = String.Join(" ", rname)
+                Sortiername = n,
+                Name = String.Join(" ", rname)
             });
             idrh++;
         }
@@ -227,8 +227,8 @@ class NeueDBLibrary {
         // Relationen setzen
         foreach (var n in werkeorte) {
             foreach (var m in n.Value) {
-                werkeOrte.Add(new Musenalm.RELATION_WerkeOrte() {
-                    Werk = n.Key,
+                werkeOrte.Add(new Musenalm.RELATION_BaendeOrte() {
+                    Band = n.Key,
                     Beziehung = 2, // Erschienen in
                     Ort = orte[m].ID
                 });
@@ -237,8 +237,8 @@ class NeueDBLibrary {
 
         foreach (var n in werkedrucker) {
             foreach (var m in n.Value) {
-                werkeAkteure.Add(new Musenalm.RELATION_WerkeAkteure() {
-                    Werk = n.Key,
+                werkeAkteure.Add(new Musenalm.RELATION_BaendeAkteure() {
+                    Band = n.Key,
                     Beziehung = 7,
                     Akteur = names[m].ID
                 });
@@ -260,8 +260,8 @@ class NeueDBLibrary {
                     Akteure.Add(akteur);
                     idakt++;
                 }
-                werkeAkteure.Add(new Musenalm.RELATION_WerkeAkteure() {
-                    Werk = n.Key,
+                werkeAkteure.Add(new Musenalm.RELATION_BaendeAkteure() {
+                    Band = n.Key,
                     Beziehung = 1,
                     Akteur = akteur.ID
                 });
@@ -270,10 +270,10 @@ class NeueDBLibrary {
 
         foreach (var n in reihenwerke) {
             foreach (var m in n.Value) {
-                var reihe = Reihen.Where(x => x.Sortiertitel == m).FirstOrDefault();
+                var reihe = Reihen.Where(x => x.Sortiername == m).FirstOrDefault();
                 if (reihe != null) {
-                    reihenWerke.Add(new Musenalm.RELATION_WerkeReihen() {
-                        Werk = n.Key,
+                    reihenBaende.Add(new Musenalm.RELATION_BaendeReihen() {
+                        Band = n.Key,
                         Reihe = reihe.ID
                     });
                 }
@@ -283,11 +283,11 @@ class NeueDBLibrary {
         Akteure.AddRange(names.Values);
         if (Orte == null) Orte = new List<Orte>();
         Orte.AddRange(orte.Values);
-        RELATION_WerkeOrte = werkeOrte;
-        RELATION_WerkeAkteure = werkeAkteure;
-        RELATION_WerkeReihen = reihenWerke;
+        RELATION_BaendeOrte = werkeOrte;
+        RELATION_BaendeAkteure = werkeAkteure;
+        RELATION_BaendeReihen = reihenBaende;
         Exemplare = exemplare;
-        Werke = werke.Values.ToList();
+        Baende = werke.Values.ToList();
 
     }
 
@@ -414,56 +414,40 @@ class NeueDBLibrary {
         RELATION_InhalteAkteure = inhAkteure;
     }
 
-    private void SaveFile(string fileroot) {
-        var writer = XmlWriter.Create(fileroot + "Gesamt.xml");
-        XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-        ns.Add("","");
-        writer.WriteStartDocument();
-        writer.WriteStartElement("dataroot");
-        saveDocument<Akteure>(writer, Akteure, ns);
-        saveDocument<Orte>(writer, Orte, ns);
-        saveDocument<Reihen>(writer, Reihen, ns);
-        saveDocument<Werke>(writer, Werke, ns);
-        saveDocument<RELATION_WerkeAkteure>(writer, RELATION_WerkeAkteure, ns);
-        saveDocument<RELATION_WerkeOrte>(writer, RELATION_WerkeOrte, ns);
-        saveDocument<RELATION_WerkeReihen>(writer, RELATION_WerkeReihen, ns);
-        writer.WriteEndDocument();
-        writer.Flush();
-        writer.Close();
-    }
-
     public void Save(string fileroot) {
         if (Directory.Exists(fileroot)) Directory.Delete(fileroot, true);
         Directory.CreateDirectory(fileroot);
-        saveDocument<Akteure>(fileroot + "Akteure_GEN.xml", this.Akteure);
-        saveDocument<Orte>(fileroot + "Orte_GEN.xml", this.Orte);
-        saveDocument<Werke>(fileroot + "Werke_GEN.xml", this.Werke);
-        saveDocument<Reihen>(fileroot + "Reihen_GEN.xml", this.Reihen);
-        saveDocument<RELATION_WerkeOrte>(fileroot + "RelationWerkeOrte_GEN.xml", this.RELATION_WerkeOrte);
-        saveDocument<RELATION_WerkeAkteure>(fileroot + "RelationenWerkeAkteure_GEN.xml", this.RELATION_WerkeAkteure);
-        saveDocument<RELATION_WerkeReihen>(fileroot + "RelationenWerkeReihe_GEN.xml", this.RELATION_WerkeReihen);
         // Order and Save Exemplare
-        var e = this.Exemplare.OrderBy(x => x.Werk);
+        var e = this.Exemplare.OrderBy(x => x.Band);
         var id = 1;
         foreach (var n in e) {
             n.ID = id;
             id ++;
         }
-
-        saveDocument<Exemplare>(fileroot + "Exemplare_GEN.xml", e);
         SaveFile(fileroot);
     }
 
-    private void saveDocument<T>(string filename, IEnumerable<T> coll) {
-        var writer = XmlWriter.Create(filename);
+    private void SaveFile(string fileroot) {
+        var writer = XmlWriter.Create(fileroot + "Gesamt.xml", new XmlWriterSettings() {
+            Indent = true,
+            NewLineOnAttributes = false,
+            NewLineHandling = NewLineHandling.None, 
+        });
         XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
-        ns.Add("","");
+        ns.Add("", "");
+        // ns.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
-        var akteurS = new XmlSerializer(typeof(T));
-        foreach (var n in coll) {
-            akteurS.Serialize(writer, n, ns);
-        }
+        writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
+        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "../muster/Schema.xsd");
+        saveDocument<Akteure>(writer, Akteure, ns);
+        saveDocument<Orte>(writer, Orte, ns);
+        saveDocument<Reihen>(writer, Reihen, ns);
+        saveDocument<Baende>(writer, Baende, ns);
+        saveDocument<RELATION_BaendeAkteure>(writer, RELATION_BaendeAkteure, ns);
+        saveDocument<RELATION_BaendeOrte>(writer, RELATION_BaendeOrte, ns);
+        saveDocument<RELATION_BaendeReihen>(writer, RELATION_BaendeReihen, ns);
+        saveDocument<Exemplare>(writer, Exemplare, ns);
         writer.WriteEndDocument();
         writer.Flush();
         writer.Close();
@@ -484,6 +468,9 @@ class NeueDBLibrary {
 
 [XmlRoot("Akteure")]
 public class Akteure {
+    // [XmlAttribute(Namespace = "http://www.w3.org/2001/XMLSchema-instance")]
+    // public string noNamespaceSchemaLocation = "../muster/Akteure.xsd";
+
     [XmlElement]
     public long ID;
     [XmlElement]
@@ -491,7 +478,7 @@ public class Akteure {
     [XmlElement]
     public string? OrgName;
     [XmlElement]
-    public string Sortiername;
+    public string? Sortiername;
     [XmlElement]
     public string? Lebensdaten;
     [XmlElement]
@@ -502,6 +489,8 @@ public class Akteure {
     public string? Anmerkungen;
     [XmlElement]
     public string? GND;
+    [XmlElement]
+    public string? KSortiername;
 
     public bool ShouldSerializeName() => !String.IsNullOrWhiteSpace(Name);
     public bool ShouldSerializeOrgName() => !String.IsNullOrWhiteSpace(OrgName);
@@ -510,18 +499,24 @@ public class Akteure {
     public bool ShouldSerializePseudonyme() => !String.IsNullOrWhiteSpace(Pseudonyme);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
     public bool ShouldSerializeGND() => !String.IsNullOrWhiteSpace(GND);
+    public bool ShouldSerializeSortiername() => !String.IsNullOrWhiteSpace(Sortiername);
+    public bool ShouldSerializeksortiername() => !String.IsNullOrWhiteSpace(KSortiername);
 }
 
 [XmlRoot("Exemplare")]
 public class Exemplare {
+    // [XmlAttribute(Namespace = "http://www.w3.org/2001/XMLSchema-instance")]
+    // [XmlAttribute("xsi:noNamespaceSchemaLocation")]
+    // public string noNamespaceSchemaLocation = "../muster/Exemplare.xsd";
+
     [XmlElement]
     public long ID;
     [XmlElement]
-    public long Werk;
+    public long Band;
     [XmlElement("Biblio-Nr")]
     public string? BiblioNr;
     [XmlElement]
-    public bool Autopsie;
+    public bool Gesichtet;
     [XmlElement]
     public Status[]? Status;
     [XmlElement]
@@ -530,10 +525,13 @@ public class Exemplare {
     public string? StandortSignatur;
     [XmlElement]
     public string? Anmerkungen;
+    [XmlElement]
+    public string? Struktur;
 
     public bool ShouldSerializeBiblioNr() => !String.IsNullOrWhiteSpace(BiblioNr);
     public bool ShouldSerializeStatus() => Status != null;
     public bool ShouldSerializeURL() => !String.IsNullOrWhiteSpace(URL);
+    public bool ShouldSerializeStruktur() => !String.IsNullOrWhiteSpace(Struktur);
     public bool ShouldSerializeStandortSignatur() => !String.IsNullOrWhiteSpace(StandortSignatur);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
@@ -544,41 +542,54 @@ public class Status {
     public string? Value;
 }
 
+[XmlRoot("Typ")]
+public class Typ {
+    [XmlElement]
+    public string? Value;
+}
+
+[XmlRoot("Paginierung")]
+public class Paginierung {
+    [XmlElement]
+    public string? Value;
+}
+
 [XmlRoot("Inhalte")]
 public class Inhalte {
     [XmlElement]
     public long ID;
     [XmlElement]
-    public long Werk;
-    [XmlElement]
-    public string? Sortiertitel;
+    public long Band;
+
     [XmlElement("Titel-Transkription")]
     public string? TitelTranskription;
     [XmlElement("Autor-Transkription")]
     public string? AutorTranskription;
     [XmlElement]
-    public string? Paginierung;
+    public Paginierung? Paginierung;
     [XmlElement]
     public string? Seite;
     [XmlElement]
-    public string? Incipit;
+    public string? IncipitTranskription;
     [XmlElement]
     public string? Anmerkungen;
     [XmlElement]
-    public string? Typ;
+    public Typ[]? Typ;
     [XmlElement]
     public bool? Digitalisat;
     [XmlElement]
     public string? Objektnummer;
+    [XmlElement]
+    public string? KSortiertitel;
 
-    public bool ShouldSerializeSortiertitel() => !String.IsNullOrWhiteSpace(Sortiertitel);
+    public bool ShouldSerializeKSortiertitel() => !String.IsNullOrWhiteSpace(KSortiertitel);
     public bool ShouldSerializeTitelTranskription() => !String.IsNullOrWhiteSpace(TitelTranskription);
     public bool ShouldSerializeAutorTranskription() => !String.IsNullOrWhiteSpace(AutorTranskription);
-    public bool ShouldSerializePaginierung() => !String.IsNullOrWhiteSpace(Paginierung);
+    public bool ShouldSerializePaginierung() => Paginierung != null;
     public bool ShouldSerializeSeite() => !String.IsNullOrWhiteSpace(Seite);
-    public bool ShouldSerializeIncipit() => !String.IsNullOrWhiteSpace(Incipit);
+    public bool ShouldSerializeIncipitTranskription() => !String.IsNullOrWhiteSpace(IncipitTranskription);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
-    public bool ShouldSerializeTyp() => !String.IsNullOrWhiteSpace(Typ);
+    public bool ShouldSerializeTyp() => Typ != null;
     public bool ShouldSerializeObjektnummer() => !String.IsNullOrWhiteSpace(Objektnummer);
 }
 
@@ -587,7 +598,9 @@ public class Orte {
     [XmlElement]
     public long ID;
     [XmlElement]
-    public string? Name;
+    public string? Sortiername;
+    [XmlElement]
+    public string? KSortiername;
     [XmlElement]
     public string? Land;
     [XmlElement]
@@ -595,7 +608,8 @@ public class Orte {
     [XmlElement]
     public string? Anmerkungen;
 
-    public bool ShouldSerializeName() => !String.IsNullOrWhiteSpace(Name);
+    public bool ShouldSerializeSortiername() => !String.IsNullOrWhiteSpace(Sortiername);
+    public bool ShouldSerializeKSortiername() => !String.IsNullOrWhiteSpace(KSortiername);
     public bool ShouldSerializeLand() => !String.IsNullOrWhiteSpace(Land);
     public bool ShouldSerializeGeoNames() => !String.IsNullOrWhiteSpace(GeoNames);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
@@ -606,19 +620,22 @@ public class Reihen {
     [XmlElement]
     public long ID;
     [XmlElement]
-    public string? Reihentitel;
+    public string? Name;
     [XmlElement]
-    public string? Sortiertitel;
+    public string? Sortiername;
+    [XmlElement]
+    public string? KSortiername;
     [XmlElement]
     public string? Anmerkungen;
 
-    public bool ShouldSerializeReihentitel() => !String.IsNullOrWhiteSpace(Reihentitel);
+    public bool ShouldSerializeReihentitel() => !String.IsNullOrWhiteSpace(Name);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
-    public bool ShouldSerializeSortiertitel() => !String.IsNullOrWhiteSpace(Sortiertitel);
+    public bool ShouldSerializeSortiertitel() => !String.IsNullOrWhiteSpace(Sortiername);
+    public bool ShouldSerializeKSortiertitel() => !String.IsNullOrWhiteSpace(KSortiername);
 }
 
-[XmlRoot("Werke")]
-public class Werke {
+[XmlRoot("Baende")]
+public class Baende {
     [XmlElement]
     public long ID;
     [XmlElement]
@@ -637,10 +654,13 @@ public class Werke {
     public string? Nachweis;
     [XmlElement]
     public string? Anmerkungen;
+    [XmlElement]
+    public string? KSortiertitel;
 
     public bool ShouldSerializeJahr() => Jahr != null;
     public bool ShouldSerializeAusgabe() => Ausgabe != null;
     public bool ShouldSerializeSortiertitel() => !String.IsNullOrWhiteSpace(Sortiertitel);
+    public bool ShouldSerializeKSortiertitel() => !String.IsNullOrWhiteSpace(KSortiertitel);
     public bool ShouldSerializeTitelTranskription() => !String.IsNullOrWhiteSpace(TitelTranskription);
     public bool ShouldSerializeOrtTranskription() => !String.IsNullOrWhiteSpace(OrtTranskription);
     public bool ShouldSerializeStruktur() => !String.IsNullOrWhiteSpace(Struktur);
@@ -662,10 +682,10 @@ public class RELATION_InhalteAkteure {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Werke-Akteure")]
-public class RELATION_WerkeAkteure {
+[XmlRoot("*RELATION_Baende-Akteure")]
+public class RELATION_BaendeAkteure {
     [XmlElement]
-    public long Werk;
+    public long Band;
     [XmlElement]
     public long Beziehung;
     [XmlElement]
@@ -676,10 +696,10 @@ public class RELATION_WerkeAkteure {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Werke-Reihen")]
-public class RELATION_WerkeReihen {
+[XmlRoot("*RELATION_Baende-Reihen")]
+public class RELATION_BaendeReihen {
     [XmlElement]
-    public long Werk;
+    public long Band;
     [XmlElement]
     public long Reihe;
     [XmlElement]
@@ -688,10 +708,10 @@ public class RELATION_WerkeReihen {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Werke-Orte")]
-public class RELATION_WerkeOrte {
+[XmlRoot("*RELATION_Baende-Orte")]
+public class RELATION_BaendeOrte {
     [XmlElement]
-    public long Werk;
+    public long Band;
     [XmlElement]
     public long Beziehung;
     [XmlElement]
