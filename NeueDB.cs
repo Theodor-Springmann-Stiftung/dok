@@ -10,7 +10,7 @@ class NeueDBLibrary {
         new string [] { "Corrigenda" }, 
         new string [] { "Diagramm" }, 
         new string [] { "Gedicht/Lied", "Gedicht" }, 
-        new string [] { "Graphik" }, 
+        new string [] { "Graphik", "Graphik/Tafel" }, 
         new string [] { "Graphik-Verzeichnis", "G-Verz" }, 
         new string [] { "graph. Anleitung" }, 
         new string [] { "graph. Strickanleitung" }, 
@@ -27,7 +27,7 @@ class NeueDBLibrary {
         new string [] { "Spiegel" }, 
         new string [] { "szen. Darstellung" }, 
         new string [] { "Tabelle" }, 
-        new string [] { "Tafel" }, 
+        new string [] { "Tafel", "Graphik/Tafel" }, 
         new string [] { "Titel" }, 
         new string [] { "Text" }, 
         new string [] { "Trinkspruch" }, 
@@ -251,10 +251,7 @@ class NeueDBLibrary {
             var ausg = 1;
             if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
                 var m = rgxausgabe.Matches(n.Value.REIHENTITEL);
-                if (m != null && m.Count > 0) {
-                    _logSink.LogLine("Match in " + n.Value.REIHENTITEL + ": " + m.Last().ToString());
-                    ausg = Int32.Parse(m.Last().ToString());
-                }
+                if (m != null && m.Count > 0) ausg = Int32.Parse(m.Last().ToString());
             }
 
             // Baende: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
@@ -367,13 +364,43 @@ class NeueDBLibrary {
         var toparse = _alteDB.INHTab;
         var inaut = new Dictionary<long, List<string>>();
         var ingra = new Dictionary<long, List<string>>();
+        var intyp = new Dictionary<long, List<Typ>>();
+        var inpag = new Dictionary<long, List<Paginierung>>();
         var inhAkteure = new List<RELATION_InhalteAkteure>();
         var inhalte = new List<Inhalte>();
         var idakt = Akteure.Count + 1;
         foreach (var n in toparse) {
             // Seite
             string? seite = n.Value.SEITE != null ? n.Value.SEITE.Split(".").First() : null;
+
+            // Typ
+            if (n.Value.OBJEKT != null) {
+                var tcomposite = n.Value.OBJEKT.Split(new string[] {" "}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                foreach (var typ in TYP) {
+                    foreach (var tc in tcomposite) {
+                        foreach (var s in typ) {
+                            if (tc.Contains(s)) {
+                                if (!intyp.ContainsKey(n.Value.INHNR)) intyp.Add(n.Value.INHNR, new List<Typ>());
+                                intyp[n.Value.INHNR].Add(new Typ() { Value = typ.First() });
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
             
+            //Paginierung TODO Bug
+            string? pag = null;
+            if (!String.IsNullOrWhiteSpace(n.Value.PAG)) {
+                foreach (var p in PAG) {
+                    if (n.Value.PAG.Contains(p)) {
+                        pag = p;
+                    }
+                }
+                if (pag == null) {
+                    _logSink.LogLine("Paginierung " + n.Value.PAG + ", INHNR " + n.Value.INHNR + " unzulässig.");
+                }
+            }
             
             // Graphiker:innen
             if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME)) {
@@ -402,6 +429,8 @@ class NeueDBLibrary {
                 Anmerkungen = n.Value.ANMERKINH,
                 Objektnummer = n.Value.OBJZAEHL,
                 Seite = seite,
+                Paginierung = pag,
+                Typ = intyp.ContainsKey(n.Value.INHNR) ? intyp[n.Value.INHNR].ToArray() : null, 
                 Digitalisat = n.Value.BILD
             });
         }
@@ -662,7 +691,7 @@ public class Inhalte {
     [XmlElement]
     public string? AutorTranskription;
     [XmlElement]
-    public Paginierung? Paginierung;
+    public string? Paginierung;
     [XmlElement]
     public string? Seite;
     [XmlElement]
