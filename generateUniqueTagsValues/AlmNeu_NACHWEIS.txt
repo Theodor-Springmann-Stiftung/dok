@@ -15,7 +15,7 @@ nicht bei K; L/R 190 1
 K 137; L/R 189; Goed VIII. 60, 61 2
 K 66; L/R 55; Goed VIII. 60, 58 11
 nicht bei K; nicht bei L/R 743
-K 154; L/R 15 41
+K 154; L/R 15 42
 K 80; L/R 32; Goed V. 198, 2 1
 K 80; L/R 32; Goed V. 204, 4 1
 K 136; nicht bei L/R; Goed VIII. 121, 306 1
@@ -28,7 +28,6 @@ K 85; L/R 26; Goed IV/1. 946, 3 1
 K 85; L/R 26; Goed IV/1. 950, 4 25
 nicht bei K; nicht bei L/R; Goed VI. 310, 21 2
 K 26; K 150; K 152; L/R 101; Goed VIII. 42, 3 a u. b 57
-Jah 1
 K 7; K 154; L/R 15 20
 K 14; L/R 28; Goed IV/1. 944, 1 13
 K 122; L/R 20; Goed VI. 309, 13 9

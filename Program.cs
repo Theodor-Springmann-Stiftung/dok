@@ -6,14 +6,15 @@ using Musenalm;
 using System.Xml.Serialization;
 using System.Xml;
 
-const string DATASOURCE = "./daten_2023-05-19/";
+const string DATASOURCE = "./daten_2023-05-25/";
 
 var log = LogSink.Instance;
 log.SetFile("./log.txt");
 var data = getDATA();
 var oldDB = new AlteDBLibrary(data);
-var newDB = new NeueDBLibrary(data, oldDB);
-newDB.Save("./generated/");
+generateUniqueTagsValues(data);
+// var newDB = new NeueDBLibrary(data, oldDB);
+// newDB.Save("./generated/");
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATASOURCE;

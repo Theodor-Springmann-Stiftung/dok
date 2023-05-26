@@ -108,39 +108,6 @@ Gotter, Friedrich Wilhelm 81
 Gemmingen, Eberhard Friedrich von 18
 Eschenburg, Johann Joachim 39
 Baggesen, Jens Immanuel 79
-Lafontaine, August Heinrich Julius 63
-Halem, Gerhard Anton von 204
-Zimmermann, Eberhard August Wilhelm (von) 133
-Weiß, Friedrich Wilhelm 27
-Gleim, Johann Wilhelm Ludwig 500
-Stolberg-Stolberg, Friedrich Leopold zu 159
-Engelschall, Joseph Friedrich 74
-Senf, Heinrich Christian Lebrecht 29
-Meyer, Friedrich Ludwig Wilhelm 134
-Salis-Seewis, Johann Gaudenz von 90
-Hölty, Ludwig Christoph Heinrich 88
-Claudius, Matthias 62
-Schmit, Friedrich 34
-Forkel, Johann Nikolaus 12
-Thomsen, Johann Hinrich 11
-Michaelis, Johann Benjamin 69
-Dusch, Johann Jakob 2
-Hahn, Johann Friedrich 5
-Storch, Ludwig 107
-Münk, Josephine von 9
-Chodowiecki, Daniel Nikolaus u. Heidenreich, J. D. 11
-Brun, Friederike 48
-Langbein, August Friedrich Ernst 414
-Koreff, Johann Ferdinand 59
-Bouterwek, Friedrich (1) 97
-Müller, Wilhelm (1) 234
-Overbeck, Christian Adolf 134
-Ramler, Karl Wilhelm 91
-Chodowiecki, Daniel Nikolaus 718
-Nicolay, Ludwig Heinrich von 42
-Rückert, Friedrich 1627
-Sangerhausen, Christoph Friedrich 32
-Schulz, Eduard 93
 Mauch, Johann Mathäus u. Cooke, George 18
 Wolf, Ludwig u. Jury, Wilhelm 32
 Ramberg, Johann Heinrich u. Jury, Wilhelm 333
@@ -149,15 +116,19 @@ Tieck, Johann Ludwig 96
 Ritter, Karl 5
 Latour, Alexandre de u. Hüssener, Auguste 1
 Langer, Karl Edmund 28
+Storch, Ludwig 107
 Wächter, Eberhard u. Lips, Johann Heinrich 12
 Catel, Franz Ludwig u. Bollinger, Friedrich Wilhelm 8
 Prutz, Robert Eduard 50
 Müller, Friedrich (Maler Müller) 32
 Miller, Johann Martin 93
 Elwert, Anselm 29
+Salis-Seewis, Johann Gaudenz von 90
 Gramberg, Gerhard Anton 39
 Albrecht, Sophie 36
 Schwab, Gustav 250
+Müller, Wilhelm (1) 234
+Rückert, Friedrich 1627
 Chézy, Helmina von 206
 Brockhaus, Friedrich Arnold 18
 Streckfuß, Karl 127
@@ -182,8 +153,11 @@ Catel, Franz Ludwig u. Ramberg, F. 14
 Catel, Franz Ludwig u. Kohl, Clemens 6
 Hess, Ludwig u. Geßner, Salomon 10
 Catel, Franz Ludwig 28
+Claudius, Matthias 62
 Bach, Carl Philipp Emanuel 11
 Brückner, Ernst Theodor Johann 52
+Stolberg-Stolberg, Friedrich Leopold zu 159
+Hölty, Ludwig Christoph Heinrich 88
 Hugo, Victor; Schwab, Gustav 6
 Schlotthauer, Joseph u. Barth, Karl 1
 Swebach, Edouard u. Frommel, Carl Ludwig 1
@@ -195,9 +169,13 @@ Fridrich, Karl Julius 97
 Pape, Samuel Christian 45
 Schink, Johann Friedrich 167
 Reinwald, Wilhelm Friedrich Hermann 42
+Halem, Gerhard Anton von 204
+Engelschall, Joseph Friedrich 74
 Justi, Karl Wilhelm 171
+Brun, Friederike 48
 Conz, Karl Philipp 367
 Tiedge, Christoph August 229
+Gleim, Johann Wilhelm Ludwig 500
 Weisser, Friedrich Christoph 172
 Reinbeck, Georg von 36
 Voltz, Johann Michael u. Portman, Ludwig Gottl. 7
@@ -216,6 +194,7 @@ Haudebourt-Lescot, Antoinette Cécile Hortense u. Hessloehl, Wilhelm 2
 Jaquemot, Georges Francois 2
 Schmidt, Friedrich Wilhelm August (von Werneuchen) 402
 Jerusalem, Friederike Magdalene 5
+Sangerhausen, Christoph Friedrich 32
 Raufseysen, Philipp Ernst 3
 Wolf, Ludwig u. Jügel, Friedrich 15
 Remekházy, Josephine von 14
@@ -223,12 +202,14 @@ Artner, Maria Therese von 48
 Heinse, Johann Jakob Wilhelm 5
 Hebel, Johann Peter 47
 Usteri, Johann Martin 13
+Münk, Josephine von 9
 Frankl, Ludwig August 174
 Payne, Albert Henry 6
 Maradan, Francois 1
 Diericke, Friedrich Otto von 1
 Mereau, Sophie 48
 Hölderlin, Friedrich 67
+Michaelis, Johann Benjamin 69
 Denis, Johann Nepomuk Cosmas Michael 55
 Hymmen, Johann Wilhelm Bernhard von 1
 Schuler, Edouard 49
@@ -238,13 +219,16 @@ Münchhausen, Karl Ludwig August von 98
 Pockels, Karl Friedrich 56
 Rudolphi, Karoline Christiane Luise 30
 Wieland, Christoph Martin 37
+Forkel, Johann Nikolaus 12
 Fernow, Karl Ludwig 25
 Meyer, Friedrich Albrecht Anton 13
 Heydenreich, Karl Heinrich 16
 Heeren, Arnold Hermann Ludwig 12
+Chodowiecki, Daniel Nikolaus 718
 Ratschky, Joseph Franz von u. Blumauer, Johann Aloys 1
 Schenk, Johann 5
 Butler, Samuel; Soltau, Diedrich Wilhelm 3
+Meyer, Friedrich Ludwig Wilhelm 134
 Füßli, Johann Heinrich 3
 Voigt, Amalie Henriette Caroline von 13
 Rösel, Johann Gottlob Samuel u. Cooke, George 3
@@ -306,6 +290,7 @@ Benda, Friedrich Ludwig 8
 Meil, Johann Heinrich (d. Ä.) 38
 Nöller, Jonathan Ludwig Lebrecht 46
 Stolberg-Stolberg, Christian zu 30
+Schmit, Friedrich 34
 Catel, Franz Ludwig u. Jury, Wilhelm 6
 Catel, Franz Ludwig u. Haas, Meno 5
 Meyer, Friedrich Wilhelm (d. Ä.) 5
@@ -335,10 +320,13 @@ Blumröder, Johann August Friedrich 3
 Clodius, Christian August Heinrich 12
 Blechen, Karl u. Frommel, Carl Ludwig 3
 Blechen, Karl u. Martini, Johann Georg 3
+Bouterwek, Friedrich (1) 97
 Mayer, Carl u. Mahlknecht, Karl 13
 Münch-Bellinghausen, Eligius von 68
 Catel, Franz Ludwig u. Bolt, Johann Friedrich 3
 Smirke, Robert u. Kohl, Clemens 1
+Lafontaine, August Heinrich Julius 63
+Zimmermann, Eberhard August Wilhelm (von) 133
 Raffael. Santi, Raffaelo u. Wagner, Friedrich 3
 Martin, Karl 44
 Tischbein, Wilhelm u. Rossmäßler, Friedrich 2
@@ -384,6 +372,7 @@ Maurer, Hans Rudolf 2
 Hogarth, William 2
 Mailáth, Johann von u. Saphir, Sigmund 2
 Lavater, Johann Kaspar 19
+Langbein, August Friedrich Ernst 414
 Kollmann, August Friedrich Christoph 5
 Berlepsch, Emilie von 11
 Rüling, Georg Ernst von 3
@@ -391,12 +380,16 @@ Jacobi, Johann Georg; Stolberg-Stolberg, Friedrich Leopold zu 2
 Fritzsch, Johann Christian Gottfried 10
 Becker, Wilhelm Gottlieb 139
 Naumann, Johann Gottlieb 41
+Senf, Heinrich Christian Lebrecht 29
 Bechtolsheim, Julie von 14
+Weiß, Friedrich Wilhelm 27
 Barabás, Miklos u. Payne, Albert Henry 1
 Schlechta von Wschehrd, Camillo Franz Karl Adam 7
 Beck, Karl 4
 Sotzmann, Daniel Friedrich u. Jättnig, Karl (1.) 1
 Hensel, Wilhelm 22
+Koreff, Johann Ferdinand 59
+Chodowiecki, Daniel Nikolaus u. Heidenreich, J. D. 11
 Sotzmann, Daniel Friedrich 11
 Carstens, Frederik Christian 4
 Frisch, Johann Christoph u. Carstens, Frederik Christian 1
@@ -428,6 +421,7 @@ Altdorfer, Johann Jakob 2
 Cronegk, Johann Friedrich von 2
 Krauseneck, Johann Christoph 44
 Werthes, Friedrich August Clemens 10
+Overbeck, Christian Adolf 134
 Mayer, Carl u. Bogner, Anton 1
 Meyerheim, Eduard 1
 Roberts, David u. Payne, Albert Henry 1
@@ -437,6 +431,7 @@ Prechtler, Otto (eig. Johann Jacob) 81
 Zachariä, Just Friedrich Wilhelm 21
 Hegrad, Friedrich 10
 Schwenke, Christian Friedrich Gottlieb 6
+Nicolay, Ludwig Heinrich von 42
 Biermann, Eduard u. Sagert, Hermann 7
 Waesemann, Herrmann Friedrich u. Schulin, Carl 1
 Biermann, Eduard u. Fincke, Hans 7
@@ -444,6 +439,9 @@ Catel, Franz Ludwig u. Lemire, Noël 2
 Catel, Franz Ludwig u. Texier, G. 1
 Ruhl, Ludwig Sigismund 7
 Seume, Johann Gottfried 9
+Thomsen, Johann Hinrich 11
+Dusch, Johann Jakob 2
+Hahn, Johann Friedrich 5
 Raumer, Friedrich von 1
 Casanova, Giacomo Jacopo; Schütz, Christian Wilhelm von 7
 Platen-Hallermünde, August von 98
@@ -488,6 +486,7 @@ Ahlefeld, Charlotte Louise von 34
 Mahlmann, Siegfried August 90
 Geßner, Conrad u. Meyer, Johann Heinrich 3
 Hess, Ludwig u. Meyer, Johann Heinrich 11
+Ramler, Karl Wilhelm 91
 Einsle, Anton u. Mahlknecht, Karl 1
 Geiger, Peter Johann Nepomuk u. Axmann, Josef u. Zastera, Franz 1
 Ariosto, Lodovico; Streckfuß, Karl 1
@@ -523,16 +522,10 @@ Hübner, Eberhard Friedrich 9
 Hiemer, Franz Karl 15
 Thouret, Nicolaus Friedrich u. Guttenberg, Heinrich 1
 Zumsteeg, Johann Rudolph 11
+Schulz, Eduard 93
 Crome, Ludwig Gottlieb 4
 Löwen, Johann Friedrich 12
 Woltmann, Karl Ludwig 13
-Sander, Levin Christian 20
-Suckow, Carl Adolph 3
-Miltitz, Carl Borromäus von 27
-Schatz, Georg 6
-Stäudlin, Gotthold Friedrich 46
-Lang, Friedrich Karl 60
-Mahlknecht, Karl 6
 Kuffner, Christoph 185
 Stocks, Lumb 1
 Ploennies, Luise von 27
@@ -545,11 +538,18 @@ Becker, Gotthelf Wilhelm Rupert 7
 Franz, Agnes 107
 Fischer, Gottlob Nathanael 12
 Manso, Johann Caspar Friedrich 32
+Sander, Levin Christian 20
 Spalding, Georg Ludwig 11
 Bacheracht, Therese von 4
 Werner, Friedrich Ludwig Zacharias 46
 Seegemund, Johann Georg 54
 Schadow, Wilhelm 1
+Suckow, Carl Adolph 3
+Miltitz, Carl Borromäus von 27
+Schatz, Georg 6
+Stäudlin, Gotthold Friedrich 46
+Lang, Friedrich Karl 60
+Mahlknecht, Karl 6
 Minutoli, Julius u. Hüssener, Auguste 1
 Minutoli, Julius u. Fincke, Hans 6
 Minutoli, Julius u. Frommel, Carl Ludwig 2
@@ -584,11 +584,6 @@ Schlez, Friederike Dorothea 4
 Gerstäcker, Friedrich 6
 Begas, Karl u. Teichel, Albert 1
 Gluck, Christoph Willibald 7
-Campe, Joachim Heinrich 5
-Bornhardt, Johann Heinrich Karl 2
-Küffner, Abraham Wolfgang 241
-Posselt, Ernst Ludwig 172
-Endner, Gustav Georg 31
 Cramer, Johann Andreas 5
 Lichtensteger, Georg 1
 Tischbein, Wilhelm u. Schwerdgeburth, Karl August 1
@@ -625,7 +620,9 @@ Immermann, Karl Lebrecht 29
 Passy, Anton 9
 Vermehren, Johann Bernhard 83
 Schönfeld, Franz Thomas von 14
+Küffner, Abraham Wolfgang 241
 Vogel, Georg 5
+Posselt, Ernst Ludwig 172
 Lips, Johann Heinrich u. Falkeisen, Johann Jakob 1
 Devillers, George u. Dambrun, Jean 1
 Lips, Johann Heinrich u. Villerey, Antoine Claude François 1
@@ -639,6 +636,8 @@ Döring, Georg Christian Wilhelm Asmus 82
 Voigts, Friedrich 4
 Leybold, Karl Jacob Theodor u. Wölfle, Johann u. Schuler, Edouard 1
 Kannegiesser, Karl Friedrich Ludwig 48
+Campe, Joachim Heinrich 5
+Bornhardt, Johann Heinrich Karl 2
 Lessing, Gotthold Ephraim 52
 Thümmel, Moritz August von 26
 Catel, Franz Ludwig u. Boutrois, Philibert 1
@@ -658,6 +657,7 @@ Opiz, Georg Emanuel u. Hofmann, Michael 13
 Beaume, Joseph u. Schuler, Edouard 1
 Arndt, Ernst Moritz 126
 Schubert, Johann David 103
+Endner, Gustav Georg 31
 Beireis, Gottfried Christoph 4
 Turpin de Crissé, Lancelot Théodore u. Poppel, Johann Gabriel Friedrich 1
 Hess, Peter von 1
@@ -709,18 +709,13 @@ Meyer, Heinrich u. Boettger, Johann Gottlieb 5
 Zingg, Adrian u. Darnstedt, Johann Adolph 80
 Guérin, Jean Urbain u. Küffner, Abraham Wolfgang 1
 Zschiedrich, Carl August 30
-Schmidt, Georg Philipp (von Lübeck) 120
-Bergt, Christian Gottlob August 28
-Pannenberg, Friedrich Wilhelm 28
-Demme, Hermann Christoph Gottfried 12
-Schnorr von Carolsfeld, Hans Veit u. Kohl, Clemens 18
-Schnorr von Carolsfeld, Hans Veit u. Haas, Meno 10
 Füger, Friedrich Heinrich u. Geyser, Christian Gottlieb 1
 Engel, Johann Jakob 6
 Bodmer, Johann Jakob 2
 Schmidt, Siegfried 17
 Forbes, James u. Riepenhausen, Ernst Ludwig 4
 Böhlendorff, Kasimir Ulrich 53
+Schmidt, Georg Philipp (von Lübeck) 120
 Händel, Georg Friedrich 1
 Mylius, Wilhelm Christhelf Siegmund 1
 Lenz, Ludwig Friedrich 1
@@ -729,6 +724,7 @@ Baggesen, Jens Immanuel; Voß, Johann Heinrich 1
 Ludwig, Christiane Sophie 1
 Schnorr von Carolsfeld, Hans Veit u. Endner, Gustav Georg 2
 Schnorr von Carolsfeld, Hans Veit u. Schule, Christian 2
+Pannenberg, Friedrich Wilhelm 28
 Siegfried, Johann Samuel 1
 Gramberg, Gerhard Anton Hermann 221
 Wezel, Johann Karl 5
@@ -743,6 +739,7 @@ Laguna, Johannes Alois Martini 15
 Ramberg, Johann Heinrich u. Riepenhausen, Ernst Ludwig 6
 Schiebeler, Daniel 5
 Gröger, Friedrich Karl 1
+Bergt, Christian Gottlob August 28
 Lichtwer, Magnus Gottfried 5
 Schule, Christian 8
 Opiz, Georg Emanuel u. Villerey, Antoine Claude François 3
@@ -753,6 +750,7 @@ Schlosser, Johann Georg 5
 Dähling, Heinrich Anton u. Schmidt, Heinrich Friedrich Thomas 4
 Abeken, Bernhard Rudolph 2
 Opiz, Georg Emanuel u. Prot 2
+Schnorr von Carolsfeld, Hans Veit u. Kohl, Clemens 18
 Haugwitz, Otto von 77
 Nahl, Johann August (d. J.) u. Darnstedt, Johann Adolph 3
 Castelli, Ignaz Vinzenz Franz 439
@@ -782,6 +780,7 @@ Seydelmann, Franz 19
 Correggio. Allegri, Antonio u. Demiani, Carl Friedrich u. Krüger, Ephraim Gottlieb 2
 Dähling, Heinrich Anton 13
 Dähling, Heinrich Anton u. Schwerdgeburth, Karl August 4
+Demme, Hermann Christoph Gottfried 12
 Dolci, Carlo u. Schmidt, Heinrich Friedrich Thomas 1
 Kanngießer, Peter Friedrich 2
 Hensch, Gotthilf Friedrich u. Geyser, Christian Gottlieb 1
@@ -792,6 +791,7 @@ Naeke, Gustav Heinrich u. Schmidt, Heinrich Friedrich Thomas 5
 Roller, Franz Anton 121
 Ramberg, Johann Heinrich u. Schmidt, Heinrich Friedrich Thomas 64
 Ramberg, Johann Heinrich u. Böhm, Amadeus Wenzel 87
+Schnorr von Carolsfeld, Hans Veit u. Haas, Meno 10
 Schubart, Christian Friedrich Daniel 28
 Hausius, Karl Gottlob 21
 Jünger , Johann Friedrich 13
@@ -806,15 +806,6 @@ Hurka, Friedrich Franz 2
 Reinhardt, Karl Heinrich Leopold 9
 Mangot, Jakob 3
 Naeke, Gustav Heinrich u. Jury, Wilhelm 3
-Rolffsen, Franz Nikolaus 5
-Schuricht, Christian Friedrich 4
-Lewis, James 2
-Brandt, Johann Heinrich 7
-Hegi, Franz 41
-Schreiber, Aloys Wilhelm 344
-Swan, Abraham 6
-Niemeyer, Johann Christian Ludwig 15
-Leichtlen, Ernst Julius 1
 Vogel von Vogelstein, Carl Christian u. Coupé, Antoine-Jean-Baptiste 1
 Opiz, Georg Emanuel u. Delvaux, Marie Auguste 2
 Opiz, Georg Emanuel u. Adam, Jean Nicolas 2
@@ -873,6 +864,11 @@ Schwerdgeburth, Karl August 25
 Kolbe, Carl Wilhelm (d. J.) u. Rossmäßler, Friedrich 4
 Opiz, Georg Emanuel u. Zumpe, Gustav Adolph Ludwig 4
 Vogel von Vogelstein, Carl Christian 1
+Rolffsen, Franz Nikolaus 5
+Schuricht, Christian Friedrich 4
+Lewis, James 2
+Brandt, Johann Heinrich 7
+Hegi, Franz 41
 Ramberg, Johann Heinrich u. Schwerdgeburth, Karl August 70
 Batsányi, Gabriele von; geb. Baumberg von 5
 Reil, Johann Anton Friedrich 17
@@ -891,6 +887,7 @@ Maratti, Carlo u. John, Friedrich 1
 Seckendorff-Aberdar, Franz Karl Leopold von 37
 Raffael. Santi, Raffaelo u. Karcher, Anton 2
 Riem, Friedrich Wilhelm 10
+Schreiber, Aloys Wilhelm 344
 Gareis, Franz Peter Paul u. Stölzel, Christian Friedrich 2
 Schnorr von Carolsfeld, Hans Veit u. Darnstedt, Johann Adolph 4
 Jünger, Johann Friedrich 15
@@ -900,9 +897,12 @@ Swoboda, Wenzel Alois 5
 Seifried, Karl Heinrich 8
 Rese, Johann Carl August 72
 Nostitz-Jänkendorf, Klotilde Septimie von 12
+Swan, Abraham 6
 Schenk, Eduard von 51
 Jacobi, Friedrich Heinrich 222
 Schneider, Friedrich 11
+Niemeyer, Johann Christian Ludwig 15
+Leichtlen, Ernst Julius 1
 Bentzel-Sternau, Karl Christian Ernst von 2
 Frohberg, Regina 9
 Hinsberg, Joseph von 33
@@ -918,10 +918,9 @@ Tremler, Wenzel 14
 Bramigk, Johann Friedrich 11
 Contessa, Karl Wilhelm 21
 Schelling, Friedrich Wilhelm Joseph von 5
-Büschenthal, Lippmann Moses 34
-Franck, Gustav von 15
 Woltmann, Karl Ludwig von 20
 Wagner, Gottlob Heinrich Adolph 42
+Büschenthal, Lippmann Moses 34
 Morgenstern, Karl Simon 17
 Warsow, Friedrich u. Junker, Christian 4
 Rühs, Christian Friedrich 45
@@ -943,6 +942,7 @@ Brandt, Johann Heinrich u. Tringham, W. 1
 Aischylos; Voß, Heinrich 6
 Halirsch, Ludwig 67
 Reni, Guido u. Karcher, Anton 4
+Franck, Gustav von 15
 Ramberg, Johann Heinrich u. Frosch, Carl 13
 Müchler, Karl Friedrich 142
 Berkowetz, Joseph 4
@@ -959,13 +959,6 @@ Schultz, Christian 9
 Voß, Heinrich 2
 Shakespeare, William 6
 Hardenberg, Gottlob Albrecht Karl von 44
-Rensch, Friedrich 2
-Lauchery, Albert 141
-Göschen, Georg Joachim 20
-Dotzauer, Justus Johann Friedrich 11
-Methfessel, Albert Gottlieb 16
-Fleischmann, Friedrich (2) 43
-Freudentheil, Wilhelm Nikolaus 13
 Cantarini, Simone u. John, Friedrich 1
 Nahl, Johann August (d. J.) u. Karcher, Anton 1
 Lebarbier, Jean Jacques François u. Karcher, Anton 1
@@ -973,6 +966,7 @@ Ramberg, Johann Heinrich u. Fleischmann, Friedrich (2) 16
 Riemer, Friedrich Wilhelm 64
 Simrock, Karl 63
 Mayer, Karl Friedrich Hartmann 471
+Lauchery, Albert 141
 Kant, Immanuel 92
 Hohenhausen, Elise Philippine Amalie von 41
 Faber, Traugott u. Frenzel, Johann Gottlieb Abraham 4
@@ -993,6 +987,7 @@ Shakespeare, William; Voß, Johann Heinrich 14
 Linné, Karl von 1
 Münchhausen, Otto von 3
 Hase, Heinrich 7
+Rensch, Friedrich 2
 Füger, Friedrich Heinrich u. John, Friedrich 4
 Schiff, David Hermann 7
 Wolff, Oscar Ludwig Bernhard 19
@@ -1005,6 +1000,11 @@ Kleist, Heinrich von 17
 Armbruster, Johann Michael 19
 Petrarca, Francesco; Jacobi, Johann Georg 1
 Ramberg, Johann Heinrich u. Esslinger, Martin 8
+Göschen, Georg Joachim 20
+Dotzauer, Justus Johann Friedrich 11
+Methfessel, Albert Gottlieb 16
+Fleischmann, Friedrich (2) 43
+Freudentheil, Wilhelm Nikolaus 13
 Shakespeare, William; Schlegel, August Wilhelm 9
 Chodowiecki, Daniel Nikolaus u. Endner, Gustav Georg 12
 Liechtenstern, Joseph Marx von u. Ausfeld, Johann Karl 1
@@ -1077,8 +1077,6 @@ Schopenhauer, Adele 13
 Müller, Johannes 7
 Shakespeare, William; Schiller, Friedrich 1
 Gittermann, Johann Christian Hermann 75
-Duttenhofer, Jacob Heinrich 1
-Schweighäuser, Johann Gottfried 12
 Matthisson, Luise von 1
 Weibel, Samuel 2
 Kerner, Theobald 9
@@ -1098,6 +1096,7 @@ Jariges, Carl Friedrich von 28
 Gaudy, Franz von 64
 Dürer, Albrecht u. Rieder, Wilhelm August u. Passini, Johann Nepomuk 1
 Burkhart, David 8
+Duttenhofer, Jacob Heinrich 1
 Kinkel, Gottfried 18
 Eckermann, Johann Peter 6
 Jahn, Friedrich Ludwig 1
@@ -1124,6 +1123,7 @@ Francia, Francesco 1
 Raffael. Santi, Raffaelo 10
 Weinrauch, Caspar 37
 Kiltzer, Sebastian Wilhelm 118
+Schweighäuser, Johann Gottfried 12
 Steinkopf, Gottlob Friedrich u. Argent, A. L. d' 2
 Passini, Johann Nepomuk 21
 Gauermann, Friedrich u. Passini, Johann Nepomuk 6
@@ -1175,11 +1175,6 @@ Dejuinne, Francois Louis u. Wagner, Friedrich 1
 Dejuinne, Francois Louis u. Buser, Friedrich 1
 Forbin, Auguste de u. Wagner, Friedrich 2
 Raffael. Santi, Raffaelo u. Rahl, Carl Heinrich 1
-Leybold, Johann Friedrich u. Argent, A. L. d' 2
-Barth, Karl u. Felsing, Heinrich 2
-Ludwig I. von Bayern 17
-Haugwitz, Karl von 5
-Kolbe, Carl Wilhelm (d. J.) u. Barth, Karl 2
 Leitner, Karl Gottfried von 56
 Holtei, Karl von 37
 Hoche, Johann Gottfried 2
@@ -1212,6 +1207,9 @@ Pfitzer, Paul Achatius 3
 Sickingen, Franz von 4
 Strack, Ludwig Philipp u. Frick Johann Friedrich 1
 Strack, Ludwig Philipp u. Guttenberg, Heinrich 1
+Leybold, Johann Friedrich u. Argent, A. L. d' 2
+Barth, Karl u. Felsing, Heinrich 2
+Ludwig I. von Bayern 17
 Hackert, Jacob Philipp u. Geißler, Friedrich 2
 Hackert, Jacob Philipp u. Rossmäßler, Friedrich 1
 Hackert, Jacob Philipp 1
@@ -1230,12 +1228,10 @@ Kraus, Georg Melchior u. Penzel, Johann Georg 18
 Tizian. Vecellio, Tiziano u. Schenk, Karl Wilhelm 1
 Schnezler, August 24
 Reinick, Robert 53
-Hensel, Wilhelm u. Büscher, C. 1
-Münchhausen, Karl Ludwig August von u. Wagner, Johann Jakob 1
-Wilmans, Friedrich 10
-Rassmann, Christian Friedrich 98
-Dreves, Leberecht Blücher 7
+Haugwitz, Karl von 5
+Kolbe, Carl Wilhelm (d. J.) u. Barth, Karl 2
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Esslinger, Martin 7
+Wilmans, Friedrich 10
 Meyer, Friedrich Wilhelm Karl 1
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Walther, Johann Philipp 1
 Costenoble, Karl Ludwig 6
@@ -1244,6 +1240,8 @@ Bohlen, Peter von 8
 Cotta von Cottendorf, Johann Friedrich 18
 Gruppe, Otto Friedrich 47
 Hartmann, Ferdinand 1
+Hensel, Wilhelm u. Büscher, C. 1
+Münchhausen, Karl Ludwig August von u. Wagner, Johann Jakob 1
 Tischbein, Wilhelm u. Tischbein, Caroline u. Buchhorn, Ludwig 1
 Heideloff, Carl Alexander von u. Fleischmann, Friedrich (2) 26
 Hiller, Gottlieb 1
@@ -1282,6 +1280,8 @@ Waldmüller, Ferdinand Georg u. Passini, Johann Nepomuk 2
 Hauff, Wilhelm 23
 Fendi, Peter u. Axmann, Josef 3
 Brenner, Adam u. Passini, Johann Nepomuk 1
+Rassmann, Christian Friedrich 98
+Dreves, Leberecht Blücher 7
 Eschenburg, Johann Joachim; Schiller, Friedrich 1
 Geißler, Christian Gottfried Heinrich 4
 Hebel, Johann Peter; Seidl, Johann Gabriel 1
@@ -1294,11 +1294,6 @@ Schonhofer, Sebald u. Reindel, Albert Christoph 4
 Moller, Georg u. Haldenwang, Christian 2
 Günderode, Karoline von 2
 Vischer, Friedrich Theodor 4
-Führich, Joseph von u. Dalbon, August 2
-Haller von Hallerstein, Christoph Jacob 3
-Kolbe, Carl Wilhelm (d. J.) 4
-König, Justus Christian Gottlieb 2
-Follen, August Adolf Ludwig 5
 Spindler, Carl 165
 Ramberg, Johann Heinrich u. Beyer, Leopold 19
 David, Louis 2
@@ -1313,6 +1308,10 @@ Schnorr von Carolsfeld, Ludwig Ferdinand u. Geißler, Friedrich 2
 Dalbon, August 3
 Wilder, Johann Christoph Jacob 5
 Blumenbach, Johann Friedrich 3
+Führich, Joseph von u. Dalbon, August 2
+Haller von Hallerstein, Christoph Jacob 3
+Kolbe, Carl Wilhelm (d. J.) 4
+König, Justus Christian Gottlieb 2
 Weichselbaumer, Karl 4
 Götzenberger, Jakob u. Walther, Johann Philipp 1
 Nicolovius, Georg Heinrich Ludwig 1
@@ -1340,7 +1339,7 @@ Götzenberger, Jakob u. Esslinger, Martin 1
 Führich, Joseph von 3
 Führich, Joseph von u. Walther, Johann Philipp 1
 Johannot, Tony u. Felsing, Jacob u. Felsing, Heinrich 1
-Kolbe, Carl Wilhelm (d. J.) u. Böhm, Amadeus Wenzel 2
+Follen, August Adolf Ludwig 5
 Raupach, Ernst Benjamin Salomo 31
 Netscher, Caspar u. Stöber, Franz Xaver 1
 Calenberg, Philippine von 5
@@ -1401,17 +1400,13 @@ Furini, Francesco u. John, Friedrich 2
 Heine, Heinrich 79
 Hiemer, Franz Karl u. Rahl, Carl Heinrich 1
 Gebhard, Franz Xaver 1
+Kolbe, Carl Wilhelm (d. J.) u. Böhm, Amadeus Wenzel 2
 Hensel, Wilhelm u. Esslinger, Martin 1
 Teniers, David (d. J.) u. Jury, Wilhelm 1
 Heideloff, Carl Alexander von u. Schuler, Edouard 8
 Naeke, Gustav Heinrich u. Axmann, Josef 5
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Axmann, Josef 1
 Klein, Johann Adam u. Geißler, Friedrich 5
-Seydelmann, Crescentius Josephus Johannes u. Berger, Daniel 1
-Frentzel, Georg Friedrich Jonas 8
-Hungari, Anton 3
-Goethe, Johann Wolfgang von; Schiller, Friedrich 561
-Mark, Quirin 4
 Klomp, Albert u. Stöber, Franz Xaver 1
 Brakenburg, Richard u. Beyer, Leopold 1
 Morgenstern, Johann Ludwig Ernst u. Beyer, Leopold 1
@@ -1424,6 +1419,10 @@ Ramberg, Johann Heinrich u. Westermayr, Konrad 2
 Klein, Johann Adam u. Rossmäßler, Friedrich 2
 Ramberg, Johann Heinrich u. Grape, Christoph Gebhard 13
 Sonderland, Johann Baptist Wilhelm Adolf u. Schuler, Edouard 11
+Seydelmann, Crescentius Josephus Johannes u. Berger, Daniel 1
+Frentzel, Georg Friedrich Jonas 8
+Hungari, Anton 3
+Goethe, Johann Wolfgang von; Schiller, Friedrich 561
 Krosigk, Ernestine von 9
 Eberhard, Christian August Gottlob; Heyden, Friedrich August von 1
 Naeke, Gustav Heinrich u. Lips, Johann Heinrich 1
@@ -1439,6 +1438,7 @@ Stilke, Hermann Anton u. Beyer, Leopold 1
 Kraus, Georg Melchior u. Malvieux, Paul 1
 Musäus, Johann Karl August 1
 Penzel, Johann Georg 94
+Mark, Quirin 4
 Stewardson, Thomas u. Finden, William 1
 Clennell, Luke u. Shenton, Henry Chawnes (d. Ä.) 2
 Prout, Samuel u. Le Keux, Henry 1
@@ -1485,10 +1485,6 @@ Sonderland, Johann Baptist Wilhelm Adolf u. Hofmann, Michael 6
 Berneck, Carl Gustav von 70
 Heeringen, Gustav Adolf von 5
 Westermayr, Konrad 12
-Hetsch, Philipp Friedrich von u. Karcher, Anton 2
-Hetsch, Philipp Friedrich von u. Argent, A. L. d' 2
-Sonderland, Johann Baptist Wilhelm Adolf u. Beyer, Leopold 6
-Henry, Susanne (geb. Chodowiecka) u. Henne, Eberhard Siegfried 12
 Meyer, Heinrich u. Kaiser, Ludwig Friedrich 1
 Graff, Anton u. Rahl, Carl Heinrich 1
 Götzenberger, Jakob u. Weisbeck, Ignaz Franz 2
@@ -1502,6 +1498,9 @@ Weber, Franz 24
 Kayser, Albrecht Christoph 6
 Corbould, Henry u. Davenport, Samuel 1
 Retzsch, Moritz u. Beyer, Leopold 6
+Sonderland, Johann Baptist Wilhelm Adolf u. Beyer, Leopold 6
+Hetsch, Philipp Friedrich von u. Karcher, Anton 2
+Hetsch, Philipp Friedrich von u. Argent, A. L. d' 2
 Arndt, Wilhelm 36
 Witherington, William Frederick u. Romney, John 1
 Chalon, Alfred Edward u. Engleheart, Francis 1
@@ -1531,13 +1530,10 @@ Sautter, Samuel Friedrich 10
 Chevalier, William 1
 Vermehren, Henriette 8
 Schücking, Clemens August Joseph Maria 4
+Henry, Susanne (geb. Chodowiecka) u. Henne, Eberhard Siegfried 12
 Westall, William u. Finden, Edward 1
 Corbould, Henry u. Rolls, Charles 2
 Landseer, Edwin Henry u. Graves, Robert 1
-Breenbergh, Bartholomeus u. Meyer, Ludwig 1
-Guérin, Jean Urbain u. Forssell, Christian Didrik 1
-Repton, Humphrey u. Gubitz, Friedrich Wilhelm 1
-Hartmann, Ferdinand u. Lips, Johann Heinrich 1
 Chisholm, Alexander u. Shenton, Henry Chawnes (d. Ä.) 1
 Beechey, William u. Chevalier, William 1
 Purser, William u. Carter, James 1
@@ -1552,6 +1548,7 @@ Bommer, Heinrich Wilhelm 13
 Werder, Karl Friedrich 45
 Oertel, Friedrich von 10
 Leslie, Charles Robert u. Goodyear, Joseph 1
+Breenbergh, Bartholomeus u. Meyer, Ludwig 1
 Ramberg, Johann Heinrich u. Endner, Gustav Georg 7
 Murillo, Bartolomé Esteban u. John, Friedrich 1
 Trevisani, Francesco u. John, Friedrich 1
@@ -1559,6 +1556,7 @@ Sonderland, Johann Baptist Wilhelm Adolf u. Deucker, Georg Heinrich Karl 3
 Sonderland, Johann Baptist u. Schuler, Edouard 3
 Sonderland, Johann Baptist Wilhelm Adolf u. Rauch, Ernst 4
 Dähling, Heinrich Anton u. Clar, Johann Friedrich August 3
+Guérin, Jean Urbain u. Forssell, Christian Didrik 1
 Goetz, Joseph Franz von 1
 Schubert, Johann David u. Walwert, Jakob Samuel 1
 Thouret, Nicolaus Friedrich u. Walwert, Jakob Samuel 1
@@ -1574,13 +1572,10 @@ Smirke, Robert u. Warren, Alfred William 1
 Stothard, Thomas u. Finden, William 1
 Schmidt, Jakob Friedrich 1
 Benda, Georg 3
+Repton, Humphrey u. Gubitz, Friedrich Wilhelm 1
+Hartmann, Ferdinand u. Lips, Johann Heinrich 1
 Mellish, Joseph Charles 1
 Rehberg, Friedrich u. Gubitz, Friedrich Wilhelm 1
-Vafflard, Pierre Antoine Augustin u. Forssell, Christian Didrik 1
-Steuben, Carl von u. Forssell, Christian Didrik 1
-Dähling, Heinrich Anton u. Bollinger, Friedrich Wilhelm 4
-Dähling, Heinrich Anton u. Haas, Meno 5
-Wenzel, Heinrich 5
 Canova, Antonio u. Lambert, Gebr. 1
 Tischbein, Johann Heinrich u. Weise, Gotthelf Wilhelm 1
 Bone, Robert Trewick u. Romney, John 1
@@ -1622,22 +1617,18 @@ Capieux, Johann Stephan (Jean Etienne) 10
 Mayer La Martinière, Marie Françoise Constance u. Forssell, Christian Didrik 2
 Merkel, Garlieb Helwig 4
 Delavigne, Jean Francois Casimir; Schwab, Gustav 1
-Ramberg, Johann Heinrich u. Romney, John 4
-Ruge, Arnold 45
-Zschokke, Johann Heinrich Daniel 52
-Kletke, Hermann 34
-Schnorr von Carolsfeld, Ludwig Ferdinand u. Engleheart, Timothy Stansfeld 1
-Hanson, Christian Heinrich u. Engleheart, Timothy Stansfeld 1
-Heideck, Carl Wilhelm von 1
-Asher, Louis u. Gonzenbach, Carl Arnold 1
-Zwecker, Johann Baptist u. Cooke, William John 6
-Ast, Georg Anton Friedrich 2
+Vafflard, Pierre Antoine Augustin u. Forssell, Christian Didrik 1
+Steuben, Carl von u. Forssell, Christian Didrik 1
+Dähling, Heinrich Anton u. Bollinger, Friedrich Wilhelm 4
+Dähling, Heinrich Anton u. Haas, Meno 5
+Wenzel, Heinrich 5
 Ketterlinus, Christian Wilhelm 1
 Schubert, Johann David u. Guttenberg, Heinrich 2
 Raffael. Santi, Raffaelo u. Fortier, Claude Francois 2
 Murillo, Bartolomé Esteban u. Forssell, Christian Didrik 1
 Bein, Jean 2
 Graff, Anton u. Ketterlinus, Christian Wilhelm 1
+Ramberg, Johann Heinrich u. Romney, John 4
 Ramberg, Johann Heinrich u. Veith, Philipp 1
 Jacobs, Christian Friedrich Wilhelm 19
 Wolfram, Hermann Ludwig 3
@@ -1657,10 +1648,18 @@ Reni, Guido u. Maratti, Carlo u. John, Friedrich 1
 Ramberg, Johann Heinrich u. Böhme, Johann Christian 2
 Brauer, Eduard 83
 Inkermann, Otto 7
+Zschokke, Johann Heinrich Daniel 52
+Ruge, Arnold 45
+Kletke, Hermann 34
 Sohn, Carl Ferdinand u. Engleheart, Timothy Stansfeld 1
 Creutzburg, Johann Kaspar 1
 Daxenberger, Sebastian Franz von 2
 Schulz, Friedrich Wilhelm 4
+Schnorr von Carolsfeld, Ludwig Ferdinand u. Engleheart, Timothy Stansfeld 1
+Hanson, Christian Heinrich u. Engleheart, Timothy Stansfeld 1
+Heideck, Carl Wilhelm von 1
+Asher, Louis u. Gonzenbach, Carl Arnold 1
+Zwecker, Johann Baptist u. Cooke, William John 6
 Müller, Niklas 9
 Ramberg, Johann Heinrich u. Schenk, Karl Wilhelm 2
 Beust, Philippine Wilhelmine von 1
@@ -1672,11 +1671,10 @@ Matzerath, Christian Joseph 8
 Bettziech, Heinrich 1
 Nathusius, Philipp Engelhard 8
 Ramberg, Johann Heinrich u. Lips, Johann Heinrich 2
+Ast, Georg Anton Friedrich 2
 Kochen, Albrecht Heinrich Matthias 11
 Zu Rhein, Friedrich August von 1
 Zeising, Adolf 12
-Droste-Hülshoff, Annette Elisabeth von 3
-Herklots, Karl Alexander 33
 Thomas, Antoine Jean Baptiste u. Döbler, Georg 2
 Thomas, Antoine Jean Baptiste u. Geißler, Friedrich 2
 Heideloff, Carl Alexander von u. Beyer, Leopold 8
@@ -1716,6 +1714,7 @@ Foglár, Ludwig Stephan 47
 Leslie, Charles Robert u. Rossmäßler, Friedrich 2
 Leslie, Charles Robert u. Brückner, Friedrich August 2
 Reichard, Christian Gottlieb 2
+Droste-Hülshoff, Annette Elisabeth von 3
 Freytag, Gustav 2
 Kirchner, Anton, 1
 Müller, Johann Gotthard u. Fleischmann, Friedrich (2) 1
@@ -1726,6 +1725,7 @@ Desenne, Alexandre Joseph u. Weiß, David 1
 Fohr, Carl Philipp u. Schwerdgeburth, Karl August 1
 Ramberg, Johann Heinrich u. Blaschke, János 2
 Hirzel, Heinrich 5
+Herklots, Karl Alexander 33
 Hartmann, Moritz 27
 Schulz-Bodmer, Wilhelm 108
 Langer, Sebastian 24
@@ -1790,15 +1790,6 @@ Rank, Josef 13
 Englert, Franz Joseph 6
 Wienbarg, Ludolf 1
 Cranach, Lucas (d. Ä.) u. Bolt, Johann Friedrich 1
-Sivers, Jegór von 29
-Kaulbach, Wilhelm von 3
-Hoffmeister, Christian 15
-Fellner, Ferdinand u. Barth, Karl u. Grünewald, Ernst Friedrich 2
-Dielmann, Jacob Fürchtegott 3
-Mechau, Jacob Wilhelm u. Geyser, Christian Gottlieb 13
-Schadow, Wilhelm u. Müller, Constantin 1
-Foltz, Philipp von u. Müller, Constantin 2
-Teichs, Adolf u. Gerhardt, Carl Georg 1
 Geib, Karl 162
 Henne, Joseph Anton 5
 Marggraff, Hermann 11
@@ -1841,12 +1832,15 @@ Richter, Henry James u. Rolls, Charles 1
 Richter, Henry James u. Beyer, Leopold 2
 Dedreux-Dorcy, Pierre Joseph u. Forssell, Christian Didrik 1
 Forssell, Christian Didrik 4
+Mechau, Jacob Wilhelm u. Geyser, Christian Gottlieb 13
 Fohr, Daniel u. Tröndlin, Ludwig Sigmund 2
 Berger, Ludwig 1
 Landfermann, Ludwig Dietrich Wilhelm 3
 Soeltl, Johann Michael 1
 Marées, Adolph de 4
 Dondorf, Bernhard J. 5
+Sivers, Jegór von 29
+Kaulbach, Wilhelm von 3
 Glümer, Claire von 3
 Lessing, Karl Friedrich 1
 Oppenheim, Moritz 1
@@ -1877,6 +1871,9 @@ Malbeste, Georges 2
 Wallraf, Ferdinand Franz 19
 Raffael. Santi, Raffaelo u. Haas, Meno 1
 Kobell, Franz von 7
+Hoffmeister, Christian 15
+Fellner, Ferdinand u. Barth, Karl u. Grünewald, Ernst Friedrich 2
+Dielmann, Jacob Fürchtegott 3
 Dincklage, Amalie Ehrengarte Sophie Wilhelmine (Emmy) von 13
 Engel, Carl 1
 Ziehen, Eduard August Philipp 20
@@ -1926,6 +1923,9 @@ Scheurmann, Jakob 11
 Eichler, Matthias Gottfried 6
 Cranach, Lucas (d. Ä.) u. Lips, Johann Heinrich 1
 Horstig, Karl Gottlieb 66
+Schadow, Wilhelm u. Müller, Constantin 1
+Foltz, Philipp von u. Müller, Constantin 2
+Teichs, Adolf u. Gerhardt, Carl Georg 1
 Plessen, Marie  Sophie Christiane 1
 Mandel, Eduard 2
 Veit, Philipp u. Sichling, Lazarus Gottlieb 1
@@ -1976,16 +1976,11 @@ Kaulbach, Wilhelm von u. Schleich, Adrian 1
 Steinle, Edward Jakob u. Backenberg, Felix 1
 Dörr, Adolph 38
 Hoffmann, Heinrich 1
-Schön, Friedrich Wilhelm 1
-Ulmenstein, Christian Ulrich von 8
-Mechau, Jacob Wilhelm u. Schule, Christian 1
-Mechau, Jacob Wilhelm u. Berger, Daniel 3
-Loeschenkohl, Johann Hieronymus 102
-Köhler, Christian u. Stang, Rudolf 1
 Schnell, Ludwig Friedrich 6
 Carracci, Annibale u. Catel, Franz Ludwig 2
 Keller, Heinrich (2) u. Meyer, Johann Heinrich 2
 Nabholz, Johann Christoph 2
+Mechau, Jacob Wilhelm u. Berger, Daniel 3
 Eberwein, Traugott Maximilian 1
 Wittorf, Andreas von 1
 Raffael. Santi, Raffaelo u. Malbeste, Georges 1
@@ -2024,6 +2019,7 @@ Davis, J. P. u. Rahn, Rudolf 1
 Hawkins, Henry u. Egleton, William Henry 1
 Schubert, Johann David u. Haas, Meno 29
 Eck, Johann Georg 11
+Schön, Friedrich Wilhelm 1
 Meyer, Johann Georg (von Bremen) 1
 Schubert, Johann David u. Schule, Christian 37
 Andreae, Karl (Christian) u. Sichling, Lazarus Gottlieb 1
@@ -2042,6 +2038,7 @@ Cranach, Lucas (d. Ä.) u. Schnell, Ludwig Friedrich 1
 Jacobs, Emil u. Engleheart, Timothy Stansfeld 1
 Zwecker, Johann Baptist u. Engleheart, Timothy Stansfeld 1
 Trautmann, Franz 2
+Loeschenkohl, Johann Hieronymus 102
 Schubert, Johann David u. Bolt, Johann Friedrich 14
 Hottinger, Johann Jakob 9
 Ruben, Christian 1
@@ -2055,7 +2052,9 @@ Zingerle, Ignaz Vinzenz 11
 Wieschebrink, Franz u. Backenberg, Felix 1
 Müller, Johannes von 3
 Rustige, Heinrich Franz Gaudenz von u. Hoffmeister, Christian 1
+Ulmenstein, Christian Ulrich von 8
 Bach, Johann Christoph Friedrich 1
+Mechau, Jacob Wilhelm u. Schule, Christian 1
 Schnorr von Carolsfeld, Hans Veit u. Schwerdgeburth, Karl August 3
 Schnyder von Wartensee, Xaver 83
 Fröhlich, Friedrich Theodor 34
@@ -2083,6 +2082,7 @@ Schnorr von Carolsfeld, Hans Veit u. Bolt, Johann Friedrich 8
 Overbeck, Friedrich 1
 Tidemand, Adolph u. Sichling, Lazarus Gottlieb 1
 Cortona, Pietro da. Berrettini, Pietro da Cortona u. Felsing, Jacob 1
+Köhler, Christian u. Stang, Rudolf 1
 Zahn, Ludwig u. Schultheiß, Albrecht Fürchtegott 1
 Muyden, Jacques Alfred, van u. Sichling, Lazarus Gottlieb 1
 Schlichtkrull, Aline von 8
@@ -2115,10 +2115,6 @@ Benz, Achilles u. Hegi, Franz 2
 Kaulbach, Wilhelm von u. Rordorf, Alexander 1
 Meyer, Johann Georg (von Bremen) u. Hoffmeister, Christian 1
 Scherenberg, Christian Friedrich 5
-Meusebach, Karl Hartwig Gregor von 5
-König, Franz Niklaus u. Lips, Johann Heinrich 4
-Löhrer, Johann Gottlieb u. Rahn, Rudolf 1
-Haldenwang, Friedrich u. Schnell, Ludwig Friedrich 1
 Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere) 10
 Meisner, Karl Friedrich August 15
 Willkomm, Ernst Adolf 3
@@ -2131,6 +2127,10 @@ Füßli, Heinrich (der Jüngste) u. Meyer, Johann Heinrich 3
 Grouchy, Emmanuel de u. Meyer, Johann Heinrich 1
 Otth, Charlotte 63
 Mechau, Jacob Wilhelm u. Malvieux, Paul 2
+Meusebach, Karl Hartwig Gregor von 5
+König, Franz Niklaus u. Lips, Johann Heinrich 4
+Löhrer, Johann Gottlieb u. Rahn, Rudolf 1
+Haldenwang, Friedrich u. Schnell, Ludwig Friedrich 1
 Wetzel, Johann Jakob u. Hegi, Franz 10
 Rösel, Johann Gottlob Samuel u. Hegi, Franz 6
 Volmar, Georg u. Lips, Johann Heinrich 7
@@ -2146,8 +2146,6 @@ Burckhardt, Jacob 2
 Meister, Leonhard 3
 Hadloub, Johans. Hadlaub, Johannes 3
 Osterwald d', Rose u. Hegi, Franz 1
-Frey, Samuel u. Burgdorfer, Daniel David 2
-Osterwald d', Rose u. Burgdorfer, Daniel David 1
 Brunold, Friedrich 3
 Domenichino. Zampieri, Domenico u. Felsing, Jacob 1
 Correggio. Allegri, Antonio u. Müller, Franz Hubert u. Rauch, Ernst 1
@@ -2156,6 +2154,7 @@ Fyt, Jan u. Müller, Franz Hubert u. Esslinger, Martin 1
 Merck, Wilhelm u. Schnell, Ludwig Friedrich 2
 Schilbach, Johann Heinrich u. Haldenwang, Christian 2
 Volmar, Georg u. Hegi, Franz 3
+Frey, Samuel u. Burgdorfer, Daniel David 2
 Correggio. Allegri, Antonio u. Thelott, Ernst Karl Gottlieb 2
 Lory, Gabriel u. Hegi, Franz 10
 Richter, Christian Gottlob u. König, Franz Niklaus 1
@@ -2172,6 +2171,7 @@ Häfliger, Jost Bernhard Barnabas 8
 Juillerat, Jacques Henri u. Burgdorfer, Daniel David 1
 Lüthy, Urs Joseph 1
 Boileau, Nicolas 2
+Osterwald d', Rose u. Burgdorfer, Daniel David 1
 Witte, Johann Heinrich Friedrich Karl 2
 Ostade, Isaac van u. Malbeste, Georges 1
 Strodtmann, Adolf 3
@@ -2190,11 +2190,6 @@ Benz, Achilles u. Meyer, Johann Heinrich 4
 Schnorr von Carolsfeld, Hans Veit u. Esslinger, Martin 2
 Hensel, Louise Maria 6
 Hess, Ludwig 9
-Spener, Johann Carl Philipp 5
-Usteri, Johann Martin u. Hegi, Franz 6
-Pfundheller, Josef 12
-Schumacher, Andreas 53
-Portman, Ludwig Gottl. 4
 Kuntz, Karl u. Müller, Karl 4
 Kuntz, Karl u. Kessler, Aloys 1
 Cramer, Karl Gottlob 12
@@ -2207,6 +2202,7 @@ Schellenberg, Esther geb. Biedermann 8
 Vogel, Ludwig u. Lips, Johann Heinrich 1
 Horstig, Karl Gottlieb u. Darnstedt, Johann Adolph 2
 Vogel, Ludwig 1
+Spener, Johann Carl Philipp 5
 Poussin, Nicolas u. Böhm, Amadeus Wenzel 1
 Holbein, Hans d. J. 1
 Tanner, Karl Rudolf 6
@@ -2222,6 +2218,7 @@ Clar, Johann Friedrich August 7
 Volmar, Georg 1
 Carracci, Lodovico u. Lips, Johann Jakob 1
 Weber, Edmund von 2
+Usteri, Johann Martin u. Hegi, Franz 6
 Hünerwadel, Samuel Gottlieb 5
 Kessler, Aloys 1
 Schmittbauer, Josef Alois 4
@@ -2230,9 +2227,9 @@ Krust 3
 Lory, Gabriel 4
 Maltitz, Friedrich Franz von 1
 Schulin, Carl 7
-Hartmann, Alfred 2
-Lory, Gabriel u. Burgdorfer, Daniel David 6
-Hauenstein, Johannes u. Meyer, Johann Heinrich 4
+Pfundheller, Josef 12
+Schumacher, Andreas 53
+Portman, Ludwig Gottl. 4
 Ruckstuhl, Karl Joseph 5
 Studach, Jakob Laurenz 6
 Iden, Johann Friedrich Ludwig u. Wagner, Johann Jakob 1
@@ -2241,6 +2238,8 @@ Krummacher, Friedrich Wilhelm 4
 Kasthofer, Karl 2
 Stähele, Andreas 5
 Volmar, Georg u. Lips, Johann Jakob 4
+Hauenstein, Johannes u. Meyer, Johann Heinrich 4
+Hartmann, Alfred 2
 Chodowiecki, Daniel Nikolaus u. Henne, Eberhard Siegfried 13
 Moritz, Wilhelm u. Eichler, Matthias Gottfried 1
 König, Franz Niklaus u. Erhard, Johann Christoph 1
@@ -2248,6 +2247,7 @@ Leopold, Franz Joseph u. Burgdorfer, Daniel David 1
 Leopold, Franz Joseph 1
 Fegely, Philippe de u. Lory, Gabriel u. Burgdorfer, Daniel David 1
 Straube, Emanuel 47
+Lory, Gabriel u. Burgdorfer, Daniel David 6
 Ender, Eduard u. Axmann, Josef u. Mahlknecht, Karl 1
 Curty, Joseph Emmanuel u. Meyer, Johann Heinrich 7
 Friederich, Albrecht 7
@@ -2273,11 +2273,8 @@ Schneider, Johann Georg Wilhelm 27
 Zusner, Vincenz 47
 Neureuther, Eugen Napoleon 2
 Eschen, Friedrich August 2
-Felsing, Conrad 2
-Weber, Andreas 3
-Marohn, Ferdinand u. Fincke, Hans 8
-Fincke, Hans 11
 Mendelssohn-Bartholdy, Jacob Ludwig Felix 2
+Marohn, Ferdinand u. Fincke, Hans 8
 Marohn, Ferdinand 5
 Henning, Adolf u. Fincke, Hans 1
 Disteli, Martin 3
@@ -2285,6 +2282,7 @@ Maratti, Carlo u. Karcher, Anton 1
 Vien, Joseph Marie u. Karcher, Anton 1
 Gérard, Francois u. Böhme, Johann Christian 1
 Merimée, Léonor u. Karcher, Anton 1
+Felsing, Conrad 2
 Usteri, Johann Martin u. Esslinger, Martin 2
 Velasquez, Diego Rodriguez de Silva y, u. Lips, Johann Jakob 1
 Meyer, Heinrich (Joh. H.) 18
@@ -2321,6 +2319,7 @@ Usteri, Johann Martin u. Lips, Johann Jakob 1
 Disteli, Martin u. Esslinger, Martin 2
 Vogel, Ludwig u. Vogler, Michael 1
 Grimm, Jacob; Grimm, Wilhelm 20
+Weber, Andreas 3
 Jan Joest (von Kalkar) u. Meyer, Heinrich (Joh. H.) 1
 Disteli, Martin u. Rahn, Rudolf 2
 Kininger, Vincenz Georg u. Haas, Meno 5
@@ -2335,6 +2334,7 @@ Hitzig, Julius Eduard 2
 Marohn, Ferdinand u. Funke, Carl 1
 Hölzl, Franz Seraphin Thomas 3
 Hackel, Anton 4
+Fincke, Hans 11
 Marohn, Ferdinand u. Schulin, Carl 3
 Leonardo. Vinci, Leonardo da u. John, Friedrich 2
 Biedermann, Johan Jakob u. Meyer, Johann Heinrich 1
@@ -2360,13 +2360,6 @@ Russ, Karl u. Meyer, Johann Heinrich 1
 Schleuen, Johann David (d. Ä.) 5
 Kauffmann, Angelica u. Karcher, Anton 1
 Reindahl, Elise 11
-Schelfhout, Andreas u. Tetar van Elven, Jean-Baptist 4
-Fentsch, Eduard 98
-Sandhaas, Josef 10
-Bechstein, Johann Matthäus 8
-Fischer, Valentin Franz Stanislaus 137
-Leonhardt-Lyser, Caroline. Auch: Pierson, Karoline 14
-Byron, George Gordon; Spiker, Samuel Heinrich 1
 Mezger, Caroline 1
 Giulio Romano. Gianuzzi, Giulio di Pietro de' u. Stürmer, Heinrich u. Buchhorn, Ludwig u. Hübner, Carl 1
 Rauch, Christian Daniel u. Lüderitz, Gustav u. Buchhorn, Ludwig 1
@@ -2389,6 +2382,7 @@ Füßli, Heinrich (der Jüngste) 2
 Overbeck, Friedrich u. Meyer, Heinrich (Joh. H.) 1
 Hammer-Purgstall, Joseph von; Gräffer, Franz 1
 Cunow, Martin 4
+Fentsch, Eduard 98
 Führich, Joseph von u. Buchhorn, Ludwig 1
 Sprengel, Matthias Christian 12
 West, Benjamin u. Berger, Daniel 2
@@ -2404,6 +2398,10 @@ Schellenberg, Johann Rudolf 3
 Wenzig, Josef 10
 Giulio Romano. Gianuzzi, Giulio di Pietro de' u. John, Friedrich 1
 Unger, Johann Karl 23
+Schelfhout, Andreas u. Tetar van Elven, Jean-Baptist 4
+Sandhaas, Josef 10
+Bechstein, Johann Matthäus 8
+Fischer, Valentin Franz Stanislaus 137
 Büren, Bernhard Gottfried 24
 Messow, Eduard 17
 Thiesen, Charlotte 4
@@ -2440,6 +2438,7 @@ Velasquez, Diego Rodriguez de Silva y, u. Schuler, Edouard 1
 Howard, Henry u. Baumann, Johann Wilhelm 1
 Thomson, Henry u. Fleischmann, Jacob 1
 Retzsch, Moritz u. Schuler, Edouard 1
+Leonhardt-Lyser, Caroline. Auch: Pierson, Karoline 14
 Nodnagel, August 15
 Borch, Wilhelm Friedrich von der 95
 Sandhaas, Josef u. Boettger, Gottlieb 13
@@ -2448,6 +2447,7 @@ Hamböck, Alphons 31
 Stelzhamer, Franz 31
 Kaltenbaeck, Johann Paul 7
 Leonhardi, Friedrich Gottlieb 9
+Byron, George Gordon; Spiker, Samuel Heinrich 1
 Henninger, Aloys 9
 Ring, Max 7
 Lafosse, Adolphe u. Baumann, Johann Wilhelm 1
@@ -2473,14 +2473,6 @@ Faed, Thomas u. Baumann, Johann Wilhelm 2
 Mauch, Johann Mathäus u. Hössel, Johann Baptist 2
 Rosso, Giovanni Battista di Jacopo di Guasparre u. John, Friedrich 1
 Poussin, Nicolas u. John, Friedrich 1
-Müller, Adolf 5
-Spohr, Louis 4
-Grimm, Albert Ludwig 3
-Stothard, Thomas u. Axmann, Josef 2
-Ed, Christoph Marquard 20
-Pforr, Johann Georg u. Boettger, Gottlieb 20
-Wildungen, Ludwig Karl Eberhard Heinrich Friedrich von u. Boettger, Gottlieb 16
-Winterling, Carl Martin 28
 Haßlwander, Josef u. Leybold, Gustav 2
 Arming, Friedrich Wilhelm 2
 Kolisch, Sigmund 2
@@ -2493,6 +2485,9 @@ Graeb, Carl Georg Anton u. Sagert, Hermann 2
 Graeb, Carl Georg Anton u. Witthöft, Wilhelm 1
 Saler, Otto Christian u. Berger, Daniel 1
 Gregorovius, Michael Carl 1
+Müller, Adolf 5
+Spohr, Louis 4
+Grimm, Albert Ludwig 3
 Lasinsky, Johann Adolf u. Frommel, Carl Ludwig 10
 Hensel, Wilhelm u. Frommel, Carl Ludwig 1
 Opiz, Georg Emanuel u. Felsing Conrad 1
@@ -2509,6 +2504,7 @@ Daege, Eduard u. Hüssener, Auguste 1
 Hüssener, Julie u. Hüssener, Auguste 1
 Burggraf, Karl u. Hüssener, Auguste 1
 Leutze, Emanuel Gottlieb u. Baumann, Johann Wilhelm 1
+Ed, Christoph Marquard 20
 Lange, Ludwig 1
 Mechel, Christian von u. Sergent-Marceau, Antoine François 1
 Lentner, Joseph Friedrich 1
@@ -2520,6 +2516,7 @@ Tessin, Christian Wilhelm von 1
 Götzenberger, Jakob 14
 Baxter, Charles u. Baumann, Johann Wilhelm 1
 Landseer, Edwin Henry u. Baumann, Johann Wilhelm 7
+Stothard, Thomas u. Axmann, Josef 2
 Dunker, Balthasar Anton 12
 Kaiser, Ludwig Friedrich u. Thelott, Ernst Karl Gottlieb 5
 Teichel, Albert 1
@@ -2541,6 +2538,9 @@ Molenaar, Frans 1
 Vletter, Samuel de u. Tetar van Elven, Jean-Baptist 2
 Rousseau, Jean Jaques 2
 Rousseau, Jean Jaques; Aschenberg, Wilhelm 1
+Pforr, Johann Georg u. Boettger, Gottlieb 20
+Wildungen, Ludwig Karl Eberhard Heinrich Friedrich von u. Boettger, Gottlieb 16
+Winterling, Carl Martin 28
 Geißler, Peter Carl u. Rossmäßler, Friedrich 2
 Renn, Paul 39
 Rächler, Elisa Charlotte, geb. Ehrhardt 2
@@ -2563,12 +2563,6 @@ Heideloff, Carl Alexander von u. Stöber, Joseph 3
 Opiz, Georg Emanuel u. Esslinger, Martin 4
 Archenholz, Johann Wilhelm von 12
 Lachner, Franz 1
-Pustkuchen-Glanzow, Johann Friedrich Wilhelm 5
-Reinhart, Johann Christian 7
-Delaroche, Paul u. Baumann, Johann Wilhelm 1
-Winterhalter, Hermann u. Baumann, Johann Wilhelm 1
-Tayler, Frederick u. Baumann, Johann Wilhelm 1
-Gleyre, Charles u. Baumann, Johann Wilhelm 1
 Führich, Joseph von u. Hüssener, Auguste 2
 Führich, Joseph von u. Rauch, Ernst 4
 Führich, Joseph von u. Steifensand, Xaver 1
@@ -2610,6 +2604,7 @@ Elshoff, Hermann Joseph 4
 Susemihl, Johann Conrad u. Susemihl, Johann Theodor 8
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Barth, Karl 1
 Opiz, Georg Emanuel u. Weber, Andreas 2
+Pustkuchen-Glanzow, Johann Friedrich Wilhelm 5
 Agricola, Karl Joseph Aloys u. Felsing, Jacob 1
 Heideloff, Carl Alexander von u. Vogel, Georg Friedrich 4
 Heideloff, Carl Alexander von u. Buser, Friedrich 3
@@ -2628,6 +2623,7 @@ Pesne, Antoine u. Arndt, Wilhelm 1
 Mäurer, Friedrich Wilhelm German 12
 Sauerwein, Johann Wilhelm 1
 Geyer, Conrad 10
+Reinhart, Johann Christian 7
 Henne, Eberhard Siegfried 34
 Württemberg, Heinrich von 1
 Borchmeyer, Wilhelm Anton 1
@@ -2689,6 +2685,10 @@ Smets, Moritz 4
 Hergenröder, J. M. u. Boettger, Gottlieb 2
 Kehrer, Christian Wilhelm Karl 3
 Mellin, August Wilhelm von 13
+Delaroche, Paul u. Baumann, Johann Wilhelm 1
+Winterhalter, Hermann u. Baumann, Johann Wilhelm 1
+Tayler, Frederick u. Baumann, Johann Wilhelm 1
+Gleyre, Charles u. Baumann, Johann Wilhelm 1
 Knight, John Prescott u. Baumann, Johann Wilhelm 2
 Susemihl, Johann Conrad 5
 Krafft, Johann August 1
@@ -2738,16 +2738,6 @@ Reitzenstein, Franziska von 1
 Mohn, Friedrich 14
 Storck, Adam 2
 Piepmeyer, Heinrich Wilhelm 1
-Weigl, Franz u. Dvoržak, Adolf 32
-Bonn, Franz 1
-Grahl, August 1
-Pöltzel, Martin 3
-Drummond, William u. Cochran, John 3
-Buckner, Richard u. Baumann, Johann Wilhelm 2
-Hering, George Edwards u. Mote, W. H. 1
-Mote, W. H. 1
-Scheffer, Ary u. Allgeyer, Julius u. Hoffmeister, Christian 1
-Leloir, Auguste u. Baumann, Johann Wilhelm 1
 Weigel, Josef u. Hofmann, Michael 11
 Uhlemann, Christian Friedrich Traugott 1
 Rähmel, Achaz Gottlieb u. Henne, Eberhard Siegfried 1
@@ -2767,6 +2757,8 @@ Hezel, Johann Friedrich Wilhelm 55
 Isopi, Antonio 16
 Heideloff, Victor Wilhelm Peter u. Argent, A. L. d' 2
 Mayer, August 2
+Weigl, Franz u. Dvoržak, Adolf 32
+Bonn, Franz 1
 Townley, Charles u. Haas, Peter 1
 Meil, Johann Wilhelm (d. J.) u. Henne, Eberhard Siegfried 2
 Oesfeld, Karl Ludwig von u. Sotzmann, Daniel Friedrich 2
@@ -2815,15 +2807,15 @@ Guarini, Giovanni Battista; Schlegel, August Wilhelm 23
 Böckh, Christian Gottfried 1
 Mayer, Carl u. Krepp, Ignaz 4
 Ewald, Johann Ludwig 1
+Grahl, August 1
+Pöltzel, Martin 3
+Drummond, William u. Cochran, John 3
+Buckner, Richard u. Baumann, Johann Wilhelm 2
+Hering, George Edwards u. Mote, W. H. 1
+Mote, W. H. 1
+Scheffer, Ary u. Allgeyer, Julius u. Hoffmeister, Christian 1
+Leloir, Auguste u. Baumann, Johann Wilhelm 1
 Dubufe, Edouard u. Baumann, Johann Wilhelm 3
-Klinsky, Johann Gottfried 6
-Thouret, Nicolaus Friedrich u. Christian Friedrich Traugott 6
-Retzsch, Moritz u. Reinhold, Heinrich 1
-Rode, Bernhard u. Haas, Meno 1
-Weygandt, Sebastian u. Weiß, David 1
-Naeke, Gustav Heinrich u. Weiß, David 1
-Schnorr von Carolsfeld, Hans Veit u. Leybold, Gustav 2
-Splittegarb, Karl Friedrich 49
 Frégevize, Frédéric u. Buchhorn, Ludwig 1
 Hartig, Georg Ludwig 3
 Pinhas, Hermann Hirsch 1
@@ -2907,7 +2899,10 @@ Unger, Johann Friedrich 2
 Meil, Johann Wilhelm (d. J.) u. Nussbiegel, Johann 2
 Alexander, William u. Henne, Eberhard Siegfried 1
 Thouret, Nicolaus Friedrich u. Seyffer, Friedrich August 2
+Thouret, Nicolaus Friedrich u. Christian Friedrich Traugott 6
 Menzel, Karl Adolf 1
+Klinsky, Johann Gottfried 6
+Retzsch, Moritz u. Reinhold, Heinrich 1
 Ramberg, Johann Heinrich u. Felsing, Conrad 1
 Carracci, Lodovico u. Karcher, Anton 1
 Waagen, Gustav Friedrich 2
@@ -2940,6 +2935,7 @@ Carracci, Annibale u. Westermayr, Konrad 1
 Wood, John u. Kotterba, Carl 1
 Liverseege, Henry u. Kotterba, Carl 2
 Winckler von Mohrenfels, Joseph Johann Karl von 7
+Rode, Bernhard u. Haas, Meno 1
 Chodowiecki, Daniel Nikolaus u. Clar, Johann Friedrich August u. Henne, Eberhard Siegfried 12
 Sotzmann, Daniel Friedrich u. Glassbach, Carl Christian 2
 Cornelius, Peter u. Ritter, Heinrich Wilhelm 4
@@ -2952,18 +2948,19 @@ Mettenleiter, Johann Michael u. Laminit, Paul Jakob 19
 Kapf, Carl Gottlieb Heinrich 20
 Thomé, Friedrich u. Boettger, Gottlieb 1
 Müller, Karl 1
+Weygandt, Sebastian u. Weiß, David 1
+Naeke, Gustav Heinrich u. Weiß, David 1
+Schnorr von Carolsfeld, Hans Veit u. Leybold, Gustav 2
+Splittegarb, Karl Friedrich 49
 Günther, Christian August 57
-Heideloff, Victor Wilhelm Peter u. Mechel, Johann Jakob von 6
-Heideloff, Victor Wilhelm Peter u. Widmann, Joseph u. Müller, Johann Gotthard 2
-Müller, Johann Gotthard 2
-Cotta, Heinrich von 1
-Carracci, Lodovico u. John, Friedrich 1
 Reinhart, Johann Christian u. Darnstedt, Johann Adolph 1
 Ramberg, Johann Heinrich u. Brückner, Friedrich August 4
 Velde, Karl Franz van der 4
 Heideloff, Victor Wilhelm Peter u. Haldenwang, Christian 10
 Ramberg, Johann Heinrich u. Buchhorn, Ludwig 3
 Christ, Johann Ludwig 6
+Müller, Johann Gotthard 2
+Heideloff, Victor Wilhelm Peter u. Mechel, Johann Jakob von 6
 Bollinger, Friedrich Wilhelm 14
 Heideloff, Victor Wilhelm Peter u. Duttenhofer, Christian Friedrich Traugott 3
 Hedwig, Johann 3
@@ -2973,6 +2970,9 @@ Pesne, Antoine u. Haas, Meno 1
 Dornheim, Johann Carl 34
 Mickiewicz, Adam 1
 Patuzzi, Alexander Eduard Johann Joseph 59
+Heideloff, Victor Wilhelm Peter u. Widmann, Joseph u. Müller, Johann Gotthard 2
+Cotta, Heinrich von 1
+Carracci, Lodovico u. John, Friedrich 1
 Tischbein, Wilhelm u. Berger, Daniel 1
 Zerboni di Sposetti, Joseph 5
 Gryphius, Andreas; Schwab, Gustav 2
@@ -3001,12 +3001,6 @@ Schnorr von Carolsfeld, Hans Veit u. Weiß, David 2
 Törmer, Benno Friedrich u. Eisner, Franz 1
 Lindau, Dietrich u. Axmann, Josef 2
 Wittmer, Johann Michael (2) u. Wagner, Friedrich 1
-Pöhacker, Leopold u. Weiß, David 2
-Schnorr von Carolsfeld, Hans Veit 23
-Sirani, Elisabetha u. Kotterba, Carl 1
-Götzloff, Friedrich 2
-Rensch, Friedrich u. Axmann, Josef 1
-Schnorr von Carolsfeld, Hans Veit u. Mayer, Carl 2
 Schnorr von Carolsfeld, Hans Veit u. Böhme, Johann Christian 1
 Schnorr von Carolsfeld, Hans Veit u. Meyer, Heinrich (Joh. H.) 1
 Maillard, Ludwig u. Duttenhofer, Christian Friedrich Traugott 1
@@ -3014,11 +3008,14 @@ Schenk, Karl Wilhelm 8
 Lindau, Dietrich u. Wagner, Friedrich 2
 Sickler, Friedrich Karl Ludwig 3
 Haugwitz, Louise von 6
+Götzloff, Friedrich 2
 Neumann, Johanne 4
 Montenglaut, Artemisia Henriette Marianne von 2
 Usteri, Johann Martin u. Laminit, Paul Jakob 21
 Neuhofer, Gerhard Adam 42
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Riedel, Karl Traugott 1
+Pöhacker, Leopold u. Weiß, David 2
+Schnorr von Carolsfeld, Hans Veit 23
 Chodowiecki, Daniel Nikolaus u. Penzel, Johann Georg 34
 Lawrence, Thomas u. Kotterba, Carl 2
 Lehmann, Friedrich Leonhard u. Boettger, Gottlieb 26
@@ -3043,6 +3040,7 @@ Ramberg, Johann Heinrich u. Schule, Albert 1
 Dyck, Anton van u. Endner, Gustav Georg 1
 Bourdon, Sebastien u. Endner, Gustav Georg 1
 Glassbach, Benjamin 1
+Sirani, Elisabetha u. Kotterba, Carl 1
 Heideloff, Victor Wilhelm Peter u. Hössel, Johann Baptist 1
 Törmer, Benno Friedrich u. Wagner, Friedrich 3
 Törmer, Benno Friedrich u. Geißler, Friedrich 1
@@ -3056,6 +3054,7 @@ Strixner, August u. Kotterba, Carl 1
 Fendi, Peter u. Eisner, Franz 1
 Beck, Heinrich (2) u. Weiß, David 2
 Kininger, Vincenz Georg u. Malvieux, Paul 3
+Rensch, Friedrich u. Axmann, Josef 1
 Francia, Francesco u. Karcher, Anton 1
 Schwind, Moritz von u. Perlasca, Domokos 1
 Pöhacker, Leopold u. Krepp, Ignaz 1
@@ -3079,15 +3078,7 @@ Mundt, Theodor 1
 Gerhard, Wilhelm 10
 Tischbein, Johann Friedrich August u. Poll, Theodor Vincent 1
 Klinsky, Johann Gottfried u. Veith, Philipp 2
-Wendland, Johann Christoph 2
-Schnorr von Carolsfeld, Ludwig Ferdinand u. Fleischmann, Friedrich (2) 2
-Begas, Karl u. Schuler, Charles Louis u. Weber, Andreas 1
-Schubert, Johann David u. Malvieux, Paul 5
-Richter, Johann Salomon 1
-Forster, Johann Georg Adam 1
-Moreau, Jean Michel (le jeune) u. Hubert, Jean Jacques 1
-Moreau, Jean Michel (le jeune) u. Coiny, Jacques Joseph 1
-Moreau, Jean Michel (le jeune) u. Longueil, Joseph de 2
+Schnorr von Carolsfeld, Hans Veit u. Mayer, Carl 2
 Perger, Anton von u. Axmann, Josef 3
 Sangster, Samuel 1
 Robertson, Andrew u. Finden, Edward 1
@@ -3106,6 +3097,8 @@ Wend, Fridolin von 14
 Perger, Anton von 18
 Planer, Gustav 1
 Neupert, Henriette 1
+Wendland, Johann Christoph 2
+Schnorr von Carolsfeld, Ludwig Ferdinand u. Fleischmann, Friedrich (2) 2
 Naumann, Carl Friedrich u. Payne, Albert Henry 2
 Benz, Achilles u. Frey, Samuel 1
 Bachofen, Matthias u. Frey, Samuel 1
@@ -3125,6 +3118,7 @@ Hildebrandt, Theodor u. Schuler, Edouard 1
 Kühne, Friedrich Gustav 1
 Schnorr von Carolsfeld, Ludwig Ferdinand u. Boettger, Gottlieb 1
 Althaus, Emil 1
+Begas, Karl u. Schuler, Charles Louis u. Weber, Andreas 1
 Rheiner, Christoph u. Hegi, Franz 4
 Saunders, George Lethbridge u. Kotterba, Carl 1
 Jung, Johann Heinrich 1
@@ -3146,6 +3140,12 @@ Nehrlich, Gustav u. Schuler, Charles Auguste 1
 Murillo, Bartolomé Esteban u. Krepp, Ignaz 1
 Rubio, Luigi u. Kotterba, Carl 1
 Flittner, Christian Gottfried 3
+Schubert, Johann David u. Malvieux, Paul 5
+Richter, Johann Salomon 1
+Forster, Johann Georg Adam 1
+Moreau, Jean Michel (le jeune) u. Hubert, Jean Jacques 1
+Moreau, Jean Michel (le jeune) u. Coiny, Jacques Joseph 1
+Moreau, Jean Michel (le jeune) u. Longueil, Joseph de 2
 Rubens, Peter Paul u. Karcher, Anton 2
 Murillo, Bartolomé Esteban u. Karcher, Anton 1
 Schoonjans, Anthoni u. Karcher, Anton 1
@@ -3164,12 +3164,6 @@ Wilder, Georg Christian u. Geißler, Friedrich 5
 Wilder, Georg Christian u. Haldenwang, Christian 1
 Pope, Alexander; Herder, Johann Gottfried 1
 Chodowiecki, Daniel Nikolaus u. Stägelich, J. C. u. Berger, Daniel 1
-Seidel, Friedrich Ludwig 4
-Lehmann, Friedrich Adolph 2
-Robert, Ernst Friedrich Ferdinand u. Gerstner, Joseph 3
-Moreau, Jean Michel (le jeune) u. Langlois, Vincent Marie (le jeune) 1
-Moreau, Jean Michel (le jeune) u. Halbou, Louis Michel 1
-Adam, Albrecht u. Päringer, Josef 1
 Liebe, Gottlob August 11
 Rähmel, Achaz Gottlieb u. Nussbiegel, Johann 1
 Poll, Theodor Vincent 1
@@ -3181,6 +3175,9 @@ Sonnenberg, Franz von 5
 Rubens, Peter Paul 4
 Eisner, Franz 1
 Bowitsch, Ludwig 22
+Seidel, Friedrich Ludwig 4
+Lehmann, Friedrich Adolph 2
+Robert, Ernst Friedrich Ferdinand u. Gerstner, Joseph 3
 Lindau, Dietrich u. Höfel, Blasius 2
 Naumann, Carl Friedrich u. Weiß, David 1
 Geckert, Franz Peter 2
@@ -3240,6 +3237,9 @@ Moreau, Jean Michel (le jeune) u. Dupréel, Jean Baptiste Michel 1
 Heideloff, Carl Alexander von u. Weisbeck, Ignaz Franz 1
 Muth, Joseph 41
 Ramdohr, Friedrich Wilhelm Basilius 1
+Moreau, Jean Michel (le jeune) u. Langlois, Vincent Marie (le jeune) 1
+Moreau, Jean Michel (le jeune) u. Halbou, Louis Michel 1
+Adam, Albrecht u. Päringer, Josef 1
 Senff, Carl August u. Krüger, Ephraim Gottlieb 1
 Heideloff, Carl Alexander von u. Duttenhofer, Christian Friedrich Traugott 1
 Wilder, Georg Christian 1
@@ -3278,12 +3278,6 @@ Latilla, Eugenio u. Dvoržak, Adolf 1
 Schulz, Joachim Christoph Friedrich 154
 Uhl, Friedrich 3
 Perger, Sigmund Ferdinand von u. Krepp, Ignaz 3
-Dvoržak, Adolf 3
-Weigl, Franz u. Preisel, Christoph 1
-Stone, Frank u. Baumann, Johann Wilhelm 2
-Rubens, Peter Paul u. Hess, Carl Ernst Christoph 1
-Newenham, Frederik u. Hoffmeister, Christian 1
-Corbould, Edward Henry u. Baumann, Johann Wilhelm 1
 Perger, Sigmund Ferdinand von u. Langer, Sebastian 52
 Pape, Ludwig Matthäus Heinrich 17
 Lecomte, Hippolyte u. Kotterba, Carl 1
@@ -3291,6 +3285,12 @@ Zöllner, Johann Friedrich 13
 Eggers, Joachim Gerhard 2
 Wilhelmi, Heinrich Friedrich 1
 Lindenhahn, Andreas Christoph 3
+Dvoržak, Adolf 3
+Weigl, Franz u. Preisel, Christoph 1
+Stone, Frank u. Baumann, Johann Wilhelm 2
+Rubens, Peter Paul u. Hess, Carl Ernst Christoph 1
+Newenham, Frederik u. Hoffmeister, Christian 1
+Corbould, Edward Henry u. Baumann, Johann Wilhelm 1
 Duval Le Camus, Jules Alexandre 1
 Fallenstein, Manfred Friedrich Bauer 118
 Kamiensky, Karoline Friederika 1
@@ -3320,12 +3320,6 @@ Mechau, Jacob Wilhelm u. Crusius, Gottlieb Leberecht 1
 Heidenreich, J. D. 1
 Nestler, Carl Gottfried 4
 Theer, Adolf u. Leybold, Gustav 3
-Russ, Clementine u. Axmann, Josef 2
-Russ, Clementine u. Langer, Sebastian 28
-Glatz, Jakob 25
-Lossius, Kaspar Friedrich 2
-Kamla, Heinrich Christian Friedrich 2
-Lehmann, Friedrich Leonhard u. Böhme, Johann Christian 1
 Seeger, Ludwig 46
 Carstens, Asmus u. Berger, Daniel 12
 Calderon de la Barca Barreda, Don Pedro; Schumacher, Andreas 3
@@ -3335,6 +3329,12 @@ Spittler, Ludwig Timotheus 9
 Poussin, Gaspard. Duguet, Gaspard 1
 Vaudechamp, Joseph u. Baumann, Johann Wilhelm 1
 Schmohl, Johann Christian 10
+Russ, Clementine u. Axmann, Josef 2
+Russ, Clementine u. Langer, Sebastian 28
+Glatz, Jakob 25
+Lossius, Kaspar Friedrich 2
+Kamla, Heinrich Christian Friedrich 2
+Lehmann, Friedrich Leonhard u. Böhme, Johann Christian 1
 Lesueur, Eustache u. Riepenhausen, Ernst Ludwig 6
 Rößler, Karl Hugo 81
 Wilmsen, Friedrich Philipp 10
@@ -3357,13 +3357,11 @@ Dreykorn, Johann 2
 Schütz, Friedrich Karl Julius 1
 Sambach, Christian u. Kohl, Clemens 25
 Schrämbl, Franz Anton 1
-Vischer, Peter (d. J.) u. Reindel, Albert Christoph u. Geißler, Friedrich 1
-Senn, Johannes 1
-Neustück, Johann Jakob 1
 Theer, Albert u. Kotterba, Carl 1
 Gabler, Ambrosius u. Geißler, Friedrich 4
 Maillard, Ludwig u. Blaschke, János 33
 Woltmann, Karoline von 5
+Vischer, Peter (d. J.) u. Reindel, Albert Christoph u. Geißler, Friedrich 1
 Kleine, Isidor u. Preisel, Christoph u. Geyer, Conrad 1
 Beggroff, Karl Joachim 6
 Molwitz, Eberhard Friedrich 28
@@ -3380,6 +3378,8 @@ Lasinsky, Johann Adolf u. Rossmäßler, Friedrich 3
 Brüggemann, J. W. 1
 Krause, Wilhelm August Leopold Christian u. Fincke, Hans 3
 Most, Ludwig August 1
+Senn, Johannes 1
+Neustück, Johann Jakob 1
 Meyer, Friedrich (Fritz) 1
 Klischnig, Karl Friedrich 7
 Theer, Adolf u. Axmann, Josef 5
@@ -3439,11 +3439,6 @@ Ranftl, Mathias u. Dvoržak, Adolf 2
 Sergel, Johan Tobias u. Schleich, Johann Carl 1
 Jung, Franz Wilhelm 4
 Lutz, Markus 1
-Glassbach, Carl Christian 4
-Swoboda, Eduard u. Axmann, Josef 1
-Oldekop, Christian August Wilhelm 4
-Lebarbier, Jean Jacques François u. Gerstner, Joseph 1
-Hilair, Jean-Baptiste u. Gerstner, Joseph 2
 Chatelet, Claude Louis u. Gerstner, Joseph 1
 Nesper, Eugen 3
 Raffael. Santi, Raffaelo u. Fendi, Peter 1
@@ -3455,6 +3450,7 @@ Hampe, Karl Friedrich u. Schule, Christian 3
 Hampe, Karl Friedrich u. Frosch, Carl 1
 Hampe, Karl Friedrich u. Nettling, Friedrich Wilhelm 1
 Rotari, Pietro Antonio Conte u. Arndt, Wilhelm 1
+Glassbach, Carl Christian 4
 Buschmann, Gotthard von 5
 Feuchtersleben, Eduard von 8
 Staub, Johannes 9
@@ -3462,6 +3458,7 @@ Marsano, Wilhelm von 28
 Robert, Ernst Friedrich Ferdinand u. Blaschke, János 1
 Stein, Karl 6
 Ender, Johann Nepomuk u. Axmann, Josef 9
+Swoboda, Eduard u. Axmann, Josef 1
 Schadow, Wilhelm u. Bolt, Johann Friedrich 1
 Büscher, C. 2
 Boguslawski, Karl Andreas von 9
@@ -3494,11 +3491,9 @@ Matthäi, Friedrich u. Blaschke, János 12
 Casparson, Johann Wilhelm Christian Gustav 4
 Dick, Johann Tobias 9
 Eschstruth, Hans Adolf 22
-Eisen, August Paul 2
-Spee, Friedrich 17
-Ramberg, F. 4
-Hoffmann, G. W. u. Darchow, C. 1
-Stöber, Franz Xaver 16
+Oldekop, Christian August Wilhelm 4
+Lebarbier, Jean Jacques François u. Gerstner, Joseph 1
+Hilair, Jean-Baptiste u. Gerstner, Joseph 2
 Streiter, Joseph 1
 Decker, Albert u. Leybold, Gustav 3
 Ahlwardt, Christian Wilhelm 7
@@ -3512,6 +3507,8 @@ Helvig, Anna Amalie von, geb. von Imhof u. Hössel, Johann Baptist 2
 Wood, John u. Beyer, Leopold 1
 Göpp, Johann Jakob 1
 Rieder, Wilhelm August u. Hofmann, Michael 5
+Eisen, August Paul 2
+Spee, Friedrich 17
 Hickel, Joseph u. Kohl, Clemens 1
 Ruß, Leander u. Dvoržak, Adolf 1
 Rosselli, Matteo u. John, Friedrich 1
@@ -3526,6 +3523,9 @@ Wachter, Georg u. Krepp, Ignaz 1
 Menk-Dittmarsch, F. 3
 Laufberger, Ferdinand Ludwig Wilhelm 11
 Bürger, Elisabeth (geb. Hahn) 4
+Ramberg, F. 4
+Hoffmann, G. W. u. Darchow, C. 1
+Stöber, Franz Xaver 16
 Wallner, Franz 4
 Löwe, Johann Daniel Ludwig 10
 Pyrker von Oberwart, Johann Baptist Ladislav 3
@@ -3558,13 +3558,13 @@ Loder, Matthäus u. Blaschke, János 4
 Marot, Clément; Hammer-Purgstall, Joseph von 6
 Friedrich II. 2
 Althaus, Theodor 7
-Lackner, Johann Karl von; Tschink, Kajetan 1
 Schule, Albert 3
 Hilair, Jean-Baptiste u. Blaschke, János 12
 Lamey, August 1
 Qu. Horatius Flaccus 3
 Mayer, Carl u. Hoffmeister, Christian 4
 Decker, Albert u. Axmann, Josef 5
+Lackner, Johann Karl von; Tschink, Kajetan 1
 Oesfeld, Karl Ludwig von 2
 Hebbel, Friedrich 98
 Schubert, Johann David u. Frosch, Carl 3
@@ -3589,7 +3589,6 @@ Gaye, Johann Wilhelm 1
 La Fontaine, Jean 63
 Rieder, Wilhelm August u. Kotterba, Carl 6
 Schlotterbeck, Wilhelm Friedrich u. Blaschke, János 1
-Gleich, Josef Alois 2
 Trentsensky, Joseph 2
 Stein, Anton Joseph 35
 Abbt, Thomas 1
@@ -3602,6 +3601,7 @@ Grevedon, Henri (eig. Pierre Louis) u. Hoffmeister, Christian 1
 Egleton, William Henry u. Hoffmeister, Christian 1
 Court, Joseph Désiré u. Hoffmeister, Christian 2
 Nell, Nellenburg-Damenacker, Franz Maria von 1
+Gleich, Josef Alois 2
 Hyrtl, Jakob 3
 Kinderling, Johann Friedrich August 6
 Darbes (d'Arbes), Joseph Friedrich August 1
@@ -3617,12 +3617,12 @@ Vagedes, Adolf von u. Thelott, Ernst Karl Gottlieb 1
 Geßner, Johann Georg 3
 Perger, Sigmund Ferdinand von u. Kotterba, Carl 4
 Rieder, Wilhelm August u. Blaschke, János 1
-Kilian, Philipp Andreas u. Westermayr, Konrad 1
-Klieber, Eduard 6
 Nonne, Johann Gottfried Christoph 6
 Schlesinger, Heinrich u. Mahlknecht, Karl 3
 Hoppner, John u. Bolt, Johann Friedrich 1
 Bodmer, Gottlieb 1
+Kilian, Philipp Andreas u. Westermayr, Konrad 1
+Klieber, Eduard 6
 Rieder, Wilhelm August u. Leybold, Gustav 2
 Daumer, Georg Friedrich 80
 Hopfgarten, Alexander Ferdinand u. Eichens, Eduard 1
@@ -3662,10 +3662,6 @@ Witschel, Johann Friedrich Wilhelm 6
 Semmig, Friedrich Hermann 4
 Reinsberg, Ida von 9
 Kriehuber, Josef u. Mahlknecht, Karl 1
-Schilbach, Johann Heinrich 2
-Rosenberg, Johann Carl Wilhelm 8
-Fischer, Johann Georg 14
-Pannasch, Anton 17
 Kraus, Georg Melchior u. Liebe, Gottlob August 13
 Schmerfeld, Johann Daniel u. Boettger, Gottlieb 1
 Weygandt, Sebastian u. Boettger, Gottlieb 1
@@ -3673,6 +3669,7 @@ Seitz, Johann Baptist 7
 Gottlob, Ernst u. Liebe, Gottlob August 2
 Osterwald, Karl Wilhelm 14
 Hinze, Heimbert Paul Friedrich 15
+Schilbach, Johann Heinrich 2
 Meier, Ernst Heinrich 26
 Scheffel, Joseph Victor von 5
 Beck, Friedrich 6
@@ -3688,6 +3685,7 @@ Rehberg, Friedrich 1
 Kirsten, Gotthelf Karl Friedrich 6
 Seiler, Joseph 4
 Hagendorf, Hugo 2
+Rosenberg, Johann Carl Wilhelm 8
 Güll, Friedrich Wilhelm 7
 Loqueyssie, Emilie Lachau de u. Weiß, David 3
 Sturm, Julius Karl Reinhold 46
@@ -3695,6 +3693,8 @@ Dahn, Felix 4
 Dolci, Carlo u. Kotterba, Carl 1
 Schweizer, Anton 5
 Wildungen, Ludwig Karl Eberhard Heinrich Friedrich von; Bunsen, Philipp Ludwig 1
+Fischer, Johann Georg 14
+Pannasch, Anton 17
 Richter, Henry James u. Kotterba, Carl 1
 Waldersee, Franz Anton Johann Georg 7
 Corbaux, Fanny u. Geißler, Peter Carl u. Mayer, Carl 14
@@ -3718,9 +3718,6 @@ Kovatsch, Joseph u. Stöber, Franz Xaver 1
 Rieder, Wilhelm August u. Stöber, Joseph 3
 Erhard, Eduard u. Hofmann, Michael 1
 Richter, Christian Gottlob 1
-Jaffé, Philipp 1
-Führich, Joseph von u. Beyer, Leopold 8
-Allgeyer, Julius 9
 Shakespeare, William; Justi, Karl Wilhelm 1
 Hauenschild, Richard Georg von 1
 Apel, Theodor 2
@@ -3741,6 +3738,7 @@ Verelst, Pieter u. Perger, Sigmund Ferdinand von u. Langer, Sebastian 1
 Batoni, Pompeo Girolamo 1
 Prudhon, Pierre Paul 1
 Hersent, Louis 1
+Jaffé, Philipp 1
 Mettenleiter, Johann Evangelist 1
 Tersteegen, Gerhard 1
 Sintzenich, Heinrich 1
@@ -3759,19 +3757,15 @@ Berggold, Carl Moritz u. Rossmäßler, Friedrich 4
 Weisser, Ludwig u. Allgeyer, Julius 2
 Vogtherr, Johann Albrecht 1
 Gebauer, Ernst u. Weiß, David 2
+Führich, Joseph von u. Beyer, Leopold 8
 Kern, Matthäus u. Beyer, Leopold 2
 Haach, Ludwig 1
+Allgeyer, Julius 9
 Weisser, Ludwig 11
 Fellner, Ferdinand u. Jaquemot, Georges Francois 1
 d'Arien, Bernhard Christoph 4
 Potter, Paulus u. Unger, Wilhelm u. Ritter, Heinrich Wilhelm 2
 Becker, Philipp Jakob u. Thelott, Ernst Karl Gottlieb 1
-Callot, Magadalena von 9
-Wagner, Heinrich 4
-Vulpius, Christian August 20
-Söderberg, Gustaf u. Weiß, David 1
-Sarazin de Belmont, Louise Joséphine 1
-Fellner, Ferdinand u. Hessloehl, Wilhelm 2
 Liszt, Franz 1
 Kurtz, Carl von 1
 Lawätz, Heinrich Wilhelm 4
@@ -3783,8 +3777,11 @@ Ross, Willliam Charles u. Cook, Henry R. 1
 Retzsch, Moritz u. Mahlknecht, Karl 5
 Pienemann, Nicolas u. Lange, Johannes Philippus 1
 Junge, Friedrich August u. Meyer, Heinrich (Joh. H.) 1
+Wagner, Heinrich 4
 Schwind, Moritz von u. Passini, Johann Nepomuk 2
 Senff, Carl August 2
+Callot, Magadalena von 9
+Vulpius, Christian August 20
 Neubauer, Friedrich Ludwig 8
 Netscher, Caspar u. Sluyter, Dirk Jurriaan 1
 Werff, Adriaen van der u. Zeelander, Abraham Lion 1
@@ -3811,6 +3808,9 @@ Wolf, Ludwig u. Stöber, Joseph 3
 Ender, Johann Nepomuk u. Hofmann, Michael u. Stöber, Franz Xaver 4
 Ender, Johann Nepomuk u. Serz, Johann Georg 2
 Kraus, Georg Melchior u. Geyser, Christian Gottlieb 1
+Söderberg, Gustaf u. Weiß, David 1
+Sarazin de Belmont, Louise Joséphine 1
+Fellner, Ferdinand u. Hessloehl, Wilhelm 2
 Melchior, Heinrich Anton u. Crusius, Gottlieb Leberecht 6
 Foltz, Philipp von u. Beyer, Leopold 3
 Bouwinghausen von Wallmerode, Franz Maximilian Friedrich 2
@@ -3825,8 +3825,6 @@ Guercino. Barbieri, Giov. Francesco 2
 Dandini, Cesare 1
 Weber, Thomas u. Thelott, Johann Paul 4
 Grögory, Friedrich 1
-Tischbein, Johann Friedrich August u. Karcher, Anton 1
-Trigt, Hendrik Albert van 1
 Montaigne, Michel 1
 Pozzi, Giovanni Battista u. Hess, Carl Ernst Christoph 2
 Schubert, Johann David u. Liebe, Gottlob August 18
@@ -3850,6 +3848,8 @@ Ostade, Isaac van u. Perger, Sigmund Ferdinand von u. Langer, Sebastian 1
 Meisl, Carl 27
 Schönn, Alois 4
 Oeconomo, Aristides 4
+Tischbein, Johann Friedrich August u. Karcher, Anton 1
+Trigt, Hendrik Albert van 1
 Hoecker, Adalbert Longin u. Stöber, Joseph 3
 Uwins, Thomas u. Sangster, Samuel 1
 Leslie, Charles Robert u. Rolls, Charles 2
@@ -3901,13 +3901,10 @@ Henschel, Wilhelm (u. Brüder) u. Berger, Daniel 1
 Weber, Bernhard Anselm 3
 Rosenberg, Johann Carl Wilhelm u. Thoenert, Medardus 1
 Schubert, Johann David u. Thoenert, Medardus 2
-Weissenberg, Ignaz G. 8
-Sagert, Hermann 1
-Rosenberg, Johann Carl Wilhelm u. Geyser, Christian Gottlieb 1
-Lassalle, Émile u. Preisel, Christoph 1
 Retzsch, Moritz u. Stöber, Franz Xaver 1
 Chalon, Alfred Edward u. Dvoržak, Adolf 1
 Nilson, Johannes Esaias u. Wolfgang, Gustav Andreas 1
+Weissenberg, Ignaz G. 8
 Fellner, Ferdinand u. Fleischmann, Friedrich (2) 1
 Holbein, Eduard u. Schätzig, Adolf 2
 Craeyvanger, Reinier u. Taurel, Charles Edouard 1
@@ -3915,6 +3912,8 @@ Steinschneider, Moritz 20
 Dalberg, Wolfgang Heribert 1
 Wagner, Richard 48
 Wyatt, Henry u. Robinson, John Henry 1
+Sagert, Hermann 1
+Rosenberg, Johann Carl Wilhelm u. Geyser, Christian Gottlieb 1
 Decaisne, Henri u. Smith, Edward 1
 Collins, William u. Rolls, Charles 1
 Collins, William u. Finden, William 1
@@ -3943,13 +3942,13 @@ Wolf, Ludwig u. Beyer, Leopold 1
 Walther, Johann Philipp 2
 Ehnle, Adrianus Johannes u. Lange, Johannes Philippus 1
 Kate, Herman Frederik Carel ten u. Taurel, Charles Edouard 2
+Lassalle, Émile u. Preisel, Christoph 1
 Weger, August 4
 Wittkamp, Johann Bernhard u. Wehmeyer, Willem Frederik 1
 Zürcher, Anton Frederik u. Taurel, Charles Edouard 1
-Kovatsch, Joseph 6
-Retzsch, Moritz u. Kotterba, Carl 7
 Schelfhout, Andreas u. Sluyter, Dirk Jurriaan 1
 Leybold, Gustav 5
+Retzsch, Moritz u. Kotterba, Carl 7
 Berndt, Johann Christian 17
 Doebelin, Karl Theodor 3
 Gabler, Ambrosius u. Bock, Johann Carl 3
@@ -3983,6 +3982,7 @@ Knigge, Adolf Franz Friedrich Ludwig von 2
 Goldsmith, Oliver 1
 Withof, Johann Philipp Lorenz 1
 Timme, Christian Friedrich 1
+Kovatsch, Joseph 6
 Sonntag, Karl Gottlob 1
 Ulprecht, Ernst Markus u. Senff, Carl August 2
 Bach, Friedrich 3
@@ -4032,13 +4032,9 @@ Palma, Jacopo u. Sichling, Lazarus Gottlieb 1
 Schotel, Johannes Christianus u. Hilverdink, Johannes u. Tetar van Elven, Jean-Baptist 1
 Carracci, Annibale u. Hofmann, Michael 1
 Reiberstorffer, Julius (auch D. F.) 9
-Spitta, Carl Johann Philipp 1
-Pienemann, Nicolas u. Sluyter, Dirk Jurriaan 2
-Hamburger, Johann Conrad u. Lange, Johannes Philippus 1
-Krusemann, Jan Adam Janszoon u. Lange, Johannes Philippus 1
-Bosboom, Johannes u. Kaiser, Johan Wilhelm 1
 Greuze, Jean Baptiste u. Preisel, Christoph 1
 Verschuur, Wouter u. Steelink, Willem (d. Ä.) 1
+Pienemann, Nicolas u. Sluyter, Dirk Jurriaan 2
 Sonderland, Johann Baptist Wilhelm Adolf u. Preisel, Christoph u. Geyer, Conrad 1
 Hackaert, Jan u. Velde, Adriaen van de u. Sluyter, Dirk Jurriaan 1
 Steinrucker, Leopold 5
@@ -4049,6 +4045,7 @@ Meissner, Alfred 17
 Retzsch, Moritz u. Weiß, David 2
 Gretschel, Johann Christian 2
 Retzsch, Moritz u. Duncan, Andrew 1
+Spitta, Carl Johann Philipp 1
 Shakespeare, William; Schumacher, Andreas 1
 Schindler, Franz V. 1
 Brochart, Constant Joseph u. Geyer, Conrad 1
@@ -4064,9 +4061,10 @@ Pucherna, Antonin 12
 Neidl, Joh. Joseph 2
 Proch, Heinrich 8
 Coeckelberghe-Dützele, Gerhard Robert Walter von 6
+Hamburger, Johann Conrad u. Lange, Johannes Philippus 1
+Krusemann, Jan Adam Janszoon u. Lange, Johannes Philippus 1
+Bosboom, Johannes u. Kaiser, Johan Wilhelm 1
 Brochart, Constant Joseph u. Preisel, Christoph 1
-Jelacic de Busim, Josef 1
-Postl, Karl u. Berka, Johann 2
 Ender, Johann Nepomuk u. Eissner, Joseph (2) 1
 Stilke, Hermann Anton u. Kotterba, Carl 1
 Krammer, Franz 1
@@ -4083,6 +4081,7 @@ Landesmann, Heinrich 2
 Retzsch, Moritz u. Kovatsch, Joseph u. Hofmann, Michael 1
 Krusemann, Jan Adam Janszoon u. Bing, Valentin u. Lange, Johannes Philippus 1
 Franceschini, Marco Antonio u. Kovatsch, Joseph 2
+Postl, Karl u. Berka, Johann 2
 Schwemminger, Heinrich 1
 Auerbach, Jacob 1
 Diez, Samuel Friedrich u. Zastera, Franz 1
@@ -4101,6 +4100,7 @@ Dietrich, Christian Wilhelm Ernst u. Sichling, Lazarus Gottlieb 2
 Meyer, Johann Georg (von Bremen) u. Sichling, Lazarus Gottlieb 1
 Weinrauch, Caspar u. Gerstner, Joseph 1
 Eder, Joseph 1
+Jelacic de Busim, Josef 1
 Nicolai, Karl Otto Ehrenfried 1
 Reuling, Wilhelm 3
 Weigl, Joseph 1
@@ -4112,8 +4112,6 @@ Kalliauer, Anton u. Czetter, Samuel 1
 Agricola, Karl Joseph Aloys u. John, Friedrich 1
 Loder, Matthäus u. John, Friedrich 1
 Letteris, Max 3
-Katzler, Vincenz u. Beyer, Leopold 1
-Laufberger, Ferdinand Ludwig Wilhelm u. Sonnenleiter, Johannes 1
 Emmrich, Georg 21
 Lawrence, Thomas u. Böhme, Johann Christian 1
 Melanchton, Philipp 1
@@ -4121,6 +4119,8 @@ Cosmar, Alexander 9
 Genée, Johann Friedrich 1
 Bartsch, Johann Leopold Gustav 1
 Meddlhammer, Albin Johann Baptist von 10
+Katzler, Vincenz u. Beyer, Leopold 1
+Laufberger, Ferdinand Ludwig Wilhelm u. Sonnenleiter, Johannes 1
 Ranftl, Mathias u. Zastera, Franz 1
 Staufe-Simiginowicz, Ludwig Adolf 12
 Sannens, Friedrich Karl 2
@@ -4160,9 +4160,6 @@ Bock, Cornelius Peter 2
 Rider, Alexander u. Geißler, Fr. 1
 Theer, Adolf u. Fleischmann, Jacob 1
 Katzler, Vincenz u. Baumann, Johann Wilhelm 1
-Kauffmann, Angelica u. Kohl, Clemens 1
-Maillard, Ludwig u. Kohl, Clemens 12
-Schauenburg, Karl Hermann 6
 Hemerlein, Carl Johann Nepomuk 1
 Grottger, Arthur u. Beyer, Leopold 1
 Decker, Albert u. Beyer, Leopold 1
@@ -4186,17 +4183,17 @@ Junge, Friedrich August u. Rossmäßler, Friedrich 5
 Junge, Friedrich August u. Boettger, Gottlieb 49
 Töpfer, Karl 4
 Mikolasch, J. E. 3
+Kauffmann, Angelica u. Kohl, Clemens 1
+Maillard, Ludwig u. Kohl, Clemens 12
 Lauer, Nikolaus u. Karcher, Anton 1
 Winterhalter, Franz Xaver u. Sonnenleiter, Johannes 1
 Förster, Lebrecht Gotthilf 2
 Keck, Karl Heinrich Christian 1
 Willatzen, Johann Peter 2
 Portius, Carl J. Simon 1
+Schauenburg, Karl Hermann 6
 Hirsch, Rudolph 3
 Arentsschildt, Louis von 4
-Rambach, Friedrich Eberhard 7
-Dilthey, Isaak Daniel 1
-Voß, Julius von 2
 Oser, Friedrich 5
 Ernst, Friedrich 6
 Oesfeld, Karl Ludwig von u. Glassbach Carl Christian 1
@@ -4235,6 +4232,7 @@ Jagemann, Ferdinand u. Ermer, C. 1
 Kummer, Paul Gotthelf 2
 Goltdammer, Theodor 2
 Schütz, Johann Stephan 2
+Rambach, Friedrich Eberhard 7
 Naeke, Gustav Heinrich u. Reinhold, Heinrich 1
 Naeke, Gustav Heinrich u. Rist, Gottfried 1
 Schnorr von Carolsfeld, Hans Veit u. Frosch, Carl 1
@@ -4252,6 +4250,8 @@ Rublack, Karl Friedrich August 12
 Reinhold, Johann Friedrich Leberecht u. Schwarz, Paul Wolfgang 1
 Gabler, Ambrosius u. Schwarz, Paul Wolfgang 4
 Gabler, Ambrosius 5
+Dilthey, Isaak Daniel 1
+Voß, Julius von 2
 Eckschläger, Joseph August 1
 Schreiber, Rudolf 1
 Pangkofer, Joseph Anton 3
@@ -4269,14 +4269,6 @@ Broxtermann, Theobald Wilhelm 1
 Lessing, Karl Friedrich u. Stöber, Franz Xaver 1
 Hildebrandt, Theodor u. Stöber, Franz Xaver 1
 Perger, Sigmund Ferdinand von u. Zinke, Johann Wenzel 1
-Kehrer, Karl Christian u. Sintzenich, Heinrich 1
-Beyer, Johann August von 1
-Seidel, Johann Friedrich 3
-Siede, Johann Christian 1
-Glaser, Rudolph 1
-Westall, Richard u. Beyer, Leopold 2
-Schmidt, Wilhelm Ludwig 1
-Boltz, August Andreas 3
 LePique, Johann Philipp 3
 Brand, Johann Christian 2
 Oesfeld, Karl Ludwig von u. Berger, Friedrich Gottlieb 1
@@ -4304,11 +4296,14 @@ Gail, Joseph u. Rahl, Carl Heinrich 1
 Frick, Johann Friedrich 1
 Rademacher, F. E. u. Stöber, Franz Xaver 1
 Perger, Sigmund Ferdinand von u. Pöltzel, Martin 12
+Kehrer, Karl Christian u. Sintzenich, Heinrich 1
+Beyer, Johann August von 1
 Kettel, Johann Georg 1
 Wollheim da Fonseca, Anton Eduard 1
 Krickeberg, Sophie Friederike (geb. Koch) 1
 Harrys, Johann Georg Karl 5
 Schmidt, Heinrich 1
+Westall, Richard u. Beyer, Leopold 2
 Eastlake, Charles Lock u. Beyer, Leopold 1
 Vaerst, Friedrich Christian Eugen Freiherr von 1
 Stawinsky, Karl 1
@@ -4319,6 +4314,8 @@ Sachs, Hans 1
 Mayer, Sophie Friederike Elisabeth 17
 Findeisen, Julius 1
 Hartmann, Johann David 1
+Seidel, Johann Friedrich 3
+Siede, Johann Christian 1
 Köhler, Christian 1
 Heideloff, Carl Alexander von u. Rauch, Ernst 2
 Arnstein, Benedikt David 5
@@ -4341,13 +4338,14 @@ Büsching, Johann Gustav 1
 Purgold, Ludwig 3
 Günsburg, Karl Siegfried 3
 Wright, John William u. Beyer, Leopold 1
-Chodowiecki, Daniel Nikolaus u. Rossmäßler, Johann August 12
-Holbein, Eduard u. Hüssener, Auguste 4
-Gruber, Johann Gottfried 1
+Boltz, August Andreas 3
+Glaser, Rudolph 1
+Schmidt, Wilhelm Ludwig 1
 Ayrenhoff, Cornelius Hermann 5
 Thieme, Moritz 9
 Lowe, Moses Samuel 12
 Newton, Gilbert Stuart u. Frommel, Carl Ludwig 1
+Chodowiecki, Daniel Nikolaus u. Rossmäßler, Johann August 12
 Nestroy, Johann 2
 Marr, Wilhelm 1
 Dähling, Heinrich Anton u. Jügel, Friedrich 3
@@ -4373,6 +4371,7 @@ Bäuerle, Adolf Johann 6
 Jautz, Karl 1
 Schröder, Friedrich Ulrich Ludewig 1
 Schmidt, Friedrich Ludwig 1
+Holbein, Eduard u. Hüssener, Auguste 4
 Fragonard, Alexandre Evariste und Roger, Barthélemy 3
 Tardieu, Jean-Baptiste Pierre 3
 Vernet, Horace 1
@@ -4412,4 +4411,5 @@ Blum, Robert 1
 Tielker, Johann Friedrich u. Karcher, Anton 1
 Pochmann, Traugott Leberecht u. Karcher, Anton 1
 Berggold, Carl Moritz u. Boettger, Gottlieb 1
+Gruber, Johann Gottfried 1
 Poisson de la Chabeaussière, Ange-Etienne-Xavier 3

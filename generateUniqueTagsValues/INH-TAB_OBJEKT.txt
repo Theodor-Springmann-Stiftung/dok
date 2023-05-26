@@ -3,7 +3,7 @@ Gedicht/Lied 58628
 Sammlung 5075
 Prosa 12853
 G-Verz 639
-Graphik 19644
+Graphik 19643
 Tabelle 2802
 Corrigenda 266
 Titel 4239
@@ -12,7 +12,7 @@ I-Verz 1624
 Text u. Tabelle 2341
 szen. Darstellung 1160
 Prosa u. Gedicht 371
-Musikbeigabe 1835
+Musikbeigabe 1836
 Rätsel 2852
 Karte 128
 Gedicht/Lied u. Prosa 55
@@ -23,8 +23,8 @@ Umschlag 5
 szen. Darstellung u. Prosa 8
 Tabelle u. Text 142
 Trinkspruch 148
-Tabelle # 2
 graph. Tanzanleitung 251
+Tabelle # 2
 Prosa u. szen. Darstellung 28
 Tafel 10
 graph. Anleitung 110

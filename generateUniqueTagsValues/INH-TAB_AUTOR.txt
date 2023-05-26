@@ -147,73 +147,6 @@ Frhr. v. N. # 2
 Eschenburg 34
 Baggesen 42
 J. K. Hök 1
-August Lafontaine 22
-Meno Haas sc. 11
-Meno Haas sc. # 32
-v. Halem 163
-Nantchen # 20
-W-r. 2
-Weis 6
-Gleim 454
-K. Schmidt 90
-C. G. St. z. 1
-Graf zu ** # 1
-C. F. U. 1
-Hmm #$ 1
-H. 87
-C. A. Schmid 1
-E. # 37
-v. Einem 162
-Filidor # 22
-F. B. 6
-Dietrich Menschenschreck # 11
-Ursula Blandina Lachtaube, verehl. Menschenschreck # 1
-Omikron # 1
-F. v. Bülow 1
-v. Salis 29
-Chr. L. Noak 1
-Fr. L. Graf zu Stolberg 16
-X. #$ 27
-Hölty 70
-W. B. # 19
-Claudius 37
-Fr. Schmitt 21
-Forkel 9
-Thomsen 9
-Fr. Schmit 2
-Michaelis 61
-Dusch 2
-L. M. # 9
-Vß # 1
-Td. # 1
-Ludwig Storch 101
-Sephine # 9
-Johann N. Vogl 250
-Ritter v. Levitschnigg 7
-D. Chodowiecki. J. D. Heidenreich sc. 1793 # 10
-FRIEDERIKE BRUN 9
-ALBRECHT 6
-A. F. E. Langbein 138
-J. F. Koreff 5
-M. K. 1
-Franke 13
-Menschenschreck # 13
-Wilh. Nic. Freudentheil 1
-Wilhelm Müller 236
-Overbeck 124
-Goekingk 49
-Ramler 69
-D. Chodowiecki inv. & sc 2
-L. H. v. Nicolay 1
-Friedrich Rückert 1233
-Cz. 23
-F. v. B. #$ 2
--d. #$ 1
-Sangerhausen 28
-Adolf Schöll 8
-E. Ferrand # 94
-F. A. B. 17
-R. 113
 Herr Haug 9
 M. Mauch del. Engraved bei George Cooke 4
 L. Wolf del. W. Jury fec. 3
@@ -226,6 +159,7 @@ A. Delatour pinx. Auguste Hüssener sc. 1
 Phil v. Körber 2
 Carl Edmund Langer 7
 Caroline D. 9
+Ludwig Storch 101
 Waechter del. H. Lips sculp. 11
 Nach F. Catels Zeichnung gestochen von F. W. Bollinger 2
 R. E. Prutz 46
@@ -236,6 +170,8 @@ J. G. Frh. v. Salis Sewis 3
 G. # 35
 Sophie Albrecht 7
 Gustav Schwab 211
+Wilhelm Müller 236
+Friedrich Rückert 1233
 Helmina # 70
 Guntram # 1
 Karl Streckfuß 35
@@ -276,10 +212,12 @@ L. Hess del.S. Geßner f. 1
 S. Geßner f. 4
 Catel del. Hess sculps. 1
 J. G. Herder 8
+Claudius 37
 Miller 39
 C. P. E. Bach 8
 Brückner 39
 F. L. Graf zu Stolberg 19
+Hölty 70
 Victor Hugo; [übers.] Gustav Schwab 6
 gez. von Schlotthauer gest. von Barth 1
 Pernot # 1
@@ -295,19 +233,23 @@ Pape 28
 Ludwig Theobul Kosegarten 15
 Schink 105
 Reinwald 5
+v. Halem 163
 Engelschall 56
 K. W. Justi 32
 Vierling 1
 S. #$ 4
 Lep. # 16
+v. Einem 162
 August Mirow 6
 Niemeyer 2
 Frieder. Brun geb. Münter 1
 S. Ch. Pape 26
+K. Schmidt 90
 J. Matthesius 5
 Conz 342
 Tiedge 197
 K. R. # 4
+Gleim 454
 Weisser 158
 Reinbeck 16
 Voltz del. Portmann sc. 2
@@ -333,6 +275,7 @@ E. O. # 1
 Z. T. # 4
 K. E. K. Schmidt 36
 H. D. # 4
+L. M. # 9
 Grenier pinx. Ed. Schuler jun. sc. 1
 Krusemann pinx. Ed. Schuler sculp. 1
 Bonnefonds # W. Hessloehl sculp. 1
@@ -345,6 +288,7 @@ K-ch 1
 Jsm # 1
 Lz. 1
 P-s. #$ 1
+Sangerhausen 28
 J. J. S. # 1
 Bernh. Becker 4
 Matthisson 126
@@ -355,6 +299,9 @@ J. W. M. inv. et f. # 1
 L. Wolf del. Jügel sc. 4
 L. Wolf del. Jügel sc. # 2
 Josephine v. Remekhási # 1
+ALBRECHT 6
+FRIEDERIKE BRUN 9
+R. 113
 Theone # 21
 J. G. J 3
 Heinse 1
@@ -362,6 +309,7 @@ Friedrich Leopold, Graf zu Stollberg 1
 E. S. 14
 Hebel 36
 Usteri und Schnetzler 1
+Sephine # 9
 Ludwig August Frankl 92
 Johann Graf Mailáth 11
 N. v. Barabás gez. Stahlstich v. Mahlknecht in Wien 1
@@ -373,6 +321,7 @@ Denant del. Maradan sc. # 1
 Klopstock 121
 Frh. v. N. # 11
 v. D. # 6
+E. # 37
 SOPHIE MEREAU 7
 HÖLDERLIN 1
 E. 36
@@ -388,6 +337,7 @@ O. a. N. 2
 Ung. 62
 Bkm. 1
 Us. # 1
+Michaelis 61
 Z. # 18
 Hn. # 1
 Lbr. 1
@@ -403,6 +353,7 @@ K. F. Pockels 17
 Karoline Rudolphi 18
 Johann Heinrich Voß 21
 C. M. Wieland 15
+Forkel 9
 Ludwig Fernow 5
 Lr. # 9
 †† 1
@@ -477,6 +428,7 @@ F. H. 13
 Leon 1
 Fräul. vom Hagen 4
 M. Denis 2
+Goekingk 49
 J. G. Jacobi 70
 J. G. Sturm sc. 3
 Thönert del. sc. 1
@@ -488,8 +440,10 @@ W. Usener 1
 D. W. Müller 1
 D. Friedrich Jacobs 4
 Goeckingk 23
+Nantchen # 20
 Amarant # 22
 Karschin 26
+Fr. L. Graf zu Stolberg 16
 I. # 8
 Müller, Wilhelm 4
 z. L. 15
@@ -537,6 +491,7 @@ M. Mauch del. entworfen von Schinkel. W. Jury sc. 1
 L. Wolf inv. et del. W. Jury sc. 12
 Barabás gez. Stahlst. v. C. Mahlknecht 1
 W. Ue. # 4
+v. Salis 29
 von Salis 11
 GRIES 6
 LOUISE *** # 1
@@ -553,6 +508,7 @@ J. F. de Goelz inv. et sculp.1797 1
 Frl. vom Hagen 2
 J. A. P. Schulz 51
 J. F. R. # 1
+X. #$ 27
 Philippine Engelhard, geb. Gatterer 17
 Schwegler 3
 Benda 7
@@ -566,8 +522,10 @@ GÖTHE 11
 Christian Graf zu Stolberg 13
 R. M. # 5
 N. # 7
+W. B. # 19
 Gr. v. -g. # 2
 Z. T. 1
+Fr. Schmitt 21
 G .v. H. #$ 1
 v. L. # 1
 L. # 26
@@ -599,6 +557,7 @@ Friedrich 5
 Blum 21
 C. S. # 2
 K. M. # 1
+Dietrich Menschenschreck # 11
 Levin Schücking 15
 Adrian Schlich sc. München 1
 Theodor Mügge 110
@@ -635,7 +594,9 @@ nach d. Natur gez. v. Blechen gest. von J. G. Martini Rudolstadt 1830 2
 nach d. Natur gez. v. Blechen gest. von J. G. Martini 1830 1
 Der Uebersetzer 2
 Bajocco Romano # 10
+Franke 13
 Schack von Staffeldt 4
+Menschenschreck # 13
 Xz. # 3
 Meyer 96
 Amalia Bezerédi 1
@@ -645,6 +606,9 @@ Friedrich Halm # 66
 J. L. Pyrker 1
 Fr. Catel del. Fr. Bolt sc. 98 1
 R. Smirke del. Cl. Kohl sc. Viennae 1798 1
+August Lafontaine 22
+Meno Haas sc. 11
+Meno Haas sc. # 32
 Raphael pinxt. F. Wagner sculpst. Nbg 1
 Martin sc. 43
 W. Tischbein. Rosmäsler Dresd. 1826 2
@@ -655,8 +619,10 @@ Karl von Rotteck 7
 Nais 1
 W. del. F. Meyer f. 1
 C. H. 22
+F. B. 6
 Sophie May # 23
 L. W. F. M. 5
+F. A. B. 17
 Adolf Elissen 7
 Rahl sc. 4
 F. Schisling 1
@@ -703,6 +669,7 @@ J. E. König 7
 -ndst- # 10
 Ant. Einsle gem. Stahlst. v. I. Krepp 1
 C. Mayer del. A. H. Payne sc. 1
+Johann N. Vogl 250
 Rolf 1
 -d.- 1
 N. v. Barabás. Stahlst. v. C. Mahlknecht in Wien 1
@@ -745,6 +712,7 @@ Stadt-Physikus Wartmann in St. Gallen 1
 Hogarth del. 2
 Gezeichnet v. Barabás. Stahlstich v. Carl Mahlknecht 1
 Dr. Sigm. Saphir. Joh. Graf Mailáth 2
+H. 87
 Lavater 17
 Wagner 9
 Zacharias Spielmann 1
@@ -765,12 +733,24 @@ J. C. G. Fritzsch 5
 W. G. Becker 121
 Naumann 44
 Krome 4
+Filidor # 22
 Boutterweck 6
 Treumund von Selge 6
 Julie Freifrau von Bechtoldsheim 6
 F. L. Gr. zu Stolberg 4
 Joh. Fried. Reichardt 3
 v. Döring 36
+W-r. 2
+Weis 6
+C. G. St. z. 1
+Graf zu ** # 1
+C. F. U. 1
+Hmm #$ 1
+C. A. Schmid 1
+Ursula Blandina Lachtaube, verehl. Menschenschreck # 1
+Omikron # 1
+F. v. Bülow 1
+Chr. L. Noak 1
 Joh. Gabriel Seidl 46
 Barabas del. A. H. Payne sculp. 1
 Camillo Hell # 5
@@ -781,6 +761,7 @@ D. Chodowiecki del & sc. 5
 erfunden und radirt von Wilhelm Hensel 3
 K. 67
 Bertini del. # F. Meyer sc. 1
+D. Chodowiecki. J. D. Heidenreich sc. 1793 # 10
 D. F. Sotzmann 5
 F. C. sc. 1
 F. C. sc 1
@@ -848,6 +829,7 @@ V. 21
 Krauseneck 43
 Mn. 9
 Werthes # 1
+Overbeck 124
 N. 64
 E. C. Eccard 27
 Ung. # 16
@@ -877,6 +859,7 @@ Gez. v. Biermann. Gest. v. Sagert 2
 Gez. v. H. Waesemann. Gest. v. Schulin 1
 E. Biermann del. H. Fincke sc. 1
 Koreff 30
+A. F. E. Langbein 138
 L. Wolf del. F. Meyer sc. 4
 Franz Catel de. Massard sculp. 1
 F. Catel inv. del. N. Le Mire sculp. 1799 1
@@ -889,6 +872,13 @@ R - d. # 1
 R. D. # 1
 Ludwig Sigismund Ruhl 7
 Seume 8
+Thomsen 9
+Fr. Schmit 2
+Dusch 2
+Vß # 1
+Td. # 1
+Ritter v. Levitschnigg 7
+J. F. Koreff 5
 C. R. 2
 Fr. Brun, geb. Münter. 1
 M. 60
@@ -1009,6 +999,11 @@ J. Heinr. Meyer f. 4
 Conrad Gessner del. Heinrich Meyer sc. 1
 J. H. Meyer sc. L. Hess del. 1
 J. Heinrich Meyer f. ad nat. 10
+M. K. 1
+Wilh. Nic. Freudentheil 1
+Ramler 69
+D. Chodowiecki inv. & sc 2
+L. H. v. Nicolay 1
 Johann Graf von Mailath 2
 Anton Einsle gemalt Stahlst. von Carl Mahlknecht 1
 Peter Joha Geiger. Jos. Axmann 1
@@ -1115,6 +1110,11 @@ Thouret del. Guttenberg sc. 1
 Zumsteg 2
 K. Ph. Lohbauer 1
 Molwiz 1
+Cz. 23
+F. v. B. #$ 2
+-d. #$ 1
+Adolf Schöll 8
+E. Ferrand # 94
 FR. BRUN, GEB. MÜNTER # 1
 Friedrich Bouterwek 8
 --Y.-- # 1
@@ -1133,29 +1133,6 @@ Ew. 1
 H. S. 4
 Eck. 2
 D-r. 2
-Ludw. Hess del. Joh. Heinr. Meyer sc. 1
-Ludw. Hess pinx. Joh. Heinr. Meyer sc. 1
-Bronner 2
-WOLTMANN 6
-Bürde 51
-K. A. 1
-Gökingk 11
-Sander 18
-Posgaru # 1
-A. Oehlenschläger 2
-Carl Borromäus von Miltitz 11
-Sotzmann 2
-S-z. # 1
-von Döring 2
-A. E. B. 2
-C. W. Justi 9
-Pellegrin # 4
-Z. 30
-A. Apel 4
-F. Stäudlin 1
-Carl Lang 10
-Gedor 2
-Stahlstich v. C. Mahlknecht 1
 Rf. # 6
 S. D. 1
 P. 39
@@ -1177,6 +1154,7 @@ Phil. v. Körber 2
 Drawn by F. Corbaux Engraved by C. A. Perian 1
 J. W. Meil inve. et fecit 1771 2
 Schulz 9
+WOLTMANN 6
 LANGBEIN 1
 G. F. Nöldeke 2
 S. P. # 1
@@ -1201,6 +1179,7 @@ Agnes Franz 106
 E. F. Hübner 2
 Fischer 141
 Manso 31
+Sander 18
 G. C. Sp. # 3
 N. v. Barabás. C. P. sc. 1
 Julie von Großmann 34
@@ -1216,6 +1195,27 @@ Otto Graf von Loeben 2
 Helmina von Chezy, geb. von Klenck 1
 W. Hogarth inv. Rieph s. 1
 W. Schadow # 1
+Ludw. Hess del. Joh. Heinr. Meyer sc. 1
+Ludw. Hess pinx. Joh. Heinr. Meyer sc. 1
+Bronner 2
+Bürde 51
+K. A. 1
+Gökingk 11
+Posgaru # 1
+A. Oehlenschläger 2
+Carl Borromäus von Miltitz 11
+Sotzmann 2
+S-z. # 1
+von Döring 2
+A. E. B. 2
+C. W. Justi 9
+Pellegrin # 4
+Z. 30
+A. Apel 4
+F. Stäudlin 1
+Carl Lang 10
+Gedor 2
+Stahlstich v. C. Mahlknecht 1
 W. Hogarth inv. R. sc. 1
 Gez. v. Fr. Krüger. Stahltst. v. Auguste Hüssener 1
 Gez. von Minutoli Gest. v. Auguste Hüssener 1
@@ -1333,27 +1333,7 @@ Friederika Dorothea Schlez 1
 Fr. Gerstäcker 5
 C. Begas gem. A. Teichel gest. 1
 Ritter Gluck 5
-Wagner, Ernst 1
-Bhr. 3
-E-m. 1
-Campe 5
-Dorothea Wehrs 2
-Sz. # 7
-J. H. C. Bornhardt 2
-Fr. Zander 3
-C. F. Hindenburg 2
-Küffner # 92
-Posselt 7
-J. Chr. Wagner 10
 S. v. H. 3
-Schubert del. Böttger sc. 4
-Ge. Ferd. Deurer 2
-Endner del. et sculp. 1
-Philippine Gatterer 6
-Nach Glover von Ludwig Theobul Kosegarten 1
-G. F. Nöldecke 1
-R. fec. 1
-L. H. Nicolay 1
 H...e 1
 J. A. Cramer 4
 C. Ph. E. Bach 1
@@ -1381,6 +1361,7 @@ J. G. Schulz 8
 Ludwig Theob. Kosegarten 3
 Grbnr. # 2
 F. K-l. 1
+Ge. Ferd. Deurer 2
 G. Ch. Lichtenberg 1
 G. L. Spalding 7
 M. Mauch del. M. S. Barenger sculpt. 1
@@ -1399,7 +1380,9 @@ Joh. Ph. Schönfeld 1
 W. # 29
 C. F. U. # 3
 Siegm. Frhr. v. Seckendorff 2
+Philippine Gatterer 6
 Dr. Weiß 1
+C. F. Hindenburg 2
 A. J. Laur 4
 Jung del. W. Böhm sc. 1
 E. Müller 2
@@ -1461,8 +1444,10 @@ O # 1
 Bm. # 1
 Franz Thomas v. Schönfeld 11
 Spalding 3
+Küffner # 92
 A. W. Küffner sc. 1
 Vogel sc. 1
+Posselt 7
 W-n. # 1
 Elisa W. 1
 J. C. F. Köllner 3
@@ -1526,6 +1511,13 @@ Michälis 1
 K. g. S. # 1
 Luise Brachmann 76
 L. Kannegießer 1
+Wagner, Ernst 1
+Bhr. 3
+E-m. 1
+Campe 5
+Dorothea Wehrs 2
+Sz. # 7
+J. H. C. Bornhardt 2
 Wr. # 1
 Lessing 27
 S. von H. 1
@@ -1538,6 +1530,7 @@ Lie-u. #$ 2
 Hensler der J. 3
 Hinze 13
 Boutterwek 7
+Fr. Zander 3
 Oe-y. # 1
 Bötticher 1
 H. Wagner 10
@@ -1607,6 +1600,8 @@ Wels 1
 W. B.# 1
 U-s # 1
 K. Müller 1
+J. Chr. Wagner 10
+Schubert del. Böttger sc. 4
 Ungenannter 19
 Fiorillo del 1
 C. W. Bock gez. 1
@@ -1684,6 +1679,7 @@ Gluck 2
 K* #$ 1
 Graff pinx. Sturm sc. 1
 B. 177
+Endner del. et sculp. 1
 Siegm. Frhr v. Seckendorff 1
 He. 14
 Nachtigal 2
@@ -1762,6 +1758,10 @@ Ji. # 1
 Von einer Nonne 1
 Reichard 68
 Fr. L. Gr. z. Stolberg 10
+Nach Glover von Ludwig Theobul Kosegarten 1
+G. F. Nöldecke 1
+R. fec. 1
+L. H. Nicolay 1
 G. W. Lorsbach 1
 J. G. Salis Sewis 1
 U. 24
@@ -1972,28 +1972,7 @@ G-e. 6
 M*** 3
 Schönborn 2
 Ludewig Heinrich von Nicolay 1
-L. #$ 1
-Riep. f. 12
-Rieph. 1
-R 9
-Riep 3
-E. Riep. f 1
-E. R. f 1
-E. Riep. f. 1
-Riep f. 3
-Riep f 4
-v. Schmidt-Phiseldek, 1
-Buchhorn del. et sc. 1
-Ebert 2
 Darnstedt sc. 11
-G. P. Schmidt 69
-Bergt 16
-Pannenberg 28
-August Kuhn 23
-L. Noeller 11
-Karl Stille # 8
-Schnorr v. K. del. Cl. Kohl. sc. 1
-Schnorr v. K. del. Meno Haas sc. Berlin 1803 2
 M. A. von Thümmel 1
 Füger pinx. G. sc. 1
 Engel 2
@@ -2026,6 +2005,7 @@ Georgi 6
 B-n 1
 L. M. 1
 P-s. 2
+G. P. Schmidt 69
 unbezeichnet u. Schubert 1
 D. Chodowiecki del. et sc. 6
 Joh. Fr. Reichardt 1
@@ -2049,6 +2029,16 @@ Christ. Sophie Ludwig, geb. Fritsche 1
 Riepenh. f. 3
 Riepenh. f. # 1
 Riepenh. f # 1
+L. #$ 1
+Riep. f. 12
+Rieph. 1
+R 9
+Riep 3
+E. Riep. f 1
+E. R. f 1
+E. Riep. f. 1
+Riep f. 3
+Riep f 4
 fg # 1
 vom preußischen Grenadier # 1
 v. St-f-d # 2
@@ -2071,6 +2061,7 @@ Lm. #$ 1
 St # 3
 Fr # 4
 Nahl inv. del. Riepenhausen # 2
+Pannenberg 28
 Denis # 2
 J. S. Siegfried 1
 A. Nostitz und Jänkendorf 8
@@ -2115,6 +2106,7 @@ Hensler, d. J. 1
 R. f. # 3
 Gröger del. 1801 1
 Mac-Real 1
+Bergt 16
 C. Schreiber 24
 Anton Niemeyer 5
 F. W. A. S. # 1
@@ -2198,6 +2190,9 @@ B. L. Neußmann 5
 Georg Friedrich Nöldeke 1
 Wiederhold 1
 F. J. v. Günderode 1
+v. Schmidt-Phiseldek, 1
+Buchhorn del. et sc. 1
+Ebert 2
 Riepenhausen del. & sulps. 1
 Winkler 14
 Schubert inv. et sc. # 6
@@ -2261,6 +2256,7 @@ v. Lgck 1
 Julie v. Bechtolsheim 2
 Schmidt von Lübeck 47
 Ernst 20
+L. Noeller 11
 Bertrand 6
 K. v. Tischer 5
 J. H. Dambeck 34
@@ -2293,6 +2289,7 @@ Daehling d. Meyer s. 1
 P. H. Moßner 1
 Schreiber 175
 Lep. 27
+Karl Stille # 8
 nach C. Dolce von H. Schmidt 1
 Martin sculp. 1
 W. Jury del. & sc. 16
@@ -2323,6 +2320,9 @@ Ramberg del. Jury sc. 10
 Ramberg del. Heß sc. 4
 Ramberg del. H. Schmidt sc. 27
 Ramberg del. W. Böhm sc. 8
+August Kuhn 23
+Schnorr v. K. del. Cl. Kohl. sc. 1
+Schnorr v. K. del. Meno Haas sc. Berlin 1803 2
 Br. 5
 W. Heinse 3
 Dt. 6
@@ -2383,32 +2383,6 @@ H. Naeke del. C. A. Schwerdgeburth sc. 4
 H. Naeke del. Jurÿ sc. 2
 H. Dähling del. Hess sc. 1
 Daehling del. Meyer sc. 1
-Rensch del. F. Fleischmann sc. 4
-von Goeckingk 3
-Traheier 1
-R. Walther # 28
-Helmine v. Chezy 23
--s. 17
-F. N. Rolffsen sc. 4
-Schuricht # 4
-Lewis # 1
-Brandt # 7
-Rückert 228
-Fr. Hegi del. et sculp. 4
-Gräfin Bernstorff 1
-Karl Rechlin 3
-Christiane Reinhold 1
-Abraham Swan 6
-C. H. v. Lindemann 2
-A. S-r 1
-Ritter 4
-v. Neveu 15
-Schnorr v. K. del. Meno Haase sc. 1
-Zingg del. J. A. Darnstedt sc. 20
-Friedrich Rochlitz 53
-Chr. Niemeyer 6
-Lampadius # 1
-G-g. 7
 H. Daehling del. Hess sc. 2
 Vogel #; Coupé sc. 1
 Opiz del. A. Delvaux sc. 3
@@ -2445,6 +2419,7 @@ L. *** # 1
 von demselben 2
 Mad. Karschin 5
 Darinel 1
+Zingg del. J. A. Darnstedt sc. 20
 H. Gottschick # 6
 Ramberg del. Schmidt sc. 1
 Schuster 7
@@ -2489,8 +2464,10 @@ A. W. Küffner inv. del. et sc. 1795 1
 Amalie v. Imhof 2
 C. Bernoulli 5
 Winkelmann 9
+Helmine v. Chezy 23
 Caroline Freyin v. Vogelsang 3
 Carl Förster 4
+R. Walther # 28
 Fr. Kuhn 38
 Josephine Perin, geborne von Vogelsang 2
 Baron Schlechta 23
@@ -2559,6 +2536,9 @@ Cfk. 1
 B*k 1
 H. Ramberg del. W. Jury sc. 24
 Gustav Scholz 2
+Rensch del. F. Fleischmann sc. 4
+von Goeckingk 3
+Traheier 1
 Boelendorff 1
 Gabriel 4
 Fr. Bertrand 2
@@ -2576,6 +2556,7 @@ Verleger 10
 Friedrich Krug v. Nidda 10
 Karl Kühnel 5
 V. Weingarten 1
+Rückert 228
 J. B. v. B. 1
 J. G. F. Cunze 1
 Thaddäus Müller 9
@@ -2599,6 +2580,7 @@ Fr. Kind 41
 Zobel 6
 Buschendorf del. Boettger Dresden sc. Lipsiae 1
 Zingg del. J. A. Darnstedt 3
+-s. 17
 Schbr. 3
 Theodor Abel 2
 Lebrecht Nöller 17
@@ -2654,6 +2636,12 @@ Jos. C. Bernard 1
 Hurka 1
 Schnorr v. K. del. Meno Haas sc. Berlin 1804 4
 Friederike Sch- 1
+F. N. Rolffsen sc. 4
+Schuricht # 4
+Lewis # 1
+Brandt # 7
+Fr. Hegi del. et sculp. 4
+Gräfin Bernstorff 1
 H. Ramberg del. C. A. Schwerdgeburth sc. 33
 J. V. Kininger del. Cl. Kohl sc. 2
 V. Kininger del. Cl. Kohl sc. 2
@@ -2719,6 +2707,7 @@ Domenichino p. F. John sc. 1
 Carlo Maratti p. F. John sc. 1
 v. Seckendorf # 6
 Gemalt von Raphael Gestochen v. Anton Karcher Mannh. 1
+G-g. 7
 Bibliothekar Reichard zu Gotha # 1
 D. R. S. # 1
 Maler Brandt # 1
@@ -2758,6 +2747,7 @@ Lauenstein 6
 Schmied 1
 Ehk. 1
 S-n. 9
+Friedrich Rochlitz 53
 Ernst Barchewitz 4
 von Schlipegrell 1
 Zingg del. J. A. Darnstedt f. 1
@@ -2791,6 +2781,7 @@ O. #$ 1
 J. G. Schultheß 1
 Schnorr del. Clar sc. 1794 1
 A. S-r. 2
+Ritter 4
 Wenzel Aloys Swoboda 1
 Friedrich Schlegel 19
 F. Hegi del. et sculp. 2
@@ -2805,6 +2796,7 @@ Wilhelmine Rall 15
 St. Schütz 11
 Klotilde # 5
 A. Blüher 1
+Abraham Swan 6
 Botanikus Ehrhart zu Herrenhausen # 1
 Doctor Thebesius # 1
 Königl. Dänischer Kammerherr von Bülow # 1
@@ -2819,12 +2811,20 @@ Nehrlich 34
 Fritz Jacobi 1
 F. Hegi sc. 9
 versch. Beiträger 1
+v. Neveu 15
 Prof. Weber in Kiel # 2
 Superint. Lueder zu Danneberg # 2
 Friedr. Schneider 2
 Elise Nolde 1
 Skalde 2
 Impostcommissar Schulze daselbst # 1
+Karl Rechlin 3
+Christiane Reinhold 1
+C. H. v. Lindemann 2
+A. S-r 1
+Schnorr v. K. del. Meno Haase sc. 1
+Chr. Niemeyer 6
+Lampadius # 1
 Fresenius 2
 Pf. 6
 Dr. Herder 1
@@ -2897,12 +2897,6 @@ Josephine von Perin, geb. v. Vogelsang 1
 C. W. Contessa d. J. 6
 LL. # 1
 Inhumanus # 1
-Böhlendorf 7
-L. M. Büschenthal 18
-Ebenderselbe 11
-X. Schnetzler 3
-H. Ramberg del 1
-Gustav Ritter von Frank 2
 Schlotterbeck 3
 Jos. Chr. Baron Zedlitz 14
 Caroline Pichler, geborne v. Greiner 3
@@ -2915,6 +2909,8 @@ C. F. Michaelis 1
 Adolf Wagner 1
 C. F. Kielmeyer 1
 C. F. K. $ 1
+L. M. Büschenthal 18
+Ebenderselbe 11
 x. 3
 Niklas Remmele 2
 Karl v. Rotteck 1
@@ -2943,6 +2939,7 @@ August Kunze 1
 Raimund Walther # 11
 Glo. 1
 Wilhelmine v. Gersdorf geb. von Gersdorf 1
+Böhlendorf 7
 H. Ramberg. del. W. Böhm. sc. 1
 Schnorr v. K. del. Menno Haas sc. 1
 A. Zingg del. Darnstedt sc. 3
@@ -2993,6 +2990,9 @@ Siegmund Frh. von Seckendorf 2
 Oe-ey # 1
 B-d-s 1
 Kazner 2
+X. Schnetzler 3
+H. Ramberg del 1
+Gustav Ritter von Frank 2
 Naeke del H. Schmidt sc. 1
 W. Jury inv. et fec. 21
 Ramberg del. Hess sc. 8
@@ -3054,29 +3054,6 @@ N. Fürst 1
 Chr. Ferdinand Schulze 1
 J. G. A. Frenzel sc. 2
 O. H. Graf v. Loeben 21
-Rentsch; Müller # 2
-J. M. Usteri del. A. W. Küffner sc. 1805 1
-A. W. Küffner sc. 1805 Usteri del. 2
-Prfss. Zingg A. Darnstedt sc. 1
-A. Zingg del. A. Darnstedt sc. 2
-A. Zingg dl. A. Darnstedt sc. 1
-Zingg d. A. Darnstedt sc. 1
-Lauchery 141
-G. J. Göschen 3
-Dotzauer 12
-A. Methfessel 7
-Minna Schütze 3
-C. H. Meyer 10
-H. Ramberg; A. W. Böhm 3
-F. Fleischmann sc. Nbg 1
-Ludw. Kosegarten 1
-E-M. 2
-Spannuth 1
-W. N. Freudentheil 1
-L. D. # 3
-Cz. # 3
-J. J. Rousseau 3
-Fr. Schneider 7
 Chrn. Niemeyer 1
 A. i. R. 3
 Dorothea 1
@@ -3107,6 +3084,7 @@ H. Ramberg. del. A. W. Böhm sc. 1
 F. W. Riemer 41
 Karl Simrock 50
 Karl Mayer 451
+Lauchery 141
 Bertha verw. Gräfin von Pfaffenhofen, geb. v. Bothmar 1
 F. Krug v. Nidda 6
 Reinhard 3
@@ -3200,6 +3178,13 @@ H. Hase 7
 Von der Verfasserinn der Hedwig von Schwaben # 1
 Sturm sc. N. 3
 P. Nick 1
+Rentsch; Müller # 2
+J. M. Usteri del. A. W. Küffner sc. 1805 1
+A. W. Küffner sc. 1805 Usteri del. 2
+Prfss. Zingg A. Darnstedt sc. 1
+A. Zingg del. A. Darnstedt sc. 2
+A. Zingg dl. A. Darnstedt sc. 1
+Zingg d. A. Darnstedt sc. 1
 Kle. 4
 Rttr 1
 Weissenborn. 1705 1
@@ -3269,6 +3254,19 @@ Doct. Weiß 1
 H. Ramberg del. A. W. Böhm 4
 Ramberg del. Esslinger sc. 2
 J. H. Ramberg del. F. Fleischmann sc. 2
+G. J. Göschen 3
+Dotzauer 12
+A. Methfessel 7
+Minna Schütze 3
+C. H. Meyer 10
+H. Ramberg; A. W. Böhm 3
+F. Fleischmann sc. Nbg 1
+Ludw. Kosegarten 1
+E-M. 2
+Spannuth 1
+W. N. Freudentheil 1
+L. D. # 3
+Cz. # 3
 G. H. B. Franke 1
 Krittelhold alias Menschenschreck # 1
 Fiorillo del. R. fec. 1
@@ -3413,6 +3411,8 @@ v. Wessenberg 4
 A. Darnstedt sc. 3
 A. Darnstedt 1
 J. F. A. B.-r. # 1
+J. J. Rousseau 3
+Fr. Schneider 7
 J. H. Ramberg pinx. Fr. Wi. Meyer sculps. Beroli. 1
 H. Ramberg del. C. Frosch sc. Lepsiae 1
 Ramberg; Rosmäsler Dresd. 1823 1
@@ -3548,19 +3548,6 @@ Friedrich Gottlieb Klose 1
 J. Ch. H. Gittermann 9
 K. Förster 4
 Wilhelm Hocker 3
-Ernst v. Howald 1
-Thill 9
-Duttenhofer 1
-Jung 8
-Aug. L. $ 1
-F. Majer 1
-J. G. Schweighäuser 7
-Gu # 1
-Weström pinx. 1
-Fiorillo inv. 1
-Fr. Bolt de. et sc. 1795 1
--l. 2
-Hector Zollikofer 6
 Frenzel 1
 Luise von Matthisson # 1
 Fr. Haug 78
@@ -3610,6 +3597,12 @@ Helmina von Chezy, geb. Freiin Klenke 2
 v. Sonnenfels 1
 Friederich Usener. / 10 Jahre alt 1
 J. V. J. #$ 1
+Ernst v. Howald 1
+Thill 9
+Duttenhofer 1
+Jung 8
+Aug. L. $ 1
+F. Majer 1
 Justi 43
 G. W. R. Starke 1
 Dieter 1
@@ -3707,6 +3700,7 @@ Francesco Francia 1
 Johanna Feltria de Ruvere 1
 Rafael 3
 Eduard Gehe 2
+Hector Zollikofer 6
 Christian August Semler # 1
 C. H. F. Hartmann 1
 Gottfried Schmelkes 9
@@ -3720,6 +3714,10 @@ Wilhelm Kilzer 116
 Rafael; [übers.] Friedrich Förster 1
 F. Calau sc. 1
 O. H. Graf v. Löben 1
+J. G. Schweighäuser 7
+Gu # 1
+Weström pinx. 1
+Fiorillo inv. 1
 H. Korhammer sc. 1
 Caroline Rudolphi 11
 Clytie 1
@@ -3912,6 +3910,8 @@ Johannes Plau 1
 Johannes Blau 19
 Adalbert Harnisch 1
 Fr. Freiherr Gaudy 5
+Fr. Bolt de. et sc. 1795 1
+-l. 2
 Schiering 3
 G. Scheuerlin 15
 Friedrich v. Sallet 7
@@ -3927,19 +3927,6 @@ Dejuine pinx. F. Buser sc. 1
 Forbin # F. Wagner ## 1
 Raphael pinx. C. Rahl # 1
 gezeichnet und gestochen Lang 1
--hr.- 1
-H.... 1
-Leybold del. D'Argent sc. 2
-A. W. Küffner del. et sc. 2
-C. Kolbe; F. Rösmäsler der Jüngere 1
-C. Barth del. ad viv. et sculps 1833, H. Felsing impr. 1
-König Ludwig von Bayern 13
-K. F. Kretschmann 1
-Graf z. S. 6
-Maré 3
-Karl Gr. v. Haugwitz 1
-Besseldt 7
-C. Kolbe del. C. Barth sc. 2
 Von demselben # 8
 C. G. Ritter von Leitner 17
 A. Schöll 2
@@ -3969,6 +3956,7 @@ A. W. Küffner del & sc. 1798 # 1
 D. Chodowiecki sc. 1798 1
 D. Chodowiecki del. & sc. 1799 3
 D. Chodowiecki del & sc.1799 1
+A. W. Küffner del. et sc. 2
 Dr. Al. Jeitteles 2
 K. L. Kannegießer 40
 Ludwig Giesebrecht 16
@@ -4052,6 +4040,14 @@ L. Strack del. H. Guttenberg sc. 1
 F. H. Jacobi 213
 Ramberg; Frosch 1
 Ramberg del. H. Schmidt 2
+-hr.- 1
+H.... 1
+Leybold del. D'Argent sc. 2
+C. Kolbe; F. Rösmäsler der Jüngere 1
+C. Barth del. ad viv. et sculps 1833, H. Felsing impr. 1
+König Ludwig von Bayern 13
+K. F. Kretschmann 1
+Graf z. S. 6
 Hackert pinx. F. Geissler sc. 2
 P. Hackert gez. F. Rosmaesler sc. 1
 Philipp Hackert # 1
@@ -4062,6 +4058,7 @@ Steinkopf del. D'Argent sc. # 1
 A. Freiherr v. Sternberg 1
 Carl Baron v. Schweizer 1
 Emil Hecker 3
+Maré 3
 K. A. Fürer 2
 D. Chodowiecki 1799 1
 Joseph Freiherr von Eichendorf 22
@@ -4116,23 +4113,9 @@ J. C. Nänny 5
 Carl von Salza 1
 R. Reinick 23
 v. Blomberg 1
-Dan. Lessmann 1
-Widemann 4
-Valtiner 12
-W. Hensel C. Büscher 1
-Münchhausen gez. J. J. Wagner gest. 1
-W. Jury f. 2
-Friedrich Wilmans 9
-Lina 1
-Fr. Bender 3
-Frdr. Krug v. Nidda 1
-Paul Graf v. Haugwitz 9
-Fr. Raßmann 39
-M. Claudius 1
-W. Zimmermann 4
-J. C. Mielach 4
-T. Körner 1
-Lebrecht Dreves 7
+Karl Gr. v. Haugwitz 1
+Besseldt 7
+C. Kolbe del. C. Barth sc. 2
 Friedr. v. Luck 2
 Joseph Freih. von Eichendorff 7
 Jos. v. Eichendorff 3
@@ -4146,6 +4129,7 @@ C. A. 3
 Arnoldine Wolf geb. Weissel 1
 Bernh. Meister 3
 Arnoldine Wolf 1
+Friedrich Wilmans 9
 Karl Stern # 1
 **** 3
 Stoll 18
@@ -4177,6 +4161,12 @@ F. F. Cronner 1
 Angelo 4
 Helmina von Chezy, geb. Fr. Klenke 1
 W-ch 1
+Dan. Lessmann 1
+Widemann 4
+Valtiner 12
+W. Hensel C. Büscher 1
+Münchhausen gez. J. J. Wagner gest. 1
+W. Jury f. 2
 Tischbein pinx. Carol. Tischbein del. L. Buchhorn sc. 1
 der Verleger 9
 C. Heideloff inv. & del. Coburg F. Fleischmann sc. 1
@@ -4247,6 +4237,7 @@ Tieck 31
 Franz Rudolf Hermann 4
 Contessa d. ä. 1
 Eli Levi 1
+Fr. Bender 3
 F. W. Rogge 11
 W. Wackernagel 12
 Georg Rapp 1
@@ -4304,12 +4295,21 @@ Gemalt von P. Fendi Stahlstich von J. Axmann 1831 1
 Brenner pinx J. Passini sc. Vienna 1
 Gemalt v. F. Gauermann Stahlstich v. J. Passini 1
 Emanuel 26
+Fr. Raßmann 39
 Wildenheyn 1
 Wilhelm Hensel 12
 G. Sze. 2
 Zeune 1
 Albrecht Sebus 5
 Leopold Bornitz # 3
+Lina 1
+Frdr. Krug v. Nidda 1
+Paul Graf v. Haugwitz 9
+M. Claudius 1
+W. Zimmermann 4
+J. C. Mielach 4
+T. Körner 1
+Lebrecht Dreves 7
 Caroline de la Motte Fouqué 3
 Janus Pansophus # 1
 Thorwald 1
@@ -4377,13 +4377,6 @@ Heinrich, Freiherr von Schwerdtner 3
 M. Retzsch del. Fr. Geißler sc. 1
 Friederich Th. Vischer 4
 C. Heideloff del. F. Fleischmann sc. 4
-B. Meyer 4
-Führich del. Dalbon sc. 1
-H. v. H. 3
-C. Kolbe del. Müller sc. 1
-Hans Tiro 13
-August Adolf Ludwig Follen 1
-W. Beck 1
 ***z. 1
 Jakobs 3
 Schlichtegroll 1
@@ -4431,6 +4424,10 @@ Prof. Sartorius # 1
 A. Müller 2
 Carl Heideloff inv et sc. 2
 H. Naeke del. H. C. Müller 1
+B. Meyer 4
+Führich del. Dalbon sc. 1
+H. v. H. 3
+C. Kolbe del. Müller sc. 1
 A. Th. Brück 4
 Hermann Selten 3
 J. G. von Quandt 4
@@ -4490,6 +4487,9 @@ J. Götzenberger del. M. Esslinger sc. 1
 Führich del. Rosmaesler sc. 1
 Führich del. Walther sc. 1
 Tony Johannot del. J. Felsing sculp. H. Felsing impr. 1
+Hans Tiro 13
+August Adolf Ludwig Follen 1
+W. Beck 1
 Ferdinand Röse 1
 L. Horst 1
 E. Meyer 1
@@ -4504,21 +4504,6 @@ Jos. v. Retzer 1
 F. X. Josch 5
 H. Ramberg del. W. Jury sculp 1
 H. Ramberg del. W. Jury sculp. 12
-J. F. N.** 1
-Jos. Dopler 2
-v. Waldheim 1
-Kristof Kueffner 15
-Kristtoff Kueffner 1
-Jean Paul 50
-Endner sc. 5
-Endner sc. del. 1
-Kreuser 5
-C. Kolbe del. A. W. Böhm sc. 2
-Erfunden und in Erz gegossen von Peter Vischer gez. und gest. von Albert Reindel 1
-gez. u. gest von Albert Reindel # 1
-gez. u. gest. v. Albert Reindel # 1
-Franz Josch 1
-Dirnbock 1
 Felix 1
 Orlay # 2
 Klamer Schmid 2
@@ -4573,6 +4558,12 @@ Liebe v. Kreutzner 1
 Edler von T*ss*r 2
 J. A. Fischel 1
 J. Koben 1
+J. F. N.** 1
+Jos. Dopler 2
+v. Waldheim 1
+Kristof Kueffner 15
+Kristtoff Kueffner 1
+Jean Paul 50
 F. T. Hartert 2
 M. Mayr 3
 Arnoldine Wolf, geb. Weissel 8
@@ -4677,6 +4668,8 @@ G. Keller pinx. Fr. Stöber sc. Viennae 1
 James Kemper 1
 Joh. Nep. Edler v. Kalchberg 2
 Schnirbes 1
+Endner sc. 5
+Endner sc. del. 1
 Schick del. H. Lips sc. 1
 Autenrieth fec. 1807 1
 Wächter # 4
@@ -4730,6 +4723,7 @@ C. Rahl sc. 1
 Study del. D. Berger Sculps. 1807 1
 Study del. D. Berger Sculps. 1807 # 11
 G. Rapp 1
+C. Kolbe del. A. W. Böhm sc. 2
 L. Schnorr del. H. C. Müller sc. 1
 C. Heideloff del et sc. 1
 W. Hensel del. M. Esslinger sc. 1
@@ -4742,6 +4736,12 @@ H. Rmbg del. W. J. f. # 1
 Heideloff del. Schuler sc. 1
 A. Gebauer 19
 H. Näcke del. J. Axmann sc. 1
+Kreuser 5
+Erfunden und in Erz gegossen von Peter Vischer gez. und gest. von Albert Reindel 1
+gez. u. gest von Albert Reindel # 1
+gez. u. gest. v. Albert Reindel # 1
+Franz Josch 1
+Dirnbock 1
 Kristoff Kueffner 2
 Amalie Schoppe, geb. Weisse 15
 L. Schnorr del. Dalbon sc. 2
@@ -4752,19 +4752,6 @@ Caroline Louise von Klenck 1
 Helena von Hastfer, geb. von Klenck 1
 Fr. Hölderlin 10
 K. L. Meth. Müller 1
-L. Autenrieth sc. 4
-Fr. Treitschke 8
-S c v.# 1
-Seidelmann gez. Berger gest. 1
-Entworfen von F. L. Güssfeld gest. von Frentzel 1
-A. Horwitz 1
-R. Solger 3
-F. Lassaulx 7
-C. Mayr 4
-M. sc. # 2
-C. Weißflog 1
-J. A. Klein del. Friedr. Geißler sculp.Nbg. 1828 1
-J. A. Klein del. F. Geissler sc. 1
 H. Neumann 1
 Fr. Stöber sc. Viennae. Klomp pinx. 1
 Brackenbourg pinx. Leop. Beyer fec. 1
@@ -4777,6 +4764,7 @@ Friedrich Schubart 3
 Friedrich Stricker 3
 J. H. Ramberg del. W. Jury fecit 2
 J. H. Ramberg del. W. Jury sculp 1
+C. Mayr 4
 Johann Karl Hartel 8
 Joh. Hoheisel 1
 Litho von L. Zertahelly in München 2
@@ -4802,6 +4790,13 @@ H. Ramberg del. Grape sc. 1
 H. Rmbg fec. 1798 H. Grape sc. 1
 K. Fr. Kretschmann 1
 Sonderland del. Eduard Schuler sculp 1
+L. Autenrieth sc. 4
+Fr. Treitschke 8
+S c v.# 1
+Seidelmann gez. Berger gest. 1
+Entworfen von F. L. Güssfeld gest. von Frentzel 1
+A. Horwitz 1
+R. Solger 3
 E. von Krosigk geb. Krüger 1
 A. G. Eberhard und Friedrich v. Heyden 1
 Karoline von Greiner 6
@@ -4862,6 +4857,8 @@ Mlle A**. 1
 M. DE CHENEVRIERES 1
 Elise von Hohenhausen geb. v. Ochs 2
 C. J. Widmann 1
+F. Lassaulx 7
+M. sc. # 2
 T. Stewardson delt. W. Finden sculpt. 1
 L. Clennel delt. H. C. Shenton sculpt. 1
 S. Prout delt. H. Le Keux sculpt. 1
@@ -4920,6 +4917,9 @@ Fr. Stöber sc. Viennae G. Lundens pinx. 1
 D. Friedrich Cramer 1
 J. P. T. Lyser del. # Hamb. priv. Steindruck 2
 Friedrich Horn 1
+C. Weißflog 1
+J. A. Klein del. Friedr. Geißler sculp.Nbg. 1828 1
+J. A. Klein del. F. Geissler sc. 1
 Joh. Heinrich Wezel 2
 Heideloff inv. Weber, Ch.Geisler sc. 1
 C. Kolbe del. H. C. Müller sc. 1
@@ -4930,15 +4930,6 @@ A. v. Hassel 2
 Arnoldine Wolff, geb. Weisser 1
 G. S***z. 1
 H. Rmbg. del. H. Grape sc. 4
-Ludwig Gieseke 1
-J. Dopler 4
-L. M. Schleifer 8
-Holzer 3
-Stl. 2
-T. B. R. 2
-Jacob Grimmer 8
-Buchholz # 1
-Just. Kerner 2
 Castelli 2
 K. O. 1
 Joseph Passy 1
@@ -4975,9 +4966,18 @@ Thursten del. Ridley sculp. 6
 E. T. Hoffmann 1
 Ernst, Fr. v. d. M # 1
 Ernst, Freih. v. d. Malsburg 1
+L. M. Schleifer 8
 F. Daxberg 4
 P**s 4
 Liebhold 3
+Ludwig Gieseke 1
+J. Dopler 4
+Holzer 3
+Stl. 2
+T. B. R. 2
+Jacob Grimmer 8
+Buchholz # 1
+Just. Kerner 2
 Sonderland del. Eduard Schuler sculp. 3
 Brandt sculp. 3
 Verfasser des Fernando 1
@@ -5021,28 +5021,6 @@ George Reinbeck 1
 Dr. Georg Döring 39
 Caroline Pichler 8
 Joachim Füger 1
-Friedrich Bührlen 1
-Lafontaine # 1
-Huber # 8
-Gest. von Anton Karcher Mannh. # 1
-H---h. 1
-F. Barthel del. C. W. Schenck sculp. Braunschweig 1
-Sonderland del. Düsseldorf. Stahlstich v. Leop. Beyer Wien 1
-Sonderland del. Leop. Beyer sc. 2
-J. M. 2
-Sch--ng 1
-Oberlieut. Hompeck 2
-Hegrad 6
-Beyermann 1
-v. R.** 1
-Ramberg, Rosmäsler, 1829 1
-Rmbg; Rosmäsler 1829 1
-Rmbg, Rsmslr 1
-Rmbg; Rsmslr 1829 1
-Rmbrg; Rsmslr 1
-Rmbrg; Rsmslr 1829 2
-gez. von S. Henry geb. Chodowiecka. gestochen von E. Henne 1
-gez. von S. Henry geb. Chodowiecka. gestochen von E. Henne # 11
 Karl Edler von Adlersburg 1
 J. Ph. Le Pique 1
 A. I. Richter 2
@@ -5084,6 +5062,10 @@ M. Retzsch del. Leop. Beyer sc. 1
 E. Raupach 8
 C. von Wachsmann 30
 Sonderland del. D. St. v. Leop. Beyer W. 1
+Friedrich Bührlen 1
+Lafontaine # 1
+Huber # 8
+Gest. von Anton Karcher Mannh. # 1
 S-z. 6
 Carolina Pichler geb. von Greiner 1
 Karl Beßeldt 4
@@ -5151,6 +5133,22 @@ Meil inv. G. G. Endner sc. 2
 R-d. 2
 A. F. Geisler 1
 Curio 4
+H---h. 1
+F. Barthel del. C. W. Schenck sculp. Braunschweig 1
+Sonderland del. Düsseldorf. Stahlstich v. Leop. Beyer Wien 1
+Sonderland del. Leop. Beyer sc. 2
+J. M. 2
+Sch--ng 1
+Oberlieut. Hompeck 2
+Hegrad 6
+Beyermann 1
+v. R.** 1
+Ramberg, Rosmäsler, 1829 1
+Rmbg; Rosmäsler 1829 1
+Rmbg, Rsmslr 1
+Rmbg; Rsmslr 1829 1
+Rmbrg; Rsmslr 1
+Rmbrg; Rsmslr 1829 2
 Sonderland del. Leop. Beyer sc. V. 1
 Sonderland fc. M. Hofmann sc. Viennae 2
 C. Westermayr 2
@@ -5201,6 +5199,8 @@ Schg. # 4
 J. G. Rr. # 4
 L. U. 34
 Fr. Schlegel 36
+gez. von S. Henry geb. Chodowiecka. gestochen von E. Henne 1
+gez. von S. Henry geb. Chodowiecka. gestochen von E. Henne # 11
 Benedikt von Auffenberg 1
 Wenzel Moritz 1
 T. R. A. H. Legne 1
@@ -5209,21 +5209,6 @@ W. v. Goethe 3
 W. Westall A. R. A. pinxt. E. Finden sculpt. 1
 H. Corbould delt. C. Rolls sculpt. 1
 Edw. Landseer A. R. A. pinxt. R. Graves sculpt. 1
-Breenberg pinx. Ludw. Meÿer jun. sc. Berlin 1
-Guerin pt. Forssell st. 1
-Rudolf 1
-Math. Hochleithner 1
-Magister Anton 1
-J. Filidor 1
-Kristof Küeffner 1
-J. Hochleitner 2
-Carl Wilhelm Müller 1
-Lerse 1
-J. Penzel del. & fec. 1798 7
-N..r. 1
-Heinrich Repton; Gubitz # 1
-Hartmann del. H. Lips sculp. 1
-I. H. von Wessenberg 5
 A. Chisholme pinxt. H. C. Shenton sculpt 1
 Sr. W. Beechey pinxt. W. Chevalier sculpt. 1
 W. Purser delt. Jas. Carter sculpt. 1
@@ -5266,6 +5251,7 @@ C. Frosch sculp. 1
 A. Eberhard 1
 Raßmann 43
 Ferdinand Wachter 1
+Breenberg pinx. Ludw. Meÿer jun. sc. Berlin 1
 -im.- 1
 T. R. H. A. Legne 1
 Nannette K. 1
@@ -5324,6 +5310,13 @@ Sonderland del. Leop. Beyer sc. Vienna 1
 Brandt sc. 1
 Karl Borromäus von Miltitz 1
 J. H. Ramberg inv. del. 1
+Guerin pt. Forssell st. 1
+Rudolf 1
+Math. Hochleithner 1
+Magister Anton 1
+J. Filidor 1
+Kristof Küeffner 1
+J. Hochleitner 2
 von Goethe 2
 D. Chodowiecki del. & fect. 1798 1
 D. Chodowiecki del. & fec. 1798 1
@@ -5357,6 +5350,7 @@ Th. # 1
 J. H. M. 2
 Hr. Klopstock Wien. Schrift. z. Vergn. u. Unter. 1769 1
 H. Rapp del. d'Argent sc 1
+J. Penzel del. & fec. 1798 7
 Professor Dr. Gelpke 1
 Alwin # 9
 Kant 27
@@ -5384,21 +5378,14 @@ Thos. Stothard R. A. Pinxt. W. Finden Sculpt. 1
 Georg Benda 2
 Hr. Casperson 1
 Hr. von Thümmel 1
+Carl Wilhelm Müller 1
+Lerse 1
+N..r. 1
+Heinrich Repton; Gubitz # 1
+Hartmann del. H. Lips sculp. 1
+I. H. von Wessenberg 5
 v. Mellish 1
 Rehberg; Gubitz # 1
-J. H. Meil # 9
-Vafflard pinxt. Forssell sculpt. 1
-Steube pinxt. Forssell sculpt. 1
-S. Owen delt. Wallis sculpt. 1
-H. Dähling d. F. W. Bollinger sc. 2
-Dähling del. Meno Haas sc. Berlin1800 1
-Heinrich Wenzel 5
-Wilhelm Blumenhagen, Dr, 1
-F. W. Kawascinsky 1
-C. Hold # 6
-H. W. Lehmann 2
-M. De P**. 1
-W. Jahn 6
 W-n. 2
 J. B*** # 1
 Eb. Fried. Hübner 1
@@ -5440,6 +5427,7 @@ W. Collins. R. A. delt. H. C. Shenton sculpt. 1
 Von dem Verfasser der bekannten Eipeldauerbriefe # 12
 Seb. Mansfeld fec. 1
 Seb. Mansfeld fec. # 10
+J. H. Meil # 9
 Hr. Denis aus der S. J. Lehrer am K. K. Theresiano zu Wien 1
 Hr. v. Gerstenberg 1
 Karl von Weidemann 1
@@ -5547,27 +5535,19 @@ Adolf Stöber 24
 Arthur Müller 3
 der Verleger Cotta 1
 C. Delavigne; [übers.] Gustav Schwab 1
+Vafflard pinxt. Forssell sculpt. 1
+Steube pinxt. Forssell sculpt. 1
+S. Owen delt. Wallis sculpt. 1
+H. Dähling d. F. W. Bollinger sc. 2
+Dähling del. Meno Haas sc. Berlin1800 1
+Heinrich Wenzel 5
+Wilhelm Blumenhagen, Dr, 1
+F. W. Kawascinsky 1
+C. Hold # 6
+H. W. Lehmann 2
+M. De P**. 1
+W. Jahn 6
 H-g 1
-H. Ramberg del. Romney sc. 2
-Gr. Friedr Nöldecke 1
-S-t. #$ 1
-Arnold Ruge 43
--o- 5
-Heinrich Zschokke 36
-H. Ramberg del. W. Jury scp. 6
-H. Kletke 29
-J. M. Hutterus 13
-Julius Döring 6
-H. Ramberg del. W. Jury sculpst 1
-J. H. Ramberg del. Hannover 1809 C. Frosch sc. Lipisiae 1
-H. Ramberg del. T. Bolt sc. 1809 1
-gem. v. Schnorr v. Karolsfeld T. S. Engleheart gest. 1
-Hansen pinx. T. S. Englehaert 1
-Gem. v. K. W. v. Heideck Gest. v. Carl Müller 1
-Gez. von Asher. Gest. v. C. Gonzenbach 1
-J. B. Zwecker gez.W. J. Cooke gest. 2
-Ludwig Westrum 13
-Friedrich Ast 2
 Friedrich Kalkreuth 1
 Albert Graf von Pappenheim 1
 -hr... 1
@@ -5601,6 +5581,7 @@ Moritz Engel 2
 Heinrich Schmidt 4
 Friedrich v. Klotz 1
 M. LE PRIEUR 1
+H. Ramberg del. Romney sc. 2
 Carl Barthel 3
 J. E. A. Nitschke 4
 Otto, Graf von Haugwitz 11
@@ -5703,6 +5684,15 @@ Eduard Brauer 80
 C. O. Sternau # 6
 A. GR. 1
 J. Müntzenberger 1
+Heinrich Zschokke 36
+J. M. Hutterus 13
+Gr. Friedr Nöldecke 1
+S-t. #$ 1
+Arnold Ruge 43
+-o- 5
+H. Ramberg del. W. Jury scp. 6
+H. Kletke 29
+Julius Döring 6
 Von mir # 1
 Th. v. Haupt 3
 C. Lessing 7
@@ -5733,6 +5723,14 @@ Karoline Pichler, geb. von Greiner. / (Fortsetzung.) 1
 Karoline Pichler 2
 Ludwig August Kähler [übers.] 5
 Ludwig August Kähler 1
+H. Ramberg del. W. Jury sculpst 1
+J. H. Ramberg del. Hannover 1809 C. Frosch sc. Lipisiae 1
+H. Ramberg del. T. Bolt sc. 1809 1
+gem. v. Schnorr v. Karolsfeld T. S. Engleheart gest. 1
+Hansen pinx. T. S. Englehaert 1
+Gem. v. K. W. v. Heideck Gest. v. Carl Müller 1
+Gez. von Asher. Gest. v. C. Gonzenbach 1
+J. B. Zwecker gez.W. J. Cooke gest. 2
 Wilhelm Gwinner 14
 Friedrich Kind # 1
 Bährenstecher 1
@@ -5773,6 +5771,8 @@ Ramberg inv. Bolt sc. 3
 Ramberg del. A. W. Böhm sc. 2
 H. Ramberg del. H. Lips sculps. 1
 [unleserlich] inv.; Seb. Mansfeld sc. 1
+Ludwig Westrum 13
+Friedrich Ast 2
 Albrecht Kochen 3
 Karl Streckfuss 4
 Ernst Freiherr v. Feuchtersleben 19
@@ -5781,13 +5781,6 @@ Rudolf Binder 1
 F. A. Freiherr von Zu Rhein 1
 Freiherr A. von Sternberg 1
 Vom Verfasser der Räuber 1
-Annette E. von Droste zu Hülshoff 1
-H. Ramberg del. A. W.Böhm sc. 1
-F. V. KÖPKEN 1
-R.... 1
-FR. V. KÖPKEN 1
-HERKLOTS 1
-GÖTHE # 1
 Moritz August v. Thümmel 1
 S *** 1
 Johanna Schopenhauer # 1
@@ -5910,6 +5903,8 @@ Ludwig Foglar 41
 C. R. Leslie. Rossmäsler Dresd. 1824 1
 C. R. Leslie del. A. Brückner sc. Leipzig 2
 Leslie. Rosmäsler Dresd. 1821 1
+Annette E. von Droste zu Hülshoff 1
+H. Ramberg del. A. W.Böhm sc. 1
 Wilhelm Blumenhagen, Dr. 2
 Karl Ludwig Reh 3
 M. D'ARNAUD 1
@@ -5960,6 +5955,10 @@ J. P. Graf von Sermage 3
 Ernst Anschütz 2
 Ziehnert 3
 Rich. Roos # 1
+F. V. KÖPKEN 1
+R.... 1
+FR. V. KÖPKEN 1
+HERKLOTS 1
 Karl Ziegler (Carlopago.) 2
 Theodor Bákody 4
 Moritz Hartmann 21
@@ -6008,6 +6007,7 @@ J. H. Ramberg del. J. Axmann sc. 1825 1
 J. H. Ramberg del. J. Achmann sculp. 1825 1
 K... 2
 Wilhelm John 7
+GÖTHE # 1
 Ramberg del. F. A. Darnstedt sc. 1
 Dr. Friedrich Cramer 1
 Friedrich von Zipf 1
@@ -6137,27 +6137,6 @@ H. Ramberg del. C. A. Schwerdgeburth 1
 H. Ramberg del. Jh. Blaschke 1
 Lucas Cranach. Fr. Bolt sc. 1812 1
 Caroline Pichler, gebn. von Greiner 1
-Jean Pierre C. Grafen von Sermage 6
-Karl Wilde 6
-Geissler del. Fleischmann sc. 2
-Jégor von Sivers 4
-Gertude v. Hohenhausen geb. Hartung 2
-Verfasser der »Fahrten eines Musikanten« 1
-C. Dräxler-Manfred 15
-Kaulbach del. Neubauer sc. 1
-Ludwig Starklof 1
-Rémon del. et sculp. 1
-L. Starklof 2
-Otto Arnz pinx. C. Hoffmeister scu. 1
-Gez. v. Fellner Figuren v. C. Barth Landschaft von E. Grünewald gest. 1
-Jacob Dielmann # 1
-Mechau del. Geyser sc. 13
-G. Reissiger 2
-Karolione $ 1
-Ew. Dreiköpfigkeit tief ergebenster Eduard Maria Oettinger, geheimer öffentlicher Demagog, pensionirter Tyrann von Syrakus und Feldwebel im 1sten Krokodilen-Regiment etc etc etc 1
-Gem. v. F. W. Schadow Gest. v. Const. Müller 1
-Gem. v. Ph. Foltz. Gest. v. C. Müller 1
-Gem. v. C. Teichs Gest. v. C. Gerhardt 1
 Karl Geib 115
 J. A. Henne 1
 Friedrich Gerstäcker 1
@@ -6173,6 +6152,7 @@ Friedich Baron de la Motte Fouqué 1
 D. A. H. C. Gelpke 1
 W. Grimm # 2
 Gez. V. D. Fohr. Gest. b. A. Klauber v. F. P. Edelwirth 1
+Geissler del. Fleischmann sc. 2
 Geissler del. Schwerdgeburth sc. 1
 Gez. V. P. C. Geissler in Nürnberg. gest. V. J. Axmann in Wien 1
 Geissler del. F. Wagner sc. 1
@@ -6202,6 +6182,8 @@ Moritz Graf zu Bentheim Tecklenburg 1
 Pilliel del. Heegnenheim & W. Otto sc. 1
 E. Michold del. W. Otto & Hirchenhein sc. 1
 A. Oppenheim pinx.T. S. Engelhart sc. 1
+Jean Pierre C. Grafen von Sermage 6
+Karl Wilde 6
 Charlotte Ehrenberg 5
 Guido Reni Godefroy # 1
 Rubens Thelott # 1
@@ -6239,6 +6221,7 @@ Imité de H. 1
 Dedreux pinxt. Forssell sculpt. 1
 Forsell sc. 4
 Hedwig Hülle 3
+Mechau del. Geyser sc. 13
 Capieux sculps. 1805 1
 Veit scp. Dresd. 1
 Fr. Bartel sc. 1
@@ -6252,6 +6235,11 @@ JF. 1
 Frenzel sculps. Dresdae 1
 Rosmäsler Dresd.1827 1
 Elise v. Hohenhausen geb. Ochs 1
+Jégor von Sivers 4
+Gertude v. Hohenhausen geb. Hartung 2
+Verfasser der »Fahrten eines Musikanten« 1
+C. Dräxler-Manfred 15
+Kaulbach del. Neubauer sc. 1
 Rosmäsler Dresd. 1826 2
 F. Fleischmanns c. 1
 F. Fleischmann sc. 3
@@ -6323,6 +6311,15 @@ Elisa v. d. Recke # 6
 Franz von Kobell 7
 F. L. 5
 Gez. v. I. B. Zwecker W. J. Cooke sc 1
+Ludwig Starklof 1
+Rémon del. et sculp. 1
+L. Starklof 2
+Otto Arnz pinx. C. Hoffmeister scu. 1
+Gez. v. Fellner Figuren v. C. Barth Landschaft von E. Grünewald gest. 1
+Jacob Dielmann # 1
+G. Reissiger 2
+Karolione $ 1
+Ew. Dreiköpfigkeit tief ergebenster Eduard Maria Oettinger, geheimer öffentlicher Demagog, pensionirter Tyrann von Syrakus und Feldwebel im 1sten Krokodilen-Regiment etc etc etc 1
 Orion 1
 Emmy Freiin von Dincklage 13
 Engel del. W. Otto sc. 1
@@ -6451,6 +6448,9 @@ Karoline W-lich # 10
 Theodor Bornowsky 5
 Nicolaus Hocker 4
 Horstig 65
+Gem. v. F. W. Schadow Gest. v. Const. Müller 1
+Gem. v. Ph. Foltz. Gest. v. C. Müller 1
+Gem. v. C. Teichs Gest. v. C. Gerhardt 1
 Friedrich Koelle 16
 Ludwig Uhland [übers.] 5
 Maria # 1
@@ -6560,17 +6560,6 @@ E. Steinle del. F. Backenberg sc. 1
 Adolf Dörr 1
 Julius Dresel 1
 Heinrich Hoffmann 1
-P. Dieffenbach 1
-Gem. v. Schön Gest. v. Otto 1
-Frhr. v. Ulmenstein 6
-Auguste Kurs geb. Rosenberg 1
-Mechau del. Schule sc. Lips. 1788 1
-Mechau del. D. Berger sculps. 1788 2
-U. M..z. 4
-G. J. K. 2
-Auguste Linden 2
-J. B. Zwecker gez. W. J. Cooke gest. 1
-Ch. Köhler gem. Gest. v. Rud. Stang in Düsseldorf 1
 Schmidt in Rom p. Schnell sc. 2
 Nach Hannibal Carrachi, von Catel gez. und Hess gest. 1
 J. F. REICHARDT 3
@@ -6693,6 +6682,8 @@ Weinrauch del. et sc. Wien 5
 Joh. Georg Eck 1
 Ahlström 1
 Joh. Georg Eck [aus dem Schwedischen übers.] 1
+P. Dieffenbach 1
+Gem. v. Schön Gest. v. Otto 1
 gem. v. Meyer in Bremen gest. v. W. Otto 1
 Hoppe fec. 13
 Frentzel del et sc. 5
@@ -6783,6 +6774,11 @@ Warmholz 1
 Frhr v. Ulmenstein 2
 Nina 1
 J. Chr. Fr. Bach 1
+Frhr. v. Ulmenstein 6
+Auguste Kurs geb. Rosenberg 1
+Mechau del. Schule sc. Lips. 1788 1
+Mechau del. D. Berger sculps. 1788 2
+U. M..z. 4
 Gardthausen 6
 Susanne v. Bandemer, geb Franklin # 4
 Arnoldine Wolf, geb. Weissel # 1
@@ -6808,6 +6804,7 @@ Rosmäsler in München 1
 S. Langer sc. Viennae 2
 S. Langer sc. 8
 Jb. Lips gest. 3
+Auguste Linden 2
 Rhingulph Wegener 1
 Balthasar Reber 11
 Carl Rößler 2
@@ -6861,6 +6858,9 @@ Gez. v. Fellner Figur v. C. Barth Landschaft von E. Grünewald gest. 1
 Luise v. K. 4
 Luise Pr. von C. 2
 Pietro Beretini J. Felsing jun. sc. 1
+G. J. K. 2
+J. B. Zwecker gez. W. J. Cooke gest. 1
+Ch. Köhler gem. Gest. v. Rud. Stang in Düsseldorf 1
 Gem. v. Zahn Gest. v. A. Schulthess 1
 gem. v. van Muyden gest. v. Sichling 1
 Jegór von Sivers 13
@@ -6931,22 +6931,7 @@ Anna Stern 1
 Hermann Kneipp 2
 Christian Friedrich Scherenberg 5
 Schubert del. D. Berger sc. 1797 4
-Carl Werder 5
-Ewald # 1
-Wilhelm Eisenmayer 6
-Karl Wilhelm Schultz 3
-Purpurino 1
-G. v. S. 8
-Herder 1779 3
-Friedrich Leopold Graf zu Stolberg 2
-N. König del. H. Lips sculp. 2
-G. Löhrer del. R. Rahn sc. in Zürich 1
-J. H. Sch. 7
-Hr. 5
-Fritz Haldenwang del. L. Schnell sculp. 1
-Balthazar Grimod de la Reynière; [übers.] unbezeichnet 33
 G. Friedrich # 2
-W. F. Müller # 1
 K. Müchler # 1
 Die Herausg. 2
 Volmar # 2
@@ -7004,12 +6989,26 @@ Lotte # 62
 J. H. Ramberg del. C. Schule sc. 1801 12
 J. G. S. s. 2
 A. D..........r. 1
+Hr. 5
 Franz Kuenlin 6
 Joh. Rud. Wyß, der ältere 29
 Schnorr v. K. del. M. Haas sc. 1
 J. Penzel del. et fec. 1789 1
 Mechau inv. et. del. Malvieux sc. 2
 Spranger # 1
+Carl Werder 5
+Ewald # 1
+Wilhelm Eisenmayer 6
+Karl Wilhelm Schultz 3
+Purpurino 1
+G. v. S. 8
+Herder 1779 3
+Friedrich Leopold Graf zu Stolberg 2
+N. König del. H. Lips sculp. 2
+G. Löhrer del. R. Rahn sc. in Zürich 1
+J. H. Sch. 7
+Fritz Haldenwang del. L. Schnell sculp. 1
+Balthazar Grimod de la Reynière; [übers.] unbezeichnet 33
 J. Wezel del. F. Hegi sc. 2
 J. Rösel del. F. Hegi sc. 3
 Tobias Grasgrün, Lorbeerblatt-Händler, Theatergärtner und befugter Klacquer 1
@@ -7067,6 +7066,7 @@ Th. Müller 6
 Jacob Burckhardt 2
 Bernh. Wartmann, Med. Dr. und Stadtphysikus 1
 L. Meister 3
+W. F. Müller # 1
 Johanns Hadloub 3
 Fr. Aug. Gengenbach 4
 Hect. # 1
@@ -7077,32 +7077,6 @@ Agnes Emerentia Geyer 1
 G. Ch. Gaa 3
 F. Huber 6
 M. Roux # 2
-Val. Freih. v. Rothkirch und Panthen 1
-Julius von Morton 1
--l-t- 16
-B..e Gutmann 2
-B*****r. 1
-S. Frey del. D. Burgdorfer sc. 1
-J. Wetzel del. F. Hegi sc. 4
-Bockshammer 9
-Netto fec. 2te. Jah. G. 2
-Netto. fec. 2ter. Jah. G. 2
-Netto. fec. Jah. G. 2te. 2
-D. Chod. d. Fr. Bolt sc. 96 1
-Caroline W.l.ch # 4
-Verf. d. Thekla v. Thurn etc # 1
-Schnorr del. H. Schmidt sc. 1
-F. A. Gengenbach 20
-Mlle R. Osterwald del. D. Burgdorfer sculp. 1
-S--r. # 3
-A---s. 2
-J. G. Eck der Sohn 3
-Amalie 3
-Louiser Brachmann 1
-F. J. Weiß, v. Zug 2
-F. N. König del. H. Lips sculp. 2
-Ew. kurf. Gnaden / unterthäniger / Mart. Luther 1
-Martinus Luther 1
 P. Fendi pinx. J. Passini sc. Viennae 2
 Schnorr del. Schmidt sc. 1
 W. D. J. $ 1
@@ -7130,6 +7104,18 @@ A. Korbmann, Sohn, in Bern 1
 Albr. Volmar 1
 G. Volmar inv. F. Hegi sc. 1
 Emilie Harmes geb. v. Oppel 3
+Val. Freih. v. Rothkirch und Panthen 1
+Julius von Morton 1
+-l-t- 16
+B..e Gutmann 2
+B*****r. 1
+S. Frey del. D. Burgdorfer sc. 1
+J. Wetzel del. F. Hegi sc. 4
+Bockshammer 9
+Netto fec. 2te. Jah. G. 2
+Netto. fec. 2ter. Jah. G. 2
+Netto. fec. Jah. G. 2te. 2
+D. Chod. d. Fr. Bolt sc. 96 1
 D. Chodowieki del. 1
 Correggio pinx. Thelott Düsseldo. sc. 1
 Herr Oberforst- und Berg-Inspektor Zschokke 1
@@ -7195,6 +7181,18 @@ A. Henne 1
 Joseph Lüthy 1
 BOILEAU 1
 Schnorr d. Fr. Bolt sc. 1814 1
+Caroline W.l.ch # 4
+Verf. d. Thekla v. Thurn etc # 1
+Schnorr del. H. Schmidt sc. 1
+F. A. Gengenbach 20
+Mlle R. Osterwald del. D. Burgdorfer sculp. 1
+S--r. # 3
+A---s. 2
+J. G. Eck der Sohn 3
+Amalie 3
+Louiser Brachmann 1
+F. J. Weiß, v. Zug 2
+F. N. König del. H. Lips sculp. 2
 F. C. Schlenkert # 77
 Nicolas Montjourdain; [übers.] Friedrich Rothmaler 1
 Peter Bayle 1
@@ -7269,6 +7267,8 @@ Schnorr v. K. gezeich. Esslinger gest. 1
 L. E. M. 1
 Karl Grumbach # 4
 Euer Martin Luther 1
+Ew. kurf. Gnaden / unterthäniger / Mart. Luther 1
+Martinus Luther 1
 D. Kraus 2
 Ludwiga # 5
 M. v. Schenkendorf 6
@@ -7277,21 +7277,6 @@ F. N. König st. 2
 J. H. Meyer sc. L. Heß del. 1
 J. H. Meyer del. & sc. 2
 L. Hess del. ad nat. J. H. Meyer sc. 1
-Schadow. Bolt s. 1794 1
-Carl Spener 5
-Gez. u. gest. v. J. Scheurmann 2
-Sophie Richard-Schilling 1
-Joh. Rud. Wyß, der jüngere 30
-J. M. U. 3
-M. Usteri del. F. Hegi sc. 4
-Caroline 2
-Lieut. Dittenberger 1
-Carl Borromäus Baron von Miltitz 1
-Emanuel Stockmeyer 5
-J. Pfundheller 12
-F. Schrank 5
-L. Portmann gez. 1
-C. Näf 4
 Conrad Gessner del. J. H. Meyer sc. 1
 J. Heinrich Meyer f. ad. nat. 1
 L. H. Meyer f. ad nat. 1
@@ -7329,6 +7314,8 @@ L. VOGEL INV. & DEL. S. SCULPSIT1837 1
 Abraham Emmanuel Fröhlich 7
 Abraham Emanuel Fröhlich 31
 J. S. Schröter del. et sculps. 1
+Schadow. Bolt s. 1794 1
+Carl Spener 5
 Sophie R(ösler) in Lpz. # 1
 Carl Rösler in Leipz. # 2
 Poussin Boehm 1
@@ -7410,7 +7397,9 @@ C. Rösler # 4
 Sophie Rösler # 2
 aus dem Journ. f. Frauen # 2
 Joh. Rud. Wyß 1. 2
+M. Usteri del. F. Hegi sc. 4
 Hünerwadel 4
+Joh. Rud. Wyß, der jüngere 30
 A. Kessler sc. 1
 J. G. S. S. $ 5
 Schmittbaur 4
@@ -7433,29 +7422,19 @@ Keller del. ad nat. J. H. Meyer sc. 1
 Johann von Müller 1
 A. Bentz del. F. Hegi sc. 1
 F. Vischer del. F. Hegi sc. 3
+Gez. u. gest. v. J. Scheurmann 2
+Sophie Richard-Schilling 1
+J. M. U. 3
+Caroline 2
+Lieut. Dittenberger 1
+Carl Borromäus Baron von Miltitz 1
+Emanuel Stockmeyer 5
+J. Pfundheller 12
+F. Schrank 5
+L. Portmann gez. 1
+C. Näf 4
 Mahler Müller in Rom 1
 Wilhelmine Feddersen 1
-F. W. A. Schmidt. Feldprediger des Königl. Invalidenhauses bei Berlin, und berufener Prediger zu Werneuchen 1
-Alfred Hartmann 2
-A. Willmann sculp. 1
-Dan. Kraus 1
-J. M. Meyr 51
-R. J. A. Henne 3
-J. Frey del. D. Burgdorfer sc. 1
-Solothurner Wochenblatt für 1822. Nr. 14 1
-B**e G** 1
-Gezeichn. v. G. Lory Vat. 1824. gest. v. Dan. Burgdorfer 1
-Retsch gezeich. Schwerdgeburth gest. 2
-Helmina v. Chezy, geb. v. Klencke 2
-A. Brentano 7
-Joachim Bernstorff 1
-Joh. Casp. Lavater 1
-J. M. Sieveking, geb. Reimarus 1
-ROSA MARIA # 12
-Em. Harmes, geb. von Oppel 1
-A. Tschudi 2
-Faust der jüngere # 15
-Joh. Hauenstein pinx. J. H. Meyer sculps. 2
 Ludewig Giseke 7
 -s- 3
 F. Kuenlin 1
@@ -7478,6 +7457,7 @@ J. S*r. 16
 L. Studach 6
 General Milford, Kriegs Obersten der Nation der Creeks 1
 U. M...z 2
+ROSA MARIA # 12
 Iden del. Wagner sc. 1
 Schnorr v. K. i. Fr. Bolt sc. 1812 2
 Schubert d. F. Bolt s. 1812 1
@@ -7499,8 +7479,15 @@ Frau v. Montolieu 1
 J. U. v. Salis 2
 Joh. Heinr. Meyer sc. 2
 Joh. Hauenstein del. ad nat. J. H. Meyer sculps. 1
+Joh. Hauenstein pinx. J. H. Meyer sculps. 2
 Schadow. Bolt sc. 1794 1
 W. Meil # 2
+F. W. A. Schmidt. Feldprediger des Königl. Invalidenhauses bei Berlin, und berufener Prediger zu Werneuchen 1
+Alfred Hartmann 2
+A. Willmann sculp. 1
+Dan. Kraus 1
+J. M. Meyr 51
+R. J. A. Henne 3
 H. H. 3
 Jacobsen 6
 -ll- 3
@@ -7526,6 +7513,7 @@ Emanuel Straube 13
 F. F. 8
 Ferd. Frhr. v. Biedenfeld 1
 J. F. Castelli 4
+Faust der jüngere # 15
 G. Lory del. D. Burgdorfer sculps. 1
 Ed. Ender del. Jos. Axmann. C. Mahlknecht sc. Viennae 1
 J. H. Sulzer 4
@@ -7568,6 +7556,12 @@ Chr. Rösler 1
 Berheft # 1
 Lübeck # 1
 Joh. Hauenstein pinx. J. H. Meyer sc. 1
+J. Frey del. D. Burgdorfer sc. 1
+Solothurner Wochenblatt für 1822. Nr. 14 1
+B**e G** 1
+Gezeichn. v. G. Lory Vat. 1824. gest. v. Dan. Burgdorfer 1
+Retsch gezeich. Schwerdgeburth gest. 2
+Helmina v. Chezy, geb. v. Klencke 2
 A. Friederich 8
 Ph. Millauer 20
 gez. von Schubert gest. v. Böttger aus Dresden in Leipzig 1
@@ -7626,6 +7620,12 @@ F. Hegi del. 1
 F. Hegi del & sc. 1
 Esther Sch. 4
 Förster 1
+A. Brentano 7
+Joachim Bernstorff 1
+Joh. Casp. Lavater 1
+J. M. Sieveking, geb. Reimarus 1
+Em. Harmes, geb. von Oppel 1
+A. Tschudi 2
 Haller 3
 **g** 1
 Vz. 2
@@ -7702,20 +7702,6 @@ August Adolf Ludewig Follen 2
 Dr. Rudolph Meyer 28
 A. A. L. Follen 2
 H. Schnyder von Wartensee 1
-A. $ 76
-Germann 4
-H. Ramberg del. C. Hübner sc. 1
-Chr. Niemaeyer 1
-L. Portmann sc. 2
-C. F. sc. Darmstadt 2
--s 1
-Hanhart, in Winterthur 2
-A. Weber Nbg. sc. 3
-gez. v. Maron gest. v. Fincke 1
-gest. v. Fincke 5
-C. Herklots 2
-Dorothee Spangenberg geb. Wehrs 1
-G. J. Rieff 7
 Lütke del et sculp. 1
 Conradin Kreutzer 1
 F. Mendelssohn-Bartholdi 1
@@ -7760,6 +7746,14 @@ J. H. Meyer del & sc. 1
 L. Heß del. J. H. Meyer sc. 1
 G. Lory 1813 1
 M. Usteri inv. F. Hegi del. et sc. 1
+A. $ 76
+Germann 4
+H. Ramberg del. C. Hübner sc. 1
+Chr. Niemaeyer 1
+L. Portmann sc. 2
+C. F. sc. Darmstadt 2
+-s 1
+Hanhart, in Winterthur 2
 Papirius Scribonius Tintenfisch, Doktor und Apotheker der Weltweisheit 1
 Alexander Dumas 1
 Jokosus 1
@@ -7901,6 +7895,7 @@ Karl Gottlieb Hofmann 1
 [übers.] Brüder Grimm 20
 F. Förster 3
 Achim v. Arnim 2
+A. Weber Nbg. sc. 3
 H. Füessli del. J. H. Meyer sc. 1
 C. S. del. J. H. Meyer sc. 1
 C. Heidlof gez. J. Lips gest. 1
@@ -7967,7 +7962,12 @@ August Schmidt 24
 J. Hoven 2
 Franz Seraphicus Hölzl 1
 Anton Hackel 2
+gest. v. Fincke 5
 gez. v. Marohn gest. v. Schulin 1
+gez. v. Maron gest. v. Fincke 1
+C. Herklots 2
+Dorothee Spangenberg geb. Wehrs 1
+G. J. Rieff 7
 Leonardo da Vinci pt. F. John sc. 2
 Jury del. F. Ramberg sc. $ 1
 Gapieux del. & sc. 1796 3
@@ -8079,26 +8079,6 @@ Lygdamus # 2
 Elise Reindahl 10
 Friedrich Güll 29
 Heinrich Stieglitz 56
-A. Schelfhout del. J. B. Tétarv. Elven sculps. 1
-Julie von Zerzog 1
-C. A. Dempwolff 5
-Fr. Hilarius # 35
-Nach Photographie E. Wagner sculpt. 1
-AR. del. 1
-Sandhaas del. 5
-Dr. Bechstein 6
-F. Wagenknecht del. Hanau. 1
-Sss. 12
-Moriz Arndt 7
-M. Wizenmann 2
-J. Fr. Edeling 1
-Ihr H. 1
-H.-P. 3
-Friedrich Oskar Ritter von Stahl 1
-Alex. Jul. Schindler 19
-Karoline Leonhard Lyser 1
-J. P. Thelott fecit 1
-Lord Byron; [übers.] S. H. Spiker 1
 R... 2
 Caroline Mezger # 1
 J. Romano pinx. Stürmer del. L. Buchhorn dir. C. Hübner sculp. 1
@@ -8153,6 +8133,7 @@ Friedr. Theodor Mann 1
 gezeichnet von Joh. Voltz in Nördlingen gestochen von P. J. Laminit in Leipzig # 5
 D. Chodowiecki inv. D. Chki. fec. # 11
 v. Schlegel 3
+H.-P. 3
 Maylard del. Cl. Kohl sc. 1
 Joh. Conrad Appenzeller, Pfarrer 3
 N. König del. F. Hegi sc. 1
@@ -8185,6 +8166,7 @@ M. C. 3
 F. A. Chateaubriand 1
 Viatlis # 1
 W. Hensel gez. Stahlstich v. Ernst Rauch Darmstadt 6
+Fr. Hilarius # 35
 Jos. Führich inv. et del. Buchhorn dir. R. Herzberg sc. 1
 Von einem Augenzeugen 2
 Aschenberg 1
@@ -8233,6 +8215,7 @@ K. A. Kaltenbrunner 30
 Juliane Ebert 1
 Joseph Wenzig 9
 Meta comunis # 1
+Sss. 12
 H. C. Steup 3
 F. W. Jung 4
 Julio Romano p. F. John sc. 1
@@ -8262,6 +8245,14 @@ U. P. 11
 Gabriela v. Baumberg 1
 Unger 19
 W. Jury del et fec. # 10
+A. Schelfhout del. J. B. Tétarv. Elven sculps. 1
+Julie von Zerzog 1
+C. A. Dempwolff 5
+Nach Photographie E. Wagner sculpt. 1
+AR. del. 1
+Sandhaas del. 5
+Dr. Bechstein 6
+F. Wagenknecht del. Hanau. 1
 K. A. Döring 1
 Gottfr. Bueren 6
 Eduard Messow 16
@@ -8330,6 +8321,11 @@ Loder del. Jos. Stöber sc. 1
 v. G-b. 2
 Elise Horny 2
 Eilse Horny 1
+Moriz Arndt 7
+M. Wizenmann 2
+J. Fr. Edeling 1
+Ihr H. 1
+Friedrich Oskar Ritter von Stahl 1
 Hanfstängel # Eduard Schuler sculp. 1
 E. F. 21
 E. Schwarz 1
@@ -8404,6 +8400,10 @@ Paul Friedrich Walther 5
 J. P. Kaltenbaeck 6
 M. F. G. Leonhardi, ordentl. Prof. d. Oekonomie 1
 Schubert de. Riepenh. sc. 1
+Alex. Jul. Schindler 19
+Karoline Leonhard Lyser 1
+J. P. Thelott fecit 1
+Lord Byron; [übers.] S. H. Spiker 1
 Ignaz Ritter von Seyfried 2
 Freiherr von Münchhausen 22
 J. H. Kaufmann 12
@@ -8490,27 +8490,6 @@ E. Stoll del. D'argent sc. 1
 gest. v. Auguste Hüssener in Berlin 3
 Rosmäsler 1833 1
 Rosmäsler in Berlin. 1833 1
-Karlopago # 2
-H. Marschner 2
-F. Sauter 8
-Louis Spohr 3
-Franz Freiherr von Schlechta 5
-A. L. Grimm 5
-Ant. Karcher sc. 2
-J. Passini sc. Viennae 3
-T. Stothard del. J. Axmann sc. 2
-C. M. Ed. 19
-Ed. Schuler sculp 1
-Sandhaas jun. del. G. Boettger sen. sc. 1820 1
-Karl Slevogt, Professor und provisorischer Oberförster zu Kloster Egrach bei Bamberg 1
-Gräfl. Limpurgischer Herr Hof- und Regierungsrath Höck zu Gaidorf 1
-Herr Superintendent Justi 1
-Herr Regierungsrath Bunsen zu Arolsen 2
-Pforr del. G. Boettger sen. sc. Lips. 1
-L. de Wildungen ad. viv. del. G. Boettger senior sc. 1
-L. de Wildungen ad. viv. del. # 2
-C. M. Winterling 28
-Leopold Stein ( Rabbiner in Burgkundstadt) 13
 Dr. W. 6
 Biergans 2
 Fr. Mohn 2
@@ -8542,6 +8521,13 @@ Weinrauch fec. Wien 1
 Verfasser des Leipziger Frauenzimmer-Almanachs 1
 C. Kuntz del. Haldenwang sc. 1
 C. Frommel ad nat. del. & sculp. 2
+Karlopago # 2
+H. Marschner 2
+F. Sauter 8
+Louis Spohr 3
+Franz Freiherr von Schlechta 5
+A. L. Grimm 5
+Ant. Karcher sc. 2
 Dominicus Quaglio # 1
 J. Poppel sc. 1
 J. A. Lasinsky del. C. Frommel direxit 1
@@ -8613,6 +8599,7 @@ E. Leutze pinxt. J. W. Baumann sculpt. 1
 Chr. Hoffmeister dirxt. 4
 Schopin pinxt. J. W. Baumann sculpt. 1
 Lina Reinhard # 1
+C. M. Ed. 19
 V. Kinninger del. Cl. Kohl sc. Viennae 2
 Ludwig Lange 1
 Schuler sculp. 2
@@ -8677,6 +8664,9 @@ G. v. Deuern 8
 Jussuf der Uebersetzer 4
 A. T.* 1
 V. Grüner inv fe 1
+J. Passini sc. Viennae 3
+T. Stothard del. J. Axmann sc. 2
+Ed. Schuler sculp 1
 Schuler sc. 3
 Dunker 9
 E. Landseer pinxt. J. W. Baumann sculpt. Mchn 1
@@ -8781,6 +8771,16 @@ J. G. Rieff 1
 L.Wolf del. F. W. Meyer sc. 1
 E. Landseer pinxt. J. W. Baumann sc. 1
 Shakspeare; [übers.] J. H. Voß 1
+Sandhaas jun. del. G. Boettger sen. sc. 1820 1
+Karl Slevogt, Professor und provisorischer Oberförster zu Kloster Egrach bei Bamberg 1
+Gräfl. Limpurgischer Herr Hof- und Regierungsrath Höck zu Gaidorf 1
+Herr Superintendent Justi 1
+Herr Regierungsrath Bunsen zu Arolsen 2
+Pforr del. G. Boettger sen. sc. Lips. 1
+L. de Wildungen ad. viv. del. G. Boettger senior sc. 1
+L. de Wildungen ad. viv. del. # 2
+C. M. Winterling 28
+Leopold Stein ( Rabbiner in Burgkundstadt) 13
 Geißler, Peter Carl u. Fleischmann, Friedrich 2
 gez. und in Stahl gestochen v. Rosmäsler in Berlin 1
 P. C. Geisler in Stahl v. Rosmäsler in Berlin 1
@@ -8854,26 +8854,6 @@ J. W. von Archenholz 1
 Franz Lachner 1
 Gottfried Preyer 1
 Dein getreuer Bruder Nepomuk Stößel, wohlbestallter Laborant in der Apotheke zur Neuen Welt # 1
-Frater Acerbus # 1
-Fratres conventus humoristici # 1
-Erasmus Sincerum # 1
-Anasastius Spiridion, Prior Fraternitatis humoristicae zu Odessa # 1
-Pustkuchen 4
-Rousseau 2
-Reinhart fec. Roma 1809 2
-Opitz del. M. Hofmann sc. 2
-J. W. Müller 1
-Ernst Münch 3
-Chodowiecki. # D. Berger sculp. 1
-Chodowiecki. # 1
-Ramberg del. 9
-D. Berger sculps. 1783 3
-D. Chodowiecki del. et fec. # 11
-Graf von Sponeck 1
-P. Delaroche pxt. J. W. Baumann sct. 1
-H. Winterhalter pinxt. J. W. Baumann sct. Mchn 1
-F. Tayler pinxt. I. W. Baumann sct. 1
-Ch. Gleyre pxt. J. W. Baumann sct. 1
 Frater Cebes # 20
 J. Führich gez. gest. von A. Hüssener 2
 J. Führich gez. gest. von Heinrich Hügel sc. 1
@@ -8999,6 +8979,12 @@ F. Siedentopf sc. i. C. 1
 Opitz del. M. Hoffmann sc. 2
 Opitz del. M. Hoffmann sc. Viennae 2
 Opitz del. Weber sc. 2
+Frater Acerbus # 1
+Fratres conventus humoristici # 1
+Erasmus Sincerum # 1
+Anasastius Spiridion, Prior Fraternitatis humoristicae zu Odessa # 1
+Pustkuchen 4
+Rousseau 2
 C. Agricola pinx. J. Felsing jun. sc. 1
 Heideloff gez. G. F. Vogel junior gestoch. Nürnbg. 1
 Heideloff del. Busser sc. 1
@@ -9076,6 +9062,13 @@ L. Wittig 2
 C. Geyer sc. 2
 Nicholls & Allanson sc. 2
 von Corvin-Wiersbitzki 2
+Reinhart fec. Roma 1809 2
+Opitz del. M. Hofmann sc. 2
+J. W. Müller 1
+Ernst Münch 3
+Chodowiecki. # D. Berger sculp. 1
+Chodowiecki. # 1
+Ramberg del. 9
 E. Henne sc. 8
 Dero ganz ergebener Heinrich, Herzog von Würtemberg 1
 Oberforstrath und Professor Graf Sponeck zu Heidelberg 1
@@ -9282,6 +9275,13 @@ Ruek, Königl. Revierförster 1
 F. C. S 1
 Herr Jagdjunker von Herzeele zu Cassel 1
 Ossian; [übers.] Herausgeber 1
+D. Berger sculps. 1783 3
+D. Chodowiecki del. et fec. # 11
+Graf von Sponeck 1
+P. Delaroche pxt. J. W. Baumann sct. 1
+H. Winterhalter pinxt. J. W. Baumann sct. Mchn 1
+F. Tayler pinxt. I. W. Baumann sct. 1
+Ch. Gleyre pxt. J. W. Baumann sct. 1
 J. P. Knight pinxt. J. W. Baumann scpt. 1
 Fr. Hilaruis # 1
 Hendly 1
@@ -9423,29 +9423,6 @@ Franz von Nemmersdorf # 1
 Mohn 4
 A. Stork 2
 Piepmeyer 1
-Uhland 23
-Gez. von Sandhaas. Auf Stein v. K. Müller in der Steindrucki. ds. K. Wagner 1
-Freiher von der Borch 2
-Heinrich Herzog von Würtemberg 1
-Stich u. Druck d. Kunst Anst. d. Oest. Lloyd in Triest 1
-Fr. Weigl del. A. D. sc. 1
-Ottomeyer 5
-Gassen del. P. Singer sc. 1
-Franz Bonn 1
-Carl August Dempwolff 2
-W. H. Matthias / Erster Registrator, Archivar und Geh. Sekretair beim Königl. General-Post-Amte 1
-Grahl # 1
-J. Führich inv. & del. Roma Ernst Rauch sct. Darmstadt 1
-M. Pöltzel sc. 1
-J. W. Baumann sct. Mchn 2
-W. Drummond pinxt. J. Cochran sct. 2
-R. Buckner pinxt. J. W. Baumann sculpt. Mchn 1
-G. E. Hering pinxt. W. H. Mote sculpt. 1
-E. Landseer pinxt. J. W. Baumann sculpt. Mchn. 1
-Painted by Mac [unleserlich] Engd. by J. Hollis 1
-J. E. Buckley delt. W. H. Mote sculpt. 1
-Ary Scheffer pinx. J. Allgeyer sc. Ch. Hoffmeister direx. 1
-Leloir pinxt. J. W. Baumann sct. Mchn 1
 Abbildung aus: L'Antiquité expliquée et représentée (Tome premier second partie) par Dom. Bernard de Montfaucon à Paris 1719 in Folio # 1
 Weigl del. M. H. sc. 8
 Herr Professor Merrem zu Marburg 1
@@ -9492,6 +9469,16 @@ Göschen 16
 Isopi inv. del., et sculp. # 6
 Assur # 17
 A. Mayer 2
+Uhland 23
+Gez. von Sandhaas. Auf Stein v. K. Müller in der Steindrucki. ds. K. Wagner 1
+Freiher von der Borch 2
+Heinrich Herzog von Würtemberg 1
+Stich u. Druck d. Kunst Anst. d. Oest. Lloyd in Triest 1
+Fr. Weigl del. A. D. sc. 1
+Ottomeyer 5
+Gassen del. P. Singer sc. 1
+Franz Bonn 1
+Carl August Dempwolff 2
 C. Townley pinx. P. Haas sc. 1
 J. W. Meil del. E. S. Henne sc. 2
 gezeichnet von C. L. v. Oesfeld gestochen von D. Sotzmann 1
@@ -9676,33 +9663,22 @@ Scheidlin, Hofgärtner in Ludwigsburg 1
 Pfeffel (Am Grabe seines Pflegekindes) 1
 Pforr del. G. Boettger sen. sc. # 1
 V. H. 2
+W. H. Matthias / Erster Registrator, Archivar und Geh. Sekretair beim Königl. General-Post-Amte 1
+Grahl # 1
+J. Führich inv. & del. Roma Ernst Rauch sct. Darmstadt 1
+M. Pöltzel sc. 1
+J. W. Baumann sct. Mchn 2
+W. Drummond pinxt. J. Cochran sct. 2
+R. Buckner pinxt. J. W. Baumann sculpt. Mchn 1
+G. E. Hering pinxt. W. H. Mote sculpt. 1
+E. Landseer pinxt. J. W. Baumann sculpt. Mchn. 1
+Painted by Mac [unleserlich] Engd. by J. Hollis 1
+J. E. Buckley delt. W. H. Mote sculpt. 1
+Ary Scheffer pinx. J. Allgeyer sc. Ch. Hoffmeister direx. 1
+Leloir pinxt. J. W. Baumann sct. Mchn 1
 A. Noack delt. J. Hollis scpt. 1
 C. Nilson del. A. Schad. 1
 Dubufe pinxt. J. W. Baumann schupt. 1
-Reichsgraf von Mellin 2
-Landgraf Ludwig zu Hessen 1
-Oberförster Schminke zu Beckerhagen 1
-J. H. Stricker zu Frankfurt am Mayn 1
-E-ch 1
-E. Malsburg 5
-Klinsky erf. 1794 2
-N. Thouret inv. Duttenhofer sc. 2
-Kröncke, der Mathematik Beflissener 1
-H. Näke del. M. Esslinger sc. 1
-Retzsch del. H. Reinhold sc. 1
-G. Opitz del. M. Esslinger sc. 1
-Lehmann del. C. Frosch sc. 1
-M. H. 1
-B. Rode inv. Meno Haas del. et sculp. 1
-Fried. von Hirsch 1
-I. D. Hensel 2
-Fräul. L. v. E. 2
-Ausführung u. Stich d. Manz' Kunst-Verlag 2
--t-n 25
-Joh. Ender del. Fr. Stöber sc. Viennae 9
-Nach dem Orig Gem. auf d. Wartburg v. S. Weygant. Dav. Weiss sc. Viennae 1
-Näke del. Dav. Weiss sc. Viennae 1
-V. H. Schnorr v. Carolsleld del. G. Leybold sc. 1
 E. Dubufe pxt. J. W. Baumann sct. 1
 J. Knight pinxt. J. W. Baumann sculpt. 1
 Herr Forstmeister Freiherr von der Borch 1
@@ -9798,6 +9774,12 @@ D. Chodowiecki del. et. sc. 1790 # 3
 Ramberg inv. Riep. sc. 3
 August Schnezler 16
 L. de Wildungen ad viv. pinx. G. B. sc. 2
+Reichsgraf von Mellin 2
+Landgraf Ludwig zu Hessen 1
+Oberförster Schminke zu Beckerhagen 1
+J. H. Stricker zu Frankfurt am Mayn 1
+E-ch 1
+E. Malsburg 5
 K. Baldamus D. 34
 Beck 1
 Friedrich Buchholz # 1
@@ -9907,6 +9889,7 @@ v. Leipziger 1
 Schmieder 9
 D. G. Türk 1
 Plümicke 3
+Fräul. L. v. E. 2
 Shakspear [übers.] L. Tieck 26
 Gottlob Heinrich Rapp # 59
 Christ, Pfarrer zu Kronberg 2
@@ -10076,6 +10059,14 @@ Fried. v. Uechtritz 1
 Karl Adolf Menzel 1
 J. v. Stockhorn pinx. C. Susemihl sc. 1
 D. Joh. Sam Naumburg in Erfurt 2
+Klinsky erf. 1794 2
+N. Thouret inv. Duttenhofer sc. 2
+Kröncke, der Mathematik Beflissener 1
+H. Näke del. M. Esslinger sc. 1
+Retzsch del. H. Reinhold sc. 1
+G. Opitz del. M. Esslinger sc. 1
+Lehmann del. C. Frosch sc. 1
+M. H. 1
 W. Waiblinger 30
 Wilh. Sehring 1
 Ramberg delin. C. Felsing sc. Darmst. 1
@@ -10195,6 +10186,10 @@ Winkler von Mohrenfels 7
 Hermann Marggraff 6
 von Eichendorff 3
 S. H**g. 1
+B. Rode inv. Meno Haas del. et sculp. 1
+Fried. von Hirsch 1
+I. D. Hensel 2
+Ausführung u. Stich d. Manz' Kunst-Verlag 2
 Katz fec. 1
 Ritz 1
 D. Chodowiecki del. Clar et Henne sc. # 11
@@ -10241,21 +10236,12 @@ gez. u. gest.v. C. A. Schwerdgeburt 1
 Raphael d'Urbino pt. Fr. John sc. 1
 F. Thomé del. 1818 G. Boettger sen. sc. 1
 Karl Müller # 1
+-t-n 25
+Joh. Ender del. Fr. Stöber sc. Viennae 9
+Nach dem Orig Gem. auf d. Wartburg v. S. Weygant. Dav. Weiss sc. Viennae 1
+Näke del. Dav. Weiss sc. Viennae 1
+V. H. Schnorr v. Carolsleld del. G. Leybold sc. 1
 C. A. Günther inv. et sculp. 1
-J. W. Meil del. et sc. # 4
-J. W. Meil del. et 1
-»A« 1
-Von dem Königl. Sächsischen Oberforstrathe Cotta 1
-Ludov. Carracci pt. F. John sc. 1
-Correggio pinxt. F. John sc. 1
-J. W. M. sc 1
-John Buckler. gez. von Mauch gest. v. J. G. Martini Rudolstadt 1829 1
-E. A. Barth Stahlstich v. Rosmäsler. Berlin 1831 1
-gez. v. Ramberg gest. v. H. Schmidt 1
-Die Kalender-Deputation 1
-Mano; [übers.] unbezeichnet 2
-Ernst Freyherr von der Malsburg 6
-U. Freiherr von Schlippenbach 8
 Mori del. et sculp. Roma 2
 Mori del. et. sculp. Romae 2
 C. Reinhart Roma 1
@@ -10290,6 +10276,8 @@ Dr. Leukart 1
 Wilhelm von Tessin 1
 Reinhard del.G. Boettger sen. Sc. 1814 1
 J. H. Ramberg del. D. sc. L. Buchhorn dir. 1
+J. W. Meil del. et sc. # 4
+J. W. Meil del. et 1
 Christ 6
 D. Chodowiecki del. D. Berger sc. 3
 D. Chodowiecki del. F. Berger sc. 1
@@ -10343,6 +10331,11 @@ S. v. K. fec 1
 S. v. K. 1809 1
 Franz Schütt # 2
 Antoinette # 2
+»A« 1
+Von dem Königl. Sächsischen Oberforstrathe Cotta 1
+Ludov. Carracci pt. F. John sc. 1
+Correggio pinxt. F. John sc. 1
+J. W. M. sc 1
 J. W. Meil sc. 2
 J. W. M. sc. 1
 M. Haas f. 1
@@ -10404,6 +10397,11 @@ M. Mauch del. J. G. Martini sculp. Berlin 1831 2
 M. Mauch del. C. Frommel direxit 2
 J. A. Lasinsky C. Frommel direxit 3
 J. A. Lasinsky delineavit C. Frommel direxit 1
+John Buckler. gez. von Mauch gest. v. J. G. Martini Rudolstadt 1829 1
+E. A. Barth Stahlstich v. Rosmäsler. Berlin 1831 1
+gez. v. Ramberg gest. v. H. Schmidt 1
+Die Kalender-Deputation 1
+Mano; [übers.] unbezeichnet 2
 gemahlt v. Naumann gestochen v. Fr. Xav. Eissner in Wien 1
 Hessloehl sc. 1
 Hessloehl scpt. 1
@@ -10464,31 +10462,14 @@ David Vogel, Architect 1
 Haldenwang sulp. 2
 Prof. Joh. Joach. Bellermann, in Erfurt 1
 K. v. Bonstetten 1
+Ernst Freyherr von der Malsburg 6
+U. Freiherr von Schlippenbach 8
 B. Toermer inv. Stahlstich von Fr. Xav. Eisner in Wien 1
 Lindau del. in Rom. J. Axmann sc. 2
 Wittmer del. F. Wagner sc. 1
 D. Chod. del. Bollinger sc. 96 # 3
 Diogg pinx. M. Haas sc. # 3
 Dähling del. Meno Haas sc. 4
-Ramberg # Esslinger sc. 1
-L. Pöhacker del. nach d. Orig. Gem. in der K.K. Ambraser Sammlung. Dav. Weiss sc. Viennae 1
-Gezeichnet von Ramberg Gestochen von Martin Esslinger 1
-Rosmäsler jun. sc 1
-Aug . Lafontaine 1
-V. H. Schnorr v. K. 1
-Hermann Matthäi 3
-E. Sirani p. C. Kotterba sc. 1
-Adolf Theer del Wien C. Kotterba sc. 1
-J. C. Blum 1
-Willamo # 1
-Fr. Götzloff 2
-Ludwig Würkert 12
-Friederik Beckert 1
-J. Mosen 4
-F. Rensch pinx. J. Axmann sculp. 1
-Karl Stegmayer 1
-V. H. Schnorr v. K. del. C. Meyer sc. 1
-Schnorr v. K. del. Fr. Stöber sc. Viennae 1
 L. Wolf del. F. W. Bollinger sc. 1
 -U. 1
 v. Wagner 1
@@ -10520,6 +10501,7 @@ Maillard del. Duttenhofer sc. Dresde 1
 Schenck sc. 3
 Netto f. 1
 Prätzel 2
+Ludwig Würkert 12
 F. Fleischmann del. & sculp. 1
 Lindau del. Romae Fr. Wagner sc. 1
 Ploucquet 1
@@ -10532,6 +10514,7 @@ Bartels 7
 E. A. Richter 4
 Arminia # 6
 G. W. Lehmann 7
+Fr. Götzloff 2
 G. Boettger senior del. & sc. 1805 3
 G. Boettger senior fec. 1805 1
 Günther fec. 13
@@ -10544,6 +10527,12 @@ Usteri inv. P. J. Laminit sc. # 2
 G. A. Neuhofer 36
 Königliche Hoheit Kronprinz von Bayern 1
 S. v. K. 1814 C. T. Riedel sc. 1814 1
+Ramberg # Esslinger sc. 1
+L. Pöhacker del. nach d. Orig. Gem. in der K.K. Ambraser Sammlung. Dav. Weiss sc. Viennae 1
+Gezeichnet von Ramberg Gestochen von Martin Esslinger 1
+Rosmäsler jun. sc 1
+Aug . Lafontaine 1
+V. H. Schnorr v. K. 1
 D - ch 1
 Heidenreich 2
 D. Chod. del. Geyser sc. 4
@@ -10643,6 +10632,9 @@ Ludwig Moritz Holm 1
 B. Glaßbach fec. 1
 J. Penzel del. & fec. # 1
 W. Häring (W. Alexis) 4
+Hermann Matthäi 3
+E. Sirani p. C. Kotterba sc. 1
+Adolf Theer del Wien C. Kotterba sc. 1
 C. T. Riedel sc. Lips. 1815 1
 Jo. Ender del. Fr. Stöber sc. Vien. 1
 Pfr. zu Grabenstetten, M. Steeb 1
@@ -10693,6 +10685,11 @@ Hermann Matthäy 1
 G. A. Neuhofer, Diak. bei St. Jakob 1
 Kininger inv. & del. Malvieux sc 2
 Caroline, Baronin de la Motte Fouqué 2
+J. C. Blum 1
+Willamo # 1
+Friederik Beckert 1
+J. Mosen 4
+F. Rensch pinx. J. Axmann sculp. 1
 Gemalt v. Francesco Francia Gest. v. Ant. Karcher 1
 Die Pesther bürgerliche Scheiben-Schützen-Gesellschaft in tiefster Hochachtung und Verehrung 1
 Schwind del. Perlazca sc. Pesth 1
@@ -10762,6 +10759,9 @@ Dähling Clar sc. 1
 Klinsky erf. Veith sculp. 2
 Klinsky inv. Friedrich sc. 1
 K. inv. Fr. sc. 1
+Karl Stegmayer 1
+V. H. Schnorr v. K. del. C. Meyer sc. 1
+Schnorr v. K. del. Fr. Stöber sc. Viennae 1
 Schnorr v. K. del. Carl Meyer v. Nbg. 1
 V. H. Schnorr v. C. del. Dav. Weiss sculp. Viennae 1
 Heideloff del. d'Argent sc. 1
@@ -10771,29 +10771,6 @@ Mettenleiter inv. Mon. P. J. Laminit sc. 1806 Aug. Vind. 1
 Mettenleiter inv. P. J. Laminit sc. A. V. 3
 Mettenleiter inv. P. J. Laminit sc. A. V. 1806 1
 C. J. E…..r 1
-Karl Hengstenberg 3
-J. Penzel fec. 1793. D. Chod. del. 8
-D. Chod. del. J. Penzel fec. 1793. 2
-Penzel fec. 1793. D. Chod. del. 2
-Wendland 4
-August Hüller 1
-Schnorr v. K. del. F. Fleischmann sc. Nbg. 2
-Gest 1
-Begas pinx. Schuler direx. Weber sculp. 1
-Krüger del. H. Meyer sc. 1
-G. Opiz del. Jos. Stöber sc. Viennae 2
-Schubert del. Malvieux sc 4
-Hoppe f. 3
-J. S. Richter del. Hpe. f. 1
-Verfasser des Romans Heliodora # 4
-Verfasser des Sieges der Treue (Penelope 1813) # 1
-P. F. Brede 1
-E. Fleischer 1
-Georg Forster 1
-Guichard del.C. Kotterba sc. 1
-J. M. Moreau inv. J. J. Hubert sculp. 1
-Moreau Je. inv. Coiny sc. 1
-Moreau inventit De Longueil sculp. 1
 A. v. Perger fec. J. Axmann sc. Viennae 1
 W. C. Wrankmore sc. 4
 T. Parris del. C. Kotterba sc. 1
@@ -10843,6 +10820,13 @@ Engraved by J. F. Bolt from a Bust by Beauchiardon berlin 1793 1
 M. K. Baldamus 3
 Henr. Freese # 1
 Elisabeth von Hohenhausen 1
+Wendland 4
+Karl Hengstenberg 3
+J. Penzel fec. 1793. D. Chod. del. 8
+D. Chod. del. J. Penzel fec. 1793. 2
+Penzel fec. 1793. D. Chod. del. 2
+August Hüller 1
+Schnorr v. K. del. F. Fleischmann sc. Nbg. 2
 Felix Czerny 16
 C. Naumann del. Leipzig, d. Engl. Kunst-Anstalt. A. H. Payne sc. 2
 Guido Reni pinx. F. John sculps. 1
@@ -10910,6 +10894,10 @@ E. Grüner 2
 Johannes Scharrer 1
 Emile d'Estrées # 1
 E. Straube 23
+Gest 1
+Begas pinx. Schuler direx. Weber sculp. 1
+Krüger del. H. Meyer sc. 1
+G. Opiz del. Jos. Stöber sc. Viennae 2
 Lobenstein. Ritz 1
 Römer 1
 Von einem praktischen Gärtner 1
@@ -10973,6 +10961,18 @@ F. Jügel 1
 F. Jügel # 6
 H. Dähling i. 99. F. W. Bollinger sc. 99 1
 A. Freiherr von Fahnenberg 4
+Schubert del. Malvieux sc 4
+Hoppe f. 3
+J. S. Richter del. Hpe. f. 1
+Verfasser des Romans Heliodora # 4
+Verfasser des Sieges der Treue (Penelope 1813) # 1
+P. F. Brede 1
+E. Fleischer 1
+Georg Forster 1
+Guichard del.C. Kotterba sc. 1
+J. M. Moreau inv. J. J. Hubert sculp. 1
+Moreau Je. inv. Coiny sc. 1
+Moreau inventit De Longueil sculp. 1
 E. P. Laurop 1
 Dero ergebenster Diener Karl Joseph Toskani, Direkteur 1
 Eines hohen Adels und respectiven Publikums unterthänigster Carl Joseph Toskani, Direkteur der Gesellschaft 1
@@ -11057,26 +11057,6 @@ M. Retsch del. Leop. Beyer sc. 1
 gez. v. M. Retsch gest. v. Blas. Höfel 1
 [unleserlich] $ 1
 D. Berger sculp. 2
-F. A. v. Lehmann 2
-Leopold Friedrich Edler von Schmidt 1
-C. Kotterba sc. 3
-Robert del. J. Gerstner sc. 3
-Gerstner sc. 9
-K. Lohbauer 1
-Joha. Gabriel Seidl 3
-Roswitha # 7
-J. M. Moreau le Jne. del. V. Langlois Jne. sculp. 1
-J. M. Moreau le Jne. 1791 Gravés par L. M. Halbou 1
-F. X. J. Schreiner 1
-Erik Viborg 1
-A. Adam del. Jos. Päringer sculpst. 1
-Hausius 1
-Eduar Silesius # 1
-J. J. Hanusch 1
-J. Mansfeld sc. 2
-Ph. v. Körber 8
-F. Jacquet del. S. Langer sc. 1
-Ludmilla Rose 3
 J. W. Meil del. 1
 Ramberg del 1
 Liebe sc. 9
@@ -11125,6 +11105,12 @@ Fr. Eckert 6
 Die Verlagsbuchhandlung 1
 Ramberg # W. Jury sc. 1
 August Wagner 1
+F. A. v. Lehmann 2
+Leopold Friedrich Edler von Schmidt 1
+C. Kotterba sc. 3
+Robert del. J. Gerstner sc. 3
+Gerstner sc. 9
+K. Lohbauer 1
 Wilhelm Köster 1
 Veith fec. 2
 Houwald 1
@@ -11197,6 +11183,7 @@ Pöhacker # A. Brückner sc. 1
 Heideloff del. 1
 Theopania # 1
 J. Mansfeld 1
+J. Mansfeld sc. 2
 J. E. 1
 Auffenberg 1
 Wotoch v. R. 1
@@ -11263,6 +11250,7 @@ J. K. Ratschky 1
 Karolina von Greiner 1
 Perler 2
 Ant. Bern. Eberl. 1
+Ludmilla Rose 3
 J. Lyser # 2
 Regina von Frohberg 1
 Fried. Theodor Ehrlich 1
@@ -11353,6 +11341,14 @@ Arthur vom Norstern # 1
 Ernst Freih. v. d. Malsburg 3
 Clytia # 2
 Oberappellationsrath von Ramdohr 1
+Joha. Gabriel Seidl 3
+Roswitha # 7
+J. M. Moreau le Jne. del. V. Langlois Jne. sculp. 1
+J. M. Moreau le Jne. 1791 Gravés par L. M. Halbou 1
+F. X. J. Schreiner 1
+Erik Viborg 1
+A. Adam del. Jos. Päringer sculpst. 1
+Hausius 1
 Senf del. Krüger sc 1
 Rud. Agrikola # 5
 J. G. Brendel 1
@@ -11406,6 +11402,10 @@ Ludwig van Beethoven 2
 Louise Reichardt 1
 Graf Moriz von Dietrichstein 1
 J. Senn delt. Lith. von A. Merian 1
+Eduar Silesius # 1
+J. J. Hanusch 1
+Ph. v. Körber 8
+F. Jacquet del. S. Langer sc. 1
 Voß und Compagnie 1
 Schnorr del. Fr. Bolt sc.1810 1
 Schnorr v. K. del. Meno Haas sc. Berlin 1810 1
@@ -11506,25 +11506,6 @@ Jos. Em. Hilscher 8
 J. E. Hilscher 6
 L. F. Müller 2
 Sig. v. Perger del. I. Krepp sc. 1
-A. D. sc. 1
-Joh. Ender del. Dav. Weiss sc. Vienna 1
-Jac. Müller sc. 1
-H. Grevedon invt. C. Kotterba 1
-F. Weigl del. C. Preisel sc. 1
-F. Stone p. W. Baumann sc. 1
-F. Dubufe pinxt. W. Baumann sulpt. 1
-Fred. Weber sculpt. 1
-C. F. 1
-A. Leopold Altmann 4
-A *** # 2
-Peter Paul Rubens. Heß # 1
-F. H. Cranz 11
-Farmer # 4
-NEWENHAM PINXT. CHR. HOFFMEISTER SULPT. 1
-André pinxt. I. W. Baumann sculpt. 1
-Corbould pinxt. W. Baumann sculpt. 1
-E. Landseer pinxt. W. Baumann sculpt. 1
-A. Freiherrn von Fahrenberg 1
 Gem. v. S. v. Perger. S. Langer sc. 1
 S. v. Perger del. S. Langer sc. 22
 v. Ries 6
@@ -11576,9 +11557,11 @@ Gfd. Schmidt 1
 Fr. Lautsch 1
 J. G. Eggers 2
 Cunze 2
+Farmer # 4
 Rold 3
 J. H. Clasing 2
 Waller 1
+F. H. Cranz 11
 Ptzl. $ 2
 Verfasser von Wahl und Führung # 1
 Joh. Pfeiffer 64
@@ -11595,6 +11578,22 @@ v. Ahlefeld-Laurvig 2
 Gem. v. S. v. Perger. Gest. v.Langer 1
 Krysalin 1
 H. W. Adelmi 7
+A. D. sc. 1
+Joh. Ender del. Dav. Weiss sc. Vienna 1
+Jac. Müller sc. 1
+H. Grevedon invt. C. Kotterba 1
+F. Weigl del. C. Preisel sc. 1
+F. Stone p. W. Baumann sc. 1
+F. Dubufe pinxt. W. Baumann sulpt. 1
+Fred. Weber sculpt. 1
+C. F. 1
+A. Leopold Altmann 4
+A *** # 2
+Peter Paul Rubens. Heß # 1
+NEWENHAM PINXT. CHR. HOFFMEISTER SULPT. 1
+André pinxt. I. W. Baumann sculpt. 1
+Corbould pinxt. W. Baumann sculpt. 1
+E. Landseer pinxt. W. Baumann sculpt. 1
 D. Stecher del. C. Kotterba sc, 1
 Jul. Duval Lecamus gemalt. 1
 Franck del. C. Kotterba sc. 1
@@ -11673,6 +11672,7 @@ Sophia # 1
 Fr. Richter # 1
 Karoline Still # 1
 P. H. Baudoin 1
+A. Freiherrn von Fahrenberg 1
 E. Landseer pt. C. Kotterba sc. 1
 Eduard Müller 2
 A. Dvorcàck sc. 1
@@ -11736,40 +11736,6 @@ Constance. (Wien.) 4
 J. Ludwig Deinhardstein. (Wien.) 2
 J. W. M. del. et sc. 2
 J. W. Meil inv. et sc. # 6
-Nach Calderon von W. A. Gerle 1
-Karl Gottfried v. Leitner 2
-Mayrhofer 11
-F. M. Freiherrn von Nell 3
-Zeichn. v. Clem. Russ. Stahlst. v. J. Axmann 1
-Cl. Russ del. S. Langer sc. 13
-Clem. Russ del. S. Langer sc. 1
-Cl. Russ d. S. Langer sc. 1
-Lossius 2
-Eleonore # 2
-Graun 1
-Dr. A. Will und Dr. K. L. Schwab 2
-J. Lips sclt. Zürich 1
-F. Kamla 2
-Schnerr 2
-Christian Schreiber 3
-V. St. 1
-L. Klein 1
-G. A. K-m-r. 1
-Nach Delille 1
-W. Jury del. & fec. 98 1
-DE LA GUERINIERE 1
-Seyffert von Tennecker 1
-C. Berggold del. Rosmaesler sc. 1
-C. Berggold del. Rosmaesler s. 1
-F. L. Lehmann del. Heinr. Müller sc. 1
-Lehmann del. G. Boettger senior sc. 1811 4
-F. L. Lehmann del. G. Boettger senior sc. 1811 4
-F. L. Lehmann del. J. C. Böhme sc. 1
-Wilhelm G. v. Löwenstein 3
-L. Benedicti del. et sc. 2
-L. Benedicti sc. 1
-Ludwig Gottfried Neumann. (Wien.) 7
-J. W. M. 1
 Markus Fischer Judenstadt Numro 50 1
 Prof. Joh. August Zimmermann. (Prag.) 3
 *** (Wien.) 15
@@ -11826,6 +11792,38 @@ Jos. Menzel 5
 j. 5
 gesto. v. Boettger aus Dres. 1
 J. M. Mettenleiter inv. et fec. 1801 6
+Nach Calderon von W. A. Gerle 1
+Karl Gottfried v. Leitner 2
+Mayrhofer 11
+F. M. Freiherrn von Nell 3
+Zeichn. v. Clem. Russ. Stahlst. v. J. Axmann 1
+Cl. Russ del. S. Langer sc. 13
+Clem. Russ del. S. Langer sc. 1
+Cl. Russ d. S. Langer sc. 1
+Lossius 2
+Eleonore # 2
+Graun 1
+Dr. A. Will und Dr. K. L. Schwab 2
+J. Lips sclt. Zürich 1
+F. Kamla 2
+Schnerr 2
+Christian Schreiber 3
+V. St. 1
+L. Klein 1
+G. A. K-m-r. 1
+Nach Delille 1
+W. Jury del. & fec. 98 1
+DE LA GUERINIERE 1
+Seyffert von Tennecker 1
+C. Berggold del. Rosmaesler sc. 1
+C. Berggold del. Rosmaesler s. 1
+F. L. Lehmann del. Heinr. Müller sc. 1
+Lehmann del. G. Boettger senior sc. 1811 4
+F. L. Lehmann del. G. Boettger senior sc. 1811 4
+F. L. Lehmann del. J. C. Böhme sc. 1
+Wilhelm G. v. Löwenstein 3
+L. Benedicti del. et sc. 2
+L. Benedicti sc. 1
 L M. Holm 1
 F. Jentzen 2
 Joseph Raimund 2
@@ -11896,25 +11894,14 @@ F. Grüne del. I. Krepp gest. in Stahl 1
 v 1
 Dr. Schütz 1
 Joh. Jos. v. Klöckel 1
+Ludwig Gottfried Neumann. (Wien.) 7
+J. W. M. 1
 F - - 1
 - - l 1
 F. Wallraff 1
 A. Swietou Esq. [A. Swinton] 1
 Ch. Sambach del. Cl. Kohl sc. 2
 F. A. Schrämbl 1
-F. Schäfer 3
-Joh. Reicher 1
-Brandler 2
-Steigentesch 3
-Perger del. S. Langer sc. 6
-Gestochen von Fleischmann 1
-Erfunden und in Erz gegossen von Peter Vischer. Gezeichnet von Albt. Reindel. Gestochen von Friedr. Geisler 1
-Senn delt. Lith. v. A. Merian 1
-Fähnler delt. Lith. v. A. Merian 1
-Neustück delt. Lith v. A. Merian Fähnler Lith 1
-L. C. K. 1
-Is. Maus 1
-F. W. del. A. D. sc. 14
 F. Walraff 1
 Fr. Weigl. del. A. Dvorźack sc 1
 Stahlstich von Serz & Cie in Nürnberg 1
@@ -11946,6 +11933,13 @@ Bodenburg 13
 Cassas del. J. Blaschke sc. 1
 R. v. Levitschnigg. (Wien.) 7
 Ludwig Löwe. k.k. Hofschauspieler 1
+F. Schäfer 3
+Joh. Reicher 1
+Brandler 2
+Steigentesch 3
+Perger del. S. Langer sc. 6
+Gestochen von Fleischmann 1
+Erfunden und in Erz gegossen von Peter Vischer. Gezeichnet von Albt. Reindel. Gestochen von Friedr. Geisler 1
 C. von Schirach 2
 E. v. Hohenhausen 1
 Johanna Jacobsen, geb. von Fischbach 1
@@ -12007,6 +12001,9 @@ C. F. & H. W. dir. 1
 W. Krause del. H. Fincke sc. 3
 Gez. von Most 1
 Lukas Giordano # 1
+Senn delt. Lith. v. A. Merian 1
+Fähnler delt. Lith. v. A. Merian 1
+Neustück delt. Lith v. A. Merian Fähnler Lith 1
 Fritz Meyer delt. Lith. v. A. Merian. Fähnler Lith. 1
 J. R. Köllner 2
 Chr. Müller 1
@@ -12081,6 +12078,9 @@ H. Schilbach del. C. & F. Haldenwang sc. 2
 H. Schilbach del. F. Haldenwang sc. 1
 Thom. Weber del. P. J. Laminit sc. 7
 Th. Weber inv. P. J. Lamint sc. 6
+L. C. K. 1
+Is. Maus 1
+F. W. del. A. D. sc. 14
 L. Benedicti del. et. sc. # 11
 L. Benedicti del. et. sc. 1
 Anton Silas 2
@@ -12223,26 +12223,6 @@ Ch. Gittermann 2
 Freiherr von Logau 1
 Großherzogl. badenscher Land- Ober-Stallmeister Freiherr v. Bühler 1
 Chabert und Fromage [übers.] unbezeichnet 1
-Dr. Ferdinand Stamm 17
-Carl Raimund Frühauf 3
-C. C. Glassbach sc. Berol. # 3
-Leopold Friedr. Schmidt 2
-Ritter v. Tschabuschnigg 1
-Eduard v. Bauernfeld 3
-Leop. Friedr. Schmidt 1
-Jos. Ender del. I. Krepp sc. Viennae 1
-W. Jury sc. # 8
-Amb. Gabler del. Fried. Geisler sc. 1
-Jean Chrétien Dieterich 1
-Ed. Svoboda pinx. J. Axmann sc. 1
-Nach Flaxmann A. Dworzack sc. 1
-D. Chodowiecki # 6
-D. Chodowiecki sculps. # 1
-Wilhelm Freyherr von Eyb 4
-August v. Oldekop 3
-Le Barbier pinx. J. Gerstner sc. 1
-J. Hillaire del. J. Gerstner sc. 2
-H. Schilbach del. Fr. Haldenwang sc. 1
 Weisbrod del. Blaschke sc. 1
 Chastelet del. J. Gerstner sc. 1
 Ernst Frh. v. Feuchtersleben 3
@@ -12292,6 +12272,15 @@ W. Constant 1
 K. R. Frühauf. ( Ostraka.) 1
 Malvieux fec. 3
 Karl Edmund Langer 14
+Dr. Ferdinand Stamm 17
+Carl Raimund Frühauf 3
+C. C. Glassbach sc. Berol. # 3
+Leopold Friedr. Schmidt 2
+Ritter v. Tschabuschnigg 1
+Eduard v. Bauernfeld 3
+Leop. Friedr. Schmidt 1
+Jos. Ender del. I. Krepp sc. Viennae 1
+W. Jury sc. # 8
 Dr. I. F. Castelli 16
 Eginhard # 3
 Sylvester Pötger 7
@@ -12363,6 +12352,10 @@ J. Ender pinx. J. Axmann sc. 1
 Georg Friedrich Tscheulin 1
 Dr. Drechsler 1
 Etatsrath Prof. E. Biborg 1
+Amb. Gabler del. Fried. Geisler sc. 1
+Jean Chrétien Dieterich 1
+Ed. Svoboda pinx. J. Axmann sc. 1
+Nach Flaxmann A. Dworzack sc. 1
 Daniel Tomichich 1
 J. B. Neckheim 2
 Blaschke sc. Cl. Kohl inv. # 1
@@ -12505,6 +12498,9 @@ Christian Baron von Zedlitz 5
 L. L. 19
 H.A. 1
 Dr. Joh. Jaromir Basodow 1
+D. Chodowiecki # 6
+D. Chodowiecki sculps. # 1
+Wilhelm Freyherr von Eyb 4
 rkl. 1
 D-e-a # 1
 d .H. 1
@@ -12583,25 +12579,11 @@ Sabinus 8
 ...z.. 1
 ...z... 1
 H. M. 2
+August v. Oldekop 3
+Le Barbier pinx. J. Gerstner sc. 1
+J. Hillaire del. J. Gerstner sc. 2
+H. Schilbach del. Fr. Haldenwang sc. 1
 D. Chodowiecki sculps. 11
-A. Gabler del. 1803. F. Geisler sc. Nbg. 1
-A. P. Eisen sc. 1
-Hampe del. C. Schule sc. 1799 1
-Bug 1
-Friedrich Spee # 16
-F. Weigl del. Kotterba sc 1
-B-. 1
-unterthänigster Hans Adolf Fr. von Eschstruth 2
-F. Ramberg # 3
-J. B. [unleserlich] # 1
-G. W. Hoffmann del. Darchow sculp. 1
-Fr. Stöber sc. 5
-J. Schwaldopler 12
-Justine Freyinn von Krufft 2
-Jospeh von Hammer 1
-Nach der Natur gezeichnet v. Maillard. Gest. von J. Blaschke 6
-Tasso [übers.] unbezeichnet 3
-Constant. Dübos [übers.] J. B. Rupprecht 1
 D. Chodowiecki F. Berger sculpsit 1
 D. Chodowiecki F. Berger sculpsit # 11
 S. v. P. [unleserlich] 2
@@ -12657,6 +12639,13 @@ Rieder del. M. Hofmann sc. 3
 J. F. Schink 2
 L. Oskar 1
 Sonnenberg 1
+A. Gabler del. 1803. F. Geisler sc. Nbg. 1
+A. P. Eisen sc. 1
+Hampe del. C. Schule sc. 1799 1
+Bug 1
+Friedrich Spee # 16
+F. Weigl del. Kotterba sc 1
+B-. 1
 R. Schellenberg f. 1
 Anton Ritter von Perger 7
 Ferdinand Schrank 1
@@ -12723,6 +12712,17 @@ D. Berger sculp. 1810 2
 D. Berger sculp. 1810 # 3
 Franz Freiherr von der Goltz 1
 Elise Bürger, geb. Hahn 1
+unterthänigster Hans Adolf Fr. von Eschstruth 2
+F. Ramberg # 3
+J. B. [unleserlich] # 1
+G. W. Hoffmann del. Darchow sculp. 1
+Fr. Stöber sc. 5
+J. Schwaldopler 12
+Justine Freyinn von Krufft 2
+Jospeh von Hammer 1
+Nach der Natur gezeichnet v. Maillard. Gest. von J. Blaschke 6
+Tasso [übers.] unbezeichnet 3
+Constant. Dübos [übers.] J. B. Rupprecht 1
 F. C. Bernard 1
 Franz Wallner 2
 Enekes 2
@@ -12819,16 +12819,6 @@ Schubert del. Haldenwang sc. 2
 Henriette Friederike Baronesse von Hohenhausen geb. Lebedur aus dem Hause Mühlenberg 2
 -r 1
 Nach O. P. Runge. JB # 1
-C. $ /) Aus dem von Forstern übersezten Tagebuche der letzten Cookschen Entdekkungsreise 1
-Kurze 1
-A. v. Vagedes 2
-Rothmann 6
-Joh. Martin Miller 2
-Aus dem Neugriechischen des Christopulo von G. Schwab 1
-L. Pape 1
-S. Perger del. Langer sc. 1
-Fr. Lassaulx 1
-Ossian 1
 Weingarten # 1
 W. A. Rieder del. Bl. Höfel sc. Wr. Neustadt 1
 J. G. Schiegg 1
@@ -12862,6 +12852,14 @@ Jacob Neus 6
 Schulheim 2
 Lütke del. Veith sc. 1
 Heideloff del. Vogel jun. sc. Nürnberg 2
+C. $ /) Aus dem von Forstern übersezten Tagebuche der letzten Cookschen Entdekkungsreise 1
+Kurze 1
+A. v. Vagedes 2
+Rothmann 6
+Joh. Martin Miller 2
+Aus dem Neugriechischen des Christopulo von G. Schwab 1
+L. Pape 1
+S. Perger del. Langer sc. 1
 Rieder. del. S. Langer sc. 1
 Ad. Ritter v. Tschabuschnigg 3
 Aug. Pfitzmaier 1
@@ -12926,27 +12924,14 @@ Fr. Hermann v.Hermannsthal 1
 Rudolph Glaser 3
 Johann Ph. Neumann 2
 Johanna Franul v. Weissenthurm 1
+Fr. Lassaulx 1
+Ossian 1
 J. B. Rupprecht 9
 [übers.] Habermann 1
 Jn. Blaschke sc. 2
 [Hebel] E. Stöber 1
 A....r. 1
 Alfr. Reumonmt 1
-J. K. v. Lackner u. Caj. Tschink 1
-L. C. Oye 1
-v. Runtschner 2
-Fendi sc. 1
-unterthänigster Siwicke 1
-Gustav Hohbach 4
-Rud. Magenau 2
-D. Chodowiecki fec. 3
-J. H.Ramberg del. C. F. Stoelzel sc. 1800 1
-J. H. Ramberg del. 1800 [unleserlich] sc. 1
-Samuel Saphir 17
-Ischarioth Krall # 30
-C. W. H. 1
-I. Krepp sc. Viennae 2
-Lo. 4
 Joseph Mitterdorfer, Justiziär und Bezirks-Commissär in Gurk 2
 Ritter Braun von Braunthal. (Wien.) 12
 Carlopago. (Wien.) # 1
@@ -12987,6 +12972,13 @@ A....r 1
 F. Spindler 1
 Bl. sc. Cl. Kohl inv. 1
 Bl. sc. Cl. Kohl inv. # 4
+J. K. v. Lackner u. Caj. Tschink 1
+L. C. Oye 1
+v. Runtschner 2
+Fendi sc. 1
+unterthänigster Siwicke 1
+Gustav Hohbach 4
+Rud. Magenau 2
 Dr. Rudolph Puff, k.k. Professor im Mahrburg 1
 Hyacinth von Schulheim 2
 Meta Commuis # 1
@@ -13050,6 +13042,13 @@ J. A. Moshammer # 1
 Carl Ziegler (Carlopago.) 1
 Oehlenschläger 4
 Hein. Ramberg del. Hannov. C. F. Stoelzel sc. Dresd. 1800 1
+D. Chodowiecki fec. 3
+J. H.Ramberg del. C. F. Stoelzel sc. 1800 1
+J. H. Ramberg del. 1800 [unleserlich] sc. 1
+Samuel Saphir 17
+Ischarioth Krall # 30
+C. W. H. 1
+I. Krepp sc. Viennae 2
 Catharine Busch 3
 Schmitz 2
 Waardenburg 1
@@ -13169,28 +13168,10 @@ Dr. Gaye 1
 La Fontaine 36
 W. Küffner inv. de. & sc. 1794 # 11
 W. Rieder inv. C. Kotterba sc. 1
+Lo. 4
 v. Stein 3
 Schlotterbeck. J. Blaschke sc. # 1
 Friedrike Susan geb. Salzer 1
-LS. Passini sc. 1
-Ferd. Wolf 1
-Adolph Blum # 1
-Schnorr v. C. del. Leop. Beyer sc. # 1
-Schnorr v. C. del. Leop. Beyer sc 4
-G. F. Rebmann, Mitglied des Departements vom Donnersberg, und einstweiligen Commissär des Vollziehungs-Direktoriums 1
-B. Köler 1
-von Herrmannsthal 1
-Jos. von Hammer 4
-A. Chamisso 1
-A. Chamisso # 2
-G. H. Liebenau 7
-Chr. Oeser 2
-Dr. G. Ritt. v. Frank 1
-Johann Gab. Seidl 1
-Nach der Natur gezeichnet von Maillard. Gest. von J. Blschke 1
-Nach der Natur gezeichnet von Maillard. Gest. von J. Blaschke 4
-Maillard, Ludwig u. Blaschke, János 1
-F. J. Jaggi 1
 Lithographie bei J. Trentsensky in Wien 2
 I. Krepp del. & sc. Viennae 1
 Eduard Anschütz 8
@@ -13245,6 +13226,7 @@ M. L.Schleifer 1
 Adalbert von Chamisso 5
 Bernhard, der Mönch 1
 Joseph Steuer 22
+Chr. Oeser 2
 Fr. von Schober 3
 W. Rieder del. C. Kotterba sc. 2
 Franz Maria Freiherr von Nell 1
@@ -13257,6 +13239,14 @@ Helmina von Chezi, geb. von Klenke 1
 St. H. 1
 Franz v. Braunau 5
 Ferdinand Khürnberger 1
+LS. Passini sc. 1
+Ferd. Wolf 1
+Adolph Blum # 1
+Schnorr v. C. del. Leop. Beyer sc. # 1
+Schnorr v. C. del. Leop. Beyer sc 4
+G. F. Rebmann, Mitglied des Departements vom Donnersberg, und einstweiligen Commissär des Vollziehungs-Direktoriums 1
+B. Köler 1
+von Herrmannsthal 1
 Villaume 2
 Diderot 1
 Lithographie von C. F. Müller in Carlsruhe 13
@@ -13304,6 +13294,7 @@ Karl Heusenstamm 2
 Christ. Freiherrn v. Zedlitz 1
 Prediger Christian Genersich in Käsmark 2
 Prf. v. Erd # 3
+Jos. von Hammer 4
 Gisecke 1
 v. Auffenberg 1
 Giesecke 1
@@ -13319,6 +13310,15 @@ Herz 2
 Marperger 1
 Emanuel Ernst von Schönfeld 1
 W. S. Straube 1
+A. Chamisso 1
+A. Chamisso # 2
+G. H. Liebenau 7
+Dr. G. Ritt. v. Frank 1
+Johann Gab. Seidl 1
+Nach der Natur gezeichnet von Maillard. Gest. von J. Blschke 1
+Nach der Natur gezeichnet von Maillard. Gest. von J. Blaschke 4
+Maillard, Ludwig u. Blaschke, János 1
+F. J. Jaggi 1
 J. M. Meil inv. & s. 1
 J. M. Meil inv. & s. # 2
 Christ. Heinr. Ludw. Wilh. Spiller von Mitterberg 2
@@ -13389,30 +13389,6 @@ Professor R. G. Puff 1
 F. W. Irsa 1
 A. Lindemann # 14
 Hermann von Hermannsthal 1
-Groß-Athanasius 1
-Hermann Meynert 2
-Günzburg 1
-Ritter Braun v. Braunthal 2
-Rieder del. Bl. Höfel sc. W. Neustadt 1
-Christian Baron Zedlitz 1
-Kapellmeister Ebers 1
-von Wintgen 1
-Roos 2
-F. L. Wanzel 4
-F. Catel del. Meno Haas sc. 1812 1
-Hr. Organist Seibert zu Wittelsberg # 1
-nach P. Kilian C. Westermayr s. 1
-v. Boyneburg # 1
-E. Klieber del. Leopold Burckart scul. Wien 1
-E. Klieber del. Leopold Burckart scul. 3
-E. Klieber del. Leopold Burckart scul. # 2
-Schlüter 5
-La Fontaine [übers. unbezeichnet] 23
-Lindemann # 1
-Thom. Weber de. P. J. Laminit sc. 1
-Fuchs 1
-Friedes 2
-Cornelius 3
 Dichterin Emmy*** 1
 Schmid von Pihl 1
 Zeno Schuber 2
@@ -13454,12 +13430,31 @@ B..ski 1
 Gesner 1
 Kronegk 1
 Kreuz 1
+Groß-Athanasius 1
+Hermann Meynert 2
+Günzburg 1
+Ritter Braun v. Braunthal 2
+Rieder del. Bl. Höfel sc. W. Neustadt 1
+Christian Baron Zedlitz 1
+Kapellmeister Ebers 1
+von Wintgen 1
+Roos 2
+F. L. Wanzel 4
+F. Catel del. Meno Haas sc. 1812 1
+Hr. Organist Seibert zu Wittelsberg # 1
+nach P. Kilian C. Westermayr s. 1
+v. Boyneburg # 1
+E. Klieber del. Leopold Burckart scul. Wien 1
+E. Klieber del. Leopold Burckart scul. 3
+E. Klieber del. Leopold Burckart scul. # 2
+Schlüter 5
 Hamburg zu bekommen b. d. Buchbinder J. C. Zimmer in der Altstädter Fuhlentwiete 1
 M. Rieder del. G. Leybold sc. 2
 Aus Professor Eugen Wessely's Nachlasse 1
 J. B. Braun von Braunthal 1
 F. E. Scherer 1
 Fr. v. Schober 5
+La Fontaine [übers. unbezeichnet] 23
 Rp. d. sc. $ 1
 Rp. d. sc. #$ 11
 Dr. Scherer 1
@@ -13557,6 +13552,11 @@ Adolf Theer pt. Stahlst. v. C. Kotterba 1
 Adolf Theer pinx. Stahlst. v. Ant. Bogner sc. 1
 C. A. # 1
 von Wessemberg 1
+Lindemann # 1
+Thom. Weber de. P. J. Laminit sc. 1
+Fuchs 1
+Friedes 2
+Cornelius 3
 Dr. Höck 2
 J. L. Appold sc. Nbg. 2
 Johann Nepomuck Vogl 13
@@ -13633,8 +13633,6 @@ Ignaz Hub 14
 Friedrich Lampert 1
 Georg Scherer 3
 Friedrich Hornfeck 1
-Hohlfeldt 1
-F. de la Brella pinx. G. Boettger sen. sc. 1807 1
 M. Fr. v. Canaval 1
 v. Canaval 4
 J. K. Braun v. Braunthal 3
@@ -13670,26 +13668,14 @@ Gerber 2
 Rck. 1
 Aus dem Nachlasse Joh. Mayrhofer's 11
 W. und A. 3
+Hohlfeldt 1
+F. de la Brella pinx. G. Boettger sen. sc. 1807 1
 J. Martinides 3
 Christian Hackenschmidt 2
-Karl Graß 11
-gez. von Ramberg. gest. von Schwerdgeburth 1
-gez. von Ramberg. gest. von Schwerdtgeburth 1
-R. Voss 3
-E-s. 3
-Elise Bürger 3
-Franz von Sonnenberg 3
-Hellmina # 2
-Friedrich Cramer 2
-J. A. Mercy 1
-Bachem 3
-Hermann Semmig 7
-Dr. W. Justi 1
-P. Wigand 2
-Gerling 1
 Schütz 4
 Philalethes 1
 Aristarchos # 1
+Bachem 3
 Piderit 2
 Gustav Creuzer. Dondorf # 1
 Ludwig Pfau 19
@@ -13726,6 +13712,10 @@ Lith. v. C. F. Müller in Carlsruhe 1
 Traugott Voigt 2
 Fr. Pauer 1
 Lips # 2
+Karl Graß 11
+gez. von Ramberg. gest. von Schwerdgeburth 1
+gez. von Ramberg. gest. von Schwerdtgeburth 1
+R. Voss 3
 Fellner del. L. G. G. Lange Ed . Schuler sculpsit. 1
 D. Schubert del. Riepenhausen # 5
 J. C. Neubauer fec. 1
@@ -13762,6 +13752,7 @@ Ruland 1
 W. Küffner inv. de. & sc. 1794 1
 Otto Freiherr v. Hingenau 2
 Dr. v. Gehren 1
+Hermann Semmig 7
 Professor L. Hübner. J. Tomaselli Entrepreneurs 1
 H. Rein 1
 Theodor Apel 3
@@ -13775,28 +13766,18 @@ v. Arnoldt 1
 G. Ritter von Leitner 1
 C. J. Sánbor 1
 Kriehuber gez. Druck von Kaufmann Stahlst. v. Mahlknecht in Wien 1
+E-s. 3
+Elise Bürger 3
+Franz von Sonnenberg 3
+Hellmina # 2
+Friedrich Cramer 2
+J. A. Mercy 1
+Dr. W. Justi 1
+P. Wigand 2
+Gerling 1
 J. Heinrich Kaufmann 1
 H. Bruhl del. Lithographie v. C. F. Müller, Carlsruhe 1
 K. A. Ragotzky 1
-Gezeichnet von M. Müller. Lithographie von C. F. Müller in Carlsruhe 1
-gez. u. geätzt v. H. Schilbach 1
-Dahl 3
-Dr. von Gehren 1
-Rosenberg # 8
-Riedel 2
-Böder 1
-F. Pfeffer 2
-F. Schauer 3
-Novalis # 1
-Joh. Ender del. Jos. Stöber sc. Vieannae 1
-Fr. Stöber gest. in Stahl Wien 1
-Joh. Ender del. Dav. Weiss sc. Viennae 18
-A. Scheiber 1
-Johann Georg Fischer 11
-Karl Guntram 6
-Apollonius Freiherr von Maltitz 2
-E. T. Hoffmann, Verfasser der Phantasiestücke 1
-Andreas Schumacher 10
 v. Vagedes 2
 Gezeichnet nach J. F. Engelschall. Lithographie von C. F. Müller in Carlsruhe 1821 1
 Joseph Bergmann 1
@@ -13837,6 +13818,10 @@ Kolisch 1
 Lad. Pyrker 1
 Heinrich Kraft 4
 B. Dondorf lith Ff/M. 1
+Gezeichnet von M. Müller. Lithographie von C. F. Müller in Carlsruhe 1
+gez. u. geätzt v. H. Schilbach 1
+Dahl 3
+Dr. von Gehren 1
 v. Gersdorff 1
 Müller del. 1
 Carl August Schimmer 1
@@ -13929,6 +13914,9 @@ Rosmaesler delinea. et sculps. 1
 Vincenz v. Ehrhart 3
 Mayer, Karl Friedrich Hartmann 1
 Louise Otto 11
+Rosenberg # 8
+Riedel 2
+Böder 1
 Julius (Levy) von Rodenberg 1
 Spazier 1
 Sommer 2
@@ -13938,6 +13926,7 @@ Johann Heinrich Gottfried Dittmar 1
 F-k. 5
 Stamperi 1
 Heinrich Weiser 9
+Joh. Ender del. Dav. Weiss sc. Viennae 18
 Emil von Loqueyssie del. Dav. Weiss sc. Viennae 1
 Tischbein # 1
 Heinrich Hermann Mertens 1
@@ -13978,6 +13967,17 @@ A. Bachmann 1
 Der Herausgeber Dr. Schad. Der Verleger V. J. Stahel 2
 Nach einer Originalzeichnung Stahlstich von Carl Mayer's Kunst-Anstalt in Nürnberg 1
 J. C. Susemihl del. G. Boettger senior sc. 1807 2
+F. Pfeffer 2
+F. Schauer 3
+Novalis # 1
+Joh. Ender del. Jos. Stöber sc. Vieannae 1
+Fr. Stöber gest. in Stahl Wien 1
+A. Scheiber 1
+Johann Georg Fischer 11
+Karl Guntram 6
+Apollonius Freiherr von Maltitz 2
+E. T. Hoffmann, Verfasser der Phantasiestücke 1
+Andreas Schumacher 10
 Heinrich Hoffmann von Falllersleben 1
 C. Heiberg 2
 H. Richter pinxt. C. Kotterba sc. 1
@@ -14045,21 +14045,6 @@ W. A. Rieder del. Jos. Stöber sc. Viennae 3
 E. Erhard del. M. Hofmann sc. Viennae 1
 G. Millinger 5
 Adolph Görling 3
-Spatzier 1
-W. P. 1
-J. G. Fischer 3
-Philipp Jaffé 1
-P. C. Geissler gez. n. P. Stahlstich v. Carl Mayer's Kunstanstalt in Nürnberg 4
-T. Weber del. P. J. Laminit sc. 1
-F. Weigl del. C.Kotterba sc. 1
-J. Führich del. Leop. Beyer sc. 4
-Fellner del. Ed. Schuler sct. 2
-F. Fellner del. Druck von Lange. Ed. Schuler sculp. 1
-Ladislaus Tarnowsky 1
-F. A. Bolte 7
-verst. Michaelis 1
-Fr. Xav. Told 1
-ALGAIER 9
 D. Schantz 1
 Nach Merian. Westermayr sc. 1
 Lith. v. C. F. Müller in Carlsruhe A. Hatzfeld del. 1
@@ -14073,6 +14058,7 @@ F. C. Medicus 1
 Schweykert 1
 Max Waldau # 1
 Emma Bunteschu 2
+F. A. Bolte 7
 Emilla 2
 Dr. Robert Schumann 1
 F. C. Ostertag 1
@@ -14094,6 +14080,8 @@ Adolf Böttger 5
 Friedrich Daumer 9
 Joseph Freiherr von Hammer-Purgstall 1
 Julius Rodenberg 1
+Spatzier 1
+W. P. 1
 a. Bart. Cavaceppi rest. # 1
 Bart. Cavacepp. fec. Ganz del et sc. 1
 antiq. del. et sc. Ganz 1
@@ -14144,6 +14132,9 @@ n. Pompejo Battoni. C. Roth lith. Lith. v. T. Malté 1
 n. Prud'hon C. Roth. Lith. v. T. Malté 1
 n. Hersent. C. Roth. Lith. v. Malté 1
 L....r 1
+J. G. Fischer 3
+Philipp Jaffé 1
+P. C. Geissler gez. n. P. Stahlstich v. Carl Mayer's Kunstanstalt in Nürnberg 4
 Stahlstich v. F. Fleischmann Nbg. 6
 I. E. Mettenleiter 1
 J. J. Eschenburg 2
@@ -14265,6 +14256,7 @@ Haach gez. Nürnberg, Carl Mayer's Kunst-Anstalt 1
 d. Kunst-Verlag 1
 Theodor Erhard 4
 Joseph Edler v. Retzner 1
+ALGAIER 9
 D. KUNSTVERLAG 4
 SIEGLE 3
 KORB SC. L. WEISSER 1
@@ -14279,38 +14271,16 @@ H. Ritter sclp. Marburg 1808 # 1
 Herr Graf v. Reichenbach, zu Brußawe, Ritter des Johanniterordens u.s.w. 1
 A. André 1
 C. Merck 12
+T. Weber del. P. J. Laminit sc. 1
+F. Weigl del. C.Kotterba sc. 1
+J. Führich del. Leop. Beyer sc. 4
+Fellner del. Ed. Schuler sct. 2
+F. Fellner del. Druck von Lange. Ed. Schuler sculp. 1
+Ladislaus Tarnowsky 1
+verst. Michaelis 1
+Fr. Xav. Told 1
 Der Herausg. 1
 Gemalt von Becker. Gestochen von E. Thelott 1
-Herr Amtmann Zaunschliffer zu Dornheim 1
-C. v. Woltmann 1
-Aleth # 2
-Magd. Freyinn von Callot 4
-Lhn. 2
-Büschel 6
-J. F. K. 1
-Verfasser des Aufsatzes S. 31. des vorjährigen Theaterkalenders 1
-von eben dem Verfasser 1
-Ergebenster Herdtl, Königl. Preuß. Nationalschauspieler 1
-Rosmaesler d. & sc. 6
-C. A. Vulpius 19
-Sophia Albrecht 1
-T. Berling 1
-S. Grüner 7
-Ed. Kauffer 2
-G. Söderberg del. Dav. Weiss sc. Viennae 1
-Joh. Ender del. Fr. Stöber sc. 2
-Rosmaesler del. & sc. 4
-Zeich. v. M. v. Schwind. Stahlstich v. Leop. Beyer 1
-Zeichnung von J. Foltz 1833. Stahlstich v. Leop. Beyer 1
-Gerard pinx. E. Schuler sc. 1
-Sarazin de Belmont pinx. G. A. Müller sculp. 1
-Mlle. Lescot pinx. Hessloehl sculp. 1
-F. Fellner del. D. v. Lange Leop. Beyer sc. 1
-Jos. Führich del. D. v. Lange Leop. Beyer sc. 2
-Jos. Führich del. Leop. Beyer sc. 1
-Fellner del. Ed. Schuler sc. 1
-Fellner del. W. Hessloehl scp. 1
-Ch. Hoffmeister sc. Wien L. Wendling fec. 1
 P. W. Schwarz dir. Nbg. 2
 P. W. Schwarz dir. Nbg. # 2
 P. W. Schwarz direc. Nbg. 1791 1
@@ -14347,6 +14317,7 @@ Adolf 2
 F. Fellner gez. g. v. Burkart. d. v. Beyer 1
 F. Fellner gez. L. Beyer d. 1
 Fellner del. Eduard Schuler sc. 2
+Herr Amtmann Zaunschliffer zu Dornheim 1
 W. Fremerei 2
 Borheck 1
 Filiren 1
@@ -14411,6 +14382,20 @@ D. J. F. Ardold 1
 v. Sch. 1
 Dornheim sc. 22
 Ant. Alex. Graf von Auersberg 1
+C. v. Woltmann 1
+Aleth # 2
+Magd. Freyinn von Callot 4
+Lhn. 2
+Büschel 6
+J. F. K. 1
+Verfasser des Aufsatzes S. 31. des vorjährigen Theaterkalenders 1
+von eben dem Verfasser 1
+Ergebenster Herdtl, Königl. Preuß. Nationalschauspieler 1
+Rosmaesler d. & sc. 6
+C. A. Vulpius 19
+Sophia Albrecht 1
+T. Berling 1
+S. Grüner 7
 Neubauer sculp. # 2
 C. Netscher pinx. D. J. Sluyter sculps. 1
 A. van der Werff pinx.A. L. Zeelander del. et sculps. 1
@@ -14493,6 +14478,21 @@ Hamburg bei O. F. Kirchenr, in der St. Nicolai Kirche 1
 C. Preisel sc. Vienna 1
 Jac. v. Rauschenfels gez. u. in Stahl gestochen 3
 Kraus pinx. Geyser sc. 1
+Ed. Kauffer 2
+G. Söderberg del. Dav. Weiss sc. Viennae 1
+Joh. Ender del. Fr. Stöber sc. 2
+Rosmaesler del. & sc. 4
+Zeich. v. M. v. Schwind. Stahlstich v. Leop. Beyer 1
+Zeichnung von J. Foltz 1833. Stahlstich v. Leop. Beyer 1
+Gerard pinx. E. Schuler sc. 1
+Sarazin de Belmont pinx. G. A. Müller sculp. 1
+Mlle. Lescot pinx. Hessloehl sculp. 1
+F. Fellner del. D. v. Lange Leop. Beyer sc. 1
+Jos. Führich del. D. v. Lange Leop. Beyer sc. 2
+Jos. Führich del. Leop. Beyer sc. 1
+Fellner del. Ed. Schuler sc. 1
+Fellner del. W. Hessloehl scp. 1
+Ch. Hoffmeister sc. Wien L. Wendling fec. 1
 F. Fellner del. Hessloehl sc. 1
 d'Argent # 9
 Heinr. Anton Melchior del. Gottfried Lebr. Crusius sc. # 5
@@ -14558,18 +14558,6 @@ Riepenhausen inv. & sculps. 4
 gez. Riepenhausen 2
 E. Riepenhausen sc. 1
 F. Fellner E. Schuler sc. 1
-Amalie von Hellwig 8
-Wilhelmine von Gersdorf 1
-Hampe del. Meno Haas sc. Berlin 1
-C. Hampe del. Meno Haas sc. Berlin 1
-v. Held 4
-Seewald 18
-Gemalt v. Tischbein. gest. v. Ant. Karcher 1
-Nach Hess 1
-Gustav Erhard 1
-F. F. Sigismund 4
-A. F. Kühn 3
-H. von Schröter 1
 D. Chodowiecki inv. et sculpsit 1
 D. Chodowiecki inv. et sculpsit # 11
 F. Weigl del. Dav. Weiss. sc. 2
@@ -14602,6 +14590,12 @@ Vulpius 1
 Eure Freunde 1
 I. Friedberg 3
 G. B**r. 1
+Amalie von Hellwig 8
+Wilhelmine von Gersdorf 1
+Hampe del. Meno Haas sc. Berlin 1
+C. Hampe del. Meno Haas sc. Berlin 1
+v. Held 4
+Seewald 18
 Faber du Faur del. Leop. Beyer sc. 1
 Fellner del. d. G. G. Lange. Ed. Schuler sc. 3
 Faber du Faur del. L. Burckart sc. Viennae 1
@@ -14659,6 +14653,7 @@ Marie Roskowsa 1
 Luise Gonzaga 1
 Eduard von Feuchtersleben 1
 Herr Superintendent und Consistorialrath Dr. Justi 1
+Gemalt v. Tischbein. gest. v. Ant. Karcher 1
 F. J. Korntheuer 1
 Höcker del. Jos. Stöber sc. Vien 3
 Painted by T. Uwins A.R.A. Engraved by S. Sangster 1
@@ -14719,6 +14714,11 @@ Unterthänigster Ad. Andreas Pandßen, Comediant etc 1
 v. Schiller 1
 M. Fredau 1
 C. Bega pinx. S. v. Perger del. F. Geisselr sculp. 1
+Nach Hess 1
+Gustav Erhard 1
+F. F. Sigismund 4
+A. F. Kühn 3
+H. von Schröter 1
 L. v. Rohr 5
 E. Schlegel 1
 Susanne v. Bandemer. geb. v. Fanklin 1
@@ -14866,27 +14866,6 @@ Johann Heinrich Trambach 1
 C. H. F. v. Felgenhauer 1
 S. del. T. sc. 1
 Petrus Satiricus 1
-I. G. Weissenberg 4
-I. G. W. 3
-I. S. Weissenberg 1
-G. C. 2
-Vom verst. Michaelis 1
-Heidevogel 1
-Anna Louisa Karschin, geb. Dürbach zu Berlin 1
-Nach der Natur gezeichnet und gestochen von H. Sagert 1
-Rosenberg del. Geyser sc. 1
-Ritter del. Liebe sc. 1
-Carl Wlhelm Ramler 1
-vom verstorbenen Wagner 1
-ARY SCHEFFER. D. J. Sluyter sculps. 1
-Emile Lassalle del. C. Preisel sculp. 1
-Wend 1
-Baron F. von Schlechta 1
-J. Pfeiffer 15
-Eug. Wesely, Professor 1
-E. J. Loebisch 9
-Rittig von Flammenstern 1
-C. Burger 2
 M. Retzsch ge. Fr. Stöber gest. in Stahl 1829 1
 Gez. v. Joh. Ender In Stahl g. v. Leop. Beyer in Wien 1
 Herr Oberförster Hepp, zu Runkel 1
@@ -14930,6 +14909,13 @@ C. Wedekind 1
 A. Richter del. M. Lämmel sc. 3
 M. Lämmel del. u. sc. 1
 J. E. Nilson del. 1755. G. A. Wolffgang Sc. Aug. Vind. 1
+I. G. Weissenberg 4
+I. G. W. 3
+I. S. Weissenberg 1
+G. C. 2
+Vom verst. Michaelis 1
+Heidevogel 1
+Anna Louisa Karschin, geb. Dürbach zu Berlin 1
 Amalie Schoppe, geborene Weise 1
 D. K. L. Grave 2
 tz. 1
@@ -14964,6 +14950,8 @@ Em. Straube 2
 J. L. Blahetka 1
 Franz Anton von Braune 1
 Caroline Freyinn von Drechsel, geb. Gräfinn Stockhammer 1
+J. Pfeiffer 15
+E. J. Loebisch 9
 Franz Anton v. Braune 1
 Kotterba # 7
 Kotterba 2
@@ -14983,6 +14971,11 @@ Karl August Glaser 1
 J. Herbst 1
 Franz Xaver Lenzfeld 1
 Monsorno del. Weinrauch sc. # 10
+Nach der Natur gezeichnet und gestochen von H. Sagert 1
+Rosenberg del. Geyser sc. 1
+Ritter del. Liebe sc. 1
+Carl Wlhelm Ramler 1
+vom verstorbenen Wagner 1
 Werb 1
 Freislich 1
 Nietzsche 1
@@ -15105,27 +15098,17 @@ L. Wolf del. Leop. Beyer sc. 1
 J. P. Walther sc. Nbg. 1827 1
 A. J. Ehnle del. J. P. Lange sculps. 1
 H. F. C. TEN KATE. C. Ed. Taurel sculps. 1
+ARY SCHEFFER. D. J. Sluyter sculps. 1
+Emile Lassalle del. C. Preisel sculp. 1
+Wend 1
+Baron F. von Schlechta 1
+Eug. Wesely, Professor 1
+Rittig von Flammenstern 1
+C. Burger 2
 Rau 1
 Gest. v. August Weger in Leipzig 2
 B. WITTKAMP. F. W. Wehmeijer sculps. 1
 A. F. Zurcher del. C. Ed. Taurel sculps. 1
-D. Chodowiecki inv & sc. # 11
-Carl von Holtey 1
-Marie Pfeiffer 3
-Jägersche Buchhandlung in Frankfurt am Main 1
-Gez. v. Joh. Ender Stahlstich v. Dav. Weiss i. Win 2
-J. Kovatsch sc. 1
-Jos. Kovatsch sc. Viennae 1
-M. Retzsch del. C. Kotterba sc. 7
-Stdr. v. Hellwig in Merseburg a/S. 1
-Karl Levitschnigg 2
-Joh. Ender del. M. Hofmann & Fr. Stöber direx. sculps. 1
-Gez. v. Joh. Ender. Stahlstich v. Dav. Weiss in Wien 1
-M. Retzsch del. J. Axmann sc. 4
-Stahlstich von J. Kovatsch in Wien 1
-Joh. Ender del. Hofmann u. Fr. Stöber sc. 1
-M. R. del. J. A. sc. 1
-Joh. Ender del. Fr. Stöber sc. Wien 1
 T. Lawrence pin. C. Kotterba sc. 1
 Nach der Natur gezeichnet v. Ulprecht gest. v. P. Veith 1
 C. J. L. von Steltzer 4
@@ -15140,9 +15123,11 @@ Joh. Ender del. Jos. Stöber Viennae 1
 Joh. Ender del. Dav. Weiß sc. Viennae 1
 Joh. Ender del. Fr. Stöber sc. Vien. 2
 G. Leybold sc. 5
+M. Retzsch del. C. Kotterba sc. 7
 M. Retzsch del. Bl. Höfl sc. Wien 1
 Prof Ender gez. Stahlstich v. C. Mahlknecht in Wien 1
 Joh. Ender gez. Stahlstich v. Dav. Weiss in Wien 1
+M. Retzsch del. J. Axmann sc. 4
 Berndt. sc. # 9
 Franz Vincenz Schindler 1
 A. J. Laschan 1
@@ -15160,6 +15145,7 @@ Hostovsky und Fendler 1
 A. Gabler del. J. C. Bock sc. 1
 Herr Hauptmann August zu Wehrs zu Hannover 1
 W. Graf v. Veltheim, Herzogl. Braunschweigischer Forstmeister 1
+D. Chodowiecki inv & sc. # 11
 J. Hasslwander del. A. Seipp. sc. 1
 J. Hasslwander del. J. Krepp sc. 1
 Ludwig Mayer del. Konrad Dietz sc. 1
@@ -15220,6 +15206,8 @@ Christian Conrad Schad 13
 Anonymus 1
 Dellazia 4
 Eman. Straube 1
+Carl von Holtey 1
+Marie Pfeiffer 3
 G. Decker gez. Gest. v. Wrankmore Leipzig 1
 A. Ritter v. Tschabuschnigg 4
 K. J. Ritter Braun von Braunthal 1
@@ -15285,6 +15273,11 @@ Wranitzki 1
 J. Wolfram 1
 J. Jos. Polt 1
 S. W. Schiessler 1
+Jägersche Buchhandlung in Frankfurt am Main 1
+Gez. v. Joh. Ender Stahlstich v. Dav. Weiss i. Win 2
+J. Kovatsch sc. 1
+Jos. Kovatsch sc. Viennae 1
+Stdr. v. Hellwig in Merseburg a/S. 1
 Friedrich Julius Krais 1
 Hermann Marggraf 1
 Sebastian Franz von Daxenberger. / (Karl Lenau.) 1
@@ -15352,6 +15345,13 @@ Haselwander del. F. Zastiera sc. 7
 Hemerlein pinx. Stahlst. v. F. Tastiera 1
 Salomo Hermann Mosenthal 2
 Karl Frhr. v. Braun 1
+Karl Levitschnigg 2
+Joh. Ender del. M. Hofmann & Fr. Stöber direx. sculps. 1
+Gez. v. Joh. Ender. Stahlstich v. Dav. Weiss in Wien 1
+Stahlstich von J. Kovatsch in Wien 1
+Joh. Ender del. Hofmann u. Fr. Stöber sc. 1
+M. R. del. J. A. sc. 1
+Joh. Ender del. Fr. Stöber sc. Wien 1
 Heinr. Meyer sc. Zürich. Schrift und Druck v. C. martin 1
 Grape sc. Göttingen # 1
 Grape sc. Göttingen 2
@@ -15424,12 +15424,6 @@ J. Dickinger 1
 Jos. Haslauer 2
 Jegór von Sives 4
 Adolf Krummacher 2
-Georg Friedrich Daumer 1
-Karl Joseph Simrock 1
-Johannes Minkwitz 2
-E. Riepenhausen del. & sculps. 1
-Estwick Evans Esq. 1
-Stahlstich v. M. Hofmann 1
 Peter Johann Willatzen 1
 Joseph Victor von Scheffel 1
 Emilie Emma von Hallberg 1
@@ -15485,6 +15479,12 @@ Adolf Schults 1
 Iganz Franz Castelli 1
 Johann Ludwig Deinhardstein 1
 Franz Friedrich Apollonius Freiherr von Maltitz 3
+Georg Friedrich Daumer 1
+Karl Joseph Simrock 1
+Johannes Minkwitz 2
+E. Riepenhausen del. & sculps. 1
+Estwick Evans Esq. 1
+Stahlstich v. M. Hofmann 1
 Prof. Ender gez. Stahlst. C. Mahlknecht in Wien 2
 M. Retzsch del. Stahlstich v. C. Mahlknecht in Wien 1
 M. Retzsch del. Stahlstich v. Carl Mahlknecht in Wien 1
@@ -15564,26 +15564,6 @@ MR. del. A. sc. 1
  A. von Tromlitz # 2
 J. Kovatsch Viennae 1
 Joh. Ender gez. Friedr. Stöber gst. in Stahl Wien 1
-Julius v. Ribies 1
-Alois Mayer 3
-Rudolph P. Labrès 1
-Karl Johann Philipp Spitta 1
-Kalr Ferdinand Dräxler (= Manfred.) 1
-Adolph v. Slivinski 1
-Wolf Mayer 1
-Siegfried Kapper; [übers.] Karl Baumann 1
-Th. Creizenach 1
-Dr. J. Goldenthal 1
-Vitale pinx. C. Preisel sc. Paris 1
-N. Pienemann pinx. D. J. Sluyter sculps. 1
-C. Hamburger del. J. P. Lange sculps. 1
-Lith. Anst. v. J. G. Bach Lpzg. 2
-D. Bles pinx. D. J. Sluyter sculps. 1
-J. A. Krusemann pinx. J. P. Lange sculps. 1
-A. Schelfhout del. J. B. Tétar van Elven sculps. 1
-C. Preisel sc. 1
-H. F. C. ten Kate pinx. J. B. Tétar v. Elven sculps. 1
-J. Bosboom pinx. J. W. Kaiser sulps. 1
 J. B. Greuze pinxt. C. Preisel sc. 1
 W. Verschuur pinxt. W. Streelink sculps. 1
 A. Schelfhout de. J. B. Tétar van Elven sculps. 1
@@ -15632,6 +15612,12 @@ Wilhelm Haas (Sohn) 1
 Retzsch del. Hofmann sc. 1
 Retzsch del. A. Duncan sc.Leipzig 1
 Dr. Frank 3
+Julius v. Ribies 1
+Alois Mayer 3
+Rudolph P. Labrès 1
+Karl Johann Philipp Spitta 1
+Kalr Ferdinand Dräxler (= Manfred.) 1
+Adolph v. Slivinski 1
 M. Fr. v. C-ll-t 1
 Michael Schön 2
 Mathias Schlezer 2
@@ -15708,25 +15694,23 @@ Mathilde Feldherrn Rolf 1
 Anton von Perger 3
 Jul. Alex. Schindler 7
 Szántó 1
+Wolf Mayer 1
+Siegfried Kapper; [übers.] Karl Baumann 1
+Th. Creizenach 1
+Dr. J. Goldenthal 1
+Vitale pinx. C. Preisel sc. Paris 1
+N. Pienemann pinx. D. J. Sluyter sculps. 1
+C. Hamburger del. J. P. Lange sculps. 1
+Lith. Anst. v. J. G. Bach Lpzg. 2
+D. Bles pinx. D. J. Sluyter sculps. 1
+J. A. Krusemann pinx. J. P. Lange sculps. 1
+A. Schelfhout del. J. B. Tétar van Elven sculps. 1
+C. Preisel sc. 1
+H. F. C. ten Kate pinx. J. B. Tétar v. Elven sculps. 1
+J. Bosboom pinx. J. W. Kaiser sulps. 1
 Brochart pinx. C. Preisel sc. 1
 Fr. Kaiser fec. Weimar 1
 Fr. Kaiser fec. 1804 1
-Seb. Mansfeld fe. # 6
-Seb. Mansfeld fe. 2
-Joseph Graf Jelacic de Busim 1
-A. Neumayr 4
-Dr. I. F. Proschko 1
-Prof. Joh. Gabr. Seidl 1
-M. Hebenstreit 1
-Adolf Theer gemalt. Gedruckt J. Kaufmann Stahlst. v. E. Zastera 1
-Jac. Müller in Wien 3
-Mezler I. B. del. Krepp I. sculp. 1
-Formann del. J. Berka sc. 1
-Postl. del. J. Berka sc. 1
-Athanasius # 1
-P. A. Labrès 13
-A. Weber 1
-Fr. Schrotzberg gemalt. Druck von Kaufmann Stahlst. von Carl Mahlknecht 1
 J. Ender del. J. Passini sc. Viennae 1
 Emilie von Loqueyssie pinx. Dav. Weiss sc. Viennae 1
 Joh. Ender del. Fr. Stöber gest. in Stahl Vien. 1
@@ -15765,6 +15749,8 @@ Stahlstich von Jos. Kovatsch in Wien 1
 Z ** 1
 Ant. Panasch 1
 Mezler delt. Leop. Beyer sc. 1
+Seb. Mansfeld fe. # 6
+Seb. Mansfeld fe. 2
 Joh. Kridl 1
 Carl Seeburg 3
 Hampe del. C. Schule sc 1
@@ -15826,6 +15812,7 @@ unleserlich; Kotterba sc. 2
 Fuhrman del. J. Berka sc. 1
 Bayer del. J. Berka sc. Pragae 1
 Postl del. J. Berka sc. 1
+P. A. Labrès 13
 Carl Spindler 1
 J. Passini del et sc. 1
 Passini del. 1
@@ -15909,6 +15896,16 @@ unterthänigster Max. Sandersky als Hamlet 1
 Dero Knecht Max. Sandersky als Hamlet 1
 Dero gehors. Max Sandersky, pro tempore Rudolph v. Felsek 1
 Rickart pinx. 1806. Joh. Neidl sculp. 1
+Joseph Graf Jelacic de Busim 1
+A. Neumayr 4
+Dr. I. F. Proschko 1
+Prof. Joh. Gabr. Seidl 1
+M. Hebenstreit 1
+Adolf Theer gemalt. Gedruckt J. Kaufmann Stahlst. v. E. Zastera 1
+Jac. Müller in Wien 3
+Mezler I. B. del. Krepp I. sculp. 1
+Formann del. J. Berka sc. 1
+Postl. del. J. Berka sc. 1
 Zeisig 1
 Andres K. burgl Schneider-Meister Alta 1
 Jospeh S. Buchhändler in Wien 1
@@ -15967,26 +15964,13 @@ Ferdinand Helbig 1
 d'A. sc. 11
 L. Gottfried Neumann 15
 M. Letteris 2
+Athanasius # 1
+A. Weber 1
+Fr. Schrotzberg gemalt. Druck von Kaufmann Stahlst. von Carl Mahlknecht 1
 J-l. 3
 Ant. v. Cachedenier 13
 Josephine von Remekázy 1
 F. X. Bayer 2
-Junge del. Frosch sc. 1
-C. F. Jacobi # 1
-Albert Traeger 1
-Theodor Hoyer 1
-Dr. Franz Proschko 2
-Wilh. von Metzerich 1
-Mosenthal 1
-Hermann Waldenroth 10
-Moriz Schleifer 1
-V. Katzler del. Leop. Beyer sc. 1
-J. Hasslwander del. Leop. Beyer sct. 1863 1
-Carl del. Jg. Lechleitner sc. 1
-Karl Ziegelhauser 1
-A. EMIL TITL 1
-Carl Reinhard Wagner 1
-Joh. H. Mirani 2
 Friedr. Aug. Kleinschmid 3
 --y. 4
 Wilh. Reuling, k.k. Hofoperntheater-Kapellmeister 1
@@ -16030,6 +16014,22 @@ Weissenthurn 1
 Madame Schütz 1
 Dr. Joh. Nep.Vogl 4
 Alexander Muchmayr 3
+Junge del. Frosch sc. 1
+C. F. Jacobi # 1
+Albert Traeger 1
+Theodor Hoyer 1
+Dr. Franz Proschko 2
+Wilh. von Metzerich 1
+Mosenthal 1
+Hermann Waldenroth 10
+Moriz Schleifer 1
+V. Katzler del. Leop. Beyer sc. 1
+J. Hasslwander del. Leop. Beyer sct. 1863 1
+Carl del. Jg. Lechleitner sc. 1
+Karl Ziegelhauser 1
+A. EMIL TITL 1
+Carl Reinhard Wagner 1
+Joh. H. Mirani 2
 R. Jäckle 2
 Magadalena Freiin von Callot 1
 O. Prechtler 6
@@ -16209,18 +16209,6 @@ A. Kohn, Kreisrabbiner 1
 J. W. 3
 B. A. Weber 1
 F. W. Bollinger sc. Berol 1
-Mme. Petigny, geb. Levesque [übers.] Karl Reinhard 2
-unbezeichnet [red.] Dr. H. Meynert 2
-unbezeichnet [red.] G. Wolf 1
-P-F. 8
-Gumplovicz 1
-Marie Lanzelsdorfer gemahlt 1806 in Stahl gestochen von F. Zastiera 1
-Fr. Weigl del. A. Dvorzak sc. 1
-Hermine Cziglér von Eny-Vecse 3
-Joh. Heinr. Mirani 1
-C. Cerri [übers.] 1
-Jacopo Vittorelli [übers.] C. Cerri 2
-Redaelli [übers.] C. Cerri 1
 E. Parish Avars 1
 P. A. Budick 1
 Fuhrmann inv. J. Berka sc. Praga 1
@@ -16260,6 +16248,11 @@ Dr. Franz Isidor v. Proschko 2
 Thiersch 1
 Karoline Hainz 4
 Joseph v. Zaremba 1
+Mme. Petigny, geb. Levesque [übers.] Karl Reinhard 2
+unbezeichnet [red.] Dr. H. Meynert 2
+unbezeichnet [red.] G. Wolf 1
+P-F. 8
+Gumplovicz 1
 Fr. Bolt sc. 1806 1
 Weinrauch inv. et sc. Wien 1
 Weinrauch inv. et sc. Wien # 10
@@ -16321,6 +16314,13 @@ Ew. Donner und Blitz ergebenster Diener der Herausgeber 1
 L. Angely 2
 M. Rappoport 5
 W. del. M. H. sc. 1
+Marie Lanzelsdorfer gemahlt 1806 in Stahl gestochen von F. Zastiera 1
+Fr. Weigl del. A. Dvorzak sc. 1
+Hermine Cziglér von Eny-Vecse 3
+Joh. Heinr. Mirani 1
+C. Cerri [übers.] 1
+Jacopo Vittorelli [übers.] C. Cerri 2
+Redaelli [übers.] C. Cerri 1
 Felice Romani [übers.] C. Cerri 1
 Gaetana Passerini [übers.] C. Cerri 1
 Joseph Posch 1
@@ -16378,23 +16378,6 @@ Philippine Engelhard, geb.Gatterer 1
 Zink 1
 Carla Massow (Martha von der Höhe) 1
 Oscar v. Redwitz 1
-W. Gatti 5
-E. Bauernfeld 1
-Haselwander del. Zastiera gestochen 1
-Haselwander del.  Zastiera sc. 1
-Haselwander d. Zastiera sc. 1
-Schenk fec. 1
-Schenk sc. 1
-Gapieux del & sc. 1806 4
-Angelika Kaufmann del. Cl. Kohl sc. 1
-Lud. Maillard del. Cl. Kohl. sc. 1
-Lud. Maillard del. Cl. Kohl. sc. # 11
-Fischel # 24
-F. Meyer 1
-Holitzky # 2
-Gaheis (F. A.) # 6
-Rudolf # 14
-Friedrich Daumer # 16
 Seb. Mansfeld del. et sc. 1
 Helmina. # 1
 D. H. Graf v. Löben 1
@@ -16475,6 +16458,8 @@ Jos. Dessauer 1
 Adolf Ritter von Tschabuschnigg # 3
 Ludwig August Frankl # 4
 Kühnl, J. R. # 14
+Fischel # 24
+Gaheis (F. A.) # 6
 Gabriel $ 12
 Franz v. Erco 1
 Joh. Ferd. Weigl 3
@@ -16522,6 +16507,11 @@ Theodore R-r. 1
 Philippine L-d 1
 Philippine K-ch 1
 Max Grünbaum 1
+W. Gatti 5
+E. Bauernfeld 1
+Haselwander del. Zastiera gestochen 1
+Haselwander del.  Zastiera sc. 1
+Haselwander d. Zastiera sc. 1
 J. Weigel del. M. Hofmann sc. 1
 Weigl del. Jung  sc. 1
 Alois Steindl 4
@@ -16541,6 +16531,7 @@ Nach der Natur gezeichnet und in Stahl gestochen  Franz Zastiera in Wien 1
 Theophil Pisling 1
 Fr. Scheider 1
 G. W. Finck 1
+Gapieux del & sc. 1806 4
 Gerber del. I. Lechleitner sc. 1
 V. Katzler del. Jac. Fleischmann sc. 1
 Hermine Cziglér v. Eny-Vecse 3
@@ -16584,6 +16575,11 @@ E. v. d. M. 1
 S. v. K. 1
 Bartel Lips. fec.1805 1
 Fr. Barthel 1
+Schenk fec. 1
+Schenk sc. 1
+Angelika Kaufmann del. Cl. Kohl sc. 1
+Lud. Maillard del. Cl. Kohl. sc. 1
+Lud. Maillard del. Cl. Kohl. sc. # 11
 Lothar 1
 Lauer pinx. 1795 Karcher sculp. 1
 Gest. von Ant. Karcher Mannh. 96 1
@@ -16641,6 +16637,10 @@ Schuster sc. 1
 De Haller fec 1
 DH fec. 1802 1
 F. C. R. f. 1
+F. Meyer 1
+Holitzky # 2
+Rudolf # 14
+Friedrich Daumer # 16
 Ignaz Franz Castelli # 1
 Karl Dräxler-Manfred # 1
 Rudolf Hirsch # 2
@@ -16649,25 +16649,6 @@ Georg Scheurlin # 9
 Louis von Arentsschildt # 3
 Günther Nicol # 5
 Robert Keller 1
-M. J. 1
-Moß 2
-Saalmüller 1
-E. J. Walch 1
-z 1
-W. F. H. R. 2
-Pforr del. GB. f. 3
-Hr. Reichs-Graf von Mellin zu Damizor in Vorpommern 1
-Jakob Märzroth 1
-Bogner sc. 1
-Fr. Weigl del. Kotterba sc. 1
-Fr. Weigl del. Kotterba sc. # 5
-Arnould # $ [bearb.] F. A. Kurländer ## 1
-Scribe # [bearb.] F. A. Kurländer ## 14
-Fr. Rambach 6
-U... 1
-Dilthey 1
-v. Voß 1
-F. Th. Lagarde 2
 V. R. Grüner del. et sc. 2
 V. R. Grüner del. et sc. # 3
 Gumlich 1
@@ -16714,6 +16695,7 @@ J. S. Ersch Professor und Oberbibliothekar in Halle 1
 Franz Gustav Theodor Stenzel 1
 F. G. T. Stenzel, Inspector und Lehrer an der herzogl. Hauptschule in Zerbst 2
 Joh. Fr. Gleditsch 1
+M. J. 1
 Dr. Albert Cohn 1
 Simon Szantó 5
 Dr. Bärwald 4
@@ -16767,10 +16749,17 @@ Thierry u. Oberkogler 3
 E. F. W. Schenk 1
 Hartmann, Ph. 1
 Georg Christoph Heim, / Adjunktus und Pfarrer in Gumpelstadt. 1
+W. F. H. R. 2
 Eck, J. G. Sohn 1
 J. G. Eck, Sohn, / Prof. in Leipzig 1
 Hartert 1
 E. J. Walch, Superint. 1
+Moß 2
+Saalmüller 1
+E. J. Walch 1
+z 1
+Pforr del. GB. f. 3
+Hr. Reichs-Graf von Mellin zu Damizor in Vorpommern 1
 L. de. Wildungen ad viv. pinx. GB. sc. 3
 Hr. Forstmeister Hartig zu Hungen im Fürstl. Braunschweigischen 1
 Fr. Prag 1
@@ -16871,6 +16860,7 @@ V. Grüner in. et fe. 1
 Belin $ [übers.] F. v. K. # 1
 V. Grüner in. et fe. # 3
 Eduard von Messow 1
+Scribe # [bearb.] F. A. Kurländer ## 14
 Comes a Mellin pinx. 1
 Comes a Mellin ad viv. Pinx 1
 L. de Wildungen pinx. 2
@@ -16915,6 +16905,10 @@ C. Mayer del. M. Hofmann sc. 3
 Perger inv. J. Gerstner sc. 1
 T. L. Halfeld 1
 Adelaide # 1
+Jakob Märzroth 1
+Bogner sc. 1
+Fr. Weigl del. Kotterba sc. 1
+Fr. Weigl del. Kotterba sc. # 5
 J. Henriette Vermehren 3
 Wilhelm Freih. von Eyb 1
 Babette Prechtler 1
@@ -16948,6 +16942,7 @@ Dr. Bärmann 1
 J. Pfeiffe 1
 Josef Korntheurer 1
 J. F. Seidel 4
+Fr. Rambach 6
 J-g 1
 Carl von Münchhausen 2
 Die Wittwe Ziegelhauser 1
@@ -17028,6 +17023,11 @@ JOSEPH DESPAZE 1
 Feu Mr. Guise 1
 Melesville # [bearb.] F. A. Kurländer ## 1
 Duvert # $ [bearb.] F. A. Kurländer ## 1
+Arnould # $ [bearb.] F. A. Kurländer ## 1
+U... 1
+Dilthey 1
+v. Voß 1
+F. Th. Lagarde 2
 Schnorr del. C. Müller sc. # $ 5
 Bergel del. # Cl. Kohl sc. 1
 Bergel del. Cl. Kohl sc. 1
@@ -17109,33 +17109,6 @@ C. F. Lessing gez. Düsseldorf Fr. Stöber gest. Wien 1
 Hildebrandt gez Düsseldorf. Fr. Stöber gest. Wien 1
 Albini [Pseud.] 1
 S. v. Perger del. J. W. Zincke sc. 1
-Iunge del. I. C. Böhme sc. # 5
-Schubert del. G. Boettger senior sc. Lips. 1797 1
-Stich u. Dr. d. Kunstanst. d. östr. Loyd. N. Barthelemess sc. 1
-F. A. von Kurländer # 7
-Monsorno inv. Weinrauch sc. 8
-C. Kehrer gemalt von Sintzenich gestochen Berlin 1791 1
-J. A. von Beyer 1
-E. Chph. Bindemann 7
-Karoline Luise von Klenke, geb. Karschin 1
-Thebesius 1
-I. Thebesius 1
-E. v. Wachsmann 1
-F. W. A.  Schmidt 1
-J. C. Siede 1
-G. W. Fischer 1
-Lilienthal 1
-Karl Matzdorf 1
-H. d. r. 3
-Joost von Travendall (1617.) 1
-Westall d. Beyer sc. 1
-Rupprecht 4
-Dr. W. Ludw. Schmidt 1
-Augustin Andre Boltz 1
-Freyherr v. Biedenfeld 1
-Dr. E. Waller 1
-A. Blank 1
-J. Porter p. Beyer sc. 1
 Duval $ [bearb.] Franz August von Kurländer # 2
 Scheridan ## [bearb.] Franz August von Kurländer # 1
 A. Bruckner sc. 1
@@ -17172,6 +17145,8 @@ Junge del. G. Boettger sen. sc. 2
 dessiné par C. I. Oesfeld 1783. gravé par F. G. Berger 1783 1
 D. Berger sculps. 1785 1
 Iunge del. I. C. Böhme sc. 1
+Iunge del. I. C. Böhme sc. # 5
+Schubert del. G. Boettger senior sc. Lips. 1797 1
 G. Boettger senior del & sculp 1
 G. Boettger del. & sc.Lips. 1
 T. Seeger 1
@@ -17227,6 +17202,7 @@ Wafflard # [bearb.] F. A. von Kurländer ## 1
 Mettenleiter # 6
 Jos. Friedr. Freyh. v. Retzer 1
 J. Möser 2
+F. A. von Kurländer # 7
 Waylli # [bearb.] F. A. Kurländer ## 1
 Mme. d'Hou... 1
 P. A. DESPEROUX 1
@@ -17234,6 +17210,7 @@ F. d'APPLES 1
 L. P. SÉGUR, l'ainé 1
 LEBRUN 5
 Madame DURAMÉ, ci-devant veuve COLONNA ORNANO 1
+Stich u. Dr. d. Kunstanst. d. östr. Loyd. N. Barthelemess sc. 1
 unbezeichnet # [übers.] F. A. Kurländer ## 1
 Courcy [bearb.] F.A. Kurländer 1
 Günther del. et sc. 2
@@ -17345,6 +17322,14 @@ Laube 1
 Kurzbein 1
 L. Wesselmann 1
 J--r. 1
+Monsorno inv. Weinrauch sc. 8
+C. Kehrer gemalt von Sintzenich gestochen Berlin 1791 1
+J. A. von Beyer 1
+E. Chph. Bindemann 7
+Karoline Luise von Klenke, geb. Karschin 1
+Thebesius 1
+I. Thebesius 1
+E. v. Wachsmann 1
 Barin und Desvergers [bearb.] G. Kettel 1
 A. E. Wollheim 1
 Friederike Krickeberg / geb. Koch 1
@@ -17406,12 +17391,19 @@ Théaulon [bearb.] J. Dorich 1
 Arnould und Fournier [bearb.] Alex. Cosmar 1
 Louis Angely 1
 J. Findeisen 1
+H. d. r. 3
 Amalia von Wallroth 1
 K. L. von Klenke, geb. Karschin 1
 Sm. 1
 Fritz Freiherr von Walther / und Cronegk 1
 Joh. Frank (1692) 1
 Grust 1
+F. W. A.  Schmidt 1
+J. C. Siede 1
+G. W. Fischer 1
+Lilienthal 1
+Karl Matzdorf 1
+Joost von Travendall (1617.) 1
 D. Jenisch 1
 H. G. Köhler 1
 E. Cph. Bindemann 1
@@ -17532,31 +17524,24 @@ Ludwig Purgold 3
 H. v. Beulwitz 1
 C. S. Günsburg 3
 Carl v. Holtei 2
+Rupprecht 4
 J. M. Wright del. Leop. Beyer sc. 1
 August Andre Boltz 1
 Carl Gottfr. v. Leitner 1
 Albin Adrian 1
 August André Boltz 1
+Westall d. Beyer sc. 1
+Dr. W. Ludw. Schmidt 1
+Augustin Andre Boltz 1
+Freyherr v. Biedenfeld 1
+Dr. E. Waller 1
+A. Blank 1
+J. Porter p. Beyer sc. 1
 Joh. v. Alxinger 6
 C. J. Fridrich 5
 Jos. Friedr. Frhrr. von Retzer 2
 Fr. Ant. Schreyer 3
 Ul Petrak 1
-Chodowiecki del. Rosmaesler sc. # 11
-gez. v. Holbein gest. v. Auguste Hüssener 4
-gez. v. Holbein gest. v. Rossmässler 4
-F. L. Weidmann, k. k. Hofschauspieler 2
-Berling 1
-Ch. Kuffner 1
-Lembert 7
-Brazier [bearb.] I. F. Castelli 1
-L. C. E. H. F. von Wildungen, Fürstl. Hessen-Casselischer Regierungsrath 1
-Pforr del. Francof. G. Boettger sc. Leipzig 1
-Pforr del. G. B. 1
-Kerndörffer 1
-J. G. Gruber 1
-H. A. Kerndörffer, Doktor d. Philos. 1
-Olezner sc. 2
 Corn. Herm. v. Ayrenhoff 5
 Gualterus de Mapes 1
 Fr. A. Schreyer 1
@@ -17591,6 +17576,7 @@ Riepenhausen inv & sculps 1
 E. Riepenhausen del  & sculps # 1
 E. Riepenhausen del  & sculps 1
 Chodowiecki del. Rosmaesler sc. 1
+Chodowiecki del. Rosmaesler sc. # 11
 L. Neubauer 1
 A. W. Küffner sc. 1800 1
 A. W. Küffner sc. 1800 # 11
@@ -17698,6 +17684,8 @@ Joseph ** 1
 Gottlob Graver 1
 H. B. Oppermann 2
 Ahdim 1
+gez. v. Holbein gest. v. Auguste Hüssener 4
+gez. v. Holbein gest. v. Rossmässler 4
 mit dem Grabstich vollend. v. Meyer; F. Catel # 1
 Fragonard fils del. B. Roger sc. 2
 Fragonard fils del. B. R. sc. 1
@@ -17745,6 +17733,11 @@ Schiavoni p. Passini sc. 1
 Dr. Eduard Sommer 1
 Freyherr von Lannoy 1
 Schw. B. 1
+F. L. Weidmann, k. k. Hofschauspieler 2
+Berling 1
+Ch. Kuffner 1
+Lembert 7
+Brazier [bearb.] I. F. Castelli 1
 Adalbert vom Thale # 1
 Fr. Ludw. Schmidt 1
 Hutt [bearb.] Joel 1
@@ -17867,6 +17860,9 @@ W. F. Seidel 1
 F. W. v. Kawaczinski 1
 Cyrillus 1
 L. von Alvensleben 1
+L. C. E. H. F. von Wildungen, Fürstl. Hessen-Casselischer Regierungsrath 1
+Pforr del. Francof. G. Boettger sc. Leipzig 1
+Pforr del. G. B. 1
 Grave 1
 E. Young 1
 Jean Paul Fr.Richter 1
@@ -17942,6 +17938,10 @@ GINGUENÉ 1
 L. B. f. 5
 Leop. Beyer 2
 Leopp. Beyer sculp. 1
+Kerndörffer 1
+J. G. Gruber 1
+H. A. Kerndörffer, Doktor d. Philos. 1
+Olezner sc. 2
 Oelzner fec 1
 Theodor Seeger, Buchhändler 1
 SIMONNIN, l’ainé 1
