@@ -9,12 +9,12 @@ using System.Xml;
 const string DATASOURCE = "./daten_2023-05-25/";
 
 var log = LogSink.Instance;
+unifySchemata("./norm/", "./norm/Schema.xsd");
 log.SetFile("./log.txt");
 var data = getDATA();
 var oldDB = new AlteDBLibrary(data);
-generateUniqueTagsValues(data);
-// var newDB = new NeueDBLibrary(data, oldDB);
-// newDB.Save("./generated/");
+var newDB = new NeueDBLibrary(data, oldDB);
+newDB.Save("./generated/");
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATASOURCE;
@@ -57,6 +57,41 @@ void generateUniqueTagsValues(IEnumerable<DATAFile> files) {
             tw.Close();
         }
     }
+}
+
+void unifySchemata(string inputfolder, string outputfile) {
+    if (File.Exists(outputfile)) File.Delete(outputfile);
+    var xsds = Directory
+            .EnumerateFiles(inputfolder, "*", SearchOption.AllDirectories)
+            .Where(s => s.EndsWith(".xsd"))
+            .ToList();
+    var files = new List<(string, XElement, XDocument, XElement)>();
+    foreach (var f in xsds) {
+        var doc = XDocument.Load(f, LoadOptions.SetLineInfo | LoadOptions.PreserveWhitespace);
+        var element = doc.Root.Elements().Where(x => x.Attribute("name") != null && x.Attribute("name")!.Value != "dataroot").FirstOrDefault();
+        var dataroot = doc.Root.Elements().Where(x => x.Attribute("name") != null && x.Attribute("name")!.Value == "dataroot").FirstOrDefault();
+        if (element != null) files.Add((element.Attribute("name")!.Value, element, doc, dataroot));
+    }
+
+    XDocument res = null;
+    XElement s = null;
+
+    foreach (var e in files) {
+        if (res == null || s == null) {
+            res = e.Item3;
+            s = e.Item4.Descendants(e.Item4.GetNamespaceOfPrefix("xsd") + "sequence").First();
+            continue;
+        } else {
+            var seqences = e.Item4.Descendants(e.Item4.GetNamespaceOfPrefix("xsd") + "sequence").First().Elements();
+            s.Add(seqences);
+            res.Root!.Add(e.Item2);
+        }
+    }
+
+    if (res != null) {
+        res.Save(outputfile);
+    }
+
 }
 
 void germanizeRDA() {

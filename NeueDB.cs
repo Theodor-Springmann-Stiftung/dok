@@ -6,6 +6,51 @@ using System.Xml.Linq;
 using System.Xml.Serialization;
 
 class NeueDBLibrary {
+    private static List<string[]> TYP = new List<string[]> {
+        new string [] { "Corrigenda" }, 
+        new string [] { "Diagramm" }, 
+        new string [] { "Gedicht/Lied", "Gedicht" }, 
+        new string [] { "Graphik" }, 
+        new string [] { "Graphik-Verzeichnis", "G-Verz" }, 
+        new string [] { "graph. Anleitung" }, 
+        new string [] { "graph. Strickanleitung" }, 
+        new string [] { "graph. Tanzanleitung" }, 
+        new string [] { "Inhaltsverzeichnis", "I-Verz" }, 
+        new string [] { "Kalendarium", "Kalender" }, 
+        new string [] { "Karte" }, 
+        new string [] { "Musikbeigabe" }, 
+        new string [] { "Musikbeigaben-Verzeichnis", "MusBB-Verz" }, 
+        new string [] { "Motto" }, 
+        new string [] { "Prosa" }, 
+        new string [] { "Rätsel" }, 
+        new string [] { "Sammlung" }, 
+        new string [] { "Spiegel" }, 
+        new string [] { "szen. Darstellung" }, 
+        new string [] { "Tabelle" }, 
+        new string [] { "Tafel" }, 
+        new string [] { "Titel" }, 
+        new string [] { "Text" }, 
+        new string [] { "Trinkspruch" }, 
+        new string [] { "Umschlag" }, 
+        new string [] { "Widmung" }
+    }; 
+
+    private static string[] PAG = new string[] {
+        "ar",
+        "röm",
+        "ar1",
+        "ar2",
+        "ar3",
+        "ar4",
+        "ar5",
+        "ar6",
+        "ar7",
+        "röm1",
+        "röm2",
+        "röm3",
+        "röm4"
+    };
+
     public List<Akteure> Akteure;
     public List<Exemplare> Exemplare;
     public List<Inhalte> Inhalte;
@@ -48,6 +93,7 @@ class NeueDBLibrary {
                     Lebensdaten = trimOrNull(n.Daten),
                     Beruf = trimOrNull(n.Beitrag),
                     Pseudonyme = trimOrNull(n.Pseudonym),
+                    KSortiername = n.REALNAME.Trim(),
                 });
             }
         }
@@ -61,7 +107,8 @@ class NeueDBLibrary {
                 var akteur = new Akteure() {
                     Name = String.Join(" ", name),
                     Sortiername = n.Item1.Trim(),
-                    Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus REALNAMEN-Tab"
+                    Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus REALNAMEN-Tab",
+                    KSortiername = n.Item1.Trim(),
                 };
                 orderednames.Add(akteur);
                 names.Add(n.Item1.Trim(), akteur);
@@ -88,15 +135,18 @@ class NeueDBLibrary {
         var reihen = new HashSet<string>();
         var reihenBaende = new List<RELATION_BaendeReihen>();
         var reihenwerke = new Dictionary<long, List<string>>();
+        var abschnitte = new Dictionary<long, string>();
         var werke = new Dictionary<long, Baende>();
         var werkeorte = new Dictionary<long, List<string>>();
         var werkedrucker = new Dictionary<long, List<string>>(); 
         var werkehrsg = new Dictionary<long, List<string>>(); 
         var toparse = _alteDB.AlmNeu;
         var idakt = Akteure.Count + 1;
+        Regex rgxnormabschnitt = new Regex(@"\s?\d{4}\s?");
         Regex rgxround = new Regex(@"(?<=\()[^()]*(?=\))");
         Regex rgxeck = new Regex(@"(?<=\()[^()]*(?=\))");
-        var rgxfourendnumbers = new Regex(@"\s?(\d{4},\s?\d{4}|\d{4}\/\d{4}|19\d{2}|18\d{2}|17\d{2}|\[oJ\]|Bd \d \[o\.J\.\]|\[o\.J\.\])(-\d)?(\s?\(\d\))?(\s\(2\.\))?(\s1\su\.\s2)?(\s?\[var\.?\]$)?(\s?1\.)?(\(Titelauflage\))?\s?");
+        Regex rgxfourendnumbers = new Regex(@"\s?(\d{4},\s?\d{4}|\d{4}\/\d{4}|19\d{2}|18\d{2}|17\d{2}|\[oJ\]|Bd \d \[o\.J\.\]|\[o\.J\.\])(-\d$)?(\s?\(\d\))?(\s\(2\.\))?(\s1\su\.\s2)?(\s?\[var\.?\]$)?(\s?1\.)?(\(Titelauflage\))?\s?");
+        Regex rgxausgabe = new Regex(@"(?<=-)\d(?=\s?$)");
         foreach (var n in toparse) {
             var ort = n.Value.ORT;
 
@@ -115,7 +165,8 @@ class NeueDBLibrary {
                                     ID = idakt,
                                     OrgName = na,
                                     Sortiername = na,
-                                    Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus Verlegern (AlmNeu)"
+                                    Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus Verlegern (AlmNeu)",
+                                    KSortiername = na
                                 });
                                 idakt++;
                             }
@@ -134,7 +185,8 @@ class NeueDBLibrary {
                                 ID = 0,
                                 Sortiername = o,
                                 Land = "Deutschland",
-                                Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus Orten (AlmNeu)"
+                                Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus Orten (AlmNeu)",
+                                KSortiername = o
                             });
                         }
                         werkeorte[n.Value.NUMMER].Add(o);
@@ -150,7 +202,14 @@ class NeueDBLibrary {
                     var reihe = e;
                     var m = rgxfourendnumbers.Matches(e);
                     if (m != null && m.Any())  {
-                        reihe = e.Replace(m.Last().ToString(), null);
+                        var abschnitt = m.Last().ToString();
+                        var normabs = rgxnormabschnitt.Match(abschnitt);
+                        if (normabs.Length < abschnitt.Length) {
+                            if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
+                            else abschnitte[n.Value.NUMMER] += abschnitt;
+                        }
+                        
+                        reihe = e.Replace(abschnitt, null);
                     }
                     var rname = reihe.Split(',').Reverse();
                     if (!reihen.Contains(reihe)) reihen.Add(reihe);
@@ -188,18 +247,29 @@ class NeueDBLibrary {
                 Status = status,
             });
 
-
+            // Ausgabe
+            var ausg = 1;
+            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+                var m = rgxausgabe.Matches(n.Value.REIHENTITEL);
+                if (m != null && m.Count > 0) {
+                    _logSink.LogLine("Match in " + n.Value.REIHENTITEL + ": " + m.Last().ToString());
+                    ausg = Int32.Parse(m.Last().ToString());
+                }
+            }
 
             // Baende: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
             werke.Add(n.Value.NUMMER, new Musenalm.Baende() {
                 ID = n.Value.NUMMER,
-                Sortiertitel = n.Value.ALMTITEL,
-                TitelTranskription = n.Value.ALMTITEL,
+                Sortiertitel = trimOrNull(n.Value.ALMTITEL),
+                TitelTranskription = trimOrNull(n.Value.ALMTITEL),
                 OrtTranskription = ort,
                 Jahr = n.Value.JAHR,
+                Ausgabe = ausg,
                 Nachweis = trimOrNull(n.Value.NACHWEIS),
                 Struktur = trimOrNull(n.Value.STRUKTUR),
-                Anmerkungen = trimOrNull(n.Value.ANMERKUNGEN)
+                Anmerkungen = trimOrNull(n.Value.ANMERKUNGEN),
+                KSortiertitel = trimOrNull(n.Value.ALMTITEL),
+                AbgeschnittenJahr = abschnitte.ContainsKey(n.Value.NUMMER) ? abschnitte[n.Value.NUMMER] : null
             });
         }
 
@@ -219,7 +289,8 @@ class NeueDBLibrary {
             Reihen.Add(new Musenalm.Reihen() {
                 ID = idrh,
                 Sortiername = n,
-                Name = String.Join(" ", rname)
+                Name = String.Join(" ", rname),
+                KSortiername = n
             });
             idrh++;
         }
@@ -239,7 +310,7 @@ class NeueDBLibrary {
             foreach (var m in n.Value) {
                 werkeAkteure.Add(new Musenalm.RELATION_BaendeAkteure() {
                     Band = n.Key,
-                    Beziehung = 7,
+                    Beziehung = 6,
                     Akteur = names[m].ID
                 });
             }
@@ -255,14 +326,15 @@ class NeueDBLibrary {
                         ID = idakt,
                         Sortiername = m,
                         Name = String.Join(" ", name),
-                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (AlmNeu Nr. " + n.Key + ")"
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (AlmNeu Nr. " + n.Key + ")",
+                        KSortiername = m
                     };
                     Akteure.Add(akteur);
                     idakt++;
                 }
                 werkeAkteure.Add(new Musenalm.RELATION_BaendeAkteure() {
                     Band = n.Key,
-                    Beziehung = 1,
+                    Beziehung = 5,
                     Akteur = akteur.ID
                 });
             }
@@ -329,14 +401,15 @@ class NeueDBLibrary {
                         ID = idakt,
                         Sortiername = m,
                         Name = String.Join(" ", name),
-                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
+                        KSortiername = m
                     };
                     Akteure.Add(akteur);
                     idakt++;
                 }
                 inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
                     Inhalt = n.Key,
-                    Beziehung = 4,
+                    Beziehung = 1,
                     Akteur = akteur.ID
                 });
             }
@@ -356,14 +429,15 @@ class NeueDBLibrary {
                         ID = idakt,
                         Sortiername = m,
                         Name = String.Join(" ", name),
-                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                        Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
+                        KSortiername = m
                     };
                     Akteure.Add(zeichner);
                     idakt++;
                 }
                 inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
                     Inhalt = n.Key,
-                    Beziehung = 5,
+                    Beziehung = 3,
                     Akteur = zeichner.ID
                 });
                 
@@ -384,10 +458,12 @@ class NeueDBLibrary {
                 }
                 inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
                     Inhalt = n.Key,
-                    Beziehung = 3,
+                    Beziehung = 4,
                     Akteur = stecher.ID
                 });
             } else {
+
+                // Autoren
                 foreach (var m in n.Value) {
                     var akteur = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
                     if (akteur == null) {
@@ -397,14 +473,15 @@ class NeueDBLibrary {
                             ID = idakt,
                             Sortiername = m,
                             Name = String.Join(" ", name),
-                            Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
+                            Anmerkungen = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
+                            KSortiername = m
                         };
                         Akteure.Add(akteur);
                         idakt++;
                     }
                     inhAkteure.Add(new Musenalm.RELATION_InhalteAkteure() {
                         Inhalt = n.Key,
-                        Beziehung = 4,
+                        Beziehung = 1,
                         Akteur = akteur.ID
                     });
                 }
@@ -439,7 +516,7 @@ class NeueDBLibrary {
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
         writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
-        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "../muster/Schema.xsd");
+        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "../norm/Schema.xsd");
         saveDocument<Akteure>(writer, Akteure, ns);
         saveDocument<Orte>(writer, Orte, ns);
         saveDocument<Reihen>(writer, Reihen, ns);
@@ -656,6 +733,8 @@ public class Baende {
     public string? Anmerkungen;
     [XmlElement]
     public string? KSortiertitel;
+    [XmlElement]
+    public string? AbgeschnittenJahr;
 
     public bool ShouldSerializeJahr() => Jahr != null;
     public bool ShouldSerializeAusgabe() => Ausgabe != null;
@@ -666,9 +745,10 @@ public class Baende {
     public bool ShouldSerializeStruktur() => !String.IsNullOrWhiteSpace(Struktur);
     public bool ShouldSerializeNachweis() => !String.IsNullOrWhiteSpace(Nachweis);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
+    public bool ShouldSerializeAbgeschnittenJahr() => !String.IsNullOrWhiteSpace(AbgeschnittenJahr);
 }
 
-[XmlRoot("*RELATION_Inhalte-Akteure")]
+[XmlRoot("*RELATION_InhalteAkteure")]
 public class RELATION_InhalteAkteure {
     [XmlElement]
     public long Inhalt;
@@ -682,7 +762,7 @@ public class RELATION_InhalteAkteure {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Baende-Akteure")]
+[XmlRoot("*RELATION_BaendeAkteure")]
 public class RELATION_BaendeAkteure {
     [XmlElement]
     public long Band;
@@ -696,7 +776,7 @@ public class RELATION_BaendeAkteure {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Baende-Reihen")]
+[XmlRoot("*RELATION_BaendeReihen")]
 public class RELATION_BaendeReihen {
     [XmlElement]
     public long Band;
@@ -708,7 +788,7 @@ public class RELATION_BaendeReihen {
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
 }
 
-[XmlRoot("*RELATION_Baende-Orte")]
+[XmlRoot("*RELATION_BaendeOrte")]
 public class RELATION_BaendeOrte {
     [XmlElement]
     public long Band;
