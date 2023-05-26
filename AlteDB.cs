@@ -63,27 +63,27 @@ public class REALNAMETab {
 public class INHTab {
     public const string NAME = "INH-TAB";
     [XmlElement]
-    public string ID;
+    public long? ID;
     [XmlElement]
-    public string AUTOR;
+    public string? AUTOR;
     [XmlElement]
-    public string TITEL;
+    public string? TITEL;
     [XmlElement]
-    public string SEITE;
+    public string? SEITE;
     [XmlElement]
-    public string INCIPIT;
+    public string? INCIPIT;
     [XmlElement]
     public long INHNR;
     [XmlElement]
-    public string ANMERKINH;
+    public string? ANMERKINH;
     [XmlElement]
-    public string OBJEKT;
+    public string? OBJEKT;
     [XmlElement]
-    public string AUTORREALNAME;
+    public string? AUTORREALNAME;
     [XmlElement]
-    public string PAG;
+    public string? PAG;
     [XmlElement]
-    public string OBJZAEHL;
+    public string? OBJZAEHL;
     [XmlElement]
     public bool BILD;
 }

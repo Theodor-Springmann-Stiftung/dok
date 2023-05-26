@@ -71,8 +71,8 @@ class NeueDBLibrary {
         _dataFiles = files;
         _alteDB = alteDB;
         namesFromREALNAMEN();
-        namesFromAlmNeu();
-        namesFromInhalte();
+        ParseReihenOrteExemplareBaende();
+        ParseInhalte();
     }
 
     private void namesFromREALNAMEN() {
@@ -126,7 +126,7 @@ class NeueDBLibrary {
 
     }
 
-    public void namesFromAlmNeu() {
+    public void ParseReihenOrteExemplareBaende() {
         var orte = new Dictionary<string, Orte>();
         var names = new Dictionary<string, Akteure>();
         var werkeOrte = new List<RELATION_BaendeOrte>();
@@ -363,13 +363,18 @@ class NeueDBLibrary {
 
     }
 
-    private void namesFromInhalte() {
+    private void ParseInhalte() {
         var toparse = _alteDB.INHTab;
         var inaut = new Dictionary<long, List<string>>();
         var ingra = new Dictionary<long, List<string>>();
         var inhAkteure = new List<RELATION_InhalteAkteure>();
+        var inhalte = new List<Inhalte>();
         var idakt = Akteure.Count + 1;
         foreach (var n in toparse) {
+            // Seite
+            string? seite = n.Value.SEITE != null ? n.Value.SEITE.Split(".").First() : null;
+            
+            
             // Graphiker:innen
             if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME)) {
                 var composite = n.Value.AUTORREALNAME.Split(new string[] {" u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
@@ -387,6 +392,18 @@ class NeueDBLibrary {
                     }
                 }
             }
+
+            inhalte.Add(new Inhalte() {
+                ID = n.Value.INHNR,
+                Band = n.Value.ID,
+                TitelTranskription = n.Value.TITEL,
+                AutorTranskription = n.Value.AUTOR,
+                IncipitTranskription = n.Value.INCIPIT,
+                Anmerkungen = n.Value.ANMERKINH,
+                Objektnummer = n.Value.OBJZAEHL,
+                Seite = seite,
+                Digitalisat = n.Value.BILD
+            });
         }
 
 
@@ -419,7 +436,7 @@ class NeueDBLibrary {
         foreach (var n in ingra) {
             if (n.Value.Count == 2) {
 
-                 // Zeichner
+                 // Zeichner:innen
                 var m = n.Value[0];
                 var zeichner = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
                 if (zeichner == null) {
@@ -441,7 +458,7 @@ class NeueDBLibrary {
                     Akteur = zeichner.ID
                 });
                 
-                // Stecher
+                // Stecher:innen
                 m = n.Value[1];
                 var stecher = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
                 if (stecher == null) {
@@ -463,7 +480,7 @@ class NeueDBLibrary {
                 });
             } else {
 
-                // Autoren
+                // Autor:innen
                 foreach (var m in n.Value) {
                     var akteur = this.Akteure.Where(x => x.Sortiername == m).FirstOrDefault();
                     if (akteur == null) {
@@ -487,8 +504,9 @@ class NeueDBLibrary {
                 }
             }
         }
-
+        
         RELATION_InhalteAkteure = inhAkteure;
+        Inhalte = inhalte;
     }
 
     public void Save(string fileroot) {
@@ -521,9 +539,11 @@ class NeueDBLibrary {
         saveDocument<Orte>(writer, Orte, ns);
         saveDocument<Reihen>(writer, Reihen, ns);
         saveDocument<Baende>(writer, Baende, ns);
+        saveDocument<Inhalte>(writer, Inhalte, ns);
         saveDocument<RELATION_BaendeAkteure>(writer, RELATION_BaendeAkteure, ns);
         saveDocument<RELATION_BaendeOrte>(writer, RELATION_BaendeOrte, ns);
         saveDocument<RELATION_BaendeReihen>(writer, RELATION_BaendeReihen, ns);
+        saveDocument<RELATION_InhalteAkteure>(writer, RELATION_InhalteAkteure, ns);
         saveDocument<Exemplare>(writer, Exemplare, ns);
         writer.WriteEndDocument();
         writer.Flush();
@@ -636,11 +656,10 @@ public class Inhalte {
     [XmlElement]
     public long ID;
     [XmlElement]
-    public long Band;
-
-    [XmlElement("Titel-Transkription")]
+    public long? Band;
+    [XmlElement]
     public string? TitelTranskription;
-    [XmlElement("Autor-Transkription")]
+    [XmlElement]
     public string? AutorTranskription;
     [XmlElement]
     public Paginierung? Paginierung;
