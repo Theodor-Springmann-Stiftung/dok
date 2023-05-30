@@ -1,5 +1,6 @@
 namespace Musenalm;
 
+using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
@@ -389,7 +390,7 @@ class NeueDBLibrary {
                 }
             }
             
-            //Paginierung TODO Bug
+            //Paginierung
             string? pag = null;
             if (!String.IsNullOrWhiteSpace(n.Value.PAG)) {
                 foreach (var p in PAG) {
@@ -404,7 +405,7 @@ class NeueDBLibrary {
             
             // Graphiker:innen
             if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME)) {
-                var composite = n.Value.AUTORREALNAME.Split(new string[] {" u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                var composite = n.Value.AUTORREALNAME.Split(new string[] {" u.", " u " }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                 if (composite.Length > 1) {
                     ingra.Add(n.Value.INHNR, new List<string>());
                     foreach (var c in composite) {
@@ -412,12 +413,17 @@ class NeueDBLibrary {
                     }
                 // Autor:innen
                 } else {
-                    composite = n.Value.AUTORREALNAME.Split(new string[] {" u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                    composite = n.Value.AUTORREALNAME.Split(new string[] {";" }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                     inaut.Add(n.Value.INHNR, new List<string>());
                     foreach (var c in composite) {
                         inaut[n.Value.INHNR].Add(c);
                     }
                 }
+            }
+
+            float zaehler;
+            if (!float.TryParse(n.Value.OBJZAEHL, NumberStyles.Any, CultureInfo.InvariantCulture, out zaehler)) {
+                _logSink.LogLine("Objektzähler " + n.Value.OBJZAEHL + " unzulässig. Herkunft INHNR " + n.Value.INHNR);
             }
 
             inhalte.Add(new Inhalte() {
@@ -427,7 +433,7 @@ class NeueDBLibrary {
                 AutorTranskription = n.Value.AUTOR,
                 IncipitTranskription = n.Value.INCIPIT,
                 Anmerkungen = n.Value.ANMERKINH,
-                Objektnummer = n.Value.OBJZAEHL,
+                Objektnummer = zaehler,
                 Seite = seite,
                 Paginierung = pag,
                 Typ = intyp.ContainsKey(n.Value.INHNR) ? intyp[n.Value.INHNR].ToArray() : null, 
@@ -703,7 +709,7 @@ public class Inhalte {
     [XmlElement]
     public bool? Digitalisat;
     [XmlElement]
-    public string? Objektnummer;
+    public float? Objektnummer;
     [XmlElement]
     public string? KSortiertitel;
 
@@ -715,7 +721,7 @@ public class Inhalte {
     public bool ShouldSerializeIncipitTranskription() => !String.IsNullOrWhiteSpace(IncipitTranskription);
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
     public bool ShouldSerializeTyp() => Typ != null;
-    public bool ShouldSerializeObjektnummer() => !String.IsNullOrWhiteSpace(Objektnummer);
+    public bool ShouldSerializeObjektnummer() => Objektnummer != null;
 }
 
 [XmlRoot("Orte")]
