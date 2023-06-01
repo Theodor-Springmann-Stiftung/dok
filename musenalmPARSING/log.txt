@@ -1,0 +1,93 @@
+6/1/2023 1:46:57 PM Log MusenalmDB
+6/1/2023 1:47:00 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)
+6/1/2023 1:47:00 PM Name Zwecker, Johann Baptist nicht gefunden. Herkunft: REALNAME-Tab Kaulbach, Wilhelm von u. Zwecker, Johann Baptist
+6/1/2023 1:47:00 PM Name Voß Johann Heinrich nicht gefunden. Herkunft: REALNAME-Tab Shakespeare, William; Voß, Heinrich; Voß Johann Heinrich
+6/1/2023 1:47:00 PM Name Frick Johann Friedrich nicht gefunden. Herkunft: REALNAME-Tab Strack, Ludwig Philipp u. Frick Johann Friedrich
+6/1/2023 1:47:00 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Jury, Wilhelm
+6/1/2023 1:47:00 PM Name Batsányi, Gabriele von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+6/1/2023 1:47:00 PM Name geb. Baumberg von nicht gefunden. Herkunft: REALNAME-Tab Batsányi, Gabriele von; geb. Baumberg von
+6/1/2023 1:47:00 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Byron, George Gordon; Wysz, Johann Rudolph (der Jüngere)
+6/1/2023 1:47:00 PM Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: REALNAME-Tab Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)
+6/1/2023 1:47:00 PM Name Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: REALNAME-Tab Elsheimer, Adam u. Perger, Sigmund Ferdinand von Axmann, Josef
+6/1/2023 1:47:00 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Kovatsch, Joseph
+6/1/2023 1:47:00 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Weinrauch, Caspar
+6/1/2023 1:47:00 PM Name Teniers, David (d. J.) nicht gefunden. Herkunft: REALNAME-Tab Teniers, David (d. J.) u. Perger, Sigmund Ferdinand von u. Döbler, Georg
+6/1/2023 1:47:00 PM Name Both, Andries nicht gefunden. Herkunft: REALNAME-Tab Both, Jan u. Both, Andries u. Tetar van Elven, Jean-Baptist
+6/1/2023 1:47:00 PM Name Geißler, Fr. nicht gefunden. Herkunft: REALNAME-Tab Rider, Alexander u. Geißler, Fr.
+6/1/2023 1:47:00 PM Name Glassbach Carl Christian nicht gefunden. Herkunft: REALNAME-Tab Oesfeld, Karl Ludwig von u. Glassbach Carl Christian
+6/1/2023 1:47:00 PM Name Kurländer, F. A. nicht gefunden. Herkunft: REALNAME-Tab Wailly, Gabriel-Gustave de; Kurländer, F. A.
+6/1/2023 1:47:00 PM Name Benedetto, Tommasi nicht gefunden. Herkunft: REALNAME-Tab Saar, Karl von u. Benedetto, Tommasi
+6/1/2023 1:47:00 PM Name Schiavone, Natale nicht gefunden. Herkunft: REALNAME-Tab Schiavone, Natale u. Passini, Johann Nepomuk
+6/1/2023 1:47:00 PM Name Bouterwek, Friedrich nicht gefunden. Herkunft: AlmNeu Nr. 262
+6/1/2023 1:47:00 PM Name Echtermeyer, Ernst Theodor nicht gefunden. Herkunft: AlmNeu Nr. 509
+6/1/2023 1:47:00 PM Name Dräxler, Karl Fredinand nicht gefunden. Herkunft: AlmNeu Nr. 600
+6/1/2023 1:47:00 PM Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
+6/1/2023 1:47:00 PM Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1474
+6/1/2023 1:47:00 PM Name Sydow, Friedrich von nicht gefunden. Herkunft: AlmNeu Nr. 1532
+6/1/2023 1:47:00 PM Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: AlmNeu Nr. 1657
+6/1/2023 1:47:00 PM Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1780
+6/1/2023 1:47:00 PM Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+6/1/2023 1:47:00 PM Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1836
+6/1/2023 1:47:00 PM Name K 44, K 148 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+6/1/2023 1:47:00 PM Name L/R 119 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+6/1/2023 1:47:00 PM Name Goed VIII. 81, 161 nicht gefunden. Herkunft: AlmNeu Nr. 2703
+6/1/2023 1:47:00 PM Name Pseud.: Janus Eremita nicht gefunden. Herkunft: AlmNeu Nr. 4337
+6/1/2023 1:47:00 PM Name K 44 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+6/1/2023 1:47:00 PM Name K 148 nicht gefunden. Herkunft: AlmNeu Nr. 4609
+6/1/2023 1:47:00 PM Name Döring, Karl August nicht gefunden. Herkunft: AlmNeu Nr. 4749
+6/1/2023 1:47:00 PM Name Carl Lang nicht gefunden. Herkunft: AlmNeu Nr. 4772
+6/1/2023 1:47:00 PM Objektzähler  unzulässig. Herkunft INHNR 7498
+6/1/2023 1:47:00 PM Paginierung 1192,01, INHNR 7697 unzulässig.
+6/1/2023 1:47:00 PM Objektzähler  unzulässig. Herkunft INHNR 8721
+6/1/2023 1:47:00 PM Objektzähler  unzulässig. Herkunft INHNR 6824
+6/1/2023 1:47:00 PM Objektzähler  unzulässig. Herkunft INHNR 7834
+6/1/2023 1:47:00 PM Objektzähler  unzulässig. Herkunft INHNR 9166
+6/1/2023 1:47:01 PM Paginierung 5, INHNR 112653 unzulässig.
+6/1/2023 1:47:01 PM Paginierung 57, INHNR 107067 unzulässig.
+6/1/2023 1:47:01 PM Paginierung Theodor Mügge, INHNR 111348 unzulässig.
+6/1/2023 1:47:01 PM Paginierung Theodor Mügge, INHNR 111349 unzulässig.
+6/1/2023 1:47:01 PM Paginierung Theodor Mügge, INHNR 111346 unzulässig.
+6/1/2023 1:47:01 PM Paginierung Theodor Mügge, INHNR 111347 unzulässig.
+6/1/2023 1:47:01 PM Paginierung a, INHNR 127059 unzulässig.
+6/1/2023 1:47:01 PM Objektzähler  unzulässig. Herkunft INHNR 126686
+6/1/2023 1:47:01 PM Objektzähler  unzulässig. Herkunft INHNR 127106
+6/1/2023 1:47:01 PM Paginierung a, INHNR 129520 unzulässig.
+6/1/2023 1:47:01 PM Paginierung 28, INHNR 132109 unzulässig.
+6/1/2023 1:47:01 PM Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58110
+6/1/2023 1:47:01 PM Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  763
+6/1/2023 1:47:01 PM Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  763
+6/1/2023 1:47:01 PM Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  3966
+6/1/2023 1:47:01 PM Name Velasquez de Silva, Diego nicht gefunden. Herkunft: Inhalte INHNR  2014
+6/1/2023 1:47:01 PM Name Abresch, Franz nicht gefunden. Herkunft: Inhalte INHNR  1526
+6/1/2023 1:47:01 PM Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1879
+6/1/2023 1:47:01 PM Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  3762
+6/1/2023 1:47:01 PM Name Senf, Heinrich Christian Ludwig nicht gefunden. Herkunft: Inhalte INHNR  3282
+6/1/2023 1:47:01 PM Name Gatterer, Magdalene Philippine, geb. Engelhard nicht gefunden. Herkunft: Inhalte INHNR  2835
+6/1/2023 1:47:01 PM Name Platen, August von nicht gefunden. Herkunft: Inhalte INHNR  1865
+6/1/2023 1:47:01 PM Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  11064
+6/1/2023 1:47:01 PM Name Weiße, Christian Felix nicht gefunden. Herkunft: Inhalte INHNR  8281
+6/1/2023 1:47:01 PM Name Engelhardt, Carl August nicht gefunden. Herkunft: Inhalte INHNR  21181
+6/1/2023 1:47:01 PM Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31105
+6/1/2023 1:47:01 PM Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24800
+6/1/2023 1:47:01 PM Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35915
+6/1/2023 1:47:02 PM Name Seibertz, Johann Suibert nicht gefunden. Herkunft: Inhalte INHNR  43428
+6/1/2023 1:47:02 PM Name Plessen, Marie  Sophie Christiane nicht gefunden. Herkunft: Inhalte INHNR  40594
+6/1/2023 1:47:02 PM Name Hitzig, Julius Eberhard nicht gefunden. Herkunft: Inhalte INHNR  51326
+6/1/2023 1:47:02 PM Name Rächler, Elisa Charlotte geb. Ehrhardt nicht gefunden. Herkunft: Inhalte INHNR  63559
+6/1/2023 1:47:02 PM Name Teniers, David (d. J). nicht gefunden. Herkunft: Inhalte INHNR  73160
+6/1/2023 1:47:02 PM Name Beck, Heinrich nicht gefunden. Herkunft: Inhalte INHNR  76511
+6/1/2023 1:47:03 PM Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9299
+6/1/2023 1:47:03 PM Name John Friedrich nicht gefunden. Herkunft: Inhalte INHNR  14347
+6/1/2023 1:47:03 PM Name Liechtenstern, Joseph Marx von nicht gefunden. Herkunft: Inhalte INHNR  22111
+6/1/2023 1:47:03 PM Name Lorrain, Claude nicht gefunden. Herkunft: Inhalte INHNR  20625
+6/1/2023 1:47:03 PM Name Steinkopf, Gottlob Friedrich nicht gefunden. Herkunft: Inhalte INHNR  21764
+6/1/2023 1:47:03 PM Name Stürmer, Karl, nicht gefunden. Herkunft: Inhalte INHNR  27457
+6/1/2023 1:47:03 PM Name Bitthäuser, Johann Pleikard nicht gefunden. Herkunft: Inhalte INHNR  22255
+6/1/2023 1:47:03 PM Name Zwinger, Gustav Philipp nicht gefunden. Herkunft: Inhalte INHNR  26599
+6/1/2023 1:47:03 PM Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33877
+6/1/2023 1:47:03 PM Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
+6/1/2023 1:47:03 PM Name Lunteschütz; Jules [eig. Isaak] nicht gefunden. Herkunft: Inhalte INHNR  44467
+6/1/2023 1:47:03 PM Name Felsing Conrad nicht gefunden. Herkunft: Inhalte INHNR  62430
+6/1/2023 1:47:03 PM Name Mieris, Frans van (d. Ält) nicht gefunden. Herkunft: Inhalte INHNR  64717
+6/1/2023 1:47:03 PM Name Braekeler, Ferdinand de nicht gefunden. Herkunft: Inhalte INHNR  64655
+6/1/2023 1:47:03 PM Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74538
