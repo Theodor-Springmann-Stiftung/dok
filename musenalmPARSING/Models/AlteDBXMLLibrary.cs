@@ -3,7 +3,7 @@ namespace MusenalmConverter.Models.AlteDBXML;
 using System.Xml;
 using System.Xml.Serialization;
 
-class AlteDBXMLLibrary {
+public class AlteDBXMLLibrary {
     public List<REALNAMETab> REALNAMETab;
     public Dictionary<long, INHTab> INHTab;
     public Dictionary<long, AlmNeu> AlmNeu;

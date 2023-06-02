@@ -6,7 +6,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-class NeueDBXMLLibrary {
+public class NeueDBXMLLibrary {
     private static List<string[]> TYP = new List<string[]> {
         new string [] { "Corrigenda" }, 
         new string [] { "Diagramm" }, 
@@ -74,6 +74,16 @@ class NeueDBXMLLibrary {
         namesFromREALNAMEN();
         ParseReihenOrteExemplareBaende();
         ParseInhalte();
+        // Order and Save Exemplare
+        if (Exemplare != null ) {
+            var e = this.Exemplare.OrderBy(x => x.Band);
+            var id = 1;
+            foreach (var n in e) {
+                n.ID = id;
+                id ++;
+            }
+            Exemplare = e.ToList();
+        }
     }
 
     private void namesFromREALNAMEN() {
@@ -374,6 +384,13 @@ class NeueDBXMLLibrary {
             // Seite
             string? seite = n.Value.SEITE != null ? n.Value.SEITE.Split(".").First() : null;
 
+            // Wird auf einen Band verwiesen, den es gar nicht gibt?
+            var band = Baende.Where(x => x.ID == n.Value.ID);
+            if (band == null || !band.Any()) {
+                _logSink.LogLine("Band " + n.Value.ID + " existiert nicht. Herkunft: INHNR " + n.Value.INHNR);
+                continue;
+            }
+
             // Typ
             if (n.Value.OBJEKT != null) {
                 var tcomposite = n.Value.OBJEKT.Split(new string[] {" "}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
@@ -547,13 +564,6 @@ class NeueDBXMLLibrary {
     public void Save(string fileroot, string schemafile) {
         if (Directory.Exists(fileroot)) Directory.Delete(fileroot, true);
         Directory.CreateDirectory(fileroot);
-        // Order and Save Exemplare
-        var e = this.Exemplare.OrderBy(x => x.Band);
-        var id = 1;
-        foreach (var n in e) {
-            n.ID = id;
-            id ++;
-        }
         SaveFile(fileroot, schemafile);
     }
 
