@@ -1,5 +1,6 @@
 using MusenalmAPI.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 // iCo Reset
 // if (File.Exists("./TEST.db"))
@@ -10,10 +11,21 @@ using Microsoft.EntityFrameworkCore;
 //     File.Delete("./TEST.db-wal");
 
 var builder = WebApplication.CreateBuilder(args);
+var  DevelopmentOrigin = ( "LocalHostTestOrigin", "http://127.0.0.1:3000" );
+var DevelopmentDBConnect = "MusenalmSQLite";
+builder.Services.AddCors(options => 
+    options.AddPolicy(name: DevelopmentOrigin.Item1, policy  => 
+        policy.WithOrigins(DevelopmentOrigin.Item2)
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+));
 builder.Services.AddDbContext<MusenalmContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("MusenalmSQLite")));
+options.UseSqlite(builder.Configuration.GetConnectionString(DevelopmentDBConnect)));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
+);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var app = builder.Build();
@@ -23,6 +35,7 @@ if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
+    app.UseCors(DevelopmentOrigin.Item1);
     // app.UseMigrationsEndPoint(); ???
 }
 

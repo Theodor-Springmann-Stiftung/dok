@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MusenalmAPI.Models;
 
+[Index(nameof(TitelTranskription), nameof(Jahr))]
 public class Band {
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
     public long ID { get; set; }

@@ -1,7 +1,9 @@
 namespace MusenalmAPI.Models;
 
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
+[Index(nameof(Sortiername))]
 public class Akteur {
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
     public long ID { get; set; }
@@ -15,8 +17,4 @@ public class Akteur {
     public string? GND { get; set; }
 }
 
-public class VOC_Akteur {
-    [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public long ID { get; set; }
-    public string? Beziehung { get; set; }
-}
+public class VOC_Akteur : TVOC { }

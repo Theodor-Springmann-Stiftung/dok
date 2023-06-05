@@ -6,75 +6,75 @@ public static class DbInitializer {
 
     const string DATASOURCEFOLDER = "../daten_2023-05-25/";
 
-    private static Dictionary<string, long> Typen = new Dictionary<string, long> {
-        { "Corrigenda", 1},
-        { "Diagramm", 2},
-        { "Gedicht/Lied", 3},
-        { "Graphik", 4 }, 
-        { "Graphik-Verzeichnis", 5},
-        { "graph. Anleitung", 6}, 
-        { "graph. Strickanleitung", 7}, 
-        { "graph. Tanzanleitung", 8}, 
-        { "Inhaltsverzeichnis", 9},
-        { "Kalendarium", 10},
-        { "Karte", 11}, 
-        { "Musikbeigabe", 12}, 
-        { "Musikbeigaben-Verzeichnis", 13},
-        { "Motto", 14}, 
-        { "Prosa", 15}, 
-        { "Rätsel", 16}, 
-        { "Sammlung", 17}, 
-        { "Spiegel", 18}, 
-        { "szen. Darstellung", 19}, 
-        { "Tabelle", 20}, 
-        { "Tafel", 21},
-        { "Titel", 22}, 
-        { "Text", 23}, 
-        { "Trinkspruch", 24}, 
-        { "Umschlag", 25}, 
-        { "Widmung", 26 } 
+    private static List<string> Typen = new List<string> {
+         "Corrigenda",
+         "Diagramm" ,
+         "Gedicht/Lied",
+         "Graphik", 
+         "Graphik-Verzeichnis",
+         "graph. Anleitung", 
+         "graph. Strickanleitung", 
+         "graph. Tanzanleitung", 
+         "Inhaltsverzeichnis",
+         "Kalendarium",
+         "Karte", 
+         "Musikbeigabe", 
+         "Musikbeigaben-Verzeichnis",
+         "Motto", 
+         "Prosa", 
+         "Rätsel", 
+         "Sammlung", 
+         "Spiegel", 
+         "szen. Darstellung", 
+         "Tabelle", 
+         "Tafel",
+         "Titel", 
+         "Text", 
+         "Trinkspruch", 
+         "Umschlag", 
+         "Widmung" 
     }; 
 
-    private static Dictionary<string, long> Paginierungen = new Dictionary<string, long>() {
-        { "ar", 1},
-        { "röm", 2},
-        { "ar1", 3},
-        { "ar2", 4},
-        { "ar3", 5},
-        { "ar4", 6},
-        { "ar5", 7},
-        { "ar6", 8},
-        { "ar7", 9},
-        { "röm1", 10},
-        { "röm2", 11},
-        { "röm3", 12},
-        { "röm4", 13}
+    private static List<string> Paginierungen = new List<string>() {
+        "ar",
+        "röm",
+        "ar1",
+        "ar2",
+        "ar3",
+        "ar4",
+        "ar5",
+        "ar6",
+        "ar7",
+        "röm1",
+        "röm2",
+        "röm3",
+        "röm4"
     };
 
 
-    private static readonly Dictionary<string, long> Statuses = new Dictionary<string, long>() {
-        { "Original vorhanden" , 1 },
-        { "Reprint vorhanden", 2 },
-        { "Fremde Herkunft", 3 },
+    private static readonly List<string> Statuses = new List<string>() {
+        "Original vorhanden",
+        "Reprint vorhanden",
+        "Fremde Herkunft"
     };
 
-    private static readonly List<VOC_Akteur> VOC_Akteure = new List<VOC_Akteur>() {
-        new VOC_Akteur() { ID = 1, Beziehung = "wurde geschaffen von" },
-        new VOC_Akteur() { ID = 2, Beziehung = "wurde geschrieben von" },
-        new VOC_Akteur() { ID = 3 , Beziehung = "wurde gezeichnet von" },
-        new VOC_Akteur() { ID = 4, Beziehung = "wurde gestochen von" },
-        new VOC_Akteur() { ID = 5, Beziehung = "wurde herausgegeben von" },
-        new VOC_Akteur() { ID = 6, Beziehung = "wurde verlegt von" },
-        new VOC_Akteur() { ID = 7, Beziehung = "wurde gedruckt von"}
+    private static readonly List<string> VOC_Akteure = new List<string>() {
+        "wurde geschaffen von",
+        "wurde geschrieben von",
+        "wurde gezeichnet von",
+        "wurde gestochen von",
+        "wurde herausgegeben von",
+        "wurde verlegt von",
+        "wurde gedruckt von"
     };
 
-    private static readonly List<VOC_Ort> VOC_Orte = new List<VOC_Ort>() {
-        new VOC_Ort() { ID = 1, Beziehung = "ist erschienen in" },
-        new VOC_Ort() { ID = 2, Beziehung = "ist verlegt in"}
+    private static readonly List<string> VOC_Orte = new List<string>() {
+        "ist erschienen in",
+        "ist verlegt in"
     };
 
-    private static readonly List<VOC_Reihe> VOC_Reihen = new List<VOC_Reihe>() {
-        new VOC_Reihe() { ID = 1, Beziehung = "ist erschienen als Teil der Reihe" }
+    private static readonly List<string> VOC_Reihen = new List<string>() {
+        "ist erschienen als Teil der Reihe"
     };
 
     public static void Initialize(MusenalmContext context)
@@ -88,12 +88,12 @@ public static class DbInitializer {
         LogSink.Instance.WriteToConsole(false);
 
         // Vokabular und feste Typen
-        context.VOC_Akteure.AddRange(VOC_Akteure);
-        context.VOC_Orte.AddRange(VOC_Orte);
-        context.VOC_Reihen.AddRange(VOC_Reihen);
-        context.Statuses.AddRange(Statuses.Select(x => new VOC_Status() { ID = x.Value, Name = x.Key}));
-        context.Paginierungen.AddRange(Paginierungen.Select((x, y) => new VOC_Paginierung() { ID = x.Value, Name = x.Key }));
-        context.Typen.AddRange(Typen.Select((x, y) => new VOC_Typ() { ID = x.Value, Name = x.Key}));
+        context.VOC_Akteure.AddRange(VOC_Akteure.Select(x => new VOC_Akteur() { Name = x }));
+        context.VOC_Orte.AddRange(VOC_Orte.Select(x => new VOC_Ort() { Name = x }));
+        context.VOC_Reihen.AddRange(VOC_Reihen.Select(x => new VOC_Reihe() { Name = x }));
+        context.VOC_Statuses.AddRange(Statuses.Select(x => new VOC_Status() { Name = x }));
+        context.VOC_Paginierungen.AddRange(Paginierungen.Select((x, y) => new VOC_Paginierung() { Name = x }));
+        context.VOC_Typen.AddRange(Typen.Select((x, y) => new VOC_Typ() { Name = x }));
         context.SaveChanges();
 
         context.Reihen.AddRange(nDB.Reihen.Select( x => 
@@ -145,34 +145,39 @@ public static class DbInitializer {
         }
         context.SaveChanges();
 
+        var reihenbez = context.VOC_Reihen.First();
         context.REL_Baende_Reihen.AddRange(nDB.RELATION_BaendeReihen.Select(x => 
             new REL_Band_Reihe() {
                 BandID = x.Band,
                 ReiheID = x.Reihe,
-                VOC_ReiheID = 1,
+                VOC_ReiheID = reihenbez.ID,
                 Anmerkungen = x.Anmerkungen
             }
         ));
-         context.SaveChanges();
+        context.SaveChanges();
         
-        context.REL_Baende_Akteue.AddRange(nDB.RELATION_BaendeAkteure.Select(x => 
-            new REL_Band_Akteur() {
+        context.REL_Baende_Akteue.AddRange(nDB.RELATION_BaendeAkteure.Select(x => { 
+            var aB = VOC_Akteure[(int)x.Beziehung - 1];
+            var nB = context.VOC_Akteure.SingleOrDefault(x => x.Name == aB).ID;
+            return new REL_Band_Akteur() {
                 BandID = x.Band,
                 AkteurID = x.Akteur,
-                VOC_AkteurID = x.Beziehung,
+                VOC_AkteurID = nB,
                 Anmerkungen = x.Anmerkungen
-            }
-        ));
+            };
+        }));
          context.SaveChanges();
 
-        context.REL_Baende_Orte.AddRange(nDB.RELATION_BaendeOrte.Select((x, y) => 
-            new REL_Band_Ort() {
+        context.REL_Baende_Orte.AddRange(nDB.RELATION_BaendeOrte.Select((x, y) => { 
+            var aB = VOC_Orte[(int)x.Beziehung - 1];
+            var nB = context.VOC_Orte.SingleOrDefault(x => x.Name == aB).ID;
+            return new REL_Band_Ort() {
                 BandID = x.Band,
                 OrtID = x.Ort,
-                VOC_OrtID = x.Beziehung,
+                VOC_OrtID = nB,
                 Anmerkungen = x.Anmerkungen
-            }
-        ));
+            };
+        }));
         context.SaveChanges();
 
         context.Exemplare.AddRange(nDB.Exemplare.Select(x => 
@@ -193,7 +198,7 @@ public static class DbInitializer {
             var s = new List<REL_Exemplar_Status>();
             foreach (var status in x.Status!) {
                 s.Add(new REL_Exemplar_Status() {
-                    VOC_StatusID = Statuses[status.Value],
+                    VOC_StatusID = context.VOC_Statuses.Where(x => x.Name == status.Value).First().ID,
                     ExemplarID = x.ID
                 });
             }
@@ -212,7 +217,7 @@ public static class DbInitializer {
                 Anmerkungen = x.Anmerkungen,
                 Digitalisat = x.Digitalisat,
                 Objektnummer = x.Objektnummer,
-                VOC_PaginierungID = x.Paginierung != null ? Paginierungen[x.Paginierung!] : null
+                VOC_PaginierungID = x.Paginierung != null ? context.VOC_Paginierungen.Where(y => y.Name == x.Paginierung).First().ID : null
             }
         ));
         context.SaveChanges();
@@ -221,7 +226,7 @@ public static class DbInitializer {
             List<REL_Inhalt_Typ> t = new List<REL_Inhalt_Typ>();
             foreach (var typ in x.Typ!) {
                 t.Add(new REL_Inhalt_Typ() { 
-                    VOC_TypID = Typen[typ.Value],
+                    VOC_TypID = context.VOC_Typen.Where(y => y.Name == typ.Value).First().ID,
                     InhaltID = x.ID
                 });
             }
@@ -229,14 +234,16 @@ public static class DbInitializer {
         }));
         context.SaveChanges();
 
-        context.REL_Inhalte_Akteure.AddRange(nDB.RELATION_InhalteAkteure.Select(x => 
-            new REL_Inhalt_Akteur() {
+        context.REL_Inhalte_Akteure.AddRange(nDB.RELATION_InhalteAkteure.Select(x => {
+            var aB = VOC_Akteure[(int)x.Beziehung - 1];
+            var nB = context.VOC_Akteure.SingleOrDefault(x => x.Name == aB).ID;
+            return new REL_Inhalt_Akteur() {
                 AkteurID = x.Akteur,
                 InhaltID = x.Inhalt,
-                VOC_AkteurID = x.Beziehung,
+                VOC_AkteurID = nB,
                 Anmerkungen = x.Anmerkungen
-            }
-        ));
+            };
+        }));
         context.SaveChanges();
 
         LogSink.Instance.WriteToConsole(true);

@@ -15,7 +15,13 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: "../dist",
-    emptyOutDir: true
+    outDir: "../../dist",
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(process.cwd(), "src/html/index.html"),
+        baende: path.resolve(process.cwd(), "src/html/baende/index.html"),
+      }
+    }
   },
 });

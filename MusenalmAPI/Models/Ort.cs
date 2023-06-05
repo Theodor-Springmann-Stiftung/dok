@@ -1,7 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace MusenalmAPI.Models;
 
+[Index(nameof(Sortiername))]
 public class Ort {
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
     public long ID { get; set; }
@@ -11,8 +13,4 @@ public class Ort {
     public string? Anmerkungen { get; set; }
 }
 
-public class VOC_Ort {
-    [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public long ID { get; set; }
-    public string? Beziehung { get; set; }
-}
+public class VOC_Ort : TVOC { }

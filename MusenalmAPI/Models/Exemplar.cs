@@ -18,11 +18,7 @@ public class Exemplar {
     public Band? Band { get; set; }
 }
 
-public class VOC_Status {
-    [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public long ID { get; set; }
-    public string? Name { get; set; }
-}
+public class VOC_Status : FVOC { }
 
 public class REL_Exemplar_Status {
     public long ID { get; set; }

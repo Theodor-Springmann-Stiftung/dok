@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MusenalmAPI.Models;
 
+[Index(nameof(TitelTranskription), nameof(IncipitTranskription))]
 public class Inhalt {
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
     public long ID { get; set; }
@@ -22,11 +23,7 @@ public class Inhalt {
     public Band? Band { get; set; }
 }
 
-public class VOC_Typ {
-    [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public long ID { get; set; }
-    public string? Name { get; set; }
-}
+public class VOC_Typ : FVOC { }
 
 public class REL_Inhalt_Typ {
     public long ID { get; set; }
@@ -50,8 +47,4 @@ public class REL_Inhalt_Akteur {
     public Akteur? Akteur { get; set; }
 }
 
-public class VOC_Paginierung {
-    [DatabaseGenerated(DatabaseGeneratedOption.None)] 
-    public long ID { get; set; }
-    public string? Name { get; set; }
-}
+public class VOC_Paginierung : FVOC { }
