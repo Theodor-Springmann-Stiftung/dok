@@ -544,7 +544,7 @@ class NeueDBLibrary {
         Inhalte = inhalte;
     }
 
-    public void Save(string fileroot) {
+    public void Save(string fileroot, string schemafile) {
         if (Directory.Exists(fileroot)) Directory.Delete(fileroot, true);
         Directory.CreateDirectory(fileroot);
         // Order and Save Exemplare
@@ -554,10 +554,10 @@ class NeueDBLibrary {
             n.ID = id;
             id ++;
         }
-        SaveFile(fileroot);
+        SaveFile(fileroot, schemafile);
     }
 
-    private void SaveFile(string fileroot) {
+    private void SaveFile(string fileroot, string schemafile) {
         var writer = XmlWriter.Create(fileroot + "Gesamt.xml", new XmlWriterSettings() {
             Indent = true,
             NewLineOnAttributes = false,
@@ -569,7 +569,7 @@ class NeueDBLibrary {
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
         writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
-        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "../norm/Schema.xsd");
+        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, schemafile);
         saveDocument<Akteure>(writer, Akteure, ns);
         saveDocument<Orte>(writer, Orte, ns);
         saveDocument<Reihen>(writer, Reihen, ns);

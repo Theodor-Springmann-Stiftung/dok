@@ -6,18 +6,22 @@ using Musenalm;
 using System.Xml.Serialization;
 using System.Xml;
 
-const string DATASOURCE = "./daten_2023-05-25/";
-
+const string DATADIR = "./source/data/";
+const string NORMDIR = "./source/norm/";
+const string RDADIR = "./sorce/RDA/";
+const string DESTDIR = "./dist/";
+const string LOGFILE = "./log.txt";
+const string SCHEMAFILENAME = "Schema.xsd";
 var log = LogSink.Instance;
-unifySchemata("./norm/", "./norm/Schema.xsd");
-log.SetFile("./log.txt");
+unifySchemata(NORMDIR, DESTDIR + SCHEMAFILENAME);
+log.SetFile(LOGFILE);
 var data = getDATA();
 var oldDB = new AlteDBLibrary(data);
 var newDB = new NeueDBLibrary(data, oldDB);
-newDB.Save("./generated/");
+newDB.Save(DESTDIR, DESTDIR + SCHEMAFILENAME);
 
 IEnumerable<DATAFile> getDATA() {
-    var sourcedir = DATASOURCE;
+    var sourcedir = DATADIR;
     var xmls = Directory
         .EnumerateFiles(sourcedir, "*", SearchOption.AllDirectories)
         .Where(s => s.EndsWith(".xml"))
@@ -33,7 +37,7 @@ IEnumerable<DATAFile> getDATA() {
 
 void generateUniqueTagsValues(IEnumerable<DATAFile> files) {
     if (files == null || !files.Any()) return;
-    var results = "./generateUniqueTagsValues/";
+    var results = DESTDIR + "generateUniqueTagsValues/";
     if (Directory.Exists(results))  Directory.Delete(results, true);
     Directory.CreateDirectory(results);
 
@@ -95,7 +99,7 @@ void unifySchemata(string inputfolder, string outputfile) {
 }
 
 void germanizeRDA() {
-    var sourcedir = "./RDA";
+    var sourcedir = RDADIR;
     var xmls = Directory
             .EnumerateFiles(sourcedir, "*", SearchOption.AllDirectories)
             .Where(s => s.EndsWith(".xml") && !s.EndsWith("DEUTSCH.xml"))

@@ -279,3 +279,50 @@
 30.05.2023 16:49:03 Name Mieris, Frans van (d. Ält) nicht gefunden. Herkunft: Inhalte INHNR  64717
 30.05.2023 16:49:03 Name Braekeler, Ferdinand de nicht gefunden. Herkunft: Inhalte INHNR  64655
 30.05.2023 16:49:03 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74538
+
+23.06.2023 13:05:43 Log MusenalmDB
+23.06.2023 13:05:48 Name Fratrel, Joseph d. Ä nicht gefunden. Herkunft: REALNAME-Tab Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb
+23.06.2023 13:05:48 Name Müller, Wilhelmine (geb. Maisch) nicht gefunden. Herkunft: AlmNeu Nr. 316
+23.06.2023 13:05:48 Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: AlmNeu Nr. 723
+23.06.2023 13:05:48 Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
+23.06.2023 13:05:48 Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1475
+23.06.2023 13:05:48 Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1781
+23.06.2023 13:05:48 Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1837
+23.06.2023 13:05:48 Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1837
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 7498
+23.06.2023 13:05:48 Paginierung 1192,01, INHNR 7697 unzulässig.
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 8721
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 6824
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 7834
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 9166
+23.06.2023 13:05:48 Paginierung 57, INHNR 107067 unzulässig.
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 126686
+23.06.2023 13:05:48 Objektzähler  unzulässig. Herkunft INHNR 127106
+23.06.2023 13:05:48 Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  4126
+23.06.2023 13:05:48 Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  4126
+23.06.2023 13:05:48 Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  3935
+23.06.2023 13:05:48 Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1880
+23.06.2023 13:05:48 Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58062
+23.06.2023 13:05:48 Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  886
+23.06.2023 13:05:48 Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  10702
+23.06.2023 13:05:48 Name Batsányi, Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  14243
+23.06.2023 13:05:48 Name geb. Baumberg von nicht gefunden. Herkunft: Inhalte INHNR  14243
+23.06.2023 13:05:49 Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31343
+23.06.2023 13:05:49 Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24801
+23.06.2023 13:05:49 Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35895
+23.06.2023 13:05:49 Name Verhelst, Egid (d. Jüng) nicht gefunden. Herkunft: Inhalte INHNR  41654
+23.06.2023 13:05:49 Name Seibertz, Johann Suibert nicht gefunden. Herkunft: Inhalte INHNR  43397
+23.06.2023 13:05:50 Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: Inhalte INHNR  85441
+23.06.2023 13:05:50 Name Kurländer, F. A. nicht gefunden. Herkunft: Inhalte INHNR  124895
+23.06.2023 13:05:50 Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9300
+23.06.2023 13:05:50 Name Stürmer, Karl, nicht gefunden. Herkunft: Inhalte INHNR  27457
+23.06.2023 13:05:50 Name Frick Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  23403
+23.06.2023 13:05:50 Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33880
+23.06.2023 13:05:50 Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
+23.06.2023 13:05:50 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74539
+23.06.2023 13:05:50 Name Perger, Sigmund Ferdinand von Axmann, Josef nicht gefunden. Herkunft: Inhalte INHNR  103778
+23.06.2023 13:05:50 Name Both, Andries nicht gefunden. Herkunft: Inhalte INHNR  111257
+23.06.2023 13:05:50 Name Geißler, Fr. nicht gefunden. Herkunft: Inhalte INHNR  119818
+23.06.2023 13:05:50 Name Glassbach Carl Christian nicht gefunden. Herkunft: Inhalte INHNR  120089
+23.06.2023 13:05:50 Name Benedetto, Tommasi nicht gefunden. Herkunft: Inhalte INHNR  125889
+23.06.2023 13:05:50 Name Schiavone, Natale nicht gefunden. Herkunft: Inhalte INHNR  129808
