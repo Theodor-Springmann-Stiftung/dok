@@ -26,7 +26,7 @@
 <od:tableProperty name="FrozenColumns" type="3" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
-<od:tableProperty name="Filter" type="12" value="([INH-TAB].[AUTORREALNAME] Like &quot;*Dähling, Heinrich Anton u.  Berger, Daniel*&quot;)"/>
+<od:tableProperty name="Filter" type="12" value="([INH-TAB].[ID]=404102)"/>
 <od:tableProperty name="GUID" type="9" value="XMeclle0c0uOt4bpTVE3Hg==
 "/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -42,7 +42,7 @@
 <od:tableProperty name="AlternateBackShade" type="6" value="100"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
-<od:tableProperty name="OrderBy" type="12" value="[INH-TAB].[PAG], [INH-TAB].[OBJEKT], [INH-TAB].[INHNR] DESC, [INH-TAB].[ID], [INH-TAB].[INCIPIT], [INH-TAB].[AUTORREALNAME], [INH-TAB].[AUTOR]"/>
+<od:tableProperty name="OrderBy" type="12" value="[INH-TAB].[AUTORREALNAME], [INH-TAB].[PAG], [INH-TAB].[OBJEKT], [INH-TAB].[INHNR] DESC, [INH-TAB].[ID], [INH-TAB].[INCIPIT], [INH-TAB].[AUTOR]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>

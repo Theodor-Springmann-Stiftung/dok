@@ -8,12 +8,14 @@ using System.Xml.Serialization;
 using System.Xml;
 using MusenalmConverter.Models.AlteDBXML;
 using MusenalmConverter.Models.NeueDBXML;
+using System.Text;
 
 const string DATADIR = "./source/data/";
 const string NORMDIR = "./source/norm/";
 const string RDADIR = "./sorce/RDA/";
 const string DESTDIR = "./dist/";
 const string LOGFILE = "./log.txt";
+const string REIHENFILE = "./reihen.txt";
 const string SCHEMAFILENAME = "Schema.xsd";
 var log = LogSink.Instance;
 unifySchemata(NORMDIR, DESTDIR + SCHEMAFILENAME);
@@ -21,6 +23,7 @@ log.SetFile(LOGFILE);
 var data = getDATA();
 var oldDB = new AlteDBXMLLibrary(data);
 var newDB = new NeueDBXMLLibrary(data, oldDB);
+exportReihen(newDB, REIHENFILE);
 newDB.Save(DESTDIR, DESTDIR + SCHEMAFILENAME);
 
 IEnumerable<DATAFile> getDATA() {
@@ -116,6 +119,18 @@ void germanizeRDA() {
             .Remove();
         document.Save(f.Substring(0, f.Length-4) + "DEUTSCH.xml", SaveOptions.None);
     }
+}
+
+void exportReihen(NeueDBXMLLibrary library, string outpath) {
+    var rs = library.Reihen.OrderBy(x => x.Sortiername).ThenBy(x => x.ID);
+    var bs = library.Baende.ToDictionary(x => x.ID);
+    var reld = library.RELATION_BaendeReihen.ToLookup(x => x.Reihe);
+    var sb = new StringBuilder();
+    foreach (var r in rs) {
+        sb.AppendLine(r.Sortiername);
+    }
+
+    System.IO.File.WriteAllText(outpath, sb.ToString());
 }
 
 public class DATAFile {

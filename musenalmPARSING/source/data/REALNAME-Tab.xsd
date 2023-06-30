@@ -29,7 +29,7 @@
 <od:tableProperty name="TabularCharSet" type="2" value="0"/>
 <od:tableProperty name="TabularFamily" type="2" value="34"/>
 <od:tableProperty name="DatasheetForeColor" type="4" value="33554432"/>
-<od:tableProperty name="Filter" type="12" value="([REALNAME-Tab].[Beitrag] Like &quot;*Hrsg*&quot;)"/>
+<od:tableProperty name="Filter" type="12" value="([REALNAME-Tab].[REALNAME] Like &quot;*perger*&quot;)"/>
 <od:tableProperty name="GUID" type="9" value="UVCh9Hcy1kixFtk+W3TTTw==
 "/>
 <od:tableProperty name="DatasheetForeColor12" type="4" value="33554432"/>
@@ -99,7 +99,7 @@
 <xsd:element name="Nachweis" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="2280"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3435"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="3"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -153,7 +153,7 @@
 <xsd:element name="Pseudonym" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="5925"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="4320"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="5"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
