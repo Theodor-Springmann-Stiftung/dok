@@ -1,191 +1,63 @@
-27.06.2023 10:26:16 Log MusenalmDB
-27.06.2023 10:26:19 Name Fratrel, Joseph d. Ä nicht gefunden. Herkunft: REALNAME-Tab Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb
-27.06.2023 10:26:19 Name Müller, Wilhelmine (geb. Maisch) nicht gefunden. Herkunft: AlmNeu Nr. 316
-27.06.2023 10:26:19 Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: AlmNeu Nr. 723
-27.06.2023 10:26:19 Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
-27.06.2023 10:26:19 Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1475
-27.06.2023 10:26:19 Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1781
-27.06.2023 10:26:19 Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-27.06.2023 10:26:19 Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-27.06.2023 10:26:19 Objektzähler  unzulässig. Herkunft INHNR 7498
-27.06.2023 10:26:19 Paginierung 1192,01, INHNR 7697 unzulässig.
-27.06.2023 10:26:19 Objektzähler  unzulässig. Herkunft INHNR 8721
-27.06.2023 10:26:19 Objektzähler  unzulässig. Herkunft INHNR 6824
-27.06.2023 10:26:19 Objektzähler  unzulässig. Herkunft INHNR 7834
-27.06.2023 10:26:19 Objektzähler  unzulässig. Herkunft INHNR 9166
-27.06.2023 10:26:22 Paginierung 57, INHNR 107067 unzulässig.
-27.06.2023 10:26:22 Band 22222 existiert nicht. Herkunft: INHNR 114861
-27.06.2023 10:26:22 Band 409364 existiert nicht. Herkunft: INHNR 117649
-27.06.2023 10:26:23 Band 44643 existiert nicht. Herkunft: INHNR 121658
-27.06.2023 10:26:23 Band 409926 existiert nicht. Herkunft: INHNR 122270
-27.06.2023 10:26:23 Objektzähler  unzulässig. Herkunft INHNR 126686
-27.06.2023 10:26:23 Band 4886 existiert nicht. Herkunft: INHNR 124330
-27.06.2023 10:26:23 Band 55555 existiert nicht. Herkunft: INHNR 128147
-27.06.2023 10:26:23 Objektzähler  unzulässig. Herkunft INHNR 127106
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131743
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131804
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131805
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131806
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131807
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131808
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131809
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131810
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131811
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131812
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131813
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131814
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131815
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131816
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131817
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131818
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131819
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131820
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131821
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131822
-27.06.2023 10:26:23 Band 404102 existiert nicht. Herkunft: INHNR 131823
-27.06.2023 10:26:23 Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  3947
-27.06.2023 10:26:23 Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  3947
-27.06.2023 10:26:23 Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1881
-27.06.2023 10:26:23 Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  4056
-27.06.2023 10:26:23 Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  924
-27.06.2023 10:26:23 Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58081
-27.06.2023 10:26:23 Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  11052
-27.06.2023 10:26:23 Name Batsányi, Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  14244
-27.06.2023 10:26:23 Name geb. Baumberg von nicht gefunden. Herkunft: Inhalte INHNR  14244
-27.06.2023 10:26:23 Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24802
-27.06.2023 10:26:23 Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31486
-27.06.2023 10:26:23 Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35904
-27.06.2023 10:26:24 Name Verhelst, Egid (d. Jüng) nicht gefunden. Herkunft: Inhalte INHNR  59841
-27.06.2023 10:26:24 Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: Inhalte INHNR  85431
-27.06.2023 10:26:24 Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9339
-27.06.2023 10:26:24 Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33881
-27.06.2023 10:26:24 Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
-27.06.2023 10:26:25 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74539
-
-27.06.2023 10:35:26 Log MusenalmDB
-27.06.2023 10:35:30 Name Fratrel, Joseph d. Ä nicht gefunden. Herkunft: REALNAME-Tab Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb
-27.06.2023 10:35:30 Name Müller, Wilhelmine (geb. Maisch) nicht gefunden. Herkunft: AlmNeu Nr. 316
-27.06.2023 10:35:30 Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: AlmNeu Nr. 723
-27.06.2023 10:35:30 Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
-27.06.2023 10:35:30 Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1475
-27.06.2023 10:35:30 Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1781
-27.06.2023 10:35:30 Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-27.06.2023 10:35:30 Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-27.06.2023 10:35:30 Objektzähler  unzulässig. Herkunft INHNR 7498
-27.06.2023 10:35:30 Paginierung 1192,01, INHNR 7697 unzulässig.
-27.06.2023 10:35:30 Objektzähler  unzulässig. Herkunft INHNR 8721
-27.06.2023 10:35:30 Objektzähler  unzulässig. Herkunft INHNR 6824
-27.06.2023 10:35:30 Objektzähler  unzulässig. Herkunft INHNR 7834
-27.06.2023 10:35:30 Objektzähler  unzulässig. Herkunft INHNR 9166
-27.06.2023 10:35:32 Paginierung 57, INHNR 107067 unzulässig.
-27.06.2023 10:35:33 Band 22222 existiert nicht. Herkunft: INHNR 114861
-27.06.2023 10:35:33 Band 409364 existiert nicht. Herkunft: INHNR 117649
-27.06.2023 10:35:33 Band 44643 existiert nicht. Herkunft: INHNR 121658
-27.06.2023 10:35:33 Band 409926 existiert nicht. Herkunft: INHNR 122270
-27.06.2023 10:35:33 Objektzähler  unzulässig. Herkunft INHNR 126686
-27.06.2023 10:35:33 Band 4886 existiert nicht. Herkunft: INHNR 124330
-27.06.2023 10:35:33 Band 55555 existiert nicht. Herkunft: INHNR 128147
-27.06.2023 10:35:33 Objektzähler  unzulässig. Herkunft INHNR 127106
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131743
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131804
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131805
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131806
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131807
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131808
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131809
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131810
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131811
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131812
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131813
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131814
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131815
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131816
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131817
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131818
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131819
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131820
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131821
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131822
-27.06.2023 10:35:33 Band 404102 existiert nicht. Herkunft: INHNR 131823
-27.06.2023 10:35:33 Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  3947
-27.06.2023 10:35:33 Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  3947
-27.06.2023 10:35:33 Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1881
-27.06.2023 10:35:34 Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  4056
-27.06.2023 10:35:34 Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  924
-27.06.2023 10:35:34 Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58081
-27.06.2023 10:35:34 Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  11052
-27.06.2023 10:35:34 Name Batsányi, Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  14244
-27.06.2023 10:35:34 Name geb. Baumberg von nicht gefunden. Herkunft: Inhalte INHNR  14244
-27.06.2023 10:35:34 Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24802
-27.06.2023 10:35:34 Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31486
-27.06.2023 10:35:34 Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35904
-27.06.2023 10:35:34 Name Verhelst, Egid (d. Jüng) nicht gefunden. Herkunft: Inhalte INHNR  59841
-27.06.2023 10:35:35 Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: Inhalte INHNR  85431
-27.06.2023 10:35:35 Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9339
-27.06.2023 10:35:35 Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33881
-27.06.2023 10:35:35 Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
-27.06.2023 10:35:35 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74539
-
-30.06.2023 12:40:18 Log MusenalmDB
-30.06.2023 12:40:22 Name Fratrel, Joseph d. Ä nicht gefunden. Herkunft: REALNAME-Tab Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb
-30.06.2023 12:40:22 Name Müller, Wilhelmine (geb. Maisch) nicht gefunden. Herkunft: AlmNeu Nr. 316
-30.06.2023 12:40:22 Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: AlmNeu Nr. 723
-30.06.2023 12:40:22 Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
-30.06.2023 12:40:22 Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1475
-30.06.2023 12:40:22 Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1781
-30.06.2023 12:40:22 Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-30.06.2023 12:40:22 Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1837
-30.06.2023 12:40:22 Objektzähler  unzulässig. Herkunft INHNR 7498
-30.06.2023 12:40:22 Paginierung 1192,01, INHNR 7697 unzulässig.
-30.06.2023 12:40:22 Objektzähler  unzulässig. Herkunft INHNR 8721
-30.06.2023 12:40:22 Objektzähler  unzulässig. Herkunft INHNR 6824
-30.06.2023 12:40:22 Objektzähler  unzulässig. Herkunft INHNR 7834
-30.06.2023 12:40:22 Objektzähler  unzulässig. Herkunft INHNR 9166
-30.06.2023 12:40:24 Paginierung 57, INHNR 107067 unzulässig.
-30.06.2023 12:40:25 Band 22222 existiert nicht. Herkunft: INHNR 114861
-30.06.2023 12:40:25 Band 409364 existiert nicht. Herkunft: INHNR 117649
-30.06.2023 12:40:25 Band 44643 existiert nicht. Herkunft: INHNR 121658
-30.06.2023 12:40:25 Band 409926 existiert nicht. Herkunft: INHNR 122270
-30.06.2023 12:40:25 Objektzähler  unzulässig. Herkunft INHNR 126686
-30.06.2023 12:40:25 Band 4886 existiert nicht. Herkunft: INHNR 124330
-30.06.2023 12:40:25 Band 55555 existiert nicht. Herkunft: INHNR 128147
-30.06.2023 12:40:25 Objektzähler  unzulässig. Herkunft INHNR 127106
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131743
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131804
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131805
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131806
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131807
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131808
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131809
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131810
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131811
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131812
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131813
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131814
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131815
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131816
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131817
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131818
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131819
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131820
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131821
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131822
-30.06.2023 12:40:25 Band 404102 existiert nicht. Herkunft: INHNR 131823
-30.06.2023 12:40:25 Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  3947
-30.06.2023 12:40:25 Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  3947
-30.06.2023 12:40:26 Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1881
-30.06.2023 12:40:26 Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  4056
-30.06.2023 12:40:26 Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  924
-30.06.2023 12:40:26 Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58081
-30.06.2023 12:40:26 Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  11052
-30.06.2023 12:40:26 Name Batsányi, Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  14244
-30.06.2023 12:40:26 Name geb. Baumberg von nicht gefunden. Herkunft: Inhalte INHNR  14244
-30.06.2023 12:40:26 Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24802
-30.06.2023 12:40:26 Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31486
-30.06.2023 12:40:26 Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35904
-30.06.2023 12:40:26 Name Verhelst, Egid (d. Jüng) nicht gefunden. Herkunft: Inhalte INHNR  59841
-30.06.2023 12:40:27 Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: Inhalte INHNR  85431
-30.06.2023 12:40:27 Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9339
-30.06.2023 12:40:27 Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33881
-30.06.2023 12:40:27 Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
-30.06.2023 12:40:27 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74539
+13.07.2023 12:29:53 Log MusenalmDB
+13.07.2023 12:29:56 Name Fratrel, Joseph d. Ä nicht gefunden. Herkunft: REALNAME-Tab Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb
+13.07.2023 12:29:56 Name Müller, Wilhelmine (geb. Maisch) nicht gefunden. Herkunft: AlmNeu Nr. 316
+13.07.2023 12:29:56 Name Wysz, Johann Rudolph (der Jüngere) nicht gefunden. Herkunft: AlmNeu Nr. 723
+13.07.2023 12:29:56 Name Kön. Preuß. Kalender-Deputation nicht gefunden. Herkunft: AlmNeu Nr. 875
+13.07.2023 12:29:56 Name Gretschel,  Johann Christian nicht gefunden. Herkunft: AlmNeu Nr. 1475
+13.07.2023 12:29:56 Name Vogl, Johann Nepumuk nicht gefunden. Herkunft: AlmNeu Nr. 1781
+13.07.2023 12:29:56 Name Leonhardt-Lyser, Caroline nicht gefunden. Herkunft: AlmNeu Nr. 1837
+13.07.2023 12:29:56 Name auch: Pierson, Karoline nicht gefunden. Herkunft: AlmNeu Nr. 1837
+13.07.2023 12:29:57 Objektzähler  unzulässig. Herkunft INHNR 7498
+13.07.2023 12:29:57 Paginierung 1192,01, INHNR 7697 unzulässig.
+13.07.2023 12:29:57 Objektzähler  unzulässig. Herkunft INHNR 8721
+13.07.2023 12:29:57 Objektzähler  unzulässig. Herkunft INHNR 6824
+13.07.2023 12:29:57 Objektzähler  unzulässig. Herkunft INHNR 7834
+13.07.2023 12:29:57 Objektzähler  unzulässig. Herkunft INHNR 9166
+13.07.2023 12:29:59 Paginierung 57, INHNR 107067 unzulässig.
+13.07.2023 12:29:59 Band 22222 existiert nicht. Herkunft: INHNR 114861
+13.07.2023 12:29:59 Band 409364 existiert nicht. Herkunft: INHNR 117649
+13.07.2023 12:30:00 Band 44643 existiert nicht. Herkunft: INHNR 121658
+13.07.2023 12:30:00 Band 409926 existiert nicht. Herkunft: INHNR 122270
+13.07.2023 12:30:00 Objektzähler  unzulässig. Herkunft INHNR 126686
+13.07.2023 12:30:00 Band 4886 existiert nicht. Herkunft: INHNR 124330
+13.07.2023 12:30:00 Band 55555 existiert nicht. Herkunft: INHNR 128147
+13.07.2023 12:30:00 Objektzähler  unzulässig. Herkunft INHNR 127106
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131743
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131804
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131805
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131806
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131807
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131808
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131809
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131810
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131811
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131812
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131813
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131814
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131815
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131816
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131817
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131818
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131819
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131820
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131821
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131822
+13.07.2023 12:30:00 Band 404102 existiert nicht. Herkunft: INHNR 131823
+13.07.2023 12:30:00 Name Kretschmann nicht gefunden. Herkunft: Inhalte INHNR  3947
+13.07.2023 12:30:00 Name Karl Friedrich nicht gefunden. Herkunft: Inhalte INHNR  3947
+13.07.2023 12:30:00 Name Kalckreuth, Friedrich Ernst Adolf Karl von nicht gefunden. Herkunft: Inhalte INHNR  1881
+13.07.2023 12:30:00 Name Heeren, Arnold Hermann Ludwig nicht gefunden. Herkunft: Inhalte INHNR  4056
+13.07.2023 12:30:00 Name Woltmann, Karl Ludwig nicht gefunden. Herkunft: Inhalte INHNR  924
+13.07.2023 12:30:00 Name Grossmann, Julie Florentine von nicht gefunden. Herkunft: Inhalte INHNR  58081
+13.07.2023 12:30:00 Name Jünger , Johann Friedrich nicht gefunden. Herkunft: Inhalte INHNR  11052
+13.07.2023 12:30:00 Name Batsányi, Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  14244
+13.07.2023 12:30:00 Name geb. Baumberg von nicht gefunden. Herkunft: Inhalte INHNR  14244
+13.07.2023 12:30:00 Name Pfizer, Paul Achatius nicht gefunden. Herkunft: Inhalte INHNR  24802
+13.07.2023 12:30:00 Name Baumberg, Anna Gabriele von nicht gefunden. Herkunft: Inhalte INHNR  31486
+13.07.2023 12:30:01 Name Abeille, Johann Christian nicht gefunden. Herkunft: Inhalte INHNR  35904
+13.07.2023 12:30:01 Name Verhelst, Egid (d. Jüng) nicht gefunden. Herkunft: Inhalte INHNR  59841
+13.07.2023 12:30:01 Name Saphir, Moritz Gottlieb nicht gefunden. Herkunft: Inhalte INHNR  85431
+13.07.2023 12:30:02 Name Delvaux Marie Auguste nicht gefunden. Herkunft: Inhalte INHNR  9339
+13.07.2023 12:30:02 Name Riepenhausen, Franz; Riepenhausen, Johannes nicht gefunden. Herkunft: Inhalte INHNR  33881
+13.07.2023 12:30:02 Name Sonderland, Johann Baptist nicht gefunden. Herkunft: Inhalte INHNR  30574
+13.07.2023 12:30:02 Name Christian Friedrich Traugott nicht gefunden. Herkunft: Inhalte INHNR  74539
