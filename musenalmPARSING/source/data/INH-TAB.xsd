@@ -26,7 +26,7 @@
 <od:tableProperty name="FrozenColumns" type="3" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
-<od:tableProperty name="Filter" type="12" value="([INH-TAB].[ID]=404102)"/>
+<od:tableProperty name="Filter" type="12" value="([INH-TAB].[INHNR]=117649)"/>
 <od:tableProperty name="GUID" type="9" value="XMeclle0c0uOt4bpTVE3Hg==
 "/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -42,7 +42,7 @@
 <od:tableProperty name="AlternateBackShade" type="6" value="100"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="-1"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="-1"/>
-<od:tableProperty name="OrderBy" type="12" value="[INH-TAB].[AUTORREALNAME], [INH-TAB].[PAG], [INH-TAB].[OBJEKT], [INH-TAB].[INHNR] DESC, [INH-TAB].[ID], [INH-TAB].[INCIPIT], [INH-TAB].[AUTOR]"/>
+<od:tableProperty name="OrderBy" type="12" value="[INH-TAB].[ID] DESC, [INH-TAB].[INHNR] DESC, [INH-TAB].[AUTORREALNAME] DESC, [INH-TAB].[PAG], [INH-TAB].[OBJEKT], [INH-TAB].[INCIPIT], [INH-TAB].[AUTOR]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -69,7 +69,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="3210"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="2"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
@@ -106,7 +106,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="4110"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="3"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
@@ -132,7 +132,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="870"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="4"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="2"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -150,7 +150,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="4920"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="5"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
@@ -175,8 +175,8 @@
 <xsd:element name="INHNR" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int">
 <xsd:annotation>
 <xsd:appinfo>
-<od:fieldProperty name="ColumnWidth" type="3" value="780"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="3420"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="6"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="Fxc+BXNHIke1aSRp5BY0tA==
 "/>
@@ -191,7 +191,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="4710"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="7"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
@@ -217,7 +217,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="3825"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="8"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="1"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="0"/>
@@ -255,7 +255,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="4755"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="9"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Caption" type="12" value="AUTORREALNAME"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -293,7 +293,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1005"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="10"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DefaultValue" type="12" value="&quot;ar&quot;"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
@@ -330,7 +330,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1455"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="11"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="2"/>
 <od:fieldProperty name="DefaultValue" type="12" value="0"/>
@@ -349,7 +349,7 @@
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="1485"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="12"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Format" type="10" value="Yes/No"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

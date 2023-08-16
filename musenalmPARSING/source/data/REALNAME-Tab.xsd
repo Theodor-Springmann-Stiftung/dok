@@ -29,7 +29,7 @@
 <od:tableProperty name="TabularCharSet" type="2" value="0"/>
 <od:tableProperty name="TabularFamily" type="2" value="34"/>
 <od:tableProperty name="DatasheetForeColor" type="4" value="33554432"/>
-<od:tableProperty name="Filter" type="12" value="([REALNAME-Tab].[REALNAME] Like &quot;*perger*&quot;)"/>
+<od:tableProperty name="Filter" type="12" value="([REALNAME-Tab].[REALNAME] Like &quot;*Maisch*&quot;)"/>
 <od:tableProperty name="GUID" type="9" value="UVCh9Hcy1kixFtk+W3TTTw==
 "/>
 <od:tableProperty name="DatasheetForeColor12" type="4" value="33554432"/>

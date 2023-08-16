@@ -560,14 +560,14 @@ public class NeueDBXMLLibrary {
         Inhalte = inhalte;
     }
 
-    public void Save(string fileroot, string schemafile) {
+    public void Save(string fileroot, XDocument? schemafile) {
         if (Directory.Exists(fileroot)) Directory.Delete(fileroot, true);
         Directory.CreateDirectory(fileroot);
         SaveFile(fileroot, schemafile);
     }
 
-    private void SaveFile(string fileroot, string schemafile) {
-        var writer = XmlWriter.Create(fileroot + "Gesamt.xml", new XmlWriterSettings() {
+    private void SaveFile(string fileroot, XDocument? schemafile) {
+        var writer = XmlWriter.Create(fileroot + "NDB.xml", new XmlWriterSettings() {
             Indent = true,
             NewLineOnAttributes = false,
             NewLineHandling = NewLineHandling.None, 
@@ -577,8 +577,11 @@ public class NeueDBXMLLibrary {
         // ns.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
-        writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
-        writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, schemafile);
+        if (schemafile != null) {
+            writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
+            writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "NeuesXMLSchema.xsd");
+            schemafile.Save(fileroot +  "NeuesXMLSchema.xsd");
+        }
         saveDocument<Akteure>(writer, Akteure, ns);
         saveDocument<Orte>(writer, Orte, ns);
         saveDocument<Reihen>(writer, Reihen, ns);

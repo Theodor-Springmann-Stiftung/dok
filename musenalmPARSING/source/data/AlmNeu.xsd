@@ -31,7 +31,7 @@
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="OrderBy" type="12" value="[AlmNeu].[NUMMER], [AlmNeu].[BEARBEITET AM] DESC, [AlmNeu].[REIHENTITEL], [AlmNeu].[HERAUSGEBER] DESC"/>
-<od:tableProperty name="Filter" type="12" value="([AlmNeu].[ORT] Like &quot;**[**&quot;)"/>
+<od:tableProperty name="Filter" type="12" value="([AlmNeu].[HRSGREALNAME] Like &quot;*spahir*&quot;)"/>
 <od:tableProperty name="GUID" type="9" value="g5v+tKqEm0iB3qdmtR/f3w==
 "/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>

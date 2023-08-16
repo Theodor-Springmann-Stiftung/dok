@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2023-07-13T12:27:42">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="REALNAME-Tab.xsd" generated="2023-08-16T06:49:29">
 <REALNAME-Tab>
 <REALNAME>Schiavoni, Natale</REALNAME>
 <Daten>1777–1858</Daten>
@@ -2612,13 +2612,13 @@
 <Pseudonym>Wilhelmine Willmar</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
-<REALNAME>Fratrel, Joseph d. Ä.</REALNAME>
+<REALNAME>Fratel, Joseph d. Ä.</REALNAME>
 <Daten>1730-1783</Daten>
 <Nachweis>T/B XII, 397</Nachweis>
 <Beitrag>Graphik</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
-<REALNAME>Fratrel, Joseph d. Ä u. Geyser, Christian Gottlieb</REALNAME>
+<REALNAME>Fratel, Joseph d. Ä. u. Geyser, Christian Gottlieb</REALNAME>
 <Beitrag>Graphik</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>

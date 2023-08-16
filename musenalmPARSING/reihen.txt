@@ -914,6 +914,7 @@ Taschenbuch für die Gesundheit (Erlangen)
 Taschenbuch für die Haus- und Landwirthschaft
 Taschenbuch für die Kinder Israels
 Taschenbuch für die neuste Geschichte (Posselt)
+Taschenbuch für die neuste Literatur und Philosophie
 Taschenbuch für die physische Erziehung der Kinder
 Taschenbuch für die Schaubühne s. u. Theater-Kalender (Gotha)
 Taschenbuch für die vaterländische Geschichte
@@ -1084,6 +1085,7 @@ Taschenbuch, Literarhistorisches (Prutz)
 Taschenbuch, Mahlerisches für Freunde interessanter Gegenden
 Taschenbuch, Marburger für Geschichte [...] der Steiermark
 Taschenbuch, Maurerisches
+Taschenbuch, Medicinisches für Hypochondristen und solche, die es zu werden befürchten dürfen
 Taschenbuch, Militärisches (Berlin)
 Taschenbuch, Militärisches (Leipzig)
 Taschenbuch, Moralisches
@@ -1266,6 +1268,7 @@ Viola (Pustkuchen-Glanzow)
 Volks-Kalender, Deutscher und Jahrbuch. Insbesondere zum Gebrauch für Israeliten
 Volksbote, Der
 Volkskalender, Gemeinnützig-unterhaltender für das Königl. Preuß. Rheinland-Westphalen
+Volkskalender, Neuer
 Von der Isar
 Vor und hinter den Coulissen. Almanach erprobter Bühnenspiele
 Vortheile der Aufhebung des Gesetzes des Cölibats, oder Briefwechsel zweyer katholischen Geistlichen über diesen Gegenstand, als Taschenbuch für das Jahr
@@ -1280,7 +1283,7 @@ Weihnachtsgabe für Hamburg
 Weihnachtsgabe für Knaben und Mädchen
 Weihnachtsgabe zum Besten der Wasserbeschädigten in der Schweiz
 Weihnachtsgeschenk für junge Leute und muntere Gesellschaften
-Wilhelm und Luise. Ein Taschenbuch (Geßner)
+Wilhelm und Luise
 Wintergarten, Der
 Wintergrün
 Witz- und Lach- Almanach, Humoristisch-jocoser

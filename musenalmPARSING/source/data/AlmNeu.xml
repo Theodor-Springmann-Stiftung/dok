@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2023-07-13T12:26:33">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="AlmNeu.xsd" generated="2023-08-16T06:48:30">
 <AlmNeu>
 <NUMMER>1</NUMMER>
 <BIBLIO-NR>100873</BIBLIO-NR>
@@ -3053,17 +3053,24 @@
 </AlmNeu>
 <AlmNeu>
 <NUMMER>152</NUMMER>
-<BIBLIO-NR>0</BIBLIO-NR>
+<BIBLIO-NR>105972</BIBLIO-NR>
+<ALM-TITEL>Goettinger Taschen / CALENDER / vom Jahr / 1778 / bey Joh. Chr. Dieterich</ALM-TITEL>
 <REIHENTITEL>Taschenkalender, Göttinger 1778</REIHENTITEL>
 <ORT>Göttingen (J. C. Dieterich)</ORT>
 <JAHR>1778</JAHR>
+<HERAUSGEBER>unbezeichnet</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2000-11-30T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<AUTOPSIE>0</AUTOPSIE>
-<VORHANDEN>0</VORHANDEN>
+<ANMERKUNGEN>erster von Lichtenberg herausgegebener Jahrgang des Göttinger Taschenkalender; mit dem Beitrag »Über Physionomik [sic!]« INr 132558; Obj 28</ANMERKUNGEN>
+<AUTOPSIE>1</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 154; L/R 15</NACHWEIS>
+<STRUKTUR>UG, gT, 10 GG, 55 SS Kal darin 12 GG, ar: SS 1-88 Tabb, ar1: SS 1-96 darin SS 24-31 G-Verz, SS 96-98 I-Verz, S 98 VrlgM, B Nwrt d Vrlgr, 2 BB</STRUKTUR>
+<NORM>~</NORM>
 <ID>0</ID>
-<VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+<VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Lichtenberg, Georg Christoph</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>153</NUMMER>
@@ -8694,7 +8701,7 @@
 <JAHR>1802</JAHR>
 <HERAUSGEBER>Wilhelmine Müller</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2002-05-23T00:00:00</BEARBEITET_x0020_AM>
-<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
+<BEARBEITET_x0020_VON>jb</BEARBEITET_x0020_VON>
 <AUTOPSIE>1</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
@@ -8703,7 +8710,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Müller, Wilhelmine (geb. Maisch)</HRSGREALNAME>
+<HRSGREALNAME>Müller geb. Maisch, Wilhelmine</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>317</NUMMER>
@@ -8723,7 +8730,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Müller, Wilhelmine (geb. Maisch)</HRSGREALNAME>
+<HRSGREALNAME>Müller geb. Maisch, Wilhelmine</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>318</NUMMER>
@@ -8757,7 +8764,7 @@
 <NORM>~ +++ 200920</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Müller, Wilhelmine (geb. Maisch)</HRSGREALNAME>
+<HRSGREALNAME>Müller geb. Maisch, Wilhelmine</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>320</NUMMER>
@@ -8777,7 +8784,7 @@
 <NORM>~ +++ 407446: Titelgraphik</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Müller, Wilhelmine (geb. Maisch)</HRSGREALNAME>
+<HRSGREALNAME>Müller geb. Maisch, Wilhelmine</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>321</NUMMER>
@@ -8797,7 +8804,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Müller, Wilhelmine (geb. Maisch)</HRSGREALNAME>
+<HRSGREALNAME>Müller geb. Maisch, Wilhelmine</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>322</NUMMER>
@@ -16593,7 +16600,7 @@
 <NORM>~ +++ 100076</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>724</NUMMER>
@@ -16613,7 +16620,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>725</NUMMER>
@@ -16633,7 +16640,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>726</NUMMER>
@@ -16653,7 +16660,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>727</NUMMER>
@@ -16673,7 +16680,7 @@
 <NORM>~+++411084 (Graphik, variante UG))</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>728</NUMMER>
@@ -16693,7 +16700,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>729</NUMMER>
@@ -16713,7 +16720,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>730</NUMMER>
@@ -16733,7 +16740,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>731</NUMMER>
@@ -16753,7 +16760,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>732</NUMMER>
@@ -16773,7 +16780,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>733</NUMMER>
@@ -16793,7 +16800,7 @@
 <NORM>~ +++ 404116, +++404289</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>734</NUMMER>
@@ -16813,7 +16820,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>735</NUMMER>
@@ -16833,7 +16840,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>736</NUMMER>
@@ -16853,7 +16860,7 @@
 <NORM>~ +++ 100036</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>737</NUMMER>
@@ -16873,7 +16880,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Meisner, Karl Friedrich August; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>738</NUMMER>
@@ -16893,7 +16900,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>739</NUMMER>
@@ -16932,7 +16939,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>741</NUMMER>
@@ -16952,7 +16959,7 @@
 <NORM>~ +++ 200306</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>742</NUMMER>
@@ -16973,7 +16980,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (der Jüngere)</HRSGREALNAME>
+<HRSGREALNAME>Kuhn, Gottlieb Jakob; Wysz, Johann Rudolph (d. J.)</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>743</NUMMER>
@@ -19472,7 +19479,6 @@
 <NORM>~ +++409844 (3 Graphiken: Landschaften)</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Kön. Preuß. Kalender-Deputation</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>876</NUMMER>
@@ -29840,7 +29846,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Gretschel,  Johann Christian</HRSGREALNAME>
+<HRSGREALNAME>Gretschel, Johann Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1476</NUMMER>
@@ -29854,7 +29860,7 @@
 <NACHWEIS>K 17; L/R 207</NACHWEIS>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Gretschel,  Johann Christian</HRSGREALNAME>
+<HRSGREALNAME>Gretschel, Johann Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1477</NUMMER>
@@ -34298,7 +34304,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Vogl, Johann Nepumuk</HRSGREALNAME>
+<HRSGREALNAME>Vogl, Johann Nepomuk</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1782</NUMMER>
@@ -34318,7 +34324,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Vogl, Johann Nepumuk</HRSGREALNAME>
+<HRSGREALNAME>Vogl, Johann Nepomuk</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1783</NUMMER>
@@ -34338,7 +34344,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Vogl, Johann Nepumuk</HRSGREALNAME>
+<HRSGREALNAME>Vogl, Johann Nepomuk</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1784</NUMMER>
@@ -35354,7 +35360,7 @@
 <NACHWEIS>K 56; nicht bei L/R</NACHWEIS>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Leonhardt-Lyser, Caroline; auch: Pierson, Karoline</HRSGREALNAME>
+<HRSGREALNAME>Leonhardt-Lyser, Caroline. Auch: Pierson, Karoline</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1838</NUMMER>
@@ -35372,7 +35378,7 @@
 <NACHWEIS>K 56; nicht bei L/R</NACHWEIS>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Leonhardt-Lyser, Caroline; auch: Pierson, Karoline</HRSGREALNAME>
+<HRSGREALNAME>Leonhardt-Lyser, Caroline. Auch: Pierson, Karoline</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>1839</NUMMER>
@@ -61511,17 +61517,24 @@
 </AlmNeu>
 <AlmNeu>
 <NUMMER>3329</NUMMER>
-<BIBLIO-NR>0</BIBLIO-NR>
+<BIBLIO-NR>405856</BIBLIO-NR>
+<ALM-TITEL>Das Veilchen / Ein Taschenbuch / guten Menschen / geweiht / von / Joh. Carl Unger. / Erster Jahrgang / 1818. / WIEN / bey Jos Riedl bürgl. Buchbinder im Schottenhof</ALM-TITEL>
 <REIHENTITEL>Veilchen, Das 1818</REIHENTITEL>
+<ORT>Wien (Riedl)</ORT>
 <JAHR>1818</JAHR>
+<HERAUSGEBER>Johann Carl Unger</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2010-03-08T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
 <ANMERKUNGEN>Jgg 1818-1851 [Jg 1851 vorh., nicht bei K 164, Goed VIII. 98, 201]; Wien; 1831, 1837: Wien (Buchholz), 1845, 1846, 1849, 1851: Wien (Riedl); Goed VIII. 98, 201 und K 164 geben als Hrsgg J. C. Unger, Fr. Gräffer und J. G. Seidl an /) vielleicht Vorläuferjahrgang: »Blüthen der Musen« 1816 (Riedl); alm 3724, vielleicht Folgepublikation: Taschenkalender, Wiener 1852 (Milde); alm 3723</ANMERKUNGEN>
-<AUTOPSIE>0</AUTOPSIE>
-<VORHANDEN>0</VORHANDEN>
+<AUTOPSIE>1</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 164; L/R 94; Goed VIII. 98, 201</NACHWEIS>
+<STRUKTUR>UG, UG, VB, verso G, T, 6 GG, 15 SS Kal darin 6 GG, 3 SS Tab, S 1 T, SS 2-120, 2 BB Tabb</STRUKTUR>
+<NORM>~</NORM>
 <ID>0</ID>
-<VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+<VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Unger, Johann Karl</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>3330</NUMMER>
@@ -65185,27 +65198,6 @@
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
 </AlmNeu>
 <AlmNeu>
-<NUMMER>3531</NUMMER>
-<BIBLIO-NR>200249</BIBLIO-NR>
-<ALM-TITEL>Wilhelm und Luise. / Ein / Taschenbuch für das Jahr 1811. / Herausgegeben / von / Geßner. / Wien und Triest / verlegt von Geistinger</ALM-TITEL>
-<REIHENTITEL>Wilhelm und Luise. Ein Taschenbuch (Geßner) 1811</REIHENTITEL>
-<ORT>Wien u. Triest (Geistinger)</ORT>
-<JAHR>1811</JAHR>
-<HERAUSGEBER>Geßner</HERAUSGEBER>
-<BEARBEITET_x0020_AM>2010-03-16T00:00:00</BEARBEITET_x0020_AM>
-<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN>so nicht bei Goed V. 451, 19, 6. Goed gibt Ausgabe Reutlingen 1812 an: Wilhelm und Luise, oder die Kunst in der Ehe glücklich zu seyn, ein goldner Spiegel für Eltern und Ehelustige. Reutlingen 1812 /) i. d. vorliegenden Ausgabe: nach S. 140: Druck und Papier von C. L. Brede in Offenbach /) 1813 weitere Veröffentlichung u. d. T.: Wilhelm und Luise. Herausgegeben von Gessner. Als Taschenbuch für das Jahr 1813. Tübingen, bei C. S. Blifers (Druck und Papier von C. F. Bofinger)</ANMERKUNGEN>
-<AUTOPSIE>1</AUTOPSIE>
-<VORHANDEN>1</VORHANDEN>
-<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
-<NACHWEIS>nicht bei K; nicht bei L/R; nicht bei Goed V. 451, 19, 6</NACHWEIS>
-<STRUKTUR>VB, S I T, SS III-VI W, SS VII-XVI Vrwrt d Hrsg, SS 1-140, S</STRUKTUR>
-<NORM>~</NORM>
-<ID>0</ID>
-<VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Geßner, Johann Georg</HRSGREALNAME>
-</AlmNeu>
-<AlmNeu>
 <NUMMER>3532</NUMMER>
 <BIBLIO-NR>100945</BIBLIO-NR>
 <ALM-TITEL>Der / Wintergarten. / Herausgegeben / von / St. Schütze. / Erster Band. / Frankfurt am Mayn / bei den Gebrüdern Wilmans. / 1816</ALM-TITEL>
@@ -67383,7 +67375,7 @@
 <NACHWEIS>K 175; nicht bei L/R</NACHWEIS>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Vogl, Johann Nepumuk</HRSGREALNAME>
+<HRSGREALNAME>Vogl, Johann Nepomuk</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>3668</NUMMER>
@@ -68422,7 +68414,7 @@
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
-<HRSGREALNAME>Gretschel,  Johann Christian</HRSGREALNAME>
+<HRSGREALNAME>Gretschel, Johann Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>3727</NUMMER>
@@ -79877,8 +79869,8 @@
 <JAHR>1801</JAHR>
 <HERAUSGEBER>Fr. N[oel]; P. B. Lamare</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2017-05-04T00:00:00</BEARBEITET_x0020_AM>
-<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN>G-C gibt 8 Jgg 1801-1809 an /) vorhanden: 1801, 1802, 1803, 1805, 1806: lt. Zählung 1.-5. année; wahrscheinlich erschien der Almanach noch 1807-1809</ANMERKUNGEN>
+<BEARBEITET_x0020_VON>jb</BEARBEITET_x0020_VON>
+<ANMERKUNGEN>G-C gibt 8 Jgg 1801-1809 an /) vorhanden: 1801, 1802, 1803, 1805, 1806: lt. Zählung 1.–5. année; wahrscheinlich erschien der Almanach noch 1807–1809</ANMERKUNGEN>
 <AUTOPSIE>0</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
@@ -87045,7 +87037,7 @@ Die erste Musikbeigabe verweist auf Textbezug »Palmerio« von L. Schefer, INr 2
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
 </AlmNeu>
 <AlmNeu>
-<NUMMER>0</NUMMER>
+<NUMMER>4846</NUMMER>
 <BIBLIO-NR>0</BIBLIO-NR>
 <REIHENTITEL>Taschenbuch der sächsischen Geschichte 1792 s. u. Geschichts-Almanach, Sächsischer 1792</REIHENTITEL>
 <BEARBEITET_x0020_AM>2023-05-17T00:00:00</BEARBEITET_x0020_AM>
@@ -87072,5 +87064,75 @@ Die erste Musikbeigabe verweist auf Textbezug »Palmerio« von L. Schefer, INr 2
 <NACHWEIS>K 143 #; L/R 145 #</NACHWEIS>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+</AlmNeu>
+<AlmNeu>
+<NUMMER>4845</NUMMER>
+<BIBLIO-NR>411367</BIBLIO-NR>
+<ALM-TITEL>Medicinisches / TASCHENBUCH / für / Hypochondristen / und Solche, / die es zu werden befürchten dürfen. / Zur Mäßigkeit ruft die Natur: wahr sind alle ihre Verhältnisse, / und ruhig alle ihre Wirkungen. Göthe / Breslau, Reinhard Schoene&apos;s Buchhandlung, 1824</ALM-TITEL>
+<REIHENTITEL>Taschenbuch, Medicinisches für Hypochondristen und solche, die es zu werden befürchten dürfen 1824</REIHENTITEL>
+<ORT>Breslau (Reinhard Schoene&apos;s Buchhandlung)</ORT>
+<JAHR>1824</JAHR>
+<HERAUSGEBER>unbezeichnet</HERAUSGEBER>
+<BEARBEITET_x0020_AM>2023-07-14T00:00:00</BEARBEITET_x0020_AM>
+<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
+<AUTOPSIE>0</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
+<NACHWEIS>K 136; nicht bei L/R</NACHWEIS>
+<ID>0</ID>
+<VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+</AlmNeu>
+<AlmNeu>
+<NUMMER>4848</NUMMER>
+<BIBLIO-NR>411368</BIBLIO-NR>
+<ALM-TITEL>Neuer / Volkskalender / auf / das Jahr 1795. / Mit Kupfern. / Hannover, / in der Hahnschen Buchhandlung. / 1795</ALM-TITEL>
+<REIHENTITEL>Volkskalender, Neuer 1795</REIHENTITEL>
+<ORT>Hannover (Hahn&apos;sche Buchhandlung)</ORT>
+<JAHR>1795</JAHR>
+<HERAUSGEBER>unbezeichnet</HERAUSGEBER>
+<BEARBEITET_x0020_AM>2023-07-14T00:00:00</BEARBEITET_x0020_AM>
+<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
+<AUTOPSIE>0</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
+<ID>0</ID>
+<VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+</AlmNeu>
+<AlmNeu>
+<NUMMER>4847</NUMMER>
+<BIBLIO-NR>411369</BIBLIO-NR>
+<ALM-TITEL>Taschenbuch / für die neuste / Literatur und Philosophie. /  / Am Schluß / eine kritische Revision unsrer bekanntesten Taschen-Allmanache / in Deutschland / enthaltend. / Multa quilibet cogitans / inveniet! / Just. Novell. 94. C. I. / Frankfurt und Leipzig, 1786</ALM-TITEL>
+<REIHENTITEL>Taschenbuch für die neuste Literatur und Philosophie 1786</REIHENTITEL>
+<ORT>Frankfurt und Leipzig</ORT>
+<JAHR>1786</JAHR>
+<HERAUSGEBER>unbezeichnet</HERAUSGEBER>
+<BEARBEITET_x0020_AM>2023-07-14T00:00:00</BEARBEITET_x0020_AM>
+<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
+<AUTOPSIE>0</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
+<NACHWEIS>K 135; nicht bei L/R; Goed IV. 1, 944</NACHWEIS>
+<ID>0</ID>
+<VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+</AlmNeu>
+<AlmNeu>
+<NUMMER>4849</NUMMER>
+<BIBLIO-NR>411370</BIBLIO-NR>
+<ALM-TITEL>Wilhelm und Luise. / Ein / Taschenbuch für das Jahr 1811. / Herausgegeben / von / Geßner. / Wien und Triest / verlegt von Geistinger</ALM-TITEL>
+<REIHENTITEL>Wilhelm und Luise 1811</REIHENTITEL>
+<ORT>Wien und Triest (Geistinger)</ORT>
+<JAHR>1811</JAHR>
+<HERAUSGEBER>Johannn Georg Geßner</HERAUSGEBER>
+<BEARBEITET_x0020_AM>2023-07-15T00:00:00</BEARBEITET_x0020_AM>
+<BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
+<ANMERKUNGEN>so nicht bei Goed V. 451, 19, 6. Goed gibt an: Wilhelm und Luise, oder die Kunst in der Ehe glücklich zu seyn, ein goldner Spiegel für Eltern und Ehelustige. Reutlingen 1812 /) außerdem vorhanden: als Wilhelm und Luise. Herausgegeben von Gessner. Als Taschenbuch für das Jahr 1813. Tübingen, bei C. S. Blifers</ANMERKUNGEN>
+<AUTOPSIE>1</AUTOPSIE>
+<VORHANDEN>1</VORHANDEN>
+<VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
+<NACHWEIS>Geßner, Johann Georg</NACHWEIS>
+<STRUKTUR>UG, S I T, SS III-VI BB W, SS VII-XVI Vrwrt d Hrsg, SS 1-140 darin 6 GG, S</STRUKTUR>
+<NORM>~</NORM>
+<ID>0</ID>
+<VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
 </AlmNeu>
 </dataroot>

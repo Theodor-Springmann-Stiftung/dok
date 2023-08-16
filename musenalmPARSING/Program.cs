@@ -8,23 +8,27 @@ using System.Xml.Serialization;
 using System.Xml;
 using MusenalmConverter.Models.AlteDBXML;
 using MusenalmConverter.Models.NeueDBXML;
+using MusenalmConverter.Models.MittelDBXML;
 using System.Text;
 
 const string DATADIR = "./source/data/";
 const string NORMDIR = "./source/norm/";
+const string MITTELDIR = "./source/mittel";
 const string RDADIR = "./sorce/RDA/";
 const string DESTDIR = "./dist/";
 const string LOGFILE = "./log.txt";
 const string REIHENFILE = "./reihen.txt";
-const string SCHEMAFILENAME = "Schema.xsd";
 var log = LogSink.Instance;
-unifySchemata(NORMDIR, DESTDIR + SCHEMAFILENAME);
+var nscheme = unifySchemata(NORMDIR);
+var mscheme = unifySchemata(MITTELDIR);
 log.SetFile(LOGFILE);
 var data = getDATA();
 var oldDB = new AlteDBXMLLibrary(data);
 var newDB = new NeueDBXMLLibrary(data, oldDB);
-exportReihen(newDB, REIHENFILE);
-newDB.Save(DESTDIR, DESTDIR + SCHEMAFILENAME);
+var mDB = new MittelDBXMLLibrary(data, oldDB);
+//exportReihen(newDB, REIHENFILE);
+newDB.Save(DESTDIR, nscheme);
+mDB.Save(DESTDIR, mscheme);
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATADIR;
@@ -69,8 +73,7 @@ void generateUniqueTagsValues(IEnumerable<DATAFile> files) {
     }
 }
 
-void unifySchemata(string inputfolder, string outputfile) {
-    if (File.Exists(outputfile)) File.Delete(outputfile);
+XDocument? unifySchemata(string inputfolder) {
     var xsds = Directory
             .EnumerateFiles(inputfolder, "*", SearchOption.AllDirectories)
             .Where(s => s.EndsWith(".xsd"))
@@ -98,9 +101,7 @@ void unifySchemata(string inputfolder, string outputfile) {
         }
     }
 
-    if (res != null) {
-        res.Save(outputfile);
-    }
+   return res;
 
 }
 
