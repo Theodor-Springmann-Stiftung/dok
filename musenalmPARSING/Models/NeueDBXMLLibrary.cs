@@ -222,7 +222,6 @@ public class NeueDBXMLLibrary {
                         
                         reihe = e.Replace(abschnitt, null);
                     }
-                    var rname = reihe.Split(',').Reverse();
                     if (!reihen.Contains(reihe)) reihen.Add(reihe);
                     reihenwerke[n.Value.NUMMER].Add(reihe);
                 }
