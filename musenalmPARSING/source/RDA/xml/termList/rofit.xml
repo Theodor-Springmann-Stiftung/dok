@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- Scheme: ROF Intermediation Tool -->
+    <skos:ConceptScheme rdf:about="http://rdaregistry.info/termList/rofit">
+        <dc:title xml:lang="en">ROF Intermediation Tool</dc:title>
+    <dc:description xml:lang="en">Concepts for a tool intended to be applied to the carrier to enable the content of the resource to be perceived.</dc:description>
+        <vann:preferredNamespacePrefix>rofit</vann:preferredNamespacePrefix>
+        
+        
+        
+        <dc:rights xml:lang="en">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.en_US"/>
+        <dc:creator>RDA Steering Committee</dc:creator>
+        <dc:contributor>RSC Technical Working Group</dc:contributor>
+        <dc:publisher>ALA Digital Reference</dc:publisher>
+        <dc:type rdf:resource="http://rdaregistry.info/termList/RDALinkedDataWork/1002"/>
+    
+        
+        
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</dc:issued>
+    
+        
+        
+    
+        
+        
+        <dc:title xml:lang="fi">ROFin välittävä laite</dc:title>
+        <dc:description xml:lang="fi">Käsitteet laite, joka on tarkoitettu tallenteen käyttöön aineiston sisällön vastaanottamiseksi.</dc:description>
+        <dc:rights xml:lang="fi">Copyright © 2020 American Library Association, Canadian Federation of Library Associations ja CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+    <dc:rights xml:lang="fr">Copyright © 2020 American Library Association, Fédération canadienne des associations de bibliothèques et CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        
+        <dc:title xml:lang="ar">أداة وساطة للإطار المشترك لتصنيف المصادر أونكس/ وام</dc:title>
+        <dc:description xml:lang="ar">مفاهيم للأداة المزمع تطبيقها على الناقل لكي يتسنى إدراك محتوى المصدر.</dc:description>
+        <dc:rights xml:lang="ar">حقوق النشر© 2020، جمعية المكتبات الأمريكية، والاتحاد الكندي لجمعيات المكتبات، والمعهد القانوني للمكتبات ومهنيي المعلومات</dc:rights>
+        <dc:title xml:lang="de">ROF-Vokabular für Vermittlungsgeräte</dc:title>
+        <dc:description xml:lang="de">Begriffe für ein Hilfsmittel, mit dem der Datenträger angewendet werden soll, damit der Inhalt der Ressource wahrgenommen werden kann.</dc:description>
+        <dc:rights xml:lang="de">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <owl:versionInfo>v5.0.12</owl:versionInfo>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-20</dc:modified>
+    </skos:ConceptScheme>
+
+<!-- Concept: audio player  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1005" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6957"/>
+      <skos:prefLabel xml:lang="en">audio player</skos:prefLabel>
+      <skos:definition xml:lang="en">A device designed to play audio recordings.</skos:definition>
+    <skos:definition xml:lang="nl">Een apparaat ontworpen om geluidsopnames af te spelen.</skos:definition>
+        <skos:prefLabel xml:lang="nl">audiospeler</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">audio-soitin</skos:prefLabel>
+        <skos:definition xml:lang="fi">Laite, joka on suunniteltu äänitallenteiden soittamiseen.</skos:definition>
+    <skos:prefLabel xml:lang="ar">مشغل الصوت</skos:prefLabel>
+        <skos:definition xml:lang="ar">جهاز مصمم لتشغيل التسجيلات الصوتية.</skos:definition>
+        <skos:prefLabel xml:lang="de">Audioplayer</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein Gerät zur Wiedergabe von Audioaufnahmen.</skos:definition>
+    </skos:Concept>
+<!-- Concept: audiovisual player  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1006" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6958"/>
+      <skos:prefLabel xml:lang="en">audiovisual player</skos:prefLabel>
+      <skos:definition xml:lang="en">A device designed to play audiovisual recordings.</skos:definition>
+    <skos:definition xml:lang="nl">Een apparaat ontworpen om audiovisuele opnames af te spelen.</skos:definition>
+        <skos:prefLabel xml:lang="nl">audiovisuele speler</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">audiovisuaalinen soitin</skos:prefLabel>
+        <skos:definition xml:lang="fi">Laite, joka on suunniteltu audiovisuaalisten tallenteiden toistamiseen.</skos:definition>
+    <skos:prefLabel xml:lang="ar">مشغل سمعي بصري</skos:prefLabel>
+        <skos:definition xml:lang="ar">جهاز مصمم لتشغيل التسجيلات السمعية البصرية.</skos:definition>
+        <skos:prefLabel xml:lang="de">Audiovisueller Player</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein Gerät zur Wiedergabe audiovisueller Aufnahmen.</skos:definition>
+    </skos:Concept>
+<!-- Concept: computer  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1007" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6959"/>
+      <skos:prefLabel xml:lang="en">computer</skos:prefLabel>
+      <skos:definition xml:lang="en">A device designed to perform prescribed sequences of operations on electronic data.</skos:definition>
+    <skos:definition xml:lang="nl">Een apparaat ontworpen om voorgeschreven reeksen van taken uit te voeren op elektronische data.</skos:definition>
+        <skos:prefLabel xml:lang="nl">computer</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">tietokone</skos:prefLabel>
+        <skos:definition xml:lang="fi">Laite, joka on suunniteltu toteuttamaan toimenpiteitä elektroniselle datalle määrätyssä järjestyksessä.</skos:definition>
+    <skos:prefLabel xml:lang="ar">الحاسوب</skos:prefLabel>
+        <skos:definition xml:lang="ar">جهاز مصمم لأداء عمليات متتالية محددة على البيانات الإلكترونية.</skos:definition>
+        <skos:prefLabel xml:lang="de">Computer</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein Gerät, das vorgeschriebene Abfolgen von Operationen an elektronischen Daten durchführt.</skos:definition>
+    </skos:Concept>
+<!-- Concept: microform reader  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6953"/>
+      <skos:prefLabel xml:lang="en">microform reader</skos:prefLabel>
+      <skos:definition xml:lang="en">A device that magnifies microforms for reading with the unaided eye.</skos:definition>
+    <skos:definition xml:lang="nl">Een apparaat dat microvormen vergroot om te lezen met het blote oog.</skos:definition>
+        <skos:prefLabel xml:lang="nl">microvormlezer</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">mikroaineiston lukija</skos:prefLabel>
+        <skos:definition xml:lang="fi">Laite, joka suurentaa ilman muuta apua luettavaa mikroaineisto.</skos:definition>
+    <skos:prefLabel xml:lang="ar">قارئ ميكروفورم</skos:prefLabel>
+        <skos:definition xml:lang="ar">جهاز يكبر الميكروفورم للقراءة بالعين المجردة.</skos:definition>
+        <skos:prefLabel xml:lang="de">Mikroform-Lesegerät</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein Gerät, das Mikroformen zum Lesen mit bloßem Auge vergrößert.</skos:definition>
+    </skos:Concept>
+<!-- Concept: microscope  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6954"/>
+      <skos:prefLabel xml:lang="en">microscope</skos:prefLabel>
+      <skos:definition xml:lang="en">An instrument that magnifies objects by means of a lens or lenses so as to reveal details invisible to the naked eye.</skos:definition>
+    <skos:definition xml:lang="nl">Een instrument dat objecten vergroot door middel van een lens of lenzen om details zichtbaar te maken voor het blote oog.</skos:definition>
+        <skos:prefLabel xml:lang="nl">microscoop</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">mikroskooppi</skos:prefLabel>
+        <skos:definition xml:lang="fi">Laite, joka suurentaa linssien avulla paljaalle silmälle näkymättömät objektit.</skos:definition>
+    <skos:prefLabel xml:lang="ar">مجهر</skos:prefLabel>
+        <skos:definition xml:lang="ar">أداة تقوم بتكبير الأشياء بعدسة أو عدسات لتكشف تفاصيل غير مرئية للعين المجردة.</skos:definition>
+        <skos:prefLabel xml:lang="de">Mikroskop</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein Gerät, das Objekte mit Hilfe einer Linse oder mehreren Linsen so vergrößert, dass für das bloße Auge unsichtbare Details sichtbar werden.</skos:definition>
+    </skos:Concept>
+<!-- Concept: not required  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1008" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6960"/>
+      <skos:prefLabel xml:lang="en">not required</skos:prefLabel>
+      <skos:definition xml:lang="en">No intermediation tool is required (i.e., the content of the resource is directly and adequately perceivable through one or more of the human senses).</skos:definition>
+    <skos:definition xml:lang="nl">Geen bemiddelingshulpmiddel is vereist (d.w.z. de content van de resource is direct en naar behoren waar te nemen door één of meer van de menselijke lenzen.</skos:definition>
+        <skos:prefLabel xml:lang="nl">niet vereist</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">ei edellytetty</skos:prefLabel>
+        <skos:definition xml:lang="fi">Välittävää laitetta ei edellytetä (aineiston sisältö on vastaanotettavissa suoraan ja riittävällä tasolla yhdellä tai useammalla ihmisaistilla).</skos:definition>
+    <skos:prefLabel xml:lang="ar">غير مطلوب</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">nicht erforderlich</skos:prefLabel>
+        <skos:definition xml:lang="de">Es wird kein Vermittlungsgerät benötigt (das heißt, der Inhalt der Ressource ist direkt und angemessen durch einen menschlichen Sinn oder mehrere menschliche Sinne wahrnehmbar).</skos:definition>
+    </skos:Concept>
+<!-- Concept: projector  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6955"/>
+      <skos:prefLabel xml:lang="en">projector</skos:prefLabel>
+      <skos:definition xml:lang="en">An optical device containing a light source and lens system for projecting an image on a screen or other surface.</skos:definition>
+    <skos:definition xml:lang="nl">Een optisch apparaat dat een lichtbron bevat en lenssysteem voor het projecteren van een beeld op een scherm of ander oppervlak.</skos:definition>
+        <skos:prefLabel xml:lang="nl">projector</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">projektori</skos:prefLabel>
+        <skos:definition xml:lang="fi">Optinen laite, joka sisältää valon lähteen ja linssit, jotka projisoivat kuvan valkokankaalletai muulle pinnalle.</skos:definition>
+    <skos:prefLabel xml:lang="ar">كشاف ضوئي</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Projektor</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein optisches Gerät mit einer Lichtquelle und einem Linsensystem zur Projektion eines Bilds auf einen Bildschirm oder eine andere Oberfläche.</skos:definition>
+    </skos:Concept>
+<!-- Concept: stereoscope  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofit/T1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofit"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6956"/>
+      <skos:prefLabel xml:lang="en">stereoscope</skos:prefLabel>
+      <skos:definition xml:lang="en">An optical device with two lenses enabling each eye to see a separate image of essentially the same content to give the effect of three-dimensions.</skos:definition>
+    <skos:definition xml:lang="nl">Een optisch apparaat met twee lenzen die elk oog in staat stellen een afzonderlijk beeld te zien met in wezen dezelfde content om een driedimensionaal effect te geven.</skos:definition>
+        <skos:prefLabel xml:lang="nl">stereoscoop</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">stereoskooppi</skos:prefLabel>
+        <skos:definition xml:lang="fi">Optinen laite, joka kahden linssin avulla antaa silmille erilliset kuvat samasta sisällöstä ja luo kolmiulotteisen vaikutelman.</skos:definition>
+    <skos:prefLabel xml:lang="ar">مجسم</skos:prefLabel>
+        <skos:definition xml:lang="ar">جهاز بصري ذو عدستين يتيح لكل عين رؤية صورة منفصلة للمحتوى نفسه بشكل أساسي لإعطاء تأثير ثلاثي الأبعاد.</skos:definition>
+        <skos:prefLabel xml:lang="de">Stereoskop</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein optisches Gerät mit zwei Linsen, das es jedem Auge ermöglicht, ein separates Bild mit im Wesentlichen demselben Inhalt zu sehen, um den Eindruck von Dreidimensionalität zu vermitteln.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

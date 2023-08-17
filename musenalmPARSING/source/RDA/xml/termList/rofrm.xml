@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- Scheme: ROF Revision Mode -->
+    <skos:ConceptScheme rdf:about="http://rdaregistry.info/termList/rofrm">
+        <dc:title xml:lang="en">ROF Revision Mode</dc:title>
+    <dc:description xml:lang="en">Concepts for a means by which the content of the resource is expected to be revised after initial release.</dc:description>
+        <vann:preferredNamespacePrefix>rofrm</vann:preferredNamespacePrefix>
+        
+        
+        
+        <dc:rights xml:lang="en">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.en_US"/>
+        <dc:creator>RDA Steering Committee</dc:creator>
+        <dc:contributor>RSC Technical Working Group</dc:contributor>
+        <dc:publisher>ALA Digital Reference</dc:publisher>
+        <dc:type rdf:resource="http://rdaregistry.info/termList/RDALinkedDataWork/1002"/>
+    
+        
+        
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-22</dc:issued>
+    
+        
+        
+    
+        
+        
+        <dc:title xml:lang="fi">ROFin uudistumisen tapa</dc:title>
+        <dc:description xml:lang="fi">Käsitteet tavalle, jolla aineiston sisällön odotetaan uudistuvan alkuperäisen julkaisemisen jälkeen.</dc:description>
+        <dc:rights xml:lang="fi">Copyright © 2020 American Library Association, Canadian Federation of Library Associations ja CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+    <dc:rights xml:lang="fr">Copyright © 2020 American Library Association, Fédération canadienne des associations de bibliothèques et CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        
+        <dc:title xml:lang="ar">وضع مراجعة /معاينة نظام تصنيف المصادر أونكس/وصف المصادر وإتاحتها لـ "وام"</dc:title>
+        <dc:description xml:lang="ar">مفاهيم للوسائل التي يتوقع من خلالها مراجعة محتوى المصدر بعد الإصدار الأولي.</dc:description>
+        <dc:rights xml:lang="ar">حقوق النشر© 2020، جمعية المكتبات الأمريكية، والاتحاد الكندي لجمعيات المكتبات، والمعهد القانوني للمكتبات ومهنيي المعلومات</dc:rights>
+        <dc:title xml:lang="de">ROF-Vokabular für Überarbeitungsmodi</dc:title>
+        <dc:description xml:lang="de">Begriffe für eine Angabe, wie der Inhalt der Ressource nach der Erstveröffentlichung voraussichtlich überarbeitet wird.</dc:description>
+        <dc:rights xml:lang="de">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <owl:versionInfo>v5.0.12</owl:versionInfo>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-20</dc:modified>
+    </skos:ConceptScheme>
+
+<!-- Concept: correction  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofrm/T1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofrm"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6961"/>
+      <skos:prefLabel xml:lang="en">correction</skos:prefLabel>
+      <skos:definition xml:lang="en">Revision through the release of notices of errors, corrections, addenda, etc.</skos:definition>
+    <skos:definition xml:lang="nl">Herziening door het uitbrengen van kennisgevingen over fouten, verbeteringen, toevoegingen etc.</skos:definition>
+        <skos:prefLabel xml:lang="nl">correctie</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">korjaaminen</skos:prefLabel>
+        <skos:definition xml:lang="fi">Uudistaminen virhehavaintojen, korjausten, lisäysten tms. julkaisemisen kautta</skos:definition>
+    <skos:prefLabel xml:lang="ar">التصويب</skos:prefLabel>
+        <skos:definition xml:lang="ar">المراجعة من خلال إصدار إشعار الأخطاء والتصويبات، والإضافات، إلخ.</skos:definition>
+        <skos:prefLabel xml:lang="de">Korrektur</skos:prefLabel>
+        <skos:definition xml:lang="de">Eine Überarbeitung indem Fehler korrigiert werden, Nachbesserungen beziehungsweise Richtigstellungen erfolgen, Nachträge ergänzt werden und so weiter.</skos:definition>
+    </skos:Concept>
+<!-- Concept: not applicable  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofrm/T1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofrm"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6962"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">The content is not expected to be revised after initial release.</skos:definition>
+    <skos:definition xml:lang="nl">De content is niet verwacht om herzien te worden na initiële uitgave.</skos:definition>
+        <skos:prefLabel xml:lang="nl">niet van toepassing</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">ei sovellettavissa</skos:prefLabel>
+        <skos:definition xml:lang="fi">Sisällön oletetaan uudistuvan alkuperäisen julkaisemisen jälkeen.</skos:definition>
+    <skos:prefLabel xml:lang="ar">لا ينطبق</skos:prefLabel>
+        <skos:definition xml:lang="ar">من غير المتوقع مراجعة المحتوى بعد الإصدار الأولي.</skos:definition>
+        <skos:prefLabel xml:lang="de">nicht zutreffend</skos:prefLabel>
+        <skos:definition xml:lang="de">Es ist nicht davon auszugehen, dass der Inhalt nach der Erstveröffentlichung überarbeitet wird.</skos:definition>
+    </skos:Concept>
+<!-- Concept: substitution  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofrm/T1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofrm"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6963"/>
+      <skos:prefLabel xml:lang="en">substitution</skos:prefLabel>
+      <skos:definition xml:lang="en">Revision through the release of pages, chapters, parts, volumes, etc., directly to replace previously released counterparts, including the replacement of the entire resource with a new version.</skos:definition>
+    <skos:definition xml:lang="nl">Herziening door het uitbrengen van pagina's, hoofdstukken, delen, banden etc. die hun voorgangers rechtstreeks vervangen, inclusief het vervangen van een complete resource door een nieuwe versie.</skos:definition>
+        <skos:prefLabel xml:lang="nl">substitutie</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">korvaaminen</skos:prefLabel>
+        <skos:definition xml:lang="fi">Uudistaminen julkaisemalla aiemmin julkaistut sivut, kappaleet, osat, niteet tms. korvaavat vastineet, mukaan lukien koko aineiston korvaamisen uudella versiolla.</skos:definition>
+    <skos:prefLabel xml:lang="ar">الاستبدال</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Austausch</skos:prefLabel>
+        <skos:definition xml:lang="de">Eine Überarbeitung durch die Freigabe von Seiten, Kapiteln, Teilen, Bänden und so weiter, die unmittelbar an die Stelle der zuvor freigegebenen Gegenstücke treten. Darunter fällt auch der Austausch der gesamten Ressource durch eine neue Version.</skos:definition>
+    </skos:Concept>
+<!-- Concept: transformation  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/rofrm/T1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/rofrm"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      <reg:identifier rdf:resource="http://metadataregistry.org/concepts/6964"/>
+      <skos:prefLabel xml:lang="en">transformation</skos:prefLabel>
+      <skos:definition xml:lang="en">Revision through the incorporation of changes (including deletions) directly into the previously released content.</skos:definition>
+    <skos:definition xml:lang="nl">Herziening door het doorvoeren van veranderingen (inclusief verwijderingen) rechtstreeks in de eerder uitgebrachte content.</skos:definition>
+        <skos:prefLabel xml:lang="nl">transformatie</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">muunnos</skos:prefLabel>
+        <skos:definition xml:lang="fi">Uudistaminen yhdistämällä muutokset (mukaan lukien poistot) aiemmin julkaistuun sisältöön.</skos:definition>
+    <skos:prefLabel xml:lang="ar">التحول</skos:prefLabel>
+        <skos:definition xml:lang="ar">المراجعة من خلال دمج التغييرات مباشرة في المحتوى الذي سبق اصداره (ويشمل ذلك الحذف).</skos:definition>
+        <skos:prefLabel xml:lang="de">Transformation</skos:prefLabel>
+        <skos:definition xml:lang="de">Eine Überarbeitung indem Änderungen (einschließlich Streichungen) direkt in den zuvor veröffentlichten Inhalt eingefügt werden.</skos:definition>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>

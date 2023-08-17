@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- Scheme: RDA Unit of Time -->
+    <skos:ConceptScheme rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime">
+        <dc:title xml:lang="en">RDA Unit of Time</dc:title>
+    <dc:description xml:lang="en">Concepts for a unit of chronological duration that is used in the names and access points of calendrical timespans.</dc:description>
+        <vann:preferredNamespacePrefix>rdaut</vann:preferredNamespacePrefix>
+        
+        
+        
+        <dc:rights xml:lang="en">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.en_US"/>
+        <dc:creator>RDA Steering Committee</dc:creator>
+        <dc:contributor>RSC Technical Working Group</dc:contributor>
+        <dc:publisher>ALA Digital Reference</dc:publisher>
+        <dc:type rdf:resource="http://rdaregistry.info/termList/RDALinkedDataWork/1002"/>
+    
+        
+        
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-16</dc:issued>
+    
+        
+        
+    
+        
+        
+        <dc:title xml:lang="fi">RDA:n ajan yksikkö</dc:title>
+        <dc:description xml:lang="fi">Käsitteet kronologisen keston yksiköille, joita käytetään kalenteriajanjaksojen nimissä ja hakutiedoissa.</dc:description>
+        <dc:rights xml:lang="fi">Copyright © 2020 American Library Association, Canadian Federation of Library Associations ja CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+    <dc:title xml:lang="fr">Unité de temps RDA</dc:title>
+        <dc:rights xml:lang="fr">Copyright © 2020 American Library Association, Fédération canadienne des associations de bibliothèques et CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        
+        <dc:title xml:lang="ar">وحدة الوقت "وام"</dc:title>
+        <dc:description xml:lang="ar">مفاهيم لوحدة زمنية مستخدمة في الأسماء ونقاط الوصول لفترات التقويم الزمنية.</dc:description>
+        <dc:rights xml:lang="ar">حقوق النشر© 2020، جمعية المكتبات الأمريكية، والاتحاد الكندي لجمعيات المكتبات، والمعهد القانوني للمكتبات ومهنيي المعلومات</dc:rights>
+        <dc:title xml:lang="de">RDA-Vokabular für Zeiteinheiten</dc:title>
+        <dc:description xml:lang="de">Begriffe für Einheiten der chronologischen Dauer, die in den Namen und Sucheinstiegen von kalendarischen Zeiträumen verwendet werden.</dc:description>
+        <dc:rights xml:lang="de">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <owl:versionInfo>v5.0.12</owl:versionInfo>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-20</dc:modified>
+    </skos:ConceptScheme>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+<skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1001">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">century</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">century</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 10 decades in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1001</skos:notation>
+    <skos:prefLabel xml:lang="fi">vuosisata</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">vuosisata</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuosikymmentä.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 10 decennia in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">eeuw</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">eeuw</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">gadsimts</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">gadsimts</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 10 desmitgažu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 10 decades in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuosikymmentä.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 10 decennia in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 10 desmitgažu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">قرن</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">قرن</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 10 عقود.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Jahrhundert</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Jahrhundert</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahrzehnten.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahrzehnten.</skos:definition>
+        <skos:prefLabel xml:lang="ca">segle</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">segle</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 10 dÃ¨cades.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1002">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">hour</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">hour</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 60 minutes in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1002</skos:notation>
+    <skos:prefLabel xml:lang="fi">tunti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">tunti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 60 minuuttia.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 60 minuten in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">uur</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">uur</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">stunda</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">stunda</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 60 minūšu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 60 minutes in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 60 minuuttia.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 60 minuten in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 60 minūšu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">ساعة</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">ساعة</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 60 دقيقة.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Stunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Stunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 60 Minuten.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 60 Minuten.</skos:definition>
+        <skos:prefLabel xml:lang="ca">hora</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">hora</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 60 minuts.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1003">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">month</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">month</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is approximately 4-5 weeks in duration.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">The number of days in a month varies between different calendar systems.</skos:scopeNote>
+        <skos:notation>1003</skos:notation>
+    <skos:prefLabel xml:lang="fi">kuukausi</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">kuukausi</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan noin 4-5 viikkoa.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Kuukauteen sisältyvien päivien määrä on eri eri kalentereissa.</skos:scopeNote>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die ongeveer 4-5 weken in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">maand</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">maand</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">Het aantal dagen in een maand varieert tussen verschillende kalendersystemen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">mēnesis</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">mēnesis</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība aptuveni 4-5 nedēļu garumā.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Dienu skaits mēnesī dažādās kalendāru sistēmās atšķiras.</skos:scopeNote>
+        <skos:definition xml:lang="en">A unit of time that is approximately 4-5 weeks in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan noin 4-5 viikkoa.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die ongeveer 4-5 weken in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība aptuveni 4-5 nedēļu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">شهر</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">شهر</rdakit:toolkitLabel>
+        <skos:scopeNote xml:lang="ar">يختلف عدد الأيام في الشهر باختلاف أنظمة التقويم.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Monat</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Monat</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von etwa 4-5 Wochen.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Die Anzahl der Tage in einem Monat variiert zwischen den verschiedenen Kalendersystemen.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von etwa 4-5 Wochen.</skos:definition>
+        <skos:prefLabel xml:lang="ca">mes</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">mes</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 4-5 setmanes aproximadament.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">El nombre de dies en un mes varia entre els diferents sistemes de calendaris.</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1004">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">year</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">year</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is approximately 12-13 months in duration.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">A Julian year is 31,557,600 seconds. A year is also approximately 365-366 days in duration. The number of months in a year varies between different calendar systems.</skos:scopeNote>
+        <skos:notation>1004</skos:notation>
+    <skos:prefLabel xml:lang="fi">vuosi</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">vuosi</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan noin 12-13 kuukautta.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Juliaaninen vuosi on 31557600 sekunttia. Vuosi on kestoltaan noin 365-366 päivää. Vuoteen sisältyvien kuukausien määrä on eri eri kalentereissa.</skos:scopeNote>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die ongeveer 12-13 maanden in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">jaar</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">jaar</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">Een Juliaans jaar is 31.557.600 secondes. Een jaar is ook ongeveer 365-366 dagen in duur. Het aantal maanden in een jaar varieert tussen verschillende kalendersystemen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">gads</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">gads</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība aptuveni 12-13 mēnešu garumā.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Juliāna kalendāra gads ir 31 557 600 sekunžu garš. Gads ir arī aptuveni 365-366 dienu garš. Mēnešu skaits gadā dažādās kalendāru sistēmās atšķiras.</skos:scopeNote>
+        <skos:definition xml:lang="en">A unit of time that is approximately 12-13 months in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan noin 12-13 kuukautta.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die ongeveer 12-13 maanden in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība aptuveni 12-13 mēnešu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">عام</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">عام</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية تتراوح مدتها من 12 إلى 13 شهرًا تقريبًا.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ar">السنة اليوليانية مدتها 31.557.600 ثانية. مدة السنة أيضًا حوالي 365-366 يومًا. يختلف عدد الأشهر في السنة باختلاف أنظمة التقويم.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Jahr</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Jahr</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von etwa 12-13 Monaten.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Ein Julianisches Jahr besteht aus 31.557.600 Sekunden. Ein Jahr hat ebenfalls eine Dauer von etwa 365-366 Tagen. Die Anzahl der Tage in einem Monat variiert zwischen den verschiedenen Kalendersystemen.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von etwa 12-13 Monaten.</skos:definition>
+        <skos:prefLabel xml:lang="ca">any</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">any</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 12-13 mesos aproximadament.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">Un any juliÃ  tÃ© 31.557.600 segons. Un any tambÃ© tÃ© una durada de 365-366 dies aproximadament. El nombre de mesos dâ€™un any varia entre els diferents sistemes de calendaris.</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1005">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">day</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">day</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 24 hours in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1005</skos:notation>
+    <skos:prefLabel xml:lang="fi">päivä</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">päivä</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 24 tuntia.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 24 uur in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">dag</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">dag</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">diena</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">diena</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 24 stundu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 24 hours in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 24 tuntia.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 24 uur in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 24 stundu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">يوم</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">يوم</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 24 ساعة.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Tag</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Tag</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 24 Stunden.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 24 Stunden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">dia</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">dia</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 24 hores.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1006">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">millisecond</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">millisecond</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is one thousandth of a second.</rdakit:toolkitDefinition>
+        <skos:notation>1006</skos:notation>
+    <skos:prefLabel xml:lang="fi">millisekunti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">millisekunti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on sekunnin tuhannesosa.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die een duizendste van een seconde is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">milliseconde</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">milliseconde</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">milisekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">milisekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība - viena sekundes tūkstošdaļa.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is one thousandth of a second.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on sekunnin tuhannesosa.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die een duizendste van een seconde is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība - viena sekundes tūkstošdaļa.</skos:definition>
+        <skos:prefLabel xml:lang="ar">ميلي ثانية</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">ميلي ثانية</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية هي جزء من ألف من الثانية.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Millisekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Millisekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit, die ein Tausendstel einer Sekunde beträgt.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit, die ein Tausendstel einer Sekunde beträgt.</skos:definition>
+        <skos:prefLabel xml:lang="ca">milÂ·lisegon</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">milÂ·lisegon</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que Ã©s una milÂ·lÃ¨sima de segon.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1007">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">nanosecond</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">nanosecond</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is one billionth of a second.</rdakit:toolkitDefinition>
+        <skos:notation>1007</skos:notation>
+    <skos:prefLabel xml:lang="fi">nanosekunti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">nanosekunti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on sekunnin miljardisosa.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die een miljardste van een seconde is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">nanoseconde</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">nanoseconde</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">nanosekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">nanodekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība - viena sekundes miljardā daļa.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is one billionth of a second.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on sekunnin miljardisosa.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die een miljardste van een seconde is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība - viena sekundes miljardā daļa.</skos:definition>
+        <skos:prefLabel xml:lang="ar">نانوثانية</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">نانوثانية</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="de">Nanosekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Nanosekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit, die ein Millardstel einer Sekunde beträgt.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit, die ein Millardstel einer Sekunde beträgt.</skos:definition>
+        <skos:prefLabel xml:lang="ca">nanosegon</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">nanosegon</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que Ã©s una mil milionÃ¨sima de segon.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1008">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">second</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">second</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom.</rdakit:toolkitDefinition>
+        <skos:notation>1008</skos:notation>
+    <skos:prefLabel xml:lang="fi">sekunti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">sekunti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on 9192631770 säteilyjaksoa, joita vastaa siirtymä cesium 133 -atomin perustilan kahden ylihienon tason välillä.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 9.192.631.770 periodes van de straling is, in overeenkomst met de overgang tussen de twee hyperfijne niveaus van de grondtoestand van het caesium-133 atoom.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">seconde</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">seconde</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">sekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">sekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība - cēzija izotopa 133Cs izstarotā mikroviļņa 9 192 631 770 svārstību periodu kopējais ilgums, notiekot pārejai starp diviem atoma pamatstāvokļa hipersīkstruktūras līmeņiem.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on 9192631770 säteilyjaksoa, joita vastaa siirtymä cesium 133 -atomin perustilan kahden ylihienon tason välillä.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 9.192.631.770 periodes van de straling is, in overeenkomst met de overgang tussen de twee hyperfijne niveaus van de grondtoestand van het caesium-133 atoom.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība - cēzija izotopa 133Cs izstarotā mikroviļņa 9 192 631 770 svārstību periodu kopējais ilgums, notiekot pārejai starp diviem atoma pamatstāvokļa hipersīkstruktūras līmeņiem.</skos:definition>
+        <skos:prefLabel xml:lang="ar">ثانية</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">ثانية</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية هي 9،192،631،770 فترة إشعاع مناظرة لفترة الانتقال بين مستويين فائقي الدقة للحالة الأرضية لذرة السيزيوم -133.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Sekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Sekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit, die dem 9.192.631.770-fachen der Periodendauer der Strahlung entspricht, die dem Übergang zwischen den beiden Hyperfeinstrukturniveaus des Grundzustands des Cäsium-133-Atoms entspricht.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit, die dem 9.192.631.770-fachen der Periodendauer der Strahlung entspricht, die dem Übergang zwischen den beiden Hyperfeinstrukturniveaus des Grundzustands des Cäsium-133-Atoms entspricht.</skos:definition>
+        <skos:prefLabel xml:lang="ca">segon</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">segon</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 9.192.631.770 perÃ­odes de la radiaciÃ³ corresponent a la transiciÃ³ entre els dos nivells de lâ€™estructura hiperfina de lâ€™estat fonamental de lâ€™Ã tom de cesi-133.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1009">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">microsecond</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">microsecond</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is one millionth of a second.</rdakit:toolkitDefinition>
+        <skos:notation>1009</skos:notation>
+    <skos:prefLabel xml:lang="fi">mikrosekunti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">mikrosekunti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on sekunnin miljoonasosa.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die een miljoenste van een seconde is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">microseconde</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">microseconde</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">mikrosekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">mikrosekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība - viena sekundes miljonā daļa.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is one millionth of a second.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on sekunnin miljoonasosa.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die een miljoenste van een seconde is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība - viena sekundes miljonā daļa.</skos:definition>
+        <skos:prefLabel xml:lang="ar">ميكروثانية</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">ميكروثانية</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية هي جزء من المليون من الثانية.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Mikrosekunde</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Mikrosekunde</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit, die ein Millionstel einer Sekunde beträgt.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit, die ein Millionstel einer Sekunde beträgt.</skos:definition>
+        <skos:prefLabel xml:lang="ca">microsegon</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">microsegon</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que Ã©s una milionÃ¨sima de segon.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1010">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">decade</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">decade</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 10 years in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1010</skos:notation>
+    <skos:prefLabel xml:lang="fi">vuosikymmen</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">vuosikymmen</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuotta.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 10 jaar in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">decennium</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">decennium</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">desmitgade</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">desmitgade</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 10 gadu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 10 years in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuotta.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 10 jaar in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 10 gadu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">عِقد</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">عِقد</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 10 عقود.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Jahrzehnt</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Jahrzehnt</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahren.</rdakit:toolkitDefinition>
+        <skos:altLabel xml:lang="de">Dekade</skos:altLabel>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahren.</skos:definition>
+        <skos:prefLabel xml:lang="ca">dÃ¨cada</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">dÃ¨cada</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 10 anys.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1011">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">millennium</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">millennium</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 10 centuries in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1011</skos:notation>
+    <skos:prefLabel xml:lang="fi">vuosituhat</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">vuosituhat</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuosisataa.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 10 eeuwen in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">millennium</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">millennium</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">tūkstošgade</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">tūkstošgade</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 10 gadsimtu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 10 centuries in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 10 vuosisataa.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 10 eeuwen in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 10 gadsimtu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">ألفية</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">ألفية</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 10 عقود.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Jahrtausend</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Jahrtausend</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahrhunderten.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 10 Jahrhunderten.</skos:definition>
+        <skos:prefLabel xml:lang="ca">milÂ·lenni</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">milÂ·lenni</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 10 segles.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1012">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">week</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">week</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 7 days in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1012</skos:notation>
+    <skos:prefLabel xml:lang="fi">viikko</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">viikko</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 7 päivää.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 7 dagen in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">week</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">week</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">nedēļa</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">nedēļa</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 7 dienu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 7 days in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 7 päivää.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 7 dagen in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 7 dienu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">أسبوع</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">أسبوع</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 7 أيام.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Woche</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Woche</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 7 Tagen.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 7 Tagen.</skos:definition>
+        <skos:prefLabel xml:lang="ca">setmana</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">setmana</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 7 dies.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDAUnitOfTime/1013">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDAUnitOfTime"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">minute</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="en">minute</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="en">A unit of time that is 60 seconds in duration.</rdakit:toolkitDefinition>
+        <skos:notation>1013</skos:notation>
+    <skos:prefLabel xml:lang="fi">minuutti</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="fi">minuutti</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 60 sekuntia.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xml:lang="nl">Een eenheid van tijd die 60 secondes in duur is.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xml:lang="nl">minuut</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">minuut</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">minūte</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="lv">minūte</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="lv">Laika vienība 60 sekunžu garumā.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A unit of time that is 60 seconds in duration.</skos:definition>
+        <skos:definition xml:lang="fi">Ajan yksikkö, joka on kestoltaan 60 sekuntia.</skos:definition>
+    <skos:definition xml:lang="nl">Een eenheid van tijd die 60 secondes in duur is.</skos:definition>
+        <skos:definition xml:lang="lv">Laika vienība 60 sekunžu garumā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">دقيقة</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ar">دقيقة</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ar">وحدة زمنية مدتها 60 ثانية.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Minute</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="de">Minute</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 60 Sekunden.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Zeiteinheit mit einer Dauer von 60 Sekunden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">minut</skos:prefLabel>
+        <rdakit:toolkitLabel xml:lang="ca">minut</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xml:lang="ca">Unitat de temps que tÃ© una durada de 60 segons.</rdakit:toolkitDefinition>
+    </skos:Concept>
+</rdf:RDF>

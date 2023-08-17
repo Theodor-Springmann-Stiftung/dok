@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:reg="http://metadataregistry.org/uri/profile/regap/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<!-- Scheme: RDA Type of Binding -->
+    <skos:ConceptScheme rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding">
+        <dc:title xml:lang="en">RDA Type Of Binding</dc:title>
+    <dc:description xml:lang="en">Concepts for a method used to bind a published or unpublished manifestation.</dc:description>
+        <vann:preferredNamespacePrefix>rdatb</vann:preferredNamespacePrefix>
+        
+        
+        
+        <dc:rights xml:lang="en">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.en_US"/>
+        <dc:creator>RDA Steering Committee</dc:creator>
+        <dc:contributor>RSC Technical Working Group</dc:contributor>
+        <dc:publisher>ALA Digital Reference</dc:publisher>
+        <dc:type rdf:resource="http://rdaregistry.info/termList/RDALinkedDataWork/1002"/>
+    
+        
+        
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-04-04</dc:issued>
+    
+        
+        
+    
+        
+        
+        <dc:title xml:lang="fi">RDA:n sidostyyppi</dc:title>
+        <dc:description xml:lang="fi">Käsitteet, joita käytetään julkaistun tai julkaisettoman manifestaation sidonnan menetelmästä.</dc:description>
+        <dc:rights xml:lang="fi">Copyright © 2020 American Library Association, Canadian Federation of Library Associations ja CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+    <dc:title xml:lang="fr">Type de reliure RDA</dc:title>
+        <dc:rights xml:lang="fr">Copyright © 2020 American Library Association, Fédération canadienne des associations de bibliothèques et CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        
+        <dc:title xml:lang="ar">نوع تجليد "وام"</dc:title>
+        <dc:description xml:lang="ar">مفاهيم لأسلوب مستخدم لتجليد تجسيدة منشورة أو غير منشورة.</dc:description>
+        <dc:rights xml:lang="ar">حقوق النشر© 2020، جمعية المكتبات الأمريكية، والاتحاد الكندي لجمعيات المكتبات، والمعهد القانوني للمكتبات ومهنيي المعلومات</dc:rights>
+        <dc:title xml:lang="de">RDA-Vokabular für Bindearten</dc:title>
+        <dc:description xml:lang="de">Begriffe für Methoden, die verwendet werden, um eine veröffentlichte oder unveröffentlichte Manifestation zu binden.</dc:description>
+        <dc:rights xml:lang="de">Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals</dc:rights>
+        <owl:versionInfo>v5.0.12</owl:versionInfo>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-20</dc:modified>
+    </skos:ConceptScheme>
+
+<!-- Concept: closed ring  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1004" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      
+      <skos:prefLabel xml:lang="en">closed ring binding</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The rings are widely spaced and require a spine to maintain the spacing. Outer covers may be attached directly to the spine, or threaded by the rings.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that uses two or more rings of metal or plastic that are threaded through holes along the edge of each sheet.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">closed ring binding</rdakit:toolkitLabel>
+        <skos:notation>1004</skos:notation>
+    <skos:prefLabel xml:lang="fi">suljettu rengasnidonta</skos:prefLabel>
+        <skos:scopeNote xml:lang="fi">Renkaat ovat kaukana toisistaan ja vaativat selkämykset välien säilyttämiseksi. Kannat voidaan kiinnittää suoraan selkämykseen tai pujottaa renkaisiin.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka käyttää useampaa kuin yhtä metallista tai muovista rengasta, jotka pujotetaan arkkien reunassa olevien reikien läpi.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">suljettu rengasnidonta</rdakit:toolkitLabel>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat twee of meer ringen gebruikt van metaal of plastic die geregen is door gaten aan de zijkant van elk vel.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">gesloten ringband</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">gesloten ringband</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De ringen staan breed uit elkaar en vereisen een rug om de afstand te behouden. De kaft kan direct verbonden zijn aan de rug, of geregen door de ringen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">neatverams ātršuvējs</skos:prefLabel>
+        <skos:scopeNote xml:lang="lv">Riņķi ir izvietoti reti, un izvietojuma uzturēšanai tiem nepieciešama muguriņa. Apvākojums var būt piestiprināts muguriņai vai arī caurdurts ar riņķiem.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - divi vai vairāk metāla vai plastmasas riņķi, kas izvērti caur visu lokšņu malās izsistiem caurumiem. Neatverami.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">neatverams ātršuvējs</rdakit:toolkitLabel>
+        <skos:definition xml:lang="en">A type of binding that uses two or more rings of metal or plastic that are threaded through holes along the edge of each sheet.</skos:definition>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka käyttää useampaa kuin yhtä metallista tai muovista rengasta, jotka pujotetaan arkkien reunassa olevien reikien läpi.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat twee of meer ringen gebruikt van metaal of plastic die geregen is door gaten aan de zijkant van elk vel.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - divi vai vairāk metāla vai plastmasas riņķi, kas izvērti caur visu lokšņu malās izsistiem caurumiem. Neatverami.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد بحلقات دائرية</skos:prefLabel>
+        <skos:scopeNote xml:lang="ar">تتباعد الحلقات كثيرا ولابد من وجود كعب للحفاظ على التباعد. يمكن ربط الأغلفة الخارجية مباشرة بالكعب، أو تمرر من خلال الحلقات.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يستخدم حلقتين أو أكثر من المعدن أو البلاستيك تمر خلال ثقوب مخرومة بطول حافة كل ورقة.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد بحلقات مغلقة</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="de">geschlossene Ringbindung</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Die Ringe haben einen großen Abstand zueinander und benötigen einen Buchrücken, um den Abstand zu halten. Die äußere Einbanddecke kann direkt am Buchrücken befestigt oder durch die Ringe gefädelt werden.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der zwei oder mehrere Metall- oder Kunststoffringe verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt werden.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">geschlossene Ringbindung</rdakit:toolkitLabel>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der zwei oder mehrere Metall- oder Kunststoffringe verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt werden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ dâ€™anelles tancades</skos:prefLabel>
+        <skos:scopeNote xml:lang="ca">Les anelles estan molt espaiades i cal un llom per mantenir lâ€™espaiat. Les cobertes exteriors poden estar unides directament al llom o enfilades amb les anelles.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ sâ€™usen dues anelles o mÃ©s de metall o plÃ stic i que sâ€™enfilen a travÃ©s dels forats al llarg de la vora de cada full.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ dâ€™anelles tancades</rdakit:toolkitLabel>
+    </skos:Concept>
+<!-- Concept: hardback  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1002" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      
+      <skos:prefLabel xml:lang="en">case binding</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Sheets may be folded to form gatherings. The outer casing of the volume is usually made of board, wood, plastic, or some other rigid material.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that sews or glues sheets into sections that are glued together to form a flat spine and that are attached to endpapers which are in turn attached to a stiff outer casing.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">case binding</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="en">hardcover binding</skos:altLabel>
+        <skos:notation>1002</skos:notation>
+    <skos:prefLabel xml:lang="fi">ommeltu liimasidonta</skos:prefLabel>
+        <skos:scopeNote xml:lang="fi">Arkit voidaan taittaa poimutuksen muotoon. Niteen päällys on yleensä tehty pahvista, puusta, muovista tai muusta jäykästä materiaalista.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, jossa arkit ommellaan tai liimataan ryhmiksi, jotka liimataan yhteen litteäksi selkämykseksi. Arkkien ryhmät kiinnitetään kansipapereihin, jotka puolestaan kiinnitetään jäykkään päällykseen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">ommeltu liimasidonta</rdakit:toolkitLabel>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat vellen lijmt of naait in secties die bijeen gelijmd zijn om een platte rug te vormen en die bevestigd zijn aan schutbladen die op hun beurt bevestigd zijn aan een stijve kaft.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">gebonden</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="nl">hardback</skos:altLabel>
+        <skos:prefLabel xml:lang="nl">gebonden</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">Vellen kunnen gevouwen zijn om katernen te vormen. De kaft is meestal gemaakt van bordkarton, hout, plastic of enig ander stug materiaal.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">iesiets</skos:prefLabel>
+        <skos:scopeNote xml:lang="lv">Loksnes var būt salocītas burtnīcās. Sējuma apvākojums parasti ir no kartona, koka, plastmasas vai cita cieta materiāla.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - sekcijās kopā sašūtas vai salīmētas loksnes, veidojot plakanu muguriņu, piestiprinātas priekšlapām, kas, savukārt, pievienotas stingriem vākiem.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">iesiets</rdakit:toolkitLabel>
+        <skos:definition xml:lang="en">A type of binding that sews or glues sheets into sections that are glued together to form a flat spine and that are attached to endpapers which are in turn attached to a stiff outer casing.</skos:definition>
+        <skos:altLabel xml:lang="fi">kovien kansien sidonta</skos:altLabel>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, jossa arkit ommellaan tai liimataan ryhmiksi, jotka liimataan yhteen litteäksi selkämykseksi. Arkkien ryhmät kiinnitetään kansipapereihin, jotka puolestaan kiinnitetään jäykkään päällykseen.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat vellen lijmt of naait in secties die bijeen gelijmd zijn om een platte rug te vormen en die bevestigd zijn aan schutbladen die op hun beurt bevestigd zijn aan een stijve kaft.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - sekcijās kopā sašūtas vai salīmētas loksnes, veidojot plakanu muguriņu, piestiprinātas priekšlapām, kas, savukārt, pievienotas stingriem vākiem.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد باللصق</skos:prefLabel>
+        <skos:scopeNote xml:lang="ar">يمكن طي الأوراق لتكوين مَلَازم. عادة ما يكون الغلاف الخارجي للمجلد مصنوعًا من كرتون أو خشب أو بلاستيك أو مواد صلبة أخرى.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد تُخيط فيه الأوراق أو تُلصق معا في أجزاء متماسكة لعمل كعب كتاب مسطح/ منبسط، وترفق بالأوراق الأخيرة المتصلة بدورها بغلاف خارجي صلب.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد باللصق</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ar">تجليد بأغلفة سميكة</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Festeinband</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Die Bögen können gefaltet werden, um Lagen zu bilden. Die äußere Hülle des Bandes besteht in der Regel aus Pappe, Holz, Kunststoff oder einem anderen starren Material.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der Bögen in Abschnitten zusammen genäht oder geklebt werden. Diese werden zu einem flachen Buchrücken zusammengeklebt und an Vorsatzblätter befestigt. Die Vorsatzblätter sind an einer steifen Außenhülle befestigt.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Festeinband</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="de">Hartdeckelbindung</skos:altLabel>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der Bögen in Abschnitten zusammen genäht oder geklebt werden. Diese werden zu einem flachen Buchrücken zusammengeklebt und an Vorsatzblätter befestigt. Die Vorsatzblätter sind an einer steifen Außenhülle befestigt.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ en cartonÃ©</skos:prefLabel>
+        <skos:scopeNote xml:lang="ca">Els fulls es poden plegar per formar conjunts. La carcassa exterior del volum sol estar feta de cartÃ³, fusta, plÃ stic o dâ€™algun altre material rÃ­gid.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ es cusen o sâ€™enganxen els fulls junts en seccions que sâ€™enganxen per formar un llom pla i que sâ€™uneixen a les guardes que al seu torn sâ€™uneixen a una carcassa exterior rÃ­gida.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ en cartonÃ©</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ca">enquadernaciÃ³ de tapa dura</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: open ring  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1005" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      
+      <skos:prefLabel xml:lang="en">open ring binding</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The rings are widely spaced and require a spine to maintain the spacing. Outer covers may be attached directly to the spine or threaded by the rings.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that uses two or more rings of metal or plastic that are threaded through holes along the edge of each sheet, and that can be opened to allow the removal or insertion of any sheet.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">open ring binding</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="en">lever arch binding</skos:altLabel>
+        <skos:notation>1005</skos:notation>
+    <skos:prefLabel xml:lang="fi">avoin rengasnidonta</skos:prefLabel>
+        <skos:scopeNote xml:lang="fi">Renkaat ovat kaukana toisistaan ja vaativat selkämykset välien säilyttämiseksi. Kannat voidaan kiinnittää suoraan selkämykseen tai pujottaa renkaisiin.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka käyttää useampaa kuin yhtä metallista tai muovista rengasta, jotka pujotetaan arkkien reunassa olevien reikien läpi. Sidos voidaan avata arkkien poistamiseksi tai lisäämiseksi.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">avoin rengasnidonta</rdakit:toolkitLabel>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat twee of meer ringen gebruikt van metaal of plastic die geregen zijn door gaten aan de zijkant van elk vel, en die geopend kunnen worden om enig vel te verwijderen of in te voegen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">open ringband</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">open ringband</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De ringen staan breed uit elkaar en vereisen een rug om de afstand te behouden. De kaft kan direct verbonden zijn aan de rug, of geregen met de ringen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">ātršuvējs</skos:prefLabel>
+        <skos:scopeNote xml:lang="lv">Riņķi ir izvietoti reti, un izvietojuma uzturēšanai tiem nepieciešama muguriņa. Apvākojums var būt piestiprināts muguriņai vai arī caurdurts ar riņķiem.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - divi vai vairāk metāla vai plastmasas riņķi, kas izvērti caur visu lokšņu malās izsistiem caurumiem un kurus var atvērt, lai pievienotu vai izņemtu kādu loksni.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">ātršuvējs</rdakit:toolkitLabel>
+        <skos:definition xml:lang="en">A type of binding that uses two or more rings of metal or plastic that are threaded through holes along the edge of each sheet, and that can be opened to allow the removal or insertion of any sheet.</skos:definition>
+        <skos:altLabel xml:lang="fi">kaarisidonta</skos:altLabel>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka käyttää useampaa kuin yhtä metallista tai muovista rengasta, jotka pujotetaan arkkien reunassa olevien reikien läpi. Sidos voidaan avata arkkien poistamiseksi tai lisäämiseksi.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat twee of meer ringen gebruikt van metaal of plastic die geregen zijn door gaten aan de zijkant van elk vel, en die geopend kunnen worden om enig vel te verwijderen of in te voegen.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - divi vai vairāk metāla vai plastmasas riņķi, kas izvērti caur visu lokšņu malās izsistiem caurumiem un kurus var atvērt, lai pievienotu vai izņemtu kādu loksni.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد بحلقات مفتوحة</skos:prefLabel>
+        <skos:scopeNote xml:lang="ar">تتباعد الحلقات كثيرا ولابد من وجود كعب للحفاظ على التباعد. يمكن ربط الأغلفة الخارجية مباشرة بالكعب أو تمريرها من خلال الحلقات.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يستخدم حلقتين أو أكثر من المعدن أو البلاستيك تمرر عبر ثقوب على امتداد حافة كل ورقة، ويمكن فتحهما للسماح بإزالة أوراق أو إدخالها.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد بحلقات مفتوحة</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ar">تجليد قوس الرافعة</skos:altLabel>
+        <skos:prefLabel xml:lang="de">offene Ringbindung</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Die Ringe haben einen großen Abstand zueinander und benötigen einen Buchrücken, um den Abstand zu halten. Die äußere Einbanddecke kann direkt am Buchrücken befestigt oder durch die Ringe gefädelt werden.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der zwei oder mehrere Metall- oder Kunststoffringe verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt sind und die geöffnet werden können, um das Entfernen oder Einfügen eines beliebigen Bogens zu ermöglichen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">offene Ringbindung</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="de">in Ordner</skos:altLabel>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der zwei oder mehrere Metall- oder Kunststoffringe verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt sind und die geöffnet werden können, um das Entfernen oder Einfügen eines beliebigen Bogens zu ermöglichen.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ dâ€™anelles obertes</skos:prefLabel>
+        <skos:scopeNote xml:lang="ca">Les anelles estan molt espaiades i cal un llom per mantenir lâ€™espaiat. Les cobertes exteriors poden estar unides directament al llom o enfilades amb les anelles.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ sâ€™usen dues anelles o mÃ©s de metall o plÃ stic i que sâ€™enfilen a travÃ©s dels forats al llarg de cada full i que es pot obrir per permetre lâ€™extracciÃ³ o inserciÃ³ de qualsevol full.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ dâ€™anelles obertes</rdakit:toolkitLabel>
+    </skos:Concept>
+<!-- Concept: paperback  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1001" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      
+      <skos:prefLabel xml:lang="en">perfect binding</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Sheets may be folded to form gatherings. The outer casing of the volume is usually made of thin card, plastic, or some other flexible material.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that glues sheets together and to a flexible outer casing to form a spine.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">perfect binding</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="en">paperbound</skos:altLabel>
+        <skos:notation>1001</skos:notation>
+    <skos:prefLabel xml:lang="fi">liimasidonta</skos:prefLabel>
+        <skos:scopeNote xml:lang="fi">Arkit voidaan taittaa poimutuksen muotoon. Niteen päällys on yleensä tehty ohuesta pahvista, muovista tai muusta joustavasta materiaalista.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka liimaa arkit yhteen toistensa ja päällysten kanssa muodostaen selkämyksen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">liimasidonta</rdakit:toolkitLabel>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat vellen bijeen lijmt en aan een flexibele kaft om een rug te vormen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">gelijmde paperback</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="nl">paperback</skos:altLabel>
+        <skos:prefLabel xml:lang="nl">gelijmde paperback</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">Vellen kunnen gevouwen zijn om katernen te vormen. De kaft is meestal gemaakt van dun karton, plastic of enig ander flexibel materiaal.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">brošēts līmēts</skos:prefLabel>
+        <skos:scopeNote xml:lang="lv">Loksnes var būt salocītas burtnīcās. Sējuma apvākojums parasti ir no bieza papīra, plastmasas vai cita lokana materiāla.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - kopā salīmētas loksnes, pielīmētas pie lokaniem vākiem, veidojot muguriņu.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">brošēts līmēts</rdakit:toolkitLabel>
+        <skos:definition xml:lang="en">A type of binding that glues sheets together and to a flexible outer casing to form a spine.</skos:definition>
+        <skos:altLabel xml:lang="fi">paperisidonta</skos:altLabel>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka liimaa arkit yhteen toistensa ja päällysten kanssa muodostaen selkämyksen.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat vellen bijeen lijmt en aan een flexibele kaft om een rug te vormen.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - kopā salīmētas loksnes, pielīmētas pie lokaniem vākiem, veidojot muguriņu.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد فائق</skos:prefLabel>
+        <skos:scopeNote xml:lang="ar">يمكن طي الأوراق لتكوين مَلَازم. عادة ما يكون الغلاف الخارجي للمجلد مصنوعًا من كرتون رفيع السُمك أو من بلاستيك أو مواد مرنة أخرى.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يلصق الأوراق معًا بغلاف خارجي مرن لعمل كعب الكتاب.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد فائق/الكمال</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ar">غلاف ورقي</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Broschur</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Die Bögen können gefaltet werden, um Lagen zu bilden. Die äußere Hülle des Bandes besteht in der Regel aus dünnem Karton, Kunststoff oder einem anderen flexiblen Material.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der die Blätter sowohl miteinander als auch mit einer flexiblen Außenhülle verklebt werden, um einen Buchrücken zu bilden.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Broschur</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="de">Klebebindung</skos:altLabel>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der die Blätter sowohl miteinander als auch mit einer flexiblen Außenhülle verklebt werden, um einen Buchrücken zu bilden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ a lâ€™americana</skos:prefLabel>
+        <skos:scopeNote xml:lang="ca">Els fulls es poden plegar per formar conjunts. La carcassa exterior del volum sol estar feta de cartÃ³ prim, plÃ stic o dâ€™algun altre material flexible.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ sâ€™enganxen els fulls junts i a una carcassa exterior per formar un llom.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ a lâ€™americana</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ca">enquadernaciÃ³ en rÃºstica</skos:altLabel>
+    </skos:Concept>
+<!-- Concept: spiral  -->
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1003" xml:lang="en">
+      <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+      <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+      
+      <skos:prefLabel xml:lang="en">spiral binding</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Outer covers of the volume may be made of a rigid or flexible material, and may be attached directly to the coil or threaded by the coil</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that uses a continuous wire or plastic coil that is threaded through holes along the edge of each sheet.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">spiral binding</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="en">coil binding</skos:altLabel>
+        <skos:notation>1003</skos:notation>
+    <skos:prefLabel xml:lang="fi">kierrenidonta</skos:prefLabel>
+        <skos:scopeNote xml:lang="fi">Niteen kannet voivat olla tehty joustamattomasta tai joustavasta materiaalista, ja ne voivat olla kiinnitetyt suoraan tai pujoteltuna kierteeseen.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka käyttää yhtenäistä metalli- ja muovikierrettä, joka pujotetaan arkkien reunassa olevien reikien läpi.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">kierrenidonta</rdakit:toolkitLabel>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat een doorlopende draad- of plastic spoel gebruikt die geregen is door gaten aan de zijkant van elk vel.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">spiraalband</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">spiraalband</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De kaft van de band kan gemaakt zijn van stug of flexibel materiaal, en kan direct verbonden zijn aan de spoel of geregen door de spoel.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">spirāle</skos:prefLabel>
+        <skos:scopeNote xml:lang="lv">Sējuma apvākojums var būt no lokana vai cieta materiāla un var būt piestiprināts tieši spirālei vai caurdurts ar spirāli.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - stieples vai plastmasas spirāle, kas izvērta caur visu lokšņu malās izsistiem caurumiem.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">spirāle</rdakit:toolkitLabel>
+        <skos:definition xml:lang="en">A type of binding that uses a continuous wire or plastic coil that is threaded through holes along the edge of each sheet.</skos:definition>
+        <skos:altLabel xml:lang="fi">kieppisidonta</skos:altLabel>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka käyttää yhtenäistä metalli- ja muovikierrettä, joka pujotetaan arkkien reunassa olevien reikien läpi.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat een doorlopende draad- of plastic spoel gebruikt die geregen is door gaten aan de zijkant van elk vel.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - stieples vai plastmasas spirāle, kas izvērta caur visu lokšņu malās izsistiem caurumiem.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد حلزوني</skos:prefLabel>
+        <skos:scopeNote xml:lang="ar">قد يكون الغلاف الخارجي لمجلد مصنوع من مادة صلبة/سميكة أو مرنة، ويمكن تثبيته مباشرة في الملف أو تمريره خلال الملف الحلزوني</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يستخدم سلكًا متصلا أو ملفًا بلاستيكيًا يتم تمريره خلال فتحات على طول حافة كل ورقة.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد حلزوني</rdakit:toolkitLabel>
+        <skos:altLabel xml:lang="ar">تجليد لولبي</skos:altLabel>
+        <skos:prefLabel xml:lang="de">Spiralbindung</skos:prefLabel>
+        <skos:scopeNote xml:lang="de">Die äußere Einbanddecke des Bandes kann aus starrem oder flexiblem Material bestehen und direkt an der Spirale befestigt oder durch die Spirale eingefädelt werden.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der ein durchgehender Draht oder eine Kunststoffspirale verwendet wird, der/die durch Löcher entlang der Kante jedes Bogens gefädelt wird.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Spiralbindung</rdakit:toolkitLabel>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der ein durchgehender Draht oder eine Kunststoffspirale verwendet wird, der/die durch Löcher entlang der Kante jedes Bogens gefädelt wird.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ dâ€™espiral</skos:prefLabel>
+        <skos:scopeNote xml:lang="ca">Les cobertes exteriors del volum poden estar fetes dâ€™un material rÃ­gid o flexible i poden estar unides directament a lâ€™espiral o enfilades amb lâ€™espiral.</skos:scopeNote>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ sâ€™usa una espiral contÃ­nua de filferro o plÃ stic que estÃ  enfilada a travÃ©s dels forats al llarg de la vora de cada full.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ dâ€™espiral</rdakit:toolkitLabel>
+    </skos:Concept>
+
+<!-- Status properties used in this document  -->
+    <skos:Concept rdf:about="http://metadataregistry.org/uri/RegStatus/1001">
+        <skos:prefLabel xml:lang="en">Published</skos:prefLabel>
+    </skos:Concept>
+
+<skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1006">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">springback binding</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">springback binding</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that clamps the edge of each sheet in a metal spring that is directly attached to a spine and outer covers, and that can be opened to allow the removal or insertion of any sheet.</rdakit:toolkitDefinition>
+        <skos:notation>1006</skos:notation>
+    <skos:prefLabel xml:lang="fi">jousiselkäinen sidos</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">jousiselkäinen sidos</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka puristaa jokaisen arkin reunan selkämykseen ja päällykseen kiinnitettyyn jouseen. Jousi voidaan aukaista arkin poistamiseksi tai lisäämiseksi.</rdakit:toolkitDefinition>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat de rand van elk vel in een metalen vering klemt die direct bevestigd is aan een rug en omslag, en die geopend kan worden om enig vel te verwijderen of in te voegen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">klembinder</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">klembinder</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">atspere</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">atspere</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - metāla atspere, kas saspiež lokšņu malas, tieši pievienota vākiem, un kuru var atvērt, lai pievienotu vai izņemtu kādu loksni.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="en">A type of binding that clamps the edge of each sheet in a metal spring that is directly attached to a spine and outer covers, and that can be opened to allow the removal or insertion of any sheet.</skos:definition>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka puristaa jokaisen arkin reunan selkämykseen ja päällykseen kiinnitettyyn jouseen. Jousi voidaan aukaista arkin poistamiseksi tai lisäämiseksi.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat de rand van elk vel in een metalen vering klemt die direct bevestigd is aan een rug en omslag, en die geopend kan worden om enig vel te verwijderen of in te voegen.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - metāla atspere, kas saspiež lokšņu malas, tieši pievienota vākiem, un kuru var atvērt, lai pievienotu vai izņemtu kādu loksni.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد بسلك زنبرك</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد بسلك زنبرك</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يثبت حافة كل ورقة في سلك زنبرك معدني متصل مباشرة بكعب المجلد وبالغلاف الخارجي، ويمكن فتحه للسماح بإزالة أو إدخال أي صفحة.</rdakit:toolkitDefinition>
+        <skos:prefLabel xml:lang="de">Klemmrückenbindung</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Klemmrückenbindung</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der die Kante jedes Bogens in eine Metallfeder geklemmt wird, die direkt am Buchrücken und an der äußeren Einbanddecke befestigt ist und die geöffnet werden kann, um das Herausnehmen oder Einlegen eines beliebigen Bogens zu ermöglichen.</rdakit:toolkitDefinition>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der die Kante jedes Bogens in eine Metallfeder geklemmt wird, die direkt am Buchrücken und an der äußeren Einbanddecke befestigt ist und die geöffnet werden kann, um das Herausnehmen oder Einlegen eines beliebigen Bogens zu ermöglichen.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ amb pinces</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ amb pinces</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ que subjecta la vora de cada full amb un perfil metÃ lÂ·lic a pressiÃ³ que va unit directament a un llom i a les cobertes exteriors i que es pot obrir per permetre lâ€™extracciÃ³ o inserciÃ³ de qualsevol full.</rdakit:toolkitDefinition>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1007">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">saddle stitch binding</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">saddle stitch binding</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that folds sheets and staples them along the fold to form a spine.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">The staples may be made of metal, plastic, or textile. Outer covers made of a flexible material are also folded and stapled to the sheets.</skos:scopeNote>
+        <skos:notation>1007</skos:notation>
+    <skos:prefLabel xml:lang="fi">satulaommelsidos</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">satulaommelsidos</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka taittaa ja nitoo arkit taitokseksi, joka muodostaa selkämyksen.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Nidos voi olla tehty metallista, muovista tai tekstiilistä. Joustavasta materiaalista tehdyt päällykset on taitettu ja nidottu kiinni arkkeihin.</skos:scopeNote>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat vellen vouwt en niet of stikt langs de vouw om een rug te vormen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">zadelsteekband</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">zadelsteekband</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De nietjes of stiksels kunnen gemaakt zijn van metaal, plastic of textiel. De kaft gemaakt van flexibel materiaal is ook gevouwen en geniet of gestikt aan de vellen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">brošēts skavots</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">brošēts skavots</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - salocītas loksnes, locījuma vietā saskavotas, veidojot muguriņu.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Skavas var būt no metāla, plastmasas vai tekstilmateriāla. Apvākojums ir no lokana materiāla, vidū locīts un pieskavots iekšlapu loksnēm.</skos:scopeNote>
+        <skos:definition xml:lang="en">A type of binding that folds sheets and staples them along the fold to form a spine.</skos:definition>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka taittaa ja nitoo arkit taitokseksi, joka muodostaa selkämyksen.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat vellen vouwt en niet of stikt langs de vouw om een rug te vormen.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - salocītas loksnes, locījuma vietā saskavotas, veidojot muguriņu.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد خياطة السرج</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد خياطة السرج</rdakit:toolkitLabel>
+        <skos:scopeNote xml:lang="ar">قد تُصنع الدبابيس من المعدن أو البلاستيك أو النسيج. وتطوى أيضا الأغلفة الخارجية المصنوعة من مادة مرنة وتدبس مع الأوراق.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Rückstichheftung</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Rückstichheftung</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der die Bögen gefaltet und entlang des Falzes geheftet werden, um einen Buchrücken zu bilden.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Die Klammern können aus Metall, Kunststoff oder Textil bestehen. Die äußere Einbanddecke, aus einem flexiblen Material, wird ebenfalls gefaltet und an die Bögen geheftet.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der die Bögen gefaltet und entlang des Falzes geheftet werden, um einen Buchrücken zu bilden.</skos:definition>
+        <skos:altLabel xml:lang="de">Rückenstichheftung</skos:altLabel>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ amb grapes</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ amb grapes</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ en quÃ¨ els fulls es pleguen i es grapen al llarg del plec per formar un llom.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">Les grapes poden ser de metall, plÃ stic o tÃ¨xtils. Les cobertes exteriors fetes de material flexible tambÃ© van plegades i grapades als fulls.</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1008">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">board book binding</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">board book binding</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding for sheets of thick paperboard with covers that are folded and bound to form a spine.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">The binding is durable and often used for manifestations for children. Outer covers are of the same thickness of paperboard as the sheets.</skos:scopeNote>
+        <skos:notation>1008</skos:notation>
+    <skos:prefLabel xml:lang="fi">pahvikirjan sidos</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">pahvikirjan sidos</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi paksusta pahvista tehdyille arkeille ja kansille, jotka on taitettu ja sidottu selkämykseksi.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Sidos on kestävä ja käytetty usein lasten kirjoissa. Päällykset ovat yhtä paksua pahvia kuin arkit.</skos:scopeNote>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze voor vellen van dik karton met omslagen die gevouwen en gebonden zijn om een rug te vormen.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">gekartonneerde band</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">gekartonneerde band</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De bindwijze is duurzaam en vaak gebruikt voor manifestaties voor kinderen. De kaft is van dezelfde dikte karton als de vellen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">cietlapu</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">cietlapu</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - biezas aplīmētas kartona loksnes, salocītas un sastiprinātas, veidojot muguriņu.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Iesējums ir izturīgs un bieži tiek izmantots bērniem paredzētās manifestācijās. Apvākojums ir no tikpat bieza kartona kā iekšlapas.</skos:scopeNote>
+        <skos:definition xml:lang="en">A type of binding for sheets of thick paperboard with covers that are folded and bound to form a spine.</skos:definition>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi paksusta pahvista tehdyille arkeille ja kansille, jotka on taitettu ja sidottu selkämykseksi.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze voor vellen van dik karton met omslagen die gevouwen en gebonden zijn om een rug te vormen.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - biezas aplīmētas kartona loksnes, salocītas un sastiprinātas, veidojot muguriņu.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد كتب ذات ورق مقوى</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد كتب ذات ورق مقوى</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد لألواح من الورق المقوى السميك بأغلفة مطوية ومجلدة لتشكيل الكعب.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ar">يكون التجليد متينا وغالبًا ما يستخدم للتجسيد المادي للأطفال. الأغلفة الخارجية لها ذات سمك الورق المقوى مثل الأوراق.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Pappband</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Pappband</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart für Bögen aus dicker Pappe mit einer Einbanddecke, die gefaltet und zu einem Buchrücken gebunden werden.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Der Einband ist haltbar und wird häufig für Manifestationen für Kinder verwendet. Die Einbanddecke ist aus der gleichen Pappstärke wie die Bögen.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Bindeart für Bögen aus dicker Pappe mit einer Einbanddecke, die gefaltet und zu einem Buchrücken gebunden werden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ de cartrÃ³ gruixut</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ de cartrÃ³ gruixut</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ per a fulls de cartolina gruixuda amb cobertes que estan plegades i enquadernades per formar un llom.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">Lâ€™enquadernaciÃ³ Ã©s duradora i usada sovint per a les manifestacions per a nens. Les cobertes exteriors sÃ³n del mateix gruix de cartolina que els fulls.</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1009">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">slide binding</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">slide binding</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that uses a single length of metal or plastic bent into a C cross-section which slides over the edge of each sheet to hold it in place.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">Outer covers of the volume may be made of a thin flexible material that can be inserted as a sheet into the binding strip.</skos:scopeNote>
+        <skos:notation>1009</skos:notation>
+    <skos:prefLabel xml:lang="fi">liukuva sidos</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">liukuva sidos</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, joka käyttää metallisia tai muovisia C-muotoon taivutettuja pätkiä, jotka liukuvat yli arkkien reunan kiinnittäen ne paikoilleen.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Niteen päällykset voi olla ohuesta materiallista, joka voidaan lisätään arkkina sidokseen.</skos:scopeNote>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat een enkele lengte gebruikt van metaal of plastic, gebogen tot een C-doorsnede die over de rand van elk vel glijdt om deze op zijn plaats te houden.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">klemrug</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">klemrug</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De kaft van de band kan gemaakt zijn van dun flexibel materiaal dat ingevoegd kan worden als een vel in de bindstrook.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">iespiedējsliede</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">iespiedējsliede</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - metāla vai plastmasas C profila saspiedējs, kas saspiež lokšņu malas visā garumā, tās saturot kopā.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Sējuma apvākojums var būt no plāna lokana materiāla, ko saspiešanas laikā var pievienot pārējām loksnēm.</skos:scopeNote>
+        <skos:definition xml:lang="en">A type of binding that uses a single length of metal or plastic bent into a C cross-section which slides over the edge of each sheet to hold it in place.</skos:definition>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, joka käyttää metallisia tai muovisia C-muotoon taivutettuja pätkiä, jotka liukuvat yli arkkien reunan kiinnittäen ne paikoilleen.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat een enkele lengte gebruikt van metaal of plastic, gebogen tot een C-doorsnede die over de rand van elk vel glijdt om deze op zijn plaats te houden.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - metāla vai plastmasas C profila saspiedējs, kas saspiež lokšņu malas visā garumā, tās saturot kopā.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد الشرائح</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد الشرائح</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يستخدم طولًا واحدًا من المعدن أو البلاستيك على شكل مقطع عرضي مقوس للداخل كحرفC الذي ينزلق فوق حافة كل ورقة لتثبيتها في مكانها</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ar">قد يكون الغلاف الخارجي للمجلد مصنوعا من مادة رقيقة مرنة يمكن تمريرها كورقة في شريط التجليد.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Klemmschienenbindung</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Klemmschienenbindung</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der ein einzelnes Metall- oder Kunststoffstück mit C-förmigem Querschnitt verwendet wird, das über den Rand jedes Bogens gleitet, um es zu fixieren.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Die Einbanddecke eines Bandes kann aus einem dünnen, flexiblen Material bestehen, das als Bogen in den Einbandstreifen eingelegt werden kann.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der ein einzelnes Metall- oder Kunststoffstück mit C-förmigem Querschnitt verwendet wird, das über den Rand jedes Bogens gleitet, um es zu fixieren.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ lliscant</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ lliscant</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ que usa un sol perfil de metall o plÃ stic plegat en una secciÃ³ transversal en forma de C que llisca per la vora de cada full per mantenir-lo al seu lloc.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">Les cobertes del volum poden estar fetes dâ€™un material flexible que es poden inserir com un full dins el perfil dâ€™enquadernaciÃ³.</skos:scopeNote>
+    </skos:Concept>
+    <skos:Concept rdf:about="http://rdaregistry.info/termList/RDATypeOfBinding/1010">
+        <skos:inScheme rdf:resource="http://rdaregistry.info/termList/RDATypeOfBinding"/>
+        <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
+        <skos:prefLabel xml:lang="en">comb binding</skos:prefLabel>
+        <skos:altLabel xml:lang="en">wire binding</skos:altLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">comb binding</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="en">A type of binding that uses multiple closely-spaced curved flaps of metal or plastic that are threaded through holes along the edge of each sheet.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="en">The binding flaps usually form a curved spine. Outer covers are generally threaded by the flaps.</skos:scopeNote>
+        <skos:notation>1010</skos:notation>
+    <skos:prefLabel xml:lang="fi">kampasidos</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">kampasidos</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="fi">Sidonnan tyyppi, jossa useat lähekkäin sijoitetut ja taivutetut metalli- tai muoviliuskat on pujotettu läpi arkkien reunassa olevista reijistä.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="fi">Sidosliuskat muodostavat usein kaarevan selkämyksen. Päällykset on yleensä kierteitetty liuskilla.</skos:scopeNote>
+    <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">Een type bindwijze dat meerdere gebogen dicht bijeen geplaatste flappen gebruikt van metaal of plastic, die geregen zijn door gaten langs de rand van elk vel.</rdakit:toolkitDefinition>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="nl">draadkamband</rdakit:toolkitLabel>
+        <skos:prefLabel xml:lang="nl">draadkamband</skos:prefLabel>
+        <skos:scopeNote xml:lang="nl">De bindflappen vormen meestal een gebogen rug. De kaft is over het algemeen geregen met de flappen.</skos:scopeNote>
+        <skos:prefLabel xml:lang="lv">"ķemme"</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">"ķemme"</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="lv">Iesējuma veids - daudzi tuvu novietoti saliekti metāla vai plastmasas "ķemmes" zobi, kas izvērti caur visu lokšņu malās izsistiem caurumiem.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="lv">Zobainā iesiešanas sloksne veido izliektu muguriņu. Apvākojumu parasti caurdur sloksnes "zobi".</skos:scopeNote>
+        <skos:definition xml:lang="en">A type of binding that uses multiple closely-spaced curved flaps of metal or plastic that are threaded through holes along the edge of each sheet.</skos:definition>
+        <skos:altLabel xml:lang="fi">kierresidonta</skos:altLabel>
+    <skos:definition xml:lang="fi">Sidonnan tyyppi, jossa useat lähekkäin sijoitetut ja taivutetut metalli- tai muoviliuskat on pujotettu läpi arkkien reunassa olevista reijistä.</skos:definition>
+        <skos:definition xml:lang="nl">Een type bindwijze dat meerdere gebogen dicht bijeen geplaatste flappen gebruikt van metaal of plastic, die geregen zijn door gaten langs de rand van elk vel.</skos:definition>
+        <skos:definition xml:lang="lv">Iesējuma veids - daudzi tuvu novietoti saliekti metāla vai plastmasas "ķemmes" zobi, kas izvērti caur visu lokšņu malās izsistiem caurumiem.</skos:definition>
+        <skos:prefLabel xml:lang="ar">تجليد المشط</skos:prefLabel>
+        <skos:altLabel xml:lang="ar">تجليد بالسلك</skos:altLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">تجليد المشط</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ar">نوع من التجليد يستخدم ألواح مقوسة متعددة متقاربة المسافة من المعدن أو من البلاستيك تُخيط معا بتمرير سلك من خلال ثقوب على طول حافة كل ورقة.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ar">عادة ما تشكل ألواح التجليد كعبا مقوسا. وعادة ما تُخيط الأغلفة الخارجية بالألواح.</skos:scopeNote>
+        <skos:prefLabel xml:lang="de">Kammbindung</skos:prefLabel>
+        <skos:altLabel xml:lang="de">Drahtheftung</skos:altLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Kammbindung</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="de">Eine Bindeart, bei der mehrere eng beieinander liegende, gebogene Metall- oder Kunststofflaschen verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt werden.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="de">Die Bindelaschen bilden in der Regel einen gebogenen Rücken. Die Einbanddecke wird im Allgemeinen an den Laschen eingefädelt.</skos:scopeNote>
+        <skos:definition xml:lang="de">Eine Bindeart, bei der mehrere eng beieinander liegende, gebogene Metall- oder Kunststofflaschen verwendet werden, die durch Löcher entlang der Kante jedes Bogens gefädelt werden.</skos:definition>
+        <skos:prefLabel xml:lang="ca">enquadernaciÃ³ de canonet</skos:prefLabel>
+        <rdakit:toolkitLabel xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">enquadernaciÃ³ de canonet</rdakit:toolkitLabel>
+        <rdakit:toolkitDefinition xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/" xml:lang="ca">Tipus dâ€™enquadernaciÃ³ que usa mÃºltiples pues de metall o plÃ stic corbades i poc espaiades entre si i que estan enfilades a travÃ©s dels forats al llarg de la vora de cada full.</rdakit:toolkitDefinition>
+        <skos:scopeNote xml:lang="ca">Les pues de lâ€™enquadernaciÃ³ formen un llom corb. Les cobertes exteriors estan enfilades generalment amb les pues.</skos:scopeNote>
+    </skos:Concept>
+</rdf:RDF>

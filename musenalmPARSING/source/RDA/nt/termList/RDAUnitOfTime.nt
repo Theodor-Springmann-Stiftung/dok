@@ -1,0 +1,429 @@
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/title> "RDA Unit of Time"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/description> "Concepts for a unit of chronological duration that is used in the names and access points of calendrical timespans."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/vocab/vann/preferredNamespacePrefix> "rdaut" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://creativecommons.org/ns#licence> <https://creativecommons.org/licenses/by/4.0/deed.en_US> .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/creator> "RDA Steering Committee" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/contributor> "RSC Technical Working Group" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/publisher> "ALA Digital Reference" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/type> <http://rdaregistry.info/termList/RDALinkedDataWork/1002> .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/issued> "2020-12-16" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/title> "RDA:n ajan yksikkö"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/description> "Käsitteet kronologisen keston yksiköille, joita käytetään kalenteriajanjaksojen nimissä ja hakutiedoissa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2020 American Library Association, Canadian Federation of Library Associations ja CILIP: Chartered Institute of Library and Information Professionals"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/title> "Unité de temps RDA"@fr .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2020 American Library Association, Fédération canadienne des associations de bibliothèques et CILIP: Chartered Institute of Library and Information Professionals"@fr .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/title> "وحدة الوقت \"وام\""@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/description> "مفاهيم لوحدة زمنية مستخدمة في الأسماء ونقاط الوصول لفترات التقويم الزمنية."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/rights> "حقوق النشر© 2020، جمعية المكتبات الأمريكية، والاتحاد الكندي لجمعيات المكتبات، والمعهد القانوني للمكتبات ومهنيي المعلومات"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/title> "RDA-Vokabular für Zeiteinheiten"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/description> "Begriffe für Einheiten der chronologischen Dauer, die in den Namen und Sucheinstiegen von kalendarischen Zeiträumen verwendet werden."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2020 American Library Association, Canadian Federation of Library Associations, and CILIP: Chartered Institute of Library and Information Professionals"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://www.w3.org/2002/07/owl#versionInfo> "v5.0.12" .
+<http://rdaregistry.info/termList/RDAUnitOfTime> <http://purl.org/dc/elements/1.1/modified> "2023-06-20" .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "century"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "century"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 10 decades in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#notation> "1001" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "vuosisata"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "vuosisata"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 10 vuosikymmentä."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 10 decennia in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "eeuw"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "eeuw"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "gadsimts"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "gadsimts"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 10 desmitgažu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 10 decades in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 10 vuosikymmentä."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 10 decennia in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 10 desmitgažu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "قرن"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "قرن"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 10 عقود."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jahrhundert"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Jahrhundert"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 10 Jahrzehnten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 10 Jahrzehnten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "segle"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "segle"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1001> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 10 dÃ¨cades."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "hour"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "hour"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 60 minutes in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#notation> "1002" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "tunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "tunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 60 minuuttia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 60 minuten in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "uur"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "uur"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "stunda"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "stunda"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 60 minūšu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 60 minutes in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 60 minuuttia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 60 minuten in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 60 minūšu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "ساعة"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "ساعة"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 60 دقيقة."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Stunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 60 Minuten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 60 Minuten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://www.w3.org/2004/02/skos/core#prefLabel> "hora"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "hora"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1002> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 60 minuts."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "month"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "month"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is approximately 4-5 weeks in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "The number of days in a month varies between different calendar systems."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#notation> "1003" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "kuukausi"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "kuukausi"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan noin 4-5 viikkoa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "Kuukauteen sisältyvien päivien määrä on eri eri kalentereissa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die ongeveer 4-5 weken in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "maand"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "maand"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "Het aantal dagen in een maand varieert tussen verschillende kalendersystemen."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "mēnesis"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "mēnesis"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība aptuveni 4-5 nedēļu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "Dienu skaits mēnesī dažādās kalendāru sistēmās atšķiras."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is approximately 4-5 weeks in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan noin 4-5 viikkoa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die ongeveer 4-5 weken in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība aptuveni 4-5 nedēļu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "شهر"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "شهر"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "يختلف عدد الأيام في الشهر باختلاف أنظمة التقويم."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monat"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Monat"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von etwa 4-5 Wochen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "Die Anzahl der Tage in einem Monat variiert zwischen den verschiedenen Kalendersystemen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von etwa 4-5 Wochen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#prefLabel> "mes"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "mes"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 4-5 setmanes aproximadament."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1003> <http://www.w3.org/2004/02/skos/core#scopeNote> "El nombre de dies en un mes varia entre els diferents sistemes de calendaris."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "year"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "year"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is approximately 12-13 months in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "A Julian year is 31,557,600 seconds. A year is also approximately 365-366 days in duration. The number of months in a year varies between different calendar systems."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#notation> "1004" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "vuosi"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "vuosi"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan noin 12-13 kuukautta."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "Juliaaninen vuosi on 31557600 sekunttia. Vuosi on kestoltaan noin 365-366 päivää. Vuoteen sisältyvien kuukausien määrä on eri eri kalentereissa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die ongeveer 12-13 maanden in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "jaar"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "jaar"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "Een Juliaans jaar is 31.557.600 secondes. Een jaar is ook ongeveer 365-366 dagen in duur. Het aantal maanden in een jaar varieert tussen verschillende kalendersystemen."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "gads"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "gads"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība aptuveni 12-13 mēnešu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "Juliāna kalendāra gads ir 31 557 600 sekunžu garš. Gads ir arī aptuveni 365-366 dienu garš. Mēnešu skaits gadā dažādās kalendāru sistēmās atšķiras."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is approximately 12-13 months in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan noin 12-13 kuukautta."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die ongeveer 12-13 maanden in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība aptuveni 12-13 mēnešu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "عام"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "عام"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية تتراوح مدتها من 12 إلى 13 شهرًا تقريبًا."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "السنة اليوليانية مدتها 31.557.600 ثانية. مدة السنة أيضًا حوالي 365-366 يومًا. يختلف عدد الأشهر في السنة باختلاف أنظمة التقويم."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jahr"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Jahr"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von etwa 12-13 Monaten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "Ein Julianisches Jahr besteht aus 31.557.600 Sekunden. Ein Jahr hat ebenfalls eine Dauer von etwa 365-366 Tagen. Die Anzahl der Tage in einem Monat variiert zwischen den verschiedenen Kalendersystemen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von etwa 12-13 Monaten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#prefLabel> "any"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "any"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 12-13 mesos aproximadament."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1004> <http://www.w3.org/2004/02/skos/core#scopeNote> "Un any juliÃ  tÃ© 31.557.600 segons. Un any tambÃ© tÃ© una durada de 365-366 dies aproximadament. El nombre de mesos dâ€™un any varia entre els diferents sistemes de calendaris."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "day"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "day"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 24 hours in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#notation> "1005" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "päivä"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "päivä"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 24 tuntia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 24 uur in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "dag"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "dag"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "diena"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "diena"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 24 stundu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 24 hours in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 24 tuntia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 24 uur in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 24 stundu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "يوم"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "يوم"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 24 ساعة."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Tag"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 24 Stunden."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 24 Stunden."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://www.w3.org/2004/02/skos/core#prefLabel> "dia"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "dia"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1005> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 24 hores."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "millisecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "millisecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is one thousandth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#notation> "1006" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "millisekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "millisekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on sekunnin tuhannesosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die een duizendste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "milliseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "milliseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "milisekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "milisekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība - viena sekundes tūkstošdaļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is one thousandth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on sekunnin tuhannesosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die een duizendste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība - viena sekundes tūkstošdaļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "ميلي ثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "ميلي ثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية هي جزء من ألف من الثانية."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Millisekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Millisekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit, die ein Tausendstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit, die ein Tausendstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://www.w3.org/2004/02/skos/core#prefLabel> "milÂ·lisegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "milÂ·lisegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1006> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que Ã©s una milÂ·lÃ¨sima de segon."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanosecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nanosecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is one billionth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#notation> "1007" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanosekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nanosekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on sekunnin miljardisosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die een miljardste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nanoseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanoseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanosekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nanodekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība - viena sekundes miljardā daļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is one billionth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on sekunnin miljardisosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die een miljardste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība - viena sekundes miljardā daļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "نانوثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "نانوثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nanosekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Nanosekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit, die ein Millardstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit, die ein Millardstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanosegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nanosegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1007> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que Ã©s una mil milionÃ¨sima de segon."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "second"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "second"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#notation> "1008" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "sekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "sekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on 9192631770 säteilyjaksoa, joita vastaa siirtymä cesium 133 -atomin perustilan kahden ylihienon tason välillä."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 9.192.631.770 periodes van de straling is, in overeenkomst met de overgang tussen de twee hyperfijne niveaus van de grondtoestand van het caesium-133 atoom."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "seconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "seconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "sekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "sekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība - cēzija izotopa 133Cs izstarotā mikroviļņa 9 192 631 770 svārstību periodu kopējais ilgums, notiekot pārejai starp diviem atoma pamatstāvokļa hipersīkstruktūras līmeņiem."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on 9192631770 säteilyjaksoa, joita vastaa siirtymä cesium 133 -atomin perustilan kahden ylihienon tason välillä."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 9.192.631.770 periodes van de straling is, in overeenkomst met de overgang tussen de twee hyperfijne niveaus van de grondtoestand van het caesium-133 atoom."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība - cēzija izotopa 133Cs izstarotā mikroviļņa 9 192 631 770 svārstību periodu kopējais ilgums, notiekot pārejai starp diviem atoma pamatstāvokļa hipersīkstruktūras līmeņiem."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "ثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "ثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية هي 9،192،631،770 فترة إشعاع مناظرة لفترة الانتقال بين مستويين فائقي الدقة للحالة الأرضية لذرة السيزيوم -133."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Sekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit, die dem 9.192.631.770-fachen der Periodendauer der Strahlung entspricht, die dem Übergang zwischen den beiden Hyperfeinstrukturniveaus des Grundzustands des Cäsium-133-Atoms entspricht."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit, die dem 9.192.631.770-fachen der Periodendauer der Strahlung entspricht, die dem Übergang zwischen den beiden Hyperfeinstrukturniveaus des Grundzustands des Cäsium-133-Atoms entspricht."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "segon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "segon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1008> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 9.192.631.770 perÃ­odes de la radiaciÃ³ corresponent a la transiciÃ³ entre els dos nivells de lâ€™estructura hiperfina de lâ€™estat fonamental de lâ€™Ã tom de cesi-133."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "microsecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "microsecond"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is one millionth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#notation> "1009" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "mikrosekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "mikrosekunti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on sekunnin miljoonasosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die een miljoenste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "microseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "microseconde"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "mikrosekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "mikrosekunde"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība - viena sekundes miljonā daļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is one millionth of a second."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on sekunnin miljoonasosa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die een miljoenste van een seconde is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība - viena sekundes miljonā daļa."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "ميكروثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "ميكروثانية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية هي جزء من المليون من الثانية."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mikrosekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Mikrosekunde"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit, die ein Millionstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit, die ein Millionstel einer Sekunde beträgt."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://www.w3.org/2004/02/skos/core#prefLabel> "microsegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "microsegon"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1009> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que Ã©s una milionÃ¨sima de segon."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "decade"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "decade"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 10 years in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#notation> "1010" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "vuosikymmen"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "vuosikymmen"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 10 vuotta."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 10 jaar in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "decennium"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "decennium"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "desmitgade"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "desmitgade"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 10 gadu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 10 years in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 10 vuotta."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 10 jaar in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 10 gadu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "عِقد"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "عِقد"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 10 عقود."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jahrzehnt"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Jahrzehnt"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 10 Jahren."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#altLabel> "Dekade"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 10 Jahren."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://www.w3.org/2004/02/skos/core#prefLabel> "dÃ¨cada"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "dÃ¨cada"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1010> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 10 anys."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "millennium"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "millennium"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 10 centuries in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#notation> "1011" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "vuosituhat"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "vuosituhat"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 10 vuosisataa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 10 eeuwen in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "millennium"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "millennium"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "tūkstošgade"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "tūkstošgade"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 10 gadsimtu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 10 centuries in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 10 vuosisataa."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 10 eeuwen in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 10 gadsimtu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "ألفية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "ألفية"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 10 عقود."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jahrtausend"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Jahrtausend"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 10 Jahrhunderten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 10 Jahrhunderten."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://www.w3.org/2004/02/skos/core#prefLabel> "milÂ·lenni"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "milÂ·lenni"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1011> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 10 segles."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "week"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "week"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 7 days in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#notation> "1012" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "viikko"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "viikko"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 7 päivää."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 7 dagen in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "week"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "week"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "nedēļa"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "nedēļa"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 7 dienu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 7 days in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 7 päivää."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 7 dagen in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 7 dienu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "أسبوع"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "أسبوع"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 7 أيام."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woche"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Woche"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 7 Tagen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 7 Tagen."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://www.w3.org/2004/02/skos/core#prefLabel> "setmana"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "setmana"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1012> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 7 dies."@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#inScheme> <http://rdaregistry.info/termList/RDAUnitOfTime> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "minute"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "minute"@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "A unit of time that is 60 seconds in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#notation> "1013" .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "minuutti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "minuutti"@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Ajan yksikkö, joka on kestoltaan 60 sekuntia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Een eenheid van tijd die 60 secondes in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "minuut"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "minuut"@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "minūte"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "minūte"@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Laika vienība 60 sekunžu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#definition> "A unit of time that is 60 seconds in duration."@en .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#definition> "Ajan yksikkö, joka on kestoltaan 60 sekuntia."@fi .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#definition> "Een eenheid van tijd die 60 secondes in duur is."@nl .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#definition> "Laika vienība 60 sekunžu garumā."@lv .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "دقيقة"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "دقيقة"@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "وحدة زمنية مدتها 60 ثانية."@ar .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Minute"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "Minute"@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Eine Zeiteinheit mit einer Dauer von 60 Sekunden."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeiteinheit mit einer Dauer von 60 Sekunden."@de .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://www.w3.org/2004/02/skos/core#prefLabel> "minut"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitLabel> "minut"@ca .
+<http://rdaregistry.info/termList/RDAUnitOfTime/1013> <http://metadataregistry.org/uri/profile/rdakit/toolkitDefinition> "Unitat de temps que tÃ© una durada de 60 segons."@ca .
