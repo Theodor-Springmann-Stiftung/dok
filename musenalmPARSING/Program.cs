@@ -35,9 +35,9 @@ var oldDB = new AlteDBXMLLibrary(data);
 // var newDB = new NeueDBXMLLibrary(data, oldDB);
 // newDB.Save(DESTDIR, nscheme);
 
-// var mscheme = unifySchemata(MITTELDIR);
-// var mDB = new MittelDBXMLLibrary(data, oldDB);
-// mDB.Save(DESTDIR, mscheme);
+var mscheme = unifySchemata(MITTELDIR);
+var mDB = new MittelDBXMLLibrary(data, oldDB);
+mDB.Save(DESTDIR, mscheme);
 
 var csv = new CSVParser(data, oldDB);
 csv.Save(DESTDIR);

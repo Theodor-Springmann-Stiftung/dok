@@ -165,27 +165,27 @@ public class MittelDBXMLLibrary {
                 }
             }
 
-            // Reihen
-            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
-                reihenwerke.Add(n.Value.NUMMER, new List<string>());
-                var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                foreach (var e in composite) {
-                    var reihe = e;
-                    var m = rgxfourendnumbers.Matches(e);
-                    if (m != null && m.Any())  {
-                        var abschnitt = m.Last().ToString();
-                        var normabs = rgxnormabschnitt.Match(abschnitt);
-                        if (normabs.Length < abschnitt.Length) {
-                            if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
-                            else abschnitte[n.Value.NUMMER] += abschnitt;
-                        }
+            //Reihen
+            // if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+            //     reihenwerke.Add(n.Value.NUMMER, new List<string>());
+            //     var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            //     foreach (var e in composite) {
+            //         var reihe = e;
+            //         var m = rgxfourendnumbers.Matches(e);
+            //         if (m != null && m.Any())  {
+            //             var abschnitt = m.Last().ToString();
+            //             var normabs = rgxnormabschnitt.Match(abschnitt);
+            //             if (normabs.Length < abschnitt.Length) {
+            //                 if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
+            //                 else abschnitte[n.Value.NUMMER] += abschnitt;
+            //             }
                         
-                        reihe = e.Replace(abschnitt, null);
-                    }
-                    if (!reihen.Contains(reihe)) reihen.Add(reihe);
-                    reihenwerke[n.Value.NUMMER].Add(reihe);
-                }
-            }
+            //             reihe = e.Replace(abschnitt, null);
+            //         }
+            //         if (!reihen.Contains(reihe)) reihen.Add(reihe);
+            //         reihenwerke[n.Value.NUMMER].Add(reihe);
+            //     }
+            // }
 
             // Herausgaber
             if (!String.IsNullOrWhiteSpace(n.Value.HRSGREALNAME)) {
@@ -515,6 +515,7 @@ public class MittelDBXMLLibrary {
     }
 
     private void saveDocument<T>(XmlWriter w, IEnumerable<T> coll, XmlSerializerNamespaces ns) {
+        if (coll == null || !coll.Any()) return;
         var akteurS = new XmlSerializer(typeof(T));
         foreach (var n in coll) {
             akteurS.Serialize(w, n, ns);

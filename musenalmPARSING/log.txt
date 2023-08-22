@@ -3361,3 +3361,24 @@
 21/08/2023 17:29:41 Band 4886 existiert nicht. Herkunft: INHNR 124330
 21/08/2023 17:29:41 Objektzähler  unzulässig. Herkunft INHNR 127106
 21/08/2023 17:29:41 Paginierung a, INHNR 132628 unzulässig.
+
+22.08.2023 10:22:21 Log MusenalmDB
+22.08.2023 10:22:28 Band 4886 existiert nicht. Herkunft: INHNR 124330
+22.08.2023 10:22:28 Objektzähler  unzulässig. Herkunft INHNR 127106
+22.08.2023 10:22:29 Paginierung a, INHNR 132628 unzulässig.
+
+22.08.2023 10:26:36 Log MusenalmDB
+22.08.2023 10:26:42 Band 4886 existiert nicht. Herkunft: INHNR 124330
+22.08.2023 10:26:42 Objektzähler  unzulässig. Herkunft INHNR 127106
+22.08.2023 10:26:43 Paginierung a, INHNR 132628 unzulässig.
+22.08.2023 10:26:49 Band 4886 existiert nicht. Herkunft: INHNR 124330
+22.08.2023 10:26:49 Objektzähler  unzulässig. Herkunft INHNR 127106
+22.08.2023 10:26:49 Paginierung a, INHNR 132628 unzulässig.
+
+22.08.2023 11:16:23 Log MusenalmDB
+22.08.2023 11:16:30 Band 4886 existiert nicht. Herkunft: INHNR 124330
+22.08.2023 11:16:30 Objektzähler  unzulässig. Herkunft INHNR 127106
+22.08.2023 11:16:31 Paginierung a, INHNR 132628 unzulässig.
+22.08.2023 11:16:37 Band 4886 existiert nicht. Herkunft: INHNR 124330
+22.08.2023 11:16:37 Objektzähler  unzulässig. Herkunft INHNR 127106
+22.08.2023 11:16:37 Paginierung a, INHNR 132628 unzulässig.
