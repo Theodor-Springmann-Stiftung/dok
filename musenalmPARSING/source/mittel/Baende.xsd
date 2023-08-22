@@ -17,7 +17,7 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACmaj0PzRsZRpoo6jOGlMJIAAAAAAZ9ht5ODOZAAAAAAAAAAABCAGEA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACmaj0PzRsZRpoo6jOGlMJIAAAAALsgq4ITDeZAAAAAAAAAAABCAGEA
 ZQBuAGQAZQAAAAAAAAAh+iJRldmnR4DEzBr1YEJrBwAAAKZqPQ/NGxlGmijqM4aU
 wkhJAEQAAAAAAAAAHHzCYy5VFU6BbxdmLI3W8gcAAACmaj0PzRsZRpoo6jOGlMJI
 QgBJAEIATABJAE8ALQBJAEQAAAAAAAAAhnDnxT7IyEC8zzxy8VyFUAcAAACmaj0P
@@ -34,8 +34,9 @@ zEqMdJP6dMspFAcAAACmaj0PzRsZRpoo6jOGlMJIUwBUAFIAVQBLAFQAVQBSAAAA
 AAAAADUkUni3LOVApmRzTQlAtucHAAAApmo9D80bGUaaKOozhpTCSE4ATwBSAE0A
 AAAAAAAAMOG8DVLYf0y7LNgJvKHvhAcAAACmaj0PzRsZRpoo6jOGlMJIQQBOAE0A
 RQBSAEsAVQBOAEcARQBOAAAAAAAAAJ7SVMC2JjJJsO633SrQ/1AHAAAApmo9D80b
-GUaaKOozhpTCSFIARQBJAEgARQBOAFQASQBUAEUATAAtAEEATABUAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
+GUaaKOozhpTCSFIARQBJAEgARQBOAFQASQBUAEUATAAtAEEATABUAAAAAAAAAFN+
+3jySsLJClGP4B1FsUAsHAAAApmo9D80bGUaaKOozhpTCSEUAUgBGAEEAUwBTAFQA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -231,6 +232,24 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 <od:fieldProperty name="GUID" type="9" value="lF48gZO8SEqC6iTZ463q3g==
 "/>
+</xsd:appinfo>
+</xsd:annotation>
+</xsd:element>
+<xsd:element name="ERFASST" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="U37ePJKwskKUY/gHUWxQCw==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Format" type="10" value="Yes/No"/>
+<od:fieldProperty name="DefaultValue" type="12" value="No"/>
+<od:fieldProperty name="DisplayControl" type="3" value="106"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>

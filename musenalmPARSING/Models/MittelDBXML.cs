@@ -132,6 +132,8 @@ public class Baende {
     public string? REIHENTITELALT;
     [XmlElement]
     public Status[]? STATUS;
+    [XmlElement]
+    public bool ERFASST;
 
     public bool ShouldSerializeJAHR() => JAHR != null;
     public bool ShouldSerializeSORTIERTITEL() => !String.IsNullOrWhiteSpace(SORTIERTITEL);
@@ -156,10 +158,6 @@ public class RELATION_InhalteAkteure {
     public long AKTEUR;
     [XmlElement]
     public string? ANMERKUNG;
-    [XmlElement]
-    public bool? ERSCHLOSSEN = false;
-    [XmlElement]
-    public bool? UNSICHER = false;
     public bool ShouldSerializeANMERKUNG() => !String.IsNullOrWhiteSpace(ANMERKUNG);
 }
 
@@ -173,10 +171,6 @@ public class RELATION_BaendeAkteure {
     public long AKTEUR;
     [XmlElement]
     public string? ANMERKUNG;
-    [XmlElement]
-    public bool? ERSCHLOSSEN = false;
-    [XmlElement]
-    public bool? UNSICHER = false;
     public bool ShouldSerializeANMERKUNG() => !String.IsNullOrWhiteSpace(ANMERKUNG);
 }
 
@@ -190,9 +184,5 @@ public class RELATION_BaendeReihen {
     public long REIHE;
     [XmlElement]
     public string? ANMERKUNG;
-    [XmlElement]
-    public bool? ERSCHLOSSEN = false;
-    [XmlElement]
-    public bool? UNSICHER = false;
     public bool ShouldSerializeANMERKUNG() => !String.IsNullOrWhiteSpace(ANMERKUNG);
 }

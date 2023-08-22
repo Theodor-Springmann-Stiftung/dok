@@ -17,28 +17,26 @@
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAACBNk01SDOZAAAAAAAAAAAAqAFIA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAFUZPJATDeZAAAAAAAAAAAAqAFIA
 RQBMAEEAVABJAE8ATgBfAEIAYQBlAG4AZABlAFIAZQBpAGgAZQBuAAAAAAAAAKZq
-PQ/NGxlGmijqM4aUwkgAAAAApSRMaE8M5kAAAAAAAAAAAEIAYQBlAG4AZABlAAAA
+PQ/NGxlGmijqM4aUwkgAAAAA7rsiiBMN5kAAAAAAAAAAAEIAYQBlAG4AZABlAAAA
 AAAAACH6IlGV2adHgMTMGvVgQmsHAAAApmo9D80bGUaaKOozhpTCSEkARAAAAAAA
 AACGcOfFPsjIQLzPPHLxXIVQBwAAAKZqPQ/NGxlGmijqM4aUwkhTAE8AUgBUAEkA
 RQBSAFQASQBUAEUATAAAAAAAAADKza3wwa3CTojQ3sN2CqJ3BwAAAKZqPQ/NGxlG
 mijqM4aUwkhKAEEASABSAAAAAAAAAHbscG6RnRVHvttVhAEh1FsHAAAAnU/sbvQ0
-bkKqxrVlg3jRV0IAQQBOAEQAAAAAAAAAWuDr59WbPEeG+ZgIV86ToQAAAAAzqIU8
-UgzmQAAAAAAAAAAAKgBWAE8ASwBBAEIAVQBMAEEAUgBfAFIAZQBpAGgAZQAAAAAA
+bkKqxrVlg3jRV0IAQQBOAEQAAAAAAAAAWuDr59WbPEeG+ZgIV86ToQAAAAC3tSKI
+Ew3mQAAAAAAAAAAAKgBWAE8ASwBBAEIAVQBMAEEAUgBfAFIAZQBpAGgAZQAAAAAA
 AACAA4LVADKtTZws08VJMptiBwAAAFrg6+fVmzxHhvmYCFfOk6FJAEQAAAAAAAAA
 k97IV48eSkGsHrtBHIRDrwcAAABa4Ovn1Zs8R4b5mAhXzpOhQgBFAFoASQBFAEgA
 VQBOAEcAAAAAAAAADLbrGCmYn0iphEYThqd7EQcAAACdT+xu9DRuQqrGtWWDeNFX
-QgBFAFoASQBFAEgAVQBOAEcAAAAAAAAAcq6r3GwmtUCT0aBBaFotyAAAAADbKkxo
-TwzmQAAAAAAAAAAAUgBlAGkAaABlAG4AAAAAAAAAzOXbN2SO8kWgwB8JQaxpEwcA
+QgBFAFoASQBFAEgAVQBOAEcAAAAAAAAAcq6r3GwmtUCT0aBBaFotyAAAAAAkwiKI
+Ew3mQAAAAAAAAAAAUgBlAGkAaABlAG4AAAAAAAAAzOXbN2SO8kWgwB8JQaxpEwcA
 AAByrqvcbCa1QJPRoEFoWi3ISQBEAAAAAAAAANjmyZkkL01PjerLGiAlB1MHAAAA
 cq6r3GwmtUCT0aBBaFotyFMATwBSAFQASQBFAFIATgBBAE0ARQAAAAAAAADzJHWM
 IYUlTaI3dYc8nDk/BwAAAJ1P7G70NG5Cqsa1ZYN40VdSAEUASQBIAEUAAAAAAAAA
-M8B08Ztk206w8Wva5rfhSwcAAACdT+xu9DRuQqrGtWWDeNFXRQBSAFMAQwBIAEwA
-TwBTAFMARQBOAAAAAAAAAMWv33LXgX1EjaETvWAzflsHAAAAnU/sbvQ0bkKqxrVl
-g3jRV1UATgBTAEkAQwBIAEUAUgAAAAAAAADGQdYMRO6ZTpU/6tbM5KWPBwAAAJ1P
-7G70NG5Cqsa1ZYN40VdBAE4ATQBFAFIASwBVAE4ARwBFAE4AAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
+xkHWDETumU6VP+rWzOSljwcAAACdT+xu9DRuQqrGtWWDeNFXQQBOAE0ARQBSAEsA
+VQBOAEcARQBOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAA
+AAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="GUID" type="9" value="nU/sbvQ0bkKqxrVlg3jRVw==
@@ -146,42 +144,6 @@ AAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:fieldProperty name="AllowValueListEdits" type="1" value="1"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ShowOnlyRowSourceValues" type="1" value="0"/>
-<od:fieldProperty name="ResultType" type="2" value="0"/>
-<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>
-<xsd:element name="ERSCHLOSSEN" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
-<xsd:annotation>
-<xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="M8B08Ztk206w8Wva5rfhSw==
-"/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
-<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Format" type="10" value="Yes/No"/>
-<od:fieldProperty name="DefaultValue" type="12" value="No"/>
-<od:fieldProperty name="DisplayControl" type="3" value="106"/>
-<od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AggregateType" type="4" value="-1"/>
-<od:fieldProperty name="ResultType" type="2" value="0"/>
-<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-</xsd:appinfo>
-</xsd:annotation>
-</xsd:element>
-<xsd:element name="UNSICHER" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean">
-<xsd:annotation>
-<xsd:appinfo>
-<od:fieldProperty name="GUID" type="9" value="xa/fcteBfUSNoRO9YDN+Ww==
-"/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
-<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
-<od:fieldProperty name="Format" type="10" value="Yes/No"/>
-<od:fieldProperty name="DefaultValue" type="12" value="No"/>
-<od:fieldProperty name="DisplayControl" type="3" value="106"/>
-<od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
 </xsd:appinfo>

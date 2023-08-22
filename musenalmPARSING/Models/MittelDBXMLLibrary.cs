@@ -230,7 +230,8 @@ public class MittelDBXMLLibrary {
                 REIHENTITELALT = trimOrNull(n.Value.REIHENTITEL),
                 STATUS = status,
                 AUTOPSIE = n.Value.AUTOPSIE,
-                BIBLIOID = trimOrNull(n.Value.BIBLIONR)
+                BIBLIOID = trimOrNull(n.Value.BIBLIONR),
+                ERFASST = n.Value.VOLSTAENDIGERFASST
             });
         }
         

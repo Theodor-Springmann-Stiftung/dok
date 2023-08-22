@@ -3,7 +3,6 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-[XmlRoot("Akteure")]
 public class Akteure {
     // [XmlAttribute(Namespace = "http://www.w3.org/2001/XMLSchema-instance")]
     // public string noNamespaceSchemaLocation = "../muster/Akteure.xsd";
@@ -19,22 +18,18 @@ public class Akteure {
     public string? Sterbedatum;
 }
 
-[XmlRoot("Status")]
 public class Status {
     public string? Value;
 }
 
-[XmlRoot("Typ")]
 public class Typ {
     public string? Value;
 }
 
-[XmlRoot("Paginierung")]
 public class Paginierung {
     public string? Value;
 }
 
-[XmlRoot("Inhalte")]
 public class Inhalte {
     public long ID;
     public long? BAND;
@@ -58,7 +53,6 @@ public class Inhalte {
     public bool ShouldSerializeOBJEKTNUMMER() => OBJEKTNUMMER != null;
 }
 
-[XmlRoot("Reihen")]
 public class Reihen {
     public long ID;
     public string? NAME;
@@ -70,10 +64,8 @@ public class Reihen {
     public bool ShouldSerializeSORTIERNAME() => !String.IsNullOrWhiteSpace(SORTIERNAME);
 }
 
-[XmlRoot("Baende")]
 public class Baende {
     public long ID;
-    [XmlElement("BIBLIO-ID")]
     public string? BIBLIOID;
     public string? SORTIERTITEL;
     public string? TITEL;
@@ -84,10 +76,11 @@ public class Baende {
     public string? NACHWEIS;
     public string? NORM;
     public bool AUTOPSIE;
+    public bool ERFASST;
     public string? ANMERKUNGEN;
-    [XmlElement("REIHENTITEL-ALT")]
     public string? REIHENTITELALT;
     public Status[]? STATUS;
+    public bool VORHANDEN;
 
     public bool ShouldSerializeJAHR() => JAHR != null;
     public bool ShouldSerializeSORTIERTITEL() => !String.IsNullOrWhiteSpace(SORTIERTITEL);
@@ -102,7 +95,6 @@ public class Baende {
     public bool ShouldSerializeSTATUS() => STATUS != null;
 }
 
-[XmlRoot("*RELATION_InhalteAkteure")]
 public class RELATION_InhalteAkteure {
     public long INHALT;
     public long BEZIEHUNG;
@@ -113,7 +105,6 @@ public class RELATION_InhalteAkteure {
     public bool ShouldSerializeANMERKUNG() => !String.IsNullOrWhiteSpace(ANMERKUNG);
 }
 
-[XmlRoot("*RELATION_BaendeAkteure")]
 public class RELATION_BaendeAkteure {
     public long BAND;
     public long BEZIEHUNG;
@@ -124,7 +115,6 @@ public class RELATION_BaendeAkteure {
     public bool ShouldSerializeANMERKUNG() => !String.IsNullOrWhiteSpace(ANMERKUNG);
 }
 
-[XmlRoot("*RELATION_BaendeReihen")]
 public class RELATION_BaendeReihen {
     public long BAND;
     public long BEZIEHUNG;
