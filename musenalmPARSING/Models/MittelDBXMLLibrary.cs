@@ -483,8 +483,6 @@ public class MittelDBXMLLibrary {
     }
 
     public void Save(string fileroot, XDocument? schemafile) {
-        if (Directory.Exists(fileroot)) Directory.Delete(fileroot, true);
-        Directory.CreateDirectory(fileroot);
         SaveFile(fileroot, schemafile);
     }
 

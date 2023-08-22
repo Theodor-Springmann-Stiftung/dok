@@ -9,6 +9,7 @@ using System.Xml;
 using MusenalmConverter.Models.AlteDBXML;
 using MusenalmConverter.Models.NeueDBXML;
 using MusenalmConverter.Models.MittelDBXML;
+using MusenalmConverter.Models.CSV;
 using System.Text;
 
 const string DATADIR = "./source/data/";
@@ -18,18 +19,30 @@ const string RDADIR = "./source/RDA/xml/termList";
 const string DESTDIR = "./dist/";
 const string LOGFILE = "./log.txt";
 const string REIHENFILE = "./reihen.txt";
+
+if (Directory.Exists(DESTDIR)) Directory.Delete(DESTDIR, true);
+Directory.CreateDirectory(DESTDIR);
+
 var log = LogSink.Instance;
-var nscheme = unifySchemata(NORMDIR);
-var mscheme = unifySchemata(MITTELDIR);
 log.SetFile(LOGFILE);
-germanizeRDA(RDADIR, true);
+
+// germanizeRDA(RDADIR, true);
+
 var data = getDATA();
 var oldDB = new AlteDBXMLLibrary(data);
-var newDB = new NeueDBXMLLibrary(data, oldDB);
-var mDB = new MittelDBXMLLibrary(data, oldDB);
+
+// var nscheme = unifySchemata(NORMDIR);
+// var newDB = new NeueDBXMLLibrary(data, oldDB);
+// newDB.Save(DESTDIR, nscheme);
+
+// var mscheme = unifySchemata(MITTELDIR);
+// var mDB = new MittelDBXMLLibrary(data, oldDB);
+// mDB.Save(DESTDIR, mscheme);
+
+var csv = new CSVParser(data, oldDB);
+csv.Save(DESTDIR);
+
 //exportReihen(newDB, REIHENFILE);
-newDB.Save(DESTDIR, nscheme);
-mDB.Save(DESTDIR, mscheme);
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATADIR;
