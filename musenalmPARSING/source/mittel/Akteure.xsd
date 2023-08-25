@@ -17,7 +17,7 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADpYxAKGI/JTbUxwHYp1l3DAAAAAMBtRTNODOZAAAAAAAAAAABBAGsA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADpYxAKGI/JTbUxwHYp1l3DAAAAAKEaCMdwDeZAAAAAAAAAAABBAGsA
 dABlAHUAcgBlAAAAAAAAAODXDgkzZ5dJnIymih2qu48HAAAA6WMQChiPyU21McB2
 KdZdw0kARAAAAAAAAAATFm0xbFDlTLdzUvzrDtMwBwAAAOljEAoYj8lNtTHAdinW
 XcNOAEEATQBFAAAAAAAAAN8znKn0swNKuAdfknDB/Y0HAAAA6WMQChiPyU21McB2
@@ -27,8 +27,9 @@ AAA9yHOUpKLgQobvrNhJDjA2BwAAAOljEAoYj8lNtTHAdinWXcNCAEUAUgBVAEYA
 AAAAAAAAhtwShcYfTUuvMEhTebN3/gcAAADpYxAKGI/JTbUxwHYp1l3DUABTAEUA
 VQBEAE8ATgBZAE0AAAAAAAAA3PMUwQMODkiRAtlMvBmeAwcAAADpYxAKGI/JTbUx
 wHYp1l3DQQBOAE0ARQBSAEsAVQBOAEcARQBOAAAAAAAAAPDmHa6kpdJMjvRQ/5rM
-pLUHAAAA6WMQChiPyU21McB2KdZdw0cATgBEAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
+pLUHAAAA6WMQChiPyU21McB2KdZdw0cATgBEAAAAAAAAAMyvGVg1mIhOpIIHkkT1
+hnYHAAAA6WMQChiPyU21McB2KdZdw04AQQBDAEgAVwBFAEkAUwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
 <od:tableProperty name="DisplayViewsOnSharePointSite" type="2" value="1"/>
@@ -140,6 +141,32 @@ AAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:fieldProperty name="GUID" type="9" value="PchzlKSi4EKG76zYSQ4wNg==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="2940"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnHidden" type="1" value="0"/>
+<od:fieldProperty name="Required" type="1" value="0"/>
+<od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
+<od:fieldProperty name="IMEMode" type="2" value="0"/>
+<od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
+<od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
+<od:fieldProperty name="TextAlign" type="2" value="0"/>
+<od:fieldProperty name="AggregateType" type="4" value="-1"/>
+<od:fieldProperty name="ResultType" type="2" value="0"/>
+<od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
+</xsd:appinfo>
+</xsd:annotation>
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:maxLength value="255"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<xsd:element name="NACHWEIS" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+<xsd:annotation>
+<xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="zK8ZWDWYiE6kggeSRPWGdg==
+"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

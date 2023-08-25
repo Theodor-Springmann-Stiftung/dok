@@ -1,48 +1,38 @@
 ﻿
 using MusenalmConverter;
-using MusenalmConverter.Models;
 using System.Xml.Linq;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Xml.Serialization;
 using System.Xml;
-using MusenalmConverter.Models.AlteDBXML;
-using MusenalmConverter.Models.NeueDBXML;
-using MusenalmConverter.Models.MittelDBXML;
-using MusenalmConverter.Models.CSV;
+using MusenalmConverter.Migration.AlteDBXML;
+using MusenalmConverter.Migration.MittelDBXML;
 using System.Text;
+using MusenalmConverter.API;
 
 const string DATADIR = "./source/data/";
 const string NORMDIR = "./source/norm/";
 const string MITTELDIR = "./source/mittel";
 const string RDADIR = "./source/RDA/xml/termList";
-const string DESTDIR = "./dist/";
+const string DESTDIR = "./dest/";
 const string LOGFILE = "./log.txt";
 const string REIHENFILE = "./reihen.txt";
 
+// LOGGING + DESTDIR
 if (Directory.Exists(DESTDIR)) Directory.Delete(DESTDIR, true);
 Directory.CreateDirectory(DESTDIR);
-
 var log = LogSink.Instance;
 log.SetFile(LOGFILE);
 
-// germanizeRDA(RDADIR, true);
-
+// Getting the DATA
 var data = getDATA();
 var oldDB = new AlteDBXMLLibrary(data);
 
-// var nscheme = unifySchemata(NORMDIR);
-// var newDB = new NeueDBXMLLibrary(data, oldDB);
-// newDB.Save(DESTDIR, nscheme);
-
+// DATA Migration
 var mscheme = unifySchemata(MITTELDIR);
 var mDB = new MittelDBXMLLibrary(data, oldDB);
-mDB.Save(DESTDIR, mscheme);
+// mDB.Save(DESTDIR, mscheme);
 
-var csv = new CSVParser(data, oldDB);
-csv.Save(DESTDIR);
-
-//exportReihen(newDB, REIHENFILE);
+// API Calls
+var APIC = new APICaller(mDB);
+APIC.PostActorData().Wait();
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATADIR;
@@ -201,17 +191,17 @@ void germanizeRDA(string sourcedir, bool html) {
     }
 }
 
-void exportReihen(NeueDBXMLLibrary library, string outpath) {
-    var rs = library.Reihen.OrderBy(x => x.Sortiername).ThenBy(x => x.ID);
-    var bs = library.Baende.ToDictionary(x => x.ID);
-    var reld = library.RELATION_BaendeReihen.ToLookup(x => x.Reihe);
-    var sb = new StringBuilder();
-    foreach (var r in rs) {
-        sb.AppendLine(r.Sortiername);
-    }
+// void exportReihen(NeueDBXMLLibrary library, string outpath) {
+//     var rs = library.Reihen.OrderBy(x => x.Sortiername).ThenBy(x => x.ID);
+//     var bs = library.Baende.ToDictionary(x => x.ID);
+//     var reld = library.RELATION_BaendeReihen.ToLookup(x => x.Reihe);
+//     var sb = new StringBuilder();
+//     foreach (var r in rs) {
+//         sb.AppendLine(r.Sortiername);
+//     }
 
-    System.IO.File.WriteAllText(outpath, sb.ToString());
-}
+//     System.IO.File.WriteAllText(outpath, sb.ToString());
+// }
 
 public class DATAFile {
     public string BaseElementName { get; private set; }
