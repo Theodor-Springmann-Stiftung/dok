@@ -8,8 +8,9 @@ using MusenalmConverter.Migration.MittelDBXML;
 
 public class APICaller {
     private static string URI = "https://db.musenalm.de/";
-    private static string KEY_IDENTITY = "DfT0JCkrO74eokqd5ZQ9PuJz3hT5o7dQ";
-    private static string KEY_CREDENTIAL = "nkifcN7JSJnCA6JsO0fn6LV2GpfxUiXc";
+    // 25/08/2023: revoked key
+    private static string KEY_IDENTITY = "";
+    private static string KEY_CREDENTIAL = "";
 
     private MittelDBXMLLibrary _data;
     private HttpClient _httpClient;
