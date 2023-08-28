@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="REALNAME-Tab.xsd" generated="2023-08-22T10:19:54">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="REALNAME-Tab.xsd" generated="2023-08-28T09:29:19">
+<REALNAME-Tab>
+<REALNAME>Fick, Johann Georg Christian</REALNAME>
+<Daten>1763-1821</Daten>
+<Nachweis>DBI 543</Nachweis>
+<Beitrag>Text u. Hrsg</Beitrag>
+</REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Schiavoni, Natale</REALNAME>
 <Daten>1777–1858</Daten>
@@ -92,7 +98,7 @@
 <REALNAME>Zimmermann, Johann Georg (2)</REALNAME>
 <Daten>1754-1829</Daten>
 <Nachweis>ADB XLV, 277</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Dähling, Heinrich Anton u. Frosch, Carl</REALNAME>
@@ -3217,7 +3223,7 @@
 <REALNAME>Frank, Gustav von</REALNAME>
 <Daten>1807-1860</Daten>
 <Nachweis>Goed XII, 371</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 <Pseudonym>Dr. Franck; Dr. Frank</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
@@ -3332,7 +3338,7 @@
 <REALNAME>Corvin-Wiersbitzki, Otto Julius Bernhard von</REALNAME>
 <Daten>1812-1886</Daten>
 <Nachweis>ADB XLVII, 531</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Geyer, Conrad</REALNAME>
@@ -6670,7 +6676,7 @@
 <REALNAME>Girtanner, Christoph</REALNAME>
 <Daten>1760-1800</Daten>
 <Nachweis>ADB IX, 189; NDB VI, 411; Goed (H) 153</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Nicolovius, Georg Heinrich Ludwig</REALNAME>
@@ -8535,7 +8541,7 @@
 <REALNAME>Dieterich, Johann Christian</REALNAME>
 <Daten>1712-1800</Daten>
 <Nachweis>ADB V, 156</Nachweis>
-<Beitrag>Text u. Sonst.</Beitrag>
+<Beitrag>Text u. Sonst</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Günderode, Friedrich Justinian von</REALNAME>
@@ -9110,7 +9116,7 @@
 <REALNAME>Brockhaus, Friedrich Arnold</REALNAME>
 <Daten>1772-1823</Daten>
 <Nachweis>ADB III, 337</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 <Pseudonym>Guntram</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
@@ -10224,7 +10230,7 @@
 <REALNAME>Fouqué, Friedrich Heinrich Karl de la Motte</REALNAME>
 <Daten>1777-1843</Daten>
 <Nachweis>Goed VI, 115; Goed XI/1, 490; Goed XIV, 188, 990; E 93</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 <Pseudonym>Pellegrin</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
@@ -10320,7 +10326,7 @@
 <REALNAME>Cotta von Cottendorf, Johann Friedrich</REALNAME>
 <Daten>1764-1832</Daten>
 <Nachweis>ADB IV, 527</Nachweis>
-<Beitrag>Text u. Sonst.</Beitrag>
+<Beitrag>Text u. Sonst</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Ausfeld, Johann Karl</REALNAME>
@@ -11124,7 +11130,7 @@
 <REALNAME>Dieterich, Heinrich</REALNAME>
 <Daten>1761-1837</Daten>
 <Nachweis>ADB V, 156</Nachweis>
-<Beitrag>Text u. Sonst.</Beitrag>
+<Beitrag>Text u. Sonst</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Blumenbach, Johann Friedrich</REALNAME>
@@ -14255,7 +14261,7 @@
 <REALNAME>Gittermann, Johann Christian Hermann</REALNAME>
 <Daten>1768-1834</Daten>
 <Nachweis>ADB IX, 204</Nachweis>
-<Beitrag>Text u. Sonst.</Beitrag>
+<Beitrag>Text u. Sonst</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Meyer, Heinrich u. Bolt, Johann Friedrich</REALNAME>
@@ -14434,7 +14440,7 @@
 <REALNAME>Bergk, Johann Adam</REALNAME>
 <Daten>1769-1834</Daten>
 <Nachweis>ADB II, 389; Goed (H) 46</Nachweis>
-<Beitrag>Text u. Sonst.</Beitrag>
+<Beitrag>Text u. Sonst</Beitrag>
 <Pseudonym>Elias der Jüngere</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
@@ -18357,7 +18363,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Mann, Friedrich Theodor; Mann, Johann Karl Gottlieb</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Schneider, Johann Georg Wilhelm</REALNAME>
@@ -18375,7 +18381,7 @@
 <REALNAME>Schmidt, August</REALNAME>
 <Daten>e. 1838-1840</Daten>
 <Nachweis>Goed (H) 452</Nachweis>
-<Beitrag>Text u. Hrsg u. Mus</Beitrag>
+<Beitrag>Text u. Hrsg u. Musik</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Roux, Johann Friedrich Wilhelm Theodor</REALNAME>
@@ -18567,7 +18573,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Mailáth, Johann von; Saphir, Sigmund</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Münk, Josephine von</REALNAME>
@@ -21048,7 +21054,7 @@
 <REALNAME>Gerlach, Johann Heinrich Samuel</REALNAME>
 <Daten>1772-1809</Daten>
 <Nachweis>DBI 653</Nachweis>
-<Beitrag>Hrsg u. Text</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 <Pseudonym>Syllvester</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
@@ -21384,7 +21390,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Helvig geb. von Imhof, Anna Amalie von; Fouqué, Friedrich Heinrich Karl de la Motte</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Seybold, David Christoph</REALNAME>
@@ -21408,29 +21414,29 @@
 <REALNAME>Cosmar, Alexander</REALNAME>
 <Daten>1805-1842</Daten>
 <Nachweis>Goed XI/1, 480; Goed XIV, 164</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Blum, Robert</REALNAME>
 <Daten>1804-1848</Daten>
 <Nachweis>ADB II, 739</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Steger, Johann Heinrich Friedrich Karl Wilhelm</REALNAME>
 <Daten>1811-1874</Daten>
 <Nachweis>ADB LIV, 453</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Blum, Robert; Steger, Johann Heinrich Friedrich Karl Wilhelm</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Plieninger, Gustav</REALNAME>
 <Daten>1808-?</Daten>
 <Nachweis>DBI 1570</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Geßner, Johann Georg</REALNAME>
@@ -21614,7 +21620,7 @@
 <REALNAME>Juncker, Karl Ludwig</REALNAME>
 <Daten>?-1797</Daten>
 <Nachweis>DBI 1015</Nachweis>
-<Beitrag>Hrsg u. Text u. Musik</Beitrag>
+<Beitrag>Text u. Hrsg u. Musik</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Eisner, Franz</REALNAME>
@@ -21811,7 +21817,7 @@
 <REALNAME>Hezel, Johann Friedrich Wilhelm</REALNAME>
 <Daten>1754-1824</Daten>
 <Nachweis>ADB XII, 381</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Begas, Karl u. Lüderitz, Gustav</REALNAME>
@@ -22224,7 +22230,7 @@
 <REALNAME>Bindemann, Ernst Christoph</REALNAME>
 <Daten>1766-1845</Daten>
 <Nachweis>Goed (H) 50; DBI 182</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Geckert, Franz Peter</REALNAME>
@@ -22250,7 +22256,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Schmidt, Friedrich Wilhelm August (von Werneuchen); Bindemann, Ernst Christoph</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Schenau, Johann Eleazar u. Zingg, Adrian</REALNAME>
@@ -22582,20 +22588,20 @@
 <REALNAME>Bouwinghausen von Wallmerode, Franz Maximilian Friedrich</REALNAME>
 <Daten>1753-?</Daten>
 <Nachweis>DBI 235</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Tennecker, Christian Ehrenfried Seifert von</REALNAME>
 <Daten>1770-1839</Daten>
 <Nachweis>ADB XXXVII, 565</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 <Pseudonym>Valentin Trichter</Pseudonym>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Rudhart, Georg Thomas von</REALNAME>
 <Daten>1792-1860</Daten>
 <Nachweis>ADB XXIX, 457</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Berggold, Carl Moritz u. Boettger, Gottlieb</REALNAME>
@@ -26017,7 +26023,7 @@
 <REALNAME>Guillemin, Alexandre Marie</REALNAME>
 <Daten>1817-1880</Daten>
 <Nachweis>T/B XV, 311</Nachweis>
-<Beitrag>Prosa</Beitrag>
+<Beitrag>Text</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Guillemin, Alexandre Marie u. Kaiser, Johan Wilhelm</REALNAME>
@@ -26292,7 +26298,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Freiligrath, Ferdinand; Matzerath, Christian Joseph; Simrock, Karl</REALNAME>
-<Beitrag>Hrsg.</Beitrag>
+<Beitrag>Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Schwemminger, Heinrich</REALNAME>
@@ -26374,11 +26380,11 @@
 <REALNAME>Reiberstorffer, Julius (auch D. F.)</REALNAME>
 <Daten>1815-1848</Daten>
 <Nachweis>DBI 1636</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Meisl, Carl; Reiberstorffer, Julius (auch D. F.)</REALNAME>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Naske, Adolph Karl</REALNAME>
@@ -27142,7 +27148,7 @@
 <REALNAME>Schneller, Franz Julius Borgias</REALNAME>
 <Daten>1776-1833</Daten>
 <Nachweis>ADB XXXII, 165</Nachweis>
-<Beitrag>Hrsg u. Text</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Seiler, Joseph Albert</REALNAME>
@@ -27162,7 +27168,7 @@
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Juncker, Karl Ludwig; Reichardt, Johann Friedrich</REALNAME>
-<Beitrag>Hrsg u. Text u. Musik</Beitrag>
+<Beitrag>Text u. Hrsg u. Musik</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Kauffmann, Angelica u. Kohl, Clemens</REALNAME>
@@ -27215,7 +27221,7 @@
 <REALNAME>Korsinsky, Bernhard</REALNAME>
 <Daten>e. 1816</Daten>
 <Nachweis>DBI 1141</Nachweis>
-<Beitrag>Hrsg u. Text</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Solbrig, Christian Gottfried</REALNAME>
@@ -27930,7 +27936,7 @@
 <REALNAME>Gerhardt, Markus Rudolph Balthasar</REALNAME>
 <Daten>1735-1805</Daten>
 <Nachweis>DBI 651</Nachweis>
-<Beitrag>Hrsg u. Text</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Rautenkranz, Johann Wenzel</REALNAME>
@@ -28160,7 +28166,7 @@
 <REALNAME>Schlüter, Johann Christoph</REALNAME>
 <Daten>1767-1841</Daten>
 <Nachweis>ADB XXXI, 614</Nachweis>
-<Beitrag>t+</Beitrag>
+<Beitrag>Text</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Niesert, Johann Heinrich Josef</REALNAME>
@@ -28276,7 +28282,7 @@
 <REALNAME>Mendelssohn, Joseph</REALNAME>
 <Daten>1817–1856</Daten>
 <Nachweis>ADB LII, 559</Nachweis>
-<Beitrag>Text u. Hrsg.</Beitrag>
+<Beitrag>Text u. Hrsg</Beitrag>
 </REALNAME-Tab>
 <REALNAME-Tab>
 <REALNAME>Pocci, Franz von; Görres, Guido</REALNAME>

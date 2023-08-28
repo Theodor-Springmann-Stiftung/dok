@@ -3616,3 +3616,8 @@
 26/08/2023 02:14:29 Paginierung a, INHNR 132628 unzulässig.
 26/08/2023 02:14:31 Anzahlt Akteure: 3223
 26/08/2023 02:32:19 Finished
+
+28.08.2023 09:30:46 Log MusenalmDB
+28.08.2023 09:30:52 Band 4886 existiert nicht. Herkunft: INHNR 124330
+28.08.2023 09:30:52 Objektzähler  unzulässig. Herkunft INHNR 127106
+28.08.2023 09:30:53 Paginierung a, INHNR 132628 unzulässig.

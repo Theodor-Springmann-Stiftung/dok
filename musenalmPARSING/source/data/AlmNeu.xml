@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="AlmNeu.xsd" generated="2023-08-22T10:18:22">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="AlmNeu.xsd" generated="2023-08-28T09:27:45">
 <AlmNeu>
 <NUMMER>1</NUMMER>
 <BIBLIO-NR>100873</BIBLIO-NR>
@@ -54134,15 +54134,16 @@
 <HERAUSGEBER>Joh. G. Christian Fick</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2010-02-19T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN># K gibt einen Jg 1802 3. Aufl. an; # L/R 145 geben Jg 1796 an; KVK mit Standorten für 1795-1800 /) vorh.: Jgg 1795, Jg 1796, 1797, 1798; Erlangen (Walther); Hrsg: J. C. Fick</ANMERKUNGEN>
+<ANMERKUNGEN># K gibt einen Jg 1802 3. Aufl. an; # L/R 145 geben Jg 1796 an /) vorh.: Jg 1795 und (erweiterte) Titelauflagen 1796, 1797, 1798; Erlangen (Walther); Hrsg: J. G. C. Fick /) § die in den Jgg  1797, 1798 beigegebene Karte fehlt hier</ANMERKUNGEN>
 <AUTOPSIE>1</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 143 #; L/R 145 #</NACHWEIS>
-<STRUKTUR>VB, verso G, T, 3 BB Vrwrt d Hrsg, 13 SS Kal dazu 12 SS Tab, S I-Verz, ar: SS 1-92, ar1: SS 1-219, 2 BB VrlgM</STRUKTUR>
-<NORM>~ zum Vergleich: Jgg 1796-179: ar: SS 1-88, ar1: SS 1-264, SS 265-266 C</NORM>
+<STRUKTUR>VB, verso G, T, 3 BB Vrwrt d Hrsg, 13 SS Kal dazu 12 SS Tab, S I-Verz, ar: SS 1-92, ar1: SS 1-200, SS 201-219, Tabb2 BB VrlgM</STRUKTUR>
+<NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Fick, Johann Georg Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>2857</NUMMER>
@@ -69444,15 +69445,16 @@
 <HERAUSGEBER>Joh. Chr. Fick</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2012-02-23T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN># K gibt einen Jg 1802 3. Aufl. an; # L/R 145 geben Jg 1796 an /) § ar: SS 5-12 fehlen; ar1: SS 224 ff falsche Paginierung /) vielleicht fehlen 3 SS Kalendarium dazu 12 SS Tabellen sowie I-Verz</ANMERKUNGEN>
+<ANMERKUNGEN>Titelauflage von 1795; erweitert um die Tabelle »Einige der vorzüglichsten Postrouten durch Deutschland wozu die vornehmsten Städte Deutschlands als Mittelpunct angenommen sind«; mit beigegebener Karte</ANMERKUNGEN>
 <AUTOPSIE>1</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 143 #; L/R 145 #</NACHWEIS>
-<STRUKTUR>VB, verso G, T, 3 BB Vrwrt d Hrsg, Kr, ar: SS 1-88, ar1: SS 1-264, SS 265-266 C</STRUKTUR>
+<STRUKTUR>VB, verso G, T, 3 BB Vrwrt d Hrsg, Kr, ar: SS 1-88, ar1: SS 1-208, SS 209-264 Tabb, SS 265-266 C</STRUKTUR>
 <NORM>~</NORM>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>1</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Fick, Johann Georg Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>3783</NUMMER>
@@ -74655,15 +74657,15 @@
 <HERAUSGEBER>Joh. G. Christian Fick</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2014-07-10T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN># K gibt einen Jg 1802 3. Aufl. an; # L/R 145 geben Jg 1796 an</ANMERKUNGEN>
-<AUTOPSIE>0</AUTOPSIE>
+<ANMERKUNGEN>Titelauflage von 1795; erweitert um die Tabelle »Einige der vorzüglichsten Postrouten durch Deutschland wozu die vornehmsten Städte Deutschlands als Mittelpunct angenommen sind«; mit beigegebener Karte /) § die in den Jgg  1797, 1798 beigegebene Karte fehlt hier</ANMERKUNGEN>
+<AUTOPSIE>1</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 143 #; L/R 145 #</NACHWEIS>
-<STRUKTUR>UG, T, 3 BB Vrwrt d Hrsg, 13 SS Kal dazu 12 SS Tab, S I-Verz C, ar: SS 1-88, ar1: SS 1-264, SS 265-266 C</STRUKTUR>
-<NORM>VB, verso G, T, 25 SS Kal, S I-Verz u C, Kr, ar: SS 1-88, ar1: SS 1-264, SS 265-266 C</NORM>
+<STRUKTUR>UG, T, 3 BB Vrwrt d Hrsg, 13 SS Kal dazu 12 SS Tab, S I-Verz C, ar: SS 1-88, ar1: SS 1-208, SS 209-264 Tabb, SS 265-266 C</STRUKTUR>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Fick, Johann Georg Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>4116</NUMMER>
@@ -79874,7 +79876,7 @@
 <AlmNeu>
 <NUMMER>4416</NUMMER>
 <BIBLIO-NR>406183</BIBLIO-NR>
-<ALM-TITEL>ALMANACH / DES / PROSATEURS, / OU / RECUEIL / DE PIÈCES FUGITIVES, / EN PROSE. / RÉDIGÉ par les CC. Fr. N… et P. B. LAMARE. / A PARIS, / Chez LÉGER, Libraire, quai des Augustins, No. 44. / DE L&apos;IMPRIMERIE DE MARCHANT. / AN X-1801</ALM-TITEL>
+<ALM-TITEL>ALMANACH / DES / PROSATEURS, / OU / RECUEIL / DE PIÈCES FUGITIVES, / EN PROSE. / RÉDIGÉ par les CC. Fr. N… et P. B. LAMARE. / A PARIS, / Chez LÉGER, Libraire, quai des Augustins, No. 44. / DE L’IMPRIMERIE DE MARCHANT. / AN X – 1801</ALM-TITEL>
 <REIHENTITEL>Almanach des Prosateurs 1801</REIHENTITEL>
 <ORT>Paris (Léger)</ORT>
 <JAHR>1801</JAHR>
@@ -79886,6 +79888,7 @@
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>G-C 350, 1341</NACHWEIS>
+<STRUKTUR>VB, SS I–XXIV, darin vT, VrlgM, T, Vrwrt, Kal, SS1–287, darin I-Verz</STRUKTUR>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
 </AlmNeu>
@@ -87068,14 +87071,15 @@ Die erste Musikbeigabe verweist auf Textbezug »Palmerio« von L. Schefer, INr 2
 <HERAUSGEBER>Joh. Chr. Fick</HERAUSGEBER>
 <BEARBEITET_x0020_AM>2023-05-23T00:00:00</BEARBEITET_x0020_AM>
 <BEARBEITET_x0020_VON>ms</BEARBEITET_x0020_VON>
-<ANMERKUNGEN># K gibt einen Jg 1802 3. Aufl. an; # L/R 145 geben Jg 1796 an</ANMERKUNGEN>
-<AUTOPSIE>0</AUTOPSIE>
+<ANMERKUNGEN>Titelauflage von 1795; erweitert um die Tabelle »Einige der vorzüglichsten Postrouten durch Deutschland wozu die vornehmsten Städte Deutschlands als Mittelpunct angenommen sind«; mit beigegebener Karte</ANMERKUNGEN>
+<AUTOPSIE>1</AUTOPSIE>
 <VORHANDEN>1</VORHANDEN>
 <VORHANDEN_x0020_ALS>Original</VORHANDEN_x0020_ALS>
 <NACHWEIS>K 143 #; L/R 145 #</NACHWEIS>
-<STRUKTUR>VB, verso G, T, 13 SS Kal dazu 12 SS Tab, S I-Verz u C, Kr, ar: SS 1-88, ar1: SS 1-264, SS 265-266 C</STRUKTUR>
+<STRUKTUR>VB, verso G, T, 13 SS Kal dazu 12 SS Tab, S I-Verz u C, Kr, ar: SS 1-88, ar1: SS 1-208, SS 209-264 Tabb, SS 265-266 C</STRUKTUR>
 <ID>0</ID>
 <VOLLSTÄNDIG_x0020_ERFASST>0</VOLLSTÄNDIG_x0020_ERFASST>
+<HRSGREALNAME>Fick, Johann Georg Christian</HRSGREALNAME>
 </AlmNeu>
 <AlmNeu>
 <NUMMER>4845</NUMMER>
