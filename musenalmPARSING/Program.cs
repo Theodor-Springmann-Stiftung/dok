@@ -31,8 +31,8 @@ var mDB = new MittelDBXMLLibrary(data, oldDB);
 mDB.Save(DESTDIR, mscheme);
 
 // API Calls
-// var APIC = new APICaller(mDB);
-// APIC.PostActorData().Wait();
+var APIC = new APICaller(mDB);
+APIC.PostActorData().Wait();
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATADIR;

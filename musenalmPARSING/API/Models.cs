@@ -42,10 +42,10 @@ public class Item {
     [property: JsonPropertyName("o:item_set")]
     public Resource[] item_set { get; private set; }
 
-    public Item(Resource _resource_class, Resource _resource_template, Resource _item_set) {
+    public Item(Resource _resource_class, Resource _resource_template, Resource[] _item_set) {
         resource_class = _resource_class;
         resource_template = _resource_template;
-        item_set = new Resource[] { _item_set };
+        item_set = _item_set;
     }
 }
 
@@ -80,7 +80,7 @@ public class Actor : Item {
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public LiteralProperty[]? Nummer { get; set; }
     
-    public Actor(string name) : base(new Resource(108), new Resource(6), new Resource(8)) {
+    public Actor(string name) : base(new Resource(117), new Resource(3), new Resource[] { new Resource(4), new Resource(5), new Resource(11) }) {
         Name = new LiteralProperty[] { new LiteralProperty(name) };
     }
 }
