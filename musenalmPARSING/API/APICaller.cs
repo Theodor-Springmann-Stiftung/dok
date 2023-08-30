@@ -1,5 +1,7 @@
 namespace MusenalmConverter.API;
 
+using System.Collections.Concurrent;
+using System.Linq;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Text.Json;
@@ -7,6 +9,12 @@ using MusenalmConverter.API.Models;
 using MusenalmConverter.Migration.MittelDBXML;
 
 public class APICaller {
+
+
+    // TODO:
+    // Körperschaften
+    // Reihe und Bände verlinken
+    
     private static string URI = "https://db.tss-hd.de/";
     // 25/08/2023: revoked key
     private static string KEY_IDENTITY = "";
@@ -15,7 +23,13 @@ public class APICaller {
     private MittelDBXMLLibrary _data;
     private HttpClient _httpClient;
 
-    public List<Actor> Actors;
+    public List<Person> Persons;
+    public List<Reihentitel> Reihen;
+    public List<Band> Baende;
+
+    public ConcurrentDictionary<string, Person> rPersons;
+    public ConcurrentDictionary<string, Reihentitel> rReihen;
+    public ConcurrentDictionary<string, Band> rBaende;
 
     public APICaller(MittelDBXMLLibrary data) {
         _data = data;
@@ -24,16 +38,10 @@ public class APICaller {
         _httpClient.DefaultRequestHeaders.Accept.Add(
             new MediaTypeWithQualityHeaderValue("application/json"));
         _httpClient.BaseAddress = new Uri(URI);
-
-        CreateData();
     }
 
-    private void CreateData() {
-        CreateActorData();
-    }
-
-    private void CreateActorData() {
-        Actors = new();
+    public void CreateActorData() {
+        Persons = new();
         foreach (var a in _data.Akteure) {
             if (!String.IsNullOrWhiteSpace(a.NAME) && 
                 (_data.RELATION_BaendeAkteure.Where(x => x.AKTEUR == a.ID).Any() ||
@@ -64,7 +72,7 @@ public class APICaller {
                         ps = splitps.Select(x => new LiteralProperty(x)).ToArray();
                     }
                 }
-                Actors.Add(new Actor(a.NAME.Trim()) {
+                Persons.Add(new Person(a.NAME.Trim()) {
                     Pseudonym = ps,
                     Nachweis = nw,
                     Beruf = String.IsNullOrWhiteSpace(a.BERUF) ? null : new LiteralProperty[] { new LiteralProperty( a.BERUF )},
@@ -77,17 +85,117 @@ public class APICaller {
         }
     }
 
+    public void CreateReihenData() {
+        Reihen = new();
+        foreach (var r in _data.Reihen) {
+            Reihen.Add(new Reihentitel(r.NAME.Trim()) {
+                Anmerkung = String.IsNullOrWhiteSpace(r.ANMERKUNGEN) ? null : new HtmlProperty[] { new HtmlProperty(r.ANMERKUNGEN) },
+                Nummer = new LiteralProperty[] { new LiteralProperty(r.ID.ToString()) }
+            });
+        }
+    }
+
+    public void CreateBaendeData() {
+        Baende = new();
+        foreach (var b in _data.Baende) {
+            var akt = _data.RELATION_BaendeAkteure.Where(x => x.BAND == b.ID);
+            var rei = _data.RELATION_BaendeReihen.Where(x => x.BAND == b.ID);
+
+            var rn = rei.Select(x => rReihen[x.REIHE.ToString()].ID).ToArray();
+
+            Baende.Add(new Band(b.TITEL) {
+                Reihe = rn == null || !rn.Any() ? null : rn.Where(x => x != null).Select(x => new ItemProperty((int)x)).ToArray(),
+                Norm = String.IsNullOrWhiteSpace(b.NORM) ? null : new LiteralProperty[] { new LiteralProperty(b.NORM) },
+                Nachweis = String.IsNullOrWhiteSpace(b.NACHWEIS) ? null : b.NACHWEIS.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).Select(x => new LiteralProperty(x)).ToArray(),
+                Nummer = new LiteralProperty[] { new LiteralProperty(b.ID.ToString()) },
+                Herausgeberangabe = String.IsNullOrWhiteSpace(b.HERAUSGEBER) ? null : new LiteralProperty[] { new LiteralProperty(b.HERAUSGEBER) },
+                Ort = String.IsNullOrWhiteSpace(b.ORT) ? null : b.ORT.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).Select(x => new LiteralProperty(x)).ToArray(),
+                Jahr = b.JAHR == null ? null : new LiteralProperty[] { new LiteralProperty(b.JAHR.ToString()) },
+                Gesichtet = new BooleanProperty[] { new BooleanProperty(b.AUTOPSIE) },
+                Erfasst = new BooleanProperty[] { new BooleanProperty(b.ERFASST) },
+                Anmerkung = String.IsNullOrWhiteSpace(b.ANMERKUNGEN) ? null : new HtmlProperty[] { new HtmlProperty(b.ANMERKUNGEN) },
+                Struktur = String.IsNullOrWhiteSpace(b.STRUKTUR) ? null : new LiteralProperty[] { new LiteralProperty(b.STRUKTUR) },
+                VorhandenAls = b.STATUS == null ? null : b.STATUS.Select(x => new LiteralProperty(x.Value)).ToArray(),
+                Vorhanden = new BooleanProperty[] { new BooleanProperty(b.VORHANDEN) },
+                ReihentitelALT = String.IsNullOrWhiteSpace(b.REIHENTITELALT) ? null : new LiteralProperty[] { new LiteralProperty(b.REIHENTITELALT) },
+            });
+        }
+    }
+
     public async Task PostActorData() {
         var options = new JsonSerializerOptions { WriteIndented = true };
-        LogSink.Instance.LogLine("Anzahlt Akteure: " + Actors.Count.ToString());
+        LogSink.Instance.LogLine("Anzahl Personen: " + Persons.Count.ToString());
         ParallelOptions parallelOptions = new() {
-            MaxDegreeOfParallelism = 48
+            MaxDegreeOfParallelism = 128
         };
- 
-        await Parallel.ForEachAsync(Actors, parallelOptions, async (a, token) => {
-        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(
-                "api/items?key_identity=" + KEY_IDENTITY + "&key_credential=" + KEY_CREDENTIAL, a);
+    
+
+        rPersons = new();
+        await Parallel.ForEachAsync(Persons, parallelOptions, async (a, token) => {
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync(
+                "api/items?key_identity=" + KEY_IDENTITY + "&key_credential=" + KEY_CREDENTIAL, a
+            );
             response.EnsureSuccessStatusCode();
+            var opts = new JsonSerializerOptions {
+                PropertyNameCaseInsensitive = true,
+            };
+            opts.Converters.Add(new AutoNumberToStringConverter());
+            Person? ca = JsonSerializer.Deserialize<Person>(response.Content.ReadAsStream(), opts);
+            rPersons.GetOrAdd(ca.Nummer.First().Value, ca);
+        });
+        LogSink.Instance.LogLine("Finished");
+    }
+
+    public async Task PostReihenData() {
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        LogSink.Instance.LogLine("Anzahl Reihen: " + Reihen.Count.ToString());
+        ParallelOptions parallelOptions = new() {
+            MaxDegreeOfParallelism = 128
+        };
+    
+
+        rReihen = new();
+        await Parallel.ForEachAsync(Reihen, parallelOptions, async (a, token) => {
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync(
+                "api/items?key_identity=" + KEY_IDENTITY + "&key_credential=" + KEY_CREDENTIAL, a
+            );
+            try {
+                response.EnsureSuccessStatusCode();
+            }
+            catch {
+                var r = await response.RequestMessage.Content.ReadAsStringAsync();
+                Console.WriteLine(r);
+            }
+            var opts = new JsonSerializerOptions {
+                PropertyNameCaseInsensitive = true,
+            };
+            opts.Converters.Add(new AutoNumberToStringConverter());
+            Reihentitel? ca = JsonSerializer.Deserialize<Reihentitel>(response.Content.ReadAsStream(), opts);
+            rReihen.GetOrAdd(ca.Nummer.First().Value, ca);
+        });
+        LogSink.Instance.LogLine("Finished");
+    }
+
+    public async Task PostBaendeData() {
+        var options = new JsonSerializerOptions { WriteIndented = true };
+        LogSink.Instance.LogLine("Anzahl Bände: " + Baende.Count.ToString());
+        ParallelOptions parallelOptions = new() {
+            MaxDegreeOfParallelism = 128
+        };
+    
+
+        rBaende = new();
+        await Parallel.ForEachAsync(Baende, parallelOptions, async (a, token) => {
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync(
+                "api/items?key_identity=" + KEY_IDENTITY + "&key_credential=" + KEY_CREDENTIAL, a
+            );
+            response.EnsureSuccessStatusCode();
+            var opts = new JsonSerializerOptions {
+                PropertyNameCaseInsensitive = true,
+            };
+            opts.Converters.Add(new AutoNumberToStringConverter());
+            Band? ca = JsonSerializer.Deserialize<Band>(response.Content.ReadAsStream(), opts);
+            rBaende.GetOrAdd(ca.Nummer.First().Value, ca);
         });
         LogSink.Instance.LogLine("Finished");
     }
