@@ -141,52 +141,52 @@ public class MittelDBXMLLibrary {
         foreach (var n in toparse) {
 
             // Verleger
-            // var ort = n.Value.ORT;
-            // if (!String.IsNullOrWhiteSpace(ort)) {
-            //     var matches = rgxround.Matches(ort);
+            var ort = n.Value.ORT;
+            if (!String.IsNullOrWhiteSpace(ort)) {
+                var matches = rgxround.Matches(ort);
 
-            //     if (matches != null && matches.Any()) {
-            //         werkedrucker.Add(n.Value.NUMMER, new List<string>());
-            //         foreach (var m in matches) {
-            //             ort = ort.Replace("(" + m.ToString() + ")", null);
-            //             var splittednames = m.ToString().Split(new string[] {"/", ";"}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-            //             foreach (var na in splittednames) {
-            //                 if (!names.ContainsKey(na)) {
-            //                     names.Add(na, new Akteure() {
-            //                         ID = idakt,
-            //                         ORGANISATION = true,
-            //                         NAME = na,
-            //                         ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus Verlegern (AlmNeu)",
-            //                     });
-            //                     idakt++;
-            //                 }
-            //                 werkedrucker[n.Value.NUMMER].Add(na);
-            //             }
-            //         }
-            //     }
-            // }
+                if (matches != null && matches.Any()) {
+                    werkedrucker.Add(n.Value.NUMMER, new List<string>());
+                    foreach (var m in matches) {
+                        ort = ort.Replace("(" + m.ToString() + ")", null);
+                        var splittednames = m.ToString().Split(new string[] {"/", ";"}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                        foreach (var na in splittednames) {
+                            if (!names.ContainsKey(na)) {
+                                names.Add(na, new Akteure() {
+                                    ID = idakt,
+                                    ORGANISATION = true,
+                                    NAME = na,
+                                    ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus Verlegern (AlmNeu)",
+                                });
+                                idakt++;
+                            }
+                            werkedrucker[n.Value.NUMMER].Add(na);
+                        }
+                    }
+                }
+            }
 
-            //Reihen
-            // if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
-            //     reihenwerke.Add(n.Value.NUMMER, new List<string>());
-            //     var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-            //     foreach (var e in composite) {
-            //         var reihe = e;
-            //         var m = rgxfourendnumbers.Matches(e);
-            //         if (m != null && m.Any())  {
-            //             var abschnitt = m.Last().ToString();
-            //             var normabs = rgxnormabschnitt.Match(abschnitt);
-            //             if (normabs.Length < abschnitt.Length) {
-            //                 if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
-            //                 else abschnitte[n.Value.NUMMER] += abschnitt;
-            //             }
+            // Reihen
+            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+                reihenwerke.Add(n.Value.NUMMER, new List<string>());
+                var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                foreach (var e in composite) {
+                    var reihe = e;
+                    var m = rgxfourendnumbers.Matches(e);
+                    if (m != null && m.Any())  {
+                        var abschnitt = m.Last().ToString();
+                        var normabs = rgxnormabschnitt.Match(abschnitt);
+                        if (normabs.Length < abschnitt.Length) {
+                            if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
+                            else abschnitte[n.Value.NUMMER] += abschnitt;
+                        }
                         
-            //             reihe = e.Replace(abschnitt, null);
-            //         }
-            //         if (!reihen.Contains(reihe)) reihen.Add(reihe);
-            //         reihenwerke[n.Value.NUMMER].Add(reihe);
-            //     }
-            // }
+                        reihe = e.Replace(abschnitt, null);
+                    }
+                    if (!reihen.Contains(reihe)) reihen.Add(reihe);
+                    reihenwerke[n.Value.NUMMER].Add(reihe);
+                }
+            }
 
             // Herausgaber
             if (!String.IsNullOrWhiteSpace(n.Value.HRSGREALNAME)) {
@@ -232,7 +232,8 @@ public class MittelDBXMLLibrary {
                 STATUS = status,
                 AUTOPSIE = n.Value.AUTOPSIE,
                 BIBLIOID = trimOrNull(n.Value.BIBLIONR),
-                ERFASST = n.Value.VOLSTAENDIGERFASST
+                ERFASST = n.Value.VOLSTAENDIGERFASST,
+                VORHANDEN = n.Value.VORHANDEN
             });
         }
         

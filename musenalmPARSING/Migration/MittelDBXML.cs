@@ -137,6 +137,7 @@ public class Baende {
     public Status[]? STATUS;
     [XmlElement]
     public bool ERFASST;
+    public bool VORHANDEN;
 
     public bool ShouldSerializeJAHR() => JAHR != null;
     public bool ShouldSerializeSORTIERTITEL() => !String.IsNullOrWhiteSpace(SORTIERTITEL);

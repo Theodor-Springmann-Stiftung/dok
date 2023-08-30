@@ -32,7 +32,12 @@ mDB.Save(DESTDIR, mscheme);
 
 // API Calls
 var APIC = new APICaller(mDB);
+APIC.CreateActorData();
+APIC.CreateReihenData();
+APIC.PostReihenData().Wait();
 APIC.PostActorData().Wait();
+APIC.CreateBaendeData();
+APIC.PostBaendeData().Wait();
 
 IEnumerable<DATAFile> getDATA() {
     var sourcedir = DATADIR;
