@@ -3847,3 +3847,56 @@
 30/08/2023 20:05:28 Finished
 30/08/2023 20:05:28 Anzahl Bände: 4847
 30/08/2023 20:09:45 Finished
+
+31.08.2023 10:04:54 Log MusenalmDB
+31.08.2023 10:05:02 Band 4886 existiert nicht. Herkunft: INHNR 124330
+31.08.2023 10:05:02 Objektzähler  unzulässig. Herkunft INHNR 127106
+31.08.2023 10:05:02 Paginierung a, INHNR 132628 unzulässig.
+31.08.2023 10:05:07 Anzahl Reihen: 1295
+31.08.2023 10:06:10 Finished
+31.08.2023 10:06:10 Anzahl Personen: 4040
+31.08.2023 10:09:29 Finished
+31.08.2023 10:09:29 Anzahl Bände: 4847
+31.08.2023 10:13:46 Finished
+
+31.08.2023 10:35:53 Log MusenalmDB
+31.08.2023 10:36:00 Band 4886 existiert nicht. Herkunft: INHNR 124330
+31.08.2023 10:36:00 Objektzähler  unzulässig. Herkunft INHNR 127106
+31.08.2023 10:36:00 Paginierung a, INHNR 132628 unzulässig.
+31.08.2023 10:36:05 Anzahl Reihen: 1295
+31.08.2023 10:37:07 Finished
+31.08.2023 10:37:07 Anzahl Personen: 4040
+31.08.2023 10:40:26 Finished
+31.08.2023 10:40:27 Anzahl Bände: 4847
+31.08.2023 10:44:46 Finished
+
+31.08.2023 10:58:14 Log MusenalmDB
+31.08.2023 10:58:22 Band 4886 existiert nicht. Herkunft: INHNR 124330
+31.08.2023 10:58:22 Objektzähler  unzulässig. Herkunft INHNR 127106
+31.08.2023 10:58:22 Paginierung a, INHNR 132628 unzulässig.
+31.08.2023 10:58:27 Anzahl Reihen: 1295
+31.08.2023 10:59:30 Finished
+31.08.2023 10:59:30 Anzahl Personen: 3224
+31.08.2023 11:02:09 Finished
+
+31.08.2023 11:18:55 Log MusenalmDB
+31.08.2023 11:19:02 Band 4886 existiert nicht. Herkunft: INHNR 124330
+31.08.2023 11:19:02 Objektzähler  unzulässig. Herkunft INHNR 127106
+31.08.2023 11:19:02 Paginierung a, INHNR 132628 unzulässig.
+31.08.2023 11:19:07 Anzahl Reihen: 1295
+31.08.2023 11:20:11 Finished
+31.08.2023 11:20:11 Anzahl Personen: 3224
+31.08.2023 11:22:50 Finished
+
+31.08.2023 11:24:46 Log MusenalmDB
+
+31.08.2023 11:25:10 Log MusenalmDB
+31.08.2023 11:25:17 Band 4886 existiert nicht. Herkunft: INHNR 124330
+31.08.2023 11:25:17 Objektzähler  unzulässig. Herkunft INHNR 127106
+31.08.2023 11:25:17 Paginierung a, INHNR 132628 unzulässig.
+31.08.2023 11:25:22 Anzahl Reihen: 1295
+31.08.2023 11:26:26 Finished
+31.08.2023 11:26:26 Anzahl Personen: 3224
+31.08.2023 11:29:06 Finished
+31.08.2023 11:29:06 Anzahl Bände: 4847
+31.08.2023 11:33:34 Finished
