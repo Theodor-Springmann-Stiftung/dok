@@ -1,0 +1,12 @@
+https://db.musenalm.de/ns/musenalm/
+musenalm
+Musenalm zusätzliche Ontologie
+Nicht ins RDA-Schema passende erhobene oft Almanach-spezifische Eigenschaften und Klassen.
+
+musenalm:Inhalt,Inhalt,Ein erfasster Beitrag in einem Almanach (enthält eine Kombination aus RDA-Werk, -Manifestation und -Expressionseigenschaften)
+
+musenalm:pag,hat Kategorie der Paginierung,Kategorie der Painierung eines Werkes
+musenalm:incipit,hat Incipit,Incipit eines Werkes
+musenalm:seite,hat Seite,Seitenangabe eines Werkes
+musenalm:erfasst,Vollständig erfasst,Interner Verarbeitungsvermerk
+musenalm:gesichtet,Gesichtet,Ehem. Autopsie, Interner Bearbeitungvermerk
