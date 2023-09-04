@@ -83,3 +83,13 @@ article:not(h1, h2, h3, h4, h5, h6) {
 table tr:nth-child(even) td{
     background-color: #f1f5f9;
 }
+
+[dir="ltr"] .md-typeset blockquote {
+    border-left: none !important;
+    padding: 0 !important;
+}
+
+[dir="ltr"] .md-typeset blockquote p {
+    border-left: .2rem solid var(--md-default-fg-color--lighter);
+    padding-left: .4rem;
+}

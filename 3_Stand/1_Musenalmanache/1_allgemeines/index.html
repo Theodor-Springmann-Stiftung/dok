@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
     
     
       
@@ -757,18 +757,18 @@
 <p>Die Erfassung von Almanachen impliziert drei Ebenen einer quasi-hierarchischen Gliederung:</p>
 <dl>
 <dt><code>Reihen</code></dt>
-<dd>Reihen sind Zusammenfassungen von jährlich erscheinenden Almanachen, meist werden Reihentitel aus den Titelangaben einzelner Bände abstrahiert. Manche Reihen sind offensichtlich Übersetzungen französischer Titel. In der Access-DB sind Reihen bisher nicht gesondert, sondern im Feld <code>REIHENTITEL</code> in der Tabelle &rarr; <a href="1_Musenalmanache/2_AlmNeu.md"><code>AlmNeu</code></a> dokumentiert.</dd>
+<dd>Reihen sind Zusammenfassungen von jährlich erscheinenden Almanachen, meist werden Reihentitel aus den Titelangaben einzelner Bände abstrahiert. Manche Reihen sind offensichtlich Übersetzungen französischer Titel. In der Access-DB sind Reihen bisher nicht gesondert, sondern im Feld <code>REIHENTITEL</code> in der Tabelle &rarr; <a href="../2_AlmNeu/"><code>AlmNeu</code></a> dokumentiert.</dd>
 <dt><code>Bände</code></dt>
-<dd>Einzelne Ausgaben, konkrete Manifestationen von Almanachen. Nicht nur gesichtete, sondern auch nur bezeugte Ausgaben. In der Tabelle &rarr; <a href="1_Musenalmanache/2_AlmNeu.md"><code>AlmNeu</code></a> sind Bände als Einträge erfasst.</dd>
+<dd>Einzelne Ausgaben, konkrete Manifestationen von Almanachen. Nicht nur gesichtete, sondern auch nur bezeugte Ausgaben. In der Tabelle &rarr; <a href="../2_AlmNeu/"><code>AlmNeu</code></a> sind Bände als Einträge erfasst.</dd>
 <dt><code>Inhalte</code></dt>
-<dd>Einzelne Beiträge eines Bandes, wie Kalendarium, Gedicht, Titel, Stich u.s.w. In der Tabelle &rarr;&nbsp;<a href="1_Musenalmanache/3_INH-Tab.md"><code>INH-TAB</code></a> als Einträge erfasst.</dd>
+<dd>Einzelne Beiträge eines Bandes, wie Kalendarium, Gedicht, Titel, Stich u.s.w. In der Tabelle &rarr;&nbsp;<a href="../3_INH-Tab/"><code>INH-TAB</code></a> als Einträge erfasst.</dd>
 </dl>
 <h2 id="bilder">Bilder</h2>
 <p>Die Bilder sind als JPG und mit Wasserzeichen bzw. Erkennungsnummern versehen im Ordner <code>alma/Scans/</code> gespeichert. Die Benennung der Unterordner folgt der Angabe in Tabelle/Feld <code>AlmNeu/NUMMER</code>, die der Dateien der Angabe in Tabelle/Feld <code>INH-Tab/OBJZAEHL</code>. Der Ordner ist etwa 7.25 GB groß.</p>
 <h2 id="reihen-datei">Reihen-Datei</h2>
 <p>Zusätzlich zur Access-Tabelle s.u. gibt es noch eine Excel-Liste und Ausdrucke aller Reihentitel.</p>
 <h2 id="access-datei">Access-Datei</h2>
-<p>Die Daten werden in einer Access-Datei gehalten und eingetragen (Pfad: <code>alma/Datenbank/Datenbank_Aktuelle_Bearbeitung.mdb</code>). Zusätzlich zu den beiden oben genannten Tabellen ist die Tabelle &rarr; <a href="1_Musenalmanache/4_REALNAMEN-Tab.md"><code>REALNAME-Tab</code></a> relevant, die <abbr title="Daten über Objekte oder Personen, (methodisch) normalisiert zwecks Identifikation und Ermöglichung eindeutiger Zuordnungen.">Normdaten</abbr> für Personennamen enthält. </p>
+<p>Die Daten werden in einer Access-Datei gehalten und eingetragen (Pfad: <code>alma/Datenbank/Datenbank_Aktuelle_Bearbeitung.mdb</code>). Zusätzlich zu den beiden oben genannten Tabellen ist die Tabelle &rarr; <a href="../4_REALNAMEN-Tab/"><code>REALNAME-Tab</code></a> relevant, die <abbr title="Daten über Objekte oder Personen, (methodisch) normalisiert zwecks Identifikation und Ermöglichung eindeutiger Zuordnungen.">Normdaten</abbr> für Personennamen enthält. </p>
 <h2 id="abkurzungen">Abkürzungen</h2>
 <p>Vor allem die Felder <code>NACHWEIS</code> und <code>STRUKTUR</code> der Tabellen <code>GM-BIBLIO</code> und <code>AlmNeu</code> profitieren von der extensiven Nutzung von Abkürzungen.</p>
 <dl>
