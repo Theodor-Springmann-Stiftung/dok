@@ -7,7 +7,7 @@ Die Tabelle `INH-Tab` erfasst Beiträge einzelner katalogisierter Bände Seiten-
 Feld             |  Datentyp | Bedeutung und Anmerkungen 
 ----------------:|-----------|--------------------------
 `ID` | ulong | Band, in welchem der Inhalt zu finden ist (`AlmNeu/NUMMER`). 
-`INHNR`| ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des Inhalts.
+`INHNR`| ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des Inhalts (Tabellenschlüssel).
 `AUTORREALNAME`| -->&nbsp;`REALNAME-Tab/REALNAME` | Verweis auf [`REALNAME-Tab`](4_REALNAMEN-Tab.md). Gibt den Norm-Datensatz an, unter welchem der/die Urheber:in des Inhalts erfasst ist und identifiziert ihn/sie eindeutig. Mehrere Werte möglich, denn in der REALNAMEN-Tab sind alle vorkommenden Kombinationen als gesonderte Datensätze eingetragen. Trennung mit `;` (Grafik) oder `u.` (Text). Verfasser, Dichter, Zeichner, Stecher des Inhalts. 
 `AUTOR` | Kurzer Text | Diplomatische Transkription der Autorangabe(n)
 `TITEL` | Langer Text | Diplomatische Transkription der Gesamttitelangabe mit Zeilenumbrüchen (`/`). Leer, falls es sich um eine Zeichnung, Kalendarium o.ä. handelt.

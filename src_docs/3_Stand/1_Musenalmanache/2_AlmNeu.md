@@ -1,14 +1,13 @@
 # Musenalmanache: `AlmNeu`
 Die Tabelle `AlmNeu` erfasst einzelne Bände (im Sinne von: Bücher) der Almanache, entweder als bibliografische Angabe nach einem Zeugen oder als Angaben in diplomatischer Umschrift nach einem gesichteten boolean ulong Exemplar. Ausnahmen s.u. `REIHENTITEL`. Zurzeit hat die Tabelle etwa 4.847 Einträge. Die Felder der Tabelle lauten:
 
-<!-- TODO Verlinken möglicher Werte -->
-
+## Felder
 Feld             |  Datentyp | Bedeutung und Anmerkungen 
 ----------------:|:----------|:-------------------------
-`NUMMER` | ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des Bandes.
+`NUMMER` | ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des Bandes (Tabellenschlüssel).
 `BIBLIO-NR` | ulong | Nummer, unter welcher der Band in der Biblio-Tabelle (-->&nbsp;[`GM-BIBLIO\NUMMER`](2_biblio.md)) erfasst ist. Leer, falls nicht.
 `ALM-TITEL` | Kurzer Text | Diplomatische Transkription des Gesamttitelangabe des Titelblatts mit Zeilenumbrüchen (`/`). Leer, falls kein Band vorgelegen hat.
-`REIHENTITEL` | Kurzer Text | Gibt Reihe(n) an, unter welche ein Band eingeordnet werden kann und nachfolgend das Jahr des Bandes. <br><br>Weiterhin wird angegeben, ob ein Band außerdem einer anderssprachigen Reihe zuzuordnen ist (als Übersetzung, oftmals aber nicht immer getrennt mit `/)`). <br><br>Weiter enthält es Ausgabevermerke (wie `(1)`) und bei Mehrfacherfassung ein `[var]`, `[var.2]` u.s.w. <br><br>Weiter sind einige Datensätze bis auf dieses Feld leer und dienen nur der Recherche, denn der Reihentitel verweist mit `s.a.` oder `s.u.` auf entsprechend andere Datensätze, unter welchen man gewünschte Informationen finden kann.<br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_REIHENTITEL.txt)
+`REIHENTITEL` | Kurzer Text | Gibt Reihe(n) an, unter welche ein Band eingeordnet werden kann und nachfolgend das Jahr des Bandes. <br><br>Weiterhin wird angegeben, ob ein Band außerdem einer anderssprachigen Reihe zuzuordnen ist (als Übersetzung, oftmals aber nicht immer getrennt mit `/)`). <br><br>Weiter enthält es Ausgabevermerke (wie `(1)` oder `Titelauflage` <!-- TODO -->) und bei Mehrfacherfassung ein `[var]`, `[var.2]` u.s.w. <br><br>Weiter sind einige Datensätze bis auf dieses Feld leer und dienen nur der Recherche, denn der Reihentitel verweist mit `s.a.` oder `s.u.` auf entsprechend andere Datensätze, unter welchen man gewünschte Informationen finden kann.<br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_REIHENTITEL.txt)
 `ORT` | Kurzer Text | Diplomatische Transkription der Orts- und Verlags- und manchmal Vertriebsangabe.<br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_ORT.txt)
 `JAHR` | ulong | Jahr, auf welches sich der Musenalmanach bezieht. Das Erscheinungsjahr ist demnach entweder im selben Jahr oder ein Jahr früher, jedoch auch sonst nicht unbedingt im Almanach angegeben.
 `HERAUSGEBER` | Kurzer Text | Diplomatische Transkription der Verantwortlichkeitsangabe.    

@@ -20,6 +20,10 @@ article:not(h1, h2, h3, h4, h5, h6) {
     margin-bottom: 0.5em;
 }
 
+.md-typeset .admonition {
+    font-size: unset !important;
+}
+
 .md-typeset dl {
     display: grid;
     grid: auto / minmax(15%, auto) 1fr;
