@@ -1,0 +1,55 @@
+Corrigenda 266
+Diagramm 1
+G-Verz 639
+G-Verz C 1
+G-Verz I-Verz 75
+G-Verz I-Verz C 1
+Gedicht/Lied 58629
+Gedicht/Lied u. Prosa 55
+Gedicht/Lied u. Text 2
+graph. Anleitung 110
+graph. Stickanleitung 3
+graph. Tanzanleitung 251
+Graphik 19681
+Graphik u. Tabelle 1
+Graphik u. Text 1
+Graphik/Karte 1
+Graphik/Tafel 3
+I-Verz 1625
+I-Verz  C 1
+I-Verz G-Verz 24
+Kalendarium 795
+Kalender 5
+Karte 128
+Motto 4
+MusBB-Verz 7
+Musikbeigabe 1836
+Prosa 12857
+Prosa u. Gedicht 371
+Prosa u. Graphik 1
+Prosa u. szen. Darstellung 28
+Prosa u. Tabelle 6
+Rätsel 2852
+Sammlung 5078
+Sammlung # 4
+Spiegel 11
+szen. Darstellung 1160
+szen. Darstellung u. Prosa 8
+Tabelle 2812
+Tabelle # 2
+Tabelle u. Text 142
+Tabelle u.Text 6
+Tafel 10
+Text 13617
+Text . u. Tabelle 1
+Text u Tabelle 1
+Text u. G-Verz 2
+Text u. Gedicht 137
+Text u. Musikbeigabe 1
+Text u. szen. Darstellung 10
+Text u. Tabelle 2345
+Titel 4245
+Titel u I-Verz 2
+Trinkspruch 148
+Umschlag 5
+Widmung 324
