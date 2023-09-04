@@ -5,7 +5,7 @@ Die Umgestaltung der ganzen Sammlungsdokumentation hat grundsätzlich zwei versc
 2. Die Präsentation der Daten für Interessierte, i.d.R. Forscher und Antiquare. Bibliographische Daten sollen in angemessener Weise präsentiert werden, mit Sortier- und Recherchemöglichkeiten nach Reihen, Personen, Bänden, einer zuverlässigen Suchfunktion und der Möglichkeit zum Herunterladen verfügbarer digitaler Reproduktionen. 
 
 ## Unterschiede in formaler Erfassung zwischen Almanachen & `GM-BIBLIO`
-Grundsätzlich ist die Präsentation der Daten für die **`GM-BIBLIO`** nicht so wichtig, da sie keine öffentliche Seite hat und mit ihr nicht über einen gegliederten Zugang, sondern hauptsächlich über die Volltextsuche interagiert wird. Damit wird die Atomisierung beispielsweise von Herausgeber- oder Autorangaben eher eine Frage der Standardisierung und Kompatibilität (mit externen Datenbanken), und bereitet keine Einschränkungen in der Funktionalität.
+Grundsätzlich ist die Präsentation der Daten für die **Buch-Datenbank** [`GM-BIBLIO`](3_Stand/2_biblio.md) nicht so wichtig, da sie keine öffentliche Seite hat und mit ihr nicht über einen gegliederten Zugang, sondern hauptsächlich über die Volltextsuche interagiert wird. Damit wird die Atomisierung beispielsweise von Herausgeber- oder Autorangaben eher eine Frage der Standardisierung und Kompatibilität (mit externen Datenbanken), und bereitet keine Einschränkungen in der Funktionalität.
 
 !!! info "Grenzen formaler Gliederung"
     Grundsätzlich wird nach der gewünschten Funktion und Form der Interaktion mit der Datenbank gefragt, um zu entscheiden, wie weit atomisiert und formal strukturiert die Daten gehalten und gepflegt werden müssen. Es gilt: so formal aufbereitet wie für die gewünschte Funktionalität möglich, aber auch nicht mehr als nötig.
@@ -14,7 +14,7 @@ Grundsätzlich ist die Präsentation der Daten für die **`GM-BIBLIO`** nicht so
 
 Für die `GM-BIBLIO` reicht es wahrscheinlich, zusätzlich festzuhalten, dass das Buch, falls vorhanden, an seinem Standort auffindbar sein muss.
 
-Die **Almanache** sind da anders: da der Zugang zu den Daten sich ändert, so ändern sich auch Fragen der Speicherung und Atomisierung. Eine Sortierung und Anzeige der Daten nach Herausgebern oder Urhebern beispielsweise erfordert eine Normalisierung der Schreibweisen. Ähnlich eine Darstellung nach Reihen oder Auflistung nach Jahren. Weiter steckt in der Musenalm *wissenschaftliche* Arbeit: die Felder sind nicht notwendig nur Dokumentation, sondern speichern Forschungsergebnisse.
+Die [**Almanache**](3_Stand/1_Musenalmanache/1_allgemeines.md) sind da anders: da der Zugang zu den Daten sich ändert, so ändern sich auch Fragen der Speicherung und Atomisierung. Eine Sortierung und Anzeige der Daten nach Herausgebern oder Urhebern beispielsweise erfordert eine Normalisierung der Schreibweisen. Ähnlich eine Darstellung nach Reihen oder Auflistung nach Jahren. Weiter steckt in der Musenalm *wissenschaftliche* Arbeit: die Felder sind nicht notwendig nur Dokumentation, sondern speichern Forschungsergebnisse.
 
 ## Musenalm: Allgemeine Anforderungen
 - Als bibliografisches Nachschlagewerk müssen eindeutige Identifikatoren für Reihen und Bände geschaffen werden.
