@@ -1,10 +1,80 @@
-site_name: Sammlungsdokumentation in der TSS
+site_name: TSS/Sammlungsdokumentation
 site_description: Dokumente und Skripte im Zusammenhang mit Sammlungsdigitalisierung und -dokumentation an der TSS, insb. der Musenalm.
 copyright: 2023 Theodor Springmann Stiftung
 repo_url: https://github.com/Theodor-Springmann-Stiftung/tss_sammlungsdokumentation
 site_dir: docs/
 docs_dir: src_docs/
-theme:
-  name: material
 extra_css:
   - css/styles.css
+theme:
+  name: material
+  language: de
+  font: 
+    text: Fira Sans Condensed
+  features:
+  #  - navigation.expand
+  #  - navigation.sections
+  #   - navigation.instant
+
+copyright: >
+  Copyright &copy; 2023 Theodor Springmann Stiftung
+   <a href="#__consent">Cookie Einstellungen</a>
+
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:martens@tss-hd.de
+      text: e-Mail
+    - icon: fontawesome/regular/bookmark
+      link: https://old.musenalm.de
+      text: Musenalm OLD
+    - icon: fontawesome/solid/bookmark
+      link: https://db.musenalm.de
+      text: Omeka
+
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     Die Seite lädt Javascript- und Schriftartendateien von google.com und cloudflare.com. Persönliche Daten über IP-Adresse und Datum des Besuchs, sowie benutzte Browser und Betriebssysteme können von diesen Anbietern durch die gesendeten Requests unter Umständen erhoben werden, jedoch nicht das genaue Verhalten auf und die Interaktion des einzelnen Nutzers mit der Seite.
+
+
+plugins:
+  # - with-pdf
+  - awesome-pages
+  - git-revision-date-localized:
+      locale: de
+  - search:
+      lang: de
+  - encryptcontent:
+      global_password: 'your_password'
+      title_prefix: ''
+      summary: 'Der Inhalt dieser Seite ist verschlüsselt. '
+      placeholder: 'Mit Strg+Enter wird das Passwort global gesetzt'
+      password_button_text: 'Entschlüsseln'
+      decryption_failure_message: 'Falsches Passwort.'
+      encryption_info_message: 'Bitte wenden Sie sich an den Systemadministrator um auf diese Seite zuzugreifen.'
+      remember_password: True
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - def_list
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - src_docs_includes /glossary.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

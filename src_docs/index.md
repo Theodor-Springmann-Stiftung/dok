@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+# Info & Einführung
+Auf dieser Seite soll über alle laufenden Projekte und Schritte zur Überarbeitung der Sammlungsdokumentation an der TSS informiert werden.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Einerseits beschreibt und dokumentiert die Seite das gesamte Vorhaben und gibt Anleitung über  einzelne Arbeitsschritte, etwa zur Überarbeitung der Datensätze, andererseits ist ihr Zweck auch, eine kleine Wissensdatenbank zur Recherche beispielsweise über Format, Datentypen und Inhalt erhobener Felder zu schaffen, sodass ein grundlegendes Verfahren und Ablauf zur Eintragung und Pflege der Daten etabliert werden kann.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Falls möglich, soll an dieser Stelle auch ein Handbuch zur Benutzung eines neuen Systems zur Sammlungsdokumentation entstehen.
