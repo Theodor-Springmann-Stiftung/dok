@@ -20,6 +20,6 @@ Feld             |  Datentyp | Bedeutung und Anmerkungen
 `NORM` | Kurzer Text | `~` (Tilde) markiert erfasste Bände. Ursprünglich gedacht als Dokumentation des Soll-Zustands eines Almanachs, jedoch kaum genutzt.<br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_NORM.txt)
 `VOLLST. ERFASST`| boolean | Wahr, wenn der Almanach vollständig erfasst, d.h. seine Inhalte in die [`INH-Tab`](3_INH-Tab.md) eingetragen wurde.
 `HRSGREALNAME` | -->&nbsp;`HRSGREALNAME-Tab/REALNAME` | Verweis auf [`REALNAME-Tab`](4_REALNAMEN-Tab.md). Gibt den Norm-Datensatz an, unter welchem der/die Herausgeber:in des Bandes erfasst ist und identifiziert ihn/sie eindeutig. Mehrere Werte möglich, denn in der REALNAMEN-Tab sind alle vorkommenden Kombinationen als gesonderte Datensätze eingetragen. Trennung mit `;` (Grafik) oder `u.` (Text).
-`BEARBEITET AM` | Kurzer Text | Datum der letzten Bearbeitung.
+`BEARBEITET AM` | Datum | Datum der letzten Bearbeitung.
 `BEARBEITET VON` | Kurzer Text | Kürzel des letzten Bearbeiters.
 `ID` | ? | Unbenutzt.
