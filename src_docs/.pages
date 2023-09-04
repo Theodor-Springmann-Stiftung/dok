@@ -1,6 +1,6 @@
 nav:
-    - index.md
-    - 2_Umgestaltung.md
+    - "Info & Einführung": index.md
+    - "Umgestaltung: Ziele, Fortschritte": 2_Umgestaltung.md
     - Status Quo: 3_Stand
     - Arbeitsschritte: 4_Arbeitsschritte
     - Bibliografische Dokumentation: 5_Sammlungsdokumentation
