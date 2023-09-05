@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
     
     
       
@@ -332,7 +332,7 @@
         
   
   <span class="md-ellipsis">
-    Allgemeines und Vorgehen
+    Allgemeines
   </span>
   
 
@@ -380,7 +380,9 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
   
   
   
@@ -389,13 +391,13 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
+      Auf dieser Seite
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#felder" class="md-nav__link">
-    Felder
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
   </a>
   
 </li>
@@ -538,6 +540,46 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/2_Reihentitel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Reihentitel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/3_Verleger%20und%20Orte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Verleger und Orte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -638,7 +680,9 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
   
   
   
@@ -647,13 +691,13 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
+      Auf dieser Seite
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#felder" class="md-nav__link">
-    Felder
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
   </a>
   
 </li>
@@ -677,8 +721,42 @@
 
 
 <h1 id="musenalmanache-almneu">Musenalmanache: <code>AlmNeu</code></h1>
-<p>Die Tabelle <code>AlmNeu</code> erfasst einzelne Bände (im Sinne von: Bücher) der Almanache, entweder als bibliografische Angabe nach einem Zeugen oder als Angaben in diplomatischer Umschrift nach einem gesichteten <abbr title="Ja/Nein-Wert">boolean</abbr> <abbr title="unsigned long: eine lange, ganze, positive Zahl.">ulong</abbr> Exemplar. Ausnahmen s.u. <code>REIHENTITEL</code>. Zurzeit hat die Tabelle etwa 4.847 Einträge. Die Felder der Tabelle lauten:</p>
-<h2 id="felder">Felder</h2>
+<p>Die Tabelle <code>AlmNeu</code> erfasst einzelne Bände (im Sinne von: Bücher) der Almanache, entweder als bibliografische Angabe nach einem Zeugen oder als Angaben in diplomatischer Umschrift nach einem gesichteten Exemplar. Ausnahmen s.u. <code>REIHENTITEL</code>. Zurzeit hat die Tabelle etwa 4.847 Einträge. </p>
+<p>Dadurch, dass unterschiedliche Dinge, vorliegende Exemplare und bezeugte Ausgaben eingetragen werden, ergeben sich folgende Arten von Einträgen:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Nachweis der Forschungsliteratur</th>
+<th style="text-align: center;">Exemplar autopsiert</th>
+<th style="text-align: left;">Erkennungsmerkmal DB/Anmerkungen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">Bibliografischer Eintrag. Felder <code>AUTOPSIERT</code>: Nein, Kein <code>ALM-TITEL</code>, meist nur <code>REIHENTITEL</code>, <code>JAHR</code> und <code>ANMERKUNGEN</code>.</td>
+</tr>
+<tr>
+<td style="text-align: center;">fälschlich</td>
+<td style="text-align: center;"></td>
+<td style="text-align: left;">&rarr; Eintrag <code>NUMMER</code> 183</td>
+</tr>
+<tr>
+<td style="text-align: center;">X</td>
+<td style="text-align: center;">X</td>
+<td style="text-align: left;">Eintrag in der DB mit ausgefülltem <code>ALM-TITEL</code>, <code>AUTOPSIERT</code>: Ja</td>
+</tr>
+<tr>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">X</td>
+<td style="text-align: left;">Neuentdeckungen, im Nachweis vermerkt, mit ausgefülltem <code>ALM-TITEL</code>, <code>AUTOPSIERT</code>: Ja</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tabellenfelder">Tabellenfelder</h2>
+<div class="sortable-table"></div>
+
 <table>
 <thead>
 <tr>
@@ -700,17 +778,17 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>ALM-TITEL</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Diplomatische Transkription des Gesamttitelangabe des Titelblatts mit Zeilenumbrüchen (<code>/</code>). Leer, falls kein Band vorgelegen hat.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>REIHENTITEL</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Gibt Reihe(n) an, unter welche ein Band eingeordnet werden kann und nachfolgend das Jahr des Bandes. <br><br>Weiterhin wird angegeben, ob ein Band außerdem einer anderssprachigen Reihe zuzuordnen ist (als Übersetzung, oftmals aber nicht immer getrennt mit <code>/)</code>). <br><br>Weiter enthält es Ausgabevermerke (wie <code>(1)</code> oder <code>Titelauflage</code> <!-- TODO -->) und bei Mehrfacherfassung ein <code>[var]</code>, <code>[var.2]</code> u.s.w. <br><br>Weiter sind einige Datensätze bis auf dieses Feld leer und dienen nur der Recherche, denn der Reihentitel verweist mit <code>s.a.</code> oder <code>s.u.</code> auf entsprechend andere Datensätze, unter welchen man gewünschte Informationen finden kann.<br><br><a href="../../../files/feldwerte/AlmNeu_REIHENTITEL.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>ORT</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Diplomatische Transkription der Orts- und Verlags- und manchmal Vertriebsangabe.<br><br><a href="../../../files/feldwerte/AlmNeu_ORT.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
@@ -720,7 +798,7 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>HERAUSGEBER</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Diplomatische Transkription der Verantwortlichkeitsangabe.</td>
 </tr>
 <tr>
@@ -731,7 +809,7 @@
 <tr>
 <td style="text-align: right;"><code>AUTOPSIE</code></td>
 <td style="text-align: left;"><abbr title="Ja/Nein-Wert">boolean</abbr></td>
-<td style="text-align: left;">Wahr, falls mind. ein Exemplar des Almanachs gesichtet wurde.</td>
+<td style="text-align: left;">Wahr, falls mind. ein Exemplar des Almanachs gesichtet und textkritisch geprüft wurde.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>VORHANDEN</code></td>
@@ -740,22 +818,22 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>VORHANDEN ALS</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Werte (normalisiert): Original, Reprint, Fremde Herkunft. Mehrere Werte möglich, Trennung mit <code>;</code>. Herkunft des gesichteten Exemplars.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>NACHWEIS</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Mehrere Werte möglich, Trennung mit <code>;</code>. Quellen für bibliografische Angaben über den Almanach aus bekannten Metadatenwerken. <br><br><a href="../../../files/feldwerte/AlmNeu_NACHWEIS.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>STRUKTUR</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Beschreibt Aufbau und Struktur eines Almanachs s.a. &rarr; <a href="../1_allgemeines/#abkürzungen">Abkürzungen</a><br><br><a href="../../../files/feldwerte/AlmNeu_STRUKTUR.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>NORM</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;"><code>~</code> (Tilde) markiert erfasste Bände. Ursprünglich gedacht als Dokumentation des Soll-Zustands eines Almanachs, jedoch kaum genutzt.<br><br><a href="../../../files/feldwerte/AlmNeu_NORM.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
@@ -775,7 +853,7 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>BEARBEITET VON</code></td>
-<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td style="text-align: left;"><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td style="text-align: left;">Kürzel des letzten Bearbeiters.</td>
 </tr>
 <tr>
@@ -791,7 +869,7 @@
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">4. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
       
     
   </small>

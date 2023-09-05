@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
     
     
       
@@ -332,7 +332,7 @@
         
   
   <span class="md-ellipsis">
-    Allgemeines und Vorgehen
+    Allgemeines
   </span>
   
 
@@ -397,6 +397,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    REALNAMEN-Tab
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -406,6 +417,34 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -492,6 +531,46 @@
   
   <span class="md-ellipsis">
     1. Personen
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/2_Reihentitel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Reihentitel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/3_Verleger%20und%20Orte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Verleger und Orte
   </span>
   
 
@@ -601,12 +680,29 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
   
   
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -625,7 +721,10 @@
 
 
 <h1 id="musenalmanache-realnamen-tab">Musenalmanache: <code>REALNAMEN-Tab</code></h1>
-<p>Die Tabelle <code>REALNAMEN-Tab</code> erfasst <abbr title="Daten über Objekte oder Personen, (methodisch) normalisiert zwecks Identifikation und Ermöglichung eindeutiger Zuordnungen.">Normdaten</abbr> von an Inhalten (Urheber:innen) oder Bänden (Herausgeber:innen) beteiligten Personen. Da die Verweisfelder &rarr;&nbsp;<a href="../2_AlmNeu/"><code>AlmNeu/HRSGREALNAME</code></a> und &rarr;&nbsp;<a href="../3_INH-Tab/"><code>INH-Tab/AUTORREALNAME</code></a> nicht mehrere Verweise in einem Feld aufnehmen können, sind <abbr title="Zuordnung mehrerer X zu mehreren Y.">n:m</abbr>-Beziehungen zwischen den Tabellenpaaren durch die (redundante) Eintragung von vorkommenden Personenkombinationen in der <code>REALNAMEN-Tab</code> realisiert. Auf diese Weise hat die Tabelle zzt. 5.384 Einträge.</p>
+<p>Die Tabelle <code>REALNAMEN-Tab</code> erfasst <abbr title="Daten über Objekte oder Personen, (methodisch) normalisiert zwecks Identifikation und Ermöglichung eindeutiger Zuordnungen.">Normdaten</abbr> von an Inhalten (Urheber:innen) oder Bänden (Herausgeber:innen) beteiligten Personen. Da die Verweisfelder &rarr;&nbsp;<a href="../2_AlmNeu/"><code>AlmNeu/HRSGREALNAME</code></a> und &rarr;&nbsp;<a href="../3_INH-Tab/"><code>INH-Tab/AUTORREALNAME</code></a> nicht mehrere Verweise in einem Feld aufnehmen können, sind <abbr title="Zuordnung mehrerer X zu mehreren Y und umgekehrt.">n:m</abbr>-Beziehungen zwischen den Tabellenpaaren durch die (redundante) Eintragung von vorkommenden Personenkombinationen in der <code>REALNAMEN-Tab</code> realisiert. Auf diese Weise hat die Tabelle zzt. 5.384 Einträge.</p>
+<h2 id="tabellenfelder">Tabellenfelder</h2>
+<div class="sortable-table"></div>
+
 <table>
 <thead>
 <tr>
@@ -637,22 +736,22 @@
 <tbody>
 <tr>
 <td style="text-align: right;"><code>REALNAME</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Einzigartige Bezeichnung einer Person, Personenname (Tabellenschlüssel). Auch Personenkombinationen möglich s.o. Im Falle einer Kombination bleiben alle anderen Felder des Eintrags leer.<br><br><a href="../../../files/feldwerte/REALNAME-Tab_REALNAME.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>Daten</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Geburts- und Sterbedatum einer Person.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>Nachweis</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Metadatenwerke, welchen die normalisierte Form der Personenschreibweise entnommen wurde. Mehrere Werte möglich, mit <code>;</code> getrennt.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>Beitrag</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Beruf oder Tätigkeit der Person.</td>
 </tr>
 <tr>
@@ -668,7 +767,7 @@
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">4. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
       
     
   </small>

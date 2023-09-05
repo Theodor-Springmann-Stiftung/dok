@@ -14,11 +14,11 @@
         <link rel="prev" href="../../3_Stand/2_biblio/">
       
       
-        <link rel="next" href="../../5_Sammlungsdokumentation/2_info/">
+        <link rel="next" href="../2_Reihentitel/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
     
     
       
@@ -328,7 +328,7 @@
         
   
   <span class="md-ellipsis">
-    Allgemeines und Vorgehen
+    Allgemeines
   </span>
   
 
@@ -499,6 +499,46 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2_Reihentitel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Reihentitel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_Verleger%20und%20Orte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Verleger und Orte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -599,7 +639,9 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
   
   
   
@@ -623,13 +665,25 @@
 
 
 <h1 id="1-personen">1. Personen</h1>
+<details class="bug">
+<summary>Problem: Personenschreibweisen</summary>
+<p>Weil es bisher keine Möglichkeit gab, Personen einzeln Bänden oder Inhalten zuzuweisen, wurden in der <code>REALNAMEN-Tab</code> Personenkombinationen angelegt, getrennt durch <code>u.</code> oder <code>;</code>, um mehrere Personen einer Veröffentlichung oder einem Inhalt zuzuweisen. Weil sich das ändern soll (beispielsweise für eine sortierte Personenliste), muss für jede Person innnerhalb einer Personengruppe ein Eintrag vorhanden sein, der in der Schreibsweise exakt mit der zusammengesetzten Aufnahme übereinstimmt.</p>
+</details>
+<p>Es wurden Listen von Personen ausgegeben, deren zusammengesetzter Eintrag maschinell mit keinem Einzeleintrag in der <code>REALNAMEN-Tab</code> identifiziert werden kann. Die Schreibweisen und Einträge wurden in der vorhandenen Access-DB einzeln korrigiert.</p>
+<p>Status: <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg></span> erledigt</p>
+<details class="bug">
+<summary>Problem: Verweiste Einträge</summary>
+<p>In der <code>INH-Tab</code> gab es Einträge zu Inhalten, die auf keinen existierenden Band verweisen.</p>
+</details>
+<p>Die entsprechenden Einträge wurden gelöscht.</p>
+<p>Status: <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg></span> erledigt</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">4. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
       
     
   </small>

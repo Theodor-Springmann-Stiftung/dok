@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
     
     
       
@@ -332,7 +332,7 @@
         
   
   <span class="md-ellipsis">
-    Allgemeines und Vorgehen
+    Allgemeines
   </span>
   
 
@@ -377,6 +377,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    INH-Tab
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -386,6 +397,34 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -501,6 +540,46 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/2_Reihentitel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2. Reihentitel
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4_Arbeitsschritte/3_Verleger%20und%20Orte/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Verleger und Orte
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -601,12 +680,29 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
   
   
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabellenfelder" class="md-nav__link">
+    Tabellenfelder
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -628,6 +724,8 @@
 <p>Die Tabelle <code>INH-Tab</code> erfasst Beiträge einzelner katalogisierter Bände Seiten- oder Beitragsweise. Inhalte können nicht nach der Seitenzahl sortiert werden, sondern benötigen einen extra Zähler <code>OBJZAEHL</code> da ein Band mehrere verschiedene Seitenzählungen enthalten kann. Die Tabelle enthält zzt. etwa 130325 Einträge. Die Felder der Tabelle lauten:</p>
 <!-- TODO: Seiten- oder Beitragsweise??
     Auch bekannte nicht erfasste Inhalte?  -->
+<h2 id="tabellenfelder">Tabellenfelder</h2>
+<div class="sortable-table"></div>
 
 <table>
 <thead>
@@ -655,7 +753,7 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>AUTOR</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Diplomatische Transkription der Autorangabe(n)</td>
 </tr>
 <tr>
@@ -685,12 +783,12 @@
 </tr>
 <tr>
 <td style="text-align: right;"><code>PAG</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Mögliche Werte (normalisiert): ar, röm, ar1-7, röm1-7. Gibt die Art der Paginierung einer Seite an.</td>
 </tr>
 <tr>
 <td style="text-align: right;"><code>OBJEKT</code></td>
-<td><abbr title="&lt;255 Bytes, 1 Byte = meistens ein, manchmal zwei Zeichen">Kurzer Text</abbr></td>
+<td><abbr title="&lt;255 Bytes, 1 Zeichen = meistens ein, Umlaute und Sonderzeichen bis zu 4 Bytes">Kurzer Text</abbr></td>
 <td>Möglich Werte (normalisiert): Corrigenda, Diagramm, Gedicht/Lied, Graphik, Graphik-Verzeichnis, graph. Anleitung, graph. Strickanleitung, graph. Tanzanleitung, Inhaltsverzeichnis, Kalendarium, Karte, Musikbeigabe, Musikbeigaben-Verzeichnis, Motto, Prosa, Rätsel, Sammlung, Spiegel, szen. Darstellung, Tabelle, Tafel, Titel, Text, Trinkspruch, Umschlag, Widmung. Mehrere Werte möglich. Gibt das Genre eines Inhalts an.</td>
 </tr>
 <tr>
@@ -706,7 +804,7 @@
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">4. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
       
     
   </small>
