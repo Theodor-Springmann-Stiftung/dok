@@ -90,6 +90,7 @@ table tr:nth-child(even) td{
 }
 
 [dir="ltr"] .md-typeset blockquote p {
+    color: var(--md-typeset-color);
     border-left: .2rem solid var(--md-default-fg-color--lighter);
     padding-left: .4rem;
 }

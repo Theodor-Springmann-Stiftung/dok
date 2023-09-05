@@ -1,8 +1,8 @@
 # Umgestaltung der Datanbank(en): Ziele & Fortschritt
 Die Umgestaltung der ganzen Sammlungsdokumentation hat grundsätzlich zwei verschiedene Seiten:
 
-1. Das Arbeiten, Recherchieren und Bereitstellen der Daten (für Mitarbeiter:innen der Stiftung). Nach dieser Seite sind von besonderem Interesse die Datenintegrität, langfristige Speicherung und Sicherung, Kompatibilität mit zukünftigen Technologien und Standards und nicht zuletzt Nutzerfreundlichkeit.
-2. Die Präsentation der Daten für Interessierte, i.d.R. Forscher und Antiquare. Bibliographische Daten sollen in angemessener Weise präsentiert werden, mit Sortier- und Recherchemöglichkeiten nach Reihen, Personen, Bänden, einer zuverlässigen Suchfunktion und der Möglichkeit zum Herunterladen verfügbarer digitaler Reproduktionen. 
+1. Das Arbeiten, Recherchieren und Bereitstellen der Daten (für Editor:innen der Datenbank). Nach dieser Seite sind von besonderem Interesse die Datenintegrität, langfristige Speicherung und Sicherung, Kompatibilität mit zukünftigen Technologien und Standards und nicht zuletzt Nutzerfreundlichkeit.
+2. Die Präsentation der Daten für Interessierte, i.d.R. Forscher und Antiquare. Bibliographische Daten sollen in angemessener Weise präsentiert werden, mit Sortier- und Recherchemöglichkeiten nach Reihen, Personen, Bänden, einer zuverlässigen Suchfunktion und der Möglichkeit zum Herunterladen digitaler Reproduktionen. 
 
 ## Unterschiede in formaler Erfassung zwischen Almanachen & `GM-BIBLIO`
 Grundsätzlich ist die Präsentation der Daten für die **Buch-Datenbank** [`GM-BIBLIO`](3_Stand/2_biblio.md) nicht so wichtig, da sie keine öffentliche Seite hat und mit ihr nicht über einen gegliederten Zugang, sondern hauptsächlich über die Volltextsuche interagiert wird. Damit wird die Atomisierung beispielsweise von Herausgeber- oder Autorangaben eher eine Frage der Standardisierung und Kompatibilität (mit externen Datenbanken), und bereitet keine Einschränkungen in der Funktionalität.
