@@ -2,7 +2,8 @@
 ## Allgemeines
 Die Tabelle `GM-BIBLIO` dient zur Dokumentation des Stiftungsbestands. Weiter gibt es in der Tabelle auch bibliografische Einträge für noch nicht im Stiftungsbestand befindliche, aber gesuchte Titel. Es gelten dieselben [Abkürzungen wie in der Musenalm](1_Musenalmanache/1_allgemeines.md#abkürzungen). Ebenso für die [Symbole](1_Musenalmanache/1_allgemeines.md#symbole). Einem gewissen Umfang nach decken sich also die Einträge der Tabellen -->&nbsp;[`AlmNeu`](1_Musenalmanache/2_AlmNeu.md) und `GM-BIBLIO`. Die Tabelle hat zzt. <!-- TODO -->XY Einträge.
 
-## Felder
+## Tabellenfelder
+<div class="sortable-table"></div>
 Feld             |  Datentyp | Bedeutung und Anmerkungen 
 ----------------:|-----------|--------------------------
 `NUMMER` | ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des bibliographischen Eintrags (Tabellenschlüssel).

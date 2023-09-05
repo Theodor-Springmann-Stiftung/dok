@@ -2,12 +2,20 @@ article:not(h1, h2, h3, h4, h5, h6) {
     hyphens: auto;
 }
 
+nav {
+    font-size: 0.75rem !important;
+}
+
+.md-sidebar {
+    width: 14rem;
+}
+
 .md-grid {
     max-width: 68rem;
 }
 
 .md-content {
-    padding-left: 2rem;
+    padding-left: 0rem;
     padding-right: 1rem;
 }
 
@@ -21,6 +29,10 @@ article:not(h1, h2, h3, h4, h5, h6) {
 }
 
 .md-typeset .admonition {
+    font-size: unset !important;
+}
+
+details {
     font-size: unset !important;
 }
 
@@ -43,8 +55,8 @@ article:not(h1, h2, h3, h4, h5, h6) {
 }
 
 .md-typeset__table {
-    margin-left: -2rem;
-    margin-right: -1rem;
+    margin-left: 0rem;
+    margin-right: -2rem;
 }
 
 .md-typeset table {
@@ -62,6 +74,8 @@ article:not(h1, h2, h3, h4, h5, h6) {
 
 .md-typeset table th {
     border-bottom: 1px solid grey !important;
+    vertical-align: bottom !important;
+    hyphens: none;
 }
 
 .md-typeset table tr:first-of-type td {

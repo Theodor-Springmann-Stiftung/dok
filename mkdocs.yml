@@ -63,6 +63,8 @@ plugins:
   #     remember_password: True
 
 markdown_extensions:
+  - toc:
+      title: Auf dieser Seite
   - pymdownx.smartsymbols
   - admonition
   - pymdownx.details

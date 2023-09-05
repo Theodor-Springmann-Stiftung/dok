@@ -1,20 +1,22 @@
-# Musenalmanache: Allgemeines und Vorgehen
+# Musenalmanache: Allgemeines
 ## Zum Gegenstand: Musenalmanache
-Die Sammlung von Musenalmanachen erfasst derzeit etwa 4500 Bände von meist jährlich erscheinenden Periodika mit Kalendarium, Text-, Noten- und/oder Bildbeiträgen aus dem 18. und 19. Jahrhundert. Dabei erfassen die Daten nicht nur Almanache, die den Bestand der Sammlung der TSS ausmachen, sondern versteht sich vor allem als *Bibliografie* überhaupt existierender Almanache. Die wichtigsten Zeugen für die Bibliografie sind unter anderen (s.a. [alte Musenalm-Seite](https://old.musenalm.de/gesamtanleitung.html)):
+Die Sammlung von Musenalmanachen erfasst derzeit etwa 4500 Bände von meist jährlich erscheinenden Periodika mit Kalendarium, Text-, Noten- und/oder Bildbeiträgen aus dem 18. und 19. Jahrhundert. Die datensammlung erfasst nicht nur die Almanache, die den Bestand der Sammlung der TSS ausmachen, sondern versteht sich vor allem als *Bibliografie* überhaupt existierender Almanache. Die wichtigsten Zeugen für die Bibliografie sind unter anderen (s.a. [alte Musenalm-Seite](https://old.musenalm.de/gesamtanleitung.html))
 
-> Goedeke, Carl u. a.: Grundriß zur Geschichte der deutschen Dichtung. 13 Bde., 2. Aufl., Dresden 1884 ff. (Bd. IV/1-4 in der dritten neubearbeiteten Aufl., Dresden 1896-1913. Neudruck Berlin 1955; Bd. IV/5 in der ersten Aufl. Düsseldorf 1957-1960; außerdem die "Neue Folge", N. F. Bd. I, Berlin 1955ff.)
+> Goedeke, Carl u. a.: Grundriß zur Geschichte der deutschen Dichtung. 13 Bde., 2. Aufl., Dresden 1884 ff. (Bd. IV/1-4 in der dritten neubearbeiteten Aufl., Dresden 1896-1913. Neudruck Berlin 1955; Bd. IV/5 in der ersten Aufl. Düsseldorf 1957-1960; außerdem die "Neue Folge", N. F. Bd. I, Berlin 1955ff.),
 
-> Köhring, Hans (Bearb. Hrsg.): Bibliographie der Almanache, Kalender und Taschenbücher für die Zeit von ca. 1750-1860. Hamburg 1929. Neudruck Bad Karlshafen 1987.
+> Köhring, Hans (Bearb. Hrsg.): Bibliographie der Almanache, Kalender und Taschenbücher für die Zeit von ca. 1750-1860. Hamburg 1929. Neudruck Bad Karlshafen 1987,
 
-> Lanckoronska, Maria; Rümann, Arthur: Geschichte der deutschen Taschenbücher und Almanache aus der klassisch-romantischen Zeit. München 1957. Neudruck Osnabrück 1985.
+> Lanckoronska, Maria; Rümann, Arthur: Geschichte der deutschen Taschenbücher und Almanache aus der klassisch-romantischen Zeit. München 1957. Neudruck Osnabrück 1985,
+
+wobei längst nicht alle Eintragungen dieser Metadatenwerke in die Datenbank übertragen sind, sondern nur solche Bände, aus deren Reihen mindestens ein Exemplar vorgelegen hat. Dennoch sollen die anderen Einträge folgen, um die Bibligrafie so vollständig wie möglich zu machen.
 
 Die Erfassung von Almanachen impliziert drei Ebenen einer quasi-hierarchischen Gliederung:
 
 `Reihen`
-:   Reihen sind Zusammenfassungen von jährlich erscheinenden Almanachen, meist werden Reihentitel aus den Titelangaben einzelner Bände abstrahiert. Manche Reihen sind offensichtlich Übersetzungen französischer Titel. In der Access-DB sind Reihen bisher nicht gesondert, sondern im Feld `REIHENTITEL` in der Tabelle --> [`AlmNeu`](2_AlmNeu.md) dokumentiert.
+:   Reihen sind Zusammenfassungen von jährlich erscheinenden Almanachen, meist werden Reihentitel aus den Titelangaben einzelner Bände abstrahiert. Manche Reihen sind  Übersetzungen französischer Titel. In der Access-DB sind Reihen bisher nicht gesondert, sondern im Feld `REIHENTITEL` in der Tabelle -->&nbsp;[`AlmNeu`](2_AlmNeu.md) dokumentiert. Reihen manifestieren sich in 
 
-`Bände`
-:   Einzelne Ausgaben, konkrete Manifestationen von Almanachen. Nicht nur gesichtete, sondern auch nur bezeugte Ausgaben. In der Tabelle --> [`AlmNeu`](2_AlmNeu.md) sind Bände als Einträge erfasst.
+`Bänden`
+:   Einzelne Ausgaben, konkrete Manifestationen von Almanachen. Nicht nur gesichtete, sondern auch bezeugte Ausgaben werden erfasst und sollen in Zukunft erfasst werden. In der Tabelle -->&nbsp;[`AlmNeu`](2_AlmNeu.md) sind Bände als Einträge erfasst. Bände enthalten Text-, Titel-, Kalendariums-, Noten- oder Bildbeiträge, diese sind erfasst als
 
 `Inhalte`
 :   Einzelne Beiträge eines Bandes, wie Kalendarium, Gedicht, Titel, Stich u.s.w. In der Tabelle -->&nbsp;[`INH-TAB`](3_INH-Tab.md) als Einträge erfasst.

@@ -1,7 +1,21 @@
 # Musenalmanache: `AlmNeu`
-Die Tabelle `AlmNeu` erfasst einzelne Bände (im Sinne von: Bücher) der Almanache, entweder als bibliografische Angabe nach einem Zeugen oder als Angaben in diplomatischer Umschrift nach einem gesichteten boolean ulong Exemplar. Ausnahmen s.u. `REIHENTITEL`. Zurzeit hat die Tabelle etwa 4.847 Einträge. Die Felder der Tabelle lauten:
+Die Tabelle `AlmNeu` erfasst einzelne Bände (im Sinne von: Bücher) der Almanache, entweder als bibliografische Angabe nach einem Zeugen oder als Angaben in diplomatischer Umschrift nach einem gesichteten Exemplar. Ausnahmen s.u. `REIHENTITEL`. Zurzeit hat die Tabelle etwa 4.847 Einträge. 
 
-## Felder
+
+Dadurch, dass unterschiedliche Dinge, vorliegende Exemplare und bezeugte Ausgaben eingetragen werden, ergeben sich folgende Arten von Einträgen:
+
+
+Nachweis der Forschungsliteratur | Exemplar autopsiert | Erkennungsmerkmal DB/Anmerkungen
+:-------------------------------:|:-------------------:|:--------------------------------
+X | | Bibliografischer Eintrag. Felder `AUTOPSIERT`: Nein, Kein `ALM-TITEL`, meist nur `REIHENTITEL`, `JAHR` und `ANMERKUNGEN`.
+fälschlich | | --> Eintrag `NUMMER` 183
+X | X | Eintrag in der DB mit ausgefülltem `ALM-TITEL`, `AUTOPSIERT`: Ja
+ | X | Neuentdeckungen, im Nachweis vermerkt, mit ausgefülltem `ALM-TITEL`, `AUTOPSIERT`: Ja
+
+## Tabellenfelder
+
+<div class="sortable-table"></div>
+
 Feld             |  Datentyp | Bedeutung und Anmerkungen 
 ----------------:|:----------|:-------------------------
 `NUMMER` | ulong | Mit 1 beginnende, fortlaufende, eindeutige Nummer des Bandes (Tabellenschlüssel).
@@ -12,7 +26,7 @@ Feld             |  Datentyp | Bedeutung und Anmerkungen
 `JAHR` | ulong | Jahr, auf welches sich der Musenalmanach bezieht. Das Erscheinungsjahr ist demnach entweder im selben Jahr oder ein Jahr früher, jedoch auch sonst nicht unbedingt im Almanach angegeben.
 `HERAUSGEBER` | Kurzer Text | Diplomatische Transkription der Verantwortlichkeitsangabe.    
 `ANMERKUNGEN` | Langer Text | Anmerkungen zur Erfassung des Almanachs s.a. --> [Sonderzeichen](1_allgemeines.md#symbole)<br><br>Im ersten Band einer Reihe finden sich Angaben zu Herausgeber, Ort, Verlag und Erscheinungsfolge.<br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_ANMERKUNGEN.txt)
-`AUTOPSIE` | boolean | Wahr, falls mind. ein Exemplar des Almanachs gesichtet wurde.       
+`AUTOPSIE` | boolean | Wahr, falls mind. ein Exemplar des Almanachs gesichtet und textkritisch geprüft wurde.       
 `VORHANDEN` | boolean | Wahr, falls der Almanach im Bestand der Stiftung ist.
 `VORHANDEN ALS`  | Kurzer Text | Werte (normalisiert): Original, Reprint, Fremde Herkunft. Mehrere Werte möglich, Trennung mit `;`. Herkunft des gesichteten Exemplars.
 `NACHWEIS` | Kurzer Text | Mehrere Werte möglich, Trennung mit `;`. Quellen für bibliografische Angaben über den Almanach aus bekannten Metadatenwerken. <br><br>[:material-file-document:&nbsp;Feldwerte](../../files/feldwerte/AlmNeu_NACHWEIS.txt)

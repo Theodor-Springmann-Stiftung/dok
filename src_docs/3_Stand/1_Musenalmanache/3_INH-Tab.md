@@ -3,6 +3,8 @@ Die Tabelle `INH-Tab` erfasst Beiträge einzelner katalogisierter Bände Seiten-
 
 <!-- TODO: Seiten- oder Beitragsweise??
     Auch bekannte nicht erfasste Inhalte?  -->
+## Tabellenfelder
+<div class="sortable-table"></div>
 
 Feld             |  Datentyp | Bedeutung und Anmerkungen 
 ----------------:|-----------|--------------------------
