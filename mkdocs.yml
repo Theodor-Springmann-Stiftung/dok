@@ -17,7 +17,23 @@ theme:
   language: de
   font: 
     text: Fira Sans Condensed
-  features:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      # toggle:
+      #   icon: material/brightness-7
+      #   name: Switch to dark mode
+
+    # # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: Switch to light mode
+    #   primary: custom
+  # features:
   #  - navigation.expand
   #  - navigation.sections
   #   - navigation.instant
@@ -80,7 +96,8 @@ markdown_extensions:
   - md_in_html
   - def_list
   - abbr
-  - pymdownx.tasklist 
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.snippets:
       auto_append:
         - src_docs_includes/glossary.md

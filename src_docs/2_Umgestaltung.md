@@ -39,3 +39,13 @@ Die [**Almanache**](3_Stand/1_Musenalmanache/1_allgemeines.md) sind da anders: d
 
 ## Arbeitsschritte & Vorgehen
 
+- [x] [Erfassen Status Quo](3_Stand/1_Musenalmanache/1_allgemeines.md)
+- [x] [Überarbeiten von Personen](4_Arbeitsschritte/1_personen.md)
+    - [x] Personenschreibweisen
+    - [x] Verwaiste Einträge
+- [ ] [Überarbeiten der Reihentitel](4_Arbeitsschritte/2_Reihentitel.md)
+    - [ ] Normalisierung der Reihentitel
+    - [ ] Aliaseinträge in der `AlmNeu`
+    - [ ] Anmerkungen zur Reihe
+    - [ ] Weitere Angaben in `AlmNeu/REIHENTITEL`
+- [ ] [Überarbeiten der Orts- und Verlagsangaben](4_Arbeitsschritte/3_Verleger%20und%20Orte.md)
