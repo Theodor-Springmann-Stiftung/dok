@@ -114,7 +114,7 @@ details {
 .md-typeset table td:first-of-type,
 .md-typeset table th:first-of-type {
     padding-left: 1rem !important;
-    min-width: 20%;
+    
     max-width: 45%;
 }
 
