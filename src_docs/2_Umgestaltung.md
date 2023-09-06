@@ -49,3 +49,4 @@ Die [**Almanache**](3_Stand/1_Musenalmanache/1_allgemeines.md) sind da anders: d
     - [ ] Anmerkungen zur Reihe
     - [ ] Weitere Angaben in `AlmNeu/REIHENTITEL`
 - [ ] [Überarbeiten der Orts- und Verlagsangaben](4_Arbeitsschritte/3_Verleger%20und%20Orte.md)
+- [ ] [Vergeben von eindeutigen Identifikatoren für bände und Reihen](4_Arbeitsschritte/x_ReihenAlmanachIDs.md)
