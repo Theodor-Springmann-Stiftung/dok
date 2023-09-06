@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
     
     
       
@@ -27,6 +27,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
   
     
     
@@ -111,6 +121,18 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
     
     
     
@@ -504,6 +526,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2. Reihentitel
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -513,6 +546,55 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#normalisierung-der-reihentitel" class="md-nav__link">
+    Normalisierung der Reihentitel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aliaseintrage-in-der-almneu" class="md-nav__link">
+    Aliaseinträge in der AlmNeu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anmerkungen-zur-reihe" class="md-nav__link">
+    Anmerkungen zur Reihe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weitere-angaben-in-almneureihentitel" class="md-nav__link">
+    Weitere Angaben in AlmNeu/REIHENTITEL
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -648,6 +730,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#normalisierung-der-reihentitel" class="md-nav__link">
+    Normalisierung der Reihentitel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aliaseintrage-in-der-almneu" class="md-nav__link">
+    Aliaseinträge in der AlmNeu
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anmerkungen-zur-reihe" class="md-nav__link">
+    Anmerkungen zur Reihe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weitere-angaben-in-almneureihentitel" class="md-nav__link">
+    Weitere Angaben in AlmNeu/REIHENTITEL
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -665,28 +783,88 @@
 
 
 <h1 id="2-reihentitel">2. Reihentitel</h1>
+<h2 id="normalisierung-der-reihentitel">Normalisierung der Reihentitel</h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> in Arbeit</li>
+</ul>
 <details class="bug">
-<summary>Problem: Reihentitel</summary>
-<p>Das Feld <code>AlmNeu/REIHENTITEL</code> enthält zzt. nicht nur Reihentitel, sondern alle möglichen Angaben, darunter Angaben zur Ausgabe oder zum autpsierten Exemplar. Manachmal sind auch mehrere Reihentitel zu einem einzelnen Band angegeben, getrennt mit <code>/)</code>. Das Feld muss für die maschinelle Zuordnung eines Bandes zu einer Reihe normalisiert werden, auch zur Ausgabe etwa einer Liste von Reihen.</p>
+<summary>Problem: Normalisierung der Reihentitel</summary>
+<p>Das Feld <code>AlmNeu/REIHENTITEL</code> enthält zzt. nicht nur Reihentitel, sondern alle möglichen Angaben, darunter Angaben zur Ausgabe oder zum autpsierten Exemplar. Manachmal sind auch mehrere Reihentitel zu einem einzelnen Band angegeben, getrennt mit <code>/)</code>. Das Feld muss für die maschinelle Zuordnung eines Bandes zu einer Reihe normalisiert werden, etwa zur Ausgabe einer Liste von Reihen.</p>
+<p>&rarr; s.a. <a href="../../files/feldwerte/AlmNeu_REIHENTITEL.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></p>
 </details>
-<details class="bug">
-<summary>Problem: Anmerkungen Reihentitel</summary>
-<p>Anmerkungen zur Reihe sind zzt. dem ersten Band einer Reihe zugeordnet, obwohl sie zur ganzen Reihe gehören.</p>
-</details>
+<p>In einer Überarbeitungsversion der DB, <code>alma\Datenbank\Ueberarbeitungsdatenbank_Aktuelle_Bearbeitung.accdb</code>, (&gt;Access 2016) die so angelegt ist, dass </p>
+<ol>
+<li><abbr title="Zuordnung mehrerer X zu mehreren Y und umgekehrt.">n:m</abbr>-Beziehungen zwischen Bänden und Reihen möglich sind und </li>
+<li>eine gesonderte Reihentabelle <code>Reihen</code> existiert, </li>
+</ol>
+<p>müssen entsprechende Einträge in der Tabelle vorgenommen werden, dann werden die Bände jeweils ihren Reihen zugeordnet. Die Zuordnung selbst hat unterschiedliche Qualität: manche Bände sind Übersetzungen einzelner 
+Reihen, andere direkte Ausgaben der Reihen. Das wird in Beziehungstripeln der Form Subjekt-Prädikat-Objekt erfasst:</p>
+<pre><code>&lt;Band&gt; ist in der Reihe erschienen &lt;Reihe&gt;
+&lt;Band&gt; kann auch als Teil der Reihe gelten &lt;Reihe&gt;
+&lt;Band&gt; ist die dt. Übertragung der Reihe &lt;Reihe&gt;
+&lt;Band&gt; ist die fr. Übertragung der Reihe &lt;Reihe&gt;
+</code></pre>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Es gibt eine Excel-Tabelle, die alle Reihen enthält, so müssen nur selten Titel gesondert angelegt werden.</p>
+</div>
+<h2 id="aliaseintrage-in-der-almneu">Aliaseinträge in der <code>AlmNeu</code></h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> in Arbeit</li>
+</ul>
 <details class="bug">
 <summary>Problem: Aliaseinräge in der AlmNeu-Tabelle</summary>
-<p>In der Tabelle <code>AlmNeu</code> gibt es zzt. Alias-Einträge, markiert mit <code>s.a</code> und <code>s.u.</code>, um Bände auffindbar zu machen, die anderen Reihen zugeordnet sind. Diese Einträge sind anderer Natur als andere bibliografische und dienen der Auffindbarkeit.</p>
+<p>In der Tabelle <code>AlmNeu</code> gibt es zzt. Alias-Einträge, markiert mit <code>s.a</code> und <code>s.u.</code>, um Bände auffindbar zu machen, die anderen Reihen zugeordnet sind. Diese Einträge sind anderer Natur als die anderen und dienen der Auffindbarkeit.</p>
 </details>
-<p>In einer Korrekturversion der DB, die so angelegt ist, dass <abbr title="Zuordnung mehrerer X zu mehreren Y und umgekehrt.">n:m</abbr>-Beziehungen zwischen Bänden und Reihen möglich sind und eine getrennte Reihentabelle existiert, müssen entsprechende Einträge in der Tabelle vorgenommen werden, dann werden die einzelnen Bände den Reihen zugeordnet. Die Zuordnung selbst hat unterschiedliche Qualität: manche Bände sind Übersetzungen einzelner Reihen, andere direkte Ausgaben der Reihen. Auch das wird festgehalten, um eine ordentlich Reihentabelle erstellen zu können. Weiter werden Anmerkungen, die zur Reihe gehören, in das Anmerkungsfeld der neuen Reihentabelle kopiert. Weiter können die Alias-Einträge dadurch beseitigt werden, dass ein Band mehreren Reihen zugleich zugeordnet werden kann.</p>
-<p>Das Feld <code>AlmNeu\REIHENTITEL</code> selbst ist weiter nützlich; es enthält so eine Art Kurz- oder Suchtitel für den einzelnen Band, die langen transkribierten Titel taugen zur Anzeige und schnellen Identifikation nicht.</p>
-<p>Es gibt eine Excel-Tabelle, die alle Reihen enthält, so müssen die Titel nicht gesondert angelegt werden.</p>
+<p>Aliaseinträge sollen durch die Möglichkeit, einem Band mehrere Reihen zuordnen zu können schließlich überflüssig werden. Der Eintrag der <code>AlmNeu</code></p>
+<pre><code>AlmNeu NUMMER 1015, Feld REIHENTITEL: Taschenbuch für die Gegenden am Niederrhein s. u. Taschenbuch, Bergisches 1804
+</code></pre>
+<p>soll dadurch überflüssig werden, dass dem Band des bergischen Taschenbuchs von 1804 ein weiterer Reihentitel hinzugefügt wird:</p>
+<pre><code>Baende NUMMER 1018, Bergisches Taschenbuch 1804, Reihe(n): 
+(Band) Bergisches Taschenbuch 1804 ist Teil der Reihe Taschenbuch, Bergisches
+(Band) Bergisches Taschenbuch 1804 kann auch als Teil der Reihe gelten Taschenbuch für die Gegenden am Niederrhein
+</code></pre>
+<p>So kann in einem neuen System das Bergische Taschenbuch von 1804 einmal unter dem Reihentitel <code>Taschenbuch, Bergisches</code> und einmal unter dem Titel <code>Taschenbuch für die Gegenden am Niederrhein</code> gefunden werden.</p>
+<h2 id="anmerkungen-zur-reihe">Anmerkungen zur Reihe</h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> in Arbeit</li>
+</ul>
+<details class="bug">
+<summary>Problem: Anmerkungen zur Reihe in <code>AlmNeu/ANMERKUNGEN</code></summary>
+<p>Anmerkungen zur Reihe sind zzt. dem ersten Band einer Reihe im Feld <code>AlmNeu/ANMERKUNGEN</code> zugeordnet, obwohl sie für die ganze Reihe gelten.</p>
+</details>
+<p>Weiter werden Anmerkungen, die eigentlich die Reihe kommentieren, aber meistens im  beim ersten Band einer Reihe stehen, in das Feld <code>Anmerkungen</code> der neuen Tabelle <code>Reihen</code> kopiert.</p>
+<h2 id="weitere-angaben-in-almneureihentitel">Weitere Angaben in <code>AlmNeu/REIHENTITEL</code></h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> ungeklärt, Fälle werden gesammelt</li>
+</ul>
+<details class="bug">
+<summary>Problem: Weitere Angaben in <code>AlmNeu/REIHENTITEL</code></summary>
+<p>Weiter gibt es im Feld  <code>AlmNeu/REIHENTITEL</code> noch einige weitere Angaben außer der Reihentitel, die aus Not an geeigneten Feldern dort hinterlegt wurden.</p>
+<p>Bisher gesammelte Fälle:</p>
+<ul>
+<li>Titelauflage – wie behandeln?</li>
+<li>Pos. 40/4847 Aglaja (Wien) [var.] – wie behandeln?</li>
+<li>Pos. 45/4847: Agrionien [oJ] – eckige Klammer einfach löschen?</li>
+</ul>
+<p>&rarr; s.a. <a href="../../files/feldwerte/AlmNeu_REIHENTITEL.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></p>
+</details>
+<p>Bei der Durchsicht der Bände werden Fälle und Beispiele gesammelt; dann kann geschaut werden, wie die Informationen auf andere oder neue Felder verteilt werden können.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Das Feld <code>AlmNeu/REIHENTITEL</code> selbst ist weiter nützlich; es enthält so eine Art Kurz- oder Suchtitel für den einzelnen Band, die langen transkribierten Titel taugen zur Anzeige und schnellen Identifikation nicht. Grundsätzlich erfordert die Aufnahme von <abbr title="Daten über Objekte oder Personen, (methodisch) normalisiert zwecks Identifikation und Ermöglichung eindeutiger Zuordnungen.">Normdaten</abbr> in bibligrafischen Systemen einen Titel, der zur Anzeige in Trefferlisten taugt (&rarr; <a href="https://sta.dnb.de/doc/RDA-E-W005">Werktitel – Dokumentationsplattform des Standardisierungsausschusses</a>)</p>
+</div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">6. September 2023</span>
       
     
   </small>

@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
     
     
       
@@ -27,6 +27,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
   
     
     
@@ -111,6 +121,18 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
     
     
     
@@ -524,6 +546,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    3. Verleger und Orte
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -533,6 +566,34 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#angaben-in-almneuort" class="md-nav__link">
+    Angaben in AlmNeu/ORT
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -648,6 +709,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#angaben-in-almneuort" class="md-nav__link">
+    Angaben in AlmNeu/ORT
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -665,13 +741,50 @@
 
 
 <h1 id="3-verleger-und-orte">3. Verleger und Orte</h1>
+<h2 id="angaben-in-almneuort">Angaben in <code>AlmNeu/ORT</code></h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> geplant</li>
+</ul>
+<details class="bug">
+<summary>Problem: Unstrukturierte Angaben in <code>AlmNeu/ORT</code></summary>
+<p>Das Feld  <code>AlmNeu/ORT</code> enthält zzt. meist den (Erscheinungs?)ort der Publikation, außerdem den Verlag in Klammern, manchmal auch der Vertrieb an anderem Ort. Mehrere Werte sind möglich, meist mit <code>;</code> getrennt. Eine vollständige bibliografische Angabe erfordert aber das saubere Trennen beider Angaben vgl. <a href="https://wiki.dnb.de/pages/viewpage.action?pageId=114430616&amp;preview=/114430616/112493888/Standardelemente-Set_Titeldaten.pdf">&rarr; 2.8.2 Erscheinungsort &amp; 2.8.4 Verlagsname im Standardelemente-Set der DNB</a></p>
+<p>&rarr; s.a. <a href="../../files/feldwerte/AlmNeu_ORT.txt"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h5.5L13 3.5V9M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m9 16v-2H6v2h9m3-4v-2H6v2h12Z"/></svg></span>&nbsp;Feldwerte</a></p>
+</details>
+<p>Es muss noch erhoben werden, wie gut sich Verleger und Ort maschinell separieren lassen. Ansonsten muss in der Überarbeitungsversion der DB, <code>alma\Datenbank\Ueberarbeitungsdatenbank_Aktuelle_Bearbeitung.accdb</code>, (&gt;Access 2016) die so angelegt ist, dass </p>
+<ol>
+<li><abbr title="Zuordnung mehrerer X zu mehreren Y und umgekehrt.">n:m</abbr>-Beziehungen zwischen Bänden und Personen/Organisationen möglich sind und </li>
+<li>sich in der (bisherigen) Personentabelle <code>Akteure</code> auch Organisationen erfassen lassen, </li>
+</ol>
+<p>die Verleger aus dem Feld Ort ausgeschnitten und an anderer Stelle dem Band zugewiesen werden. Das Verältnis zwischen Bänden und Akteuren kann in Beziehungstripeln nach dem Schema Subjekt-Prädikat-Objekt erfasst werden:</p>
+<pre><code>&lt;Band&gt; wurde geschaffen von &lt;Akteur&gt;
+&lt;Band&gt; wurde geschrieben von &lt;Akteur&gt;
+&lt;Band&gt; wurde gezeichnet von &lt;Akteur&gt;
+&lt;Band&gt; wurde gestochen von &lt;Akteur&gt;
+&lt;Band&gt; wurde herausgegeben von &lt;Akteur&gt;
+&lt;Band&gt; wurde verlegt von &lt;Akteur&gt;
+&lt;Band&gt; wurde gedruckt von &lt;Akteur&gt;
+&lt;Band&gt; wurde vertrieben von &lt;Akteur&gt;
+</code></pre>
+<p>Aus</p>
+<pre><code>AlmNeu NUMMER 2, Feld ORT: Zürich u. Leipzig (Füßli u. Sohn); (Comm. J. B. Schiegg)
+</code></pre>
+<p>wird somit</p>
+<pre><code>Baende NUMMER 2, Akteur(e): 
+(Band) Alruna 1807 wurde verlegt von Füßli u. Sohn
+(Band) Alruna 1807 wurde vertrieben von J. B. Schiegg
+
+Baende NUMEMR 2, ORT:
+Zürich; Leipzig
+</code></pre>
+<p>Eventuell müssen hierfür Akteure in der Tabelle <code>Akteure</code> angelegt werden mit dem Feld <code>Akteure\ORGANISATION</code> gesetzt, handelt es sich um einen Verlag.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">6. September 2023</span>
       
     
   </small>

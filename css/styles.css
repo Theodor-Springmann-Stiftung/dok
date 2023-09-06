@@ -1,9 +1,36 @@
+:root,  [data-md-color-accent="indigo"] {
+    --md-primary-fg-color:        #009325;
+    --md-primary-fg-color--light: #d2ecb7;
+    --md-primary-fg-color--dark:  #106f01;
+    --md-accent-fg-color:         #106f01 !important;
+  }
+  
 article:not(h1, h2, h3, h4, h5, h6) {
     hyphens: auto;
 }
 
 nav {
     font-size: 0.75rem !important;
+}
+
+.task-list {
+    margin-left: 0rem !important;
+    margin-top: .2rem !important;
+    margin-bottom: .2rem !important;
+}
+
+.task-list-right+.task-list {
+    margin-top: -1.9rem !important;
+    margin-bottom: .5em !important;
+    position: relative;
+    width: 100%;
+    min-height: 1.1rem;
+    text-align: right;
+}
+
+.task-list-right+.task-list .task-list-item {
+    position: absolute;
+    right: 0;
 }
 
 .md-sidebar {
@@ -33,6 +60,8 @@ nav {
 }
 
 details {
+    margin-top: 0.7rem !important;
+    margin-bottom: 0.7rem !important;
     font-size: unset !important;
 }
 

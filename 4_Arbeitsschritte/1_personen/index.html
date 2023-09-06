@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.7">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.8">
     
     
       
@@ -27,6 +27,9 @@
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.046329b4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -57,7 +60,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
   
     
     
@@ -111,6 +121,18 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    
+  
+</form>
+      
     
     
     
@@ -484,6 +506,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1. Personen
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -493,6 +526,41 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Auf dieser Seite">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#personenschreibweisen" class="md-nav__link">
+    Personenschreibweisen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verwaiste-eintrage" class="md-nav__link">
+    Verwaiste Einträge
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -648,6 +716,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Auf dieser Seite
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#personenschreibweisen" class="md-nav__link">
+    Personenschreibweisen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verwaiste-eintrage" class="md-nav__link">
+    Verwaiste Einträge
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -665,25 +755,33 @@
 
 
 <h1 id="1-personen">1. Personen</h1>
+<h2 id="personenschreibweisen">Personenschreibweisen</h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> abgeschlossen</li>
+</ul>
 <details class="bug">
 <summary>Problem: Personenschreibweisen</summary>
 <p>Weil es bisher keine Möglichkeit gab, Personen einzeln Bänden oder Inhalten zuzuweisen, wurden in der <code>REALNAMEN-Tab</code> Personenkombinationen angelegt, getrennt durch <code>u.</code> oder <code>;</code>, um mehrere Personen einer Veröffentlichung oder einem Inhalt zuzuweisen. Weil sich das ändern soll (beispielsweise für eine sortierte Personenliste), muss für jede Person innnerhalb einer Personengruppe ein Eintrag vorhanden sein, der in der Schreibsweise exakt mit der zusammengesetzten Aufnahme übereinstimmt.</p>
 </details>
 <p>Es wurden Listen von Personen ausgegeben, deren zusammengesetzter Eintrag maschinell mit keinem Einzeleintrag in der <code>REALNAMEN-Tab</code> identifiziert werden kann. Die Schreibweisen und Einträge wurden in der vorhandenen Access-DB einzeln korrigiert.</p>
-<p>Status: <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg></span> erledigt</p>
+<h2 id="verwaiste-eintrage">Verwaiste Einträge</h2>
+<div class="task-list-right"></div>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> abgeschlossen</li>
+</ul>
 <details class="bug">
-<summary>Problem: Verweiste Einträge</summary>
-<p>In der <code>INH-Tab</code> gab es Einträge zu Inhalten, die auf keinen existierenden Band verweisen.</p>
+<summary>Problem: Verwaiste Einträge</summary>
+<p>In der <code>INH-Tab</code> gab es Einträge zu Inhalten, die auf keinen existierenden Band verweisen. Weiter gibt es Personen, denen kein Werk zugeordnet ist.</p>
 </details>
 <p>Die entsprechenden Einträge wurden gelöscht.</p>
-<p>Status: <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59 21 7Z"/></svg></span> erledigt</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Letztes Update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5. September 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">6. September 2023</span>
       
     
   </small>
