@@ -192,14 +192,3 @@ rdaw:P10623
     5a. Datentypen von Listen anpassen
     5b. Filter von Nachschlagefeldern anpassen
 6. Inverse Eigenschaften importieren (über Menüpunkt Module->Reciprocal)
-
-
-# Informationen
-AG Alte Drucke (PRÄ 2017)
-https://wiki.dnb.de/display/STAC/AG+Alte+Drucke
-
-DNB RDA Standartisierungsstelle
-https://wiki.dnb.de/display/RDAINFO 
-
-Dokumentationsplattform des Standardisierungsausschusses (POST 2017)
-https://sta.dnb.de/ 
