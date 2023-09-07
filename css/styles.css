@@ -51,6 +51,21 @@ nav {
     [dir="ltr"] .md-sidebar--primary {
         left: -14rem;
     }
+
+    .task-list-right+.task-list {
+        margin-top: .5rem !important;
+        margin-bottom: .5em !important;
+        width: auto;
+        min-height: 1.1rem;
+        text-align: left;
+        position: static !important;
+    }
+
+    .task-list-right+.task-list .task-list-item {
+        position: relative;
+        right: 0;
+    }
+    
 }
 
 .md-grid {
