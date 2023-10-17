@@ -99,10 +99,13 @@ public class Reihen {
     public string? SORTIERNAME;
     [XmlElement]
     public string? ANMERKUNGEN;
+    [XmlElement]
+    public string? NACHWEIS;
 
     public bool ShouldSerializeNAME() => !String.IsNullOrWhiteSpace(NAME);
     public bool ShouldSerializeANMERKUNGEN() => !String.IsNullOrWhiteSpace(ANMERKUNGEN);
     public bool ShouldSerializeSORTIERNAME() => !String.IsNullOrWhiteSpace(SORTIERNAME);
+    public bool ShouldSerializeNACHWEIS() => !String.IsNullOrWhiteSpace(NACHWEIS);
 }
 
 [XmlRoot("Baende")]

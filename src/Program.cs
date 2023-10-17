@@ -7,7 +7,8 @@ using MusenalmConverter.Migration.MittelDBXML;
 using System.Text;
 using MusenalmConverter.API;
 
-const string DATADIR = "./_input/data/";
+const string OLD_DATADIR = "./_input/data/";
+const string MID_DATADIR = "./_input/data_uebertragung/";
 const string NORMDIR = "./_input/norm/";
 const string MITTELDIR = "./_input/mittel";
 const string RDADIR = "./_input/RDA/xml/termList";
@@ -21,16 +22,21 @@ Directory.CreateDirectory(DESTDIR);
 var log = LogSink.Instance;
 log.SetFile(LOGFILE);
 
-// Getting the DATA
-var data = getDATA();
+// Getting the OLD DATA
+// var data = getDATA();
 // var oldDB = new AlteDBXMLLibrary(data);
-
-generateUniqueTagsValues(data);
 
 // // DATA Migration
 // var mscheme = unifySchemata(MITTELDIR);
 // var mDB = new MittelDBXMLLibrary(data, oldDB);
 // mDB.Save(DESTDIR, mscheme);
+
+// // MIGRATION DATA EDITING
+var mdata = getDATA_MID();
+var mscheme = unifySchemata(MITTELDIR);
+var mlib = new MittelDBXMLLibrary(mdata);
+mlib.transforms_nachweis_anmerkungen();
+mlib.Save(DESTDIR, mscheme);
 
 // // // API Calls
 // var APIC = new APICaller(mDB);
@@ -41,8 +47,8 @@ generateUniqueTagsValues(data);
 // APIC.CreateBaendeData();
 // APIC.PostBaendeData().Wait();
 
-IEnumerable<DATAFile> getDATA() {
-    var sourcedir = DATADIR;
+IEnumerable<DATAFile> getDATA_OLD() {
+    var sourcedir = OLD_DATADIR;
     var xmls = Directory
         .EnumerateFiles(sourcedir, "*", SearchOption.AllDirectories)
         .Where(s => s.EndsWith(".xml"))
@@ -52,6 +58,22 @@ IEnumerable<DATAFile> getDATA() {
         var document = XDocument.Load(f, LoadOptions.PreserveWhitespace | LoadOptions.SetLineInfo);
         var name = f.Split('/').Last();
         name = name.Substring(0, name.Length-4);
+        return new DATAFile(name, f, document);
+    });
+}
+
+
+
+IEnumerable<DATAFile> getDATA_MID() {
+    var sourcedir = MID_DATADIR;
+    var xmls = Directory
+        .EnumerateFiles(sourcedir, "*", SearchOption.AllDirectories)
+        .Where(s => s.EndsWith(".xml"))
+        .ToList();
+
+    return xmls.Select(f => {
+        var document = XDocument.Load(f, LoadOptions.PreserveWhitespace | LoadOptions.SetLineInfo);
+        var name = document.Root.Elements()!.First()!.Name.ToString();
         return new DATAFile(name, f, document);
     });
 }

@@ -73,6 +73,59 @@ public class MittelDBXMLLibrary {
         ParseInhalte();
     }
 
+    
+    // For now only deserializing Baende, Reihen & their relations are supported    
+    public MittelDBXMLLibrary(IEnumerable<DATAFile> files) {
+        RELATION_BaendeReihen = new ();
+        Baende = new ();
+        Reihen = new ();
+        var RELATION_BaendeReihenS = new XmlSerializer(typeof(RELATION_BaendeReihen));
+        var BaendeS = new XmlSerializer(typeof(Baende));
+        var ReihenS = new XmlSerializer(typeof(Reihen));
+        foreach (var f in files) {
+            var elements = f.Document.Root.Elements(f.BaseElementName);
+            foreach (var e in elements) {
+                if (f.BaseElementName == "_x002A_RELATION_BaendeReihen") {
+                    RELATION_BaendeReihen i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (RELATION_BaendeReihen)RELATION_BaendeReihenS.Deserialize(r);
+                    }
+                    if (i != null) RELATION_BaendeReihen.Add(i);
+                }
+                else if (f.BaseElementName == "Baende") {
+                    Baende i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (Baende)BaendeS.Deserialize(r);
+                    }
+                    if(i != null) Baende.Add(i);
+                }
+                else if (f.BaseElementName == "Reihen") {
+                    Reihen i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (Reihen)ReihenS.Deserialize(r);
+                    }
+                    if(i != null) Reihen.Add(i);
+                }
+            }
+        }
+    }
+
+    public void transforms_nachweis_anmerkungen() {
+        List<(Baende, Reihen)> br = new();
+        var rella = this.RELATION_BaendeReihen.ToLookup(x => x.REIHE);
+        var bla = this.Baende.ToDictionary(x => x.ID);
+        foreach (var  r in this.Reihen) {
+            if (rella.Contains(r.ID)) {
+                var b = rella[r.ID].Select(x => bla[x.BAND]).OrderBy(x => x.JAHR);
+                if (String.IsNullOrWhiteSpace(r.ANMERKUNGEN)) {
+                    r.ANMERKUNGEN = b.First()?.ANMERKUNGEN;
+                    b.First().ANMERKUNGEN = string.Empty;
+                }
+                r.NACHWEIS = b.First()?.NACHWEIS;
+            }
+        }
+    }
+    
     private void namesFromREALNAMEN() {
         var notfound = new List<(string, REALNAMETab)>();
         var names = new Dictionary<string, Akteure>();
@@ -489,7 +542,7 @@ public class MittelDBXMLLibrary {
         SaveFile(fileroot, schemafile);
     }
 
-    private void SaveFile(string fileroot, XDocument? schemafile) {
+    public void SaveFile(string fileroot, XDocument? schemafile) {
         var writer = XmlWriter.Create(fileroot + "MDB.xml", new XmlWriterSettings() {
             Indent = true,
             NewLineOnAttributes = false,
