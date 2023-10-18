@@ -117,8 +117,8 @@ public class MittelDBXMLLibrary {
         foreach (var  r in this.Reihen) {
             if (rella.Contains(r.ID)) {
                 var b = rella[r.ID].Select(x => bla[x.BAND]).OrderBy(x => x.JAHR);
-                if (String.IsNullOrWhiteSpace(r.ANMERKUNGEN)) {
-                    r.ANMERKUNGEN = b.First()?.ANMERKUNGEN;
+                if (String.IsNullOrWhiteSpace(r.Anmerkungen)) {
+                    r.Anmerkungen = b.First()?.ANMERKUNGEN;
                     b.First().ANMERKUNGEN = string.Empty;
                 }
                 r.NACHWEIS = b.First()?.NACHWEIS;

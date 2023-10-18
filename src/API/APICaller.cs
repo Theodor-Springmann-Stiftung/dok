@@ -91,7 +91,7 @@ public class APICaller {
         Reihen = new();
         foreach (var r in _data.Reihen) {
             Reihen.Add(new Reihentitel(SERVERDATA, r.NAME.Trim()) {
-                Anmerkung = String.IsNullOrWhiteSpace(r.ANMERKUNGEN) ? null : new HtmlProperty[] { new HtmlProperty(r.ANMERKUNGEN) },
+                Anmerkung = String.IsNullOrWhiteSpace(r.Anmerkungen) ? null : new HtmlProperty[] { new HtmlProperty(r.Anmerkungen) },
                 Nummer = new LiteralProperty[] { new LiteralProperty(r.ID.ToString()) }
             });
         }

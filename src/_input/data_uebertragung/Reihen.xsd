@@ -15,15 +15,15 @@
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAABp1JJATFOZAAAAAAAAAAABSAGUA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAAKhtJZATFOZAAAAAAAAAAABSAGUA
 aQBoAGUAbgAAAAAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAISufsHvDeZAAAAAAAAA
 AAAqAFIARQBMAEEAVABJAE8ATgBfAEIAYQBlAG4AZABlAFIAZQBpAGgAZQBuAAAA
 AAAAAMzl2zdkjvJFoMAfCUGsaRMHAAAAcq6r3GwmtUCT0aBBaFotyEkARAAAAAAA
 AAB574HgyEinQJpDYxEKAFFTBwAAAHKuq9xsJrVAk9GgQWhaLchOAEEATQBFAAAA
 AAAAANjmyZkkL01PjerLGiAlB1MHAAAAcq6r3GwmtUCT0aBBaFotyFMATwBSAFQA
-SQBFAFIATgBBAE0ARQAAAAAAAACQHNAYlV8dTKqpghhEZ3RLBwAAAHKuq9xsJrVA
-k9GgQWhaLchBAG4AbQBlAHIAawB1AG4AZwBlAG4AAAAAAAAAiKKJKCtU00KlV9mV
-S/pr9QcAAAByrqvcbCa1QJPRoEFoWi3ITgBBAEMASABXAEUASQBTAAAAAAAAAAAA
+SQBFAFIATgBBAE0ARQAAAAAAAACIookoK1TTQqVX2ZVL+mv1BwAAAHKuq9xsJrVA
+k9GgQWhaLchOAEEAQwBIAFcARQBJAFMAAAAAAAAAkBzQGJVfHUyqqYIYRGd0SwcA
+AAByrqvcbCa1QJPRoEFoWi3IQQBuAG0AZQByAGsAdQBuAGcAZQBuAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
@@ -51,7 +51,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:annotation>
 <xsd:appinfo>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -120,7 +120,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="iKKJKCtU00KlV9mVS/pr9Q==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="4700"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

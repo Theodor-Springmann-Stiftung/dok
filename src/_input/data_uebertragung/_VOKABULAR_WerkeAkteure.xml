@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="_VOKABULAR_WerkeAkteure.xsd" generated="2023-10-18T12:58:27">
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>1</ID>
+<Beziehung>wurde geschaffen von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>2</ID>
+<Beziehung>wurde geschrieben von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>3</ID>
+<Beziehung>wurde gezeichnet von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>4</ID>
+<Beziehung>wurde gestochen von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>5</ID>
+<Beziehung>wurde herausgegeben von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>6</ID>
+<Beziehung>wurde verlegt von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>7</ID>
+<Beziehung>wurde gedruckt von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+<_x002A_VOKABULAR_WerkeAkteure>
+<ID>8</ID>
+<Beziehung>wurde vertrieben von</Beziehung>
+</_x002A_VOKABULAR_WerkeAkteure>
+</dataroot>

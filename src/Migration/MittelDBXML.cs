@@ -98,12 +98,12 @@ public class Reihen {
     [XmlElement]
     public string? SORTIERNAME;
     [XmlElement]
-    public string? ANMERKUNGEN;
+    public string? Anmerkungen;
     [XmlElement]
     public string? NACHWEIS;
 
     public bool ShouldSerializeNAME() => !String.IsNullOrWhiteSpace(NAME);
-    public bool ShouldSerializeANMERKUNGEN() => !String.IsNullOrWhiteSpace(ANMERKUNGEN);
+    public bool ShouldSerializeANMERKUNGEN() => !String.IsNullOrWhiteSpace(Anmerkungen);
     public bool ShouldSerializeSORTIERNAME() => !String.IsNullOrWhiteSpace(SORTIERNAME);
     public bool ShouldSerializeNACHWEIS() => !String.IsNullOrWhiteSpace(NACHWEIS);
 }
