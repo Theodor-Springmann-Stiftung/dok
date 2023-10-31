@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Reihen.xsd" generated="2023-10-18T13:00:08">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Reihen.xsd" generated="2023-10-31T10:29:16">
 <Reihen>
 <ID>1207</ID>
 <NAME>Abenderheiterungen</NAME>
@@ -16,7 +16,7 @@
 <Reihen>
 <ID>1209</ID>
 <NAME>Abentheuerliche Wanderung von Weimar nach Carlsbad von St. Schütze</NAME>
-<SORTIERNAME>Abentheuerliche Wanderung von Weimar nach Carlsbad von St. Schütze</SORTIERNAME>
+<SORTIERNAME>3</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R; Goed IX 320, 8</NACHWEIS>
 <Anmerkungen>Titelauflage von: Abentheuerliche Wanderung von Weimar nach Carlsbad. Taschenbuch aufs Jahr 1810 mit Kupfern von St. Schütze [...]</Anmerkungen>
 </Reihen>
@@ -108,7 +108,7 @@
 </Reihen>
 <Reihen>
 <ID>1223</ID>
-<NAME>Albina, TB für Wanderer in der sächsischen Schweiz</NAME>
+<NAME>Albina, Taschenbuch für Wanderer in der sächsischen Schweiz</NAME>
 <SORTIERNAME>Albina, TB für Wanderer in der sächsischen Schweiz</SORTIERNAME>
 <NACHWEIS>K 7; L/R 129</NACHWEIS>
 <Anmerkungen>2 Jgg 1818, 1821 /) s.a: Vergißmeinnicht. Ein TB f. d. Besuch der sächsischen Schweiz u. d. angränzenden Theile Böhmens 1823; alm-408600</Anmerkungen>
@@ -127,7 +127,7 @@
 </Reihen>
 <Reihen>
 <ID>1226</ID>
-<NAME>Album zum Besten der durch die Ueberschwemmungen im Frühjahre</NAME>
+<NAME>Album zum Besten der durch die Ueberschwemmungen im Frühjahre 1845 in Böhmen Verunglückten</NAME>
 <SORTIERNAME>Album zum Besten der durch die Ueberschwemmungen im Frühjahre</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
 </Reihen>
@@ -1332,7 +1332,66 @@
 </Reihen>
 <Reihen>
 <ID>2378</ID>
-<Anmerkungen>&lt;div&gt;Nur ein Jg 1818&lt;/div&gt;</Anmerkungen>
+<NAME>Revolutions-Almanach</NAME>
+</Reihen>
+<Reihen>
+<ID>2379</ID>
+<NAME>Forst- und Jagd-Taschenbuch</NAME>
+</Reihen>
+<Reihen>
+<ID>2380</ID>
+<NAME>Friedens-Almanach</NAME>
+</Reihen>
+<Reihen>
+<ID>2381</ID>
+<NAME>Nordalbingisches Album</NAME>
+</Reihen>
+<Reihen>
+<ID>2382</ID>
+<NAME>Abriss, statistischer des Cantons Aargau</NAME>
+</Reihen>
+<Reihen>
+<ID>2383</ID>
+<NAME>Almanach der Heiligen auf jedes Jahr</NAME>
+</Reihen>
+<Reihen>
+<ID>2384</ID>
+<NAME>Darstellung aus der Geschichte der Menschheit</NAME>
+</Reihen>
+<Reihen>
+<ID>2385</ID>
+<NAME>Almanach, Berlinischer dem Vergnügen geselliger Zirkel gewidmet</NAME>
+</Reihen>
+<Reihen>
+<ID>2386</ID>
+</Reihen>
+<Reihen>
+<ID>2387</ID>
+<NAME>Etrennes pour la Jeunesse</NAME>
+</Reihen>
+<Reihen>
+<ID>2388</ID>
+<NAME>Flora, Deutschlands</NAME>
+</Reihen>
+<Reihen>
+<ID>2389</ID>
+<NAME>Revolutions-Almanach</NAME>
+</Reihen>
+<Reihen>
+<ID>2390</ID>
+<NAME>Almanac Généalogique et Militaire</NAME>
+</Reihen>
+<Reihen>
+<ID>2391</ID>
+<NAME>Almanach de Gotha</NAME>
+</Reihen>
+<Reihen>
+<ID>2392</ID>
+<NAME>Almanac historique genealogique</NAME>
+</Reihen>
+<Reihen>
+<ID>2393</ID>
+<NAME>Almanach des Gourmands ou Calendrier Nutritif</NAME>
 </Reihen>
 <Reihen>
 <ID>1962</ID>
@@ -1656,8 +1715,8 @@
 </Reihen>
 <Reihen>
 <ID>1443</ID>
-<NAME>Blumenlese, Poetische (Göttingen) s. u. Musenalmanach (Göttinger)</NAME>
-<SORTIERNAME>Blumenlese, Poetische (Göttingen) s. u. Musenalmanach (Göttinger)</SORTIERNAME>
+<NAME>Blumenlese, Poetische (Göttingen)</NAME>
+<SORTIERNAME>Blumenlese, Poetische (Göttingen)</SORTIERNAME>
 </Reihen>
 <Reihen>
 <ID>1444</ID>
@@ -1931,6 +1990,8 @@
 <ID>1485</ID>
 <NAME>Damenkalender zum Nutzen u. Vergnügen (Wien)</NAME>
 <SORTIERNAME>Damenkalender zum Nutzen u. Vergnügen (Wien)</SORTIERNAME>
+<NACHWEIS>K 41 #; L/R 61</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1786-1803 (# K gibt ledigl. Jgg 1786 u. 1792 an) Wien; verschiedene Verlage; Titel ab ca.1793: Wiener Damenkalender a. d. J. ...&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1486</ID>
@@ -2178,7 +2239,9 @@
 <NAME>Feierabende, Weidmanns</NAME>
 <SORTIERNAME>Feierabende, Weidmanns</SORTIERNAME>
 <NACHWEIS>nicht bei K 173; nicht bei L/R</NACHWEIS>
-<Anmerkungen>Jgg 1815-1819, 1821; Marburg (Krieger); Hrsg: L. C. E. H. F. von Wildungen, für den letzten Jg. auch K. A. F. v. Witzleben /) Format 11,9 x 19,3 cm</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1815-1819, 1821; Marburg (Krieger); Hrsg: L. C. E. H. F. von Wildungen, für den letzten Jg. auch K. A. F. v. Witzleben&lt;/div&gt;
+
+&lt;div&gt;Format 11,9 x 19,3 cm&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1529</ID>
@@ -2222,7 +2285,7 @@
 </Reihen>
 <Reihen>
 <ID>1535</ID>
-<NAME>Forst- und Jagd-Taschenbuch s. u.: Forst- und Jagd-Kalender</NAME>
+<NAME>Forst- und Jagd-Taschenbuch</NAME>
 <SORTIERNAME>Forst- und Jagd-Taschenbuch s. u.: Forst- und Jagd-Kalender</SORTIERNAME>
 </Reihen>
 <Reihen>
@@ -2328,7 +2391,7 @@
 </Reihen>
 <Reihen>
 <ID>1551</ID>
-<NAME>Friedens-Almanach s. u. Revolutions-Almanach</NAME>
+<NAME>Friedens-Almanach</NAME>
 <SORTIERNAME>Friedens-Almanach s. u. Revolutions-Almanach</SORTIERNAME>
 </Reihen>
 <Reihen>
@@ -3483,8 +3546,8 @@
 </Reihen>
 <Reihen>
 <ID>1724</ID>
-<NAME>Kriegs- und Friedens-Almanach s. u. Revolutionskalender</NAME>
-<SORTIERNAME>Kriegs- und Friedens-Almanach s. u. Revolutionskalender</SORTIERNAME>
+<NAME>Kriegs- und Friedens-Almanach</NAME>
+<SORTIERNAME>Kriegs- und Friedens-Almanach</SORTIERNAME>
 </Reihen>
 <Reihen>
 <ID>1725</ID>
@@ -4273,14 +4336,14 @@
 <NAME>Neujahrs-Almanach</NAME>
 <SORTIERNAME>Neujahrs-Almanach</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>Reprint: Neujahrs-Almanach für Unterthanen und Knechte. Neu herausgegeben von der Sozialwissenschaftlichen Studienbiliothek Wien 1928 /) KVK: 1847-1850</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Reprint: Neujahrs-Almanach für Unterthanen und Knechte. Neu herausgegeben von der Sozialwissenschaftlichen Studienbibliothek Wien 1928 /) KVK: 1847-1850&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1840</ID>
 <NAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</NAME>
 <SORTIERNAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</SORTIERNAME>
 <NACHWEIS>K 90; nicht bei L/R</NACHWEIS>
-<Anmerkungen># Pseud. /) einziger Jahrgang</Anmerkungen>
+<Anmerkungen>&lt;div&gt;# Pseud. /) einziger Jahrgang&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1841</ID>
@@ -4678,6 +4741,7 @@
 </Reihen>
 <Reihen>
 <ID>2058</ID>
+<NAME>Abentheuerliche Wanderung von Weimar nach Carlsbad von St. Schütze</NAME>
 </Reihen>
 <Reihen>
 <ID>2059</ID>
@@ -5086,14 +5150,22 @@
 <NAME>Taschenbuch von J. G. Jacobi und seinen Freunden</NAME>
 <SORTIERNAME>Taschenbuch von J. G. Jacobi und seinen Freunden</SORTIERNAME>
 <NACHWEIS>K 127; L/R 55</NACHWEIS>
-<Anmerkungen>4 Jgg 1795, 1796, 1798, 1799. Jgg 1795, 1796: Königsberg u. Leipzig ( Fr. Nicolovius); Jgg 1798, 1799: Basel (S. Flick) Hrsg: J. G. Jacoby. Der Jg 1798 wurde 1804 unter dem Titel: Almanach zur angenehmen Unterhaltung für das Jahr 1804, Basel bey Samuel Flick neu aufgelegt s. Alm-309. Fortgesetzt durch: Taschenbuch, Überflüssiges 1800, Alm-311 u. Taschenbuch für das Jahr 1802 Alm-312; Iris 1803-1813, Alm- 25, 26, 28, 29 ,254, 255, 256, 258, 259, 260, 261</Anmerkungen>
+<Anmerkungen>&lt;div&gt;4 Jgg 1795, 1796, 1798, 1799.&lt;/div&gt;
+
+&lt;div&gt;Jgg &amp;nbsp;1795, 1796: Königsberg u. Leipzig ( Fr. Nicolovius); Jgg 1798, 1799: Basel (S. Flick) &lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. G. Jacoby. &lt;/div&gt;
+
+&lt;div&gt;Der Jg 1798 wurde 1804 unter dem Titel: Almanach zur angenehmen Unterhaltung für das Jahr 1804, Basel bey Samuel Flick neu aufgelegt s. Alm-309. &lt;/div&gt;
+
+&lt;div&gt;Fortgesetzt durch: Taschenbuch, Überflüssiges 1800, Alm-311 u. Taschenbuch für das Jahr 1802 Alm-312; Iris 1803-1813, Alm- 25, 26, 28, 29 ,254, 255, 256, 258, 259, 260, 261&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2121</ID>
 <NAME>Taschenbuch von und für Oesterreich (Degen)</NAME>
 <SORTIERNAME>Taschenbuch von und für Oesterreich (Degen)</SORTIERNAME>
 <NACHWEIS>K 127; L/R 147; Goed VI. 519</NACHWEIS>
-<Anmerkungen>angegebener Titel vom vorderen Deckel /) vollst. Titel: Taschenbuch, Historisch-malerisches von und für Oesterreich1804. Wien. bey J. V. Degen, Buchdrucker und Buchhändler/)  2. Titel auf dem hinteren Deckel: Denkwürdigkeiten der österreichischen Monarchie. Auf jeden Tag des Jahres gesammelt. Wien. Bey J. V. Degen, Buchdrucker und Buchbinder. 1804; als Autor gibt Goed VI. 5. 519 G. A. Griesinger an /) Im Vorwort des Verfassers: Das Bedürfniß solcher Wißbegierigen soll dieses Buch zunächst befriedigen, indem es an jedem Tage einen Mann oder eine Thatsache aufführt, die der Vergessenheit entrissen zu werden verdienen. /) Das I-Verz ist als Vollbild gegeben /) §§ Titel und 6 Graphiken: Maillard del. Duttenhofer sc. zu Schultes »Ansichten nach dem Schneeberge« fehlen, s. Goed VI. 519 ff</Anmerkungen>
+<Anmerkungen>&lt;div&gt;angegebener Titel vom vorderen Deckel /) vollst. Titel: Taschenbuch, Historisch-malerisches von und für Oesterreich 1804. Wien. bey J. V. Degen, Buchdrucker und Buchhändler/) &amp;nbsp;2. Titel auf dem hinteren Deckel: Denkwürdigkeiten der österreichischen Monarchie. Auf jeden Tag des Jahres gesammelt. Wien. Bey J. V. Degen, Buchdrucker und Buchbinder. 1804; als Autor gibt Goed VI. 5. 519 G. A. Griesinger an /) Im Vorwort des Verfassers: Das Bedürfniß solcher Wißbegierigen soll dieses Buch zunächst befriedigen, indem es an jedem Tage einen Mann oder eine Thatsache aufführt, die der Vergessenheit entrissen zu werden verdienen. /) Das I-Verz ist als Vollbild gegeben /) §§ Titel und 6 Graphiken: Maillard del. Duttenhofer sc. zu Schultes »Ansichten nach dem Schneeberge« fehlen, s. Goed VI. 519 ff&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2122</ID>
@@ -6454,7 +6526,7 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 <NAME>Toilettenkalender für Frauenzimmer (Wien)</NAME>
 <SORTIERNAME>Toilettenkalender für Frauenzimmer (Wien)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK: Landesbibliothekenverbund Österreich/Südtirol: Jgg 1795-1833; &amp;nbsp;ab Jg 1805: Toilettenkalender für Damen; Jgg 1832, 1833: Toilettenalmanach für Damen /) bei K 162: Toilette-Kalender für Damen 1815 und 1822 /) bei Grämmer erschien: Taschenbuch für Dichterfreunde (Wien) vorgh.: Jgg 1809, 1814, 1815&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;KVK: Landesbibliothekenverbund Österreich/Südtirol: Jgg 1795-1833; &amp;nbsp;ab Jg 1805: Toilettenkalender für Damen; Jgg 1832, 1833: Toilettenalmanach für Damen; bei K 162: Toilette-Kalender für Damen 1815 und 1822 /) bei Grämmer erschien: Taschenbuch für Dichterfreunde (Wien) vorgh.: Jgg 1809, 1814, 1815&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2322</ID>
@@ -6496,77 +6568,125 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 <NAME>Unterhaltungen und Studien aus dem Natur- und Menschenleben. Ein Almanach für die Jugend</NAME>
 <SORTIERNAME>Unterhaltungen und Studien aus dem Natur- und Menschenleben. Ein Almanach für die Jugend</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK/SWB &amp;nbsp;4 Lgg 1852-1855; Magdeburg (Fabricius); Hrsg.: C. Gude und A. Grube&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;KVK/SWB &amp;nbsp;4 Jgg 1852-1855&lt;/div&gt;
+
+&lt;div&gt;Magdeburg (Fabricius)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Hrsg.: C. Gude und A. Grube&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2328</ID>
 <NAME>Urania</NAME>
 <SORTIERNAME>Urania</SORTIERNAME>
 <NACHWEIS>K 163; L/R 84; Goed VIII. 72, 128; Goed X. 145, 51-4</NACHWEIS>
-<Anmerkungen>&lt;div&gt;35 Jgg 1810-1848. 1813 Titelauflage von 1812. Jgg 1811, 1814, 1816, 1825 nicht erschienen. 1810 Amsterdam (Kunst- und Industrie-Comptoir), 1812 Amsterdam u. Leipzig (Kunst- und Industrie- Comptoir), 1815, 1817, 1818 Leipzig u. Altenburg (F. A. Brockhaus), 1819-1824, 1826-1848 Leipzig (F. A. Brockhaus) Hrsg : 1810 J. K. W. Spazier; 1812-1823, 1824 (?) F. A. Brockhaus; 1824-1848 ?&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;35 Jgg 1810-1848. 1813 Titelauflage von 1812. Jgg 1811, 1814, 1816, 1825 nicht erschienen&lt;/div&gt;
+
+&lt;div&gt;1810 Amsterdam (Kunst- und Industrie-Comptoir), 1812 Amsterdam u. Leipzig (Kunst- und Industrie- Comptoir), 1815, 1817, 1818 Leipzig u. Altenburg (F. A. Brockhaus), 1819-1824, 1826-1848 Leipzig (F. A. Brockhaus)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg : 1810 J. K. W. Spazier; 1812-1823, 1824 (?) F. A. Brockhaus; 1824-1848 F. A.Brockhaus (?)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2329</ID>
 <NAME>Vademecum für Dichterfreunde</NAME>
 <SORTIERNAME>Vademecum für Dichterfreunde</SORTIERNAME>
 <NACHWEIS>K 164; nicht bei L/R; Goed IV. 367, 10</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Teile; Auswahl aus d. Göttinger und Hamburger Musenalmanach&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;2 Teile 1779, 1780&lt;/div&gt;
+
+&lt;div&gt;Darmstadt (Fürstl. Hof- und Reg. Buchdruckerei; J. J. Will)&lt;/div&gt;
+
+&lt;div&gt;Auswahl aus d. Göttinger und Hamburger Musenalmanach&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2330</ID>
 <NAME>Veilchen, Das</NAME>
 <SORTIERNAME>Veilchen, Das</SORTIERNAME>
 <NACHWEIS>K 164; L/R 94; Goed VIII. 98, 201</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1818-1851 [Jg 1851 vorh., nicht bei K 164, Goed VIII. 98, 201]; Wien; 1831, 1837: Wien (Buchholz), 1845, 1846, 1849, 1851: Wien (Riedl); Goed VIII. 98, 201 und K 164 geben als Hrsgg J. C. Unger, Fr. Gräffer und J. G. Seidl an /) vielleicht Vorläuferjahrgang: »Blüthen der Musen« 1816 (Riedl); alm 3724, vielleicht Folgepublikation: Taschenkalender, Wiener 1852 (Milde); alm 3723&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1818-1851 (Jg 1851 vorh.), nicht bei K 164, Goed VIII. 98, 201]&lt;/div&gt;
+
+&lt;div&gt;Wien; 1831, 1837: Wien (Buchholz), 1845, 1846, 1849, 1851: Wien (Riedl) &lt;/div&gt;
+
+&lt;div&gt;Goed VIII. 98, 201 und K 164 geben als Hrsgg J. C. Unger, Fr. Gräffer und J. G. Seidl an&lt;/div&gt;
+
+&lt;div&gt;vielleicht Vorläuferjahrgang: »Blüthen der Musen« 1816 (Riedl); alm 3724, vielleicht Folgepublikation: Taschenkalender, Wiener 1852 (Milde); alm 3723&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2331</ID>
 <NAME>Veilchen, Taschenbuch (M. Reck)</NAME>
 <SORTIERNAME>Veilchen, Taschenbuch (M. Reck)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1855&lt;/div&gt;
+
+&lt;div&gt;Nürnberg (Stein)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Maximilian Reck&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2332</ID>
 <NAME>Veranda</NAME>
 <SORTIERNAME>Veranda</SORTIERNAME>
 <NACHWEIS>K 164; nicht bei L/R; Goed VIII. 79</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;einziger Jg 1811&lt;/div&gt;
+
+&lt;div&gt;Altona (Hammerich)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2333</ID>
 <NAME>Vergißmeinnicht (Clauren)</NAME>
 <SORTIERNAME>Vergißmeinnicht (Clauren)</SORTIERNAME>
 <NACHWEIS>K 165; L/R 94; Goed VIII. 98, 202</NACHWEIS>
-<Anmerkungen>&lt;div&gt;19 Jgg 1818-1837 [1832/1833]; Leipzig (Leo); Hrsg.: H. Clauren d.i. C. G. S. Heun /) Fortgesetzt durch: Rosen und Vergißmeinnicht 1838-1845&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;19 Jgg 1818-1837 [1832/1833]&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Leo)&lt;/div&gt;
+
+&lt;div&gt;Hrsg.: H. Clauren d.i. C. G. S. Heun&lt;/div&gt;
+
+&lt;div&gt;Fortgesetzt durch: Rosen und Vergißmeinnicht 1838-1845&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2334</ID>
 <NAME>Vergißmeinnicht (Herloßsohn; Jeanne Marie)</NAME>
 <SORTIERNAME>Vergißmeinnicht (Herloßsohn; Jeanne Marie)</SORTIERNAME>
 <NACHWEIS>K 165; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1847-1853; Leipzig (Thomas); Hrsgg: 1847-1851: Herloßsohn; 1852, 1853: Jeanne Marie d.i. Jeanne Marie von Gayette-Georgens&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1847-1853&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Thomas)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Hrsgg: 1847-1851: Herloßsohn; 1852, 1853: Jeanne Marie d.i. Jeanne Marie von Gayette-Georgens&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2335</ID>
 <NAME>Vergißmeinnicht (Spindler)</NAME>
 <SORTIERNAME>Vergißmeinnicht (Spindler)</SORTIERNAME>
 <NACHWEIS>K 165; L/R 99; Goed VIII. 126, 332 a</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1830-1849; Jgg 1844-1849 unter erweitertem Titel: Vergißmeinnicht (Spindler) TB der Liebe, der Freundschaft und dem Familienleben des deutschen Volkes gewidmet; 1830, 1831 Stuttgart (Franckh), 1832-1843: Stuttgart (Hallberger), 1844-1849: Stuttgart (Franckh); Hrsg. C. Spindle&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1830-1849; Jgg 1844-1849 unter erweitertem Titel: Vergißmeinnicht (Spindler) TB der Liebe, der Freundschaft und dem Familienleben des deutschen Volkes gewidmet &lt;/div&gt;
+
+&lt;div&gt;1830, 1831 Stuttgart (Franckh), 1832-1843: Stuttgart (Hallberger), 1844-1849: Stuttgart (Franckh)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Hrsg. C. Spindler&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2336</ID>
 <NAME>Vergißmeinnicht (Spindler) TB der Liebe, der Freundschaft und dem Familienleben des deutschen Volkes gewidmet</NAME>
 <SORTIERNAME>Vergißmeinnicht (Spindler) TB der Liebe, der Freundschaft und dem Familienleben des deutschen Volkes gewidmet</SORTIERNAME>
 <NACHWEIS>K 166; L/R 99; Goed VIII. 126, 332 b</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1845-1847; Stuttgart (Franckh); Hrsg C. Spindler&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1845-1847&lt;/div&gt;
+
+&lt;div&gt;Stuttgart (Franckh)&lt;/div&gt;
+
+&lt;div&gt;Hrsg C. Spindler&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2337</ID>
 <NAME>Vergißmeinnicht (Wien, Lienhart)</NAME>
 <SORTIERNAME>Vergißmeinnicht (Wien, Lienhart)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1858, 1859: Wien (Lienhart; identisch mit Iduna 1857, 1858&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1858, 1859: Wien (Lienhart)&lt;/div&gt;
+
+&lt;div&gt;identisch mit Iduna 1857, 1858&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2338</ID>
@@ -6580,264 +6700,405 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 <NAME>Vergißmeinnicht, Alsatisches</NAME>
 <SORTIERNAME>Vergißmeinnicht, Alsatisches</SORTIERNAME>
 <NACHWEIS>K 164; nicht bei L/R; Goed VIII. 116, 275</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;einziger Jg 1825&lt;/div&gt;
+
+&lt;div&gt;Straßburg (Heitz)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: H. W. Asper&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2340</ID>
 <NAME>Vergißmeinnicht, Dramatisches</NAME>
 <SORTIERNAME>Vergißmeinnicht, Dramatisches</SORTIERNAME>
 <NACHWEIS>K 164; nicht bei L/R; Goed VIII. 131, 28</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1824-1849; Dresden und Leipzig; Hrsg: Th. Hell&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1824-184&lt;/div&gt;
+
+&lt;div&gt;Dresden und Leipzig (Arnold)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Th. Hell&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2341</ID>
 <NAME>Vergissmeinnicht, eine Prämiengabe zum Thüringer Stadt- und Landboten</NAME>
 <SORTIERNAME>Vergissmeinnicht, eine Prämiengabe zum Thüringer Stadt- und Landboten</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;TA von: Helena 1837 (Hrsg. Leop. Schefer) Alm Nr 1832&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Titelauflage von: Helena 1837 (Hrsg. Leop. Schefer) Alm Nr 1832&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2342</ID>
 <NAME>Vergißmeinnicht, Sammlung auserlesener Stellen (Müchler)</NAME>
 <SORTIERNAME>Vergißmeinnicht, Sammlung auserlesener Stellen (Müchler)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;vorhanden: 1812 (zweite verbesserte und vermehrte Auflage), 1815 (zweite verbesserte und vermehrte Auflage), 1820, 1823 (dritte verbesserte und vermehrte Auflage); Hrsg: Karl Müchler; Berlin (Duncker und Humblot)&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;vorhanden: 1812 (zweite verbesserte und vermehrte Auflage), 1815 (zweite verbesserte und vermehrte Auflage), 1820, 1823 (dritte verbesserte und vermehrte Auflage)&lt;/div&gt;
+
+&lt;div&gt;Berlin (Duncker und Humblot)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: K. Müchler&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2343</ID>
-<NAME>Vergißmeinnicht. Ein TB f. d. Besuch der sächsischen Schweiz u. d. angränzenden Theile Böhmens</NAME>
-<SORTIERNAME>Vergißmeinnicht. Ein TB f. d. Besuch der sächsischen Schweiz u. d. angränzenden Theile Böhmens</SORTIERNAME>
+<NAME>Vergißmeinnicht. Ein Taschenbuch für den Besuch der sächsischen Schweiz u. d. angränzenden Theile Böhmens</NAME>
+<SORTIERNAME>Vergißmeinnicht. Ein Taschenbuch für den Besuch der sächsischen Schweiz u. d. angränzenden Theile Böhmens</SORTIERNAME>
 <NACHWEIS>K 166; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;einziger Jg 1823&lt;/div&gt;
+
+&lt;div&gt;Dresden (Arnold)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: W. A. Lindau &lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2344</ID>
 <NAME>Vergötterungs-Almanach</NAME>
 <SORTIERNAME>Vergötterungs-Almanach</SORTIERNAME>
 <NACHWEIS>K 166; nicht bei L/R; Goed VIII. 57, 35</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
+
+&lt;div&gt;Ueberall und Nirgends&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2345</ID>
 <NAME>Versuch eines National-Almanachs für Teutsche</NAME>
 <SORTIERNAME>Versuch eines National-Almanachs für Teutsche</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1793&lt;/div&gt;
+
+&lt;div&gt;Nürnberg (Bauer- und Mannischen Buchhandlung)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: E. L. Posselt&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2346</ID>
 <NAME>Vesta</NAME>
 <SORTIERNAME>Vesta</SORTIERNAME>
 <NACHWEIS>K 166; L/R 99; Goed VIII. 127, 343</NACHWEIS>
-<Anmerkungen>&lt;div&gt;6 Jgg 1831-1836 Wien (F. Ludwig). Hrsg: August Rokert. Einheitliche Umschlagprägung der Reihe s. Photos des 1. Jg 1831: INr 25857 u. 33793&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;6 Jgg 1831-1836&lt;/div&gt;
+
+&lt;div&gt;Wien (F. Ludwig) &lt;/div&gt;
+
+&lt;div&gt;Hrsg: August Rokert. &lt;/div&gt;
+
+&lt;div&gt;Einheitliche Umschlagprägung der Reihe s. Photos des 1. Jg 1831: INr 25857 u. 33793&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2347</ID>
 <NAME>Vielliebchen</NAME>
 <SORTIERNAME>Vielliebchen</SORTIERNAME>
 <NACHWEIS>K 167; L/R 98; Goed X. 31. 122, 23</NACHWEIS>
-<Anmerkungen>&lt;div&gt;34 Jgg 1828-1861; 1828-1838: Leipzig (Industrie-Comptoir), 1839-1861: Leipzig (Baumgärtner); Hrsgg.: 1828-1841: A. von Tromlitz d.i.: Friedrich Ludwig Witzleben; 1842-1849: Bernd von Guseck d.i. Carl Gustav von Berneck; 1850-1861 (Neue Folge): Theodor Mügge&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;34 Jgg 1828-1861&lt;/div&gt;
+
+&lt;div&gt;1828-1838: Leipzig (Industrie-Comptoir); 1839-1861: Leipzig (Baumgärtner)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg: 1828-1841: A. von Tromlitz d.i.: Friedrich Ludwig Witzleben; 1842-1849: Bernd von Guseck d.i. Carl Gustav von Berneck; 1850-1861 (Neue Folge): Theodor Mügge&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2348</ID>
 <NAME>Viola (Pustkuchen-Glanzow)</NAME>
 <SORTIERNAME>Viola (Pustkuchen-Glanzow)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R; Goed X. 328, 26</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1833&lt;/div&gt;
+
+&lt;div&gt;Wesel (Becker)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. Fr. W. Pustkuchen-Glanzow&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2349</ID>
 <NAME>Volks-Kalender, Deutscher und Jahrbuch. Insbesondere zum Gebrauch für Israeliten</NAME>
 <SORTIERNAME>Volks-Kalender, Deutscher und Jahrbuch. Insbesondere zum Gebrauch für Israeliten</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1858&lt;/div&gt;
+
+&lt;div&gt;Brieg (Liebermann)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: H. Liebermann&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2350</ID>
 <NAME>Volksbote, Der</NAME>
 <SORTIERNAME>Volksbote, Der</SORTIERNAME>
 <NACHWEIS>K 168; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;3 Jgg 1843-1846&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;3 Jgg 1843-1846&lt;/div&gt;
+
+&lt;div&gt;Stuttgart (Hoffmann)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2351</ID>
 <NAME>Volkskalender, Gemeinnützig-unterhaltender für das Königl. Preuß. Rheinland-Westphalen</NAME>
 <SORTIERNAME>Volkskalender, Gemeinnützig-unterhaltender für das Königl. Preuß. Rheinland-Westphalen</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Erscheinungsverlauf unklar. vor 6. Jg&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2352</ID>
 <NAME>Volkskalender, Neuer</NAME>
 <SORTIERNAME>Volkskalender, Neuer</SORTIERNAME>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1825&lt;/div&gt;
+
+&lt;div&gt;Erscheinungsverlauf unklar; vorh. 6. Jahrgang&lt;/div&gt;
+
+&lt;div&gt;Hamm (Schulz und Wundermann)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2353</ID>
 <NAME>Von der Isar</NAME>
 <SORTIERNAME>Von der Isar</SORTIERNAME>
 <NACHWEIS>nicht bei K, nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1851&lt;/div&gt;
+
+&lt;div&gt;München (Chr. Kaiser)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Verein für deutsche Dichtkunst in München&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2354</ID>
 <NAME>Vor und hinter den Coulissen. Almanach erprobter Bühnenspiele</NAME>
 <SORTIERNAME>Vor und hinter den Coulissen. Almanach erprobter Bühnenspiele</SORTIERNAME>
 <NACHWEIS>K 173; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1844&lt;/div&gt;
+
+&lt;div&gt;Berlin (Förstner)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Adami&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2355</ID>
 <NAME>Vortheile der Aufhebung des Gesetzes des Cölibats, oder Briefwechsel zweyer katholischen Geistlichen über diesen Gegenstand, als Taschenbuch für das Jahr</NAME>
 <SORTIERNAME>Vortheile der Aufhebung des Gesetzes des Cölibats, oder Briefwechsel zweyer katholischen Geistlichen über diesen Gegenstand, als Taschenbuch für das Jahr</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R; J.A.L.Z 1807 SS 59 f</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1806&lt;/div&gt;
+
+&lt;div&gt;Berlin und Wien&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2356</ID>
 <NAME>Vorwärts ! Volkstaschenbuch</NAME>
 <SORTIERNAME>Vorwärts ! Volkstaschenbuch</SORTIERNAME>
 <NACHWEIS>K 173; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1843-1847; Leipzig (Friese); Hrsgg.: 1843-1845: Robert Blum und Friedrich Steger; 1806: Robert Blum&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1843-1847&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Friese)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg.: 1843-1845: Robert Blum und Friedrich Steger; 1806: Robert Blum&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2357</ID>
 <NAME>Vorzeit, Die</NAME>
 <SORTIERNAME>Vorzeit, Die</SORTIERNAME>
 <NACHWEIS>K 173; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;10 Jgg 1820-1828, 1838; Marburg und Kassel (Krieger); Hrsg.: K. W. Justi&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;10 Jgg 1820-1828, 1838&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Marburg und Kassel (Krieger)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Hrsg: K. W. Justi&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2358</ID>
 <NAME>Waisenfreund, Der</NAME>
 <SORTIERNAME>Waisenfreund, Der</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Publikation am Rande des Almanachwesens /) 3 Jgg 1821, 1824, 1825; Leipzig (Göschen)&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;3 Jgg 1821, 1824, 1825&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Göschen)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg: &amp;nbsp;Verein von Dichtern&lt;/div&gt;
+
+&lt;div&gt;Publikation am Rande des Almanachwesens&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2359</ID>
 <NAME>Wander-Epigramme. Ein Taschenbuch für Reiselustige</NAME>
 <SORTIERNAME>Wander-Epigramme. Ein Taschenbuch für Reiselustige</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1833&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Weigand)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. Eberwein&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2360</ID>
 <NAME>Wappenkalender, Des Churbayerischen Hohen Ritterordens S. Georgii u.</NAME>
 <SORTIERNAME>Wappenkalender, Des Churbayerischen Hohen Ritterordens S. Georgii u.</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1771&lt;/div&gt;
+
+&lt;div&gt;München &lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2361</ID>
 <NAME>Weiberspiegel, Der</NAME>
 <SORTIERNAME>Weiberspiegel, Der</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
+
+&lt;div&gt;Berlin (Oehmigke)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2362</ID>
 <NAME>Weihnachtsblüthen</NAME>
 <SORTIERNAME>Weihnachtsblüthen</SORTIERNAME>
 <NACHWEIS>nicht bei K 174; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1838-1864; Stuttgart, 1842, 1844, 1845, 1847; 1849, 1856: Stuttgart (Belser); Hrsg. Gustav Plieninger /) K gibt an: Weihnachtsblüthen f. d. reifere Jugend … und als 1. Jahrgang 1839 an&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1838-1864;&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Stuttgart, 1842, 1844, 1845, 1847; 1849, 1856: Stuttgart (Belser);&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;Hrsg. G. Plieninger&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;K gibt an: Weihnachtsblüthen f. d. reifere Jugend (…) und als 1. Jahrgang 1839 an&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2363</ID>
 <NAME>Weihnachtsgabe für Hamburg</NAME>
 <SORTIERNAME>Weihnachtsgabe für Hamburg</SORTIERNAME>
 <NACHWEIS>K 174; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;einziger Jg 1842&lt;/div&gt;
+
+&lt;div&gt;Basel (Schneider)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg: A. E. Fröhlich, K. R. Hagenbach und W. Wackernagel&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2364</ID>
 <NAME>Weihnachtsgabe für Knaben und Mädchen</NAME>
 <SORTIERNAME>Weihnachtsgabe für Knaben und Mädchen</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1830&lt;/div&gt;
+
+&lt;div&gt;Frankfurt (Brönner)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. J. Eckhardt&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2365</ID>
 <NAME>Weihnachtsgabe zum Besten der Wasserbeschädigten in der Schweiz</NAME>
 <SORTIERNAME>Weihnachtsgabe zum Besten der Wasserbeschädigten in der Schweiz</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1839&lt;/div&gt;
+
+&lt;div&gt;Basel (Schweighauser)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg: A. E. Fröhlich, K. R. Hagenbach, K. H. W. Wackernagel&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2366</ID>
 <NAME>Weihnachtsgeschenk für junge Leute und muntere Gesellschaften</NAME>
 <SORTIERNAME>Weihnachtsgeschenk für junge Leute und muntere Gesellschaften</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1803&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Lincke)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2367</ID>
 <NAME>Wilhelm und Luise</NAME>
 <SORTIERNAME>Wilhelm und Luise</SORTIERNAME>
-<NACHWEIS>Geßner, Johann Georg</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<NACHWEIS>nicht bei K; nicht bei L/R; nicht bei Goed V. 451, 19, 6</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg &amp;nbsp;1811&lt;/div&gt;
+
+&lt;div&gt;Wien und Triest (Geistinger)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. G. Geßner&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2368</ID>
 <NAME>Wintergarten, Der</NAME>
 <SORTIERNAME>Wintergarten, Der</SORTIERNAME>
 <NACHWEIS>K 175; L/R 91; Goed VIII. 94, 186 a</NACHWEIS>
-<Anmerkungen>&lt;div&gt;6 Jgg 1816, 1818-1822; Frankfurt/M (Wilmans); Hrsg.: St. Schütze&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;6 Jgg 1816, 1818-1822&lt;/div&gt;
+
+&lt;div&gt;Frankfurt/M (Wilmans)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: St. Schütze&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2369</ID>
 <NAME>Wintergrün</NAME>
 <SORTIERNAME>Wintergrün</SORTIERNAME>
 <NACHWEIS>K 175; nicht bei L/R; Goed VIII. 103, 234</NACHWEIS>
-<Anmerkungen>&lt;div&gt;1821-1847, 1849; Hamburg; Hrsg.: G. Lotz&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;Jgg 1821-1847, 1849&lt;/div&gt;
+
+&lt;div&gt;Hamburg 1821- 1826 (?) &amp;nbsp;(Hoffmann und Campe) Hamburg &amp;nbsp;1827-1849 (G. Lotz) &lt;/div&gt;
+
+&lt;div&gt;Hrsg.: G. Lotz&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2370</ID>
 <NAME>Witz- und Lach- Almanach, Humoristisch-jocoser</NAME>
 <SORTIERNAME>Witz- und Lach- Almanach, Humoristisch-jocoser</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;nur Jg 1851&lt;/div&gt;
+
+&lt;div&gt;Wien (Wallishausser)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Gustav Schönstein&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2371</ID>
 <NAME>Worte einer edlen Mutter</NAME>
 <SORTIERNAME>Worte einer edlen Mutter</SORTIERNAME>
 <NACHWEIS>Goed VII, 274</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;nur Jg 1796&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Martini)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: K. H. Heydenreich&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2372</ID>
 <NAME>Wunderhorn, Österreichisches</NAME>
 <SORTIERNAME>Wunderhorn, Österreichisches</SORTIERNAME>
 <NACHWEIS>K 175; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;einziger Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;nur Jg 1834&lt;/div&gt;
+
+&lt;div&gt;Wien (Ghelen&apos;sche Erben)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. N. Vogl&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2373</ID>
 <NAME>Zauber des Orpheus</NAME>
 <SORTIERNAME>Zauber des Orpheus</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;nur Jg 1798&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Hoffmeister)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. Hofmeister (?)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2374</ID>
 <NAME>Zeitvertreibs Kalender in vermischten Unterhaltungen für Gesellschaften (Loeschenkohl)</NAME>
 <SORTIERNAME>Zeitvertreibs Kalender in vermischten Unterhaltungen für Gesellschaften (Loeschenkohl)</SORTIERNAME>
 <NACHWEIS>nicht bei K; L/R 107 #</NACHWEIS>
-<Anmerkungen>&lt;div&gt;# L/R 165 kennt nur Jg 1799 /) KVK, OBV: Jgg 1796-1803&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;KVK, OBV: Jgg 1796-1803; &amp;nbsp;L/R 165 kennt nur Jg 1799 &lt;/div&gt;
+
+&lt;div&gt;Wien&lt;/div&gt;
+
+&lt;div&gt;Hrsg: H. Loeschenkohl&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2375</ID>
 <NAME>Zigeuner, Der wahrsagende</NAME>
 <SORTIERNAME>Zigeuner, Der wahrsagende</SORTIERNAME>
 <NACHWEIS>nicht bei K 175; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;weitere Jgg nicht ermittelt Reprint: Großformat zusammen mit: Der wahrsagende Zigeuner /) Published by Creative Media Partners on behalf of Gale-Research, Inc.: Aus der Corvey-Collection&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1802; K kennt nur Jg 1795&lt;/div&gt;
+
+&lt;div&gt;Frankfurt&lt;/div&gt;
+
+&lt;div&gt;Hrsg J. H. Spieß &lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2376</ID>
 <NAME>Zigeunerin, Die wahrsagende</NAME>
 <SORTIERNAME>Zigeunerin, Die wahrsagende</SORTIERNAME>
-<Anmerkungen>&lt;div&gt;weitere Jgg nicht ermittelt&lt;/div&gt;</Anmerkungen>
+<NACHWEIS>nicht bei K 175</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1802&lt;/div&gt;
+
+&lt;div&gt;Frankfurt&lt;/div&gt;
+
+&lt;div&gt;Hrsg J. H. Spieß &lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1299</ID>
@@ -6889,7 +7150,7 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 </Reihen>
 <Reihen>
 <ID>1306</ID>
-<NAME>Almanach für die erwachsenere Jugend männlichen Geschlechts s. u. Taschenbuch, Leipziger für die erwachsenere Jugend männlichen Geschlechts</NAME>
+<NAME>Almanach für die erwachsenere Jugend männlichen Geschlechts</NAME>
 <SORTIERNAME>Almanach für die erwachsenere Jugend männlichen Geschlechts s. u. Taschenbuch, Leipziger für die erwachsenere Jugend männlichen Geschlechts</SORTIERNAME>
 </Reihen>
 <Reihen>
@@ -7587,7 +7848,7 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 </Reihen>
 <Reihen>
 <ID>1410</ID>
-<NAME>Armin.Taschenbuch für Teutsche</NAME>
+<NAME>Armin. Taschenbuch für Teutsche</NAME>
 <SORTIERNAME>Armin.Taschenbuch für Teutsche</SORTIERNAME>
 <NACHWEIS>K 24; nicht bei L/R</NACHWEIS>
 <Anmerkungen>einziger Jahrgang</Anmerkungen>
@@ -7792,8 +8053,8 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 </Reihen>
 <Reihen>
 <ID>1440</ID>
-<NAME>Blumenlese, Heßische Poetische s. u. Musenalmanach, Hessischer</NAME>
-<SORTIERNAME>Blumenlese, Heßische Poetische s. u. Musenalmanach, Hessischer</SORTIERNAME>
+<NAME>Blumenlese, Heßische Poetische</NAME>
+<SORTIERNAME>Blumenlese, Heßische Poetische</SORTIERNAME>
 </Reihen>
 <Reihen>
 <ID>1441</ID>

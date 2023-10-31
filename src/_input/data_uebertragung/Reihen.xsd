@@ -15,11 +15,11 @@
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAAKhtJZATFOZAAAAAAAAAAABSAGUA
-aQBoAGUAbgAAAAAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAISufsHvDeZAAAAAAAAA
-AAAqAFIARQBMAEEAVABJAE8ATgBfAEIAYQBlAG4AZABlAFIAZQBpAGgAZQBuAAAA
-AAAAAMzl2zdkjvJFoMAfCUGsaRMHAAAAcq6r3GwmtUCT0aBBaFotyEkARAAAAAAA
-AAB574HgyEinQJpDYxEKAFFTBwAAAHKuq9xsJrVAk9GgQWhaLchOAEEATQBFAAAA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAACEUWmEQFeZAAAAAAAAAAABSAGUA
+aQBoAGUAbgAAAAAAAAAHoWmDaDzQT77M9tl6wX+oBwAAAHKuq9xsJrVAk9GgQWha
+LchOAEEATQBFAAAAAAAAAJ1P7G70NG5Cqsa1ZYN40VcAAAAAhK5+we8N5kAAAAAA
+AAAAACoAUgBFAEwAQQBUAEkATwBOAF8AQgBhAGUAbgBkAGUAUgBlAGkAaABlAG4A
+AAAAAAAAzOXbN2SO8kWgwB8JQaxpEwcAAAByrqvcbCa1QJPRoEFoWi3ISQBEAAAA
 AAAAANjmyZkkL01PjerLGiAlB1MHAAAAcq6r3GwmtUCT0aBBaFotyFMATwBSAFQA
 SQBFAFIATgBBAE0ARQAAAAAAAACIookoK1TTQqVX2ZVL+mv1BwAAAHKuq9xsJrVA
 k9GgQWhaLchOAEEAQwBIAFcARQBJAFMAAAAAAAAAkBzQGJVfHUyqqYIYRGd0SwcA
@@ -43,6 +43,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="GUID" type="9" value="cq6r3GwmtUCT0aBBaFotyA==
 "/>
+<od:tableProperty name="Filter" type="12" value="([Reihen].[NAME] Like &quot;*albina*&quot;)"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -62,30 +63,29 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 </xsd:appinfo>
 </xsd:annotation>
 </xsd:element>
-<xsd:element name="NAME" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+<xsd:element name="NAME" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
 <xsd:annotation>
 <xsd:appinfo>
+<od:fieldProperty name="GUID" type="9" value="B6Fpg2g80E++zPbZesF/qA==
+"/>
 <od:fieldProperty name="ColumnWidth" type="3" value="7584"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
 <od:fieldProperty name="AllowZeroLength" type="1" value="1"/>
+<od:fieldProperty name="DisplayControl" type="3" value="109"/>
 <od:fieldProperty name="IMEMode" type="2" value="0"/>
 <od:fieldProperty name="IMESentenceMode" type="2" value="3"/>
 <od:fieldProperty name="UnicodeCompression" type="1" value="1"/>
-<od:fieldProperty name="TextFormat" type="2" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
-<od:fieldProperty name="AppendOnly" type="1" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
 <od:fieldProperty name="ResultType" type="2" value="0"/>
 <od:fieldProperty name="CurrencyLCID" type="4" value="0"/>
-<od:fieldProperty name="GUID" type="9" value="ee+B4MhIp0CaQ2MRCgBRUw==
-"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:simpleType>
 <xsd:restriction base="xsd:string">
-<xsd:maxLength value="536870910"/>
+<xsd:maxLength value="255"/>
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
