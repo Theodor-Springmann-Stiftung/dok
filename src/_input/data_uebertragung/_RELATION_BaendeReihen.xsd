@@ -18,11 +18,11 @@
 <od:index index-name="Reihen*RELATION_BaendeReihen" index-key="REIHE " primary="no" unique="no" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAALe3b73vDeZAAAAAAAAAAAAqAFIA
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAISufsHvDeZAAAAAAAAAAAAqAFIA
 RQBMAEEAVABJAE8ATgBfAEIAYQBlAG4AZABlAFIAZQBpAGgAZQBuAAAAAAAAAIPB
 ki5ZNfhAlG/+CsBGiekHAAAAnU/sbvQ0bkKqxrVlg3jRV0kARAAAAAAAAACmaj0P
-zRsZRpoo6jOGlMJIAAAAAGGLomXRDeZAAAAAAAAAAABCAGEAZQBuAGQAZQAAAAAA
+zRsZRpoo6jOGlMJIAAAAAOuNH5DPDuZAAAAAAAAAAABCAGEAZQBuAGQAZQAAAAAA
 AAAh+iJRldmnR4DEzBr1YEJrBwAAAKZqPQ/NGxlGmijqM4aUwkhJAEQAAAAAAAAA
 hnDnxT7IyEC8zzxy8VyFUAcAAACmaj0PzRsZRpoo6jOGlMJIUwBPAFIAVABJAEUA
 UgBUAEkAVABFAEwAAAAAAAAAys2t8MGtwk6I0N7DdgqidwcAAACmaj0PzRsZRpoo
@@ -32,12 +32,12 @@ qsa1ZYN40VdCAEEATgBEAAAAAAAAAFrg6+fVmzxHhvmYCFfOk6EAAAAAFoNLyMwN
 gAOC1QAyrU2cLNPFSTKbYgcAAABa4Ovn1Zs8R4b5mAhXzpOhSQBEAAAAAAAAAJPe
 yFePHkpBrB67QRyEQ68HAAAAWuDr59WbPEeG+ZgIV86ToUIARQBaAEkARQBIAFUA
 TgBHAAAAAAAAAAy26xgpmJ9IqYRGE4anexEHAAAAnU/sbvQ0bkKqxrVlg3jRV0IA
-RQBaAEkARQBIAFUATgBHAAAAAAAAAHKuq9xsJrVAk9GgQWhaLcgAAAAAHuJuku8N
+RQBaAEkARQBIAFUATgBHAAAAAAAAAHKuq9xsJrVAk9GgQWhaLcgAAAAA0U2w3M4V
 5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAAAAAAAMzl2zdkjvJFoMAfCUGsaRMHAAAA
 cq6r3GwmtUCT0aBBaFotyEkARAAAAAAAAADY5smZJC9NT43qyxogJQdTBwAAAHKu
 q9xsJrVAk9GgQWhaLchTAE8AUgBUAEkARQBSAE4AQQBNAEUAAAAAAAAA8yR1jCGF
 JU2iN3WHPJw5PwcAAACdT+xu9DRuQqrGtWWDeNFXUgBFAEkASABFAAAAAAAAAGAh
-KTarytBEuAADDBIC/qQBAAAA2tiwl+8N5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAA
+KTarytBEuAADDBIC/qQBAAAAvrqM1w0V5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAA
 AAAAAMZB1gxE7plOlT/q1szkpY8HAAAAnU/sbvQ0bkKqxrVlg3jRV0EATgBNAEUA
 UgBLAFUATgBHAEUATgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
 AAAAAAAAAAAAAA==
@@ -59,6 +59,7 @@ AAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
+<od:tableProperty name="OrderBy" type="12" value="[Lookup_BAND].[SORTIERTITEL]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -69,7 +70,7 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="GUID" type="9" value="g8GSLlk1+ECUb/4KwEaJ6Q==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -144,7 +145,7 @@ AAAAAAAAAAAAAA==
 <od:fieldProperty name="GUID" type="9" value="8yR1jCGFJU2iN3WHPJw5Pw==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="9660"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="4"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

@@ -17,18 +17,18 @@
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADpYxAKGI/JTbUxwHYp1l3DAAAAAKEaCMdwDeZAAAAAAAAAAABBAGsA
-dABlAHUAcgBlAAAAAAAAAODXDgkzZ5dJnIymih2qu48HAAAA6WMQChiPyU21McB2
-KdZdw0kARAAAAAAAAAATFm0xbFDlTLdzUvzrDtMwBwAAAOljEAoYj8lNtTHAdinW
-XcNOAEEATQBFAAAAAAAAAN8znKn0swNKuAdfknDB/Y0HAAAA6WMQChiPyU21McB2
-KdZdw08AUgBHAEEATgBJAFMAQQBUAEkATwBOAAAAAAAAAML68Vn/SxhCjZ0iz7Dv
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAADpYxAKGI/JTbUxwHYp1l3DAAAAAK16SbJUEeZAAAAAAAAAAABBAGsA
+dABlAHUAcgBlAAAAAAAAAN8znKn0swNKuAdfknDB/Y0HAAAA6WMQChiPyU21McB2
+KdZdw08AUgBHAEEATgBJAFMAQQBUAEkATwBOAAAAAAAAAODXDgkzZ5dJnIymih2q
+u48HAAAA6WMQChiPyU21McB2KdZdw0kARAAAAAAAAAATFm0xbFDlTLdzUvzrDtMw
+BwAAAOljEAoYj8lNtTHAdinWXcNOAEEATQBFAAAAAAAAAML68Vn/SxhCjZ0iz7Dv
 oG4HAAAA6WMQChiPyU21McB2KdZdw0wARQBCAEUATgBTAEQAQQBUAEUATgAAAAAA
 AAA9yHOUpKLgQobvrNhJDjA2BwAAAOljEAoYj8lNtTHAdinWXcNCAEUAUgBVAEYA
-AAAAAAAAhtwShcYfTUuvMEhTebN3/gcAAADpYxAKGI/JTbUxwHYp1l3DUABTAEUA
-VQBEAE8ATgBZAE0AAAAAAAAA3PMUwQMODkiRAtlMvBmeAwcAAADpYxAKGI/JTbUx
-wHYp1l3DQQBOAE0ARQBSAEsAVQBOAEcARQBOAAAAAAAAAPDmHa6kpdJMjvRQ/5rM
-pLUHAAAA6WMQChiPyU21McB2KdZdw0cATgBEAAAAAAAAAMyvGVg1mIhOpIIHkkT1
-hnYHAAAA6WMQChiPyU21McB2KdZdw04AQQBDAEgAVwBFAEkAUwAAAAAAAAAAAAAA
+AAAAAAAAzK8ZWDWYiE6kggeSRPWGdgcAAADpYxAKGI/JTbUxwHYp1l3DTgBBAEMA
+SABXAEUASQBTAAAAAAAAAIbcEoXGH01LrzBIU3mzd/4HAAAA6WMQChiPyU21McB2
+KdZdw1AAUwBFAFUARABPAE4AWQBNAAAAAAAAANzzFMEDDg5IkQLZTLwZngMHAAAA
+6WMQChiPyU21McB2KdZdw0EATgBNAEUAUgBLAFUATgBHAEUATgAAAAAAAADw5h2u
+pKXSTI70UP+azKS1BwAAAOljEAoYj8lNtTHAdinWXcNHAE4ARAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 "/>
 <od:tableProperty name="DefaultView" type="2" value="2"/>
@@ -46,6 +46,7 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
+<od:tableProperty name="Filter" type="12" value="([Akteure].[ORGANISATION] Not In (0))"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -96,7 +97,7 @@ AAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAAAAAAAAAAAAAAA==
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="3zOcqfSzA0q4B1+ScMH9jQ==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2220"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Format" type="10" value="Yes/No"/>

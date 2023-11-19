@@ -14,10 +14,10 @@
 <od:index index-name="PrimaryKey" index-key="ID " primary="yes" unique="yes" clustered="no" order="asc"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAACEUWmEQFeZAAAAAAAAAAABSAGUA
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAAByrqvcbCa1QJPRoEFoWi3IAAAAALGiBgvRFeZAAAAAAAAAAABSAGUA
 aQBoAGUAbgAAAAAAAAAHoWmDaDzQT77M9tl6wX+oBwAAAHKuq9xsJrVAk9GgQWha
-LchOAEEATQBFAAAAAAAAAJ1P7G70NG5Cqsa1ZYN40VcAAAAAhK5+we8N5kAAAAAA
+LchOAEEATQBFAAAAAAAAAJ1P7G70NG5Cqsa1ZYN40VcAAAAAJ+vAQM8V5kAAAAAA
 AAAAACoAUgBFAEwAQQBUAEkATwBOAF8AQgBhAGUAbgBkAGUAUgBlAGkAaABlAG4A
 AAAAAAAAzOXbN2SO8kWgwB8JQaxpEwcAAAByrqvcbCa1QJPRoEFoWi3ISQBEAAAA
 AAAAANjmyZkkL01PjerLGiAlB1MHAAAAcq6r3GwmtUCT0aBBaFotyFMATwBSAFQA
@@ -43,7 +43,8 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="GUID" type="9" value="cq6r3GwmtUCT0aBBaFotyA==
 "/>
-<od:tableProperty name="Filter" type="12" value="([Reihen].[NAME] Like &quot;*albina*&quot;)"/>
+<od:tableProperty name="Filter" type="12" value="([Reihen].[NAME] Like &quot;*s. u.*&quot;)"/>
+<od:tableProperty name="OrderBy" type="12" value="[Reihen].[NAME]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -68,7 +69,7 @@ AAAAAAAAAAAAAAAAAAAMAAAABQAAAAAAAAAAAAAAAAAAAAAA
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="B6Fpg2g80E++zPbZesF/qA==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="7584"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="10905"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>
