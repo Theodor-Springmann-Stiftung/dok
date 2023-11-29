@@ -73,11 +73,11 @@ public class APICaller {
                     Persons.Add(new Person(SERVERDATA, a.NAME.Trim()) {
                         Pseudonym = ps,
                         Nachweis = nw,
-                        Beruf = String.IsNullOrWhiteSpace(a.BERUF) ? null : new LiteralProperty[] { new LiteralProperty( a.BERUF )},
-                        Geburtsdatum = geburt == null ? null : new LiteralProperty[]{ geburt },
-                        Sterbedatum = tod == null ? null : new LiteralProperty[]{ tod },
-                        Anmerkung = String.IsNullOrWhiteSpace(a.ANMERKUNGEN) ? null : new HtmlProperty[] { new HtmlProperty( a.ANMERKUNGEN )},
-                        Nummer = new LiteralProperty[] { new LiteralProperty(a.ID.ToString())}
+                        Beruf = String.IsNullOrWhiteSpace(a.BERUF) ? null : [new LiteralProperty( a.BERUF )],
+                        Geburtsdatum = geburt == null ? null : [geburt],
+                        Sterbedatum = tod == null ? null : [tod],
+                        Anmerkung = String.IsNullOrWhiteSpace(a.ANMERKUNGEN) ? null : [new HtmlProperty( a.ANMERKUNGEN )],
+                        Nummer = [new LiteralProperty(a.ID.ToString())]
                     });
                 } else {
                     // Körperschaften
@@ -90,10 +90,12 @@ public class APICaller {
     public void CreateReihenData() {
         Reihen = new();
         foreach (var r in _data.Reihen) {
-            Reihen.Add(new Reihentitel(SERVERDATA, r.NAME.Trim()) {
-                Anmerkung = String.IsNullOrWhiteSpace(r.Anmerkungen) ? null : new HtmlProperty[] { new HtmlProperty(r.Anmerkungen) },
-                Nummer = new LiteralProperty[] { new LiteralProperty(r.ID.ToString()) }
-            });
+            if (_data.RELATION_BaendeReihen.Where(x => x.REIHE == r.ID).Any()) {
+                Reihen.Add(new Reihentitel(SERVERDATA, r.NAME.Trim()) {
+                    Anmerkung = String.IsNullOrWhiteSpace(r.Anmerkungen) ? null : [new HtmlProperty(r.Anmerkungen)],
+                    Nummer = [new LiteralProperty(r.ID.ToString())]
+                });
+            }
         }
     }
 
@@ -109,19 +111,19 @@ public class APICaller {
             Baende.Add(new Band(SERVERDATA, b.TITEL) {
                 Reihe = rn == null || !rn.Any() ? null : rn.Where(x => x != null).Select(x => new ItemProperty((int)x)).ToArray(),
                 Herausgeber = hrsg == null || !hrsg.Any() ? null : hrsg.Where(x => x != null).Select(x => new ItemProperty((int)x)).ToArray(),
-                Norm = String.IsNullOrWhiteSpace(b.NORM) ? null : new LiteralProperty[] { new LiteralProperty(b.NORM) },
+                Norm = String.IsNullOrWhiteSpace(b.NORM) ? null : [new LiteralProperty(b.NORM)],
                 Nachweis = String.IsNullOrWhiteSpace(b.NACHWEIS) ? null : b.NACHWEIS.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).Select(x => new LiteralProperty(x)).ToArray(),
-                Nummer = new LiteralProperty[] { new LiteralProperty(b.ID.ToString()) },
-                Herausgeberangabe = String.IsNullOrWhiteSpace(b.HERAUSGEBER) ? null : new LiteralProperty[] { new LiteralProperty(b.HERAUSGEBER) },
+                Nummer = [new LiteralProperty(b.ID.ToString())],
+                Herausgeberangabe = String.IsNullOrWhiteSpace(b.HERAUSGEBER) ? null : [new LiteralProperty(b.HERAUSGEBER)],
                 Ort = String.IsNullOrWhiteSpace(b.ORT) ? null : b.ORT.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).Select(x => new LiteralProperty(x)).ToArray(),
-                Jahr = b.JAHR == null ? null : new LiteralProperty[] { new LiteralProperty(b.JAHR.ToString()) },
-                Gesichtet = new BooleanProperty[] { new BooleanProperty(b.AUTOPSIE) },
-                Erfasst = new BooleanProperty[] { new BooleanProperty(b.ERFASST) },
+                Jahr = b.JAHR == null ? null : [new LiteralProperty(b.JAHR.ToString())],
+                Gesichtet = [new BooleanProperty(b.AUTOPSIE)],
+                Erfasst = [new BooleanProperty(b.ERFASST)],
                 Anmerkung = String.IsNullOrWhiteSpace(b.ANMERKUNGEN) ? null : b.ANMERKUNGEN.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries).Select(x => new HtmlProperty(x)).ToArray(),
-                Struktur = String.IsNullOrWhiteSpace(b.STRUKTUR) ? null : new LiteralProperty[] { new LiteralProperty(b.STRUKTUR) },
+                Struktur = String.IsNullOrWhiteSpace(b.STRUKTUR) ? null : [new LiteralProperty(b.STRUKTUR)],
                 VorhandenAls = b.STATUS == null ? null : b.STATUS.Select(x => new LiteralProperty(x.Value)).ToArray(),
-                Vorhanden = new BooleanProperty[] { new BooleanProperty(b.VORHANDEN) },
-                ReihentitelALT = String.IsNullOrWhiteSpace(b.REIHENTITELALT) ? null : new LiteralProperty[] { new LiteralProperty(b.REIHENTITELALT) },
+                ReihentitelALT = String.IsNullOrWhiteSpace(b.REIHENTITELALT) ? null : [new LiteralProperty(b.REIHENTITELALT)],
+                BiblioID = String.IsNullOrWhiteSpace(b.BIBLIOID) ? null : [new LiteralProperty(b.BIBLIOID)],
             });
         }
     }

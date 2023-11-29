@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix musenalm: <https://omeka.musenalm.de/ns/musenalm/> .
+
+<https://omeka.musenalm.de/ns/musenalm/> a owl:Ontology ;
+    dcterms:title "Musenalm" ;
+    dcterms:description "Musenalm-Spezifisches Vokabular insb. interne Verarbeitungsvermerke" .
+
+musenalm:Band a rdfs:Class ;
+    rdfs:label "Ein erfasster Jahrgang einer Almanach-Reihe" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:Inhalt a rdfs:Class ;
+    rdfs:label "Inhalt" ;
+    rdfs:comment "Ein erfasster Beitrag in einem Almanach (enthält eine Kombination aus RDA-Werk, -Manifestation und -Expressionseigenschaften)" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:altreihe a rdf:Property ;
+    rdfs:label "Alternativer Reihentitel" ;
+    rdfs:comment "Alternativer Reihentitel, unter welchem ein Band geführt wird." ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:gesichtet a rdf:Property ;
+    rdfs:label "Gesichtet" ;
+    rdfs:comment "Ehem. Autopsie, Interner Bearbeitungvermerk" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:incipit a rdf:Property ;
+    rdfs:label "hat Incipit" ;
+    rdfs:comment "Incipit eines Werkes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:pag a rdf:Property ;
+    rdfs:label "hat Kategorie der Paginierung" ;
+    rdfs:comment "Kategorie der Painierung eines Werkes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:seite a rdf:Property ;
+    rdfs:label "hat Seite" ;
+    rdfs:comment "Seitenangabe eines Werkes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:altrt a rdf:Property ;
+    rdfs:label "ist alternativer Reihentitel" ;
+    rdfs:comment "bezeichnet einen alternativen Reihentitel, unter welchem ein Band geführt wird." ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:erfasst a rdf:Property ;
+    rdfs:label "Vollständig erfasst" ;
+    rdfs:comment "Interner Verarbeitungsvermerk" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalm:vorhandenals a rdf:Property ;
+    rdfs:label "Vorhanden als" ;
+    rdfs:comment "Interner Vermerk über die Herkunft eines Bandes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .

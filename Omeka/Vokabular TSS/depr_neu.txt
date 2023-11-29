@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix musenalmdepr: <https://omeka.musenalm.de/ns/musenalmdepr/> .
+
+<https://omeka.musenalm.de/ns/musenalmdepr/> a owl:Ontology ;
+    dcterms:title "Musenalm DEPRECATED" ;
+    dcterms:description "Abgekündigtes musenalm-Spezifisches Vokabular " .
+
+musenalmdepr:nummer a rdf:Property ;
+    rdfs:label "Tabellenfeld ID od NUMMER" ;
+    rdfs:comment "Laufende Nummer,vormals benutztes Feld der Musenalm-Access-DB" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalmdepr:norm a rdf:Property ;
+    rdfs:label "Tabellenfeld NORM (alt)" ;
+    rdfs:comment "Strukturdaten,vormals benutztes Feld der Musenalm-Access-DB" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+musenalmdepr:reihentitel a rdf:Property ;
+    rdfs:label "Tabellenfeld REIHENTITEL (alt)" ;
+    rdfs:comment "Reihentitel,vormals benutztes Feld der Musenalm-Access-DB" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
