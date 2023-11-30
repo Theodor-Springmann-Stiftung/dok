@@ -77,11 +77,19 @@ public class MittelDBXMLLibrary {
     // For now only deserializing Baende, Reihen & their relations are supported    
     public MittelDBXMLLibrary(IEnumerable<DATAFile> files) {
         RELATION_BaendeReihen = new ();
+        RELATION_BaendeAkteure = new ();
+        RELATION_InhalteAkteure = new ();
         Baende = new ();
         Reihen = new ();
+        Inhalte = new ();
+        Akteure = new ();
         var RELATION_BaendeReihenS = new XmlSerializer(typeof(RELATION_BaendeReihen));
         var BaendeS = new XmlSerializer(typeof(Baende));
         var ReihenS = new XmlSerializer(typeof(Reihen));
+        var InhalteS = new XmlSerializer(typeof(Inhalte));
+        var AkteureS = new XmlSerializer(typeof(Akteure));
+        var RELATION_BaendeAkteureS = new XmlSerializer(typeof(RELATION_BaendeAkteure));
+        var RELATION_InhalteAkteureS = new XmlSerializer(typeof(RELATION_InhalteAkteure));
         foreach (var f in files) {
             var elements = f.Document.Root.Elements(f.BaseElementName);
             foreach (var e in elements) {
@@ -105,6 +113,30 @@ public class MittelDBXMLLibrary {
                         i = (Reihen)ReihenS.Deserialize(r);
                     }
                     if(i != null) Reihen.Add(i);
+                } else if (f.BaseElementName == "Inhalte") {
+                    Inhalte i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (Inhalte)InhalteS.Deserialize(r);
+                    }
+                    if(i != null) Inhalte.Add(i);
+                } else if (f.BaseElementName == "Akteure") {
+                    Akteure i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (Akteure)AkteureS.Deserialize(r);
+                    }
+                    if(i != null) Akteure.Add(i);
+                } else if (f.BaseElementName == "_x002A_RELATION_BaendeAkteure") {
+                    RELATION_BaendeAkteure i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (RELATION_BaendeAkteure)RELATION_BaendeAkteureS.Deserialize(r);
+                    }
+                    if(i != null) RELATION_BaendeAkteure.Add(i);
+                } else if (f.BaseElementName == "_x002A_RELATION_InhalteAkteure") {
+                    RELATION_InhalteAkteure i;
+                    using (XmlReader r = e.CreateReader()) {
+                        i = (RELATION_InhalteAkteure)RELATION_InhalteAkteureS.Deserialize(r);
+                    }
+                    if(i != null) RELATION_InhalteAkteure.Add(i);
                 }
             }
         }

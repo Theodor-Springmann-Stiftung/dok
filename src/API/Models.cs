@@ -318,6 +318,11 @@ public class Coroprate : Item {
     [property: JsonPropertyName("rdaa:P50395")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public HtmlProperty[]? Anmerkung { get; set; }
+
+    [property: JsonPropertyName("musenalmdepr:nummer")]
+    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    public LiteralProperty[]? Nummer { get; set; }
+
     
     public Coroprate(APICONSTANTS c, string name) : base(c.CORPORATE_RESOURCE_CLASS, c.CORPORATE_RESOURCE_TEMPLATE, c.MUSENALM_CORPORATE_SETS) {
         Name = [new LiteralProperty(name)];
@@ -439,13 +444,9 @@ public class Band : Item {
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public LiteralProperty[]? ReihentitelALT { get; set; }
 
-    [property: JsonPropertyName("musenalmdepr:vorhandenals")]
+    [property: JsonPropertyName("musenalm:vorhandenals")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public LiteralProperty[]? VorhandenAls { get; set; }
-
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-    [property: JsonPropertyName("rdaw:P30033")]
-    public ItemProperty[]? Inhalte { get; set; }
 
 
     public Band(APICONSTANTS c, string titel) : base(c.BAND_RESOURCE_CLASS, c.BAND_RESOURCE_TEMPLATE, c.MUSENALM_BAND_SETS) {
@@ -463,7 +464,7 @@ public class Inhalt : Item {
     public ItemProperty[]? Band { get; set; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-    [property: JsonPropertyName("rdaw:10012")]
+    [property: JsonPropertyName("rdaw:P10012")]
     public LiteralProperty[]? Objektnummer { get; set; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -488,10 +489,10 @@ public class Inhalt : Item {
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     [property: JsonPropertyName("rdam:P30117")]
-    public ItemProperty[]? Urheberangabe { get; set; }
+    public LiteralProperty[]? Urheberangabe { get; set; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
-    [property: JsonPropertyName("rdam:P10065")]
+    [property: JsonPropertyName("rdaw:P10065")]
     public ItemProperty[]? Urheber { get; set; }
 
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
@@ -518,8 +519,7 @@ public class Inhalt : Item {
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public LiteralProperty[]? Nummer { get; set; }
 
-    public Inhalt(APICONSTANTS c, string titel) : base(c.INHALT_RESOURCE_CLASS, c.INHALT_RESOURCE_TEMPLATE, c.MUSENALM_INHALT_SETS) {
-        Titel = [new LiteralProperty(titel)];
+    public Inhalt(APICONSTANTS c) : base(c.INHALT_RESOURCE_CLASS, c.INHALT_RESOURCE_TEMPLATE, c.MUSENALM_INHALT_SETS) {
     }
 
     public Inhalt() : base() { }

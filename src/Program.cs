@@ -33,19 +33,22 @@ log.SetFile(LOGFILE);
 
 // // MIGRATION DATA EDITING
 var mdata = getDATA_MID();
-var mscheme = unifySchemata(MITTELDIR);
+// var mscheme = unifySchemata(MITTELDIR);
 var mlib = new MittelDBXMLLibrary(mdata);
-mlib.transforms_nachweis_anmerkungen();
-mlib.Save(DESTDIR, mscheme);
+// mlib.transforms_nachweis_anmerkungen();
+// mlib.Save(DESTDIR, mscheme);
 
 // // // API Calls
-// var APIC = new APICaller(mDB);
-// APIC.CreateActorData();
-// APIC.CreateReihenData();
-// APIC.PostReihenData().Wait();
-// APIC.PostActorData().Wait();
-// APIC.CreateBaendeData();
-// APIC.PostBaendeData().Wait();
+var APIC = new APICaller(mlib);
+APIC.CreateActorData();
+APIC.CreateReihenData();
+APIC.PostCorporateData().Wait();
+APIC.PostReihenData().Wait();
+APIC.PostActorData().Wait();
+APIC.CreateBaendeData();
+APIC.PostBaendeData().Wait();
+APIC.CreateInhalteData();
+APIC.PostInhalteData().Wait();
 
 IEnumerable<DATAFile> getDATA_OLD() {
     var sourcedir = OLD_DATADIR;
