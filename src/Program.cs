@@ -39,16 +39,16 @@ var mlib = new MittelDBXMLLibrary(mdata);
 // mlib.Save(DESTDIR, mscheme);
 
 // // // API Calls
-var APIC = new APICaller(mlib);
-APIC.CreateActorData();
-APIC.CreateReihenData();
-APIC.PostCorporateData().Wait();
-APIC.PostReihenData().Wait();
-APIC.PostActorData().Wait();
-APIC.CreateBaendeData();
-APIC.PostBaendeData().Wait();
-APIC.CreateInhalteData();
-APIC.PostInhalteData().Wait();
+// var APIC = new APICaller(mlib);
+// APIC.CreateActorData();
+// APIC.CreateReihenData();
+// APIC.PostCorporateData().Wait();
+// APIC.PostReihenData().Wait();
+// APIC.PostActorData().Wait();
+// APIC.CreateBaendeData();
+// APIC.PostBaendeData().Wait();
+// APIC.CreateInhalteData();
+// APIC.PostInhalteData().Wait();
 
 IEnumerable<DATAFile> getDATA_OLD() {
     var sourcedir = OLD_DATADIR;
