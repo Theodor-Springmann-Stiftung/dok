@@ -16,12 +16,12 @@
 <od:tableProperty name="GUID" type="9" value="pmo9D80bGUaaKOozhpTCSA==
 "/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
-<od:tableProperty name="OrderByOn" type="1" value="0"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACmaj0PzRsZRpoo6jOGlMJIAAAAABCnpofPDuZAAAAAAAAAAABCAGEA
-ZQBuAGQAZQAAAAAAAAAh+iJRldmnR4DEzBr1YEJrBwAAAKZqPQ/NGxlGmijqM4aU
-wkhJAEQAAAAAAAAAHHzCYy5VFU6BbxdmLI3W8gcAAACmaj0PzRsZRpoo6jOGlMJI
-QgBJAEIATABJAE8ALQBJAEQAAAAAAAAAhnDnxT7IyEC8zzxy8VyFUAcAAACmaj0P
-zRsZRpoo6jOGlMJIUwBPAFIAVABJAEUAUgBUAEkAVABFAEwAAAAAAAAA0UKPIp5g
+<od:tableProperty name="OrderByOn" type="1" value="1"/>
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACmaj0PzRsZRpoo6jOGlMJIAAAAAOuNH5DPDuZAAAAAAAAAAABCAGEA
+ZQBuAGQAZQAAAAAAAACGcOfFPsjIQLzPPHLxXIVQBwAAAKZqPQ/NGxlGmijqM4aU
+wkhTAE8AUgBUAEkARQBSAFQASQBUAEUATAAAAAAAAAAh+iJRldmnR4DEzBr1YEJr
+BwAAAKZqPQ/NGxlGmijqM4aUwkhJAEQAAAAAAAAAHHzCYy5VFU6BbxdmLI3W8gcA
+AACmaj0PzRsZRpoo6jOGlMJIQgBJAEIATABJAE8ALQBJAEQAAAAAAAAA0UKPIp5g
 fEStsTdgl1LfnQcAAACmaj0PzRsZRpoo6jOGlMJIVABJAFQARQBMAAAAAAAAAANR
 +ZlgPMtFlBnBJuWOOe4HAAAApmo9D80bGUaaKOozhpTCSE8AUgBUAAAAAAAAAMrN
 rfDBrcJOiNDew3YKoncHAAAApmo9D80bGUaaKOozhpTCSEoAQQBIAFIAAAAAAAAA
@@ -54,6 +54,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
+<od:tableProperty name="OrderBy" type="12" value="[Baende].[SORTIERTITEL]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -64,7 +65,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <od:fieldProperty name="GUID" type="9" value="IfoiUZXZp0eAxMwa9WBCaw==
 "/>
 <od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
-<od:fieldProperty name="ColumnOrder" type="3" value="0"/>
+<od:fieldProperty name="ColumnOrder" type="3" value="1"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="TextAlign" type="2" value="0"/>
 <od:fieldProperty name="AggregateType" type="4" value="-1"/>
@@ -97,7 +98,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAAAAAAAAAAAAAAA=
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="hnDnxT7IyEC8zzxy8VyFUA==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="6060"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="10890"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="Required" type="1" value="0"/>

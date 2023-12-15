@@ -19,7 +19,7 @@
 <od:tableProperty name="PublishToWeb" type="2" value="1"/>
 <od:tableProperty name="Orientation" type="2" value="0"/>
 <od:tableProperty name="OrderByOn" type="1" value="1"/>
-<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAISufsHvDeZAAAAAAAAAAAAqAFIA
+<od:tableProperty name="NameMap" type="11" value="CswOVQAAAACdT+xu9DRuQqrGtWWDeNFXAAAAAGPEP8luGuZAAAAAAAAAAAAqAFIA
 RQBMAEEAVABJAE8ATgBfAEIAYQBlAG4AZABlAFIAZQBpAGgAZQBuAAAAAAAAAIPB
 ki5ZNfhAlG/+CsBGiekHAAAAnU/sbvQ0bkKqxrVlg3jRV0kARAAAAAAAAACmaj0P
 zRsZRpoo6jOGlMJIAAAAAOuNH5DPDuZAAAAAAAAAAABCAGEAZQBuAGQAZQAAAAAA
@@ -32,12 +32,12 @@ qsa1ZYN40VdCAEEATgBEAAAAAAAAAFrg6+fVmzxHhvmYCFfOk6EAAAAAFoNLyMwN
 gAOC1QAyrU2cLNPFSTKbYgcAAABa4Ovn1Zs8R4b5mAhXzpOhSQBEAAAAAAAAAJPe
 yFePHkpBrB67QRyEQ68HAAAAWuDr59WbPEeG+ZgIV86ToUIARQBaAEkARQBIAFUA
 TgBHAAAAAAAAAAy26xgpmJ9IqYRGE4anexEHAAAAnU/sbvQ0bkKqxrVlg3jRV0IA
-RQBaAEkARQBIAFUATgBHAAAAAAAAAHKuq9xsJrVAk9GgQWhaLcgAAAAA0U2w3M4V
+RQBaAEkARQBIAFUATgBHAAAAAAAAAHKuq9xsJrVAk9GgQWhaLcgAAAAAIitIGtAW
 5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAAAAAAAMzl2zdkjvJFoMAfCUGsaRMHAAAA
 cq6r3GwmtUCT0aBBaFotyEkARAAAAAAAAADY5smZJC9NT43qyxogJQdTBwAAAHKu
 q9xsJrVAk9GgQWhaLchTAE8AUgBUAEkARQBSAE4AQQBNAEUAAAAAAAAA8yR1jCGF
 JU2iN3WHPJw5PwcAAACdT+xu9DRuQqrGtWWDeNFXUgBFAEkASABFAAAAAAAAAGAh
-KTarytBEuAADDBIC/qQBAAAAvrqM1w0V5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAA
+KTarytBEuAADDBIC/qQBAAAAHIWH+pAZ5kAAAAAAAAAAAFIAZQBpAGgAZQBuAAAA
 AAAAAMZB1gxE7plOlT/q1szkpY8HAAAAnU/sbvQ0bkKqxrVlg3jRV0EATgBNAEUA
 UgBLAFUATgBHAEUATgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAA
 AAAAAAAAAAAAAA==
@@ -59,7 +59,7 @@ AAAAAAAAAAAAAA==
 <od:tableProperty name="ReadOnlyWhenDisconnected" type="1" value="0"/>
 <od:tableProperty name="DatasheetGridlinesThemeColorIndex" type="4" value="3"/>
 <od:tableProperty name="DatasheetForeThemeColorIndex" type="4" value="0"/>
-<od:tableProperty name="OrderBy" type="12" value="[Lookup_BAND].[SORTIERTITEL]"/>
+<od:tableProperty name="OrderBy" type="12" value="[Lookup_BAND].[SORTIERTITEL], [Lookup_REIHE].[SORTIERNAME], [Lookup_BEZIEHUNG].[BEZIEHUNG]"/>
 </xsd:appinfo>
 </xsd:annotation>
 <xsd:complexType>
@@ -84,7 +84,7 @@ AAAAAAAAAAAAAA==
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="duxwbpGdFUe+21WEASHUWw==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="11030"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="2400"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
@@ -114,7 +114,7 @@ AAAAAAAAAAAAAA==
 <xsd:appinfo>
 <od:fieldProperty name="GUID" type="9" value="DLbrGCmYn0iphEYThqd7EQ==
 "/>
-<od:fieldProperty name="ColumnWidth" type="3" value="-1"/>
+<od:fieldProperty name="ColumnWidth" type="3" value="5175"/>
 <od:fieldProperty name="ColumnOrder" type="3" value="0"/>
 <od:fieldProperty name="ColumnHidden" type="1" value="0"/>
 <od:fieldProperty name="DecimalPlaces" type="2" value="255"/>
