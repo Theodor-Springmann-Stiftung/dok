@@ -6,6 +6,7 @@ using MusenalmConverter.Migration.AlteDBXML;
 using MusenalmConverter.Migration.MittelDBXML;
 using System.Text;
 using MusenalmConverter.API;
+using System.Text.RegularExpressions;
 
 const string OLD_DATADIR = "./_input/data/";
 const string MID_DATADIR = "./_input/data_uebertragung/";
@@ -35,6 +36,7 @@ log.SetFile(LOGFILE);
 var mdata = getDATA_MID();
 // var mscheme = unifySchemata(MITTELDIR);
 var mlib = new MittelDBXMLLibrary(mdata);
+VerlegerDump(mlib);
 // mlib.transforms_nachweis_anmerkungen();
 // mlib.Save(DESTDIR, mscheme);
 
@@ -224,17 +226,67 @@ void germanizeRDA(string sourcedir, bool html) {
     }
 }
 
-// void exportReihen(NeueDBXMLLibrary library, string outpath) {
-//     var rs = library.Reihen.OrderBy(x => x.Sortiername).ThenBy(x => x.ID);
-//     var bs = library.Baende.ToDictionary(x => x.ID);
-//     var reld = library.RELATION_BaendeReihen.ToLookup(x => x.Reihe);
-//     var sb = new StringBuilder();
-//     foreach (var r in rs) {
-//         sb.AppendLine(r.Sortiername);
-//     }
+void VerlegerDump(MittelDBXMLLibrary mDB) {
+    var rgxVerleger = new Regex(@"(?<=\()[^()]*(?=\))");
+    var Verleger = new Dictionary<string, List<string>>();
+    var orte = new Dictionary<string, List<string>>();
 
-//     System.IO.File.WriteAllText(outpath, sb.ToString());
-// }
+    void insertOrt(Dictionary<string, List<string>> dict, string ort, string band) {
+        ort = ort.Trim();
+        ort = ort.Replace("  ", " ");
+        ort = ort.Replace(" u. ", "; ");
+        ort = ort.Replace(" u ", "; ");
+        ort = ort.Replace(" und ", "; ");
+        ort = ort.Replace(", ", "; ");
+        if (!dict.ContainsKey(ort)) dict.Add(ort, new List<string>());
+        dict[ort].Add(band);
+    }
+
+    foreach (var a in mDB.Baende) {
+        if (String.IsNullOrWhiteSpace(a.ORT)) {
+            insertOrt(orte, "<KEINE ORTSANGABE>", a.ID.ToString());
+            continue;
+        };
+        var v = rgxVerleger.Matches(a.ORT);
+        if (v.Count > 0) {
+            var nort = a.ORT;
+            foreach (var match in v) {
+                var verlag = match.ToString();
+                if (nort.Contains(" (" + verlag + ")")) {
+                    nort = nort.Replace(" (" + verlag + ")", "").Trim();
+                } else {
+                    nort = nort.Replace("(" + verlag + ")", "").Trim();
+                }
+                if (!Verleger.ContainsKey(verlag)) Verleger.Add(verlag, new List<string>());
+                Verleger[verlag].Add(a.ID.ToString());
+            }
+            insertOrt(orte, nort, a.ID.ToString());
+        } else {
+            insertOrt(orte, a.ORT, a.ID.ToString());
+        }
+    }
+
+
+    var sb = new StringBuilder();
+    sb.Append("Velagsangabe,Bände\n");
+    var Sorted = Verleger.OrderBy(x => x.Key);
+    foreach (var v in Sorted) {
+        sb.Append(v.Key + "," + String.Join(";", v.Value) + "\n");
+    }
+
+    File.WriteAllText(DESTDIR + "veleger.csv", sb.ToString());
+
+
+    var sb2 = new StringBuilder();
+    sb2.Append("Ortsangabe,Bände\n");
+    var Sorted2 = orte.OrderBy(x => x.Key);
+    foreach (var v in Sorted2) {
+        sb2.Append(v.Key + "," + String.Join(";", v.Value) + "\n");
+    }
+
+    File.WriteAllText(DESTDIR + "orte.csv", sb2.ToString());
+}
+
 
 public class DATAFile {
     public string BaseElementName { get; private set; }
