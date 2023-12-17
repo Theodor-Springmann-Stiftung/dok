@@ -274,7 +274,7 @@ void VerlegerDump(MittelDBXMLLibrary mDB) {
         sb.Append(v.Key + "," + String.Join(";", v.Value) + "\n");
     }
 
-    File.WriteAllText(DESTDIR + "veleger.csv", sb.ToString());
+    File.WriteAllText(DESTDIR + "veleger.txt", sb.ToString());
 
 
     var sb2 = new StringBuilder();
@@ -284,7 +284,7 @@ void VerlegerDump(MittelDBXMLLibrary mDB) {
         sb2.Append(v.Key + "," + String.Join(";", v.Value) + "\n");
     }
 
-    File.WriteAllText(DESTDIR + "orte.csv", sb2.ToString());
+    File.WriteAllText(DESTDIR + "orte.txt", sb2.ToString());
 }
 
 
