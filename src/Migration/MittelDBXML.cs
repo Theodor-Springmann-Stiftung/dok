@@ -120,7 +120,7 @@ public class Baende {
     public string? TITEL;
     [XmlElement]
     public string? HERAUSGEBER;
-    [XmlElement]
+    [XmlElement("ORT-ALT")]
     public string? ORT;
     [XmlElement]
     public long? JAHR = null;
@@ -142,6 +142,9 @@ public class Baende {
     public bool ERFASST;
     public bool VORHANDEN;
 
+    [XmlElement]
+    public Ort[]? ORTE;
+
     public bool ShouldSerializeJAHR() => JAHR != null;
     public bool ShouldSerializeSORTIERTITEL() => !String.IsNullOrWhiteSpace(SORTIERTITEL);
     public bool ShouldSerializeHERAUSGEBER() => !String.IsNullOrWhiteSpace(HERAUSGEBER);
@@ -150,10 +153,30 @@ public class Baende {
     public bool ShouldSerializeSTRUKTUR() => !String.IsNullOrWhiteSpace(STRUKTUR);
     public bool ShouldSerializeNACHWEIS() => !String.IsNullOrWhiteSpace(NACHWEIS);
     public bool ShouldSerializeNORM() => !String.IsNullOrWhiteSpace(NORM);
+    public bool ShouldSerializeORTE() => ORTE != null;
 
     public bool ShouldSerializeANMERKUNGEN() => !String.IsNullOrWhiteSpace(ANMERKUNGEN);
     public bool ShouldSerializeSTATUS() => STATUS != null;
 }
+
+[XmlRoot("ORTE")]
+public class Ort {
+    [XmlElement]
+    public long? Value;
+}
+
+[XmlRoot("Orte")]
+public class Orte {
+    [XmlElement]
+    public long? ID;
+    [XmlElement]
+    public string? NAME;
+    [XmlElement]
+    public string? Anmerkungen;
+
+    public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
+}
+
 
 [XmlRoot("*RELATION_InhalteAkteure")]
 public class RELATION_InhalteAkteure {

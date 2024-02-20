@@ -1,40 +1,42 @@
 namespace MusenalmConverter.Migration.MittelDBXML;
 using MusenalmConverter.Migration.AlteDBXML;
+using MusenalmConverter.Migration.CSV;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-public class MittelDBXMLLibrary {
+public class MittelDBXMLLibrary
+{
     private static List<string[]> TYP = new List<string[]> {
-        new string [] { "Corrigenda" }, 
-        new string [] { "Diagramm" }, 
-        new string [] { "Gedicht/Lied", "Gedicht" }, 
-        new string [] { "Graphik", "Graphik/Tafel" }, 
-        new string [] { "Graphik-Verzeichnis", "G-Verz" }, 
-        new string [] { "graph. Anleitung" }, 
-        new string [] { "graph. Strickanleitung" }, 
-        new string [] { "graph. Tanzanleitung" }, 
-        new string [] { "Inhaltsverzeichnis", "I-Verz" }, 
-        new string [] { "Kalendarium", "Kalender" }, 
-        new string [] { "Karte" }, 
-        new string [] { "Musikbeigabe" }, 
-        new string [] { "Musikbeigaben-Verzeichnis", "MusBB-Verz" }, 
-        new string [] { "Motto" }, 
-        new string [] { "Prosa" }, 
-        new string [] { "Rätsel" }, 
-        new string [] { "Sammlung" }, 
-        new string [] { "Spiegel" }, 
-        new string [] { "szen. Darstellung" }, 
-        new string [] { "Tabelle" }, 
-        new string [] { "Tafel", "Graphik/Tafel" }, 
-        new string [] { "Titel" }, 
-        new string [] { "Text" }, 
-        new string [] { "Trinkspruch" }, 
-        new string [] { "Umschlag" }, 
+        new string [] { "Corrigenda" },
+        new string [] { "Diagramm" },
+        new string [] { "Gedicht/Lied", "Gedicht" },
+        new string [] { "Graphik", "Graphik/Tafel" },
+        new string [] { "Graphik-Verzeichnis", "G-Verz" },
+        new string [] { "graph. Anleitung" },
+        new string [] { "graph. Strickanleitung" },
+        new string [] { "graph. Tanzanleitung" },
+        new string [] { "Inhaltsverzeichnis", "I-Verz" },
+        new string [] { "Kalendarium", "Kalender" },
+        new string [] { "Karte" },
+        new string [] { "Musikbeigabe" },
+        new string [] { "Musikbeigaben-Verzeichnis", "MusBB-Verz" },
+        new string [] { "Motto" },
+        new string [] { "Prosa" },
+        new string [] { "Rätsel" },
+        new string [] { "Sammlung" },
+        new string [] { "Spiegel" },
+        new string [] { "szen. Darstellung" },
+        new string [] { "Tabelle" },
+        new string [] { "Tafel", "Graphik/Tafel" },
+        new string [] { "Titel" },
+        new string [] { "Text" },
+        new string [] { "Trinkspruch" },
+        new string [] { "Umschlag" },
         new string [] { "Widmung" }
-    }; 
+    };
 
     private static string[] PAG = new string[] {
         "ar",
@@ -56,6 +58,7 @@ public class MittelDBXMLLibrary {
     public List<Inhalte> Inhalte;
     public List<Reihen> Reihen;
     public List<Baende> Baende;
+    public List<Orte> Orte;
     public List<RELATION_InhalteAkteure> RELATION_InhalteAkteure;
     public List<RELATION_BaendeAkteure> RELATION_BaendeAkteure;
     public List<RELATION_BaendeReihen> RELATION_BaendeReihen;
@@ -64,7 +67,8 @@ public class MittelDBXMLLibrary {
     private AlteDBXMLLibrary _alteDB;
     private LogSink _logSink;
 
-    public MittelDBXMLLibrary(IEnumerable<DATAFile> files, AlteDBXMLLibrary alteDB) {
+    public MittelDBXMLLibrary(IEnumerable<DATAFile> files, AlteDBXMLLibrary alteDB)
+    {
         _logSink = LogSink.Instance;
         _dataFiles = files;
         _alteDB = alteDB;
@@ -73,83 +77,127 @@ public class MittelDBXMLLibrary {
         ParseInhalte();
     }
 
-    
+
     // For now only deserializing Baende, Reihen & their relations are supported    
-    public MittelDBXMLLibrary(IEnumerable<DATAFile> files) {
-        RELATION_BaendeReihen = new ();
-        RELATION_BaendeAkteure = new ();
-        RELATION_InhalteAkteure = new ();
-        Baende = new ();
-        Reihen = new ();
-        Inhalte = new ();
-        Akteure = new ();
+    public MittelDBXMLLibrary(IEnumerable<DATAFile> files)
+    {
+        RELATION_BaendeReihen = new();
+        RELATION_BaendeAkteure = new();
+        RELATION_InhalteAkteure = new();
+        Baende = new();
+        Reihen = new();
+        Inhalte = new();
+        Akteure = new();
+        Orte = new();
         var RELATION_BaendeReihenS = new XmlSerializer(typeof(RELATION_BaendeReihen));
         var BaendeS = new XmlSerializer(typeof(Baende));
         var ReihenS = new XmlSerializer(typeof(Reihen));
         var InhalteS = new XmlSerializer(typeof(Inhalte));
         var AkteureS = new XmlSerializer(typeof(Akteure));
+        var OrteS = new XmlSerializer(typeof(Orte));
         var RELATION_BaendeAkteureS = new XmlSerializer(typeof(RELATION_BaendeAkteure));
         var RELATION_InhalteAkteureS = new XmlSerializer(typeof(RELATION_InhalteAkteure));
-        foreach (var f in files) {
+        foreach (var f in files)
+        {
             var elements = f.Document.Root.Elements(f.BaseElementName);
-            foreach (var e in elements) {
-                if (f.BaseElementName == "_x002A_RELATION_BaendeReihen") {
+            foreach (var e in elements)
+            {
+                if (f.BaseElementName == "_x002A_RELATION_BaendeReihen")
+                {
                     RELATION_BaendeReihen i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (RELATION_BaendeReihen)RELATION_BaendeReihenS.Deserialize(r);
                     }
                     if (i != null) RELATION_BaendeReihen.Add(i);
                 }
-                else if (f.BaseElementName == "Baende") {
+                else if (f.BaseElementName == "Baende")
+                {
                     Baende i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (Baende)BaendeS.Deserialize(r);
                     }
-                    if(i != null) Baende.Add(i);
+                    if (i != null) Baende.Add(i);
+
+                    if (i != null && i.ORTE != null)
+                    {
+                        foreach (var o in i.ORTE)
+                        {
+                            Console.WriteLine(o.Value);
+                        }
+                    }
                 }
-                else if (f.BaseElementName == "Reihen") {
+                else if (f.BaseElementName == "Reihen")
+                {
                     Reihen i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (Reihen)ReihenS.Deserialize(r);
                     }
-                    if(i != null) Reihen.Add(i);
-                } else if (f.BaseElementName == "Inhalte") {
+                    if (i != null) Reihen.Add(i);
+                }
+                else if (f.BaseElementName == "Inhalte")
+                {
                     Inhalte i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (Inhalte)InhalteS.Deserialize(r);
                     }
-                    if(i != null) Inhalte.Add(i);
-                } else if (f.BaseElementName == "Akteure") {
+                    if (i != null) Inhalte.Add(i);
+                }
+                else if (f.BaseElementName == "Akteure")
+                {
                     Akteure i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (Akteure)AkteureS.Deserialize(r);
                     }
-                    if(i != null) Akteure.Add(i);
-                } else if (f.BaseElementName == "_x002A_RELATION_BaendeAkteure") {
+                    if (i != null) Akteure.Add(i);
+                }
+                else if (f.BaseElementName == "_x002A_RELATION_BaendeAkteure")
+                {
                     RELATION_BaendeAkteure i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (RELATION_BaendeAkteure)RELATION_BaendeAkteureS.Deserialize(r);
                     }
-                    if(i != null) RELATION_BaendeAkteure.Add(i);
-                } else if (f.BaseElementName == "_x002A_RELATION_InhalteAkteure") {
+                    if (i != null) RELATION_BaendeAkteure.Add(i);
+                }
+                else if (f.BaseElementName == "_x002A_RELATION_InhalteAkteure")
+                {
                     RELATION_InhalteAkteure i;
-                    using (XmlReader r = e.CreateReader()) {
+                    using (XmlReader r = e.CreateReader())
+                    {
                         i = (RELATION_InhalteAkteure)RELATION_InhalteAkteureS.Deserialize(r);
                     }
-                    if(i != null) RELATION_InhalteAkteure.Add(i);
+                    if (i != null) RELATION_InhalteAkteure.Add(i);
+                }
+                else if (f.BaseElementName == "Orte")
+                {
+                    Orte i;
+                    using (XmlReader r = e.CreateReader())
+                    {
+                        i = (Orte)OrteS.Deserialize(r);
+                    }
+                    if (i != null) Orte.Add(i);
                 }
             }
         }
     }
 
-    public void transforms_nachweis_anmerkungen() {
+    public void transforms_nachweis_anmerkungen()
+    {
         List<(Baende, Reihen)> br = new();
         var rella = this.RELATION_BaendeReihen.ToLookup(x => x.REIHE);
         var bla = this.Baende.ToDictionary(x => x.ID);
-        foreach (var  r in this.Reihen) {
-            if (rella.Contains(r.ID)) {
+        foreach (var r in this.Reihen)
+        {
+            if (rella.Contains(r.ID))
+            {
                 var b = rella[r.ID].Select(x => bla[x.BAND]).OrderBy(x => x.JAHR);
-                if (String.IsNullOrWhiteSpace(r.Anmerkungen)) {
+                if (String.IsNullOrWhiteSpace(r.Anmerkungen))
+                {
                     r.Anmerkungen = b.First()?.ANMERKUNGEN;
                     b.First().ANMERKUNGEN = string.Empty;
                 }
@@ -157,19 +205,25 @@ public class MittelDBXMLLibrary {
             }
         }
     }
-    
-    private void namesFromREALNAMEN() {
+
+    private void namesFromREALNAMEN()
+    {
         var notfound = new List<(string, REALNAMETab)>();
         var names = new Dictionary<string, Akteure>();
         var hashset = _alteDB.REALNAMETab.Select(x => x.REALNAME).ToHashSet();
         var toparse = _alteDB.REALNAMETab;
-        foreach (var n in toparse) {
-            var composite = n.REALNAME.Split(new string[] {";", " u."}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-            if (composite.Length > 1) {
+        foreach (var n in toparse)
+        {
+            var composite = n.REALNAME.Split(new string[] { ";", " u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            if (composite.Length > 1)
+            {
                 var nf = composite.Where(x => !hashset.Contains(x));
                 if (nf != null && nf.Any()) notfound.AddRange(nf.Select(x => (x, n)));
-            } else {
-                names.Add(n.REALNAME.Trim(), new Akteure() {
+            }
+            else
+            {
+                names.Add(n.REALNAME.Trim(), new Akteure()
+                {
                     NAME = n.REALNAME.Trim(),
                     NACHWEIS = trimOrNull(n.Nachweis),
                     LEBENSDATEN = trimOrNull(n.Daten),
@@ -178,14 +232,17 @@ public class MittelDBXMLLibrary {
                 });
             }
         }
-        
+
         var orderednames = names.OrderBy(x => x.Key).Select(x => x.Value).ToList();
 
-        foreach (var n in notfound) {
+        foreach (var n in notfound)
+        {
             _logSink.LogLine("Name " + n.Item1.Trim() + " nicht gefunden. Herkunft: REALNAME-Tab " + n.Item2.REALNAME);
-            if (!names.ContainsKey(n.Item1.Trim())) {
+            if (!names.ContainsKey(n.Item1.Trim()))
+            {
                 var name = n.Item1.Split(',').Reverse();
-                var akteur = new Akteure() {
+                var akteur = new Akteure()
+                {
                     NAME = String.Join(" ", name),
                     ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus REALNAMEN-Tab",
                 };
@@ -196,7 +253,8 @@ public class MittelDBXMLLibrary {
 
         if (Akteure == null) Akteure = new List<Akteure>();
         int id = 1;
-        foreach (var n in orderednames) {
+        foreach (var n in orderednames)
+        {
             n.ID = id;
             Akteure.Add(n);
             id++;
@@ -205,7 +263,8 @@ public class MittelDBXMLLibrary {
 
     }
 
-    public void ParseReihenOrteExemplareBaende() {
+    public void ParseReihenOrteExemplareBaende()
+    {
         var names = new Dictionary<string, Akteure>();
         var werkeAkteure = new List<RELATION_BaendeAkteure>();
         var reihen = new HashSet<string>();
@@ -214,8 +273,8 @@ public class MittelDBXMLLibrary {
         var abschnitte = new Dictionary<long, string>();
         var werke = new Dictionary<long, Baende>();
         var werkeorte = new Dictionary<long, List<string>>();
-        var werkedrucker = new Dictionary<long, List<string>>(); 
-        var werkehrsg = new Dictionary<long, List<string>>(); 
+        var werkedrucker = new Dictionary<long, List<string>>();
+        var werkehrsg = new Dictionary<long, List<string>>();
         var toparse = _alteDB.AlmNeu;
         var idakt = Akteure.Count + 1;
         Regex rgxnormabschnitt = new Regex(@"\s?\d{4}\s?");
@@ -223,21 +282,28 @@ public class MittelDBXMLLibrary {
         Regex rgxeck = new Regex(@"(?<=\()[^()]*(?=\))");
         Regex rgxfourendnumbers = new Regex(@"\s?(\d{4},\s?\d{4}|\d{4}\/\d{4}|19\d{2}|18\d{2}|17\d{2}|\[oJ\]|Bd \d \[o\.J\.\]|\[o\.J\.\])(-\d$)?(\s?\(\d\))?(\s\(2\.\))?(\s1\su\.\s2)?(\s?\[var\.?\]$)?(\s?1\.)?(\(Titelauflage\))?\s?");
         Regex rgxausgabe = new Regex(@"(?<=-)\d(?=\s?$)");
-        foreach (var n in toparse) {
+        foreach (var n in toparse)
+        {
 
             // Verleger
             var ort = n.Value.ORT;
-            if (!String.IsNullOrWhiteSpace(ort)) {
+            if (!String.IsNullOrWhiteSpace(ort))
+            {
                 var matches = rgxround.Matches(ort);
 
-                if (matches != null && matches.Any()) {
+                if (matches != null && matches.Any())
+                {
                     werkedrucker.Add(n.Value.NUMMER, new List<string>());
-                    foreach (var m in matches) {
+                    foreach (var m in matches)
+                    {
                         ort = ort.Replace("(" + m.ToString() + ")", null);
-                        var splittednames = m.ToString().Split(new string[] {"/", ";"}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                        foreach (var na in splittednames) {
-                            if (!names.ContainsKey(na)) {
-                                names.Add(na, new Akteure() {
+                        var splittednames = m.ToString().Split(new string[] { "/", ";" }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                        foreach (var na in splittednames)
+                        {
+                            if (!names.ContainsKey(na))
+                            {
+                                names.Add(na, new Akteure()
+                                {
                                     ID = idakt,
                                     ORGANISATION = true,
                                     NAME = na,
@@ -252,20 +318,24 @@ public class MittelDBXMLLibrary {
             }
 
             // Reihen
-            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL))
+            {
                 reihenwerke.Add(n.Value.NUMMER, new List<string>());
                 var composite = n.Value.REIHENTITEL.Split("/)", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                foreach (var e in composite) {
+                foreach (var e in composite)
+                {
                     var reihe = e;
                     var m = rgxfourendnumbers.Matches(e);
-                    if (m != null && m.Any())  {
+                    if (m != null && m.Any())
+                    {
                         var abschnitt = m.Last().ToString();
                         var normabs = rgxnormabschnitt.Match(abschnitt);
-                        if (normabs.Length < abschnitt.Length) {
+                        if (normabs.Length < abschnitt.Length)
+                        {
                             if (!abschnitte.ContainsKey(n.Value.NUMMER)) abschnitte.Add(n.Value.NUMMER, abschnitt);
                             else abschnitte[n.Value.NUMMER] += abschnitt;
                         }
-                        
+
                         reihe = e.Replace(abschnitt, null);
                     }
                     if (!reihen.Contains(reihe)) reihen.Add(reihe);
@@ -274,21 +344,24 @@ public class MittelDBXMLLibrary {
             }
 
             // Herausgaber
-            if (!String.IsNullOrWhiteSpace(n.Value.HRSGREALNAME)) {
-                var composite = n.Value.HRSGREALNAME.Split(new string[] {";", " u."}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            if (!String.IsNullOrWhiteSpace(n.Value.HRSGREALNAME))
+            {
+                var composite = n.Value.HRSGREALNAME.Split(new string[] { ";", " u." }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                 werkehrsg.Add(n.Value.NUMMER, new List<string>());
-                foreach (var c in composite) {
+                foreach (var c in composite)
+                {
                     werkehrsg[n.Value.NUMMER].Add(c);
                 }
             }
-            
+
             var vorh = trimOrNull(n.Value.VORHANDENALS);
             Status[]? status = null;
-            if (vorh != null) {
-                if (vorh == "Original") status = new Status[] { new Status() { Value = "Original vorhanden" }};
-                if (vorh == "Reprint") status = new Status[] { new Status() { Value = "Reprint vorhanden" }};;
-                if (vorh == "fremde Herkunft") status = new Status[] { new Status() { Value = "Fremde Herkunft" }};;
-                if (vorh == "Reprint u. fremde Herkunft") status = new Status[] { 
+            if (vorh != null)
+            {
+                if (vorh == "Original") status = new Status[] { new Status() { Value = "Original vorhanden" } };
+                if (vorh == "Reprint") status = new Status[] { new Status() { Value = "Reprint vorhanden" } }; ;
+                if (vorh == "fremde Herkunft") status = new Status[] { new Status() { Value = "Fremde Herkunft" } }; ;
+                if (vorh == "Reprint u. fremde Herkunft") status = new Status[] {
                     new Status() { Value = "Reprint vorhanden" },
                     new Status() { Value = "Fremde Herkunft" },
                 };
@@ -296,13 +369,15 @@ public class MittelDBXMLLibrary {
 
             // Ausgabe
             var ausg = 1;
-            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL)) {
+            if (!String.IsNullOrWhiteSpace(n.Value.REIHENTITEL))
+            {
                 var m = rgxausgabe.Matches(n.Value.REIHENTITEL);
                 if (m != null && m.Count > 0) ausg = Int32.Parse(m.Last().ToString());
             }
 
             // Baende: ID (NUMMER), TITEL, TitelTranskription, Reihe, Jahr, Ausgabe, Struktur, Nachweis, Anmerkungen
-            werke.Add(n.Value.NUMMER, new Baende() {
+            werke.Add(n.Value.NUMMER, new Baende()
+            {
                 ID = n.Value.NUMMER,
                 SORTIERTITEL = trimOrNull(n.Value.ALMTITEL),
                 TITEL = trimOrNull(n.Value.ALMTITEL),
@@ -321,15 +396,17 @@ public class MittelDBXMLLibrary {
                 VORHANDEN = n.Value.VORHANDEN
             });
         }
-        
+
 
         // REIHEN SORTIEREN
         var ordrh = reihen.OrderBy(x => x);
         var idrh = 1;
-        foreach (var n in ordrh) {
+        foreach (var n in ordrh)
+        {
             var rname = n.Split(',').Reverse();
             if (Reihen == null) Reihen = new List<Reihen>();
-            Reihen.Add(new Reihen() {
+            Reihen.Add(new Reihen()
+            {
                 ID = idrh,
                 SORTIERNAME = n,
                 NAME = String.Join(" ", rname)
@@ -338,9 +415,12 @@ public class MittelDBXMLLibrary {
         }
 
         // RELATIONEN SETZEN
-        foreach (var n in werkedrucker) {
-            foreach (var m in n.Value) {
-                werkeAkteure.Add(new RELATION_BaendeAkteure() {
+        foreach (var n in werkedrucker)
+        {
+            foreach (var m in n.Value)
+            {
+                werkeAkteure.Add(new RELATION_BaendeAkteure()
+                {
                     BAND = n.Key,
                     BEZIEHUNG = 6,
                     AKTEUR = names[m].ID
@@ -348,12 +428,16 @@ public class MittelDBXMLLibrary {
             }
         }
 
-        foreach (var n in werkehrsg) {
-            foreach (var m in n.Value) {
+        foreach (var n in werkehrsg)
+        {
+            foreach (var m in n.Value)
+            {
                 var akteur = this.Akteure.Where(x => x.NAME == m).FirstOrDefault();
-                if (akteur == null) {
+                if (akteur == null)
+                {
                     _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: AlmNeu Nr. " + n.Key);
-                    akteur = new Akteure() {
+                    akteur = new Akteure()
+                    {
                         ID = idakt,
                         NAME = m,
                         ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (AlmNeu Nr. " + n.Key + ")",
@@ -361,7 +445,8 @@ public class MittelDBXMLLibrary {
                     Akteure.Add(akteur);
                     idakt++;
                 }
-                werkeAkteure.Add(new RELATION_BaendeAkteure() {
+                werkeAkteure.Add(new RELATION_BaendeAkteure()
+                {
                     BAND = n.Key,
                     BEZIEHUNG = 5,
                     AKTEUR = akteur.ID
@@ -369,11 +454,15 @@ public class MittelDBXMLLibrary {
             }
         }
 
-        foreach (var n in reihenwerke) {
-            foreach (var m in n.Value) {
+        foreach (var n in reihenwerke)
+        {
+            foreach (var m in n.Value)
+            {
                 var reihe = Reihen.Where(x => x.SORTIERNAME == m).FirstOrDefault();
-                if (reihe != null) {
-                    reihenBaende.Add(new RELATION_BaendeReihen() {
+                if (reihe != null)
+                {
+                    reihenBaende.Add(new RELATION_BaendeReihen()
+                    {
                         BAND = n.Key,
                         BEZIEHUNG = 1,
                         REIHE = reihe.ID
@@ -388,7 +477,8 @@ public class MittelDBXMLLibrary {
         Baende = werke.Values.ToList();
     }
 
-    private void ParseInhalte() {
+    private void ParseInhalte()
+    {
         var toparse = _alteDB.INHTab;
         var inaut = new Dictionary<long, List<string>>();
         var ingra = new Dictionary<long, List<string>>();
@@ -397,24 +487,31 @@ public class MittelDBXMLLibrary {
         var inhAkteure = new List<RELATION_InhalteAkteure>();
         var inhalte = new List<Inhalte>();
         var idakt = Akteure.Count + 1;
-        foreach (var n in toparse) {
+        foreach (var n in toparse)
+        {
             // Seite
             string? seite = n.Value.SEITE != null ? n.Value.SEITE.Split(".").First() : null;
 
             // Wird auf einen Band verwiesen, den es gar nicht gibt?
             var band = Baende.Where(x => x.ID == n.Value.ID);
-            if (band == null || !band.Any()) {
+            if (band == null || !band.Any())
+            {
                 _logSink.LogLine("Band " + n.Value.ID + " existiert nicht. Herkunft: INHNR " + n.Value.INHNR);
                 continue;
             }
 
             // Typ
-            if (n.Value.OBJEKT != null) {
-                var tcomposite = n.Value.OBJEKT.Split(new string[] {" "}, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                foreach (var typ in TYP) {
-                    foreach (var tc in tcomposite) {
-                        foreach (var s in typ) {
-                            if (tc.Contains(s)) {
+            if (n.Value.OBJEKT != null)
+            {
+                var tcomposite = n.Value.OBJEKT.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                foreach (var typ in TYP)
+                {
+                    foreach (var tc in tcomposite)
+                    {
+                        foreach (var s in typ)
+                        {
+                            if (tc.Contains(s))
+                            {
                                 if (!intyp.ContainsKey(n.Value.INHNR)) intyp.Add(n.Value.INHNR, new List<Typ>());
                                 intyp[n.Value.INHNR].Add(new Typ() { Value = typ.First() });
                                 break;
@@ -423,44 +520,56 @@ public class MittelDBXMLLibrary {
                     }
                 }
             }
-            
+
             //Paginierung
             string? pag = null;
-            if (!String.IsNullOrWhiteSpace(n.Value.PAG)) {
-                foreach (var p in PAG) {
-                    if (n.Value.PAG.Contains(p)) {
+            if (!String.IsNullOrWhiteSpace(n.Value.PAG))
+            {
+                foreach (var p in PAG)
+                {
+                    if (n.Value.PAG.Contains(p))
+                    {
                         pag = p;
                     }
                 }
-                if (pag == null) {
+                if (pag == null)
+                {
                     _logSink.LogLine("Paginierung " + n.Value.PAG + ", INHNR " + n.Value.INHNR + " unzulässig.");
                 }
             }
-            
+
             // Graphiker:innen
-            if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME)) {
-                var composite = n.Value.AUTORREALNAME.Split(new string[] {" u.", " u " }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
-                if (composite.Length > 1) {
+            if (!String.IsNullOrWhiteSpace(n.Value.AUTORREALNAME))
+            {
+                var composite = n.Value.AUTORREALNAME.Split(new string[] { " u.", " u " }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                if (composite.Length > 1)
+                {
                     ingra.Add(n.Value.INHNR, new List<string>());
-                    foreach (var c in composite) {
+                    foreach (var c in composite)
+                    {
                         ingra[n.Value.INHNR].Add(c);
                     }
-                // Autor:innen
-                } else {
-                    composite = n.Value.AUTORREALNAME.Split(new string[] {";" }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+                    // Autor:innen
+                }
+                else
+                {
+                    composite = n.Value.AUTORREALNAME.Split(new string[] { ";" }, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
                     inaut.Add(n.Value.INHNR, new List<string>());
-                    foreach (var c in composite) {
+                    foreach (var c in composite)
+                    {
                         inaut[n.Value.INHNR].Add(c);
                     }
                 }
             }
 
             float zaehler;
-            if (!float.TryParse(n.Value.OBJZAEHL, NumberStyles.Any, CultureInfo.InvariantCulture, out zaehler)) {
+            if (!float.TryParse(n.Value.OBJZAEHL, NumberStyles.Any, CultureInfo.InvariantCulture, out zaehler))
+            {
                 _logSink.LogLine("Objektzähler " + n.Value.OBJZAEHL + " unzulässig. Herkunft INHNR " + n.Value.INHNR);
             }
 
-            inhalte.Add(new Inhalte() {
+            inhalte.Add(new Inhalte()
+            {
                 ID = n.Value.INHNR,
                 BAND = n.Value.ID,
                 TITEL = n.Value.TITEL,
@@ -470,19 +579,23 @@ public class MittelDBXMLLibrary {
                 OBJEKTNUMMER = zaehler,
                 SEITE = seite,
                 PAGINIERUNG = pag,
-                TYP = intyp.ContainsKey(n.Value.INHNR) ? intyp[n.Value.INHNR].ToArray() : null, 
+                TYP = intyp.ContainsKey(n.Value.INHNR) ? intyp[n.Value.INHNR].ToArray() : null,
                 DIGITALISAT = n.Value.BILD
             });
         }
 
 
         // Relationen setzen
-        foreach (var n in inaut) {
-            foreach (var m in n.Value) {
+        foreach (var n in inaut)
+        {
+            foreach (var m in n.Value)
+            {
                 var akteur = this.Akteure.Where(x => x.NAME == m).FirstOrDefault();
-                if (akteur == null) {
+                if (akteur == null)
+                {
                     _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
-                    akteur = new Akteure() {
+                    akteur = new Akteure()
+                    {
                         ID = idakt,
                         NAME = m,
                         ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
@@ -490,7 +603,8 @@ public class MittelDBXMLLibrary {
                     Akteure.Add(akteur);
                     idakt++;
                 }
-                inhAkteure.Add(new RELATION_InhalteAkteure() {
+                inhAkteure.Add(new RELATION_InhalteAkteure()
+                {
                     INHALT = n.Key,
                     BEZIEHUNG = 1,
                     AKTEUR = akteur.ID
@@ -499,16 +613,20 @@ public class MittelDBXMLLibrary {
         }
 
 
-        foreach (var n in ingra) {
-            if (n.Value.Count == 2) {
+        foreach (var n in ingra)
+        {
+            if (n.Value.Count == 2)
+            {
 
-                 // Zeichner:innen
+                // Zeichner:innen
                 var m = n.Value[0];
                 var zeichner = this.Akteure.Where(x => x.NAME == m).FirstOrDefault();
-                if (zeichner == null) {
+                if (zeichner == null)
+                {
                     _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
                     var name = m.Split(',').Reverse();
-                    zeichner = new Akteure() {
+                    zeichner = new Akteure()
+                    {
                         ID = idakt,
                         NAME = m,
                         ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
@@ -516,19 +634,22 @@ public class MittelDBXMLLibrary {
                     Akteure.Add(zeichner);
                     idakt++;
                 }
-                inhAkteure.Add(new RELATION_InhalteAkteure() {
+                inhAkteure.Add(new RELATION_InhalteAkteure()
+                {
                     INHALT = n.Key,
                     BEZIEHUNG = 3,
                     AKTEUR = zeichner.ID
                 });
-                
+
                 // Stecher:innen
                 m = n.Value[1];
                 var stecher = this.Akteure.Where(x => x.NAME == m).FirstOrDefault();
-                if (stecher == null) {
+                if (stecher == null)
+                {
                     _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
                     var name = m.Split(',').Reverse();
-                    stecher = new Akteure() {
+                    stecher = new Akteure()
+                    {
                         ID = idakt,
                         NAME = m,
                         ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")"
@@ -536,20 +657,26 @@ public class MittelDBXMLLibrary {
                     Akteure.Add(stecher);
                     idakt++;
                 }
-                inhAkteure.Add(new RELATION_InhalteAkteure() {
+                inhAkteure.Add(new RELATION_InhalteAkteure()
+                {
                     INHALT = n.Key,
                     BEZIEHUNG = 4,
                     AKTEUR = stecher.ID
                 });
-            } else {
+            }
+            else
+            {
 
                 // Autor:innen
-                foreach (var m in n.Value) {
+                foreach (var m in n.Value)
+                {
                     var akteur = this.Akteure.Where(x => x.NAME == m).FirstOrDefault();
-                    if (akteur == null) {
+                    if (akteur == null)
+                    {
                         _logSink.LogLine("Name " + m + " nicht gefunden. Herkunft: Inhalte INHNR  " + n.Key);
                         var name = m.Split(',').Reverse();
-                        akteur = new Akteure() {
+                        akteur = new Akteure()
+                        {
                             ID = idakt,
                             NAME = m,
                             ANMERKUNGEN = "ÜBERPRÜFEN: Autogeneriert aus HRSGREALNAME (Inhalte INHNR " + n.Key + ")",
@@ -557,7 +684,8 @@ public class MittelDBXMLLibrary {
                         Akteure.Add(akteur);
                         idakt++;
                     }
-                    inhAkteure.Add(new RELATION_InhalteAkteure() {
+                    inhAkteure.Add(new RELATION_InhalteAkteure()
+                    {
                         INHALT = n.Key,
                         BEZIEHUNG = 1,
                         AKTEUR = akteur.ID
@@ -565,27 +693,188 @@ public class MittelDBXMLLibrary {
                 }
             }
         }
-        
+
         RELATION_InhalteAkteure = inhAkteure;
         Inhalte = inhalte;
     }
 
-    public void Save(string fileroot, XDocument? schemafile) {
+    public void IntegrateCSVLibrary(CSVLibrary lib) {
+        var baende = Baende.ToLookup(x => x.ID);
+        var akteure = Akteure.ToLookup(x => x.NAME);
+        var rel_baende_akteure = RELATION_BaendeAkteure.ToLookup(x => x.BAND);
+
+        List<CSVOrte> Orte_atomic = new ();
+        List<CSVVerleger> Verleger_atomic = new ();
+
+        List<Orte> lib_orte = new ();
+        
+        foreach (var orte in lib.Orte) {
+            if (String.IsNullOrWhiteSpace(orte.Namen)) { 
+                Console.WriteLine("Baende ohne Ortsnamen: " + orte.Baende);   
+                continue;
+            }
+            if (orte.Namen.ToUpper() == "<KEINE ORTSANGABE>") continue;
+            if (orte.Namen.ToUpper() == "O.O.") continue;
+            if (orte.Namen.ToUpper() == "O. O.") continue;
+            var namen = orte.Namen.Split(";");
+            foreach (var n in namen) {
+                if (!n.StartsWith("[") && n.Contains("[")) {
+                    var split = n.Split("[");
+                    Orte_atomic.Add(new CSVOrte() {
+                        Baende = orte.Baende,
+                        Namen = split[0].Trim(),
+                    });
+                    Orte_atomic.Add(new CSVOrte() {
+                        Baende = orte.Baende,
+                        Namen = "[" + split[1].Trim(),
+                    });
+                } else {
+                    Orte_atomic.Add(new CSVOrte() {
+                        Baende = orte.Baende,
+                        Namen = n.Trim(),
+                    });
+                }
+            }
+        }
+
+        foreach (var v in lib.Verleger) {
+            var namen = v.Namen.Split(";");
+            foreach (var n in namen) {
+                var n_norm = n.Trim().ToLower();
+                if (n_norm == "herausgeber" || n_norm == "selbstverlag" || n_norm == "verlag des verfassers") {
+                    Verleger_atomic.Add(new CSVVerleger() {
+                        Baende = v.Baende,
+                        Namen = "selbstverlag",
+                    });
+                    continue;
+                } 
+                if (!n.StartsWith("[") && n.Contains("[")) {
+                    var split = n.Split("[");
+                    Verleger_atomic.Add(new CSVVerleger() {
+                        Baende = v.Baende,
+                        Namen = split[0].Trim(),
+                    });
+                    Verleger_atomic.Add(new CSVVerleger() {
+                        Baende = v.Baende,
+                        Namen = "[" + split[1].Trim(),
+                    });
+                } else {
+                    Verleger_atomic.Add(new CSVVerleger() {
+                        Baende = v.Baende,
+                        Namen = n.Trim(),
+                    });
+                }
+            }
+        }
+
+        var sorted_orte = Orte_atomic.GroupBy((x) => x.Namen).OrderBy(x => x.Key);
+        var sorted_verleger = Verleger_atomic.GroupBy((x) => x.Namen).OrderBy(x => x.Key);
+
+        var id = 1;
+        foreach (var oc in sorted_orte) {
+            lib_orte.Add(new Orte() {
+                NAME = oc.Key,
+                ID = id,
+            });
+            foreach (var o in oc) {
+                var b_split = o.Baende.Split(";").Select(x => x.Trim());
+                foreach (var b_id in b_split) {
+                    long b_id_long;
+                    if (long.TryParse(b_id, out b_id_long)) {
+                        var b = baende[b_id_long].FirstOrDefault();
+                        if (b != null) {
+                            if (b.ORTE == null) b.ORTE = new Ort[1] { new Ort() { Value = id } };
+                            else {
+                                var new_orte = new Ort[b.ORTE.Length + 1];
+                                for (int i = 0; i < b.ORTE.Length; i++) {
+                                    new_orte[i] = b.ORTE[i];
+                                }
+                                new_orte[b.ORTE.Length] = new Ort() { Value = id };
+                                b.ORTE = new_orte;
+                            }
+                        }
+                    }
+                }
+            }
+            id++;
+        }
+
+        Orte = lib_orte;
+
+        foreach (var ov in sorted_verleger) {
+            if (ov.Key == "selbstverlag") {
+                foreach (var v in ov) {
+                    var b_split = v.Baende.Split(";").Select(x => x.Trim());
+                    foreach (var b_id in b_split) {
+                        long b_id_long;
+                        if (long.TryParse(b_id, out b_id_long)) {
+                            var b = baende[b_id_long].FirstOrDefault();
+                            var r = rel_baende_akteure[b_id_long]?.Where(x => x.BEZIEHUNG == 5);
+                            if (b != null && r != null) {
+                               foreach (var hrsg in r) {
+                                    RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure() {
+                                        BAND = b.ID,
+                                        BEZIEHUNG = 6,
+                                        AKTEUR = hrsg.AKTEUR,
+                                    });
+                               }
+                            }
+                        }
+                    }
+                }
+                continue;
+            }
+
+            var a = new Akteure() {
+                ID = Akteure.Count + 1,
+                NAME = ov.Key,
+                ORGANISATION = true,
+            };
+
+            if (akteure[ov.Key].Any()) a = akteure[ov.Key].First();
+            else Akteure.Add(a);
+
+            foreach (var v in ov) {
+                var b_split = v.Baende.Split(";").Select(x => x.Trim());
+                foreach (var b_id in b_split) {
+                    long b_id_long;
+                    if (long.TryParse(b_id, out b_id_long)) {
+                        var b = baende[b_id_long].FirstOrDefault();
+                        if (b != null) {
+                            RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure() {
+                                BAND = b.ID,
+                                BEZIEHUNG = 6,
+                                AKTEUR = a.ID,
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    public void Save(string fileroot, XDocument? schemafile)
+    {
         SaveFile(fileroot, schemafile);
     }
 
-    public void SaveFile(string fileroot, XDocument? schemafile) {
-        var writer = XmlWriter.Create(fileroot + "MDB.xml", new XmlWriterSettings() {
+    public void SaveFile(string fileroot, XDocument? schemafile)
+    {
+        var writer = XmlWriter.Create(fileroot + "MDB.xml", new XmlWriterSettings()
+        {
             Indent = true,
             NewLineOnAttributes = false,
-            NewLineHandling = NewLineHandling.None, 
+            NewLineHandling = NewLineHandling.None,
         });
         XmlSerializerNamespaces ns = new XmlSerializerNamespaces();
         ns.Add("", "");
         // ns.Add("xsi", "http://www.w3.org/2001/XMLSchema-instance");
         writer.WriteStartDocument();
         writer.WriteStartElement("dataroot");
-        if (schemafile != null) {
+        if (schemafile != null)
+        {
             writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
             writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "MittelXMLSchema.xsd");
             schemafile.Save(fileroot + "MittelXMLSchema.xsd");
@@ -594,6 +883,7 @@ public class MittelDBXMLLibrary {
         saveDocument<Reihen>(writer, Reihen, ns);
         saveDocument<Baende>(writer, Baende, ns);
         saveDocument<Inhalte>(writer, Inhalte, ns);
+        saveDocument<Orte>(writer, Orte, ns);
         saveDocument<RELATION_BaendeAkteure>(writer, RELATION_BaendeAkteure, ns);
         saveDocument<RELATION_BaendeReihen>(writer, RELATION_BaendeReihen, ns);
         saveDocument<RELATION_InhalteAkteure>(writer, RELATION_InhalteAkteure, ns);
@@ -602,15 +892,18 @@ public class MittelDBXMLLibrary {
         writer.Close();
     }
 
-    private void saveDocument<T>(XmlWriter w, IEnumerable<T> coll, XmlSerializerNamespaces ns) {
+    private void saveDocument<T>(XmlWriter w, IEnumerable<T> coll, XmlSerializerNamespaces ns)
+    {
         if (coll == null || !coll.Any()) return;
         var akteurS = new XmlSerializer(typeof(T));
-        foreach (var n in coll) {
+        foreach (var n in coll)
+        {
             akteurS.Serialize(w, n, ns);
         }
     }
 
-    private string? trimOrNull(string? totrim) {
+    private string? trimOrNull(string? totrim)
+    {
         if (String.IsNullOrWhiteSpace(totrim)) return null;
         return totrim.Trim();
     }

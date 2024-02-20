@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Orte.xsd" generated="2024-02-20T14:12:36">
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Orte.xsd" generated="2024-02-20T16:26:25">
 <Orte>
 <ID>1</ID>
-<Ort>Berlin</Ort>
+<NAME>Berlin</NAME>
 </Orte>
 <Orte>
 <ID>2</ID>
-<Ort>München</Ort>
+<NAME>München</NAME>
 </Orte>
 </dataroot>

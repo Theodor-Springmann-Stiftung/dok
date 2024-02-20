@@ -7,15 +7,17 @@ using MusenalmConverter.Migration.MittelDBXML;
 using System.Text;
 using MusenalmConverter.API;
 using System.Text.RegularExpressions;
+using MusenalmConverter.Migration.CSV;
 
 const string OLD_DATADIR = "./_input/data/";
 const string MID_DATADIR = "./_input/data_uebertragung/";
 const string NORMDIR = "./_input/norm/";
-const string MITTELDIR = "./_input/mittel";
+const string MITTELDIR = "./_input/data_uebertragung/";
 const string RDADIR = "./_input/RDA/xml/termList";
 const string DESTDIR = "./_output/";
 const string LOGFILE = "./_log.txt";
 const string REIHENFILE = "./reihen.txt";
+string[] CSVFILES = ["./_input/csv/orte.CSV", "./_input/csv/verleger.CSV"];
 
 // LOGGING + DESTDIR
 if (Directory.Exists(DESTDIR)) Directory.Delete(DESTDIR, true);
@@ -34,9 +36,12 @@ log.SetFile(LOGFILE);
 
 // // MIGRATION DATA EDITING
 var mdata = getDATA_MID();
-// var mscheme = unifySchemata(MITTELDIR);
+var mscheme = unifySchemata(MITTELDIR);
 var mlib = new MittelDBXMLLibrary(mdata);
-VerlegerDump(mlib);
+var csv = new CSVLibrary(CSVFILES);
+mlib.IntegrateCSVLibrary(csv);
+mlib.Save(DESTDIR, mscheme);
+// VerlegerDump(mlib);
 // mlib.transforms_nachweis_anmerkungen();
 // mlib.Save(DESTDIR, mscheme);
 
