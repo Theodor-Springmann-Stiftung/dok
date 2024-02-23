@@ -172,9 +172,12 @@ public class Orte {
     [XmlElement]
     public string? NAME;
     [XmlElement]
+    public bool? FIKTIV;
+    [XmlElement]
     public string? Anmerkungen;
 
     public bool ShouldSerializeAnmerkungen() => !String.IsNullOrWhiteSpace(Anmerkungen);
+    public bool ShouldSerializeFIKTIV() => FIKTIV != null && FIKTIV == true;
 }
 
 

@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Reihen.xsd" generated="2024-02-20T16:24:49">
-<Reihen>
-<ID>1207</ID>
-<NAME>Abenderheiterungen</NAME>
-<SORTIERNAME>Abenderheiterungen</SORTIERNAME>
-<NACHWEIS>K 5; nicht bei L/R; Goed VIII. 89, 170</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1815&lt;/div&gt;
-
-&lt;div&gt;Quedlinburg&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Fr. Raßmann&lt;/div&gt;</Anmerkungen>
-</Reihen>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Reihen.xsd" generated="2024-02-23T16:20:40">
 <Reihen>
 <ID>1208</ID>
 <NAME>Abendstunden</NAME>
@@ -3522,6 +3511,324 @@
 &lt;div&gt;Hrsg: H. Gardthausen&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
+<ID>1542</ID>
+<NAME>Frauenzimmer-Toilette, ohne Schminke</NAME>
+<SORTIERNAME>Frauenzimmer-Toilette, ohne Schminke</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R, H.-G. 2, 425</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1795 &lt;/div&gt;
+
+&lt;div&gt;Neuenstadt (Bachofen)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1543</ID>
+<NAME>Frauenzimmerkalender (Zürich)</NAME>
+<SORTIERNAME>Frauenzimmerkalender (Zürich)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;KVK: Réro: Jgg 1783–1795&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1544</ID>
+<NAME>Freiheitsblitze</NAME>
+<SORTIERNAME>Freiheitsblitze</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R; KVK, BVB</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1832&lt;/div&gt;
+
+&lt;div&gt;Nürnberg (Winter)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: V. A. Coremans&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1545</ID>
+<NAME>Freimaurer-Kalender (Maurerisches Taschenbuch)</NAME>
+<SORTIERNAME>Freimaurer-Kalender (Maurerisches Taschenbuch)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;KVK: 1852–1860&lt;/div&gt;
+
+&lt;div&gt;Gotha (Müller)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: &amp;nbsp;H. Breschneider&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1546</ID>
+<NAME>Freuden geselliger Zirkel, Die (Adolphi / Oehmigke)</NAME>
+<SORTIERNAME>Freuden geselliger Zirkel, Die (Adolphi / Oehmigke)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1799&lt;/div&gt;
+
+&lt;div&gt;Berlin (Oehmigke)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Adolphi&lt;/div&gt;
+
+&lt;div&gt;Titelauflage von: Almanach, Berlinischer dem Vergnügen geselliger Zirkel gewidmet von Adolphi (Oehmigke) 1798&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1547</ID>
+<NAME>Freudenkranz, Der</NAME>
+<SORTIERNAME>Freudenkranz, Der</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1798&lt;/div&gt;
+
+&lt;div&gt;Halle (Dreyßig)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1548</ID>
+<NAME>Freund der Schooßhündchen, Der</NAME>
+<SORTIERNAME>Freund der Schooßhündchen, Der</SORTIERNAME>
+<NACHWEIS>K 48; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
+
+&lt;div&gt;Königsberg (Nicolovius)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1549</ID>
+<NAME>Freund des schönen Geschlechts, Der</NAME>
+<SORTIERNAME>Freund des schönen Geschlechts, Der</SORTIERNAME>
+<NACHWEIS>K 48; L/R 64; Goed VIII. 61, 68a</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1804–1848&lt;/div&gt;
+
+&lt;div&gt;Wien (div. Vrlgg, div. Hrsgg) &lt;/div&gt;
+
+&lt;div&gt;Jg 1840 a. u. d. T.: Taschenbuch (Wien, Riedl) 1840&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1550</ID>
+<NAME>Freundesgabe. Ein TB für christliche Leser</NAME>
+<SORTIERNAME>Freundesgabe. Ein TB für christliche Leser</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1835&lt;/div&gt;
+
+&lt;div&gt;Berlin (Eichler)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1551</ID>
+<NAME>Friedens-Almanach</NAME>
+<SORTIERNAME>Friedens-Almanach s. u. Revolutions-Almanach</SORTIERNAME>
+</Reihen>
+<Reihen>
+<ID>1552</ID>
+<NAME>Frühlings-Almanach, Norddeutscher</NAME>
+<SORTIERNAME>Frühlings-Almanach, Norddeutscher</SORTIERNAME>
+<NACHWEIS>K 48; L/R 45</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1836, 1837&lt;/div&gt;
+
+&lt;div&gt;Berlin (Krause)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Verein der jüngeren Berliner Dichter&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1553</ID>
+<NAME>Frühlingsalmanach (Lenau)</NAME>
+<SORTIERNAME>Frühlingsalmanach (Lenau)</SORTIERNAME>
+<NACHWEIS>K 48; L/R 45</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1835, 1836&lt;/div&gt;
+
+&lt;div&gt;Stuttgart (Brodhag)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: N. Lenau&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1554</ID>
+<NAME>Frühlingsbote, Der</NAME>
+<SORTIERNAME>Frühlingsbote, Der</SORTIERNAME>
+<NACHWEIS>K 49; L/R 91; Goed VIII. 94, 184 b</NACHWEIS>
+<Anmerkungen>&lt;div&gt;3 Jgg 1823–1825&lt;/div&gt;
+
+&lt;div&gt;Frankfurt (Wilmans) &lt;/div&gt;
+
+&lt;div&gt;Hrsg: St. Schütze&lt;/div&gt;
+
+&lt;div&gt;Fortsetzung von: Wintergarten, Der 1816, 1818–1822&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1555</ID>
+<NAME>Frühlingsgaben (Prätzel)</NAME>
+<SORTIERNAME>Frühlingsgaben (Prätzel)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1828&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1556</ID>
+<NAME>Frühlingsgaben (Raßmann)</NAME>
+<SORTIERNAME>Frühlingsgaben (Raßmann)</SORTIERNAME>
+<NACHWEIS>K 49; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1824 &lt;/div&gt;
+
+&lt;div&gt;Quedlinburg, Leipzig (Basse)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. Rassmann&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1557</ID>
+<NAME>Frühlingskränze, Deutsche</NAME>
+<SORTIERNAME>Frühlingskränze, Deutsche</SORTIERNAME>
+<NACHWEIS>K 49; L/R 42</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1835, 1836&lt;/div&gt;
+
+&lt;div&gt;Bamberg (Kunz); Bamberg u. Würzburg (Göbhardt)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: &amp;nbsp;J. P. v. Hornthal&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1558</ID>
+<NAME>Für die Toilette und das gesellige Vergnügen (Mannheim)</NAME>
+<SORTIERNAME>Für die Toilette und das gesellige Vergnügen (Mannheim)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
+
+&lt;div&gt;Mannheim (Neuer Kunstverlag)&lt;/div&gt;
+
+&lt;div&gt;s.a.: Toilettenkalender (Mannheim) 1795&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1559</ID>
+<NAME>Gaben der Milde</NAME>
+<SORTIERNAME>Gaben der Milde</SORTIERNAME>
+<NACHWEIS>K 49; L/R 91; Goed VIII. 97, 193</NACHWEIS>
+<Anmerkungen>&lt;div&gt;4 Bde 1817/1818&lt;/div&gt;
+
+&lt;div&gt;Berlin&lt;/div&gt;
+
+&lt;div&gt;Hrsg: F. W. Gubitz&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1560</ID>
+<NAME>Galgenreden, Monumente, Grabschriften, Stand- und Leichenreden auf noch lebende Armesünder</NAME>
+<SORTIERNAME>Galgenreden, Monumente, Grabschriften, Stand- und Leichenreden auf noch lebende Armesünder</SORTIERNAME>
+<NACHWEIS>K 166; nicht bei L/R; Goed VIII. 57, 35</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
+
+&lt;div&gt;Berlin und Leipzig&lt;/div&gt;
+
+&lt;div&gt;Titelauflage des unterdrückten: Vergötterungs -Almanach für das Jahr 1801. Monument, Grabschriften, Stand- und Leichenreden auf Lebendige nebst einem verbesserten Heiligenkalender nach der Kantischen Kategorientabelle. Mit einem Kupfer. Ueberall und Nirgends&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1561</ID>
+<NAME>Gallerie der Nationen ein Taschenkalender zum Nutzen und Vergnügen (Wien)</NAME>
+<SORTIERNAME>Gallerie der Nationen ein Taschenkalender zum Nutzen und Vergnügen (Wien)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;KVK, Österrreichischer Bibliotheksverbund: Jgg 1796–1799&lt;/div&gt;
+
+&lt;div&gt;Wien (Wallishausser)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Ph. W. G. Hausleutner&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1562</ID>
+<NAME>Gambrinus, Humoristisches Taschenbuch</NAME>
+<SORTIERNAME>Gambrinus, Humoristisches Taschenbuch</SORTIERNAME>
+<NACHWEIS>nicht bei K; ncht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1854&lt;/div&gt;
+
+&lt;div&gt;München ( Franz)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. Stelzhamer&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1563</ID>
+<NAME>Gartenkalender (Hirschfeld)</NAME>
+<SORTIERNAME>Gartenkalender (Hirschfeld)</SORTIERNAME>
+<NACHWEIS>K 49, L/R 130</NACHWEIS>
+<Anmerkungen>&lt;div&gt;7 Jgg 1782–1789&lt;/div&gt;
+
+&lt;div&gt;1782, 1783 Kiel und Dessau (Selbstverlag und Buchhandlung der Gelehrten), 1784-1786 Kiel (Selbstverlag), 1787/88 u. 1789 Braunschweig (Schulbuchhandlung)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Chr. Hirschfeld&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1564</ID>
+<NAME>Gedenke Mein (Archibald; d.i. Röder)</NAME>
+<SORTIERNAME>Gedenke Mein (Archibald; d.i. Röder)</SORTIERNAME>
+<NACHWEIS>K 42, K 49; nicht bei L/R; Goed VIII. 121, 312</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2. Jgg 1829, 1830&lt;/div&gt;
+
+&lt;div&gt;1829: Naumburg (Wild) 1830: Magdeburg (Creutz)&lt;/div&gt;
+
+&lt;div&gt;Hrsg:. Archibald d. i. O. L. W. v. Roeder&lt;/div&gt;
+
+&lt;div&gt;Jg 1830 a. u. d. T. Dioramen&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1565</ID>
+<NAME>Gedenke Mein (Blumauer)</NAME>
+<SORTIERNAME>Gedenke Mein (Blumauer)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1836 (2. Aufl.) &lt;/div&gt;
+
+&lt;div&gt;Gotha (Neumann)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: K. Blumauer&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1566</ID>
+<NAME>Gedenke Mein (Damenkalender)</NAME>
+<SORTIERNAME>Gedenke Mein (Damenkalender)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1869; KVK, SBB: Gedenke Mein! Damen-Kalender für das Schaltjahr 1868. Wien (R. Voss)&lt;/div&gt;
+
+&lt;div&gt;Wien (Dittmarsch)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1567</ID>
+<NAME>Gedenke Mein</NAME>
+<SORTIERNAME>Gedenke Mein</SORTIERNAME>
+<NACHWEIS>nicht bei K; L/R 99</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1832–1859&lt;/div&gt;
+
+&lt;div&gt;1832–1834&lt;/div&gt;
+
+&lt;div&gt;Wien (Pfautsch) 1835–1847: Wien u. Leipzig (Pfautsch u. Compagnie); 1848–1859 Wien (Pfautsch u. Voß)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1568</ID>
+<NAME>Gelehrten-Almanach</NAME>
+<SORTIERNAME>Gelehrten-Almanach</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1826&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Glück)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. G. Bornmann&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1569</ID>
+<NAME>Gemälde der merkwürdigsten Haupstädte Europas</NAME>
+<SORTIERNAME>Gemälde der merkwürdigsten Haupstädte Europas</SORTIERNAME>
+<NACHWEIS>K 50; L/R 146 #</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1802, 1803; bei L/R nur Jg 1803&lt;/div&gt;
+
+&lt;div&gt;Gotha (Perthes)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1570</ID>
+<NAME>Gemmen, Taschenbuch für Schillers Freunde</NAME>
+<SORTIERNAME>Gemmen, Taschenbuch für Schillers Freunde</SORTIERNAME>
+<NACHWEIS>K 50; nicht bei L/R; Goed VIII. 66, 109</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1808&lt;/div&gt;
+
+&lt;div&gt;Karlsruhe (Macklot)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Verfasser des goldenen Kalbes d. i. K. Chr. E. von Bentzel-Sternau&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1571</ID>
+<NAME>Germania. Jahrbuch deutscher Belletristik</NAME>
+<SORTIERNAME>Germania. Jahrbuch deutscher Belletristik</SORTIERNAME>
+<NACHWEIS>K 50; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1851&lt;/div&gt;
+
+&lt;div&gt;Bremen (Schlodtmann)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
 <ID>1507</ID>
 <NAME>Eislauf, Der oder das Schrittschuhfahren</NAME>
 <SORTIERNAME>Eislauf, Der oder das Schrittschuhfahren</SORTIERNAME>
@@ -3899,322 +4206,608 @@
 &lt;div&gt;Köln (Mathieux)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1542</ID>
-<NAME>Frauenzimmer-Toilette, ohne Schminke</NAME>
-<SORTIERNAME>Frauenzimmer-Toilette, ohne Schminke</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R, H.-G. 2, 425</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1795 &lt;/div&gt;
-
-&lt;div&gt;Neuenstadt (Bachofen)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1543</ID>
-<NAME>Frauenzimmerkalender (Zürich)</NAME>
-<SORTIERNAME>Frauenzimmerkalender (Zürich)</SORTIERNAME>
+<ID>1748</ID>
+<NAME>März-Almanach (Brennglas)</NAME>
+<SORTIERNAME>März-Almanach (Brennglas)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK: Réro: Jgg 1783–1795&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;vermutl. nur ein Jg 1849&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1544</ID>
-<NAME>Freiheitsblitze</NAME>
-<SORTIERNAME>Freiheitsblitze</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R; KVK, BVB</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1832&lt;/div&gt;
-
-&lt;div&gt;Nürnberg (Winter)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: V. A. Coremans&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1545</ID>
-<NAME>Freimaurer-Kalender (Maurerisches Taschenbuch)</NAME>
-<SORTIERNAME>Freimaurer-Kalender (Maurerisches Taschenbuch)</SORTIERNAME>
+<ID>1749</ID>
+<NAME>März-Almanach (Wagner)</NAME>
+<SORTIERNAME>März-Almanach (Wagner)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK: 1852–1860&lt;/div&gt;
+<Anmerkungen>&lt;div&gt;vermutl. nur ein Jg &amp;nbsp;1850 &lt;/div&gt;
 
-&lt;div&gt;Gotha (Müller)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: &amp;nbsp;H. Breschneider&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Druck v. U. Klopf sen. &amp;amp; A. Eurich in Wien&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1546</ID>
-<NAME>Freuden geselliger Zirkel, Die (Adolphi / Oehmigke)</NAME>
-<SORTIERNAME>Freuden geselliger Zirkel, Die (Adolphi / Oehmigke)</SORTIERNAME>
+<ID>1750</ID>
+<NAME>Masken- u. Volksfeste-Almanach</NAME>
+<SORTIERNAME>Masken- u. Volksfeste-Almanach</SORTIERNAME>
+<NACHWEIS>K 77; nicht bei L/R; Goed VIII. 79, 149</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Goed VIII, 79: 1812 und 1813 &lt;/div&gt;
+
+&lt;div&gt;Jg 1813 München (Lindauer)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1751</ID>
+<NAME>Medaillon-Almanach</NAME>
+<SORTIERNAME>Medaillon-Almanach</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1799&lt;/div&gt;
+<Anmerkungen>&lt;div&gt;ein Jg 1848&lt;/div&gt;
 
-&lt;div&gt;Berlin (Oehmigke)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Adolphi&lt;/div&gt;
-
-&lt;div&gt;Titelauflage von: Almanach, Berlinischer dem Vergnügen geselliger Zirkel gewidmet von Adolphi (Oehmigke) 1798&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;KVK, GBV: Weimar, Herzogin Anna Amalia Bibliothek&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1547</ID>
-<NAME>Freudenkranz, Der</NAME>
-<SORTIERNAME>Freudenkranz, Der</SORTIERNAME>
+<ID>1752</ID>
+<NAME>Menander und Glycerion (Wieland) Taschenbuch für</NAME>
+<SORTIERNAME>Menander und Glycerion (Wieland) Taschenbuch für</SORTIERNAME>
+<NACHWEIS>K 106; K 174; L/R 53; Goed VIII. 56, 27; H.-G. VII, 593</NACHWEIS>
+</Reihen>
+<Reihen>
+<ID>1753</ID>
+<NAME>Mephistopheles</NAME>
+<SORTIERNAME>Mephistopheles</SORTIERNAME>
+<NACHWEIS>nicht bei K; L/R 212; Goed X. 450, 218</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1833 &lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1754</ID>
+<NAME>Meßgeschenk zur belehrenden Unterhaltung für Liebhaber der Pferde</NAME>
+<SORTIERNAME>Meßgeschenk zur belehrenden Unterhaltung für Liebhaber der Pferde</SORTIERNAME>
+<NACHWEIS>nicht bei K; L/R 135</NACHWEIS>
+<Anmerkungen>&lt;div&gt;3 Jgg 1798-1, 1798-2, 1799, 1800&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Seeger)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Christian Ehrenfried Seyfert von Tennecker&lt;/div&gt;
+
+&lt;div&gt;fortgesetzt durch: Taschenbuch zur belehrenden Unterhaltung für Liebhaber der Pferde 1801–1803 und: Taschenbuch, Neues Leipziger für Liebhaber der Pferde 1804; 1. und 2. Bändchen&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1755</ID>
+<NAME>Militär-Almanach, Allgemeiner (Darmstadt)</NAME>
+<SORTIERNAME>Militär-Almanach, Allgemeiner (Darmstadt)</SORTIERNAME>
+<NACHWEIS>K 77; L/R 180</NACHWEIS>
+<Anmerkungen>&lt;div&gt;s. a: Taschenbuch für Krieger und Freunde des Kriegerstandes (Darmstadt) [oJ] wohl Titelauflage oder Teilveröffentlichung des vorliegenden Almanachs&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1756</ID>
+<NAME>Militär-Almanach, Allgemeiner (Prausnitz)</NAME>
+<SORTIERNAME>Militär-Almanach, Allgemeiner (Prausnitz)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1798&lt;/div&gt;
-
-&lt;div&gt;Halle (Dreyßig)&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;KVK; Hebis: 1837–1942&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1548</ID>
-<NAME>Freund der Schooßhündchen, Der</NAME>
-<SORTIERNAME>Freund der Schooßhündchen, Der</SORTIERNAME>
-<NACHWEIS>K 48; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
+<ID>1757</ID>
+<NAME>Militär-Almanach, Schweizerischer für Offiziere und Militärpersonen</NAME>
+<SORTIERNAME>Militär-Almanach, Schweizerischer für Offiziere und Militärpersonen</SORTIERNAME>
+<NACHWEIS>K 77; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1843-1848&lt;/div&gt;
 
-&lt;div&gt;Königsberg (Nicolovius)&lt;/div&gt;
+&lt;div&gt;Baden (Zehnder)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. M. Rudolf&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1758</ID>
+<NAME>Militär-Almanach, Würtembergischer</NAME>
+<SORTIERNAME>Militär-Almanach, Würtembergischer</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1825&lt;/div&gt;
+
+&lt;div&gt;Ulm (Stettin)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: F. v. Fromm&lt;/div&gt;
 
 &lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1549</ID>
-<NAME>Freund des schönen Geschlechts, Der</NAME>
-<SORTIERNAME>Freund des schönen Geschlechts, Der</SORTIERNAME>
-<NACHWEIS>K 48; L/R 64; Goed VIII. 61, 68a</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1804–1848&lt;/div&gt;
-
-&lt;div&gt;Wien (div. Vrlgg, div. Hrsgg) &lt;/div&gt;
-
-&lt;div&gt;Jg 1840 a. u. d. T.: Taschenbuch (Wien, Riedl) 1840&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1550</ID>
-<NAME>Freundesgabe. Ein TB für christliche Leser</NAME>
-<SORTIERNAME>Freundesgabe. Ein TB für christliche Leser</SORTIERNAME>
+<ID>1759</ID>
+<NAME>Militäralmanach, Illustrierter für Oesterreich (Wien)</NAME>
+<SORTIERNAME>Militäralmanach, Illustrierter für Oesterreich (Wien)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1835&lt;/div&gt;
-
-&lt;div&gt;Berlin (Eichler)&lt;/div&gt;</Anmerkungen>
+<Anmerkungen>&lt;div&gt;ein Jg 1815 ermittelt&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1551</ID>
-<NAME>Friedens-Almanach</NAME>
-<SORTIERNAME>Friedens-Almanach s. u. Revolutions-Almanach</SORTIERNAME>
+<ID>1760</ID>
+<NAME>Militäralmanach, Oesterreichischer</NAME>
+<SORTIERNAME>Militäralmanach, Oesterreichischer</SORTIERNAME>
+<NACHWEIS>K 77; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Erscheinungsweise unklar; K 77 gibt lediglich 1795 an&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1552</ID>
-<NAME>Frühlings-Almanach, Norddeutscher</NAME>
-<SORTIERNAME>Frühlings-Almanach, Norddeutscher</SORTIERNAME>
-<NACHWEIS>K 48; L/R 45</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1836, 1837&lt;/div&gt;
+<ID>1761</ID>
+<NAME>Mimigardia</NAME>
+<SORTIERNAME>Mimigardia</SORTIERNAME>
+<NACHWEIS>K 77; L/R 43; Goed VIII. 70, 125</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg: 1810, 1811/12&lt;/div&gt;
 
-&lt;div&gt;Berlin (Krause)&lt;/div&gt;
+&lt;div&gt;Münster (Waldeck)&lt;/div&gt;
 
-&lt;div&gt;Hrsg: Verein der jüngeren Berliner Dichter&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: C. Fr. Rassmann&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1553</ID>
-<NAME>Frühlingsalmanach (Lenau)</NAME>
-<SORTIERNAME>Frühlingsalmanach (Lenau)</SORTIERNAME>
-<NACHWEIS>K 48; L/R 45</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1835, 1836&lt;/div&gt;
+<ID>1762</ID>
+<NAME>Minerva</NAME>
+<SORTIERNAME>Minerva</SORTIERNAME>
+<NACHWEIS>K 78; L/R 83; Goed VIII. 66, 115</NACHWEIS>
+<Anmerkungen>&lt;div&gt;23 Jgg 1809-1833, Jgg 1830, 1832 nicht erschienen&lt;/div&gt;
 
-&lt;div&gt;Stuttgart (Brodhag)&lt;/div&gt;
+&lt;div&gt;Leipzig (G. Fleischer)&lt;/div&gt;
 
-&lt;div&gt;Hrsg: N. Lenau&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg vermutl. der Verleger Gerhard Fleischer&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1554</ID>
-<NAME>Frühlingsbote, Der</NAME>
-<SORTIERNAME>Frühlingsbote, Der</SORTIERNAME>
-<NACHWEIS>K 49; L/R 91; Goed VIII. 94, 184 b</NACHWEIS>
-<Anmerkungen>&lt;div&gt;3 Jgg 1823–1825&lt;/div&gt;
-
-&lt;div&gt;Frankfurt (Wilmans) &lt;/div&gt;
-
-&lt;div&gt;Hrsg: St. Schütze&lt;/div&gt;
-
-&lt;div&gt;Fortsetzung von: Wintergarten, Der 1816, 1818–1822&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1555</ID>
-<NAME>Frühlingsgaben (Prätzel)</NAME>
-<SORTIERNAME>Frühlingsgaben (Prätzel)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1828&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1556</ID>
-<NAME>Frühlingsgaben (Raßmann)</NAME>
-<SORTIERNAME>Frühlingsgaben (Raßmann)</SORTIERNAME>
-<NACHWEIS>K 49; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1824 &lt;/div&gt;
-
-&lt;div&gt;Quedlinburg, Leipzig (Basse)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Fr. Rassmann&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1557</ID>
-<NAME>Frühlingskränze, Deutsche</NAME>
-<SORTIERNAME>Frühlingskränze, Deutsche</SORTIERNAME>
-<NACHWEIS>K 49; L/R 42</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1835, 1836&lt;/div&gt;
-
-&lt;div&gt;Bamberg (Kunz); Bamberg u. Würzburg (Göbhardt)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: &amp;nbsp;J. P. v. Hornthal&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1558</ID>
-<NAME>Für die Toilette und das gesellige Vergnügen (Mannheim)</NAME>
-<SORTIERNAME>Für die Toilette und das gesellige Vergnügen (Mannheim)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
-
-&lt;div&gt;Mannheim (Neuer Kunstverlag)&lt;/div&gt;
-
-&lt;div&gt;s.a.: Toilettenkalender (Mannheim) 1795&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1559</ID>
-<NAME>Gaben der Milde</NAME>
-<SORTIERNAME>Gaben der Milde</SORTIERNAME>
-<NACHWEIS>K 49; L/R 91; Goed VIII. 97, 193</NACHWEIS>
-<Anmerkungen>&lt;div&gt;4 Bde 1817/1818&lt;/div&gt;
+<ID>1763</ID>
+<NAME>Minerva, Taschenbuch für Freimaurer</NAME>
+<SORTIERNAME>Minerva, Taschenbuch für Freimaurer</SORTIERNAME>
+<NACHWEIS>K 78; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1827, 1828&lt;/div&gt;
 
 &lt;div&gt;Berlin&lt;/div&gt;
 
-&lt;div&gt;Hrsg: F. W. Gubitz&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: Br. K.&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1560</ID>
-<NAME>Galgenreden, Monumente, Grabschriften, Stand- und Leichenreden auf noch lebende Armesünder</NAME>
-<SORTIERNAME>Galgenreden, Monumente, Grabschriften, Stand- und Leichenreden auf noch lebende Armesünder</SORTIERNAME>
-<NACHWEIS>K 166; nicht bei L/R; Goed VIII. 57, 35</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
-
-&lt;div&gt;Berlin und Leipzig&lt;/div&gt;
-
-&lt;div&gt;Titelauflage des unterdrückten: Vergötterungs -Almanach für das Jahr 1801. Monument, Grabschriften, Stand- und Leichenreden auf Lebendige nebst einem verbesserten Heiligenkalender nach der Kantischen Kategorientabelle. Mit einem Kupfer. Ueberall und Nirgends&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1561</ID>
-<NAME>Gallerie der Nationen ein Taschenkalender zum Nutzen und Vergnügen (Wien)</NAME>
-<SORTIERNAME>Gallerie der Nationen ein Taschenkalender zum Nutzen und Vergnügen (Wien)</SORTIERNAME>
+<ID>1764</ID>
+<NAME>Miniatur-Almanach, Payne’s</NAME>
+<SORTIERNAME>Miniatur-Almanach, Payne’s</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK, Österrreichischer Bibliotheksverbund: Jgg 1796–1799&lt;/div&gt;
+<Anmerkungen>&lt;div&gt;Jgg 1845-1870&lt;/div&gt;
 
-&lt;div&gt;Wien (Wallishausser)&lt;/div&gt;
+&lt;div&gt;London und Leipzig, Leipzig, &amp;nbsp;Leipzig u. Dresden, Leipzig, Dresden, Wien, Berlin&lt;/div&gt;
 
-&lt;div&gt;Hrsg: Ph. W. G. Hausleutner&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;&amp;nbsp;Hrsg: A. H. Payne&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1562</ID>
-<NAME>Gambrinus, Humoristisches Taschenbuch</NAME>
-<SORTIERNAME>Gambrinus, Humoristisches Taschenbuch</SORTIERNAME>
-<NACHWEIS>nicht bei K; ncht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1854&lt;/div&gt;
+<ID>1765</ID>
+<NAME>Mittheilungen, Jährliche (Rochlitz)</NAME>
+<SORTIERNAME>Mittheilungen, Jährliche (Rochlitz)</SORTIERNAME>
+<NACHWEIS>K 79; nicht bei L/R; Goed VIII. 104, 237</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1821-1823&lt;/div&gt;
 
-&lt;div&gt;München ( Franz)&lt;/div&gt;
+&lt;div&gt;Leipzig (Cnobloch)&lt;/div&gt;
 
-&lt;div&gt;Hrsg: Fr. Stelzhamer&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: Fr. Rochlitz&lt;/div&gt;
+
+&lt;div&gt;Fortsetzung von: Frauenzimmer-Almanach 1784-1820; als Titelauflage: Mittheilungen (Rochlitz) 1824, Bd 1-3&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1563</ID>
-<NAME>Gartenkalender (Hirschfeld)</NAME>
-<SORTIERNAME>Gartenkalender (Hirschfeld)</SORTIERNAME>
-<NACHWEIS>K 49, L/R 130</NACHWEIS>
-<Anmerkungen>&lt;div&gt;7 Jgg 1782–1789&lt;/div&gt;
+<ID>1766</ID>
+<NAME>Mnemosyne (Giesebrecht)</NAME>
+<SORTIERNAME>Mnemosyne (Giesebrecht)</SORTIERNAME>
+<NACHWEIS>K 79; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1807&lt;/div&gt;
 
-&lt;div&gt;1782, 1783 Kiel und Dessau (Selbstverlag und Buchhandlung der Gelehrten), 1784-1786 Kiel (Selbstverlag), 1787/88 u. 1789 Braunschweig (Schulbuchhandlung)&lt;/div&gt;
+&lt;div&gt;Bremen ( Hanseatische Buchhandlung)&lt;/div&gt;
 
-&lt;div&gt;Hrsg: Chr. Hirschfeld&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: K. Giesebecht&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1564</ID>
-<NAME>Gedenke Mein (Archibald; d.i. Röder)</NAME>
-<SORTIERNAME>Gedenke Mein (Archibald; d.i. Röder)</SORTIERNAME>
-<NACHWEIS>K 42, K 49; nicht bei L/R; Goed VIII. 121, 312</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2. Jgg 1829, 1830&lt;/div&gt;
+<ID>1767</ID>
+<NAME>Mnemosyne Taschenbuch des Andenkens (Boguslawski)</NAME>
+<SORTIERNAME>Mnemosyne Taschenbuch des Andenkens (Boguslawski)</SORTIERNAME>
+<NACHWEIS>K 79; nicht bei L/R; Goed VII. 429, 10; Goed VIII. 97, 192</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1817, 1818&lt;/div&gt;
 
-&lt;div&gt;1829: Naumburg (Wild) 1830: Magdeburg (Creutz)&lt;/div&gt;
+&lt;div&gt;Berlin&lt;/div&gt;
 
-&lt;div&gt;Hrsg:. Archibald d. i. O. L. W. v. Roeder&lt;/div&gt;
-
-&lt;div&gt;Jg 1830 a. u. d. T. Dioramen&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: Karl Andreas von Boguslawski&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1565</ID>
-<NAME>Gedenke Mein (Blumauer)</NAME>
-<SORTIERNAME>Gedenke Mein (Blumauer)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1836 (2. Aufl.) &lt;/div&gt;
+<ID>1768</ID>
+<NAME>Modealmanach für Damen</NAME>
+<SORTIERNAME>Modealmanach für Damen</SORTIERNAME>
+<NACHWEIS>nicht bei K 79, nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;KVK OBV: Jgg 1803-1830&lt;/div&gt;
 
-&lt;div&gt;Gotha (Neumann)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: K. Blumauer&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1566</ID>
-<NAME>Gedenke Mein (Damenkalender)</NAME>
-<SORTIERNAME>Gedenke Mein (Damenkalender)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1869; KVK, SBB: Gedenke Mein! Damen-Kalender für das Schaltjahr 1868. Wien (R. Voss)&lt;/div&gt;
-
-&lt;div&gt;Wien (Dittmarsch)&lt;/div&gt;
+&lt;div&gt;1802: Wien (Hartl),1819 ff: Wien (Müllner) Wien (Müller)&lt;/div&gt;
 
 &lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1567</ID>
-<NAME>Gedenke Mein</NAME>
-<SORTIERNAME>Gedenke Mein</SORTIERNAME>
-<NACHWEIS>nicht bei K; L/R 99</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1832–1859&lt;/div&gt;
+<ID>1769</ID>
+<NAME>Momus. Taschenbuch für Freunde und Freundinnen des Scherzes</NAME>
+<SORTIERNAME>Momus. Taschenbuch für Freunde und Freundinnen des Scherzes</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1839; im Titel: Vierter Jahrgang, weitere Jgg nicht ermittelt&lt;/div&gt;
 
-&lt;div&gt;1832–1834&lt;/div&gt;
+&lt;div&gt;Hamburg (Berendsohn)&lt;/div&gt;
 
-&lt;div&gt;Wien (Pfautsch) 1835–1847: Wien u. Leipzig (Pfautsch u. Compagnie); 1848–1859 Wien (Pfautsch u. Voß)&lt;/div&gt;
+&lt;div&gt;Hrsg: Von einem lustigen Bruder&lt;/div&gt;
 
 &lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1568</ID>
-<NAME>Gelehrten-Almanach</NAME>
-<SORTIERNAME>Gelehrten-Almanach</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<ID>1770</ID>
+<NAME>Moosblüthen, zum Christgeschenk (Carové)</NAME>
+<SORTIERNAME>Moosblüthen, zum Christgeschenk (Carové)</SORTIERNAME>
+<NACHWEIS>K 79; L/R 99; Goed VIII. 127, 339; Goed IX. 221, 20, 12</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1830; &amp;nbsp;K gibt außerdem »Moosrosen zum Christgeschenk 1831« an; Goed VIII. 127 &amp;nbsp;fälschlich: »Moosrosen zum Christgeschenk 1831« korrigiert S. 705&lt;/div&gt;
+
+&lt;div&gt;Frankfurt (Brönner)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. W. Carové&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1771</ID>
+<NAME>Moosrosen (Menzel)</NAME>
+<SORTIERNAME>Moosrosen (Menzel)</SORTIERNAME>
+<NACHWEIS>K 80; L/R 97; Goed VIII. 117, 292</NACHWEIS>
 <Anmerkungen>&lt;div&gt;ein Jg 1826&lt;/div&gt;
 
-&lt;div&gt;Leipzig (Glück)&lt;/div&gt;
+&lt;div&gt;Stuttgart (Metzler)&lt;/div&gt;
 
-&lt;div&gt;Hrsg: J. G. Bornmann&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Hrsg: W. Menzel&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1569</ID>
-<NAME>Gemälde der merkwürdigsten Haupstädte Europas</NAME>
-<SORTIERNAME>Gemälde der merkwürdigsten Haupstädte Europas</SORTIERNAME>
-<NACHWEIS>K 50; L/R 146 #</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1802, 1803; bei L/R nur Jg 1803&lt;/div&gt;
+<ID>1772</ID>
+<NAME>Moosrosen (Sternau)</NAME>
+<SORTIERNAME>Moosrosen (Sternau)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1845&lt;/div&gt;
 
-&lt;div&gt;Gotha (Perthes)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1570</ID>
-<NAME>Gemmen, Taschenbuch für Schillers Freunde</NAME>
-<SORTIERNAME>Gemmen, Taschenbuch für Schillers Freunde</SORTIERNAME>
-<NACHWEIS>K 50; nicht bei L/R; Goed VIII. 66, 109</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1808&lt;/div&gt;
+&lt;div&gt;Magdeburg (Falckenberg u. Comp.)&lt;/div&gt;
 
-&lt;div&gt;Karlsruhe (Macklot)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Verfasser des goldenen Kalbes d. i. K. Chr. E. von Bentzel-Sternau&lt;/div&gt;
+&lt;div&gt;Hrsg: C. &amp;nbsp;O. Sternau d. i. &amp;nbsp;O. Inkermann&lt;/div&gt;
 
 &lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1571</ID>
-<NAME>Germania. Jahrbuch deutscher Belletristik</NAME>
-<SORTIERNAME>Germania. Jahrbuch deutscher Belletristik</SORTIERNAME>
-<NACHWEIS>K 50; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1851&lt;/div&gt;
+<ID>1773</ID>
+<NAME>Moosrosen (Wien)</NAME>
+<SORTIERNAME>Moosrosen (Wien)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1846&lt;/div&gt;
 
-&lt;div&gt;Bremen (Schlodtmann)&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Wien ( Stöckholzer v. Hirschfeld)&lt;/div&gt;
+
+&lt;div&gt;Hrsg vielleicht Carl Hössl (Hössel?)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1774</ID>
+<NAME>Morgenröthe, Die</NAME>
+<SORTIERNAME>Morgenröthe, Die</SORTIERNAME>
+<NACHWEIS>K 80; nicht bei L/R; Goed VIII, 100127</NACHWEIS>
+<Anmerkungen>&lt;div&gt;1819, 1820&lt;/div&gt;
+
+&lt;div&gt;Elberfeld (Büschler)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: A. Gebauer&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1775</ID>
+<NAME>Morgenstunden, Thaliens</NAME>
+<SORTIERNAME>Morgenstunden, Thaliens</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1816&lt;/div&gt;
+
+&lt;div&gt;Donaueschingen&lt;/div&gt;
+
+&lt;div&gt;Hrsgg: O. E. Bodemüller; B. Lögler&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1776</ID>
+<NAME>Mücken-Almanach</NAME>
+<SORTIERNAME>Mücken-Almanach</SORTIERNAME>
+<NACHWEIS>K 80; L/R 203; Goed V. 203, X</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
+
+&lt;div&gt;Pest [Neustrelitz]&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1777</ID>
+<NAME>Musenalmanach (Berlin)</NAME>
+<SORTIERNAME>Musenalmanach (Berlin)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1831&lt;/div&gt;
+
+&lt;div&gt;Berlin (Logier)&lt;/div&gt;
+
+&lt;div&gt;nicht identisch mit: Musenalmanach, Berliner 1831 (Fincke)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1837</ID>
+<NAME>Neujahrgeschenk (Wien)</NAME>
+<SORTIERNAME>Neujahrgeschenk (Wien)</SORTIERNAME>
+<NACHWEIS>K 90; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1837, 1838&lt;/div&gt;
+
+&lt;div&gt;Wien (Mechitaristen-Congregations-Buchhandlung)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1838</ID>
+<NAME>Neujahrs Taschenbuch von Weimar</NAME>
+<SORTIERNAME>Neujahrs Taschenbuch von Weimar</SORTIERNAME>
+<NACHWEIS>K 91; L/R 54; Goed VIII. 57, 36; G 6</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
+
+&lt;div&gt;Weimar (Gädicke)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Chr. A. von Seckendorf&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1839</ID>
+<NAME>Neujahrs-Almanach</NAME>
+<SORTIERNAME>Neujahrs-Almanach</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;KVK Jgg 1847-1850&lt;/div&gt;
+
+&lt;div&gt;Leipzig (C. O. Weller)&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1840</ID>
+<NAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</NAME>
+<SORTIERNAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</SORTIERNAME>
+<NACHWEIS>K 90; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1822&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Hartmann)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Friedrich Hophtholmos d. i. J. C. Fr. Haug&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1841</ID>
+<NAME>Neujahrsgeschenk für Forst- und Jagdliebhaber</NAME>
+<SORTIERNAME>Neujahrsgeschenk für Forst- und Jagdliebhaber</SORTIERNAME>
+<NACHWEIS>K 90; L/R 138</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1794-1799; Marburg (Neue Academische Buchhandlung)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: L. K. E. H. F. von Wildungen [Angaben nach K 90]&lt;/div&gt;
+
+&lt;div&gt;Fortgesetzt durch: Taschenbuch für Forst- und Jagdfreunde 1800-1812; Alm-1135-1142&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1842</ID>
+<NAME>Neujahrsgeschenke zum nützl. Vergnügen (Wien)</NAME>
+<SORTIERNAME>Neujahrsgeschenke zum nützl. Vergnügen (Wien)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg o. J.&lt;/div&gt;
+
+&lt;div&gt;Wien (Kuhn) &lt;/div&gt;
+
+&lt;div&gt;weitere Jahrgänge nicht ermittelt. Der Beitrag im vorliegenden Band »Fortsetzung der Philosophie des Lebens. Leidenschaften« deutet auf Vorgängerjahrgang hin. Das im vorliegenden Band in 5 Auszügen mit 5 Illustrationen gegebene Stück &amp;nbsp;»Der Lorbeerkranz, oder die Macht der Gesetze.« von F. J. W. Ziegler (aufgeführt 26. 2. 1798), erschien 1799 und 1807, s. Goed. V. 14, 13; handschriftliche Einträge im Almanach (so im Zueignungsblatt INr 108720) legen als Erscheinungsjahr 1807 nahe.&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1843</ID>
+<NAME>Neunhundert neun und neunzig und noch etliche Almanachs-Lustspiele durch den Würfel (Bärmann)</NAME>
+<SORTIERNAME>Neunhundert neun und neunzig und noch etliche Almanachs-Lustspiele durch den Würfel (Bärmann)</SORTIERNAME>
+<NACHWEIS>K 91; L/R 127; Goed VIII. 132, 40; Goed IX. 401, 27</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 829&lt;/div&gt;
+
+&lt;div&gt;Zwickau (Schumann)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: G. N. Bärmann&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1845</ID>
+<NAME>Noreja. TB kärntnerischer Legenden</NAME>
+<SORTIERNAME>Noreja. TB kärntnerischer Legenden</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1837&lt;/div&gt;
+
+&lt;div&gt;Klagenfurt (Kleinmayr)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: S. M. Meyer&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1846</ID>
+<NAME>Novellen-Almanach (Glaßbrenner)</NAME>
+<SORTIERNAME>Novellen-Almanach (Glaßbrenner)</SORTIERNAME>
+<NACHWEIS>K 91; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;3 Jgg 1835-1837&lt;/div&gt;
+
+&lt;div&gt;Leipzig: Wigand&lt;/div&gt;
+
+&lt;div&gt;Hrsg: A. Glasbrenner&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1847</ID>
+<NAME>Novellen-Almanach (Gödeke)</NAME>
+<SORTIERNAME>Novellen-Almanach (Gödeke)</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1843&lt;/div&gt;
+
+&lt;div&gt;Hannover (Hahn)&lt;/div&gt;
+
+&lt;div&gt;K. Gödeke&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1848</ID>
+<NAME>Novellen-Almanach, Illustrierter</NAME>
+<SORTIERNAME>Novellen-Almanach, Illustrierter</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Erscheinungsverlauf unklar KVK: 1860-1892&lt;/div&gt;
+
+&lt;div&gt;Wien und Leipzig (Dittmarsch und Zamarski) Wien und Leipzig (Dittmarsch und Zöller) Wien und Leipzig (Damarski und Dittmarsch);&lt;/div&gt;
+
+&lt;div&gt;Hrsg: F. Menk-Dittmarsch&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1849</ID>
+<NAME>Novellen-Almanach, Österreichischer</NAME>
+<SORTIERNAME>Novellen-Almanach, Österreichischer</SORTIERNAME>
+<NACHWEIS>K 91; nicht bei L/R; Radtke 12, 13, 15, 16</NACHWEIS>
+<Anmerkungen>&lt;div&gt;2 Jgg 1843, 1844&lt;/div&gt;
+
+&lt;div&gt;Wien (Tauer u. Sohn)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: A. Schumacher&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1850</ID>
+<NAME>Novellen-Almanach, Wiener</NAME>
+<SORTIERNAME>Novellen-Almanach, Wiener</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Erscheinungsverlauf unklar: vermutl. Jgg 1851-1858&lt;/div&gt;
+
+&lt;div&gt;Wien (Edlen von Ghelen&apos;schen Erben)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Reyhongs&lt;/div&gt;
+
+&lt;div&gt;s.a.: LYANEN. Taschenbuch, enthaltend Gedichte und Novellen.[…]1853 ff&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1851</ID>
+<NAME>Novellen-Almanach. Zur angenehmen Unterhaltung für gebildete Leser</NAME>
+<SORTIERNAME>Novellen-Almanach. Zur angenehmen Unterhaltung für gebildete Leser</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1849&lt;/div&gt;
+
+&lt;div&gt;Berlin (Schnitzer)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: A. Sch.&lt;/div&gt;
+
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2010</ID>
+<NAME>Taschenbuch des Scherzes und der Satire</NAME>
+<SORTIERNAME>Taschenbuch des Scherzes und der Satire</SORTIERNAME>
+<NACHWEIS>K 147; nicht bei L/R; Goed VI. 463, 57; VIII. 100, 212</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1819&lt;/div&gt;
+
+&lt;div&gt;Wien u. Prag (Haas)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. Passy&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2011</ID>
+<NAME>Taschenbuch des deutschen Reichs (Leipzig)</NAME>
+<SORTIERNAME>Taschenbuch des deutschen Reichs (Leipzig)</SORTIERNAME>
+<NACHWEIS>K 142 ; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;Jgg 1794-1798&lt;/div&gt;
+
+&lt;div&gt;Leizig (Jacobäer)&lt;/div&gt;
+
+&lt;div&gt;KVK: GBV: 1794-1798 &lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2012</ID>
+<NAME>Taschenbuch dramatischer Blüthen</NAME>
+<SORTIERNAME>Taschenbuch dramatischer Blüthen</SORTIERNAME>
+<NACHWEIS>K 114; nicht bei L/R; Goed VIII. 131, 31</NACHWEIS>
+<Anmerkungen>&lt;div&gt;3 Jgg 1825-1827&lt;/div&gt;
+
+&lt;div&gt;Hannover (Hahn)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: G. Harrys&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2013</ID>
+<NAME>Taschenbuch dramatischer Originalien</NAME>
+<SORTIERNAME>Taschenbuch dramatischer Originalien</SORTIERNAME>
+<NACHWEIS>K 147; nicht bei L/R; Goed VI. 414, 39</NACHWEIS>
+<Anmerkungen>&lt;div&gt;6 Jgg 1837-1842&lt;/div&gt;
+
+&lt;div&gt;Leipzig (Brockhaus)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Dr. Franck&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2014</ID>
+<NAME>Taschenbuch dramatischer Spiele zur Feier häuslicher Feste (Rublack)</NAME>
+<SORTIERNAME>Taschenbuch dramatischer Spiele zur Feier häuslicher Feste (Rublack)</SORTIERNAME>
+<Anmerkungen>&lt;div&gt;ein Jg 1819&lt;/div&gt;
+
+&lt;div&gt;Dresden (Hilscher)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: A. Rublack &lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2015</ID>
+<NAME>Taschenbuch für angehende Fußreisende</NAME>
+<SORTIERNAME>Taschenbuch für angehende Fußreisende</SORTIERNAME>
+<Anmerkungen>&lt;div&gt;ein Jg 1843 mit späten Nachdrucken&lt;/div&gt;
+
+&lt;div&gt;Jena (Frommann)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. Frommann&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2016</ID>
+<NAME>Taschenbuch für Aufklärer und Nichtaufklärer</NAME>
+<SORTIERNAME>Taschenbuch für Aufklärer und Nichtaufklärer</SORTIERNAME>
+<NACHWEIS>K 108; L/R 202; H.-G VII, 592</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1791&lt;/div&gt;
+
+&lt;div&gt;Nürnberg ( Bäumler)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: K. von Knoblauch zu Hatzbach&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2017</ID>
+<NAME>Taschenbuch für Bayerns Landwehr</NAME>
+<SORTIERNAME>Taschenbuch für Bayerns Landwehr</SORTIERNAME>
+<NACHWEIS>nicht bei K; L/R 182</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1842&lt;/div&gt;
+
+&lt;div&gt;Nürnberg ( Bäumler)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2018</ID>
+<NAME>Taschenbuch für Bienenliebhaber</NAME>
+<SORTIERNAME>Taschenbuch für Bienenliebhaber</SORTIERNAME>
+<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1807&lt;/div&gt;
+
+&lt;div&gt;Berlin (Unger)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2019</ID>
+<NAME>Taschenbuch für bildende, dichtende und historische Kunst s. u. Taschenbuch, Bergisches</NAME>
+<SORTIERNAME>Taschenbuch für bildende, dichtende und historische Kunst s. u. Taschenbuch, Bergisches</SORTIERNAME>
+</Reihen>
+<Reihen>
+<ID>2020</ID>
+<NAME>Taschenbuch für Brüder Freimaurer</NAME>
+<SORTIERNAME>Taschenbuch für Brüder Freimaurer</SORTIERNAME>
+<NACHWEIS>K 116; L/R 179</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1794&lt;/div&gt;
+
+&lt;div&gt;Hildesheim&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2021</ID>
+<NAME>Taschenbuch für Damen</NAME>
+<SORTIERNAME>Taschenbuch für Damen</SORTIERNAME>
+<NACHWEIS>K 112; L/R 64; Goed VIII. 49,11</NACHWEIS>
+<Anmerkungen>&lt;div&gt;29 Jgg 1798-1831 , Jgg 1823-1827 nicht erschienen&lt;/div&gt;
+
+&lt;div&gt;Tübingen (Cotta)&lt;/div&gt;
+
+&lt;div&gt;Hrsgg 1798-1808: Th. Huber, [L. F. Huber?] A. H. Lafontaine, G. C. Pfeffel, u. a.; in einzelnen folgenden Jgg lediglich Hinweise auf »Mitarbeiter«&lt;/div&gt;
+
+&lt;div&gt;Der »Almanach des Dames « 1801/02-1840, (G-C 359, 1377), der ebenfalls bei Cotta erschien, ist eine selbständige französischsprachige Almanachreihe und steht, bei gleichem Format und ähnlicher Aufmachung, in keiner Verbindung zum »Taschenbuch für Damen«&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>2022</ID>
+<NAME>Taschenbuch für Damen. Parthenais oder die Jungfrauen-Wallfahrt zur Jungfrau</NAME>
+<SORTIERNAME>Taschenbuch für Damen. Parthenais oder die Jungfrauen-Wallfahrt zur Jungfrau</SORTIERNAME>
+<NACHWEIS>Goed VI. 164, 8</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg o. J.&lt;/div&gt;
+
+&lt;div&gt;Hamburg (Vollmer)&lt;/div&gt;
+
+&lt;div&gt;Hrsg: J. Baggesen&lt;/div&gt;
+
+&lt;div&gt;Publikation am Rande des Almanachwesens. Diese Auflage folgte der von 1804&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1572</ID>
@@ -5991,311 +6584,6 @@ href=&quot;http://hls-dhs-dss.ch/index.php&quot;&gt;http://hls-dhs-dss.ch/index.
 &lt;div&gt;Hrsg: W. Hauff&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
-<ID>1748</ID>
-<NAME>März-Almanach (Brennglas)</NAME>
-<SORTIERNAME>März-Almanach (Brennglas)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;vermutl. nur ein Jg 1849&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1749</ID>
-<NAME>März-Almanach (Wagner)</NAME>
-<SORTIERNAME>März-Almanach (Wagner)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;vermutl. nur ein Jg &amp;nbsp;1850 &lt;/div&gt;
-
-&lt;div&gt;Druck v. U. Klopf sen. &amp;amp; A. Eurich in Wien&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1750</ID>
-<NAME>Masken- u. Volksfeste-Almanach</NAME>
-<SORTIERNAME>Masken- u. Volksfeste-Almanach</SORTIERNAME>
-<NACHWEIS>K 77; nicht bei L/R; Goed VIII. 79, 149</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Goed VIII, 79: 1812 und 1813 &lt;/div&gt;
-
-&lt;div&gt;Jg 1813 München (Lindauer)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1751</ID>
-<NAME>Medaillon-Almanach</NAME>
-<SORTIERNAME>Medaillon-Almanach</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1848&lt;/div&gt;
-
-&lt;div&gt;KVK, GBV: Weimar, Herzogin Anna Amalia Bibliothek&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1752</ID>
-<NAME>Menander und Glycerion (Wieland) Taschenbuch für</NAME>
-<SORTIERNAME>Menander und Glycerion (Wieland) Taschenbuch für</SORTIERNAME>
-<NACHWEIS>K 106; K 174; L/R 53; Goed VIII. 56, 27; H.-G. VII, 593</NACHWEIS>
-</Reihen>
-<Reihen>
-<ID>1753</ID>
-<NAME>Mephistopheles</NAME>
-<SORTIERNAME>Mephistopheles</SORTIERNAME>
-<NACHWEIS>nicht bei K; L/R 212; Goed X. 450, 218</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1833 &lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1754</ID>
-<NAME>Meßgeschenk zur belehrenden Unterhaltung für Liebhaber der Pferde</NAME>
-<SORTIERNAME>Meßgeschenk zur belehrenden Unterhaltung für Liebhaber der Pferde</SORTIERNAME>
-<NACHWEIS>nicht bei K; L/R 135</NACHWEIS>
-<Anmerkungen>&lt;div&gt;3 Jgg 1798-1, 1798-2, 1799, 1800&lt;/div&gt;
-
-&lt;div&gt;Leipzig (Seeger)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Christian Ehrenfried Seyfert von Tennecker&lt;/div&gt;
-
-&lt;div&gt;fortgesetzt durch: Taschenbuch zur belehrenden Unterhaltung für Liebhaber der Pferde 1801–1803 und: Taschenbuch, Neues Leipziger für Liebhaber der Pferde 1804; 1. und 2. Bändchen&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1755</ID>
-<NAME>Militär-Almanach, Allgemeiner (Darmstadt)</NAME>
-<SORTIERNAME>Militär-Almanach, Allgemeiner (Darmstadt)</SORTIERNAME>
-<NACHWEIS>K 77; L/R 180</NACHWEIS>
-<Anmerkungen>&lt;div&gt;s. a: Taschenbuch für Krieger und Freunde des Kriegerstandes (Darmstadt) [oJ] wohl Titelauflage oder Teilveröffentlichung des vorliegenden Almanachs&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1756</ID>
-<NAME>Militär-Almanach, Allgemeiner (Prausnitz)</NAME>
-<SORTIERNAME>Militär-Almanach, Allgemeiner (Prausnitz)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK; Hebis: 1837–1942&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1757</ID>
-<NAME>Militär-Almanach, Schweizerischer für Offiziere und Militärpersonen</NAME>
-<SORTIERNAME>Militär-Almanach, Schweizerischer für Offiziere und Militärpersonen</SORTIERNAME>
-<NACHWEIS>K 77; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1843-1848&lt;/div&gt;
-
-&lt;div&gt;Baden (Zehnder)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: J. M. Rudolf&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1758</ID>
-<NAME>Militär-Almanach, Würtembergischer</NAME>
-<SORTIERNAME>Militär-Almanach, Würtembergischer</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1825&lt;/div&gt;
-
-&lt;div&gt;Ulm (Stettin)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: F. v. Fromm&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1759</ID>
-<NAME>Militäralmanach, Illustrierter für Oesterreich (Wien)</NAME>
-<SORTIERNAME>Militäralmanach, Illustrierter für Oesterreich (Wien)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1815 ermittelt&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1760</ID>
-<NAME>Militäralmanach, Oesterreichischer</NAME>
-<SORTIERNAME>Militäralmanach, Oesterreichischer</SORTIERNAME>
-<NACHWEIS>K 77; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Erscheinungsweise unklar; K 77 gibt lediglich 1795 an&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1761</ID>
-<NAME>Mimigardia</NAME>
-<SORTIERNAME>Mimigardia</SORTIERNAME>
-<NACHWEIS>K 77; L/R 43; Goed VIII. 70, 125</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg: 1810, 1811/12&lt;/div&gt;
-
-&lt;div&gt;Münster (Waldeck)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: C. Fr. Rassmann&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1762</ID>
-<NAME>Minerva</NAME>
-<SORTIERNAME>Minerva</SORTIERNAME>
-<NACHWEIS>K 78; L/R 83; Goed VIII. 66, 115</NACHWEIS>
-<Anmerkungen>&lt;div&gt;23 Jgg 1809-1833, Jgg 1830, 1832 nicht erschienen&lt;/div&gt;
-
-&lt;div&gt;Leipzig (G. Fleischer)&lt;/div&gt;
-
-&lt;div&gt;Hrsg vermutl. der Verleger Gerhard Fleischer&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1763</ID>
-<NAME>Minerva, Taschenbuch für Freimaurer</NAME>
-<SORTIERNAME>Minerva, Taschenbuch für Freimaurer</SORTIERNAME>
-<NACHWEIS>K 78; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1827, 1828&lt;/div&gt;
-
-&lt;div&gt;Berlin&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Br. K.&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1764</ID>
-<NAME>Miniatur-Almanach, Payne’s</NAME>
-<SORTIERNAME>Miniatur-Almanach, Payne’s</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1845-1870&lt;/div&gt;
-
-&lt;div&gt;London und Leipzig, Leipzig, &amp;nbsp;Leipzig u. Dresden, Leipzig, Dresden, Wien, Berlin&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;Hrsg: A. H. Payne&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1765</ID>
-<NAME>Mittheilungen, Jährliche (Rochlitz)</NAME>
-<SORTIERNAME>Mittheilungen, Jährliche (Rochlitz)</SORTIERNAME>
-<NACHWEIS>K 79; nicht bei L/R; Goed VIII. 104, 237</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1821-1823&lt;/div&gt;
-
-&lt;div&gt;Leipzig (Cnobloch)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Fr. Rochlitz&lt;/div&gt;
-
-&lt;div&gt;Fortsetzung von: Frauenzimmer-Almanach 1784-1820; als Titelauflage: Mittheilungen (Rochlitz) 1824, Bd 1-3&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1766</ID>
-<NAME>Mnemosyne (Giesebrecht)</NAME>
-<SORTIERNAME>Mnemosyne (Giesebrecht)</SORTIERNAME>
-<NACHWEIS>K 79; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1807&lt;/div&gt;
-
-&lt;div&gt;Bremen ( Hanseatische Buchhandlung)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: K. Giesebecht&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1767</ID>
-<NAME>Mnemosyne Taschenbuch des Andenkens (Boguslawski)</NAME>
-<SORTIERNAME>Mnemosyne Taschenbuch des Andenkens (Boguslawski)</SORTIERNAME>
-<NACHWEIS>K 79; nicht bei L/R; Goed VII. 429, 10; Goed VIII. 97, 192</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1817, 1818&lt;/div&gt;
-
-&lt;div&gt;Berlin&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Karl Andreas von Boguslawski&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1768</ID>
-<NAME>Modealmanach für Damen</NAME>
-<SORTIERNAME>Modealmanach für Damen</SORTIERNAME>
-<NACHWEIS>nicht bei K 79, nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK OBV: Jgg 1803-1830&lt;/div&gt;
-
-&lt;div&gt;1802: Wien (Hartl),1819 ff: Wien (Müllner) Wien (Müller)&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1769</ID>
-<NAME>Momus. Taschenbuch für Freunde und Freundinnen des Scherzes</NAME>
-<SORTIERNAME>Momus. Taschenbuch für Freunde und Freundinnen des Scherzes</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1839; im Titel: Vierter Jahrgang, weitere Jgg nicht ermittelt&lt;/div&gt;
-
-&lt;div&gt;Hamburg (Berendsohn)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Von einem lustigen Bruder&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1770</ID>
-<NAME>Moosblüthen, zum Christgeschenk (Carové)</NAME>
-<SORTIERNAME>Moosblüthen, zum Christgeschenk (Carové)</SORTIERNAME>
-<NACHWEIS>K 79; L/R 99; Goed VIII. 127, 339; Goed IX. 221, 20, 12</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1830; &amp;nbsp;K gibt außerdem »Moosrosen zum Christgeschenk 1831« an; Goed VIII. 127 &amp;nbsp;fälschlich: »Moosrosen zum Christgeschenk 1831« korrigiert S. 705&lt;/div&gt;
-
-&lt;div&gt;Frankfurt (Brönner)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Fr. W. Carové&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1771</ID>
-<NAME>Moosrosen (Menzel)</NAME>
-<SORTIERNAME>Moosrosen (Menzel)</SORTIERNAME>
-<NACHWEIS>K 80; L/R 97; Goed VIII. 117, 292</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1826&lt;/div&gt;
-
-&lt;div&gt;Stuttgart (Metzler)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: W. Menzel&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1772</ID>
-<NAME>Moosrosen (Sternau)</NAME>
-<SORTIERNAME>Moosrosen (Sternau)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1845&lt;/div&gt;
-
-&lt;div&gt;Magdeburg (Falckenberg u. Comp.)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: C. &amp;nbsp;O. Sternau d. i. &amp;nbsp;O. Inkermann&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1773</ID>
-<NAME>Moosrosen (Wien)</NAME>
-<SORTIERNAME>Moosrosen (Wien)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1846&lt;/div&gt;
-
-&lt;div&gt;Wien ( Stöckholzer v. Hirschfeld)&lt;/div&gt;
-
-&lt;div&gt;Hrsg vielleicht Carl Hössl (Hössel?)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1774</ID>
-<NAME>Morgenröthe, Die</NAME>
-<SORTIERNAME>Morgenröthe, Die</SORTIERNAME>
-<NACHWEIS>K 80; nicht bei L/R; Goed VIII, 100127</NACHWEIS>
-<Anmerkungen>&lt;div&gt;1819, 1820&lt;/div&gt;
-
-&lt;div&gt;Elberfeld (Büschler)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: A. Gebauer&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1775</ID>
-<NAME>Morgenstunden, Thaliens</NAME>
-<SORTIERNAME>Morgenstunden, Thaliens</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1816&lt;/div&gt;
-
-&lt;div&gt;Donaueschingen&lt;/div&gt;
-
-&lt;div&gt;Hrsgg: O. E. Bodemüller; B. Lögler&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1776</ID>
-<NAME>Mücken-Almanach</NAME>
-<SORTIERNAME>Mücken-Almanach</SORTIERNAME>
-<NACHWEIS>K 80; L/R 203; Goed V. 203, X</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1797&lt;/div&gt;
-
-&lt;div&gt;Pest [Neustrelitz]&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1777</ID>
-<NAME>Musenalmanach (Berlin)</NAME>
-<SORTIERNAME>Musenalmanach (Berlin)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1831&lt;/div&gt;
-
-&lt;div&gt;Berlin (Logier)&lt;/div&gt;
-
-&lt;div&gt;nicht identisch mit: Musenalmanach, Berliner 1831 (Fincke)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
 <ID>1778</ID>
 <NAME>Musenalmanach (Chamisso, Varnhagen)</NAME>
 <SORTIERNAME>Musenalmanach (Chamisso, Varnhagen)</SORTIERNAME>
@@ -6988,305 +7276,6 @@ href=&quot;http://hls-dhs-dss.ch/index.php&quot;&gt;http://hls-dhs-dss.ch/index.
 &lt;div&gt;Hrsg: J. L. Stoll&lt;/div&gt;
 
 &lt;div&gt;Zweiter Titel lautet: Schnecken-Almanach. Ein scherzhaftes Taschenbuch auf das Jahr 1810. Von J. L Stoll. Schneckenheim, bey Hörner und Compagnie&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1837</ID>
-<NAME>Neujahrgeschenk (Wien)</NAME>
-<SORTIERNAME>Neujahrgeschenk (Wien)</SORTIERNAME>
-<NACHWEIS>K 90; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1837, 1838&lt;/div&gt;
-
-&lt;div&gt;Wien (Mechitaristen-Congregations-Buchhandlung)&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1838</ID>
-<NAME>Neujahrs Taschenbuch von Weimar</NAME>
-<SORTIERNAME>Neujahrs Taschenbuch von Weimar</SORTIERNAME>
-<NACHWEIS>K 91; L/R 54; Goed VIII. 57, 36; G 6</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1801&lt;/div&gt;
-
-&lt;div&gt;Weimar (Gädicke)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Chr. A. von Seckendorf&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1839</ID>
-<NAME>Neujahrs-Almanach</NAME>
-<SORTIERNAME>Neujahrs-Almanach</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;KVK Jgg 1847-1850&lt;/div&gt;
-
-&lt;div&gt;Leipzig (C. O. Weller)&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1840</ID>
-<NAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</NAME>
-<SORTIERNAME>Neujahrsbüchlein für die Arbeitskästchen holder Frauen und Jungfrauen</SORTIERNAME>
-<NACHWEIS>K 90; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1822&lt;/div&gt;
-
-&lt;div&gt;Leipzig (Hartmann)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Friedrich Hophtholmos d. i. J. C. Fr. Haug&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1841</ID>
-<NAME>Neujahrsgeschenk für Forst- und Jagdliebhaber</NAME>
-<SORTIERNAME>Neujahrsgeschenk für Forst- und Jagdliebhaber</SORTIERNAME>
-<NACHWEIS>K 90; L/R 138</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1794-1799; Marburg (Neue Academische Buchhandlung)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: L. K. E. H. F. von Wildungen [Angaben nach K 90]&lt;/div&gt;
-
-&lt;div&gt;Fortgesetzt durch: Taschenbuch für Forst- und Jagdfreunde 1800-1812; Alm-1135-1142&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1842</ID>
-<NAME>Neujahrsgeschenke zum nützl. Vergnügen (Wien)</NAME>
-<SORTIERNAME>Neujahrsgeschenke zum nützl. Vergnügen (Wien)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg o. J.&lt;/div&gt;
-
-&lt;div&gt;Wien (Kuhn) &lt;/div&gt;
-
-&lt;div&gt;weitere Jahrgänge nicht ermittelt. Der Beitrag im vorliegenden Band »Fortsetzung der Philosophie des Lebens. Leidenschaften« deutet auf Vorgängerjahrgang hin. Das im vorliegenden Band in 5 Auszügen mit 5 Illustrationen gegebene Stück &amp;nbsp;»Der Lorbeerkranz, oder die Macht der Gesetze.« von F. J. W. Ziegler (aufgeführt 26. 2. 1798), erschien 1799 und 1807, s. Goed. V. 14, 13; handschriftliche Einträge im Almanach (so im Zueignungsblatt INr 108720) legen als Erscheinungsjahr 1807 nahe.&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1843</ID>
-<NAME>Neunhundert neun und neunzig und noch etliche Almanachs-Lustspiele durch den Würfel (Bärmann)</NAME>
-<SORTIERNAME>Neunhundert neun und neunzig und noch etliche Almanachs-Lustspiele durch den Würfel (Bärmann)</SORTIERNAME>
-<NACHWEIS>K 91; L/R 127; Goed VIII. 132, 40; Goed IX. 401, 27</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 829&lt;/div&gt;
-
-&lt;div&gt;Zwickau (Schumann)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: G. N. Bärmann&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1845</ID>
-<NAME>Noreja. TB kärntnerischer Legenden</NAME>
-<SORTIERNAME>Noreja. TB kärntnerischer Legenden</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1837&lt;/div&gt;
-
-&lt;div&gt;Klagenfurt (Kleinmayr)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: S. M. Meyer&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1846</ID>
-<NAME>Novellen-Almanach (Glaßbrenner)</NAME>
-<SORTIERNAME>Novellen-Almanach (Glaßbrenner)</SORTIERNAME>
-<NACHWEIS>K 91; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;3 Jgg 1835-1837&lt;/div&gt;
-
-&lt;div&gt;Leipzig: Wigand&lt;/div&gt;
-
-&lt;div&gt;Hrsg: A. Glasbrenner&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1847</ID>
-<NAME>Novellen-Almanach (Gödeke)</NAME>
-<SORTIERNAME>Novellen-Almanach (Gödeke)</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1843&lt;/div&gt;
-
-&lt;div&gt;Hannover (Hahn)&lt;/div&gt;
-
-&lt;div&gt;K. Gödeke&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1848</ID>
-<NAME>Novellen-Almanach, Illustrierter</NAME>
-<SORTIERNAME>Novellen-Almanach, Illustrierter</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Erscheinungsverlauf unklar KVK: 1860-1892&lt;/div&gt;
-
-&lt;div&gt;Wien und Leipzig (Dittmarsch und Zamarski) Wien und Leipzig (Dittmarsch und Zöller) Wien und Leipzig (Damarski und Dittmarsch);&lt;/div&gt;
-
-&lt;div&gt;Hrsg: F. Menk-Dittmarsch&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1849</ID>
-<NAME>Novellen-Almanach, Österreichischer</NAME>
-<SORTIERNAME>Novellen-Almanach, Österreichischer</SORTIERNAME>
-<NACHWEIS>K 91; nicht bei L/R; Radtke 12, 13, 15, 16</NACHWEIS>
-<Anmerkungen>&lt;div&gt;2 Jgg 1843, 1844&lt;/div&gt;
-
-&lt;div&gt;Wien (Tauer u. Sohn)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: A. Schumacher&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1850</ID>
-<NAME>Novellen-Almanach, Wiener</NAME>
-<SORTIERNAME>Novellen-Almanach, Wiener</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Erscheinungsverlauf unklar: vermutl. Jgg 1851-1858&lt;/div&gt;
-
-&lt;div&gt;Wien (Edlen von Ghelen&apos;schen Erben)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Reyhongs&lt;/div&gt;
-
-&lt;div&gt;s.a.: LYANEN. Taschenbuch, enthaltend Gedichte und Novellen.[…]1853 ff&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>1851</ID>
-<NAME>Novellen-Almanach. Zur angenehmen Unterhaltung für gebildete Leser</NAME>
-<SORTIERNAME>Novellen-Almanach. Zur angenehmen Unterhaltung für gebildete Leser</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1849&lt;/div&gt;
-
-&lt;div&gt;Berlin (Schnitzer)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: A. Sch.&lt;/div&gt;
-
-&lt;div&gt;&amp;nbsp;&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2010</ID>
-<NAME>Taschenbuch des Scherzes und der Satire</NAME>
-<SORTIERNAME>Taschenbuch des Scherzes und der Satire</SORTIERNAME>
-<NACHWEIS>K 147; nicht bei L/R; Goed VI. 463, 57; VIII. 100, 212</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1819&lt;/div&gt;
-
-&lt;div&gt;Wien u. Prag (Haas)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: J. Passy&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2011</ID>
-<NAME>Taschenbuch des deutschen Reichs (Leipzig)</NAME>
-<SORTIERNAME>Taschenbuch des deutschen Reichs (Leipzig)</SORTIERNAME>
-<NACHWEIS>K 142 ; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;Jgg 1794-1798&lt;/div&gt;
-
-&lt;div&gt;Leizig (Jacobäer)&lt;/div&gt;
-
-&lt;div&gt;KVK: GBV: 1794-1798 &lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2012</ID>
-<NAME>Taschenbuch dramatischer Blüthen</NAME>
-<SORTIERNAME>Taschenbuch dramatischer Blüthen</SORTIERNAME>
-<NACHWEIS>K 114; nicht bei L/R; Goed VIII. 131, 31</NACHWEIS>
-<Anmerkungen>&lt;div&gt;3 Jgg 1825-1827&lt;/div&gt;
-
-&lt;div&gt;Hannover (Hahn)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: G. Harrys&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2013</ID>
-<NAME>Taschenbuch dramatischer Originalien</NAME>
-<SORTIERNAME>Taschenbuch dramatischer Originalien</SORTIERNAME>
-<NACHWEIS>K 147; nicht bei L/R; Goed VI. 414, 39</NACHWEIS>
-<Anmerkungen>&lt;div&gt;6 Jgg 1837-1842&lt;/div&gt;
-
-&lt;div&gt;Leipzig (Brockhaus)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Dr. Franck&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2014</ID>
-<NAME>Taschenbuch dramatischer Spiele zur Feier häuslicher Feste (Rublack)</NAME>
-<SORTIERNAME>Taschenbuch dramatischer Spiele zur Feier häuslicher Feste (Rublack)</SORTIERNAME>
-<Anmerkungen>&lt;div&gt;ein Jg 1819&lt;/div&gt;
-
-&lt;div&gt;Dresden (Hilscher)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: A. Rublack &lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2015</ID>
-<NAME>Taschenbuch für angehende Fußreisende</NAME>
-<SORTIERNAME>Taschenbuch für angehende Fußreisende</SORTIERNAME>
-<Anmerkungen>&lt;div&gt;ein Jg 1843 mit späten Nachdrucken&lt;/div&gt;
-
-&lt;div&gt;Jena (Frommann)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: Fr. Frommann&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2016</ID>
-<NAME>Taschenbuch für Aufklärer und Nichtaufklärer</NAME>
-<SORTIERNAME>Taschenbuch für Aufklärer und Nichtaufklärer</SORTIERNAME>
-<NACHWEIS>K 108; L/R 202; H.-G VII, 592</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1791&lt;/div&gt;
-
-&lt;div&gt;Nürnberg ( Bäumler)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: K. von Knoblauch zu Hatzbach&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2017</ID>
-<NAME>Taschenbuch für Bayerns Landwehr</NAME>
-<SORTIERNAME>Taschenbuch für Bayerns Landwehr</SORTIERNAME>
-<NACHWEIS>nicht bei K; L/R 182</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1842&lt;/div&gt;
-
-&lt;div&gt;Nürnberg ( Bäumler)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2018</ID>
-<NAME>Taschenbuch für Bienenliebhaber</NAME>
-<SORTIERNAME>Taschenbuch für Bienenliebhaber</SORTIERNAME>
-<NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1807&lt;/div&gt;
-
-&lt;div&gt;Berlin (Unger)&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2019</ID>
-<NAME>Taschenbuch für bildende, dichtende und historische Kunst s. u. Taschenbuch, Bergisches</NAME>
-<SORTIERNAME>Taschenbuch für bildende, dichtende und historische Kunst s. u. Taschenbuch, Bergisches</SORTIERNAME>
-</Reihen>
-<Reihen>
-<ID>2020</ID>
-<NAME>Taschenbuch für Brüder Freimaurer</NAME>
-<SORTIERNAME>Taschenbuch für Brüder Freimaurer</SORTIERNAME>
-<NACHWEIS>K 116; L/R 179</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1794&lt;/div&gt;
-
-&lt;div&gt;Hildesheim&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2021</ID>
-<NAME>Taschenbuch für Damen</NAME>
-<SORTIERNAME>Taschenbuch für Damen</SORTIERNAME>
-<NACHWEIS>K 112; L/R 64; Goed VIII. 49,11</NACHWEIS>
-<Anmerkungen>&lt;div&gt;29 Jgg 1798-1831 , Jgg 1823-1827 nicht erschienen&lt;/div&gt;
-
-&lt;div&gt;Tübingen (Cotta)&lt;/div&gt;
-
-&lt;div&gt;Hrsgg 1798-1808: Th. Huber, [L. F. Huber?] A. H. Lafontaine, G. C. Pfeffel, u. a.; in einzelnen folgenden Jgg lediglich Hinweise auf »Mitarbeiter«&lt;/div&gt;
-
-&lt;div&gt;Der »Almanach des Dames « 1801/02-1840, (G-C 359, 1377), der ebenfalls bei Cotta erschien, ist eine selbständige französischsprachige Almanachreihe und steht, bei gleichem Format und ähnlicher Aufmachung, in keiner Verbindung zum »Taschenbuch für Damen«&lt;/div&gt;</Anmerkungen>
-</Reihen>
-<Reihen>
-<ID>2022</ID>
-<NAME>Taschenbuch für Damen. Parthenais oder die Jungfrauen-Wallfahrt zur Jungfrau</NAME>
-<SORTIERNAME>Taschenbuch für Damen. Parthenais oder die Jungfrauen-Wallfahrt zur Jungfrau</SORTIERNAME>
-<NACHWEIS>Goed VI. 164, 8</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg o. J.&lt;/div&gt;
-
-&lt;div&gt;Hamburg (Vollmer)&lt;/div&gt;
-
-&lt;div&gt;Hrsg: J. Baggesen&lt;/div&gt;
-
-&lt;div&gt;Publikation am Rande des Almanachwesens. Diese Auflage folgte der von 1804&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>2023</ID>
@@ -11425,9 +11414,9 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 <NAME>Almanach und Taschenbuch zum geselligen Vergnügen (Wien)</NAME>
 <SORTIERNAME>Almanach und Taschenbuch zum geselligen Vergnügen (Wien)</SORTIERNAME>
 <NACHWEIS>nicht bei K; nicht bei L/R</NACHWEIS>
-<Anmerkungen>&lt;div&gt;ein Jg 1819&lt;/div&gt;
+<Anmerkungen>&lt;div&gt;Jgg 1799, 1819, 1832&lt;/div&gt;
 
-&lt;div&gt;Wien (Milde)&lt;/div&gt;</Anmerkungen>
+&lt;div&gt;Wien (Krause); Wien (Milde)&lt;/div&gt;</Anmerkungen>
 </Reihen>
 <Reihen>
 <ID>1339</ID>
@@ -12536,5 +12525,16 @@ href=&quot;http://www.lwl.org/literaturkommission/alex/index.php?id=00000002&quo
 <Anmerkungen>&lt;div&gt;ein Jg 1785&lt;/div&gt;
 
 &lt;div&gt;Dresden (Gerlach)&lt;/div&gt;</Anmerkungen>
+</Reihen>
+<Reihen>
+<ID>1207</ID>
+<NAME>Abenderheiterungen</NAME>
+<SORTIERNAME>Abenderheiterungen</SORTIERNAME>
+<NACHWEIS>K 5; nicht bei L/R; Goed VIII. 89, 170</NACHWEIS>
+<Anmerkungen>&lt;div&gt;ein Jg 1815&lt;/div&gt;
+
+&lt;div&gt;Quedlinburg&lt;/div&gt;
+
+&lt;div&gt;Hrsg: Fr. Raßmann&lt;/div&gt;</Anmerkungen>
 </Reihen>
 </dataroot>

@@ -698,38 +698,48 @@ public class MittelDBXMLLibrary
         Inhalte = inhalte;
     }
 
-    public void IntegrateCSVLibrary(CSVLibrary lib) {
+    public void IntegrateCSVLibrary(CSVLibrary lib)
+    {
         var baende = Baende.ToLookup(x => x.ID);
         var akteure = Akteure.ToLookup(x => x.NAME);
         var rel_baende_akteure = RELATION_BaendeAkteure.ToLookup(x => x.BAND);
 
-        List<CSVOrte> Orte_atomic = new ();
-        List<CSVVerleger> Verleger_atomic = new ();
+        List<CSVOrte> Orte_atomic = new();
+        List<CSVVerleger> Verleger_atomic = new();
 
-        List<Orte> lib_orte = new ();
-        
-        foreach (var orte in lib.Orte) {
-            if (String.IsNullOrWhiteSpace(orte.Namen)) { 
-                Console.WriteLine("Baende ohne Ortsnamen: " + orte.Baende);   
+        List<Orte> lib_orte = new();
+
+        foreach (var orte in lib.Orte)
+        {
+            if (String.IsNullOrWhiteSpace(orte.Namen))
+            {
+                Console.WriteLine("Baende ohne Ortsnamen: " + orte.Baende);
                 continue;
             }
             if (orte.Namen.ToUpper() == "<KEINE ORTSANGABE>") continue;
             if (orte.Namen.ToUpper() == "O.O.") continue;
             if (orte.Namen.ToUpper() == "O. O.") continue;
             var namen = orte.Namen.Split(";");
-            foreach (var n in namen) {
-                if (!n.StartsWith("[") && n.Contains("[")) {
+            foreach (var n in namen)
+            {
+                if (!n.StartsWith("[") && n.Contains("["))
+                {
                     var split = n.Split("[");
-                    Orte_atomic.Add(new CSVOrte() {
+                    Orte_atomic.Add(new CSVOrte()
+                    {
                         Baende = orte.Baende,
                         Namen = split[0].Trim(),
                     });
-                    Orte_atomic.Add(new CSVOrte() {
+                    Orte_atomic.Add(new CSVOrte()
+                    {
                         Baende = orte.Baende,
                         Namen = "[" + split[1].Trim(),
                     });
-                } else {
-                    Orte_atomic.Add(new CSVOrte() {
+                }
+                else
+                {
+                    Orte_atomic.Add(new CSVOrte()
+                    {
                         Baende = orte.Baende,
                         Namen = n.Trim(),
                     });
@@ -737,29 +747,39 @@ public class MittelDBXMLLibrary
             }
         }
 
-        foreach (var v in lib.Verleger) {
+        foreach (var v in lib.Verleger)
+        {
             var namen = v.Namen.Split(";");
-            foreach (var n in namen) {
+            foreach (var n in namen)
+            {
                 var n_norm = n.Trim().ToLower();
-                if (n_norm == "herausgeber" || n_norm == "selbstverlag" || n_norm == "verlag des verfassers") {
-                    Verleger_atomic.Add(new CSVVerleger() {
+                if (n_norm == "herausgeber" || n_norm == "selbstverlag" || n_norm == "verlag des verfassers")
+                {
+                    Verleger_atomic.Add(new CSVVerleger()
+                    {
                         Baende = v.Baende,
                         Namen = "selbstverlag",
                     });
                     continue;
-                } 
-                if (!n.StartsWith("[") && n.Contains("[")) {
+                }
+                if (!n.StartsWith("[") && n.Contains("["))
+                {
                     var split = n.Split("[");
-                    Verleger_atomic.Add(new CSVVerleger() {
+                    Verleger_atomic.Add(new CSVVerleger()
+                    {
                         Baende = v.Baende,
                         Namen = split[0].Trim(),
                     });
-                    Verleger_atomic.Add(new CSVVerleger() {
+                    Verleger_atomic.Add(new CSVVerleger()
+                    {
                         Baende = v.Baende,
                         Namen = "[" + split[1].Trim(),
                     });
-                } else {
-                    Verleger_atomic.Add(new CSVVerleger() {
+                }
+                else
+                {
+                    Verleger_atomic.Add(new CSVVerleger()
+                    {
                         Baende = v.Baende,
                         Namen = n.Trim(),
                     });
@@ -771,22 +791,30 @@ public class MittelDBXMLLibrary
         var sorted_verleger = Verleger_atomic.GroupBy((x) => x.Namen).OrderBy(x => x.Key);
 
         var id = 1;
-        foreach (var oc in sorted_orte) {
-            lib_orte.Add(new Orte() {
+        foreach (var oc in sorted_orte)
+        {
+            lib_orte.Add(new Orte()
+            {
                 NAME = oc.Key,
                 ID = id,
             });
-            foreach (var o in oc) {
+            foreach (var o in oc)
+            {
                 var b_split = o.Baende.Split(";").Select(x => x.Trim());
-                foreach (var b_id in b_split) {
+                foreach (var b_id in b_split)
+                {
                     long b_id_long;
-                    if (long.TryParse(b_id, out b_id_long)) {
+                    if (long.TryParse(b_id, out b_id_long))
+                    {
                         var b = baende[b_id_long].FirstOrDefault();
-                        if (b != null) {
+                        if (b != null)
+                        {
                             if (b.ORTE == null) b.ORTE = new Ort[1] { new Ort() { Value = id } };
-                            else {
+                            else
+                            {
                                 var new_orte = new Ort[b.ORTE.Length + 1];
-                                for (int i = 0; i < b.ORTE.Length; i++) {
+                                for (int i = 0; i < b.ORTE.Length; i++)
+                                {
                                     new_orte[i] = b.ORTE[i];
                                 }
                                 new_orte[b.ORTE.Length] = new Ort() { Value = id };
@@ -801,23 +829,31 @@ public class MittelDBXMLLibrary
 
         Orte = lib_orte;
 
-        foreach (var ov in sorted_verleger) {
-            if (ov.Key == "selbstverlag") {
-                foreach (var v in ov) {
+        foreach (var ov in sorted_verleger)
+        {
+            if (ov.Key == "selbstverlag")
+            {
+                foreach (var v in ov)
+                {
                     var b_split = v.Baende.Split(";").Select(x => x.Trim());
-                    foreach (var b_id in b_split) {
+                    foreach (var b_id in b_split)
+                    {
                         long b_id_long;
-                        if (long.TryParse(b_id, out b_id_long)) {
+                        if (long.TryParse(b_id, out b_id_long))
+                        {
                             var b = baende[b_id_long].FirstOrDefault();
                             var r = rel_baende_akteure[b_id_long]?.Where(x => x.BEZIEHUNG == 5);
-                            if (b != null && r != null) {
-                               foreach (var hrsg in r) {
-                                    RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure() {
+                            if (b != null && r != null)
+                            {
+                                foreach (var hrsg in r)
+                                {
+                                    RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure()
+                                    {
                                         BAND = b.ID,
                                         BEZIEHUNG = 6,
                                         AKTEUR = hrsg.AKTEUR,
                                     });
-                               }
+                                }
                             }
                         }
                     }
@@ -825,7 +861,8 @@ public class MittelDBXMLLibrary
                 continue;
             }
 
-            var a = new Akteure() {
+            var a = new Akteure()
+            {
                 ID = Akteure.Count + 1,
                 NAME = ov.Key,
                 ORGANISATION = true,
@@ -834,14 +871,19 @@ public class MittelDBXMLLibrary
             if (akteure[ov.Key].Any()) a = akteure[ov.Key].First();
             else Akteure.Add(a);
 
-            foreach (var v in ov) {
+            foreach (var v in ov)
+            {
                 var b_split = v.Baende.Split(";").Select(x => x.Trim());
-                foreach (var b_id in b_split) {
+                foreach (var b_id in b_split)
+                {
                     long b_id_long;
-                    if (long.TryParse(b_id, out b_id_long)) {
+                    if (long.TryParse(b_id, out b_id_long))
+                    {
                         var b = baende[b_id_long].FirstOrDefault();
-                        if (b != null) {
-                            RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure() {
+                        if (b != null)
+                        {
+                            RELATION_BaendeAkteure.Add(new RELATION_BaendeAkteure()
+                            {
                                 BAND = b.ID,
                                 BEZIEHUNG = 6,
                                 AKTEUR = a.ID,
@@ -851,6 +893,49 @@ public class MittelDBXMLLibrary
                 }
             }
         }
+    }
+
+    public void SeperatePlaces()
+    {
+        List<long?> toRemove = new();
+        List<Orte> neue_orte = new();
+        foreach (var o in Orte)
+        {
+            var names = o.NAME.Split("u.");
+            if (names.Length > 1)
+            {
+                toRemove.Add(o.ID);
+                var baende = Baende.Where(x => x.ORTE != null && x.ORTE.Where(y => y.Value == o.ID).Any());
+                foreach (var n in names)
+                {
+                    var ort = new Orte()
+                    {
+                        ID = Orte.Count + neue_orte.Count + 1 + 5,
+                        NAME = n.Trim(),
+                    };
+                    var ort_exist = Orte.Where(x => x.NAME == n.Trim());
+                    if (ort_exist.Any())
+                        ort = ort_exist.First();
+                    else if (neue_orte.Where(x => x.NAME == n.Trim()).Any())
+                        ort = neue_orte.Where(x => x.NAME == n.Trim()).First();
+                    else {
+                        neue_orte.Add(ort);
+                    }
+                    foreach (var b in baende)
+                    {
+                        b.ORTE = b.ORTE.Append(new Ort() { Value = ort.ID }).ToArray();
+                    }
+                }
+            }
+        }
+
+        Orte = Orte.Where(x => !toRemove.Contains(x.ID)).ToList();
+        var baende_orte_remove = Baende.Where(x => x.ORTE != null && x.ORTE.Where(y => toRemove.Contains(y.Value)).Any());
+        foreach (var b in baende_orte_remove)
+        {
+            b.ORTE = b.ORTE.Where(x => !toRemove.Contains(x.Value)).ToArray();
+        }
+        Orte.AddRange(neue_orte);
     }
 
 

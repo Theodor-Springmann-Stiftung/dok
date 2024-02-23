@@ -24,6 +24,7 @@
 </xsd:restriction>
 </xsd:simpleType>
 </xsd:element>
+<xsd:element name="FIKTIV" minOccurs="1" od:jetType="yesno" od:sqlSType="bit" od:nonNullable="yes" type="xsd:boolean"/>
 <xsd:element name="Anmerkungen" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
 <xsd:simpleType>
 <xsd:restriction base="xsd:string">
