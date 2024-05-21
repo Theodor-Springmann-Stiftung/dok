@@ -478,3 +478,4 @@ $RECYCLE.BIN/
 MusenalmAPI/TEST.db
 site/
 docs/
+.venv/
