@@ -1,9 +1,9 @@
-site_name: TSS/Sammlungsdokumentation
-site_description: Dokumente und Skripte im Zusammenhang mit Sammlungsdigitalisierung und -dokumentation an der TSS, insb. der Musenalm.
-copyright: 2023 Theodor Springmann Stiftung
-repo_url: https://github.com/Theodor-Springmann-Stiftung/tss_sammlungsdokumentation
+site_name: TSS/Dok
+site_description: Technische Dokumentation der Projektarbeit der Theodor Springmann Stiftung
+copyright: 2024 Theodor Springmann Stiftung
+repo_url: https://github.com/Theodor-Springmann-Stiftung/dok
 site_dir: docs/
-docs_dir: src_docs/
+docs_dir: src/
 
 extra_css:
   - css/styles.css
@@ -39,7 +39,7 @@ theme:
   #   - navigation.instant
 
 copyright: >
-  Copyright &copy; 2023 Theodor Springmann Stiftung
+  Copyright &copy; 2024 Theodor Springmann Stiftung
 
 extra:
   generator: false

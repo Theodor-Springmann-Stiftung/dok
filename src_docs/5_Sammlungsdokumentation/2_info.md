@@ -1,1 +1,0 @@
-# Grundlegende Informationen zur (bibliographischen) Dokumentation
